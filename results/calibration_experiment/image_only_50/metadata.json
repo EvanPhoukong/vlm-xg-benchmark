@@ -1,0 +1,11 @@
+{
+  "input": "/home/evan/xG_Research/vlm-xg-benchmark/results/calibration_experiment/before_expansion/shots.csv",
+  "shots": 50,
+  "goals": 7,
+  "matches": 35,
+  "folds": 5,
+  "seed": 7,
+  "bootstrap_resamples": 4000,
+  "sigmoid_slope_penalty": 1.0,
+  "match_overlap": false
+}

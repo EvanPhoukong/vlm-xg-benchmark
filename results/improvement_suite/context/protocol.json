@@ -1,0 +1,20 @@
+{
+  "implementation_sha256": "828c5b61ea832a78c7b03693065eabe9811fca85aa3da3c89864d8f5d95b2c00",
+  "metadata_sha256": "d839224704d3e406d97129269462ee03f07957eccc6ea91bd95bb437e1f96e37",
+  "features": [
+    "shot_type",
+    "play_pattern",
+    "pass_height",
+    "under_pressure",
+    "prior_pass",
+    "pass_cross",
+    "pass_cutback",
+    "pass_through_ball",
+    "pass_seconds_before"
+  ],
+  "time_limit_seconds": 15,
+  "definition": "Latest earlier same-team, same-possession, same-period pass within 15 seconds; shot type, play pattern, pressure; never shot outcome or StatsBomb xG.",
+  "model": "Same spline geometry transform + context one-hot/numeric features + L2 logistic C=.3. Simple matched-input baseline uses C=1.",
+  "selection": "One fixed feature set and model; no external tuning.",
+  "external_status": "Extra-input experiment, separate from image-only; previously studied Euro tournaments."
+}

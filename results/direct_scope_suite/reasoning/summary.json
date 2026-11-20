@@ -1,0 +1,80 @@
+{
+  "stage": "reasoning",
+  "shots": 50,
+  "goals": 6,
+  "matches": 15,
+  "scores": {
+    "medium": {
+      "brier": 0.13170199999999999,
+      "log_loss": 0.4689960856848579,
+      "auc": 0.4791666666666667,
+      "mean_xg": 0.17300000000000001
+    },
+    "low": {
+      "brier": 0.122746,
+      "log_loss": 0.4161908295800009,
+      "auc": 0.5568181818181818,
+      "mean_xg": 0.1542
+    },
+    "high": {
+      "brier": 0.134038,
+      "log_loss": 0.4762388001237957,
+      "auc": 0.42424242424242425,
+      "mean_xg": 0.1542
+    },
+    "baseline_xg": {
+      "brier": 0.1156850996612789,
+      "log_loss": 0.4262838511663811,
+      "auc": 0.553030303030303,
+      "mean_xg": 0.10074768490647243
+    },
+    "sb_xg": {
+      "brier": 0.11128211875863879,
+      "log_loss": 0.42028947867968086,
+      "auc": 0.5681818181818182,
+      "mean_xg": 0.103815937688
+    },
+    "baseline_image_xg": {
+      "brier": 0.11802527815588468,
+      "log_loss": 0.4294341736104487,
+      "auc": 0.5075757575757576,
+      "mean_xg": 0.09969787680931731
+    }
+  },
+  "usage": {
+    "input_tokens": 64650,
+    "output_tokens": 68401,
+    "cached_tokens": 0,
+    "reasoning_tokens": 61730,
+    "estimated_usd": 0.0406655,
+    "conservative_usd": 0.04228175
+  },
+  "conditions": [
+    "medium",
+    "low",
+    "high"
+  ],
+  "primary": {
+    "first": "medium",
+    "second": "low",
+    "brier_difference": 0.008955999999999999,
+    "confidence_level": 0.95,
+    "interval": [
+      -0.012024907407407408,
+      0.02887644948899369
+    ],
+    "interpretation": "negative favors first; whole-match resampling; conditions on fixed predictions"
+  },
+  "secondary_high_vs_medium": {
+    "first": "high",
+    "second": "medium",
+    "brier_difference": 0.0023360000000000026,
+    "confidence_level": 0.95,
+    "interval": [
+      -0.015458541666666666,
+      0.023377043859649112
+    ],
+    "interpretation": "negative favors first; whole-match resampling; conditions on fixed predictions"
+  },
+  "selected_effort": "low"
+}

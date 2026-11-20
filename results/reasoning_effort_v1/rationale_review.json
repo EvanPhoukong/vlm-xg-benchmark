@@ -1,0 +1,33 @@
+{
+  "method": "All 24 rationales were screened against reference distance/angle in hashed-ID order with effort and outcomes hidden. These two clear distance misdescriptions were selected before unblinding effort; source images then visually verified. Post-hoc qualitative review, not a preregistered error-rate measure. Physical metre estimates were not graded against normalized coordinates.",
+  "examples": [
+    {
+      "shot_id": "d2f58c81-92d6-4a50-811a-2413929f5c1d",
+      "distance_pitch_units": 32.21179908046119,
+      "depth_pitch_units": 28.400000000000006,
+      "low": {
+        "xg": 0.12,
+        "reason": "The shot is from close range but at a left-sided angle, with several defenders crowding the shooting lane and the goalkeeper covering the goal."
+      },
+      "medium": {
+        "xg": 0.02,
+        "reason": "The shot is from roughly 30 metres at a narrow angle, with several defenders crowding the goal area."
+      },
+      "observation": "Shooter is visibly outside the penalty area; low calls this close range; medium identifies a longer-distance/outside-box attempt. Qualitative example, not a causal or population-level claim."
+    },
+    {
+      "shot_id": "9000f0f2-73ed-4a71-917d-2d525af7ba80",
+      "distance_pitch_units": 26.03536056980967,
+      "depth_pitch_units": 23.0,
+      "low": {
+        "xg": 0.12,
+        "reason": "The shot is from close range but slightly left of center, with several defenders crowding the shooting lane and the goalkeeper positioned in goal."
+      },
+      "medium": {
+        "xg": 0.03,
+        "reason": "The shot is from outside the box at moderate range, with several defenders crowding the shooting lane."
+      },
+      "observation": "Shooter is visibly outside the penalty area; low calls this close range; medium identifies a longer-distance/outside-box attempt. Qualitative example, not a causal or population-level claim."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "unique_source_shots": 306,
+  "matches": 10,
+  "goals": 44,
+  "predictions_by_model": {
+    "luna": 306,
+    "terra": 306,
+    "sol": 306,
+    "opus": 306
+  },
+  "new_generation_calls": 1194,
+  "original_sol_calls_reused": 30,
+  "unresolved_requests": 0,
+  "source_audit_and_independent_logistic_refit": true,
+  "input_hashes_and_all_request_fingerprints": true,
+  "same_image_and_prompt_for_every_model": true,
+  "baseline_training_excludes_the_evaluated_match": true,
+  "raw_probabilities_unchanged": true,
+  "generation_retries": 0,
+  "parser_recovery_from_saved_response": 1,
+  "new_estimated_usd": 3.2697408,
+  "conservative_usd_including_prior": 3.9386925,
+  "combined_cap_usd": 10.0,
+  "account_scope": "Study accounting. Actual account-wide bill and balance are unavailable."
+}

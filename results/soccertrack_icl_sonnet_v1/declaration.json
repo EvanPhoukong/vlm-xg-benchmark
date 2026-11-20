@@ -1,0 +1,13 @@
+{
+  "reason": "OpenAI credit_balance_exhausted after96 completed predictions. Alternative provider selected without inspecting partial accuracy.",
+  "model": "claude-sonnet-5-5",
+  "scope": "Fresh complete6-arm comparison on the same frozen80-shot cohort;never combine predictions from different models.",
+  "combined_cap_usd": 10,
+  "prior_conservative_exposure_usd": 1.5525599999999997,
+  "prior_estimated_usd": 1.0730938000000005,
+  "failed_reservations_retained": 7,
+  "parent_ledger_sha256": "2dc21841bba8fde30f8699c41ccaa0c7a0cb24c580ad6d671396fdd6b54e16d1",
+  "parent_protocol_sha256": "f2860674d14c1cb499afe877a1cd0b3f344c1767d274dc427d796433b01f53e9",
+  "recovery_probe_sha256": "a5a570f7a5ea7406380976de41ef8404224d4f9f469b110a2f0cc077d07dba2d",
+  "utc": "2026-11-20T05:28:12.564Z"
+}

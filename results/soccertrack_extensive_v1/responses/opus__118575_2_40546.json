@@ -1,0 +1,38 @@
+{
+  "model": "claude-opus-5-5",
+  "id": "msg_011CgzYRHDuHx4UigdBZxSUy",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "thinking",
+      "thinking": "",
+      "signature": "CAQSjwcKEAgTGAI4AUIIdGhpbmtpbmcSDFLdrQmyEYY/MepyPRoM6arQzOYXzasHOLqTIjDPuODzvYE/KEjDtdG0olv7PjF6EHZZ1IbgqWkwJG4q9bQwH+Z+BuF+EIzER01sIwkqrAalkIzGrmj9bkW3239qIoMg1QmLadqRWn7i5g2Udoe1EYbQtNvwtSwJIqayrpfO/KH6MWf9yqGN0NVq6nVVQr2bjSalTZHC7AAElXwl/XCiNPDBxRy/WmA0XgoAsutqs7UlhItu2joltGIj2hY6ocZjr6L2Yub4eMZ9hMgf8Zr/2/p+cv5nioHwFZe4ippL3LO+AnBJ2EzS1xo5uOGijGvy0sMwni+sFwAtpC444HQOOANgRJv09ZUT+BwNB2PwIQYFKHgEUbCX7yn0Yo7Vrfh0ciiRU9176AgcYAsgJPmhLiB7E+SfIYspiu2xqCu8qS4cXTKMn7nFoax6N3nVSKRUknGy0Hua2Uf134Wx4s6sPGFeCyfVQajBmr02AJBFFDFElf6HieNiQhpx9zty5t8QO55ipPaa4D+ftyhklAdE+Ep1DA2Do87Csvxps8QH1c9I6diFz6qGvPwgC+XGF3LXUb3DCPVb3En3jHXpyIy7DTZVenc4JKrGujuvbCDtCfp7GTFCR+HLuCAZ9aJV7S/w9DQD5j8NL00251UuAMwjR115QKzI2vhK2cAjEXSoSAq8sZey7C1W/ztrSdaBzF2neb26dAGcSBBTvV+135AOVq1eAd7ZXIc69ni3/WZt1C/yKowNRMK4n+3LLk4oKJb+K7IF+FBh69Oc2sPLpGgk+hwSbRu/bT5U7uu2uIsdLHzG9zBiojK4Lqvu1G3WDI7CvEx8p/Y4rFIAer/IBYDPgmsUMJXfxiz2lYW0Ovlwoz5E7Gs1itX8H2KQt0NtyWkKJjhy3K2pFCKY8wBm1lw9prELvVNnOSvBl475iu5UxKbgLkuPTbaMEVVmsAtN7+h9w6WBxhdWxUND28pC3ayM5qcOEc851MNdyF9V2zoSVGLPCLAGVO6opYOxtATqajdnfiHwHwFST6/yIM9j9Nevn2aLojhEzhgm3lLNsNBD3b7dEdHn+iRb6kK8wTx/4FG8wGfCfnKdQtgKX3F3etNptZd55HJYc81UHlMULOH2/8noRQRc72exkFQektfzeQKB6tBug+BN3sFnQbaX3eRdrkthdeR5bZUWS0F5vxgB"
+    },
+    {
+      "type": "text",
+      "text": "{\"xg\": 0.07, \"reason\": \"The shot appears to come from around the edge of the box at an angle, with several defenders and the goalkeeper positioned between the ball and goal, making it a low-probability chance.\"}"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 951,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 183,
+    "output_tokens_details": {
+      "thinking_tokens": 111
+    },
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

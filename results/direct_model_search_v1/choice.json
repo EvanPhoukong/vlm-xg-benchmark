@@ -1,0 +1,11 @@
+{
+  "arm": "luna_uncertainty",
+  "settings": {
+    "model": "gpt-6-luna",
+    "effort": "low",
+    "prompt": "uncertainty"
+  },
+  "rule": "Lowest complete-screen raw Brier; ties in prespecified arm order",
+  "development_selection_sha256": "04bb01c6b2d64a83150b70c4616487a549090754071ebb733eb19aa7ccfe604f",
+  "screen_predictions_sha256": "3e63fb51a2f6c526208ef94f42dd15929f8299312f8e74f68fd3b08f3492bf15"
+}

@@ -1,0 +1,93 @@
+{
+  "shots": 100,
+  "matches": 44,
+  "goals": 10,
+  "examples": 64,
+  "metrics": {
+    "zero": {
+      "n": 100,
+      "goals": 10,
+      "goal_rate": 0.1,
+      "brier": 0.09386043999999996,
+      "logloss": 0.3182604179940017,
+      "auc": 0.7166666666666667,
+      "mean_xg": 0.14906000000000003,
+      "mean_bias": 0.049060000000000006
+    },
+    "teacher64": {
+      "n": 100,
+      "goals": 10,
+      "goal_rate": 0.1,
+      "brier": 0.08154164,
+      "logloss": 0.28638974946934687,
+      "auc": 0.7477777777777778,
+      "mean_xg": 0.1194,
+      "mean_bias": 0.01940000000000001
+    },
+    "shuffled_teacher64": {
+      "n": 100,
+      "goals": 10,
+      "goal_rate": 0.1,
+      "brier": 0.08260674,
+      "logloss": 0.29332300477456363,
+      "auc": 0.7305555555555555,
+      "mean_xg": 0.11796000000000001,
+      "mean_bias": 0.01796000000000001
+    },
+    "logistic_image": {
+      "n": 100,
+      "goals": 10,
+      "goal_rate": 0.1,
+      "brier": 0.0847077789992052,
+      "logloss": 0.299714800763816,
+      "auc": 0.7188888888888889,
+      "mean_xg": 0.11155894320818574,
+      "mean_bias": 0.011558943208185726
+    },
+    "logistic_header": {
+      "n": 100,
+      "goals": 10,
+      "goal_rate": 0.1,
+      "brier": 0.08419413117444396,
+      "logloss": 0.2980507840034528,
+      "auc": 0.7233333333333334,
+      "mean_xg": 0.1182573137947485,
+      "mean_bias": 0.01825731379474849
+    },
+    "statsbomb": {
+      "n": 100,
+      "goals": 10,
+      "goal_rate": 0.1,
+      "brier": 0.072881527482725,
+      "logloss": 0.26729983601548335,
+      "auc": 0.7811111111111111,
+      "mean_xg": 0.11635650909600001,
+      "mean_bias": 0.01635650909600001
+    }
+  },
+  "primary": {
+    "teacher64_minus_zero": {
+      "difference": -0.012318799999999998,
+      "confidence": 0.975,
+      "interval": [
+        -0.02278209055070482,
+        -0.0038252993179880633
+      ],
+      "matches": 44
+    },
+    "teacher64_minus_shuffled_teacher64": {
+      "difference": -0.0010651000000000048,
+      "confidence": 0.975,
+      "interval": [
+        -0.005421870547385632,
+        0.002817385253139716
+      ],
+      "matches": 44
+    }
+  },
+  "new_calls": 300,
+  "new_estimated_usd": 1.72742,
+  "new_conservative_usd": 2.12712,
+  "combined_estimated_usd": 6.1932100000000005,
+  "combined_conservative_usd": 7.6221499999999995
+}

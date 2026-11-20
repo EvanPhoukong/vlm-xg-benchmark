@@ -1,0 +1,102 @@
+{
+  "95582d85-7eed-4aeb-bbe6-2b1a429b6295": {
+    "status": "succeeded",
+    "cost_usd": 0.004635,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 84,
+    "vlm_xg": 0.08,
+    "vlm_reason": "Shot from an extremely tight angle right next to the goal line near the post, with the goalkeeper adjacent covering the near post and multiple defenders nearby, leaving almost no visible goal to aim at."
+  },
+  "f13161cf-dd08-44ae-acf0-da55ad0eca29": {
+    "status": "succeeded",
+    "cost_usd": 0.004535,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 80,
+    "vlm_xg": 0.06,
+    "vlm_reason": "Shot from a wide angle at the left edge of the penalty area, roughly 14 m out, with a crowded box and several defenders between shooter and goal, likely a header or volley from a set piece."
+  },
+  "24f06115-ff02-43b0-9381-e895e38a736f": {
+    "status": "succeeded",
+    "cost_usd": 0.00411,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 63,
+    "vlm_xg": 0.04,
+    "vlm_reason": "Shot from the edge of the penalty area at a wide angle with many defenders between shooter and goal, likely a crowded set-piece situation."
+  },
+  "2a275f0d-eb16-4923-9c98-b2e7f7fdf086": {
+    "status": "succeeded",
+    "cost_usd": 0.004085,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 62,
+    "vlm_xg": 0.08,
+    "vlm_reason": "Shot from ~14m near the left edge of the box with multiple defenders tightly surrounding the shooter and blocking the line to goal."
+  },
+  "535b2a25-6aaf-4936-8390-841cd52843ea": {
+    "status": "succeeded",
+    "cost_usd": 0.004285,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 70,
+    "vlm_xg": 0.14,
+    "vlm_reason": "Shot from the edge of the six-yard-box/penalty spot area, central, but heavily crowded by several defenders directly between shooter and goal with keeper set."
+  },
+  "480e1191-458e-4d33-af33-5c6fdf422fe0": {
+    "status": "succeeded",
+    "cost_usd": 0.003935,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 56,
+    "vlm_xg": 0.18,
+    "vlm_reason": "Central shot from around the penalty spot but under pressure with a defender close by and goalkeeper set, moderate chance."
+  },
+  "94591107-50c8-45bf-a895-3f8d69baf1b9": {
+    "status": "succeeded",
+    "cost_usd": 0.00406,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 61,
+    "vlm_xg": 0.03,
+    "vlm_reason": "Shot from outside the box on the left edge of the penalty area, wide angle, with many defenders crowding the box between shooter and goal."
+  },
+  "641dd945-e22d-4614-b142-de0ae99d2ae5": {
+    "status": "succeeded",
+    "cost_usd": 0.00391,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 55,
+    "vlm_xg": 0.04,
+    "vlm_reason": "Shot from just outside the penalty area, central, but with many defenders packed between shooter and goal blocking the lane."
+  },
+  "f951c284-4260-4f72-a737-c5cd541fcefa": {
+    "status": "succeeded",
+    "cost_usd": 0.00436,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 73,
+    "vlm_xg": 0.12,
+    "vlm_reason": "Shot from inside the box around 12-13 yards out but with a crowd of defenders in the lane and the keeper well positioned, likely a header or scramble from a set piece."
+  },
+  "2b86a444-5696-4c2d-ba7f-837ec9756684": {
+    "status": "succeeded",
+    "cost_usd": 0.004035,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 60,
+    "vlm_xg": 0.35,
+    "vlm_reason": "Shot from very close range inside the six-yard box but from a tight angle left of goal with the keeper and several defenders crowding the line."
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "id": "resp_0075d30bc6193728016af6bc76ea0c87d0820f12f546b4805d",
+  "object": "response",
+  "created_at": 1794554998,
+  "status": "completed",
+  "access_programs": {
+    "cyber": "standard"
+  },
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1794555004,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "image": {
+    "context_compression": "disabled"
+  },
+  "incomplete_details": null,
+  "input_transformations": [],
+  "instructions": null,
+  "max_output_tokens": 1024,
+  "max_tool_calls": null,
+  "model": "gpt-6.1-sol",
+  "moderation": null,
+  "output": [
+    {
+      "id": "rs_0075d30bc6193728016af6bc798e4c87d08a2dbed394d26161",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq9rx8yygTEcNNO7McD3cSKMHyuP09ETjQSIl7CxYx4NjwTgMLn99NX5uyVWwG3GV3Pc8a2LKIbodOq5RnZ_2bpuoh-ArLTLR_M35gvoNBtPGNIrVy8Q0NfLn-k59HKUUBestTdABQipfJythxdv_MAIO7ptD7DAsUnUEXN68YK9MDgHJXxnsXRFZgESr78xS2gwDz5ZFMTcIGJnXcwGNCpX9Ucr91k4lO1wgtImw2kSI5aqKe4EkTjrTsPxwWwu3N81qq9GKDJTSmLyrcW69e9fDpnNJDdM7-zGgOqVtln-s0Es--EhYFK6ZNCjB7fti9S4yC_50Z_4yjHEcS1sTIi7ff_QC3pSTGIVC8RK5CoUsS0NWsficFGHefjJDHppXvEH-IJEW5T5MMDKnQm3Ko4qTbA9aiN9jMlYFHJEr6Dl2KnlqzQaB4CHzLzr0iuLwzUSxe-ptIBjqKXqJgq4I46KSNknGh8gz97iLVDyLw3cQT4LSqu4jxYZdom4RkQrOslPpBh2mRapZCEvItLXBuiN9oQUH_IStn4KdlITEmXoDESw58eoTa1-6Fy7sanD8Hgl7ZCS288dr3ohKrhFby_061Engs9gq8_RT715H1WMNCMEoXpIm2pwu3VI3-Nh-HfFgdQ5KfiBpAoTK484yW1f8pU7KNfSMCjk6AMLG4s4HdOr4KgcTKuJDuIhsUtVjfF4taCAIz47PXuGJI5-Pbk2ffBlsP0snkEm6RqRj2mM0AgQIKVaw-KB9ciqFG_Z6TvCmPI7W-N6Hf1zCjylRjoABWWJlXxllOlyUoruPuquqpgk5ATqWoZUv4gUb0tyE_77gQxiG9K9dRqz8qSiaiI0g8cb-0gnN0Hm5_60HkcZSqiR_ml8DVIB502_sA6mdiuxz9z8D9MHq-m1oMByQtUzalJuK_KlblmGyOwn8Qu9r9i5Y_bme5ngYmNAHzKsOps6OvA6E5FBLokgMALa9FV-ydk8OoFictjnLCMoRuHkqMAijBj-0qjfBfuusvVqVi6Vs_w9mB05ay4qwEjZ3Mg2UMEgKPlSiqHQe5Q3bcYkARe4ISG--ROwLuh_ckITleW47-lnZopBqAhiAomIY85nDZSECtzs3vxhXUa5uKbC9n5uJCtEdYeSAFlG7JE8t5S5ef33egGvU4SIZVu_fwkS8OAoZryYvjyywDrbVgb-ZdXZ9lC2JB6h4tbIBi0_iJL6PXn-WJyAVf2ruQ_hWQG6EB_Mtj2vnGqeB8mebf2b7HNlDEKf1XZoHEOlZnVdarf4F_a90yl_LU8hX7IE0ghTQTq1K-eykeJ13JSg7YUt_7J4Fe3JkhsLC5C0w4f00ByFdUR6vFCT91rwQsjJnTEOIjI5TdRdOFLFViwqGqJp483oalO4D-dgUOFRKY34gohHYjT4ucTpDWfn8MGg_T4pZY6M40e5uoGJ4nki3xzB4gnSgUJXQHBc9nHnHeI-oRhkEwRthNEWNPXqOkRfGFBRX4G2_cEoBBBc5pqlhCbGi64HOFmE3Dhhb58nGcxgituZKmFQMFvSkprape17KhtkXxqw3s31p9NWQIDRuXPFevILIvr-QIXu_ewllqSGCSqbveXXOta-AnaKhbklVIsqFA9Y1uVCkKVAR9n1rj4w4ZTErSV-uHvn2YAq0CKlW3lYumOwTvLIZHCsSyJL6jNUAjxDKWftwLT9zdC75QL1GVEuQs7mvHbV6Bumu_FjXRzPo6o9BdiGFDFgjz8A2ACipqtwcjUYvafQJR0RLz8coJmwz_kbJe-Nw8zpiZjatUC12-eNfckB_Sm_fOJ9heRoqhz4EHtFQX5rFrr0gVo3HpjX-XSeW2cDc0Oa9MhU-BWYFGDD_Y0Q6ZXaZE6IIMOxJ6YxFs4U-KObBjCgJ-Lzl8RvVJ52BXT4QnSeyojCLcHH-xmjVAQutIRmDLIVFa6_wTIClCZ2H5ob8w3VjGQfVzWrjNWijNNF1jxkjY8Noy7KsBVz4ZmjRKd6-na-gOjtB3Hm-SWLC7q6yfUUWn3aOQUw7bVBzFfzljg1kW0fNpnwpiUDYzR3YwIYtTiqGSdie-Zh0VRl9gtH5iUf-40NoHHd5dh2_2FY5TwUHWaMNPgP1qe4g3XZRo9mrUPpx03Vo131z6BFd8s2bZrP1xD7I362eugiFV8wbzemuJ1ol-yItdfe7qNUZRW8hv2eH4nf-mi9OlOdbxr9pLPkFkZjJmRMi3MDOpesrs-0AT8wtbBEvQUIO5ADx36hZxlRJWM8CW-GyMOLaUYPwhP6EkGRUxGuOaSRMA0sBBeSpSRVv4yA1orbPAsnRjgKea0eJY5o1hIs6LunZGjxORAV7YTI0vkGkIMTO7OBDkB1oJQxpbivNMZTY1FrBBwzgj3MNupAU56y6OygF8A2mMM6FGvjpCrp9pGIkegMA-D2keAjToTIFqqrGdaUhxse_Qdv5fH1DryWhT6XB5v-vkeH8IWAcLVbgNZ4z7DsSQIj7lJHgg9Rgz7PHeh5PzdT3gHspbapi8De81YLAahDCLQFZw5c0gHhQdPQqNTbYeRPEZwbMonap16ks2Uxr6xlIXwirt23f1aoycTh-beawXmjE8pkF-7BIavTLbKG2mEkYVenSSdljHOLYjiQExzPp-q4HBccIVDljjjMnrru8ttvnyHyZ_7HGtJP11TPfgx4f_NUUu19wZDe4GuJmvZAejt6Ba0IUBb8n_5do9NQC6eQwU7zfn8xA5nLk_Wn_4P59pjag8oUWzvVT04879WPvdJv08Cq4067RPzYoCceQ2Izv36AMSZ6YQ8eZPlympslqDGHVyQOYlFkmp7GYh5D_bgsEekth0cS_MCjOiYWRoAOXeYPGLLgfFN6BhnkXZdi2zIjg_N0QlaJ7HAUPSxNXEgEXIEW5AjSjOH8_6mRh9AjGnUnWsmyT24FWnOpdt-k2K4FSBWIv2",
+      "summary": []
+    },
+    {
+      "id": "msg_0075d30bc6193728016af6bc7b8f6c87d0a7d4938cc5290f9f",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"xg\":0.08,\"reason\":\"The apparent shooting position is relatively wide and outside close range, with defenders and the goalkeeper covering the goal.\"}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "all_turns",
+    "effort": "low",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": false,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "json_schema",
+      "description": null,
+      "name": "shot_prediction",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "xg": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "reason": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "xg",
+          "reason"
+        ],
+        "additionalProperties": false
+      },
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 1494,
+    "input_tokens_details": {
+      "cache_write_tokens": 1491,
+      "cached_tokens": 0
+    },
+    "output_tokens": 90,
+    "output_tokens_details": {
+      "reasoning_tokens": 48
+    },
+    "total_tokens": 1584
+  },
+  "user": null,
+  "metadata": {}
+}

@@ -1,0 +1,129 @@
+{
+  "id": "resp_00c1041f8045d41a016af6c273be4487d09794530e4898aef0",
+  "object": "response",
+  "created_at": 1794556531,
+  "status": "completed",
+  "access_programs": {
+    "cyber": "standard"
+  },
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1794556537,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "image": {
+    "context_compression": "disabled"
+  },
+  "incomplete_details": null,
+  "input_transformations": [],
+  "instructions": null,
+  "max_output_tokens": 1024,
+  "max_tool_calls": null,
+  "model": "gpt-6.1-sol",
+  "moderation": null,
+  "output": [
+    {
+      "id": "rs_00c1041f8045d41a016af6c276251887d0bd86766cdf359575",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq9sJ5OnlK5yY7Cg5QjcG4UPz5HETH0G1zogI07DS77_fl7hsRld2BY4IdcQFBrNxCpcaAcvOOSMouGXiEb2ScZohx-ce0gPItHoZJVhbIk8_qhFOohVlbM-2aXoW7_PhvYd6lbmLOtuOx6NnHODVUnAI4MjxxlnEmrP-byCgMP-hB_p-xibEE7Tg7za0VXmAhU12dkTkFRq6sogJqCb8V55IficMr3w7Cyj9PZSDmilsGIw-fVDBqIMfKK-cD0B6j5BzI4LkVr1NQOXCUPxS6OAKmrpsa2YBk1OaQ-IPq-vSKfuPNBMfmbxy91kcaY49PScdsBrpwjjSAq1086mIHCRmr0nI3IdYdKkVLL_RveN7E2ksO4XSVdTjIKXkLBk5UGK9qGDAtA1DVeWMQ-4j0AXdxNYtQJE5mKOU-7FDXF3Mjlc1Z4F-6a4nqmGjwEjOJW_1uSsX6HXmcRbhGlEluz7JSKJFoTHk_ltAlqaenytLNwA9L2X-hPV3ZfMhW6zwwi9TRv-vrDZM7s0uEC7WivE6k06T0MkAeQoMQ4na8-eVYHrKHiH_MQb6Z_bEcqVPhT4RnuNhowyKEogjMn7hiIVOSxxmA1ngkBxsnt5bN-OZjqRqIMJ9EgelKiSS6XT85pObPprcY8gbbQYqBIPu_ajRcB-1BUXNZBlCBXZwgdjn52YQ05KjFMJaNXE612reghuLFkzmAtiu5ld5qixSvcKVjJoKHgM67ilIpezcYgEyV71_rMzVyAT6SWJcqkpITng6_NRxpif7EVxlw9VhxtxKtmMxemusKIdT_SLf-KO5DTFzpFVuEmWaxXeC7zzlt63TKX1tGmDx3AMnIESmykDxxdRAKyU4RUBvCLl84HUe9bciTh2QElgH0L1dSJmzpOgf-RmU4dg27zmYugtlnEqjfnWstm6zWLut4ECJGtIlL-SP3c0Ekn2o3CLMfn-pfw1yd3TsX0Dfmyd4MdOcw2l9zv34Nj6RzRk8pkQ78cw9rT5jJppxpZI994nuOQ92rfUSXqvzFZQzo16XOXKzJ22HdtubbLmXt4dL2g0CLcn9ZQNdSVbTlTbrpCpIOv0ZRTm8Vx5QKaRsPvWPNh2UIvxiCbOpsUdCPsNaRHJRKWOK-4AbIr9mIWgMoIbWJFVLXCKLOf7-QJrHKx8aRuQpJXMQsT7GIR2-7ya7wplIUZoqS2DC-cxP6XMieAWfiut4P-aXjke9aDBPCbBG1pah7M-oMGFmQMCAUtu95EKOLeeaNstBsG-REUMQHY8Z6naMWuT4DeM_-ihph3uraOnRF3ODrMzUl9OaOysWWWlSYB_2_kn1ST2-1iNZNfEvqMEnWfa_85Q2gBuDMNPtP3qh67EErqh_zwQasVItrtRO3jgDDVpn3C-7ZmSl8eYL3vqcC7D4QyknQ0PTTI7FsuzCetMwdk9k3rab_mb1a2r-0miNYw8GmOg-ab2euiRf84O7sUu1XM47Hi_eyroNsvS15NAgFDhXnWhtIBqD3TiWpMrYHmO6AIjdf_7S__113I8sKOdPsxxqvR6fhDMAcoHmNvxIigquBMw1x5DZsbYOMYSSTZrYjM_J0BoPhjhEzVRMeGxUgd6Cmb4CCeALhH9NLr-bXknf566f2IvTqdfv485KNadeVVTIYsEviTX9mZ4xdWLnK4BgKQerwzdZzBReWJEhBj_G0yPf6Gfgr3OF-K5L_e7gBjtYhgvLYmNqHVqQDbk0pzpBNkWrbJevJzL1feb5jHtxWkkimfEx61n8Ds0N4aidu65FYWkJGHeBZXEM5HrvR5KMJE6t5DWbW0wBaaAyS36l7hw1JHjNTr8Y8ozz-g8FHU7cxxvZjI8CLXXkdeNNxh1q0BO8x8Nt5UN-ZhkjJn06sI_QWNqWbuM3tnvmVWhjfyDcqFZkh4JzlEfv6ycC6pwNGAVBIl87uMmQsMHc5Eks877vtYwp0G0-MJMQM5FZjy_n7sVRq7FlyQqEJEMIzoncOrCsxwGPCMDBZdDJXvay2fxyUJ6lxY9y8thlarVqgsXfHTXNkPBa1jozQ4iK_weafuvnEhtVudm6Puc7KcM9YRqhSbXp64JEPFYMFP24JpLYRTOXqvWQi2hxSIMI1epKGalU88UTjxK0axkq6UPHxgadT567n33s6kbcLmS9fnaryUaFnlWo4u72EE86L-bVHjzca0npl3R9p1CrPRLq5lTs6bWQ2Fizv_kDaBWMtrBoC97TPPfE490jVKzFBrpJ6otFEymDPC-mKk4pWjZ61jtBSUbJOvGamJtnjXqzFr3Mb4toOVZ54S4lCjouhn7bJBJpWUUt3DN5ZxSoNVoX-YGjK-P4fsVmGf25qUfiTlo-lnhjtXK9j-8ZCq5oaOWXxgRpiROFCACjSM4FuwwWmWboCu4QE74xIj62XdSHFssvw9dZelUvtDHm7RVpYJs5rYblizjmhsz70s64OqfTN9szT_oyChCqosxmoWHwm5K3aULiS3fChUsxGRnWOAvaYckvbluoaR2mjLdUgTQkdsz56DoLLnjPojiebgnrOCfYRYzxXDCRJn_8PuPdS8SN-ZA5BBbt-5UoiJhp8lUoOoAF7Mmrf2y2McH48NAZVhXYy_Y3HBM8SLafkq6quZRlYUEjJmz1XH10wKLKiMzbsGyMa3Ujz3GsZdSvl4BoKlzDarju_DZC6TrnhwUbI8y9M8eZiT0CEzPjbMsx4rD54onfULAb3E68tzZGs3mggAZqHo2v49of7MIW3C4EUvMUN-4j25Th5n1xYJp_mlYznIoYNDPKR1PYzfeymo656yeikQv5sW3fHTxV-gKet2qjzKzSK0KlCMuqDksvVQPUzZYGmUqhqXNI_kSldXLudSB5ezYQnt91zpcg3oTYRU1w8tcnctfy3GVTJ5QD7wjahigjwvNpySh4xeEuIneCMZ3nbaCbmIaORCqUioxmaks21KZ7zDIXMB4KuOus2ph4kBbTeuHU0-uJFI1i1or_mpw6itzGX6Z_vAZDkr4ThQ8F6996a5Db4kj5rRiDupWEul-FSz9xxmedJdxf62vOmkmPZj7iz4A4_n3lAhin1Wmeklz7AFSGd4Dz2GeXegmP4SYWV3MC4FCXADpQv_FPCGcEd9KtqPN65K2-NMuBbMGS3l3XEC3w7dfjdPYDVtygP4uZiaO6UzCDtmWAbXKE=",
+      "summary": []
+    },
+    {
+      "id": "msg_00c1041f8045d41a016af6c278b42487d09c58fd5429c231d9",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"xg\":0.12,\"reason\":\"The shot appears to come from an angle inside the penalty area, with nearby defenders and the goalkeeper covering the goal.\"}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "all_turns",
+    "effort": "low",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": false,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "json_schema",
+      "description": null,
+      "name": "shot_prediction",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "xg": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "reason": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "xg",
+          "reason"
+        ],
+        "additionalProperties": false
+      },
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 860,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 115,
+    "output_tokens_details": {
+      "reasoning_tokens": 71
+    },
+    "total_tokens": 975
+  },
+  "user": null,
+  "metadata": {}
+}

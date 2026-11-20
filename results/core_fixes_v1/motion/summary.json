@@ -1,0 +1,49 @@
+{
+  "shots": 43,
+  "goals": 6,
+  "matches": 2,
+  "scores": {
+    "original": {
+      "brier": 0.1137906976744186,
+      "log_loss": 0.37204333435786313,
+      "auc": 0.6869369369369369,
+      "mean_xg": 0.17348837209302326
+    },
+    "single_ball": {
+      "brier": 0.10368604651162791,
+      "log_loss": 0.3421456230116578,
+      "auc": 0.7747747747747746,
+      "mean_xg": 0.17837209302325582
+    },
+    "history": {
+      "brier": 0.1362843023255814,
+      "log_loss": 0.43239934177731804,
+      "auc": 0.6576576576576577,
+      "mean_xg": 0.20197674418604653
+    },
+    "original_logistic": {
+      "brier": 0.10646864087487429,
+      "log_loss": 0.3546545111934884,
+      "auc": 0.7702702702702703,
+      "mean_xg": 0.09471569717668821
+    },
+    "original_no_header": {
+      "brier": 0.10951067859073653,
+      "log_loss": 0.3650213666678553,
+      "auc": 0.7297297297297296,
+      "mean_xg": 0.10874573225607592
+    }
+  },
+  "exact_repeats": {
+    "single_ball": {
+      "cases": 12,
+      "mean_absolute_change": 0.07333333333333333
+    },
+    "history": {
+      "cases": 12,
+      "mean_absolute_change": 0.10541666666666666
+    }
+  },
+  "history_minus_single_brier": 0.03259825581395348,
+  "limitation": "Previously used anonymized Metrica games, past tracking not raw footage or 3D pose; two groups, descriptive only."
+}

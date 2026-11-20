@@ -1,0 +1,2452 @@
+{
+  "study": "Luna task division and image/event late fusion v1",
+  "model": "gpt-6-luna",
+  "allowed_openai_models": [
+    "gpt-6-luna"
+  ],
+  "fallback": false,
+  "settings": {
+    "reasoning_effort": "low",
+    "image_detail": "high",
+    "max_output_tokens": 4096
+  },
+  "common_prompt": "Read this football shot diagram as a visual measurement task.\nThe attacking goal is the black bar at the TOP. Gold star = shooter; orange\nsquare = opposing goalkeeper; red circles = other opponents; blue circles =\nteammates. Use marker CENTERS. Ignore blue players when listing defenders.\nInclude each visible red player once, including a partly overlapped red marker\nif identifiable. Do not invent hidden players.\nAxes use normalized pitch units, not meters. LATERAL is 0 at goal center,\nnegative to image LEFT and positive to image RIGHT. DEPTH is 0 on the goal line\nand increases DOWN the image. Posts are (-4,0) and (4,0). The penalty spot is\n(0,12); penalty-area depth is 18. Read the plotted star even on a line or near a\ngoalpost; do not assume it is at the origin.\nReturn coordinates to approximately 0.1 units if possible using full-image axes.\nUse null for an unidentifiable shooter or goalkeeper. Estimate no scoring\nprobability. Body part, ball height and play context are unknown. Return only\nthe requested JSON measurements.\n",
+  "roles": {
+    "monolithic": "Measure the shooter, opposing goalkeeper, and every visible red defender.",
+    "shooter_keeper": "Your only task is to measure the gold shooter and orange opposing goalkeeper. Return only those two positions.",
+    "defenders": "Your only task is to find and measure every visible red defender. Exclude the orange goalkeeper and all blue teammates. Return only the defender list."
+  },
+  "schemas": {
+    "monolithic": {
+      "type": "object",
+      "properties": {
+        "shooter": {
+          "anyOf": [
+            {
+              "type": "object",
+              "properties": {
+                "lateral": {
+                  "type": "number",
+                  "minimum": -44,
+                  "maximum": 44
+                },
+                "depth": {
+                  "type": "number",
+                  "minimum": -4,
+                  "maximum": 64
+                }
+              },
+              "required": [
+                "lateral",
+                "depth"
+              ],
+              "additionalProperties": false
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "goalkeeper": {
+          "anyOf": [
+            {
+              "type": "object",
+              "properties": {
+                "lateral": {
+                  "type": "number",
+                  "minimum": -44,
+                  "maximum": 44
+                },
+                "depth": {
+                  "type": "number",
+                  "minimum": -4,
+                  "maximum": 64
+                }
+              },
+              "required": [
+                "lateral",
+                "depth"
+              ],
+              "additionalProperties": false
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "defenders": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "lateral": {
+                "type": "number",
+                "minimum": -44,
+                "maximum": 44
+              },
+              "depth": {
+                "type": "number",
+                "minimum": -4,
+                "maximum": 64
+              }
+            },
+            "required": [
+              "lateral",
+              "depth"
+            ],
+            "additionalProperties": false
+          },
+          "maxItems": 20
+        }
+      },
+      "required": [
+        "shooter",
+        "goalkeeper",
+        "defenders"
+      ],
+      "additionalProperties": false
+    },
+    "shooter_keeper": {
+      "type": "object",
+      "properties": {
+        "shooter": {
+          "anyOf": [
+            {
+              "type": "object",
+              "properties": {
+                "lateral": {
+                  "type": "number",
+                  "minimum": -44,
+                  "maximum": 44
+                },
+                "depth": {
+                  "type": "number",
+                  "minimum": -4,
+                  "maximum": 64
+                }
+              },
+              "required": [
+                "lateral",
+                "depth"
+              ],
+              "additionalProperties": false
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "goalkeeper": {
+          "anyOf": [
+            {
+              "type": "object",
+              "properties": {
+                "lateral": {
+                  "type": "number",
+                  "minimum": -44,
+                  "maximum": 44
+                },
+                "depth": {
+                  "type": "number",
+                  "minimum": -4,
+                  "maximum": 64
+                }
+              },
+              "required": [
+                "lateral",
+                "depth"
+              ],
+              "additionalProperties": false
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "shooter",
+        "goalkeeper"
+      ],
+      "additionalProperties": false
+    },
+    "defenders": {
+      "type": "object",
+      "properties": {
+        "defenders": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "lateral": {
+                "type": "number",
+                "minimum": -44,
+                "maximum": 44
+              },
+              "depth": {
+                "type": "number",
+                "minimum": -4,
+                "maximum": 64
+              }
+            },
+            "required": [
+              "lateral",
+              "depth"
+            ],
+            "additionalProperties": false
+          },
+          "maxItems": 20
+        }
+      },
+      "required": [
+        "defenders"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "seed": 20261023,
+  "shots": [
+    "e877d7f3-6505-4d08-b4d5-f82ab8c3ec6d",
+    "db21527d-2460-46c2-a63f-1a08b143f752",
+    "ea2f37eb-921a-43a6-aa2b-9c84efe982ed",
+    "f4f15956-e226-46db-b008-eb710fd15dce",
+    "a8e2cce7-55ae-441c-90d2-c76e3828c1a8",
+    "0ea4e208-097f-498b-bfbc-2a39cf755f19",
+    "1061e36c-f787-4847-9437-32806d995e37",
+    "0a50d7fa-da0f-4e7c-a56b-f11e159f2ec9",
+    "72cb0b94-65d0-4b27-a4f5-70d88fd9fbe3",
+    "57fbe67b-e6a8-4544-baf9-6bb78cc0c262",
+    "97093c18-29f0-422a-b0f3-bbbc3aadaa6a",
+    "6f4e27cf-73d8-42da-934e-affa6c5679c9",
+    "124c48e0-e083-4fee-9f6d-c1e9fe5eefcd",
+    "edf76979-b202-4ab7-9f07-2fc046885c2d",
+    "a551a391-de6e-4909-a364-f2016a70e391",
+    "45ad53f8-9f3a-4fb2-a3b7-b0bd82073659",
+    "9ae80932-88a0-46c4-906a-d92d4999f5a3",
+    "501acb6c-0849-4bed-912e-ab4610b5b579",
+    "5b4d4b05-f9c1-46a2-bc2d-f8ca2fe92e0e",
+    "98e4b110-93f1-4384-9419-ae1179cd7e83",
+    "73ad5c99-6b0b-4885-b952-7fc60573d9b7",
+    "dc8782f0-fbfc-41b6-947c-59fd533c0c65",
+    "e9af1da7-b7a7-49d9-8efa-27cd0be84aa8",
+    "ea0b46da-b503-4e90-a637-6431d921bfcc",
+    "5df16513-d372-4a46-9661-09c10341a40b",
+    "aabcc582-0b0e-4219-b183-19d92551a4d4",
+    "f84f4848-bb50-451e-bf63-b4586b3975d3",
+    "5d2bf27b-dd07-4895-8744-1673b235fcec",
+    "e247a33d-7255-4f8f-b6d1-48f2b49cb559",
+    "d556aae7-7647-4c27-8aa4-f5ccbd034b09",
+    "5085715b-09f6-403c-8b67-a546bcfed0ec",
+    "4da1beec-972a-4986-8720-da71780eceb4",
+    "c3871fef-f58b-4401-be6e-76f47a795c4e",
+    "d2e0289b-8116-4401-a890-c839d2722444",
+    "25b25579-2f18-4333-a5a6-8571e4212871",
+    "b618df8a-6b06-457d-af36-28fae7ca9c46",
+    "acbfb3a8-6469-4ab0-b391-c1308e661799",
+    "abc0866f-3aa9-48da-93e3-76607762379a",
+    "b22a05bb-7bca-4d40-b51c-63dec8015de7",
+    "e6c7c7ff-c635-4f9b-914c-b299368e07e9",
+    "0d2470c8-1544-4fcf-a8b8-a4aa1a6b6371",
+    "805033d1-301e-4dc5-baad-542dab282ff4",
+    "ff7dc4c8-6462-4f11-b42e-e07385fa05c8",
+    "55e837dd-be46-4bac-b71d-9cebc57c893d",
+    "ed4e6d65-30d2-4439-89af-dc1b81d129dc",
+    "8cdde037-021b-4025-bd4b-e2aacb438348",
+    "eabd44ea-9133-4a5e-8ac7-563b30de1ffe",
+    "12a24a9b-3c9c-45d4-989f-066a49816a44",
+    "455c1ca8-cd57-49cc-9359-c572f7c6baa6",
+    "3db970ca-3036-47db-a944-f3a29dcbfa46",
+    "c463f20e-0104-4fe5-878d-804fb2b07269",
+    "5e51457b-5cbf-44c1-8248-d1e67bc5c48f",
+    "26a88c53-f0b4-419f-90c2-43f7a6531f70",
+    "5bf94991-d33b-4fad-9c75-5acad6f58186",
+    "0034dfb1-6265-41df-92a1-bb0ba058776a",
+    "b5e4dcaf-2007-4435-9c52-8d97f8ad39e4",
+    "3d54ac87-8383-4cf9-b7f6-17e43e7cf0b6",
+    "9e3cfa22-8c46-42c2-9e11-3391146361e1",
+    "2e62b86d-9b63-4229-b9f6-e29024ac4376",
+    "5665403a-4a89-4064-bf8b-01f7d557f2f1",
+    "c7c2b7e7-cf02-4e2a-ae68-fb18c9096c97",
+    "8c35f1bd-dabd-482f-96d5-8f656b974641",
+    "2cd6697c-aa9b-4978-a76e-26aef2112c31",
+    "94871c14-b01b-49ef-aee6-d51ba46fd0a7",
+    "020286f7-259d-4f4e-91a6-e1a361609c4a",
+    "f5063b91-350a-4ff2-ad05-f8a133cf6c69",
+    "6d6b9bdf-4012-44eb-a865-f50a0756ac6a",
+    "1cdfc19c-c86b-4ea5-b172-4f5bf6e4160c",
+    "df860089-0e1c-4262-9f27-c30e8511f4a0",
+    "f269332e-c496-4288-899f-8d3f3652d77e",
+    "10f729fd-dcd5-4aa5-858a-79b9332ae499",
+    "93d22a32-8221-4cab-9d68-d68f4b600599",
+    "8cc67067-433f-47e4-a1b0-8e0f4fc89d61",
+    "a7ea7006-c6d8-4f4c-863e-4bba9c35aa59",
+    "5574850e-2480-4ccf-891e-d112e848ded4",
+    "00cdf1f5-0fe3-4af6-b303-5d3742c4747b",
+    "2b2439b6-9828-4dbe-b3ac-9adb41da1b1d",
+    "9ac5d42a-afa5-4d49-bcdb-505964a26de7",
+    "8b5eef3f-9872-4b71-b75d-98ed4d322bed",
+    "0bcb7edd-0d2e-45d9-a2eb-695e15a30e56",
+    "6027b96c-f6af-4db5-a43f-374ef60d6c2e",
+    "c4646c6d-3ed0-4c4e-bd24-98b8157fce90",
+    "e8b4d9d9-3036-4861-bee0-dc695f90af8f",
+    "8ce85e91-7595-4105-b1b9-fbef9a514cbb",
+    "2ae4983e-b21b-42e1-989d-90da0f2d6bc7",
+    "64789666-5896-4fef-96c1-25018916f804",
+    "78ac115a-ad92-4ff8-b2dd-b8f3b46e3c26",
+    "93d904b6-833f-44af-9510-4e4992a6b508",
+    "8278ca04-b002-4e54-9f39-ad616c3c4ea4",
+    "76c031af-d1a0-49ec-98c6-f8b8c6f59c8d",
+    "55523bd5-457e-45ea-b830-03f6f4283e1c",
+    "36015584-f450-4dc3-85b1-dca672169d80",
+    "532cb314-16a7-4255-a7ad-78c7b72d5836",
+    "a75b6539-bee4-420b-b8b1-65759c8761be",
+    "b928aa67-463b-43f9-8075-c75fb8cc2be9",
+    "95c4ead2-38ea-4a5e-a973-d705a0552b18",
+    "81d025d7-5884-47ad-95da-737b7b0c0f95",
+    "2360e583-e2bd-43c6-8dd7-1931d9d69889",
+    "c30b8aae-d325-46cd-9027-63daceb5b4c1",
+    "7b0a71e0-997f-4128-82fe-bc896f6c3b93",
+    "c77e6a91-92a0-4ba0-b9e8-a8e6c7a7b2b7",
+    "bb53b537-1685-4019-9e8f-98f3805828eb",
+    "1ee26247-cd77-4b6b-9893-32cfd4186fef",
+    "6f6b3078-c977-4a64-bb79-2a2ea4b0488f",
+    "14f4ee20-90ef-4221-a07d-24b00db16885",
+    "cbed5607-fe18-4c22-8c8c-dd30aebede68",
+    "f7a17eb2-c19e-4bad-a8bf-c594a1dfdbe6",
+    "f95aaf60-8e75-4bf5-a51f-b0626254f979",
+    "d7fa937d-364f-4e4f-b725-0f06f75c9ea2",
+    "e773b1a9-8875-41ef-8799-2404acba0bb0",
+    "78722261-ff71-4e47-82e7-70f3ff152946",
+    "dce20757-d2f2-4278-b389-bd2cd84ef29c",
+    "6da40aea-5006-4902-ac28-d3aa2b9addfe",
+    "a521ce17-5ba0-48bb-9d9d-afd16d56c56d",
+    "8d6a08b1-8af4-4268-a9e9-15bfb8f1eb6f",
+    "e00bdae8-f038-4591-abb4-cb5475b59639",
+    "55fad6f6-64d5-4bac-9d5b-a5e542384626",
+    "ada34db0-2814-449f-9d43-3e47f9452fba",
+    "7598f02d-2a2b-4a56-b649-2f4d142616ab",
+    "24975a3f-1c57-4475-9149-57d99cd2be53",
+    "bd1c22a0-5af0-418f-b21c-5b5ff6918fa2",
+    "9b5d1c04-bf74-497b-a0da-799bea662d57",
+    "0b766590-dff1-4670-baae-b960fab33f6d",
+    "2fba6753-d8f3-4018-9008-c38fc093baa3",
+    "1188faab-c235-4cde-a907-f1136e9b3e02",
+    "eb799f2a-b81f-4bc6-9222-c619a4a69a45",
+    "70d5be14-acb6-4846-b9c5-a069636b6351",
+    "f8da9690-b3a6-47d8-bdff-f980e6e496fc",
+    "3cee8863-208b-4422-8c54-f688fbf98b8e",
+    "477a80b8-2b1b-401d-96d8-5115b5be49ad",
+    "2e430d3e-2741-4d49-9e80-8963abb4d73f",
+    "3e79b7f1-d85d-478c-adf5-e15f0217a044",
+    "df71ee04-432b-440b-adad-14ef9d72d70c",
+    "20d09554-c1b8-4608-9515-0213f3b8c62e",
+    "a7463583-f8f4-412f-88d2-c7c834a4105d",
+    "850de483-01af-483f-add7-636d5e0426da",
+    "f965804b-15bf-4b4b-963c-179b80ec14fc",
+    "8bf82747-9af4-4355-a2fd-0aa926f69c50",
+    "7aa407d9-bbfc-45ad-b7b8-1a67341a38f5",
+    "f7cbb648-eec1-4b9e-922f-5752f563f019",
+    "b2f3ce14-ff55-4e4e-8376-7670c3a34cf4",
+    "d695e0d2-f207-4f3a-96de-d2ae74a083a1",
+    "a6e26944-86f1-4cea-bdea-7e246479d82e",
+    "df5eca50-7090-494a-8484-64ea250c5cb4",
+    "9940ed51-5d88-42b9-b00f-a10c0e76a6b0",
+    "ec85fe91-d865-4a21-a6a2-f990d1ee9fca",
+    "c0fc7632-d885-4482-8d88-6670020ca205",
+    "7028fc56-e4bc-4fcd-a68a-60abe0bb2421",
+    "57c1ff7c-7281-4448-a230-88e7239cf5e2",
+    "a407ad67-099a-4480-9b5e-fdae8ad47705",
+    "d8e07983-4d93-4873-9be6-c792494f4a0b",
+    "5667d74e-c1f0-4282-91a4-5f89c6db16e2",
+    "ec3f4afc-df7d-4a53-98a2-508e21c040eb",
+    "251eb8fc-dd8b-4b21-9db3-5f5c97499d07",
+    "3ad75026-2a0f-4f17-9a68-1b9a086fad6a",
+    "c7644e95-abfb-4c29-af4e-26b62c5bc212",
+    "9646980b-5716-4da5-a785-a352a3d408e3",
+    "db3c376e-5207-4397-9d26-ed33a83fa345",
+    "3ac9442d-4761-434a-8409-bb118a57061a",
+    "e52f4b8a-c11c-43b3-8949-d5998cdf7dfe",
+    "858312e1-fe6f-4281-914e-4fb03ba0374f",
+    "a8928e40-d501-44cb-b327-3a75044baed9",
+    "c2f395d9-3c92-4154-a54d-66e551eb8171",
+    "aa0325e3-4158-4f49-8025-7ea3464a7c15",
+    "42bda4c0-9f43-4dd1-b2c0-03ee953bd8df",
+    "316ea464-b81a-4ad9-aab2-ed5832b1494a",
+    "972eb987-0c5a-4c1e-92eb-be61658b0ba1",
+    "6fe5f4b6-f7c3-44c1-b4bd-95ed3f7b55c1",
+    "8f5f8f90-bbbe-4f4f-bbbe-11a2d64d342d",
+    "3043863b-a979-4347-811c-eaee227cc2df",
+    "86664fda-a774-47a6-a129-60f81481d7e0",
+    "f862dca7-3ba0-4a55-9e04-9c7781b79e4e",
+    "ae41d0bf-149b-47ec-9d30-59ffe0585f84",
+    "8dd06075-7ff3-451c-b6b8-1c7303b93a7a",
+    "9dd32137-bc45-4746-be89-cde55a2ba02a",
+    "162cfa7d-b412-4314-9bc8-32363be03691",
+    "a9aeffde-608f-479a-8195-c6cff7363b53",
+    "114ea3d5-b95a-4069-b461-c8eef8f45645",
+    "c1b344ff-ce62-4433-b2ac-6134b43531a5",
+    "629fe580-fc41-4b9e-80f0-677b5028e3b9",
+    "85e565bb-80fc-4a56-b3b1-b8ea24a6d904",
+    "74ebae15-5136-4c0f-8808-e9dee3bd0d82",
+    "e3095912-e405-4239-9c9d-dd3e26379003",
+    "9a7af02b-ef2b-41a2-b2fe-0c033342cef8",
+    "4996c65a-6dff-459f-80e1-8502d48d7198",
+    "5b8908e9-865e-46b1-b1df-5b8f6c4b9056",
+    "cc3427d0-a618-49a5-84bf-b9b2c79c4d6c",
+    "b5ae28c3-cb20-493d-b682-f626840932d4",
+    "df52230a-bb32-4471-8d04-4ed9604296ca",
+    "1c5d0062-886e-421a-bec9-829d9e780fca",
+    "5b55c7d1-27fb-4e89-a593-17b78f2cde49",
+    "b6b96d19-97e3-4770-996a-f20696123abe",
+    "3ae695a8-991a-4f2f-83aa-ea0763b2515b",
+    "006143bc-cc3a-46de-a01b-97907b45c485",
+    "9aa277b0-c06e-4c8f-871f-fc858ede75a1",
+    "b639189a-d3da-4316-ba3a-a408ff911d73",
+    "0baf322c-a71b-4790-b088-5d881ba3f2c1",
+    "951b8142-5777-429a-8bfb-44f9898ad631",
+    "52adeea9-da77-4a26-91ce-a6802ca8d9a4",
+    "d5e04f50-0f60-4708-bde1-759f1d0f5894"
+  ],
+  "n": 200,
+  "source": "/mnt/c/Users/ephou/Downloads/xG/output/improvement-suite/confirmation_bundesliga",
+  "schedule": [
+    {
+      "shot_id": "e877d7f3-6505-4d08-b4d5-f82ab8c3ec6d",
+      "roles": [
+        "defenders",
+        "shooter_keeper",
+        "monolithic"
+      ]
+    },
+    {
+      "shot_id": "db21527d-2460-46c2-a63f-1a08b143f752",
+      "roles": [
+        "shooter_keeper",
+        "defenders",
+        "monolithic"
+      ]
+    },
+    {
+      "shot_id": "ea2f37eb-921a-43a6-aa2b-9c84efe982ed",
+      "roles": [
+        "shooter_keeper",
+        "defenders",
+        "monolithic"
+      ]
+    },
+    {
+      "shot_id": "f4f15956-e226-46db-b008-eb710fd15dce",
+      "roles": [
+        "shooter_keeper",
+        "monolithic",
+        "defenders"
+      ]
+    },
+    {
+      "shot_id": "a8e2cce7-55ae-441c-90d2-c76e3828c1a8",
+      "roles": [
+        "shooter_keeper",
+        "monolithic",
+        "defenders"
+      ]
+    },
+    {
+      "shot_id": "0ea4e208-097f-498b-bfbc-2a39cf755f19",
+      "roles": [
+        "shooter_keeper",
+        "defenders",
+        "monolithic"
+      ]
+    },
+    {
+      "shot_id": "1061e36c-f787-4847-9437-32806d995e37",
+      "roles": [
+        "shooter_keeper",
+        "monolithic",
+        "defenders"
+      ]
+    },
+    {
+      "shot_id": "0a50d7fa-da0f-4e7c-a56b-f11e159f2ec9",
+      "roles": [
+        "monolithic",
+        "shooter_keeper",
+        "defenders"
+      ]
+    },
+    {
+      "shot_id": "72cb0b94-65d0-4b27-a4f5-70d88fd9fbe3",
+      "roles": [
+        "monolithic",
+        "defenders",
+        "shooter_keeper"
+      ]
+    },
+    {
+      "shot_id": "57fbe67b-e6a8-4544-baf9-6bb78cc0c262",
+      "roles": [
+        "defenders",
+        "monolithic",
+        "shooter_keeper"
+      ]
+    },
+    {
+      "shot_id": "97093c18-29f0-422a-b0f3-bbbc3aadaa6a",
+      "roles": [
+        "defenders",
+        "shooter_keeper",
+        "monolithic"
+      ]
+    },
+    {
+      "shot_id": "6f4e27cf-73d8-42da-934e-affa6c5679c9",
+      "roles": [
+        "monolithic",
+        "shooter_keeper",
+        "defenders"
+      ]
+    },
+    {
+      "shot_id": "124c48e0-e083-4fee-9f6d-c1e9fe5eefcd",
+      "roles": [
+        "monolithic",
+        "defenders",
+        "shooter_keeper"
+      ]
+    },
+    {
+      "shot_id": "edf76979-b202-4ab7-9f07-2fc046885c2d",
+      "roles": [
+        "shooter_keeper",
+        "monolithic",
+        "defenders"
+      ]
+    },
+    {
+      "shot_id": "a551a391-de6e-4909-a364-f2016a70e391",
+      "roles": [
+        "defenders",
+        "monolithic",
+        "shooter_keeper"
+      ]
+    },
+    {
+      "shot_id": "45ad53f8-9f3a-4fb2-a3b7-b0bd82073659",
+      "roles": [
+        "monolithic",
+        "defenders",
+        "shooter_keeper"
+      ]
+    },
+    {
+      "shot_id": "9ae80932-88a0-46c4-906a-d92d4999f5a3",
+      "roles": [
+        "monolithic",
+        "shooter_keeper",
+        "defenders"
+      ]
+    },
+    {
+      "shot_id": "501acb6c-0849-4bed-912e-ab4610b5b579",
+      "roles": [
+        "defenders",
+        "shooter_keeper",
+        "monolithic"
+      ]
+    },
+    {
+      "shot_id": "5b4d4b05-f9c1-46a2-bc2d-f8ca2fe92e0e",
+      "roles": [
+        "shooter_keeper",
+        "monolithic",
+        "defenders"
+      ]
+    },
+    {
+      "shot_id": "98e4b110-93f1-4384-9419-ae1179cd7e83",
+      "roles": [
+        "shooter_keeper",
+        "monolithic",
+        "defenders"
+      ]
+    },
+    {
+      "shot_id": "73ad5c99-6b0b-4885-b952-7fc60573d9b7",
+      "roles": [
+        "monolithic",
+        "shooter_keeper",
+        "defenders"
+      ]
+    },
+    {
+      "shot_id": "dc8782f0-fbfc-41b6-947c-59fd533c0c65",
+      "roles": [
+        "monolithic",
+        "defenders",
+        "shooter_keeper"
+      ]
+    },
+    {
+      "shot_id": "e9af1da7-b7a7-49d9-8efa-27cd0be84aa8",
+      "roles": [
+        "defenders",
+        "monolithic",
+        "shooter_keeper"
+      ]
+    },
+    {
+      "shot_id": "ea0b46da-b503-4e90-a637-6431d921bfcc",
+      "roles": [
+        "defenders",
+        "monolithic",
+        "shooter_keeper"
+      ]
+    },
+    {
+      "shot_id": "5df16513-d372-4a46-9661-09c10341a40b",
+      "roles": [
+        "defenders",
+        "monolithic",
+        "shooter_keeper"
+      ]
+    },
+    {
+      "shot_id": "aabcc582-0b0e-4219-b183-19d92551a4d4",
+      "roles": [
+        "shooter_keeper",
+        "defenders",
+        "monolithic"
+      ]
+    },
+    {
+      "shot_id": "f84f4848-bb50-451e-bf63-b4586b3975d3",
+      "roles": [
+        "monolithic",
+        "defenders",
+        "shooter_keeper"
+      ]
+    },
+    {
+      "shot_id": "5d2bf27b-dd07-4895-8744-1673b235fcec",
+      "roles": [
+        "defenders",
+        "shooter_keeper",
+        "monolithic"
+      ]
+    },
+    {
+      "shot_id": "e247a33d-7255-4f8f-b6d1-48f2b49cb559",
+      "roles": [
+        "monolithic",
+        "shooter_keeper",
+        "defenders"
+      ]
+    },
+    {
+      "shot_id": "d556aae7-7647-4c27-8aa4-f5ccbd034b09",
+      "roles": [
+        "defenders",
+        "monolithic",
+        "shooter_keeper"
+      ]
+    },
+    {
+      "shot_id": "5085715b-09f6-403c-8b67-a546bcfed0ec",
+      "roles": [
+        "shooter_keeper",
+        "monolithic",
+        "defenders"
+      ]
+    },
+    {
+      "shot_id": "4da1beec-972a-4986-8720-da71780eceb4",
+      "roles": [
+        "monolithic",
+        "defenders",
+        "shooter_keeper"
+      ]
+    },
+    {
+      "shot_id": "c3871fef-f58b-4401-be6e-76f47a795c4e",
+      "roles": [
+        "defenders",
+        "monolithic",
+        "shooter_keeper"
+      ]
+    },
+    {
+      "shot_id": "d2e0289b-8116-4401-a890-c839d2722444",
+      "roles": [
+        "monolithic",
+        "defenders",
+        "shooter_keeper"
+      ]
+    },
+    {
+      "shot_id": "25b25579-2f18-4333-a5a6-8571e4212871",
+      "roles": [
+        "defenders",
+        "shooter_keeper",
+        "monolithic"
+      ]
+    },
+    {
+      "shot_id": "b618df8a-6b06-457d-af36-28fae7ca9c46",
+      "roles": [
+        "shooter_keeper",
+        "defenders",
+        "monolithic"
+      ]
+    },
+    {
+      "shot_id": "acbfb3a8-6469-4ab0-b391-c1308e661799",
+      "roles": [
+        "monolithic",
+        "defenders",
+        "shooter_keeper"
+      ]
+    },
+    {
+      "shot_id": "abc0866f-3aa9-48da-93e3-76607762379a",
+      "roles": [
+        "shooter_keeper",
+        "defenders",
+        "monolithic"
+      ]
+    },
+    {
+      "shot_id": "b22a05bb-7bca-4d40-b51c-63dec8015de7",
+      "roles": [
+        "defenders",
+        "monolithic",
+        "shooter_keeper"
+      ]
+    },
+    {
+      "shot_id": "e6c7c7ff-c635-4f9b-914c-b299368e07e9",
+      "roles": [
+        "shooter_keeper",
+        "defenders",
+        "monolithic"
+      ]
+    },
+    {
+      "shot_id": "0d2470c8-1544-4fcf-a8b8-a4aa1a6b6371",
+      "roles": [
+        "monolithic",
+        "defenders",
+        "shooter_keeper"
+      ]
+    },
+    {
+      "shot_id": "805033d1-301e-4dc5-baad-542dab282ff4",
+      "roles": [
+        "defenders",
+        "monolithic",
+        "shooter_keeper"
+      ]
+    },
+    {
+      "shot_id": "ff7dc4c8-6462-4f11-b42e-e07385fa05c8",
+      "roles": [
+        "defenders",
+        "monolithic",
+        "shooter_keeper"
+      ]
+    },
+    {
+      "shot_id": "55e837dd-be46-4bac-b71d-9cebc57c893d",
+      "roles": [
+        "defenders",
+        "shooter_keeper",
+        "monolithic"
+      ]
+    },
+    {
+      "shot_id": "ed4e6d65-30d2-4439-89af-dc1b81d129dc",
+      "roles": [
+        "monolithic",
+        "shooter_keeper",
+        "defenders"
+      ]
+    },
+    {
+      "shot_id": "8cdde037-021b-4025-bd4b-e2aacb438348",
+      "roles": [
+        "defenders",
+        "monolithic",
+        "shooter_keeper"
+      ]
+    },
+    {
+      "shot_id": "eabd44ea-9133-4a5e-8ac7-563b30de1ffe",
+      "roles": [
+        "shooter_keeper",
+        "defenders",
+        "monolithic"
+      ]
+    },
+    {
+      "shot_id": "12a24a9b-3c9c-45d4-989f-066a49816a44",
+      "roles": [
+        "monolithic",
+        "defenders",
+        "shooter_keeper"
+      ]
+    },
+    {
+      "shot_id": "455c1ca8-cd57-49cc-9359-c572f7c6baa6",
+      "roles": [
+        "defenders",
+        "monolithic",
+        "shooter_keeper"
+      ]
+    },
+    {
+      "shot_id": "3db970ca-3036-47db-a944-f3a29dcbfa46",
+      "roles": [
+        "shooter_keeper",
+        "defenders",
+        "monolithic"
+      ]
+    },
+    {
+      "shot_id": "c463f20e-0104-4fe5-878d-804fb2b07269",
+      "roles": [
+        "shooter_keeper",
+        "defenders",
+        "monolithic"
+      ]
+    },
+    {
+      "shot_id": "5e51457b-5cbf-44c1-8248-d1e67bc5c48f",
+      "roles": [
+        "monolithic",
+        "defenders",
+        "shooter_keeper"
+      ]
+    },
+    {
+      "shot_id": "26a88c53-f0b4-419f-90c2-43f7a6531f70",
+      "roles": [
+        "defenders",
+        "monolithic",
+        "shooter_keeper"
+      ]
+    },
+    {
+      "shot_id": "5bf94991-d33b-4fad-9c75-5acad6f58186",
+      "roles": [
+        "monolithic",
+        "shooter_keeper",
+        "defenders"
+      ]
+    },
+    {
+      "shot_id": "0034dfb1-6265-41df-92a1-bb0ba058776a",
+      "roles": [
+        "defenders",
+        "monolithic",
+        "shooter_keeper"
+      ]
+    },
+    {
+      "shot_id": "b5e4dcaf-2007-4435-9c52-8d97f8ad39e4",
+      "roles": [
+        "monolithic",
+        "shooter_keeper",
+        "defenders"
+      ]
+    },
+    {
+      "shot_id": "3d54ac87-8383-4cf9-b7f6-17e43e7cf0b6",
+      "roles": [
+        "defenders",
+        "shooter_keeper",
+        "monolithic"
+      ]
+    },
+    {
+      "shot_id": "9e3cfa22-8c46-42c2-9e11-3391146361e1",
+      "roles": [
+        "shooter_keeper",
+        "defenders",
+        "monolithic"
+      ]
+    },
+    {
+      "shot_id": "2e62b86d-9b63-4229-b9f6-e29024ac4376",
+      "roles": [
+        "monolithic",
+        "defenders",
+        "shooter_keeper"
+      ]
+    },
+    {
+      "shot_id": "5665403a-4a89-4064-bf8b-01f7d557f2f1",
+      "roles": [
+        "monolithic",
+        "defenders",
+        "shooter_keeper"
+      ]
+    },
+    {
+      "shot_id": "c7c2b7e7-cf02-4e2a-ae68-fb18c9096c97",
+      "roles": [
+        "monolithic",
+        "defenders",
+        "shooter_keeper"
+      ]
+    },
+    {
+      "shot_id": "8c35f1bd-dabd-482f-96d5-8f656b974641",
+      "roles": [
+        "monolithic",
+        "shooter_keeper",
+        "defenders"
+      ]
+    },
+    {
+      "shot_id": "2cd6697c-aa9b-4978-a76e-26aef2112c31",
+      "roles": [
+        "defenders",
+        "shooter_keeper",
+        "monolithic"
+      ]
+    },
+    {
+      "shot_id": "94871c14-b01b-49ef-aee6-d51ba46fd0a7",
+      "roles": [
+        "monolithic",
+        "shooter_keeper",
+        "defenders"
+      ]
+    },
+    {
+      "shot_id": "020286f7-259d-4f4e-91a6-e1a361609c4a",
+      "roles": [
+        "defenders",
+        "shooter_keeper",
+        "monolithic"
+      ]
+    },
+    {
+      "shot_id": "f5063b91-350a-4ff2-ad05-f8a133cf6c69",
+      "roles": [
+        "monolithic",
+        "defenders",
+        "shooter_keeper"
+      ]
+    },
+    {
+      "shot_id": "6d6b9bdf-4012-44eb-a865-f50a0756ac6a",
+      "roles": [
+        "shooter_keeper",
+        "defenders",
+        "monolithic"
+      ]
+    },
+    {
+      "shot_id": "1cdfc19c-c86b-4ea5-b172-4f5bf6e4160c",
+      "roles": [
+        "defenders",
+        "monolithic",
+        "shooter_keeper"
+      ]
+    },
+    {
+      "shot_id": "df860089-0e1c-4262-9f27-c30e8511f4a0",
+      "roles": [
+        "shooter_keeper",
+        "monolithic",
+        "defenders"
+      ]
+    },
+    {
+      "shot_id": "f269332e-c496-4288-899f-8d3f3652d77e",
+      "roles": [
+        "shooter_keeper",
+        "monolithic",
+        "defenders"
+      ]
+    },
+    {
+      "shot_id": "10f729fd-dcd5-4aa5-858a-79b9332ae499",
+      "roles": [
+        "shooter_keeper",
+        "defenders",
+        "monolithic"
+      ]
+    },
+    {
+      "shot_id": "93d22a32-8221-4cab-9d68-d68f4b600599",
+      "roles": [
+        "monolithic",
+        "defenders",
+        "shooter_keeper"
+      ]
+    },
+    {
+      "shot_id": "8cc67067-433f-47e4-a1b0-8e0f4fc89d61",
+      "roles": [
+        "defenders",
+        "monolithic",
+        "shooter_keeper"
+      ]
+    },
+    {
+      "shot_id": "a7ea7006-c6d8-4f4c-863e-4bba9c35aa59",
+      "roles": [
+        "defenders",
+        "shooter_keeper",
+        "monolithic"
+      ]
+    },
+    {
+      "shot_id": "5574850e-2480-4ccf-891e-d112e848ded4",
+      "roles": [
+        "shooter_keeper",
+        "monolithic",
+        "defenders"
+      ]
+    },
+    {
+      "shot_id": "00cdf1f5-0fe3-4af6-b303-5d3742c4747b",
+      "roles": [
+        "monolithic",
+        "defenders",
+        "shooter_keeper"
+      ]
+    },
+    {
+      "shot_id": "2b2439b6-9828-4dbe-b3ac-9adb41da1b1d",
+      "roles": [
+        "monolithic",
+        "shooter_keeper",
+        "defenders"
+      ]
+    },
+    {
+      "shot_id": "9ac5d42a-afa5-4d49-bcdb-505964a26de7",
+      "roles": [
+        "monolithic",
+        "shooter_keeper",
+        "defenders"
+      ]
+    },
+    {
+      "shot_id": "8b5eef3f-9872-4b71-b75d-98ed4d322bed",
+      "roles": [
+        "defenders",
+        "shooter_keeper",
+        "monolithic"
+      ]
+    },
+    {
+      "shot_id": "0bcb7edd-0d2e-45d9-a2eb-695e15a30e56",
+      "roles": [
+        "shooter_keeper",
+        "monolithic",
+        "defenders"
+      ]
+    },
+    {
+      "shot_id": "6027b96c-f6af-4db5-a43f-374ef60d6c2e",
+      "roles": [
+        "defenders",
+        "monolithic",
+        "shooter_keeper"
+      ]
+    },
+    {
+      "shot_id": "c4646c6d-3ed0-4c4e-bd24-98b8157fce90",
+      "roles": [
+        "shooter_keeper",
+        "monolithic",
+        "defenders"
+      ]
+    },
+    {
+      "shot_id": "e8b4d9d9-3036-4861-bee0-dc695f90af8f",
+      "roles": [
+        "monolithic",
+        "defenders",
+        "shooter_keeper"
+      ]
+    },
+    {
+      "shot_id": "8ce85e91-7595-4105-b1b9-fbef9a514cbb",
+      "roles": [
+        "shooter_keeper",
+        "defenders",
+        "monolithic"
+      ]
+    },
+    {
+      "shot_id": "2ae4983e-b21b-42e1-989d-90da0f2d6bc7",
+      "roles": [
+        "shooter_keeper",
+        "monolithic",
+        "defenders"
+      ]
+    },
+    {
+      "shot_id": "64789666-5896-4fef-96c1-25018916f804",
+      "roles": [
+        "defenders",
+        "shooter_keeper",
+        "monolithic"
+      ]
+    },
+    {
+      "shot_id": "78ac115a-ad92-4ff8-b2dd-b8f3b46e3c26",
+      "roles": [
+        "monolithic",
+        "defenders",
+        "shooter_keeper"
+      ]
+    },
+    {
+      "shot_id": "93d904b6-833f-44af-9510-4e4992a6b508",
+      "roles": [
+        "defenders",
+        "monolithic",
+        "shooter_keeper"
+      ]
+    },
+    {
+      "shot_id": "8278ca04-b002-4e54-9f39-ad616c3c4ea4",
+      "roles": [
+        "monolithic",
+        "defenders",
+        "shooter_keeper"
+      ]
+    },
+    {
+      "shot_id": "76c031af-d1a0-49ec-98c6-f8b8c6f59c8d",
+      "roles": [
+        "defenders",
+        "monolithic",
+        "shooter_keeper"
+      ]
+    },
+    {
+      "shot_id": "55523bd5-457e-45ea-b830-03f6f4283e1c",
+      "roles": [
+        "shooter_keeper",
+        "monolithic",
+        "defenders"
+      ]
+    },
+    {
+      "shot_id": "36015584-f450-4dc3-85b1-dca672169d80",
+      "roles": [
+        "monolithic",
+        "shooter_keeper",
+        "defenders"
+      ]
+    },
+    {
+      "shot_id": "532cb314-16a7-4255-a7ad-78c7b72d5836",
+      "roles": [
+        "defenders",
+        "monolithic",
+        "shooter_keeper"
+      ]
+    },
+    {
+      "shot_id": "a75b6539-bee4-420b-b8b1-65759c8761be",
+      "roles": [
+        "defenders",
+        "monolithic",
+        "shooter_keeper"
+      ]
+    },
+    {
+      "shot_id": "b928aa67-463b-43f9-8075-c75fb8cc2be9",
+      "roles": [
+        "shooter_keeper",
+        "defenders",
+        "monolithic"
+      ]
+    },
+    {
+      "shot_id": "95c4ead2-38ea-4a5e-a973-d705a0552b18",
+      "roles": [
+        "monolithic",
+        "defenders",
+        "shooter_keeper"
+      ]
+    },
+    {
+      "shot_id": "81d025d7-5884-47ad-95da-737b7b0c0f95",
+      "roles": [
+        "defenders",
+        "shooter_keeper",
+        "monolithic"
+      ]
+    },
+    {
+      "shot_id": "2360e583-e2bd-43c6-8dd7-1931d9d69889",
+      "roles": [
+        "defenders",
+        "shooter_keeper",
+        "monolithic"
+      ]
+    },
+    {
+      "shot_id": "c30b8aae-d325-46cd-9027-63daceb5b4c1",
+      "roles": [
+        "monolithic",
+        "defenders",
+        "shooter_keeper"
+      ]
+    },
+    {
+      "shot_id": "7b0a71e0-997f-4128-82fe-bc896f6c3b93",
+      "roles": [
+        "monolithic",
+        "shooter_keeper",
+        "defenders"
+      ]
+    },
+    {
+      "shot_id": "c77e6a91-92a0-4ba0-b9e8-a8e6c7a7b2b7",
+      "roles": [
+        "monolithic",
+        "defenders",
+        "shooter_keeper"
+      ]
+    },
+    {
+      "shot_id": "bb53b537-1685-4019-9e8f-98f3805828eb",
+      "roles": [
+        "defenders",
+        "monolithic",
+        "shooter_keeper"
+      ]
+    },
+    {
+      "shot_id": "1ee26247-cd77-4b6b-9893-32cfd4186fef",
+      "roles": [
+        "monolithic",
+        "shooter_keeper",
+        "defenders"
+      ]
+    },
+    {
+      "shot_id": "6f6b3078-c977-4a64-bb79-2a2ea4b0488f",
+      "roles": [
+        "monolithic",
+        "defenders",
+        "shooter_keeper"
+      ]
+    },
+    {
+      "shot_id": "14f4ee20-90ef-4221-a07d-24b00db16885",
+      "roles": [
+        "defenders",
+        "shooter_keeper",
+        "monolithic"
+      ]
+    },
+    {
+      "shot_id": "cbed5607-fe18-4c22-8c8c-dd30aebede68",
+      "roles": [
+        "shooter_keeper",
+        "monolithic",
+        "defenders"
+      ]
+    },
+    {
+      "shot_id": "f7a17eb2-c19e-4bad-a8bf-c594a1dfdbe6",
+      "roles": [
+        "monolithic",
+        "defenders",
+        "shooter_keeper"
+      ]
+    },
+    {
+      "shot_id": "f95aaf60-8e75-4bf5-a51f-b0626254f979",
+      "roles": [
+        "defenders",
+        "monolithic",
+        "shooter_keeper"
+      ]
+    },
+    {
+      "shot_id": "d7fa937d-364f-4e4f-b725-0f06f75c9ea2",
+      "roles": [
+        "defenders",
+        "monolithic",
+        "shooter_keeper"
+      ]
+    },
+    {
+      "shot_id": "e773b1a9-8875-41ef-8799-2404acba0bb0",
+      "roles": [
+        "defenders",
+        "shooter_keeper",
+        "monolithic"
+      ]
+    },
+    {
+      "shot_id": "78722261-ff71-4e47-82e7-70f3ff152946",
+      "roles": [
+        "defenders",
+        "monolithic",
+        "shooter_keeper"
+      ]
+    },
+    {
+      "shot_id": "dce20757-d2f2-4278-b389-bd2cd84ef29c",
+      "roles": [
+        "defenders",
+        "shooter_keeper",
+        "monolithic"
+      ]
+    },
+    {
+      "shot_id": "6da40aea-5006-4902-ac28-d3aa2b9addfe",
+      "roles": [
+        "monolithic",
+        "shooter_keeper",
+        "defenders"
+      ]
+    },
+    {
+      "shot_id": "a521ce17-5ba0-48bb-9d9d-afd16d56c56d",
+      "roles": [
+        "defenders",
+        "monolithic",
+        "shooter_keeper"
+      ]
+    },
+    {
+      "shot_id": "8d6a08b1-8af4-4268-a9e9-15bfb8f1eb6f",
+      "roles": [
+        "monolithic",
+        "shooter_keeper",
+        "defenders"
+      ]
+    },
+    {
+      "shot_id": "e00bdae8-f038-4591-abb4-cb5475b59639",
+      "roles": [
+        "monolithic",
+        "shooter_keeper",
+        "defenders"
+      ]
+    },
+    {
+      "shot_id": "55fad6f6-64d5-4bac-9d5b-a5e542384626",
+      "roles": [
+        "shooter_keeper",
+        "monolithic",
+        "defenders"
+      ]
+    },
+    {
+      "shot_id": "ada34db0-2814-449f-9d43-3e47f9452fba",
+      "roles": [
+        "shooter_keeper",
+        "monolithic",
+        "defenders"
+      ]
+    },
+    {
+      "shot_id": "7598f02d-2a2b-4a56-b649-2f4d142616ab",
+      "roles": [
+        "shooter_keeper",
+        "monolithic",
+        "defenders"
+      ]
+    },
+    {
+      "shot_id": "24975a3f-1c57-4475-9149-57d99cd2be53",
+      "roles": [
+        "defenders",
+        "monolithic",
+        "shooter_keeper"
+      ]
+    },
+    {
+      "shot_id": "bd1c22a0-5af0-418f-b21c-5b5ff6918fa2",
+      "roles": [
+        "monolithic",
+        "defenders",
+        "shooter_keeper"
+      ]
+    },
+    {
+      "shot_id": "9b5d1c04-bf74-497b-a0da-799bea662d57",
+      "roles": [
+        "shooter_keeper",
+        "monolithic",
+        "defenders"
+      ]
+    },
+    {
+      "shot_id": "0b766590-dff1-4670-baae-b960fab33f6d",
+      "roles": [
+        "monolithic",
+        "defenders",
+        "shooter_keeper"
+      ]
+    },
+    {
+      "shot_id": "2fba6753-d8f3-4018-9008-c38fc093baa3",
+      "roles": [
+        "monolithic",
+        "defenders",
+        "shooter_keeper"
+      ]
+    },
+    {
+      "shot_id": "1188faab-c235-4cde-a907-f1136e9b3e02",
+      "roles": [
+        "shooter_keeper",
+        "defenders",
+        "monolithic"
+      ]
+    },
+    {
+      "shot_id": "eb799f2a-b81f-4bc6-9222-c619a4a69a45",
+      "roles": [
+        "shooter_keeper",
+        "defenders",
+        "monolithic"
+      ]
+    },
+    {
+      "shot_id": "70d5be14-acb6-4846-b9c5-a069636b6351",
+      "roles": [
+        "monolithic",
+        "defenders",
+        "shooter_keeper"
+      ]
+    },
+    {
+      "shot_id": "f8da9690-b3a6-47d8-bdff-f980e6e496fc",
+      "roles": [
+        "defenders",
+        "monolithic",
+        "shooter_keeper"
+      ]
+    },
+    {
+      "shot_id": "3cee8863-208b-4422-8c54-f688fbf98b8e",
+      "roles": [
+        "monolithic",
+        "shooter_keeper",
+        "defenders"
+      ]
+    },
+    {
+      "shot_id": "477a80b8-2b1b-401d-96d8-5115b5be49ad",
+      "roles": [
+        "defenders",
+        "monolithic",
+        "shooter_keeper"
+      ]
+    },
+    {
+      "shot_id": "2e430d3e-2741-4d49-9e80-8963abb4d73f",
+      "roles": [
+        "shooter_keeper",
+        "monolithic",
+        "defenders"
+      ]
+    },
+    {
+      "shot_id": "3e79b7f1-d85d-478c-adf5-e15f0217a044",
+      "roles": [
+        "shooter_keeper",
+        "defenders",
+        "monolithic"
+      ]
+    },
+    {
+      "shot_id": "df71ee04-432b-440b-adad-14ef9d72d70c",
+      "roles": [
+        "shooter_keeper",
+        "defenders",
+        "monolithic"
+      ]
+    },
+    {
+      "shot_id": "20d09554-c1b8-4608-9515-0213f3b8c62e",
+      "roles": [
+        "monolithic",
+        "defenders",
+        "shooter_keeper"
+      ]
+    },
+    {
+      "shot_id": "a7463583-f8f4-412f-88d2-c7c834a4105d",
+      "roles": [
+        "shooter_keeper",
+        "defenders",
+        "monolithic"
+      ]
+    },
+    {
+      "shot_id": "850de483-01af-483f-add7-636d5e0426da",
+      "roles": [
+        "defenders",
+        "shooter_keeper",
+        "monolithic"
+      ]
+    },
+    {
+      "shot_id": "f965804b-15bf-4b4b-963c-179b80ec14fc",
+      "roles": [
+        "shooter_keeper",
+        "monolithic",
+        "defenders"
+      ]
+    },
+    {
+      "shot_id": "8bf82747-9af4-4355-a2fd-0aa926f69c50",
+      "roles": [
+        "monolithic",
+        "defenders",
+        "shooter_keeper"
+      ]
+    },
+    {
+      "shot_id": "7aa407d9-bbfc-45ad-b7b8-1a67341a38f5",
+      "roles": [
+        "defenders",
+        "shooter_keeper",
+        "monolithic"
+      ]
+    },
+    {
+      "shot_id": "f7cbb648-eec1-4b9e-922f-5752f563f019",
+      "roles": [
+        "shooter_keeper",
+        "monolithic",
+        "defenders"
+      ]
+    },
+    {
+      "shot_id": "b2f3ce14-ff55-4e4e-8376-7670c3a34cf4",
+      "roles": [
+        "monolithic",
+        "defenders",
+        "shooter_keeper"
+      ]
+    },
+    {
+      "shot_id": "d695e0d2-f207-4f3a-96de-d2ae74a083a1",
+      "roles": [
+        "monolithic",
+        "defenders",
+        "shooter_keeper"
+      ]
+    },
+    {
+      "shot_id": "a6e26944-86f1-4cea-bdea-7e246479d82e",
+      "roles": [
+        "defenders",
+        "monolithic",
+        "shooter_keeper"
+      ]
+    },
+    {
+      "shot_id": "df5eca50-7090-494a-8484-64ea250c5cb4",
+      "roles": [
+        "monolithic",
+        "shooter_keeper",
+        "defenders"
+      ]
+    },
+    {
+      "shot_id": "9940ed51-5d88-42b9-b00f-a10c0e76a6b0",
+      "roles": [
+        "defenders",
+        "monolithic",
+        "shooter_keeper"
+      ]
+    },
+    {
+      "shot_id": "ec85fe91-d865-4a21-a6a2-f990d1ee9fca",
+      "roles": [
+        "defenders",
+        "monolithic",
+        "shooter_keeper"
+      ]
+    },
+    {
+      "shot_id": "c0fc7632-d885-4482-8d88-6670020ca205",
+      "roles": [
+        "monolithic",
+        "defenders",
+        "shooter_keeper"
+      ]
+    },
+    {
+      "shot_id": "7028fc56-e4bc-4fcd-a68a-60abe0bb2421",
+      "roles": [
+        "defenders",
+        "shooter_keeper",
+        "monolithic"
+      ]
+    },
+    {
+      "shot_id": "57c1ff7c-7281-4448-a230-88e7239cf5e2",
+      "roles": [
+        "shooter_keeper",
+        "defenders",
+        "monolithic"
+      ]
+    },
+    {
+      "shot_id": "a407ad67-099a-4480-9b5e-fdae8ad47705",
+      "roles": [
+        "shooter_keeper",
+        "defenders",
+        "monolithic"
+      ]
+    },
+    {
+      "shot_id": "d8e07983-4d93-4873-9be6-c792494f4a0b",
+      "roles": [
+        "defenders",
+        "shooter_keeper",
+        "monolithic"
+      ]
+    },
+    {
+      "shot_id": "5667d74e-c1f0-4282-91a4-5f89c6db16e2",
+      "roles": [
+        "shooter_keeper",
+        "defenders",
+        "monolithic"
+      ]
+    },
+    {
+      "shot_id": "ec3f4afc-df7d-4a53-98a2-508e21c040eb",
+      "roles": [
+        "monolithic",
+        "defenders",
+        "shooter_keeper"
+      ]
+    },
+    {
+      "shot_id": "251eb8fc-dd8b-4b21-9db3-5f5c97499d07",
+      "roles": [
+        "monolithic",
+        "shooter_keeper",
+        "defenders"
+      ]
+    },
+    {
+      "shot_id": "3ad75026-2a0f-4f17-9a68-1b9a086fad6a",
+      "roles": [
+        "shooter_keeper",
+        "defenders",
+        "monolithic"
+      ]
+    },
+    {
+      "shot_id": "c7644e95-abfb-4c29-af4e-26b62c5bc212",
+      "roles": [
+        "monolithic",
+        "defenders",
+        "shooter_keeper"
+      ]
+    },
+    {
+      "shot_id": "9646980b-5716-4da5-a785-a352a3d408e3",
+      "roles": [
+        "defenders",
+        "shooter_keeper",
+        "monolithic"
+      ]
+    },
+    {
+      "shot_id": "db3c376e-5207-4397-9d26-ed33a83fa345",
+      "roles": [
+        "defenders",
+        "monolithic",
+        "shooter_keeper"
+      ]
+    },
+    {
+      "shot_id": "3ac9442d-4761-434a-8409-bb118a57061a",
+      "roles": [
+        "defenders",
+        "shooter_keeper",
+        "monolithic"
+      ]
+    },
+    {
+      "shot_id": "e52f4b8a-c11c-43b3-8949-d5998cdf7dfe",
+      "roles": [
+        "defenders",
+        "shooter_keeper",
+        "monolithic"
+      ]
+    },
+    {
+      "shot_id": "858312e1-fe6f-4281-914e-4fb03ba0374f",
+      "roles": [
+        "shooter_keeper",
+        "defenders",
+        "monolithic"
+      ]
+    },
+    {
+      "shot_id": "a8928e40-d501-44cb-b327-3a75044baed9",
+      "roles": [
+        "shooter_keeper",
+        "defenders",
+        "monolithic"
+      ]
+    },
+    {
+      "shot_id": "c2f395d9-3c92-4154-a54d-66e551eb8171",
+      "roles": [
+        "defenders",
+        "shooter_keeper",
+        "monolithic"
+      ]
+    },
+    {
+      "shot_id": "aa0325e3-4158-4f49-8025-7ea3464a7c15",
+      "roles": [
+        "monolithic",
+        "defenders",
+        "shooter_keeper"
+      ]
+    },
+    {
+      "shot_id": "42bda4c0-9f43-4dd1-b2c0-03ee953bd8df",
+      "roles": [
+        "shooter_keeper",
+        "monolithic",
+        "defenders"
+      ]
+    },
+    {
+      "shot_id": "316ea464-b81a-4ad9-aab2-ed5832b1494a",
+      "roles": [
+        "defenders",
+        "shooter_keeper",
+        "monolithic"
+      ]
+    },
+    {
+      "shot_id": "972eb987-0c5a-4c1e-92eb-be61658b0ba1",
+      "roles": [
+        "shooter_keeper",
+        "monolithic",
+        "defenders"
+      ]
+    },
+    {
+      "shot_id": "6fe5f4b6-f7c3-44c1-b4bd-95ed3f7b55c1",
+      "roles": [
+        "monolithic",
+        "defenders",
+        "shooter_keeper"
+      ]
+    },
+    {
+      "shot_id": "8f5f8f90-bbbe-4f4f-bbbe-11a2d64d342d",
+      "roles": [
+        "monolithic",
+        "defenders",
+        "shooter_keeper"
+      ]
+    },
+    {
+      "shot_id": "3043863b-a979-4347-811c-eaee227cc2df",
+      "roles": [
+        "defenders",
+        "monolithic",
+        "shooter_keeper"
+      ]
+    },
+    {
+      "shot_id": "86664fda-a774-47a6-a129-60f81481d7e0",
+      "roles": [
+        "defenders",
+        "shooter_keeper",
+        "monolithic"
+      ]
+    },
+    {
+      "shot_id": "f862dca7-3ba0-4a55-9e04-9c7781b79e4e",
+      "roles": [
+        "monolithic",
+        "defenders",
+        "shooter_keeper"
+      ]
+    },
+    {
+      "shot_id": "ae41d0bf-149b-47ec-9d30-59ffe0585f84",
+      "roles": [
+        "shooter_keeper",
+        "monolithic",
+        "defenders"
+      ]
+    },
+    {
+      "shot_id": "8dd06075-7ff3-451c-b6b8-1c7303b93a7a",
+      "roles": [
+        "shooter_keeper",
+        "monolithic",
+        "defenders"
+      ]
+    },
+    {
+      "shot_id": "9dd32137-bc45-4746-be89-cde55a2ba02a",
+      "roles": [
+        "defenders",
+        "monolithic",
+        "shooter_keeper"
+      ]
+    },
+    {
+      "shot_id": "162cfa7d-b412-4314-9bc8-32363be03691",
+      "roles": [
+        "shooter_keeper",
+        "monolithic",
+        "defenders"
+      ]
+    },
+    {
+      "shot_id": "a9aeffde-608f-479a-8195-c6cff7363b53",
+      "roles": [
+        "monolithic",
+        "defenders",
+        "shooter_keeper"
+      ]
+    },
+    {
+      "shot_id": "114ea3d5-b95a-4069-b461-c8eef8f45645",
+      "roles": [
+        "shooter_keeper",
+        "defenders",
+        "monolithic"
+      ]
+    },
+    {
+      "shot_id": "c1b344ff-ce62-4433-b2ac-6134b43531a5",
+      "roles": [
+        "shooter_keeper",
+        "defenders",
+        "monolithic"
+      ]
+    },
+    {
+      "shot_id": "629fe580-fc41-4b9e-80f0-677b5028e3b9",
+      "roles": [
+        "defenders",
+        "monolithic",
+        "shooter_keeper"
+      ]
+    },
+    {
+      "shot_id": "85e565bb-80fc-4a56-b3b1-b8ea24a6d904",
+      "roles": [
+        "monolithic",
+        "shooter_keeper",
+        "defenders"
+      ]
+    },
+    {
+      "shot_id": "74ebae15-5136-4c0f-8808-e9dee3bd0d82",
+      "roles": [
+        "monolithic",
+        "defenders",
+        "shooter_keeper"
+      ]
+    },
+    {
+      "shot_id": "e3095912-e405-4239-9c9d-dd3e26379003",
+      "roles": [
+        "monolithic",
+        "defenders",
+        "shooter_keeper"
+      ]
+    },
+    {
+      "shot_id": "9a7af02b-ef2b-41a2-b2fe-0c033342cef8",
+      "roles": [
+        "shooter_keeper",
+        "defenders",
+        "monolithic"
+      ]
+    },
+    {
+      "shot_id": "4996c65a-6dff-459f-80e1-8502d48d7198",
+      "roles": [
+        "defenders",
+        "shooter_keeper",
+        "monolithic"
+      ]
+    },
+    {
+      "shot_id": "5b8908e9-865e-46b1-b1df-5b8f6c4b9056",
+      "roles": [
+        "monolithic",
+        "defenders",
+        "shooter_keeper"
+      ]
+    },
+    {
+      "shot_id": "cc3427d0-a618-49a5-84bf-b9b2c79c4d6c",
+      "roles": [
+        "defenders",
+        "shooter_keeper",
+        "monolithic"
+      ]
+    },
+    {
+      "shot_id": "b5ae28c3-cb20-493d-b682-f626840932d4",
+      "roles": [
+        "shooter_keeper",
+        "monolithic",
+        "defenders"
+      ]
+    },
+    {
+      "shot_id": "df52230a-bb32-4471-8d04-4ed9604296ca",
+      "roles": [
+        "shooter_keeper",
+        "monolithic",
+        "defenders"
+      ]
+    },
+    {
+      "shot_id": "1c5d0062-886e-421a-bec9-829d9e780fca",
+      "roles": [
+        "shooter_keeper",
+        "defenders",
+        "monolithic"
+      ]
+    },
+    {
+      "shot_id": "5b55c7d1-27fb-4e89-a593-17b78f2cde49",
+      "roles": [
+        "shooter_keeper",
+        "monolithic",
+        "defenders"
+      ]
+    },
+    {
+      "shot_id": "b6b96d19-97e3-4770-996a-f20696123abe",
+      "roles": [
+        "defenders",
+        "monolithic",
+        "shooter_keeper"
+      ]
+    },
+    {
+      "shot_id": "3ae695a8-991a-4f2f-83aa-ea0763b2515b",
+      "roles": [
+        "shooter_keeper",
+        "monolithic",
+        "defenders"
+      ]
+    },
+    {
+      "shot_id": "006143bc-cc3a-46de-a01b-97907b45c485",
+      "roles": [
+        "defenders",
+        "shooter_keeper",
+        "monolithic"
+      ]
+    },
+    {
+      "shot_id": "9aa277b0-c06e-4c8f-871f-fc858ede75a1",
+      "roles": [
+        "monolithic",
+        "shooter_keeper",
+        "defenders"
+      ]
+    },
+    {
+      "shot_id": "b639189a-d3da-4316-ba3a-a408ff911d73",
+      "roles": [
+        "shooter_keeper",
+        "monolithic",
+        "defenders"
+      ]
+    },
+    {
+      "shot_id": "0baf322c-a71b-4790-b088-5d881ba3f2c1",
+      "roles": [
+        "shooter_keeper",
+        "monolithic",
+        "defenders"
+      ]
+    },
+    {
+      "shot_id": "951b8142-5777-429a-8bfb-44f9898ad631",
+      "roles": [
+        "defenders",
+        "monolithic",
+        "shooter_keeper"
+      ]
+    },
+    {
+      "shot_id": "52adeea9-da77-4a26-91ce-a6802ca8d9a4",
+      "roles": [
+        "monolithic",
+        "shooter_keeper",
+        "defenders"
+      ]
+    },
+    {
+      "shot_id": "d5e04f50-0f60-4708-bde1-759f1d0f5894",
+      "roles": [
+        "shooter_keeper",
+        "defenders",
+        "monolithic"
+      ]
+    }
+  ],
+  "images_sha256": {
+    "e877d7f3-6505-4d08-b4d5-f82ab8c3ec6d": "586caf66b1f9161c2b65e3618d30c89490a1d570bf3018d93d2f981b427b1658",
+    "db21527d-2460-46c2-a63f-1a08b143f752": "58a67cb4aab68b23d39e46ab56fb3fbb3ebfd6eca1f2dc15dd0236b3839686d7",
+    "ea2f37eb-921a-43a6-aa2b-9c84efe982ed": "f85eaa3c2270d3983c2a05672a0c28b52ece9b6f12afbc730ecab421bfed2b42",
+    "f4f15956-e226-46db-b008-eb710fd15dce": "68fc6cf36e931c824333ad8177aaf6d86d26619d427659fc29c3bc0626346718",
+    "a8e2cce7-55ae-441c-90d2-c76e3828c1a8": "43d6b64c5cb3da8a56a5f6fac204de3df916cc7baf6486af99cafa48e1684b33",
+    "0ea4e208-097f-498b-bfbc-2a39cf755f19": "7ed8aa99c9ca494fc9698502eb47cca7a3964a477934e6092d0699488820845c",
+    "1061e36c-f787-4847-9437-32806d995e37": "5ebf32b9852573de050464b6f619fc50838a8974ac1df9abe71b8e99de2b2f39",
+    "0a50d7fa-da0f-4e7c-a56b-f11e159f2ec9": "ae10b854e6d4e20a61655fbbfbbcbf1066d568b96a2a14ba437ceefec25511c9",
+    "72cb0b94-65d0-4b27-a4f5-70d88fd9fbe3": "fdd4af76c391401b18d9693a791003f6bb8d4bef2f838fb7535e325fe05b5906",
+    "57fbe67b-e6a8-4544-baf9-6bb78cc0c262": "ba21f2614ec2c820d22d1622f650530b86a0722148cca8f672f80460e56280d8",
+    "97093c18-29f0-422a-b0f3-bbbc3aadaa6a": "6a576a5dfb77c16f2d6f5d2b5bcb0fdca931696fef500875d9dc95edb8c248ef",
+    "6f4e27cf-73d8-42da-934e-affa6c5679c9": "73603b51653837ce66214dcf3cefbb3de6cf4c016f0b636ba1b2eec678998afb",
+    "124c48e0-e083-4fee-9f6d-c1e9fe5eefcd": "a65bfc5ccbb73aef348b3c127f0febac6fb3a5cdebd25eee50376208c16afcd1",
+    "edf76979-b202-4ab7-9f07-2fc046885c2d": "9994d7c83a62fb6178d2b5752cbea333823eab60f096c98ea8abcba6d10055ba",
+    "a551a391-de6e-4909-a364-f2016a70e391": "8d0c0c7edce97b29779c7f6e577418bb8253127e196aaa73d449b6f178f2d350",
+    "45ad53f8-9f3a-4fb2-a3b7-b0bd82073659": "405a331de6025c6792816fc7fc6012cd56e3cda7481e9b0c074a456fad411b70",
+    "9ae80932-88a0-46c4-906a-d92d4999f5a3": "927ef7a1019f23fba3c58d2c9a98a7baec0b02a3be7a8b5fc504ffb46e039555",
+    "501acb6c-0849-4bed-912e-ab4610b5b579": "b8e8583a213d05f84ea8c8fab5e7759143991ff68a42b4cbbbdceb3ec641094c",
+    "5b4d4b05-f9c1-46a2-bc2d-f8ca2fe92e0e": "4ac86fa901d42ab7e13dbb7b42972548909d95e9d0f606b6b53917d84328c429",
+    "98e4b110-93f1-4384-9419-ae1179cd7e83": "03e0702763857805258f3f67f686612e3f14e848848f98d8cd46d60ad6a00f03",
+    "73ad5c99-6b0b-4885-b952-7fc60573d9b7": "6e9a0cbca8b6908e74468573d50db23fbc05634e3bcb16dda08687e47aeed55c",
+    "dc8782f0-fbfc-41b6-947c-59fd533c0c65": "92c77b60c1b7e627523d13f828f295178de2c4957efd5fb411324d0dcfcdac38",
+    "e9af1da7-b7a7-49d9-8efa-27cd0be84aa8": "9103c33d1d3e1026fde6934148256b14d051dcbce49949d7e9961111c5b6bcd5",
+    "ea0b46da-b503-4e90-a637-6431d921bfcc": "860f22265e571992e19f994c77d780fcedbdf24b70540a244e6419ea1d1ad9d5",
+    "5df16513-d372-4a46-9661-09c10341a40b": "dff9e3bd65725a00a9cc2f91c6714d398cf724378d1028b324bc793e96fff9b0",
+    "aabcc582-0b0e-4219-b183-19d92551a4d4": "a4bb677b5938ac80b29d968eeee4f628580f5b1af7b051c5af4fa95b79cb2d4c",
+    "f84f4848-bb50-451e-bf63-b4586b3975d3": "f8b253d3512b3939cb0fc25c446b5807d6bba8161aa537c804169d61f8c3ee56",
+    "5d2bf27b-dd07-4895-8744-1673b235fcec": "3bb5136e4aa1d82d7d509b9f9383875e91cce6b8f0555fd253032c00ade07543",
+    "e247a33d-7255-4f8f-b6d1-48f2b49cb559": "df6ce2e2fa207eaf5f9b475d81e6913db1645c0dddcd314f443dba8e1513da6c",
+    "d556aae7-7647-4c27-8aa4-f5ccbd034b09": "a0e837b4eb3211cf8256d89e52a618c07efc9ab08d0a83caf4604e4f9e0f3532",
+    "5085715b-09f6-403c-8b67-a546bcfed0ec": "91fb27ae669a3ce63d37017d476f85724d0c5fd23c66590ca005c4b880bb6288",
+    "4da1beec-972a-4986-8720-da71780eceb4": "b5009b8310e45c34564b8ec386a55d09f1893343f55f563f164a8a83c52cda5f",
+    "c3871fef-f58b-4401-be6e-76f47a795c4e": "26cb840134f7301e02c8e70570b08be330fb0f6d88ed16c3095bfb7e4a4ad4ed",
+    "d2e0289b-8116-4401-a890-c839d2722444": "ff341a512af7b5e0ae4d6c703b2f980f44a04e6499d81abb198a83f475405e1f",
+    "25b25579-2f18-4333-a5a6-8571e4212871": "016f5f2e0f1020875a33842e78a46fcb4dd4b5eda27c2d7502fa353a6ad2acc1",
+    "b618df8a-6b06-457d-af36-28fae7ca9c46": "d17953b0ad844674aa378cb44e455acf98858047b2739e38963bc328ff24a793",
+    "acbfb3a8-6469-4ab0-b391-c1308e661799": "4b10b59dd09c9532848d85b4a8f8047d6450a6399a647a574fcd2b057fd38344",
+    "abc0866f-3aa9-48da-93e3-76607762379a": "e1e45893d2f91f89456803e1c1b85ab3a2cf34fd8e75e1276b2b1f2a52beac83",
+    "b22a05bb-7bca-4d40-b51c-63dec8015de7": "48e87b39f1cb53c305d4a1131d5904bbf9567a50336b1a6d7a0d493ec63cc78e",
+    "e6c7c7ff-c635-4f9b-914c-b299368e07e9": "94d2a3ce9532d61f6cb4af9bb41ffc98a576859ec4ac700f13a8102c2a5bf440",
+    "0d2470c8-1544-4fcf-a8b8-a4aa1a6b6371": "624d4e40189f2ef9b79b001789b48cd6ecee515106910cd95a454eb7bf0214fb",
+    "805033d1-301e-4dc5-baad-542dab282ff4": "74b2d71963015db104bde993c4e42824c105678868f72fe0fb9abfb4c6ca7950",
+    "ff7dc4c8-6462-4f11-b42e-e07385fa05c8": "3c24320d0b5a7e5dea3e381a1de065e10ca214b57ab7454dd4316176e52021cc",
+    "55e837dd-be46-4bac-b71d-9cebc57c893d": "8e51da067dad3b9262afc8b04fe8235ef0f67b4362f4ed5a119e95daea2957b7",
+    "ed4e6d65-30d2-4439-89af-dc1b81d129dc": "fec4faea86fd754d909c8f3adf997b9421eafd155eb6735eb40f1293cd68438e",
+    "8cdde037-021b-4025-bd4b-e2aacb438348": "8351136afbadaf18b582f65c4783600ed1dca37f77c3524f3413acf212ea84c1",
+    "eabd44ea-9133-4a5e-8ac7-563b30de1ffe": "b11566d37469599ce641da48ba210cbbc6ad89096846175915e052baee58c3f1",
+    "12a24a9b-3c9c-45d4-989f-066a49816a44": "59b94245ea18bd9a6c2cad919a2354fecdaf6184c937b517d5394073b6b375c2",
+    "455c1ca8-cd57-49cc-9359-c572f7c6baa6": "5c76fe0353c56e457bc7595c7f78dfd694bfe248ca3ed77b2ae635e02b5e1b2a",
+    "3db970ca-3036-47db-a944-f3a29dcbfa46": "0a45a8ff46a34da038cbf9feb609ab90bb517d6b3c3f0f7337ff3ee2124f8f1e",
+    "c463f20e-0104-4fe5-878d-804fb2b07269": "4ee129362fd3d2bff27b62e3c3a34159e2c0bd9a6dc985e7140760066ffbea9a",
+    "5e51457b-5cbf-44c1-8248-d1e67bc5c48f": "878040d557b4edcd5ffd13007409ce483293756ff401168cd3a3d2fa79e420b0",
+    "26a88c53-f0b4-419f-90c2-43f7a6531f70": "98f01ccccedcc2da6467bbdf47fce96b9ce48164dcc8f3d9aa073338837ce8e9",
+    "5bf94991-d33b-4fad-9c75-5acad6f58186": "ebf2e7dfd70c85b3121c9347fa14fc90cc0ec32df385eaa49fa6e41b86519ac6",
+    "0034dfb1-6265-41df-92a1-bb0ba058776a": "2d7ed89ad46a2e8e36aaa9c0353602e64278a7b2b41dac47db6c39c3891d97cc",
+    "b5e4dcaf-2007-4435-9c52-8d97f8ad39e4": "882f9b79ded0a500658434f3fe62e1c67c4b3c582889caaf5875712807fe7b95",
+    "3d54ac87-8383-4cf9-b7f6-17e43e7cf0b6": "b99cb638f22b828bf7600a7fd1d4c7ac70d3885af9ce95d95443aff42f9cbaff",
+    "9e3cfa22-8c46-42c2-9e11-3391146361e1": "2e4b7249eb30adb34646c24911e9a8762765dac6b0fbe3a3d9a56e8db0d966c9",
+    "2e62b86d-9b63-4229-b9f6-e29024ac4376": "657374c0e40cc3a37b8e6b9a427559876e1409c06654891087fcd79bf05d07e7",
+    "5665403a-4a89-4064-bf8b-01f7d557f2f1": "d28e24db2ac283d9b793c55f439ef98c135ae85d00461930fd194a0fbae7cd96",
+    "c7c2b7e7-cf02-4e2a-ae68-fb18c9096c97": "443becafb65916d7e3739d3a1d041879254ab33d91b9eb2bb78f77009ecf483d",
+    "8c35f1bd-dabd-482f-96d5-8f656b974641": "33d27723d9ec8dc4727206d5f34c5cc55175950611e09b1d8d24a519640d04f2",
+    "2cd6697c-aa9b-4978-a76e-26aef2112c31": "080530a3348a22b5fc56563be0dee8bea2830666b0785ad68e6a31afe031e473",
+    "94871c14-b01b-49ef-aee6-d51ba46fd0a7": "77ad55d714f9cb6e08b763f8c3d8fc548958713ee016efa314e796c8939cdaef",
+    "020286f7-259d-4f4e-91a6-e1a361609c4a": "7d85e0c314fb46652c6cf092c65ec2d9b6b7e3f6eba6b48ffd397aff910f0334",
+    "f5063b91-350a-4ff2-ad05-f8a133cf6c69": "b36133ed91465ba2d2f85a7a8c481e1a73f35e72e93f5664788ad210f8b0ce69",
+    "6d6b9bdf-4012-44eb-a865-f50a0756ac6a": "a7a825d3152a1a7f3d53c8d7eb8af80a7d6d6c3028797236aaff3e703a0b84d8",
+    "1cdfc19c-c86b-4ea5-b172-4f5bf6e4160c": "b696788a0365fa9764ed50da79532a86a7a64a61de828fe77786e67f68f26dfb",
+    "df860089-0e1c-4262-9f27-c30e8511f4a0": "126cdc2eabef22af5e8b362b183bdc6f139c38531aaad7da9241ca0b2fe603a2",
+    "f269332e-c496-4288-899f-8d3f3652d77e": "140388f63939bda9af6ff93f78d5822f8527f76d699364b58ecae25ab02e129c",
+    "10f729fd-dcd5-4aa5-858a-79b9332ae499": "e21abfe3a9a59c45ad03bb7edaa8396a28d8b1bbcb62f5b67fae80128f299ca4",
+    "93d22a32-8221-4cab-9d68-d68f4b600599": "d5f332bf190cc00bbc744f041a4410fa306a1700314c879aff8063095ea0a929",
+    "8cc67067-433f-47e4-a1b0-8e0f4fc89d61": "3265a9ec4cf585b10c15b9cc3073c98f6cc2ec3d90718c73104cd915d8866c77",
+    "a7ea7006-c6d8-4f4c-863e-4bba9c35aa59": "3c4169daf386ddc4f27436a82805f4d99559baf6325e521cc37fbeba337222ad",
+    "5574850e-2480-4ccf-891e-d112e848ded4": "c76d089c2e56da3d758692152b91a2069c27a983fb529fc655e454b26fd5857d",
+    "00cdf1f5-0fe3-4af6-b303-5d3742c4747b": "ffa5aa7131e217a777042ff0784415bd65b74bce21e5de63df580cf666225818",
+    "2b2439b6-9828-4dbe-b3ac-9adb41da1b1d": "5136d15e7706dc29652de8ba09ab942e72c9d2aa4442a2798570129904e4f84a",
+    "9ac5d42a-afa5-4d49-bcdb-505964a26de7": "5be3e34bec6b51e754f42749b1721361c29298cd50b2f9929076f954532726ec",
+    "8b5eef3f-9872-4b71-b75d-98ed4d322bed": "95f25bdccec702a219ca500ed94f0b34f786c2128c638d1c9dd80e48ba3c703c",
+    "0bcb7edd-0d2e-45d9-a2eb-695e15a30e56": "574cc13347404a1a000b7d3ad160a09b4c93dc38881c4f889ce0f1a461f22c03",
+    "6027b96c-f6af-4db5-a43f-374ef60d6c2e": "08cdb3c027a01140f21b732d206863e012b15ebc542de34a44d1969f84ba2206",
+    "c4646c6d-3ed0-4c4e-bd24-98b8157fce90": "7e9f2ccaa9f3f339f295aac9ce477f0b5e84b74694a5c5b58d40183897f278e6",
+    "e8b4d9d9-3036-4861-bee0-dc695f90af8f": "d1ea1ccd073565eecdf49186fd9e6a128b1a7c7bf0e10177860344c018a253e3",
+    "8ce85e91-7595-4105-b1b9-fbef9a514cbb": "fdf1fceecf26db458541af4edb173a9730e60c02deb192b41ec30677737618fe",
+    "2ae4983e-b21b-42e1-989d-90da0f2d6bc7": "4c301a80da0453a05236570147f55a5424ac86b867684784e0769227ab7b140e",
+    "64789666-5896-4fef-96c1-25018916f804": "9af9a5743f653d834f66cef0d86f21b1c0e33e88de5ed3c7fc3dffc20a4c0bce",
+    "78ac115a-ad92-4ff8-b2dd-b8f3b46e3c26": "02fdba656670c49fed9ea7af7bdeb9323240e1c8541223636c912649ddf3ecc2",
+    "93d904b6-833f-44af-9510-4e4992a6b508": "9d643a9bcabb933ffb04080245c196f0aca1850a0e9a623682e0fa2958623b68",
+    "8278ca04-b002-4e54-9f39-ad616c3c4ea4": "b3a54b7f682936bc1f2768a5a3fee120d1efaa58ce522e84a165e158426a7837",
+    "76c031af-d1a0-49ec-98c6-f8b8c6f59c8d": "b5fed92e266925ca83916ed9f14ec7fff0ac034ef73fc50b593dcf9eba68d878",
+    "55523bd5-457e-45ea-b830-03f6f4283e1c": "2191d328fb2a2ea40cc9c4f805edf1eb6976c91420a241571bb67c2202e103f5",
+    "36015584-f450-4dc3-85b1-dca672169d80": "2f759440647517d223b72c1d0559b0def84fa7328f5997222a00dcd1cb540345",
+    "532cb314-16a7-4255-a7ad-78c7b72d5836": "17e46b9a852648dffdf74fef84ae8afa42e901b7f3396e21cead2c251d2d8da5",
+    "a75b6539-bee4-420b-b8b1-65759c8761be": "79cfccf4f9376ab6fc366bf9b503f969fe44d4ca29d946b479e7724777dc270f",
+    "b928aa67-463b-43f9-8075-c75fb8cc2be9": "63521e8915d6a3f687176310f0fdd9ae77225c21de91e4bd4794114fb7b39de6",
+    "95c4ead2-38ea-4a5e-a973-d705a0552b18": "5af67ec76bce6a4916f6be8e5bb28af47eadb58235cacb4d32b1a304511ce907",
+    "81d025d7-5884-47ad-95da-737b7b0c0f95": "ed4db3faea305e0004f04951c3fe2e521aff26755eca947ee808aafaedcd5054",
+    "2360e583-e2bd-43c6-8dd7-1931d9d69889": "91cda63c80ea0641d0f089ad94de54125976faf2c36aa4b85d16cd0d95c18789",
+    "c30b8aae-d325-46cd-9027-63daceb5b4c1": "344da651ca8433475fccdcf802329e5a610c1a21d7cf8a095b25c9459ce45191",
+    "7b0a71e0-997f-4128-82fe-bc896f6c3b93": "3e4c024a72757398a149415026812f9567b63d11cc24361576ca3e7432ae4a76",
+    "c77e6a91-92a0-4ba0-b9e8-a8e6c7a7b2b7": "a574676d9fe4748c1cb1630d23cb09459d7ca600c46995ccff367980af642111",
+    "bb53b537-1685-4019-9e8f-98f3805828eb": "a0f5687cd80c8fc22af10a30294b677bc02b1fe167f10c88719c19379e9636a1",
+    "1ee26247-cd77-4b6b-9893-32cfd4186fef": "73f7d96fe8dd6af69abd07fa6ff6b972ac549bb509a12240b7bf2a92430a39f3",
+    "6f6b3078-c977-4a64-bb79-2a2ea4b0488f": "a33ec6dbf5624d037dfd7ad45d831ecd9a4d8bf1bfa8195b3fdeef12d2a9feac",
+    "14f4ee20-90ef-4221-a07d-24b00db16885": "61b73f201d7fa07f0e58369f475cdb3a69160ab593f5ed48e5442353e3417f03",
+    "cbed5607-fe18-4c22-8c8c-dd30aebede68": "62768b08c8ca2ee6044080f63a00b035d01193ac94b847fcb409ad3a811bb2b2",
+    "f7a17eb2-c19e-4bad-a8bf-c594a1dfdbe6": "0d606103fe4df9b91607c8381c91680f0206fdb8bb5a55ad43610c7817a9742a",
+    "f95aaf60-8e75-4bf5-a51f-b0626254f979": "4135ad1406d623e58bfd544c7ee36a34dd06324b0a5cbdd0dd1a8168000874b5",
+    "d7fa937d-364f-4e4f-b725-0f06f75c9ea2": "6bf6f30694df3b676bbb26d586c1a7cd4890329eb5d5ffa1da582283668f724b",
+    "e773b1a9-8875-41ef-8799-2404acba0bb0": "95161c71b8d8ce273899879bfac9ff98b508c8464a81dff5b80b8d1013a1fa68",
+    "78722261-ff71-4e47-82e7-70f3ff152946": "5f791067023d2f3bcb10700a2ff1f286e39b5efbf6cb9d2e210eff2fc56b235b",
+    "dce20757-d2f2-4278-b389-bd2cd84ef29c": "2be35140f43b208a03bda8f9c1cc9dea84d4753b212a03e66f717d231d86beaa",
+    "6da40aea-5006-4902-ac28-d3aa2b9addfe": "c1edb7e3c6b1f129bff18c372f7b636ee408f2f411ee7b8b8b49b9203efd3416",
+    "a521ce17-5ba0-48bb-9d9d-afd16d56c56d": "7adb7242dc91d4358e2e9693df0785bef5f6bcb3338d3cf2306f9e53cbe7592f",
+    "8d6a08b1-8af4-4268-a9e9-15bfb8f1eb6f": "0da9dd299fe2fa08ad3e195dc52938a361c32502684b28001ef9fca0d8a7982e",
+    "e00bdae8-f038-4591-abb4-cb5475b59639": "dffb4a6dd8c46109296271b32b561093813bbf76e6a4223dd668f9a4197df462",
+    "55fad6f6-64d5-4bac-9d5b-a5e542384626": "cbbe4d470dafa62d2c6c0d6a85c53a5c40b7db8a66a14f1e0443be6a607869bc",
+    "ada34db0-2814-449f-9d43-3e47f9452fba": "157a130d0c165ecc4d9cb3a76066f55f94eba788fbf9f811c3d9f4e65a22670d",
+    "7598f02d-2a2b-4a56-b649-2f4d142616ab": "124daca5272446e17184e18fb68dac54b3effa1012f74647f072781babef807b",
+    "24975a3f-1c57-4475-9149-57d99cd2be53": "92a33e198018dc71837c1dfbccb6dac5d05521306420bd8b00fac2414da43fdc",
+    "bd1c22a0-5af0-418f-b21c-5b5ff6918fa2": "b95d237b0460a009f816931bac5b4f09d22d854ca8cfb44bd6d941c643065f20",
+    "9b5d1c04-bf74-497b-a0da-799bea662d57": "7f5b8741927660ffe2dc1a5a060d50cea8e32806a8e3b70b9557759f580305c5",
+    "0b766590-dff1-4670-baae-b960fab33f6d": "dab115a9f177a76c5352dd933305c4f7a9043b9679411afd4b1edea119bc0b09",
+    "2fba6753-d8f3-4018-9008-c38fc093baa3": "ac55e274ca5c377bb79c87f6aad875acc6184205ae21509c5cdda667028257da",
+    "1188faab-c235-4cde-a907-f1136e9b3e02": "2392195cd5a3aea0c03ae1c2c977c3d7af1c9e66a52e9cbe6f6f87cd1dfa959a",
+    "eb799f2a-b81f-4bc6-9222-c619a4a69a45": "881bdf5eeab747f7f44727d0d7053bde30dba8b4f559b94f22cc7d25517476fe",
+    "70d5be14-acb6-4846-b9c5-a069636b6351": "4756e8c80342864123dca9a27520720719d72345f49d664c0647b001f849830e",
+    "f8da9690-b3a6-47d8-bdff-f980e6e496fc": "7ba3d3e62a2ded516da80365d534057e4d15c95b23682c1b10091984bc8ac720",
+    "3cee8863-208b-4422-8c54-f688fbf98b8e": "19f3cf73d637700024e99ef157d3506945e1d195adafb51038846dcd1c156e29",
+    "477a80b8-2b1b-401d-96d8-5115b5be49ad": "3b9a3b8a125d9d29e9c400027c5a099ff92eb6d8eedf3ffac1529222ea2016d9",
+    "2e430d3e-2741-4d49-9e80-8963abb4d73f": "23d5a7e7e5320ef5c682ac9d4a27483e79f3999a6cdb93d14a67f65e3da05a01",
+    "3e79b7f1-d85d-478c-adf5-e15f0217a044": "6f544c6b296eed7674982c82e02426745ada3d9fd321c1c50df3b8aedd4b30cf",
+    "df71ee04-432b-440b-adad-14ef9d72d70c": "fb3045a3cce6aeb0f07c5ad77ecae816809fb6cb106fa2fe551c9435d0fa0c7f",
+    "20d09554-c1b8-4608-9515-0213f3b8c62e": "9f06194730c3cc93e3d2dbb00740d2b86ed7e80e2e9bb94de04457a078531240",
+    "a7463583-f8f4-412f-88d2-c7c834a4105d": "237cec0fa968b45b251f1f3db171ebf2dac99093536112952cd1072ca77fcecf",
+    "850de483-01af-483f-add7-636d5e0426da": "0945efe7f64bb2b6f8bfbd0f474bb9c85a6cb535cea7797dca66147355c7be4a",
+    "f965804b-15bf-4b4b-963c-179b80ec14fc": "dd27a5b63e6a81c1cb4938c8e46b1fb58dd6fe06aed616dec6c992ef7df5eb91",
+    "8bf82747-9af4-4355-a2fd-0aa926f69c50": "efc2859a543898cd735a8c27c695bd7a91f6e723e43b33557bd4c1684fcd4801",
+    "7aa407d9-bbfc-45ad-b7b8-1a67341a38f5": "183201f72ea4ece99f607d2c61d504d8868c64a75ef4874679ab8535c11f73fc",
+    "f7cbb648-eec1-4b9e-922f-5752f563f019": "7577f4a752e6bb0e843e13f9be94b1ce949dc60eeddf01f0f82bd82ae4ec47ad",
+    "b2f3ce14-ff55-4e4e-8376-7670c3a34cf4": "dfe46e83ce5b9115b8445325c0b38d00e650bcb6ecf5405a3e57a1cdafd5b2a6",
+    "d695e0d2-f207-4f3a-96de-d2ae74a083a1": "5459ac1c6ed7196c54943a661f86bcbede37301f5643e83a7b6a9a1b81a5ace3",
+    "a6e26944-86f1-4cea-bdea-7e246479d82e": "7c2fb9c8ac4f56b5a39c5eb9c8ed23d933da2ce5ff96c4e02a5d18738e286d09",
+    "df5eca50-7090-494a-8484-64ea250c5cb4": "5401e6fa7e2e6762391ec5d251adf2aaca59dc2198359afdaf89bf9705146e30",
+    "9940ed51-5d88-42b9-b00f-a10c0e76a6b0": "8e184a6738581b0a5e5d728f78e47471c457956e1a1d3fb10b90be726ad3e5e2",
+    "ec85fe91-d865-4a21-a6a2-f990d1ee9fca": "f68ea8bedc3e3768a785439654adf63b82ea55b28fb63d9fe1f0a282af15244b",
+    "c0fc7632-d885-4482-8d88-6670020ca205": "0db8aa4ed01703efc5bf2b30b99558e2904e184ef7e835911ea624fa0a363d8c",
+    "7028fc56-e4bc-4fcd-a68a-60abe0bb2421": "fbea43d7281192a61c1bd45425e0bb2491fb1b34c81821b0675a1ef0032d8aeb",
+    "57c1ff7c-7281-4448-a230-88e7239cf5e2": "6b7eeee837821e673547b24104a625b7e458e12dcd387f08ac10dd7dbb1272e2",
+    "a407ad67-099a-4480-9b5e-fdae8ad47705": "674baa4b5249354208a08471488fb125895f5c6532cbad29038c2e5d964874a3",
+    "d8e07983-4d93-4873-9be6-c792494f4a0b": "cc0e18c10acd936160e6e00ae7020f2d02ab7ab6282497c94efa29e70a983e31",
+    "5667d74e-c1f0-4282-91a4-5f89c6db16e2": "af79a803f420e489ebcb19c12d638de3a10b47daaa4ef5dfa36b54ef02a4337c",
+    "ec3f4afc-df7d-4a53-98a2-508e21c040eb": "0e35bd8983d3e2a996cbe72ea1802d6ba45a95ddbcb056630f82ce866015bc31",
+    "251eb8fc-dd8b-4b21-9db3-5f5c97499d07": "2ad344b279694223ee46686406d63d4a83fee3991fe7204c617945ab2089d5ba",
+    "3ad75026-2a0f-4f17-9a68-1b9a086fad6a": "e7980bc5678461d6123b8f0ceeda8a7d6b50c7db8cadc456d660d318fd684100",
+    "c7644e95-abfb-4c29-af4e-26b62c5bc212": "f2f95fee34f9ef4d843854ce84a23b1b81d8a43dc4b3777fa6edb714905144cc",
+    "9646980b-5716-4da5-a785-a352a3d408e3": "aaf0ae3c2b6d346ade35130cd22196408526635c60077a78ddb718c51bf3d00d",
+    "db3c376e-5207-4397-9d26-ed33a83fa345": "26b2048917cab28475b571f120754d48a86eb34aaa40faa118059bf4d534d108",
+    "3ac9442d-4761-434a-8409-bb118a57061a": "8521e8f21b226fae30255dd13053f48e06191d98b77f36636906693bbbdab729",
+    "e52f4b8a-c11c-43b3-8949-d5998cdf7dfe": "88bcb4edb03ded8d773a17d20b25081bdf0d9c19c6c32ccc788840f8d91bebd4",
+    "858312e1-fe6f-4281-914e-4fb03ba0374f": "4d4af227641aa8f88a065222d9f6880aa661510f28803e5c98b8f933f393ead7",
+    "a8928e40-d501-44cb-b327-3a75044baed9": "659d6612988f06eec2de50fc7012c8cc84807f6202d887ddcc109c343a0bc705",
+    "c2f395d9-3c92-4154-a54d-66e551eb8171": "01d06b6a81bf73c22186b7a9e6e4af440865e1d33cbb67ed1fa52ef5f516e196",
+    "aa0325e3-4158-4f49-8025-7ea3464a7c15": "9899b335098a3955265ef43a41424b1030a68feb692ee05844701780f6ffdbbf",
+    "42bda4c0-9f43-4dd1-b2c0-03ee953bd8df": "74ec0fd03e86f9c66dab1e12ffc7d0340c1c97bd8b0065fbcda9eebf1b593e96",
+    "316ea464-b81a-4ad9-aab2-ed5832b1494a": "16cf9ec357e9970fbbaaa9f04f1032f1c873287091e0f1d7d1bcc85d4208bf51",
+    "972eb987-0c5a-4c1e-92eb-be61658b0ba1": "a41fb943f4c9da228a23d8929e529bff440dac6aa6bd627d2c631749cfdba173",
+    "6fe5f4b6-f7c3-44c1-b4bd-95ed3f7b55c1": "51f6b71ca0a38ac075e9cc192edc2156bd6d8873be44347cbaf7280c01bb28a7",
+    "8f5f8f90-bbbe-4f4f-bbbe-11a2d64d342d": "9ba5718f3cb311b7122c9a1294da4c85e950cb9e801d6cc4db5dddee6aadf12d",
+    "3043863b-a979-4347-811c-eaee227cc2df": "f7a8666dabed26e8a68f47f4c6980686189333e5609d7e109dd601c2b3c0f115",
+    "86664fda-a774-47a6-a129-60f81481d7e0": "342a95b0eaa4992ece1770900e1bd4f7ba740b4f5f34eb853a974ebf4c178849",
+    "f862dca7-3ba0-4a55-9e04-9c7781b79e4e": "b33230fe534f8e6b60edd0fd0cf33b684fd61053d4bb23a8fbf93c3c1c21ce98",
+    "ae41d0bf-149b-47ec-9d30-59ffe0585f84": "197d3a21b3995aa3dcc80546d16e8da1318d1d41a387ee871a8f6a2c8c278358",
+    "8dd06075-7ff3-451c-b6b8-1c7303b93a7a": "3823a53d2cfc7a30ab931c9d2413fd97ad39d81d91f29a1d44fa9cd0b837a0f6",
+    "9dd32137-bc45-4746-be89-cde55a2ba02a": "8cb383770db2f78e78ac877b6dd3185831efe9e6836d8c68e8fd3f4e50992922",
+    "162cfa7d-b412-4314-9bc8-32363be03691": "d276c5398d81b2fb53240750be814b8ea8e337370603da992cf5e18d49f01630",
+    "a9aeffde-608f-479a-8195-c6cff7363b53": "d6875759a45a48a1cda0e1d69f153f3c130a40b11688a5bc7da2c5e10a28acfb",
+    "114ea3d5-b95a-4069-b461-c8eef8f45645": "eb64763a2737c102bac0d1fad5212dcfa893e9c30bbe17c3d620d33baf1b53c3",
+    "c1b344ff-ce62-4433-b2ac-6134b43531a5": "ce98deadc00b330148d3d18433b514bee883677b6b3ac5c6b332a1db200a06bd",
+    "629fe580-fc41-4b9e-80f0-677b5028e3b9": "c95dc40625bacaccc7c2628c80a69337843c205ae9f249ccf39903a5e2774439",
+    "85e565bb-80fc-4a56-b3b1-b8ea24a6d904": "6c020c59d09aa0ea58d50ec681fa5839f9332633970f91bf64cd10aaf566f8bf",
+    "74ebae15-5136-4c0f-8808-e9dee3bd0d82": "ff5ba78f55ef5ed41d549bdddca24f00b0d0af3055d81a2ae3cb63f8a7d87764",
+    "e3095912-e405-4239-9c9d-dd3e26379003": "83e8861b691624798f15f9b3b743c71f4941892163050811fc96f53661852779",
+    "9a7af02b-ef2b-41a2-b2fe-0c033342cef8": "29c239f571defe9e934f7236ac9e95bfa3464e21f164d827ba9c3d6f8fd1cc76",
+    "4996c65a-6dff-459f-80e1-8502d48d7198": "a75591f10c061147d4abedf9aa07c7d82d28e8ca8f41906658f63ed44b430aca",
+    "5b8908e9-865e-46b1-b1df-5b8f6c4b9056": "ef7f0dd524a5328663110354bd0dbcafd2aa7e127412fbd4f4fbeeb1d640eddc",
+    "cc3427d0-a618-49a5-84bf-b9b2c79c4d6c": "275616e66c3e8d28101748f9036e225a2dd7c6a026502e74b03e6430b8019d85",
+    "b5ae28c3-cb20-493d-b682-f626840932d4": "4b0d418f28a6ae8eba5c8b0803aa787c24fd815103b72bf69f97e132d2dc9da1",
+    "df52230a-bb32-4471-8d04-4ed9604296ca": "bc0297af767e31fa1b86d6bd5168c69f4e7d06e7df1aea1853de19a07129bab7",
+    "1c5d0062-886e-421a-bec9-829d9e780fca": "cf205150209a43231db46d4b2f710170f2c375010de4a9d4a96acba0359aedbd",
+    "5b55c7d1-27fb-4e89-a593-17b78f2cde49": "81ed9d3ac60a4c223f811f8d76be675d9624c74c099a0bb788e1f69a0eb3ac11",
+    "b6b96d19-97e3-4770-996a-f20696123abe": "387f99d881b843aaa96f3ccdb405788fd2e5c208646c6bab1c813c5097afdb22",
+    "3ae695a8-991a-4f2f-83aa-ea0763b2515b": "e97e932b49070439c12c5f805452be38c54c44d5ea385d4aa27aa31bff35d304",
+    "006143bc-cc3a-46de-a01b-97907b45c485": "72286f3e1923141f2a05f40b4e7f67feeb4509237659e07b0fd3ed6f927e17c7",
+    "9aa277b0-c06e-4c8f-871f-fc858ede75a1": "29f2ac22152b86b3a5389828c3d4ed2e0778f0fd890f8701830742503b42da6b",
+    "b639189a-d3da-4316-ba3a-a408ff911d73": "8dcb77571275c5557c0f1076fa44b989ba60395288941664360ac271809b600f",
+    "0baf322c-a71b-4790-b088-5d881ba3f2c1": "d0f4a92ace1a8409aa1c2612d035b10640c04145b45423de4b5009c721f19dca",
+    "951b8142-5777-429a-8bfb-44f9898ad631": "c39ac992ab09949f443b30896ce826a43a13f66dbe3b534fb806771cc56a6bfe",
+    "52adeea9-da77-4a26-91ce-a6802ca8d9a4": "4432c2904184d94d590fccdde7c5ea5352db0ae76e85f9a6b88ee57b9f2118a9",
+    "d5e04f50-0f60-4708-bde1-759f1d0f5894": "53b7244e36a7eaa9fe83bcfd0d3ee6de10bf877112dd59eb7c3b81cd73d96e4d"
+  },
+  "protected_inputs_sha256": {
+    "/mnt/c/Users/ephou/Downloads/xG/output/improvement-suite/confirmation_bundesliga/selection.jsonl": "68cee32eb336f1d2675c9fcb8cdfe4280f3501a09000ea03b827e1490a69644f",
+    "/mnt/c/Users/ephou/Downloads/xG/output/improvement-suite/confirmation_bundesliga/context.csv": "175c46dfb9ee433483192a7f93db785dff11fcb1f5857694cc85aeaf4186fd60",
+    "/mnt/c/Users/ephou/Downloads/xG/output/improvement-suite/confirmation_bundesliga/predictions.csv": "408f58a00399596aa1a17a6776a7bc1a9367a7d94f8a966dc59db0be5f5885bf",
+    "/mnt/c/Users/ephou/Downloads/xG/output/improvement-suite/confirmation_bundesliga/pixel_answers.json": "9bdfee227d1374a24eca02154816b4975db1765874a6ab90ab1b3020d3ca06a0",
+    "/mnt/c/Users/ephou/Downloads/xG/output/improvement-suite/confirmation_bundesliga/inference/baseline_cache.jsonl": "6db0c85b26e8cf9c43063d76d239a8dd73aea013827e0994d497328d88cea973",
+    "/mnt/c/Users/ephou/Downloads/xG/output/improvement-suite/confirmation_bundesliga/pixel_features.csv": "997a112162acf81c2681f873d70fc9fe9bc1f4b78f0674b30a5e5f05886b08b6",
+    "/mnt/c/Users/ephou/Downloads/xG/output/noise-robustness-v1/frozen_models.joblib": "a5558f24e6ad710d77936446d097b9fa32c41ef3e1eb19c2f1ca78041bc659ee",
+    "/mnt/c/Users/ephou/Downloads/xG/output/improvement-suite/context/frozen_models.joblib": "d1f1ad6a211db2f22d9013f0fd37f506ee6d2bac61842f1ec31853fb324826fd",
+    "/mnt/c/Users/ephou/Downloads/xG/output/improvement-suite/context/pre_shot_context.csv": "d839224704d3e406d97129269462ee03f07957eccc6ea91bd95bb437e1f96e37",
+    "/mnt/c/Users/ephou/Downloads/xG/output/research-loop/data/wc2018.jsonl": "41d023d7605b9a3e82ef7c640fbafc09e66bf4c0fe0a04236efd293b12ee4986",
+    "/mnt/c/Users/ephou/Downloads/xG/output/research-loop/data/wc2022.jsonl": "00f19129c87ce11446c22ad996ba43516e0e13e619687371a8bd7bc0280d9d55"
+  },
+  "implementation_sha256": {
+    "/home/evan/xG_Research/vlm-xg-benchmark/experiments/task_division/run_experiment.py": "3b2cf91705f6d196dacb10464c0428e7e00aaf2850df633363ed0edef9213a98",
+    "/home/evan/xG_Research/vlm-xg-benchmark/experiments/improvement_suite/robust_xg.py": "f4c5614e69292444a2a7f7da324af3601cbe8a82063eae09ca880288d899fe16",
+    "/home/evan/xG_Research/vlm-xg-benchmark/experiments/improvement_suite/spatial_models.py": "782d44b3ebc2fda528899eb20777acb890c644779d7a8cfa94fddc2cfdcf2e1d",
+    "/home/evan/xG_Research/vlm-xg-benchmark/experiments/improvement_suite/context_trial.py": "828c5b61ea832a78c7b03693065eabe9811fca85aa3da3c89864d8f5d95b2c00",
+    "/home/evan/xG_Research/vlm-xg-benchmark/experiments/improvement_suite/diagnose_geometry.py": "cb8f8edf25bfb111ff73611963a12a45fa1bdca8dc92ae94634ac720b9bd8ac4",
+    "/home/evan/xG_Research/vlm-xg-benchmark/experiments/improvement_suite/vision_trials.py": "dc5dd492118a73ae91dba651645e11d3cad85de96c12b3085d0246cb40fefd40",
+    "/home/evan/xG_Research/vlm-xg-benchmark/experiments/improvement_suite/fetch_context.py": "1e77fe80e7e80c2106c70f492596d0a3a5a94ef38966e84f740b46bbe447c6d0"
+  },
+  "metadata_model_sha256": "b0e81f141eb3d43cb3eb40d007c9e7a06fc5ef2fe9578ff757b4cf5e3c8f284c",
+  "training_shots": 3068,
+  "training_goals": 287,
+  "training_rate": 0.09354628422425032,
+  "training_matches": [
+    7525,
+    7529,
+    7530,
+    7531,
+    7532,
+    7533,
+    7534,
+    7535,
+    7536,
+    7537,
+    7538,
+    7539,
+    7540,
+    7541,
+    7542,
+    7543,
+    7544,
+    7545,
+    7546,
+    7547,
+    7548,
+    7549,
+    7550,
+    7551,
+    7552,
+    7553,
+    7554,
+    7555,
+    7556,
+    7557,
+    7558,
+    7559,
+    7560,
+    7561,
+    7562,
+    7563,
+    7564,
+    7565,
+    7566,
+    7567,
+    7568,
+    7569,
+    7570,
+    7571,
+    7572,
+    7576,
+    7577,
+    7578,
+    7579,
+    7580,
+    7581,
+    7582,
+    7583,
+    7584,
+    7585,
+    7586,
+    8649,
+    8650,
+    8651,
+    8652,
+    8655,
+    8656,
+    8657,
+    8658,
+    3857254,
+    3857255,
+    3857256,
+    3857257,
+    3857258,
+    3857259,
+    3857260,
+    3857261,
+    3857262,
+    3857263,
+    3857264,
+    3857265,
+    3857266,
+    3857267,
+    3857268,
+    3857269,
+    3857270,
+    3857271,
+    3857272,
+    3857273,
+    3857274,
+    3857275,
+    3857276,
+    3857277,
+    3857278,
+    3857279,
+    3857280,
+    3857281,
+    3857282,
+    3857283,
+    3857284,
+    3857285,
+    3857286,
+    3857287,
+    3857288,
+    3857289,
+    3857290,
+    3857291,
+    3857292,
+    3857293,
+    3857294,
+    3857295,
+    3857296,
+    3857297,
+    3857298,
+    3857299,
+    3857300,
+    3857301,
+    3869117,
+    3869118,
+    3869151,
+    3869152,
+    3869219,
+    3869220,
+    3869253,
+    3869254,
+    3869321,
+    3869354,
+    3869420,
+    3869486,
+    3869519,
+    3869552,
+    3869684,
+    3869685
+  ],
+  "evaluation_matches": [
+    3895052,
+    3895060,
+    3895067,
+    3895074,
+    3895086,
+    3895095,
+    3895107,
+    3895113,
+    3895121,
+    3895134,
+    3895139,
+    3895153,
+    3895158,
+    3895167,
+    3895180,
+    3895182,
+    3895194,
+    3895202,
+    3895210,
+    3895220,
+    3895232,
+    3895244,
+    3895250,
+    3895258,
+    3895266,
+    3895275,
+    3895286,
+    3895292,
+    3895302,
+    3895309,
+    3895320,
+    3895333,
+    3895340,
+    3895348
+  ],
+  "context_features": [
+    "shot_type",
+    "play_pattern",
+    "pass_height",
+    "under_pressure",
+    "prior_pass",
+    "pass_cross",
+    "pass_cutback",
+    "pass_through_ball",
+    "pass_seconds_before"
+  ],
+  "context": "Saved shot type, play pattern, pressure and latest earlier same-team pass in same possession/period within 15 seconds. No body part added.",
+  "fusion": "Concatenate specialist coordinates; code computes features; unchanged frozen noise-trained image and geometry/context heads. No test fitting or calibration.",
+  "metadata_only": "Training-only logistic C=.3, same metadata transform; no tuning.",
+  "visual_inputs": "Same unchanged image, shared geometry instructions, role task. No metadata, coordinates, goal outcomes or StatsBomb xG.",
+  "missingness": "Retain all shots; frozen training imputation; never substitute true test coordinates.",
+  "cohort_status": "Previously studied 200 Bundesliga shots in 34 Leverkusen fixtures; exploratory reuse, not new confirmation.",
+  "primary_pairs": [
+    [
+      "specialists_image",
+      "monolithic_image"
+    ],
+    [
+      "specialists_context",
+      "monolithic_context"
+    ]
+  ],
+  "bootstrap": {
+    "resamples": 4000,
+    "primary_confidence": 0.975,
+    "secondary_confidence": 0.95,
+    "unit": "whole match",
+    "multiplicity": "Bonferroni for two primary tests",
+    "refit": false
+  },
+  "request_limit": 600,
+  "sequential": true,
+  "max_sdk_retries": 3,
+  "cost_limit": "Two specialists cost two calls per shot versus one new geometry-only monolithic call. No equal-cost or different-underlying-model claim.",
+  "no_new_datasets": true,
+  "documentation": [
+    "https://developers.openai.com/api/docs/guides/images-vision?api-mode=responses",
+    "https://developers.openai.com/api/docs/guides/structured-outputs?api-mode=responses"
+  ]
+}

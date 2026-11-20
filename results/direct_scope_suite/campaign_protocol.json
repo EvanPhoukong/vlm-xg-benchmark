@@ -1,0 +1,69 @@
+{
+  "model": "gpt-6-luna",
+  "prompt": "You are a professional football (soccer) analyst.\nThe image shows a shot at the moment it is taken, drawn on a half pitch with the goal at the top.\nGold star = shooter. Blue circles = shooter's teammates. Red circles = opponents.\nOrange square = opposing goalkeeper.\nEstimate the probability that this shot results in a goal (expected goals, xG),\nassuming an average professional finisher.\nReply with JSON only: {\"xg\": <number between 0 and 1>, \"reason\": \"<one short sentence>\"}",
+  "schema": {
+    "type": "object",
+    "properties": {
+      "xg": {
+        "type": "number",
+        "minimum": 0,
+        "maximum": 1
+      },
+      "reason": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "xg",
+      "reason"
+    ],
+    "additionalProperties": false
+  },
+  "max_output_tokens": 4096,
+  "service_tier": "default",
+  "image_detail": "high",
+  "global_cap_usd": 2.0,
+  "prior_pilot_estimated_usd": 0.0063094,
+  "max_generation_attempts": 1000,
+  "retries": 0,
+  "batch_size": 10,
+  "prices_per_million": {
+    "input": 0.1,
+    "cached_input": 0.01,
+    "conservative_input": 0.125,
+    "output": 0.5
+  },
+  "stages": {
+    "reasoning": {
+      "n": 50,
+      "efforts": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "cap_usd": 0.35
+    },
+    "rendering": {
+      "n": 40,
+      "conditions": [
+        "standard",
+        "outline"
+      ],
+      "cap_usd": 0.2
+    },
+    "confirmation": {
+      "n": 150,
+      "cap_usd": 0.8
+    },
+    "invariance": {
+      "n": 20,
+      "cap_usd": 0.15
+    }
+  },
+  "decisions": "Finish fixed reasoning sample before selecting lowest-Brier effort (ties favor lower effort). Then a fixed WC development rendering comparison; use outline only if paired development Brier improves. Freeze candidate before independent confirmation. No confirmation-driven tuning or cohort extension.",
+  "scope": "Direct zero-shot image-to-Luna-to-raw-xG. No correction, training, numerical query answers, tools, ensembles or body-part metadata to the VLM.",
+  "confirmation": "150 natural-sample shots in unused AFCON match groups. Primary comparisons candidate minus four-feature logistic and candidate minus original low-effort method; Bonferroni 97.5% match intervals. No sampling until significance.",
+  "stopping": "Stop before any hard limit; on exhausted credit, unknown charge, malformed/truncated output or unexpected model, preserve everything and stop paid generation. Independent tests may continue offline.",
+  "allocation_note": "Expanded autonomy authorized by user after pilot; working ceiling $2, deliberately below the approximately $10 account limit. No reason to spend the remainder once tests are informative.",
+  "pricing_source": "https://developers.openai.com/api/docs/models/gpt-6-luna"
+}

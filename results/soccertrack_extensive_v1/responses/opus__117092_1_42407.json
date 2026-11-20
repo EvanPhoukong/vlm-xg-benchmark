@@ -1,0 +1,38 @@
+{
+  "model": "claude-opus-5-5",
+  "id": "msg_011CgzXuYWq4K4nh5ahHE5mP",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "thinking",
+      "thinking": "",
+      "signature": "CAQSkgYKEAgTGAI4AUIIdGhpbmtpbmcSDELPTFSC3C0tO4oLHRoMDvxXY7l8uloxSqsMIjBqGinL8nX94qdNjWCcVCCIJZjc9YowsnIs1bClp1KVIL36MzvKVB1KJ2hLc3te4lkqrwXo3HE8IAnDGqpHMDY8PYp2+XBPddYeo6uwwPyCJNq0fkmXDFI6n7qDMkrBc5BB5cYBLdTmlmdMW0eo7Wiczb82YET0ao32xgPEQ5XXu8+myArDI8OIO+xxcVmirptdg8faJy/G409XcAg1P9fa5b9M0tkYilG0YoyY0NY949WGsVSMaKrJeFwqpWdMzz5oH+MYdKa7CzfjqfTJxamZSBoDihloUzyHQ4utB71xRcqwrzi87rGNPGNaTiqmAAaOKdLqswCEc/W3Y8rDHC/lE79AAzu7gBAfJknlqc4wD1yYXqQINo4EuG7Hy0Ryl8ZTGRswtvCSCsVLHqp2o29ar4PAuVwyIsgJsYa14rCA4c0gEH3L95MMl4sPa7eju8LknEm3cGrEqXllcAAYQ2Rfk7XHs2cbtQ8H0IdYQQH9o2Wp+srstw5Z4vIL1IYzZIQfR3mxRK6MQ0FVA9s0YKLRpgTC4L9EL2BYPcBDhHKlNWLrNcQGQyqkZJL8/1vPQ1a8mwDgfiTrfPMjWfo76mcAhd56uX+VzOy+13yfnlJS5rsVUTciFsBwfhbsqORMMdcnpikmicgN081ivbQi//DgZKmvOMJysvAnMXE2mSxUIYXftSImu1HFKehxAtE60LPn2VRSjExLqo7+laX+ZVn3jFwv4g1KhupRKpWTSOz6EN//pe7ZoURrK7mCNlvUlAo7n0x+tl+MoYtgSi4aE4To0kpG+vs9EW47m7TggxNsfoFo1gZ0KJFmyeA/Sfz0TykG/VJjl6SIewCRQpUN8hd3qUz5F+pDT4Dog1Sq6zwE5nEgURAwjX3o9wHETN8wlvDw2rFp79ifrA1D0Sh3GU5/l+7BnX7r5DAFyHSi13Yar96fFRHiWl6jEIzMvLWfLekRdvv3KiIdbvKdswMeOA1ld4wYAQ=="
+    },
+    {
+      "type": "text",
+      "text": "{\"xg\": 0.07, \"reason\": \"The attack is near the right-hand goal, but the shooter seems to be around the edge of the box at an angle, with defenders and the goalkeeper in position, so this looks like a low-probability chance.\"}"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1666,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 135,
+    "output_tokens_details": {
+      "thinking_tokens": 55
+    },
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

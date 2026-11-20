@@ -1,0 +1,129 @@
+{
+  "id": "resp_0953a2650eb62745016af6c43441f087d0af1d823c53683262",
+  "object": "response",
+  "created_at": 1794556980,
+  "status": "completed",
+  "access_programs": {
+    "cyber": "standard"
+  },
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1794556991,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "image": {
+    "context_compression": "disabled"
+  },
+  "incomplete_details": null,
+  "input_transformations": [],
+  "instructions": null,
+  "max_output_tokens": 1024,
+  "max_tool_calls": null,
+  "model": "gpt-6.1-sol",
+  "moderation": null,
+  "output": [
+    {
+      "id": "rs_0953a2650eb62745016af6c435ea9487d0a9e31d12c332e25d",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq9sQ_hFEWSlVgS64Aw5xrtY5cQYL7pzgAYUCgPmWKqbL0yqNV4dxBlLm7KJq5XbxE6jdgJyQXDTUTtbDaCiQWCqrPzEINbyJTQOMPDZ3xix50rTvtkMkOYFwiQU80_dtmumtTnEjsyrDIKl6nh7hnuUpfgOPDpuHHf419pQHRKbI0LbveANykOzDcVs1Vt-JXpKb-PG948xSfFcsszAvbl1RPzSU6MNeyREhhHw9iPr5gaWRCN_X_anpl9Z6OVL1p-dn0NuGeCps06AWa3tBvR0_8UuNb2qWaZj22E4woosurSoGFVL1ggJDBGOOx6g8R6rtJVenj0nrl9gqi1QEQwXyt5nPcC0Mh_3go6B3mztrcRYGMOHs1YuIu2pSdwUoW1D_E5dUCuuaWDAjQ4BwmhgLQOK-7uOTmfWQD-x_A8exWz3RZ2lk1Ag2614Yg3AIF_WbRPnRHSbHTINgLB3OXvdeZL4yA7qi4QdZewtLhOqXrYNl_GI2osbunym4XS-xO7H7KopM08owHKcaaG95YGOK3LkiOEALdScNO5glKO8Yik1YGZBqVNUnoreNir9c6emTcJFV2oDtynMyVzaDQKN6KXC9GBQIHFtXYGIyp5RQTdFCkwIRVnfhWXteeK1uaH_u8y_5FBEW4_2SAJUQJ986uYgqu4MFEgMORLLBl9fSdCcrqdFgHYZ8_4UrHWiecxtNDg-nVIcoMxkmhiaY7wqscxMmM8bFJzEjAXfmieU4Ds6QhhHLLgclCGv9WQq8zcbpU_LBJEmfibYhUqC5wli2kAkmp_L7-oeGgf2KdkdyTihmvU4HCohV3KwdM2sYSFD93a5hMYapRjbuSHWDwDilWQhyZle9ii-o2tpQHcptPY3WI5cOKY9ULqCIemmqGaekXMOL89WrQqifrfm--MFk8UEYGToxXvuNcLfiwUqN-iUu1Td1AI1lsxXt7jXA9CMo-862m3PGSHY3_zi54UR8_f9bJ_NF5iETcgcOT74nsEsCMqXTB-L3ABloFygXaBFvaEt6Yh3fFLmHNLt9ae11K0eNOdEhyy88GP7CHX1MNkEh9pdFiIGCYSC80M_6U9vzPB8cBcPmHZzCYx6SboUpQnMYgv3AXRm4cCnolMpAIhLmiBMqdayfDM5cSXXKI1hMmUmL17wxg_HeUDL8gtYAlcws90YwPpatizW6zEjzxXcoPsFXnaZLafH4qkXAcWC-LlTT2zOFE7Pic1-eY_VWag3QMMdbhCKVuG6QGE6EKJhO0V_fFfk-1miC0sXv8GA1pgZ8orreIhbhftkWYfXKte4UvdS_9HbFk9JnV-7m-kgeGuH84FEw9-7XJRwIsp4oRzXDESn6J7bKdz3q5QELdIwCJmNvoG8aNxWTCeClNt1dXSa_KqO9b_3CXS2pGvysHyOB7pXH9Mpso63etQPzjbdZHcEQNtl3nfHg-SugkbCCxnJvHr2enYo4Fdaal1qqc5pzpaTylWT5D3UyNN35pBE7CBNuVXz5mPFCKeEyD3Kwg6hd7K2DPrqbgj0BU8nRcPYR0te5GxvvFKlKb_yLYulHeJcsKNnhz52k7NHQT7MEPUT-1ZVSu5AOizh2UeqGNf4b1GiReSBvSs_qzAWvlY-G6I5SMYn9Nmn1Y2FQmA2xEL82zXTPAYCPeVTmp9aVH7PU3s2Rz-b6EVzJKFM5qGfXlusda5CI2mottRJLx5DFJBGxxuPUb78JlzTgxKsv4RvH_sPKwWnBNC6GCZjE64qe8LmJmb9liR4AJUOTkuDQq4ZGUfdTndwhxz8j9O9Uwq4XCecYSwrOfN4kzfGPJA5uHnwbQTLbmyuvRvzEbIBSFQiMd2V_qhTbvxIi2VnjD2rq8uhmORmcpAfgLJJDa0RVs2nQ61DUg6Jz56AGquIjPMecTER0odRfyX6422VXfZRyPGbuyvGGas9BcY-eZGcNMFMdMiWRX_uy6js7wY1OLELBSd5yvKhPmKz3k_NqaMDSacjMlDVrt04XJ4hljJfmJQ5WJTKU-82dwtNOwO7LGr5QatUu5JXrtl2xSxBijNpKo6fPGE2HExKxTTIGDiapZPOpk5wq7LK1XK6xE5gHIAdy5c3i9fRtMq3YSu9QwNj_9HiEXqmCgtyMrUxcBsa6x77xzQoi1YDNG4DxKUrpmAFiPFznDfQTaYjBk2cNyKS7ZKyWdLM8B3s-NlnN_wpPP4r6uflf5HK9FNsWeXFgn5-SAdpFOhk8pv4WrNRXAdxteJHuATaGn95foQeHkOXRGKXN9jO-vIANMemzI1hgbAzqYfeMWZHUQeRMMhVBm4SUD_WCoNwXD6-uasvsVDl4SpIWxHm4QLgLnw_vDJlIjFnaT9_CazzvWskGkH_JZS8HK36C-xvsFPo8nPZUIJogt8l76F3bLarcM3qaNuY3Y50HdcxcvZnTB0xIW266D2uw3LeS0FOE8LMZV94d_VGdQz9emUj1n2G4MWsgxWjdqkkyuxKfFsyaQOPcUtncxvca3IxXLQcAn6gt6uMM41brXDBQNGEUS5ijZEgcQ8nIQpm1cLM5IZ0FXLKEr_Mvn7Ayin0hNWp1_aKMz0IxbftkH2I24KOzT0SUrsmyrwpQsrVjiUbDUS6zq2tmgQP0h7scpEkfGmx88beGUFOQtjZNArp5MdzVxKOacsNMapc4o8-hduzfu6BGK0HAch7l22HGaz0pj1ebkKdSnRvKGu7KGTSl6Cupwy4aS3zCCQeLsE9LokufUzrDhAuuYodT_FG4bT5URc_hHSkAO6CxXLvXEGyMO24jQDxyFp4rOaOVbjTcQhrz4wrociU5wOJdza_gvE-ps2poVD27ZvSt53NrXP3Pc9Lre0HXq8A16xyK4cEbXYFtHFF10kt3LKpwUByxFPt--oi3SraNImtO1A-6dsmgPOavlxGJd1P7mdm7etGqBxUvgNWt--YqxQNBynmQRybIJngTmpDM53WbGJgi4AdGmaFY-_AB2PtUfCTTeaDFH3cHcp4AYJ8yeaUx0zEDUdb6ovst7CSSbmBfjzBvQLhONH6ngtm2OhA0_627xfpyGuj2nInWYlPIkDhUZrRrbMmz9qfyq0XZKGQr_upjz_6Zg33AgB_0_TkB7MSt4WOB7jrGAv79z6nKvNxPkJdJOaFHatqs5QM_qQ3rXkdiD7U6sL-_GkzcOFP37ltiBBvOXeyyo9UtEdgnswYK32JEa-NhprluqBdjM9_Hm0Krp7r7RMbCiXIrncawxobRuryHR3GkY8wp-w_9uCE2g_h8xNUCDlvMPOgmEqOxo-wr_3xr9oZmokwDgGAoUIrU_-5RlYGgs1_mKiJdItMXWuCw88O7hRIFtppIOp97LOyBqFJD4d3DfiwbyI-iSxF7enAV6rLfD1RuZ6cVToKLp2Yb2tmUTO9Xufio8TJcX84wQe1HetK_kosLYtgz4GAlNdGGAI8tm0iAGh5Ha8XDLSEX2FtAMCXZ_TwIji0MhgXw1eC5TzxPGSKHwU0FkkinHBWamsl9CJWr-XzAFCg9BlhNQ5BVUrj0odv3HCsD3Jc3dtk2WpDj2-Ye9L5cy5ZtvLNGoR5eIvOn9qrnJcQ2u2JNkZtTnTXIcLaMPQ-pN64ncdky6dkYIntVfTgapFmfv3a5jkOCa4T4s-dwP4eB-TM6bYlpGUBrmO9RmbzHi1VoTDV6NlmbSoN2q9O7IfLYAGYRzi-v9wAjRbssaTmHJ7vv1xE2g8P1kHh9kByi2p7icVdTtTNOHvQHjEbIkZjgHRYFBfd7JQeWx20mnTA8EClAegYbQAyVQvjnbhwjJ-Gwy-VTyLrzhUOBwHFPiZmSWyhXpkJJzzG8nQD4wn8lCpRd0iIFBtcGBe2XoJdAv5tZ54CJnMB0WC6Wt1NDJ3EI8CTQYfronRxuhJk_C2fRlY6ZZ1meTsQv-vgWBNI43OBMxuPgBM4yGJGuWNAr6WnpAnfVs05NPz2M7hn9ta1KiPdeAn4CzIcwUXGiLjqJlLSOMQY6ZnlVtOWIWte4Tn1TU0Khbv_X_2wYDk1591V2c713ti2r_69skVI-JsoA2EqZIt2YhrKLXwX6EpMi5ZP-NUbYDU-xVUA7_if6q9n-aYjcLGx5NyB85mxuT4gaK9sfgilmVo9oRtNe5LwtyygO6-Pp34rPqbC0iwllkDtfS7UL6Qr5PEE6ekT2nOJH96LHQKL2-Mmf3BH2qQDeiADkJkDG8_k0KpCR069GMY4iAfcuxlfXBjB_5YIE_nXFFfD_kRi3DwJgyYhjsgPpDp2M5kKnrvU5Qt1WIyrd0wbyJXc5c7Cyjgl3dfDnlkSVKSRqPMKyZqOKuToF10g57s2FIZUsRPxEBsnIkIQUZABhT_IVYYZRiL9SS0J7ySY-dLr_xi0oaFc1Iw72oDSTcdtSQpaqafh0LJd__qYx9OUvT_knyBn3_N54LbzG1ZEDBsO49BsFFMh9Vf7XUn3RBfJP5YPbtKW00SzzyRQj6TOkuRXejEiQj7RWW-J0qCWdLBc_8D0I_vmh938Pe67XcQTe7BrxBQ4MCsNX9Izpv2Z76nW7-S-ZXqbPV10HLNBRta0we7EntEuOG7e7hziZO2svWZGKnOl7JVMFvvkRAFn9_2vSwPP3jNcz1UEEXZ3SExDtx_dhj0l0X_iLfkTe1-XXqIUsT5sV8rOEIvtNFdjzSHgI5sK_nHPQjzi7sd5Wmcp6VRQWjwqc2zkZtNF73izqHcO6zERHKltDb8538TL3laKOc7T1NzGl2fvqJqBWHdQoiDEpazsS-iKwbcJYc0wnv9s4ur_t-95Zdazdue81Ef62FzDxrV9sOvQIN6xSY-fqY9BkCaVwhsxid8HJr34ytYbjmMFbggHOQyn4DDWDlOqRYVCZfBefgpXD-XvboRwvDFIjiC1YtI61heNJOmVHoQ2942R1WU04QsjhWf9leZTR_2G9usNc4oTFndBpcguRGqokUjjkZXcgVQWoKvWVTrgK7w4DtInDeIzj7o9T8PoSFlRKoGeR9ld5SBzZ_hsPiBpjmosDFHOe3EzVsUd-tYDzb8upZWhPP_i1buX2td51k46N3sSrl0aXegGo5hzqiIPAEYayL_kdgAh7aIZQ=",
+      "summary": []
+    },
+    {
+      "id": "msg_0953a2650eb62745016af6c43e57f087d09e003a35be28f024",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"xg\":0.14,\"reason\":\"The shooter appears to be inside the penalty area at an angle, with nearby defensive pressure and the goalkeeper covering the goal.\"}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "all_turns",
+    "effort": "low",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": false,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "json_schema",
+      "description": null,
+      "name": "shot_prediction",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "xg": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "reason": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "xg",
+          "reason"
+        ],
+        "additionalProperties": false
+      },
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 860,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 298,
+    "output_tokens_details": {
+      "reasoning_tokens": 253
+    },
+    "total_tokens": 1158
+  },
+  "user": null,
+  "metadata": {}
+}

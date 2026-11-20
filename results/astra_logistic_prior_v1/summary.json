@@ -1,0 +1,69 @@
+{
+  "shots": 100,
+  "goals": 13,
+  "matches": 40,
+  "scores": {
+    "hybrid": {
+      "brier": 0.09949110924205998,
+      "log_loss": 0.3463526737268691,
+      "auc": 0.7294429708222812,
+      "mean_xg": 0.09276109999999999
+    },
+    "astra": {
+      "brier": 0.10883449999999999,
+      "log_loss": 0.3679988339593115,
+      "auc": 0.6856763925729443,
+      "mean_xg": 0.15650000000000003
+    },
+    "original_logistic": {
+      "brier": 0.10269971072614434,
+      "log_loss": 0.35347971717360777,
+      "auc": 0.7232537577365163,
+      "mean_xg": 0.09935049342758326
+    },
+    "original_no_header": {
+      "brier": 0.10438884846054347,
+      "log_loss": 0.36296790859701317,
+      "auc": 0.6923076923076923,
+      "mean_xg": 0.09920221524984232
+    },
+    "sb_xg": {
+      "brier": 0.09209876974519768,
+      "log_loss": 0.3377415295174347,
+      "auc": 0.7418213969938108,
+      "mean_xg": 0.10998296369399999
+    }
+  },
+  "primary": [
+    {
+      "first": "hybrid",
+      "second": "astra",
+      "difference": -0.009343390757939996,
+      "confidence_level": 0.975,
+      "interval": [
+        -0.024694628328680964,
+        0.006686240434060383
+      ]
+    },
+    {
+      "first": "hybrid",
+      "second": "original_logistic",
+      "difference": -0.0032086014840843513,
+      "confidence_level": 0.975,
+      "interval": [
+        -0.006230266414118189,
+        -0.0007736774658994341
+      ]
+    }
+  ],
+  "adjustments": {
+    "mean_absolute": 0.01565976,
+    "median_absolute": 0.009262999999999999,
+    "up_at_least_one_point": 10,
+    "down_at_least_one_point": 38
+  },
+  "returned_model": "gpt-6-astra",
+  "completed_calls": 200,
+  "estimated_usd": 2.07485,
+  "conservative_usd": 2.3236
+}

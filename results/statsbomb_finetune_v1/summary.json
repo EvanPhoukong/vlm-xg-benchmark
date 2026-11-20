@@ -1,0 +1,80 @@
+{
+  "status": "data_and_baselines_prepared_training_blocked",
+  "dataset": {
+    "train": {
+      "shots": 2000,
+      "goals": 181,
+      "matches": 207
+    },
+    "validation": {
+      "shots": 400,
+      "goals": 49,
+      "matches": 43
+    },
+    "test": {
+      "shots": 500,
+      "goals": 63,
+      "matches": 48
+    }
+  },
+  "eligible_cached_shots": 7196,
+  "cached_matches": 298,
+  "training_runtime": {
+    "model_id": "Qwen/Qwen2-VL-2B-Instruct",
+    "missing_packages": [
+      "torch",
+      "transformers",
+      "peft",
+      "accelerate",
+      "bitsandbytes"
+    ],
+    "paid_api_calls": 0,
+    "cloud_gpu_jobs": 0,
+    "status": "blocked_missing_training_runtime"
+  },
+  "validation_baselines": {
+    "image_feature_logistic": {
+      "n": 400,
+      "goals": 49,
+      "goal_rate": 0.1225,
+      "brier": 0.10059870351890979,
+      "logloss": 0.35908104600766566,
+      "auc": 0.6582359439502297,
+      "mean_xg": 0.1002513542463184,
+      "mean_bias": -0.022248645753681604
+    },
+    "logistic_with_header": {
+      "n": 400,
+      "goals": 49,
+      "goal_rate": 0.1225,
+      "brier": 0.0974205872242683,
+      "logloss": 0.34716650478640504,
+      "auc": 0.6804465375893948,
+      "mean_xg": 0.09815163082908315,
+      "mean_bias": -0.024348369170916852
+    },
+    "training_goal_rate": {
+      "n": 400,
+      "goals": 49,
+      "goal_rate": 0.1225,
+      "brier": 0.10851774999999998,
+      "logloss": 0.37753456156236653,
+      "auc": 0.5,
+      "mean_xg": 0.09050000000000001,
+      "mean_bias": -0.03199999999999999
+    },
+    "statsbomb_xg": {
+      "n": 400,
+      "goals": 49,
+      "goal_rate": 0.1225,
+      "brier": 0.09469815334286945,
+      "logloss": 0.3304896513841821,
+      "auc": 0.7259142973428687,
+      "mean_xg": 0.10063124962775,
+      "mean_bias": -0.02186875037225
+    }
+  },
+  "test_scored": false,
+  "finetuned_model_results": null,
+  "new_api_spend_usd": 0
+}

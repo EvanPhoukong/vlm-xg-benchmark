@@ -1,0 +1,317 @@
+[
+  {
+    "match_id": "117092",
+    "bas_sha256": "a14e98f80b07774484485fef90b0efde788b2f429c39c62817c036a150a74d9f",
+    "nodes_sha256": "7160895581faed646ef17dc89c208ef5f534ab77dc84dcd0f1b979cf2d6f55a8",
+    "clock_offsets": {
+      "1": {
+        "offset_ms": 0,
+        "support": 975,
+        "candidates": 1006,
+        "method": "non-shot/non-goal actor/time mode"
+      },
+      "2": {
+        "offset_ms": 2701080,
+        "support": 740,
+        "candidates": 1034,
+        "method": "non-shot/non-goal actor/time mode"
+      }
+    },
+    "bas_shot_goal_events": 29,
+    "unique_shots": 29,
+    "goals": 4,
+    "duplicate_shot_ids": [],
+    "actor_repairs": [
+      {
+        "shot_id": "117092_1_32237",
+        "bas_actor": "467248",
+        "raw_shooter": "467319",
+        "method": "unique primary-shot node at aligned time"
+      }
+    ],
+    "excluded": []
+  },
+  {
+    "match_id": "117093",
+    "bas_sha256": "3af71f3c1c30184a3deddb9485299dc2d4e6faa8c629e5966ca500e7eddf768f",
+    "nodes_sha256": "808326901dbca78cbf447ac79cbdffcffeb7723905e999514e7235a56ed322bc",
+    "clock_offsets": {
+      "1": {
+        "offset_ms": 1040,
+        "support": 790,
+        "candidates": 1117,
+        "method": "non-shot/non-goal actor/time mode"
+      },
+      "2": {
+        "offset_ms": 2700007,
+        "support": 1069,
+        "candidates": 1101,
+        "method": "non-shot/non-goal actor/time mode"
+      }
+    },
+    "bas_shot_goal_events": 28,
+    "unique_shots": 28,
+    "goals": 5,
+    "duplicate_shot_ids": [],
+    "actor_repairs": [],
+    "excluded": []
+  },
+  {
+    "match_id": "118575",
+    "bas_sha256": "0a9cafadb15a6728f1dd14d28cd24d535d5cd70f00faa6bfa6c1651c77527692",
+    "nodes_sha256": "6505396e39d5dfe9fd146630cacb2b40e2a8ae5a84e0cb9137d9bfcc4b32c59a",
+    "clock_offsets": {
+      "1": {
+        "offset_ms": 47,
+        "support": 1004,
+        "candidates": 1044,
+        "method": "non-shot/non-goal actor/time mode"
+      },
+      "2": {
+        "offset_ms": 2700047,
+        "support": 996,
+        "candidates": 1042,
+        "method": "non-shot/non-goal actor/time mode"
+      }
+    },
+    "bas_shot_goal_events": 24,
+    "unique_shots": 24,
+    "goals": 3,
+    "duplicate_shot_ids": [],
+    "actor_repairs": [],
+    "excluded": []
+  },
+  {
+    "match_id": "118576",
+    "bas_sha256": "8204d846538217bb11b2522e338b1831cff56e282067e5260d6b0344bbf698b3",
+    "nodes_sha256": "66901bb95b9b8ca8b8099e515989a1ccd48bc164034e6ae5c96737c80f8ad344",
+    "clock_offsets": {
+      "1": {
+        "offset_ms": 1160,
+        "support": 721,
+        "candidates": 1092,
+        "method": "non-shot/non-goal actor/time mode"
+      },
+      "2": {
+        "offset_ms": 2701160,
+        "support": 670,
+        "candidates": 973,
+        "method": "non-shot/non-goal actor/time mode"
+      }
+    },
+    "bas_shot_goal_events": 43,
+    "unique_shots": 43,
+    "goals": 5,
+    "duplicate_shot_ids": [],
+    "actor_repairs": [],
+    "excluded": []
+  },
+  {
+    "match_id": "118577",
+    "bas_sha256": "6ab0c346f865af10883a1c12c8953cbb13fb9ca9742f3c8231774c9d6af9a926",
+    "nodes_sha256": "318310d517f37fad2a942e263911f23a95c6360ff8752ff77e657b9783ee256f",
+    "clock_offsets": {
+      "1": {
+        "offset_ms": 80,
+        "support": 872,
+        "candidates": 904,
+        "method": "non-shot/non-goal actor/time mode"
+      },
+      "2": {
+        "offset_ms": 2701040,
+        "support": 710,
+        "candidates": 979,
+        "method": "non-shot/non-goal actor/time mode"
+      }
+    },
+    "bas_shot_goal_events": 33,
+    "unique_shots": 33,
+    "goals": 5,
+    "duplicate_shot_ids": [],
+    "actor_repairs": [
+      {
+        "shot_id": "118577_1_19387",
+        "bas_actor": "476365",
+        "raw_shooter": "481049",
+        "method": "unique primary-shot node at aligned time"
+      },
+      {
+        "shot_id": "118577_1_61420",
+        "bas_actor": "476359",
+        "raw_shooter": "481049",
+        "method": "unique primary-shot node at aligned time"
+      }
+    ],
+    "excluded": []
+  },
+  {
+    "match_id": "118578",
+    "bas_sha256": "f4d8ab569d273b52a830b7c3101a55946aa896295d20d14cf29695c4de83da92",
+    "nodes_sha256": "37627121fb6847a98fbf454798d4dc3bc378287d9cac4d0fea6419d36bceeafa",
+    "clock_offsets": {
+      "1": {
+        "offset_ms": 1007,
+        "support": 799,
+        "candidates": 1110,
+        "method": "non-shot/non-goal actor/time mode"
+      },
+      "2": {
+        "offset_ms": 2700087,
+        "support": 917,
+        "candidates": 960,
+        "method": "non-shot/non-goal actor/time mode"
+      }
+    },
+    "bas_shot_goal_events": 29,
+    "unique_shots": 29,
+    "goals": 4,
+    "duplicate_shot_ids": [],
+    "actor_repairs": [
+      {
+        "shot_id": "118578_2_62149",
+        "bas_actor": "480603",
+        "raw_shooter": "467262",
+        "method": "unique primary-shot node at aligned time"
+      }
+    ],
+    "excluded": []
+  },
+  {
+    "match_id": "128057",
+    "bas_sha256": "03bb79bdf9404ad9e8bb1c8c569676ec82614ea3e2360238d10ff8fd78c9f577",
+    "nodes_sha256": "22ac6cc339d0e2f0d57b7639611430ece36d20f7f0f12e4eba8f06d15b641beb",
+    "clock_offsets": {
+      "1": {
+        "offset_ms": 967,
+        "support": 697,
+        "candidates": 927,
+        "method": "non-shot/non-goal actor/time mode"
+      },
+      "2": {
+        "offset_ms": 2701087,
+        "support": 687,
+        "candidates": 969,
+        "method": "non-shot/non-goal actor/time mode"
+      }
+    },
+    "bas_shot_goal_events": 27,
+    "unique_shots": 27,
+    "goals": 5,
+    "duplicate_shot_ids": [],
+    "actor_repairs": [],
+    "excluded": []
+  },
+  {
+    "match_id": "128058",
+    "bas_sha256": "397a363df2d4a307f46b09699ea34ef4e67d6d353ed9e9611e3552b53ef0c788",
+    "nodes_sha256": "237bc7b57ee0d4d0834477adb04f4916e2d3938da515d94bde402935cb81e343",
+    "clock_offsets": {
+      "1": {
+        "offset_ms": 1047,
+        "support": 805,
+        "candidates": 1134,
+        "method": "non-shot/non-goal actor/time mode"
+      },
+      "2": {
+        "offset_ms": 2701007,
+        "support": 705,
+        "candidates": 974,
+        "method": "non-shot/non-goal actor/time mode"
+      }
+    },
+    "bas_shot_goal_events": 29,
+    "unique_shots": 29,
+    "goals": 5,
+    "duplicate_shot_ids": [],
+    "actor_repairs": [],
+    "excluded": []
+  },
+  {
+    "match_id": "132831",
+    "bas_sha256": "dd14428b3a0495969ce3a6ca68cb0c73509672c12b82c685c9bcb5d68ee4e3c7",
+    "nodes_sha256": "ef871ff507d9c62219ac7a9e4d7575835e80264c223fdbe8dc1c119b48224604",
+    "clock_offsets": {
+      "1": {
+        "offset_ms": 1080,
+        "support": 831,
+        "candidates": 1219,
+        "method": "non-shot/non-goal actor/time mode"
+      },
+      "2": {
+        "offset_ms": 2701280,
+        "support": 780,
+        "candidates": 1170,
+        "method": "non-shot/non-goal actor/time mode"
+      }
+    },
+    "bas_shot_goal_events": 40,
+    "unique_shots": 37,
+    "goals": 5,
+    "duplicate_shot_ids": [
+      "132831_1_43565",
+      "132831_1_54099",
+      "132831_1_60049"
+    ],
+    "actor_repairs": [
+      {
+        "shot_id": "132831_1_54099",
+        "bas_actor": "520168",
+        "raw_shooter": "520188",
+        "method": "unique primary-shot node at aligned time"
+      },
+      {
+        "shot_id": "132831_1_54099",
+        "bas_actor": "520168",
+        "raw_shooter": "520188",
+        "method": "unique primary-shot node at aligned time"
+      },
+      {
+        "shot_id": "132831_1_60049",
+        "bas_actor": "520192",
+        "raw_shooter": "520171",
+        "method": "unique primary-shot node at aligned time"
+      },
+      {
+        "shot_id": "132831_1_60049",
+        "bas_actor": "520192",
+        "raw_shooter": "520171",
+        "method": "unique primary-shot node at aligned time"
+      }
+    ],
+    "excluded": []
+  },
+  {
+    "match_id": "132877",
+    "bas_sha256": "8ce694545512fad2bb305e16ebf956d30d08db3240b9d5c12208bb5098716f03",
+    "nodes_sha256": "d80f6c99867394b012718d9de63e1fea38ed991cb9f37ed8d953f87bdb22cc4b",
+    "clock_offsets": {
+      "1": {
+        "offset_ms": 1200,
+        "support": 797,
+        "candidates": 1170,
+        "method": "non-shot/non-goal actor/time mode"
+      },
+      "2": {
+        "offset_ms": 2701120,
+        "support": 768,
+        "candidates": 1077,
+        "method": "non-shot/non-goal actor/time mode"
+      }
+    },
+    "bas_shot_goal_events": 28,
+    "unique_shots": 27,
+    "goals": 3,
+    "duplicate_shot_ids": [
+      "132877_2_41193"
+    ],
+    "actor_repairs": [
+      {
+        "shot_id": "132877_1_60633",
+        "bas_actor": "518311",
+        "raw_shooter": "518296",
+        "method": "unique primary-shot node at aligned time"
+      }
+    ],
+    "excluded": []
+  }
+]

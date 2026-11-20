@@ -1,0 +1,35 @@
+{
+  "shots": 46,
+  "goals": 7,
+  "matches": 2,
+  "scores": {
+    "vlm_xg": {
+      "brier": 0.1054413043478261,
+      "log_loss": 0.34363501902688093,
+      "auc": 0.804029304029304,
+      "mean_xg": 0.1823913043478261
+    },
+    "original_logistic": {
+      "brier": 0.10130130402702898,
+      "log_loss": 0.33982005160987766,
+      "auc": 0.8095238095238095,
+      "mean_xg": 0.10517210167471684
+    },
+    "original_no_header": {
+      "brier": 0.10601490235300429,
+      "log_loss": 0.3536780216494743,
+      "auc": 0.7765567765567765,
+      "mean_xg": 0.11559379143163712
+    },
+    "training_prior": {
+      "brier": 0.13245421209347935,
+      "log_loss": 0.4438149923688428,
+      "auc": 0.5,
+      "mean_xg": 0.09354628422425032
+    }
+  },
+  "goal_rate": 0.15217391304347827,
+  "mean_overprediction": 0.030217391304347835,
+  "descriptive_brier_difference": 0.004140000320797116,
+  "inference_limit": "Two games; no formal population-level interval or superiority claim."
+}

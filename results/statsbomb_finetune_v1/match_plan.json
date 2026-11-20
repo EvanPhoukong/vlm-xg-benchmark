@@ -1,0 +1,2101 @@
+{
+  "seed": 2026111302,
+  "splits": {
+    "train": [
+      "22926",
+      "22930",
+      "22933",
+      "22934",
+      "22936",
+      "22940",
+      "22942",
+      "22943",
+      "22945",
+      "22948",
+      "22949",
+      "22955",
+      "22956",
+      "22962",
+      "22963",
+      "22964",
+      "22966",
+      "22974",
+      "22981",
+      "22984",
+      "265952",
+      "266160",
+      "266191",
+      "266273",
+      "266280",
+      "266299",
+      "266440",
+      "266516",
+      "266528",
+      "266557",
+      "266874",
+      "266892",
+      "266952",
+      "267076",
+      "267077",
+      "267101",
+      "267220",
+      "267273",
+      "267274",
+      "267327",
+      "267373",
+      "267395",
+      "267432",
+      "267492",
+      "267569",
+      "267590",
+      "267596",
+      "267660",
+      "3753972",
+      "3753994",
+      "3754004",
+      "3754021",
+      "3754026",
+      "3754047",
+      "3754063",
+      "3754067",
+      "3754069",
+      "3754079",
+      "3754080",
+      "3754085",
+      "3754087",
+      "3754088",
+      "3754090",
+      "3754092",
+      "3754098",
+      "3754104",
+      "3754107",
+      "3754111",
+      "3754116",
+      "3754122",
+      "3754123",
+      "3754127",
+      "3754135",
+      "3754140",
+      "3754143",
+      "3754145",
+      "3754149",
+      "3754159",
+      "3754175",
+      "3754180",
+      "3754217",
+      "3754221",
+      "3754227",
+      "3754241",
+      "3754243",
+      "3754256",
+      "3754263",
+      "3754276",
+      "3754280",
+      "3754281",
+      "3754296",
+      "3754297",
+      "3754299",
+      "3754308",
+      "3754309",
+      "3754317",
+      "3754319",
+      "3754331",
+      "3754337",
+      "3754340",
+      "3754342",
+      "3754344",
+      "3754346",
+      "3754350",
+      "3825567",
+      "3825573",
+      "3825576",
+      "3825577",
+      "3825579",
+      "3825580",
+      "3825588",
+      "3825592",
+      "3825602",
+      "3825604",
+      "3825607",
+      "3825624",
+      "3825640",
+      "3825650",
+      "3825660",
+      "3825663",
+      "3825669",
+      "3825670",
+      "3825673",
+      "3825677",
+      "3825682",
+      "3825683",
+      "3825689",
+      "3825691",
+      "3825712",
+      "3825719",
+      "3825723",
+      "3825741",
+      "3825761",
+      "3825762",
+      "3825779",
+      "3825783",
+      "3825801",
+      "3825809",
+      "3825813",
+      "3825822",
+      "3825826",
+      "3825831",
+      "3825838",
+      "3825843",
+      "3825844",
+      "3825858",
+      "3825860",
+      "3825865",
+      "3825866",
+      "3825875",
+      "3825877",
+      "3825895",
+      "3825898",
+      "3825900",
+      "3825906",
+      "3920384",
+      "3920385",
+      "3920387",
+      "3920388",
+      "3920390",
+      "3920392",
+      "3920394",
+      "3920395",
+      "3920397",
+      "3920399",
+      "3920400",
+      "3920402",
+      "3920403",
+      "3920405",
+      "3920406",
+      "3920407",
+      "3920408",
+      "3920409",
+      "3920410",
+      "3920411",
+      "3920412",
+      "3920413",
+      "3920414",
+      "3920416",
+      "3920418",
+      "3922238",
+      "3922239",
+      "3922240",
+      "3922241",
+      "3922243",
+      "3922244",
+      "3922356",
+      "3922658",
+      "3922838",
+      "3923880",
+      "3923881",
+      "68312",
+      "68337",
+      "68338",
+      "68345",
+      "68346",
+      "68355",
+      "68357",
+      "69137",
+      "69161",
+      "69188",
+      "69191",
+      "69199",
+      "69205",
+      "69258",
+      "69284",
+      "69321"
+    ],
+    "validation": [
+      "22924",
+      "22944",
+      "22961",
+      "22973",
+      "22983",
+      "266477",
+      "266669",
+      "266731",
+      "267058",
+      "267212",
+      "3753987",
+      "3753991",
+      "3754009",
+      "3754083",
+      "3754108",
+      "3754166",
+      "3754224",
+      "3754284",
+      "3754303",
+      "3754322",
+      "3754328",
+      "3754329",
+      "3825569",
+      "3825574",
+      "3825584",
+      "3825625",
+      "3825745",
+      "3825753",
+      "3825775",
+      "3825806",
+      "3825873",
+      "3825893",
+      "3825902",
+      "3825907",
+      "3920389",
+      "3920404",
+      "3920415",
+      "3920419",
+      "3922237",
+      "3922321",
+      "3922837",
+      "69163",
+      "69202"
+    ],
+    "test": [
+      "22921",
+      "22939",
+      "22980",
+      "266033",
+      "266357",
+      "266989",
+      "267039",
+      "267464",
+      "267611",
+      "267670",
+      "3754000",
+      "3754008",
+      "3754066",
+      "3754125",
+      "3754170",
+      "3754173",
+      "3754200",
+      "3754228",
+      "3754232",
+      "3754271",
+      "3754279",
+      "3754316",
+      "3825564",
+      "3825572",
+      "3825671",
+      "3825704",
+      "3825720",
+      "3825724",
+      "3825767",
+      "3825789",
+      "3825805",
+      "3825821",
+      "3825857",
+      "3920386",
+      "3920391",
+      "3920393",
+      "3920396",
+      "3920398",
+      "3920401",
+      "3920417",
+      "3922242",
+      "3922659",
+      "68311",
+      "68343",
+      "68344",
+      "68362",
+      "69208",
+      "69301"
+    ]
+  },
+  "metadata": {
+    "22921": {
+      "competition_id": 72,
+      "season_id": 30,
+      "competition_name": "Women's World Cup",
+      "season_name": "2019"
+    },
+    "22924": {
+      "competition_id": 72,
+      "season_id": 30,
+      "competition_name": "Women's World Cup",
+      "season_name": "2019"
+    },
+    "22926": {
+      "competition_id": 72,
+      "season_id": 30,
+      "competition_name": "Women's World Cup",
+      "season_name": "2019"
+    },
+    "22930": {
+      "competition_id": 72,
+      "season_id": 30,
+      "competition_name": "Women's World Cup",
+      "season_name": "2019"
+    },
+    "22933": {
+      "competition_id": 72,
+      "season_id": 30,
+      "competition_name": "Women's World Cup",
+      "season_name": "2019"
+    },
+    "22934": {
+      "competition_id": 72,
+      "season_id": 30,
+      "competition_name": "Women's World Cup",
+      "season_name": "2019"
+    },
+    "22936": {
+      "competition_id": 72,
+      "season_id": 30,
+      "competition_name": "Women's World Cup",
+      "season_name": "2019"
+    },
+    "22939": {
+      "competition_id": 72,
+      "season_id": 30,
+      "competition_name": "Women's World Cup",
+      "season_name": "2019"
+    },
+    "22940": {
+      "competition_id": 72,
+      "season_id": 30,
+      "competition_name": "Women's World Cup",
+      "season_name": "2019"
+    },
+    "22942": {
+      "competition_id": 72,
+      "season_id": 30,
+      "competition_name": "Women's World Cup",
+      "season_name": "2019"
+    },
+    "22943": {
+      "competition_id": 72,
+      "season_id": 30,
+      "competition_name": "Women's World Cup",
+      "season_name": "2019"
+    },
+    "22944": {
+      "competition_id": 72,
+      "season_id": 30,
+      "competition_name": "Women's World Cup",
+      "season_name": "2019"
+    },
+    "22945": {
+      "competition_id": 72,
+      "season_id": 30,
+      "competition_name": "Women's World Cup",
+      "season_name": "2019"
+    },
+    "22948": {
+      "competition_id": 72,
+      "season_id": 30,
+      "competition_name": "Women's World Cup",
+      "season_name": "2019"
+    },
+    "22949": {
+      "competition_id": 72,
+      "season_id": 30,
+      "competition_name": "Women's World Cup",
+      "season_name": "2019"
+    },
+    "22955": {
+      "competition_id": 72,
+      "season_id": 30,
+      "competition_name": "Women's World Cup",
+      "season_name": "2019"
+    },
+    "22956": {
+      "competition_id": 72,
+      "season_id": 30,
+      "competition_name": "Women's World Cup",
+      "season_name": "2019"
+    },
+    "22961": {
+      "competition_id": 72,
+      "season_id": 30,
+      "competition_name": "Women's World Cup",
+      "season_name": "2019"
+    },
+    "22962": {
+      "competition_id": 72,
+      "season_id": 30,
+      "competition_name": "Women's World Cup",
+      "season_name": "2019"
+    },
+    "22963": {
+      "competition_id": 72,
+      "season_id": 30,
+      "competition_name": "Women's World Cup",
+      "season_name": "2019"
+    },
+    "22964": {
+      "competition_id": 72,
+      "season_id": 30,
+      "competition_name": "Women's World Cup",
+      "season_name": "2019"
+    },
+    "22966": {
+      "competition_id": 72,
+      "season_id": 30,
+      "competition_name": "Women's World Cup",
+      "season_name": "2019"
+    },
+    "22973": {
+      "competition_id": 72,
+      "season_id": 30,
+      "competition_name": "Women's World Cup",
+      "season_name": "2019"
+    },
+    "22974": {
+      "competition_id": 72,
+      "season_id": 30,
+      "competition_name": "Women's World Cup",
+      "season_name": "2019"
+    },
+    "22980": {
+      "competition_id": 72,
+      "season_id": 30,
+      "competition_name": "Women's World Cup",
+      "season_name": "2019"
+    },
+    "22981": {
+      "competition_id": 72,
+      "season_id": 30,
+      "competition_name": "Women's World Cup",
+      "season_name": "2019"
+    },
+    "22983": {
+      "competition_id": 72,
+      "season_id": 30,
+      "competition_name": "Women's World Cup",
+      "season_name": "2019"
+    },
+    "22984": {
+      "competition_id": 72,
+      "season_id": 30,
+      "competition_name": "Women's World Cup",
+      "season_name": "2019"
+    },
+    "3753972": {
+      "competition_id": 2,
+      "season_id": 27,
+      "competition_name": "Premier League",
+      "season_name": "2015/2016"
+    },
+    "3753987": {
+      "competition_id": 2,
+      "season_id": 27,
+      "competition_name": "Premier League",
+      "season_name": "2015/2016"
+    },
+    "3753991": {
+      "competition_id": 2,
+      "season_id": 27,
+      "competition_name": "Premier League",
+      "season_name": "2015/2016"
+    },
+    "3753994": {
+      "competition_id": 2,
+      "season_id": 27,
+      "competition_name": "Premier League",
+      "season_name": "2015/2016"
+    },
+    "3754000": {
+      "competition_id": 2,
+      "season_id": 27,
+      "competition_name": "Premier League",
+      "season_name": "2015/2016"
+    },
+    "3754004": {
+      "competition_id": 2,
+      "season_id": 27,
+      "competition_name": "Premier League",
+      "season_name": "2015/2016"
+    },
+    "3754008": {
+      "competition_id": 2,
+      "season_id": 27,
+      "competition_name": "Premier League",
+      "season_name": "2015/2016"
+    },
+    "3754009": {
+      "competition_id": 2,
+      "season_id": 27,
+      "competition_name": "Premier League",
+      "season_name": "2015/2016"
+    },
+    "3754021": {
+      "competition_id": 2,
+      "season_id": 27,
+      "competition_name": "Premier League",
+      "season_name": "2015/2016"
+    },
+    "3754026": {
+      "competition_id": 2,
+      "season_id": 27,
+      "competition_name": "Premier League",
+      "season_name": "2015/2016"
+    },
+    "3754047": {
+      "competition_id": 2,
+      "season_id": 27,
+      "competition_name": "Premier League",
+      "season_name": "2015/2016"
+    },
+    "3754063": {
+      "competition_id": 2,
+      "season_id": 27,
+      "competition_name": "Premier League",
+      "season_name": "2015/2016"
+    },
+    "3754066": {
+      "competition_id": 2,
+      "season_id": 27,
+      "competition_name": "Premier League",
+      "season_name": "2015/2016"
+    },
+    "3754067": {
+      "competition_id": 2,
+      "season_id": 27,
+      "competition_name": "Premier League",
+      "season_name": "2015/2016"
+    },
+    "3754069": {
+      "competition_id": 2,
+      "season_id": 27,
+      "competition_name": "Premier League",
+      "season_name": "2015/2016"
+    },
+    "3754079": {
+      "competition_id": 2,
+      "season_id": 27,
+      "competition_name": "Premier League",
+      "season_name": "2015/2016"
+    },
+    "3754080": {
+      "competition_id": 2,
+      "season_id": 27,
+      "competition_name": "Premier League",
+      "season_name": "2015/2016"
+    },
+    "3754083": {
+      "competition_id": 2,
+      "season_id": 27,
+      "competition_name": "Premier League",
+      "season_name": "2015/2016"
+    },
+    "3754085": {
+      "competition_id": 2,
+      "season_id": 27,
+      "competition_name": "Premier League",
+      "season_name": "2015/2016"
+    },
+    "3754087": {
+      "competition_id": 2,
+      "season_id": 27,
+      "competition_name": "Premier League",
+      "season_name": "2015/2016"
+    },
+    "3754088": {
+      "competition_id": 2,
+      "season_id": 27,
+      "competition_name": "Premier League",
+      "season_name": "2015/2016"
+    },
+    "3754090": {
+      "competition_id": 2,
+      "season_id": 27,
+      "competition_name": "Premier League",
+      "season_name": "2015/2016"
+    },
+    "3754092": {
+      "competition_id": 2,
+      "season_id": 27,
+      "competition_name": "Premier League",
+      "season_name": "2015/2016"
+    },
+    "3754098": {
+      "competition_id": 2,
+      "season_id": 27,
+      "competition_name": "Premier League",
+      "season_name": "2015/2016"
+    },
+    "3754104": {
+      "competition_id": 2,
+      "season_id": 27,
+      "competition_name": "Premier League",
+      "season_name": "2015/2016"
+    },
+    "3754107": {
+      "competition_id": 2,
+      "season_id": 27,
+      "competition_name": "Premier League",
+      "season_name": "2015/2016"
+    },
+    "3754108": {
+      "competition_id": 2,
+      "season_id": 27,
+      "competition_name": "Premier League",
+      "season_name": "2015/2016"
+    },
+    "3754111": {
+      "competition_id": 2,
+      "season_id": 27,
+      "competition_name": "Premier League",
+      "season_name": "2015/2016"
+    },
+    "3754116": {
+      "competition_id": 2,
+      "season_id": 27,
+      "competition_name": "Premier League",
+      "season_name": "2015/2016"
+    },
+    "3754122": {
+      "competition_id": 2,
+      "season_id": 27,
+      "competition_name": "Premier League",
+      "season_name": "2015/2016"
+    },
+    "3754123": {
+      "competition_id": 2,
+      "season_id": 27,
+      "competition_name": "Premier League",
+      "season_name": "2015/2016"
+    },
+    "3754125": {
+      "competition_id": 2,
+      "season_id": 27,
+      "competition_name": "Premier League",
+      "season_name": "2015/2016"
+    },
+    "3754127": {
+      "competition_id": 2,
+      "season_id": 27,
+      "competition_name": "Premier League",
+      "season_name": "2015/2016"
+    },
+    "3754135": {
+      "competition_id": 2,
+      "season_id": 27,
+      "competition_name": "Premier League",
+      "season_name": "2015/2016"
+    },
+    "3754140": {
+      "competition_id": 2,
+      "season_id": 27,
+      "competition_name": "Premier League",
+      "season_name": "2015/2016"
+    },
+    "3754143": {
+      "competition_id": 2,
+      "season_id": 27,
+      "competition_name": "Premier League",
+      "season_name": "2015/2016"
+    },
+    "3754145": {
+      "competition_id": 2,
+      "season_id": 27,
+      "competition_name": "Premier League",
+      "season_name": "2015/2016"
+    },
+    "3754149": {
+      "competition_id": 2,
+      "season_id": 27,
+      "competition_name": "Premier League",
+      "season_name": "2015/2016"
+    },
+    "3754159": {
+      "competition_id": 2,
+      "season_id": 27,
+      "competition_name": "Premier League",
+      "season_name": "2015/2016"
+    },
+    "3754166": {
+      "competition_id": 2,
+      "season_id": 27,
+      "competition_name": "Premier League",
+      "season_name": "2015/2016"
+    },
+    "3754170": {
+      "competition_id": 2,
+      "season_id": 27,
+      "competition_name": "Premier League",
+      "season_name": "2015/2016"
+    },
+    "3754173": {
+      "competition_id": 2,
+      "season_id": 27,
+      "competition_name": "Premier League",
+      "season_name": "2015/2016"
+    },
+    "3754175": {
+      "competition_id": 2,
+      "season_id": 27,
+      "competition_name": "Premier League",
+      "season_name": "2015/2016"
+    },
+    "3754180": {
+      "competition_id": 2,
+      "season_id": 27,
+      "competition_name": "Premier League",
+      "season_name": "2015/2016"
+    },
+    "3754200": {
+      "competition_id": 2,
+      "season_id": 27,
+      "competition_name": "Premier League",
+      "season_name": "2015/2016"
+    },
+    "3754217": {
+      "competition_id": 2,
+      "season_id": 27,
+      "competition_name": "Premier League",
+      "season_name": "2015/2016"
+    },
+    "3754221": {
+      "competition_id": 2,
+      "season_id": 27,
+      "competition_name": "Premier League",
+      "season_name": "2015/2016"
+    },
+    "3754224": {
+      "competition_id": 2,
+      "season_id": 27,
+      "competition_name": "Premier League",
+      "season_name": "2015/2016"
+    },
+    "3754227": {
+      "competition_id": 2,
+      "season_id": 27,
+      "competition_name": "Premier League",
+      "season_name": "2015/2016"
+    },
+    "3754228": {
+      "competition_id": 2,
+      "season_id": 27,
+      "competition_name": "Premier League",
+      "season_name": "2015/2016"
+    },
+    "3754232": {
+      "competition_id": 2,
+      "season_id": 27,
+      "competition_name": "Premier League",
+      "season_name": "2015/2016"
+    },
+    "3754241": {
+      "competition_id": 2,
+      "season_id": 27,
+      "competition_name": "Premier League",
+      "season_name": "2015/2016"
+    },
+    "3754243": {
+      "competition_id": 2,
+      "season_id": 27,
+      "competition_name": "Premier League",
+      "season_name": "2015/2016"
+    },
+    "3754256": {
+      "competition_id": 2,
+      "season_id": 27,
+      "competition_name": "Premier League",
+      "season_name": "2015/2016"
+    },
+    "3754263": {
+      "competition_id": 2,
+      "season_id": 27,
+      "competition_name": "Premier League",
+      "season_name": "2015/2016"
+    },
+    "3754271": {
+      "competition_id": 2,
+      "season_id": 27,
+      "competition_name": "Premier League",
+      "season_name": "2015/2016"
+    },
+    "3754276": {
+      "competition_id": 2,
+      "season_id": 27,
+      "competition_name": "Premier League",
+      "season_name": "2015/2016"
+    },
+    "3754279": {
+      "competition_id": 2,
+      "season_id": 27,
+      "competition_name": "Premier League",
+      "season_name": "2015/2016"
+    },
+    "3754280": {
+      "competition_id": 2,
+      "season_id": 27,
+      "competition_name": "Premier League",
+      "season_name": "2015/2016"
+    },
+    "3754281": {
+      "competition_id": 2,
+      "season_id": 27,
+      "competition_name": "Premier League",
+      "season_name": "2015/2016"
+    },
+    "3754284": {
+      "competition_id": 2,
+      "season_id": 27,
+      "competition_name": "Premier League",
+      "season_name": "2015/2016"
+    },
+    "3754296": {
+      "competition_id": 2,
+      "season_id": 27,
+      "competition_name": "Premier League",
+      "season_name": "2015/2016"
+    },
+    "3754297": {
+      "competition_id": 2,
+      "season_id": 27,
+      "competition_name": "Premier League",
+      "season_name": "2015/2016"
+    },
+    "3754299": {
+      "competition_id": 2,
+      "season_id": 27,
+      "competition_name": "Premier League",
+      "season_name": "2015/2016"
+    },
+    "3754303": {
+      "competition_id": 2,
+      "season_id": 27,
+      "competition_name": "Premier League",
+      "season_name": "2015/2016"
+    },
+    "3754308": {
+      "competition_id": 2,
+      "season_id": 27,
+      "competition_name": "Premier League",
+      "season_name": "2015/2016"
+    },
+    "3754309": {
+      "competition_id": 2,
+      "season_id": 27,
+      "competition_name": "Premier League",
+      "season_name": "2015/2016"
+    },
+    "3754316": {
+      "competition_id": 2,
+      "season_id": 27,
+      "competition_name": "Premier League",
+      "season_name": "2015/2016"
+    },
+    "3754317": {
+      "competition_id": 2,
+      "season_id": 27,
+      "competition_name": "Premier League",
+      "season_name": "2015/2016"
+    },
+    "3754319": {
+      "competition_id": 2,
+      "season_id": 27,
+      "competition_name": "Premier League",
+      "season_name": "2015/2016"
+    },
+    "3754322": {
+      "competition_id": 2,
+      "season_id": 27,
+      "competition_name": "Premier League",
+      "season_name": "2015/2016"
+    },
+    "3754328": {
+      "competition_id": 2,
+      "season_id": 27,
+      "competition_name": "Premier League",
+      "season_name": "2015/2016"
+    },
+    "3754329": {
+      "competition_id": 2,
+      "season_id": 27,
+      "competition_name": "Premier League",
+      "season_name": "2015/2016"
+    },
+    "3754331": {
+      "competition_id": 2,
+      "season_id": 27,
+      "competition_name": "Premier League",
+      "season_name": "2015/2016"
+    },
+    "3754337": {
+      "competition_id": 2,
+      "season_id": 27,
+      "competition_name": "Premier League",
+      "season_name": "2015/2016"
+    },
+    "3754340": {
+      "competition_id": 2,
+      "season_id": 27,
+      "competition_name": "Premier League",
+      "season_name": "2015/2016"
+    },
+    "3754342": {
+      "competition_id": 2,
+      "season_id": 27,
+      "competition_name": "Premier League",
+      "season_name": "2015/2016"
+    },
+    "3754344": {
+      "competition_id": 2,
+      "season_id": 27,
+      "competition_name": "Premier League",
+      "season_name": "2015/2016"
+    },
+    "3754346": {
+      "competition_id": 2,
+      "season_id": 27,
+      "competition_name": "Premier League",
+      "season_name": "2015/2016"
+    },
+    "3754350": {
+      "competition_id": 2,
+      "season_id": 27,
+      "competition_name": "Premier League",
+      "season_name": "2015/2016"
+    },
+    "68311": {
+      "competition_id": 72,
+      "season_id": 30,
+      "competition_name": "Women's World Cup",
+      "season_name": "2019"
+    },
+    "68312": {
+      "competition_id": 72,
+      "season_id": 30,
+      "competition_name": "Women's World Cup",
+      "season_name": "2019"
+    },
+    "68337": {
+      "competition_id": 72,
+      "season_id": 30,
+      "competition_name": "Women's World Cup",
+      "season_name": "2019"
+    },
+    "68338": {
+      "competition_id": 72,
+      "season_id": 30,
+      "competition_name": "Women's World Cup",
+      "season_name": "2019"
+    },
+    "68343": {
+      "competition_id": 72,
+      "season_id": 30,
+      "competition_name": "Women's World Cup",
+      "season_name": "2019"
+    },
+    "68344": {
+      "competition_id": 72,
+      "season_id": 30,
+      "competition_name": "Women's World Cup",
+      "season_name": "2019"
+    },
+    "68345": {
+      "competition_id": 72,
+      "season_id": 30,
+      "competition_name": "Women's World Cup",
+      "season_name": "2019"
+    },
+    "68346": {
+      "competition_id": 72,
+      "season_id": 30,
+      "competition_name": "Women's World Cup",
+      "season_name": "2019"
+    },
+    "68355": {
+      "competition_id": 72,
+      "season_id": 30,
+      "competition_name": "Women's World Cup",
+      "season_name": "2019"
+    },
+    "68357": {
+      "competition_id": 72,
+      "season_id": 30,
+      "competition_name": "Women's World Cup",
+      "season_name": "2019"
+    },
+    "68362": {
+      "competition_id": 72,
+      "season_id": 30,
+      "competition_name": "Women's World Cup",
+      "season_name": "2019"
+    },
+    "69137": {
+      "competition_id": 72,
+      "season_id": 30,
+      "competition_name": "Women's World Cup",
+      "season_name": "2019"
+    },
+    "69161": {
+      "competition_id": 72,
+      "season_id": 30,
+      "competition_name": "Women's World Cup",
+      "season_name": "2019"
+    },
+    "69163": {
+      "competition_id": 72,
+      "season_id": 30,
+      "competition_name": "Women's World Cup",
+      "season_name": "2019"
+    },
+    "69188": {
+      "competition_id": 72,
+      "season_id": 30,
+      "competition_name": "Women's World Cup",
+      "season_name": "2019"
+    },
+    "69191": {
+      "competition_id": 72,
+      "season_id": 30,
+      "competition_name": "Women's World Cup",
+      "season_name": "2019"
+    },
+    "69199": {
+      "competition_id": 72,
+      "season_id": 30,
+      "competition_name": "Women's World Cup",
+      "season_name": "2019"
+    },
+    "69202": {
+      "competition_id": 72,
+      "season_id": 30,
+      "competition_name": "Women's World Cup",
+      "season_name": "2019"
+    },
+    "69205": {
+      "competition_id": 72,
+      "season_id": 30,
+      "competition_name": "Women's World Cup",
+      "season_name": "2019"
+    },
+    "69208": {
+      "competition_id": 72,
+      "season_id": 30,
+      "competition_name": "Women's World Cup",
+      "season_name": "2019"
+    },
+    "69258": {
+      "competition_id": 72,
+      "season_id": 30,
+      "competition_name": "Women's World Cup",
+      "season_name": "2019"
+    },
+    "69284": {
+      "competition_id": 72,
+      "season_id": 30,
+      "competition_name": "Women's World Cup",
+      "season_name": "2019"
+    },
+    "69301": {
+      "competition_id": 72,
+      "season_id": 30,
+      "competition_name": "Women's World Cup",
+      "season_name": "2019"
+    },
+    "69321": {
+      "competition_id": 72,
+      "season_id": 30,
+      "competition_name": "Women's World Cup",
+      "season_name": "2019"
+    },
+    "265952": {
+      "competition_id": 11,
+      "season_id": 2,
+      "competition_name": "La Liga",
+      "season_name": "2016/2017"
+    },
+    "266033": {
+      "competition_id": 11,
+      "season_id": 2,
+      "competition_name": "La Liga",
+      "season_name": "2016/2017"
+    },
+    "266191": {
+      "competition_id": 11,
+      "season_id": 2,
+      "competition_name": "La Liga",
+      "season_name": "2016/2017"
+    },
+    "266273": {
+      "competition_id": 11,
+      "season_id": 2,
+      "competition_name": "La Liga",
+      "season_name": "2016/2017"
+    },
+    "266280": {
+      "competition_id": 11,
+      "season_id": 2,
+      "competition_name": "La Liga",
+      "season_name": "2016/2017"
+    },
+    "266299": {
+      "competition_id": 11,
+      "season_id": 2,
+      "competition_name": "La Liga",
+      "season_name": "2016/2017"
+    },
+    "266357": {
+      "competition_id": 11,
+      "season_id": 2,
+      "competition_name": "La Liga",
+      "season_name": "2016/2017"
+    },
+    "266440": {
+      "competition_id": 11,
+      "season_id": 2,
+      "competition_name": "La Liga",
+      "season_name": "2016/2017"
+    },
+    "266477": {
+      "competition_id": 11,
+      "season_id": 2,
+      "competition_name": "La Liga",
+      "season_name": "2016/2017"
+    },
+    "266516": {
+      "competition_id": 11,
+      "season_id": 2,
+      "competition_name": "La Liga",
+      "season_name": "2016/2017"
+    },
+    "266528": {
+      "competition_id": 11,
+      "season_id": 2,
+      "competition_name": "La Liga",
+      "season_name": "2016/2017"
+    },
+    "266669": {
+      "competition_id": 11,
+      "season_id": 2,
+      "competition_name": "La Liga",
+      "season_name": "2016/2017"
+    },
+    "266731": {
+      "competition_id": 11,
+      "season_id": 2,
+      "competition_name": "La Liga",
+      "season_name": "2016/2017"
+    },
+    "266874": {
+      "competition_id": 11,
+      "season_id": 2,
+      "competition_name": "La Liga",
+      "season_name": "2016/2017"
+    },
+    "266892": {
+      "competition_id": 11,
+      "season_id": 2,
+      "competition_name": "La Liga",
+      "season_name": "2016/2017"
+    },
+    "266952": {
+      "competition_id": 11,
+      "season_id": 2,
+      "competition_name": "La Liga",
+      "season_name": "2016/2017"
+    },
+    "266989": {
+      "competition_id": 11,
+      "season_id": 2,
+      "competition_name": "La Liga",
+      "season_name": "2016/2017"
+    },
+    "267039": {
+      "competition_id": 11,
+      "season_id": 2,
+      "competition_name": "La Liga",
+      "season_name": "2016/2017"
+    },
+    "267058": {
+      "competition_id": 11,
+      "season_id": 2,
+      "competition_name": "La Liga",
+      "season_name": "2016/2017"
+    },
+    "267076": {
+      "competition_id": 11,
+      "season_id": 2,
+      "competition_name": "La Liga",
+      "season_name": "2016/2017"
+    },
+    "267077": {
+      "competition_id": 11,
+      "season_id": 2,
+      "competition_name": "La Liga",
+      "season_name": "2016/2017"
+    },
+    "267101": {
+      "competition_id": 11,
+      "season_id": 2,
+      "competition_name": "La Liga",
+      "season_name": "2016/2017"
+    },
+    "267212": {
+      "competition_id": 11,
+      "season_id": 2,
+      "competition_name": "La Liga",
+      "season_name": "2016/2017"
+    },
+    "267220": {
+      "competition_id": 11,
+      "season_id": 2,
+      "competition_name": "La Liga",
+      "season_name": "2016/2017"
+    },
+    "267373": {
+      "competition_id": 11,
+      "season_id": 2,
+      "competition_name": "La Liga",
+      "season_name": "2016/2017"
+    },
+    "267395": {
+      "competition_id": 11,
+      "season_id": 2,
+      "competition_name": "La Liga",
+      "season_name": "2016/2017"
+    },
+    "267432": {
+      "competition_id": 11,
+      "season_id": 2,
+      "competition_name": "La Liga",
+      "season_name": "2016/2017"
+    },
+    "267464": {
+      "competition_id": 11,
+      "season_id": 2,
+      "competition_name": "La Liga",
+      "season_name": "2016/2017"
+    },
+    "267492": {
+      "competition_id": 11,
+      "season_id": 2,
+      "competition_name": "La Liga",
+      "season_name": "2016/2017"
+    },
+    "267569": {
+      "competition_id": 11,
+      "season_id": 2,
+      "competition_name": "La Liga",
+      "season_name": "2016/2017"
+    },
+    "267590": {
+      "competition_id": 11,
+      "season_id": 2,
+      "competition_name": "La Liga",
+      "season_name": "2016/2017"
+    },
+    "267596": {
+      "competition_id": 11,
+      "season_id": 2,
+      "competition_name": "La Liga",
+      "season_name": "2016/2017"
+    },
+    "267660": {
+      "competition_id": 11,
+      "season_id": 2,
+      "competition_name": "La Liga",
+      "season_name": "2016/2017"
+    },
+    "267670": {
+      "competition_id": 11,
+      "season_id": 2,
+      "competition_name": "La Liga",
+      "season_name": "2016/2017"
+    },
+    "266557": {
+      "competition_id": 11,
+      "season_id": 27,
+      "competition_name": "La Liga",
+      "season_name": "2015/2016"
+    },
+    "267273": {
+      "competition_id": 11,
+      "season_id": 27,
+      "competition_name": "La Liga",
+      "season_name": "2015/2016"
+    },
+    "267274": {
+      "competition_id": 11,
+      "season_id": 27,
+      "competition_name": "La Liga",
+      "season_name": "2015/2016"
+    },
+    "267327": {
+      "competition_id": 11,
+      "season_id": 27,
+      "competition_name": "La Liga",
+      "season_name": "2015/2016"
+    },
+    "3825564": {
+      "competition_id": 11,
+      "season_id": 27,
+      "competition_name": "La Liga",
+      "season_name": "2015/2016"
+    },
+    "3825567": {
+      "competition_id": 11,
+      "season_id": 27,
+      "competition_name": "La Liga",
+      "season_name": "2015/2016"
+    },
+    "3825569": {
+      "competition_id": 11,
+      "season_id": 27,
+      "competition_name": "La Liga",
+      "season_name": "2015/2016"
+    },
+    "3825572": {
+      "competition_id": 11,
+      "season_id": 27,
+      "competition_name": "La Liga",
+      "season_name": "2015/2016"
+    },
+    "3825573": {
+      "competition_id": 11,
+      "season_id": 27,
+      "competition_name": "La Liga",
+      "season_name": "2015/2016"
+    },
+    "3825574": {
+      "competition_id": 11,
+      "season_id": 27,
+      "competition_name": "La Liga",
+      "season_name": "2015/2016"
+    },
+    "3825577": {
+      "competition_id": 11,
+      "season_id": 27,
+      "competition_name": "La Liga",
+      "season_name": "2015/2016"
+    },
+    "3825584": {
+      "competition_id": 11,
+      "season_id": 27,
+      "competition_name": "La Liga",
+      "season_name": "2015/2016"
+    },
+    "3825602": {
+      "competition_id": 11,
+      "season_id": 27,
+      "competition_name": "La Liga",
+      "season_name": "2015/2016"
+    },
+    "3825604": {
+      "competition_id": 11,
+      "season_id": 27,
+      "competition_name": "La Liga",
+      "season_name": "2015/2016"
+    },
+    "3825650": {
+      "competition_id": 11,
+      "season_id": 27,
+      "competition_name": "La Liga",
+      "season_name": "2015/2016"
+    },
+    "3825671": {
+      "competition_id": 11,
+      "season_id": 27,
+      "competition_name": "La Liga",
+      "season_name": "2015/2016"
+    },
+    "3825673": {
+      "competition_id": 11,
+      "season_id": 27,
+      "competition_name": "La Liga",
+      "season_name": "2015/2016"
+    },
+    "3825704": {
+      "competition_id": 11,
+      "season_id": 27,
+      "competition_name": "La Liga",
+      "season_name": "2015/2016"
+    },
+    "3825719": {
+      "competition_id": 11,
+      "season_id": 27,
+      "competition_name": "La Liga",
+      "season_name": "2015/2016"
+    },
+    "3825720": {
+      "competition_id": 11,
+      "season_id": 27,
+      "competition_name": "La Liga",
+      "season_name": "2015/2016"
+    },
+    "3825723": {
+      "competition_id": 11,
+      "season_id": 27,
+      "competition_name": "La Liga",
+      "season_name": "2015/2016"
+    },
+    "3825724": {
+      "competition_id": 11,
+      "season_id": 27,
+      "competition_name": "La Liga",
+      "season_name": "2015/2016"
+    },
+    "3825753": {
+      "competition_id": 11,
+      "season_id": 27,
+      "competition_name": "La Liga",
+      "season_name": "2015/2016"
+    },
+    "3825779": {
+      "competition_id": 11,
+      "season_id": 27,
+      "competition_name": "La Liga",
+      "season_name": "2015/2016"
+    },
+    "3825801": {
+      "competition_id": 11,
+      "season_id": 27,
+      "competition_name": "La Liga",
+      "season_name": "2015/2016"
+    },
+    "3825805": {
+      "competition_id": 11,
+      "season_id": 27,
+      "competition_name": "La Liga",
+      "season_name": "2015/2016"
+    },
+    "3825806": {
+      "competition_id": 11,
+      "season_id": 27,
+      "competition_name": "La Liga",
+      "season_name": "2015/2016"
+    },
+    "3825809": {
+      "competition_id": 11,
+      "season_id": 27,
+      "competition_name": "La Liga",
+      "season_name": "2015/2016"
+    },
+    "3825822": {
+      "competition_id": 11,
+      "season_id": 27,
+      "competition_name": "La Liga",
+      "season_name": "2015/2016"
+    },
+    "3825826": {
+      "competition_id": 11,
+      "season_id": 27,
+      "competition_name": "La Liga",
+      "season_name": "2015/2016"
+    },
+    "3825831": {
+      "competition_id": 11,
+      "season_id": 27,
+      "competition_name": "La Liga",
+      "season_name": "2015/2016"
+    },
+    "3825857": {
+      "competition_id": 11,
+      "season_id": 27,
+      "competition_name": "La Liga",
+      "season_name": "2015/2016"
+    },
+    "3825865": {
+      "competition_id": 11,
+      "season_id": 27,
+      "competition_name": "La Liga",
+      "season_name": "2015/2016"
+    },
+    "3825866": {
+      "competition_id": 11,
+      "season_id": 27,
+      "competition_name": "La Liga",
+      "season_name": "2015/2016"
+    },
+    "3825875": {
+      "competition_id": 11,
+      "season_id": 27,
+      "competition_name": "La Liga",
+      "season_name": "2015/2016"
+    },
+    "3825877": {
+      "competition_id": 11,
+      "season_id": 27,
+      "competition_name": "La Liga",
+      "season_name": "2015/2016"
+    },
+    "3825895": {
+      "competition_id": 11,
+      "season_id": 27,
+      "competition_name": "La Liga",
+      "season_name": "2015/2016"
+    },
+    "3825898": {
+      "competition_id": 11,
+      "season_id": 27,
+      "competition_name": "La Liga",
+      "season_name": "2015/2016"
+    },
+    "3825900": {
+      "competition_id": 11,
+      "season_id": 27,
+      "competition_name": "La Liga",
+      "season_name": "2015/2016"
+    },
+    "3825906": {
+      "competition_id": 11,
+      "season_id": 27,
+      "competition_name": "La Liga",
+      "season_name": "2015/2016"
+    },
+    "3920384": {
+      "competition_id": 1267,
+      "season_id": 107,
+      "competition_name": "African Cup of Nations",
+      "season_name": "2023"
+    },
+    "3920385": {
+      "competition_id": 1267,
+      "season_id": 107,
+      "competition_name": "African Cup of Nations",
+      "season_name": "2023"
+    },
+    "3920386": {
+      "competition_id": 1267,
+      "season_id": 107,
+      "competition_name": "African Cup of Nations",
+      "season_name": "2023"
+    },
+    "3920387": {
+      "competition_id": 1267,
+      "season_id": 107,
+      "competition_name": "African Cup of Nations",
+      "season_name": "2023"
+    },
+    "3920388": {
+      "competition_id": 1267,
+      "season_id": 107,
+      "competition_name": "African Cup of Nations",
+      "season_name": "2023"
+    },
+    "3920389": {
+      "competition_id": 1267,
+      "season_id": 107,
+      "competition_name": "African Cup of Nations",
+      "season_name": "2023"
+    },
+    "3920390": {
+      "competition_id": 1267,
+      "season_id": 107,
+      "competition_name": "African Cup of Nations",
+      "season_name": "2023"
+    },
+    "3920391": {
+      "competition_id": 1267,
+      "season_id": 107,
+      "competition_name": "African Cup of Nations",
+      "season_name": "2023"
+    },
+    "3920392": {
+      "competition_id": 1267,
+      "season_id": 107,
+      "competition_name": "African Cup of Nations",
+      "season_name": "2023"
+    },
+    "3920393": {
+      "competition_id": 1267,
+      "season_id": 107,
+      "competition_name": "African Cup of Nations",
+      "season_name": "2023"
+    },
+    "3920394": {
+      "competition_id": 1267,
+      "season_id": 107,
+      "competition_name": "African Cup of Nations",
+      "season_name": "2023"
+    },
+    "3920395": {
+      "competition_id": 1267,
+      "season_id": 107,
+      "competition_name": "African Cup of Nations",
+      "season_name": "2023"
+    },
+    "3920396": {
+      "competition_id": 1267,
+      "season_id": 107,
+      "competition_name": "African Cup of Nations",
+      "season_name": "2023"
+    },
+    "3920397": {
+      "competition_id": 1267,
+      "season_id": 107,
+      "competition_name": "African Cup of Nations",
+      "season_name": "2023"
+    },
+    "3920398": {
+      "competition_id": 1267,
+      "season_id": 107,
+      "competition_name": "African Cup of Nations",
+      "season_name": "2023"
+    },
+    "3920399": {
+      "competition_id": 1267,
+      "season_id": 107,
+      "competition_name": "African Cup of Nations",
+      "season_name": "2023"
+    },
+    "3920400": {
+      "competition_id": 1267,
+      "season_id": 107,
+      "competition_name": "African Cup of Nations",
+      "season_name": "2023"
+    },
+    "3920401": {
+      "competition_id": 1267,
+      "season_id": 107,
+      "competition_name": "African Cup of Nations",
+      "season_name": "2023"
+    },
+    "3920402": {
+      "competition_id": 1267,
+      "season_id": 107,
+      "competition_name": "African Cup of Nations",
+      "season_name": "2023"
+    },
+    "3920403": {
+      "competition_id": 1267,
+      "season_id": 107,
+      "competition_name": "African Cup of Nations",
+      "season_name": "2023"
+    },
+    "3920404": {
+      "competition_id": 1267,
+      "season_id": 107,
+      "competition_name": "African Cup of Nations",
+      "season_name": "2023"
+    },
+    "3920405": {
+      "competition_id": 1267,
+      "season_id": 107,
+      "competition_name": "African Cup of Nations",
+      "season_name": "2023"
+    },
+    "3920406": {
+      "competition_id": 1267,
+      "season_id": 107,
+      "competition_name": "African Cup of Nations",
+      "season_name": "2023"
+    },
+    "3920407": {
+      "competition_id": 1267,
+      "season_id": 107,
+      "competition_name": "African Cup of Nations",
+      "season_name": "2023"
+    },
+    "3920408": {
+      "competition_id": 1267,
+      "season_id": 107,
+      "competition_name": "African Cup of Nations",
+      "season_name": "2023"
+    },
+    "3920409": {
+      "competition_id": 1267,
+      "season_id": 107,
+      "competition_name": "African Cup of Nations",
+      "season_name": "2023"
+    },
+    "3920410": {
+      "competition_id": 1267,
+      "season_id": 107,
+      "competition_name": "African Cup of Nations",
+      "season_name": "2023"
+    },
+    "3920411": {
+      "competition_id": 1267,
+      "season_id": 107,
+      "competition_name": "African Cup of Nations",
+      "season_name": "2023"
+    },
+    "3920412": {
+      "competition_id": 1267,
+      "season_id": 107,
+      "competition_name": "African Cup of Nations",
+      "season_name": "2023"
+    },
+    "3920413": {
+      "competition_id": 1267,
+      "season_id": 107,
+      "competition_name": "African Cup of Nations",
+      "season_name": "2023"
+    },
+    "3920414": {
+      "competition_id": 1267,
+      "season_id": 107,
+      "competition_name": "African Cup of Nations",
+      "season_name": "2023"
+    },
+    "3920415": {
+      "competition_id": 1267,
+      "season_id": 107,
+      "competition_name": "African Cup of Nations",
+      "season_name": "2023"
+    },
+    "3920416": {
+      "competition_id": 1267,
+      "season_id": 107,
+      "competition_name": "African Cup of Nations",
+      "season_name": "2023"
+    },
+    "3920417": {
+      "competition_id": 1267,
+      "season_id": 107,
+      "competition_name": "African Cup of Nations",
+      "season_name": "2023"
+    },
+    "3920418": {
+      "competition_id": 1267,
+      "season_id": 107,
+      "competition_name": "African Cup of Nations",
+      "season_name": "2023"
+    },
+    "3920419": {
+      "competition_id": 1267,
+      "season_id": 107,
+      "competition_name": "African Cup of Nations",
+      "season_name": "2023"
+    },
+    "3922237": {
+      "competition_id": 1267,
+      "season_id": 107,
+      "competition_name": "African Cup of Nations",
+      "season_name": "2023"
+    },
+    "3922238": {
+      "competition_id": 1267,
+      "season_id": 107,
+      "competition_name": "African Cup of Nations",
+      "season_name": "2023"
+    },
+    "3922239": {
+      "competition_id": 1267,
+      "season_id": 107,
+      "competition_name": "African Cup of Nations",
+      "season_name": "2023"
+    },
+    "3922240": {
+      "competition_id": 1267,
+      "season_id": 107,
+      "competition_name": "African Cup of Nations",
+      "season_name": "2023"
+    },
+    "3922241": {
+      "competition_id": 1267,
+      "season_id": 107,
+      "competition_name": "African Cup of Nations",
+      "season_name": "2023"
+    },
+    "3922242": {
+      "competition_id": 1267,
+      "season_id": 107,
+      "competition_name": "African Cup of Nations",
+      "season_name": "2023"
+    },
+    "3922243": {
+      "competition_id": 1267,
+      "season_id": 107,
+      "competition_name": "African Cup of Nations",
+      "season_name": "2023"
+    },
+    "3922244": {
+      "competition_id": 1267,
+      "season_id": 107,
+      "competition_name": "African Cup of Nations",
+      "season_name": "2023"
+    },
+    "3922321": {
+      "competition_id": 1267,
+      "season_id": 107,
+      "competition_name": "African Cup of Nations",
+      "season_name": "2023"
+    },
+    "3922356": {
+      "competition_id": 1267,
+      "season_id": 107,
+      "competition_name": "African Cup of Nations",
+      "season_name": "2023"
+    },
+    "3922658": {
+      "competition_id": 1267,
+      "season_id": 107,
+      "competition_name": "African Cup of Nations",
+      "season_name": "2023"
+    },
+    "3922659": {
+      "competition_id": 1267,
+      "season_id": 107,
+      "competition_name": "African Cup of Nations",
+      "season_name": "2023"
+    },
+    "3922837": {
+      "competition_id": 1267,
+      "season_id": 107,
+      "competition_name": "African Cup of Nations",
+      "season_name": "2023"
+    },
+    "3922838": {
+      "competition_id": 1267,
+      "season_id": 107,
+      "competition_name": "African Cup of Nations",
+      "season_name": "2023"
+    },
+    "3923880": {
+      "competition_id": 1267,
+      "season_id": 107,
+      "competition_name": "African Cup of Nations",
+      "season_name": "2023"
+    },
+    "3923881": {
+      "competition_id": 1267,
+      "season_id": 107,
+      "competition_name": "African Cup of Nations",
+      "season_name": "2023"
+    },
+    "266160": {
+      "competition_id": 11,
+      "season_id": 27,
+      "competition_name": "La Liga",
+      "season_name": "2015/2016"
+    },
+    "267611": {
+      "competition_id": 11,
+      "season_id": 27,
+      "competition_name": "La Liga",
+      "season_name": "2015/2016"
+    },
+    "3825576": {
+      "competition_id": 11,
+      "season_id": 27,
+      "competition_name": "La Liga",
+      "season_name": "2015/2016"
+    },
+    "3825579": {
+      "competition_id": 11,
+      "season_id": 27,
+      "competition_name": "La Liga",
+      "season_name": "2015/2016"
+    },
+    "3825580": {
+      "competition_id": 11,
+      "season_id": 27,
+      "competition_name": "La Liga",
+      "season_name": "2015/2016"
+    },
+    "3825588": {
+      "competition_id": 11,
+      "season_id": 27,
+      "competition_name": "La Liga",
+      "season_name": "2015/2016"
+    },
+    "3825592": {
+      "competition_id": 11,
+      "season_id": 27,
+      "competition_name": "La Liga",
+      "season_name": "2015/2016"
+    },
+    "3825607": {
+      "competition_id": 11,
+      "season_id": 27,
+      "competition_name": "La Liga",
+      "season_name": "2015/2016"
+    },
+    "3825624": {
+      "competition_id": 11,
+      "season_id": 27,
+      "competition_name": "La Liga",
+      "season_name": "2015/2016"
+    },
+    "3825625": {
+      "competition_id": 11,
+      "season_id": 27,
+      "competition_name": "La Liga",
+      "season_name": "2015/2016"
+    },
+    "3825640": {
+      "competition_id": 11,
+      "season_id": 27,
+      "competition_name": "La Liga",
+      "season_name": "2015/2016"
+    },
+    "3825660": {
+      "competition_id": 11,
+      "season_id": 27,
+      "competition_name": "La Liga",
+      "season_name": "2015/2016"
+    },
+    "3825663": {
+      "competition_id": 11,
+      "season_id": 27,
+      "competition_name": "La Liga",
+      "season_name": "2015/2016"
+    },
+    "3825669": {
+      "competition_id": 11,
+      "season_id": 27,
+      "competition_name": "La Liga",
+      "season_name": "2015/2016"
+    },
+    "3825670": {
+      "competition_id": 11,
+      "season_id": 27,
+      "competition_name": "La Liga",
+      "season_name": "2015/2016"
+    },
+    "3825677": {
+      "competition_id": 11,
+      "season_id": 27,
+      "competition_name": "La Liga",
+      "season_name": "2015/2016"
+    },
+    "3825682": {
+      "competition_id": 11,
+      "season_id": 27,
+      "competition_name": "La Liga",
+      "season_name": "2015/2016"
+    },
+    "3825683": {
+      "competition_id": 11,
+      "season_id": 27,
+      "competition_name": "La Liga",
+      "season_name": "2015/2016"
+    },
+    "3825689": {
+      "competition_id": 11,
+      "season_id": 27,
+      "competition_name": "La Liga",
+      "season_name": "2015/2016"
+    },
+    "3825691": {
+      "competition_id": 11,
+      "season_id": 27,
+      "competition_name": "La Liga",
+      "season_name": "2015/2016"
+    },
+    "3825712": {
+      "competition_id": 11,
+      "season_id": 27,
+      "competition_name": "La Liga",
+      "season_name": "2015/2016"
+    },
+    "3825741": {
+      "competition_id": 11,
+      "season_id": 27,
+      "competition_name": "La Liga",
+      "season_name": "2015/2016"
+    },
+    "3825745": {
+      "competition_id": 11,
+      "season_id": 27,
+      "competition_name": "La Liga",
+      "season_name": "2015/2016"
+    },
+    "3825761": {
+      "competition_id": 11,
+      "season_id": 27,
+      "competition_name": "La Liga",
+      "season_name": "2015/2016"
+    },
+    "3825762": {
+      "competition_id": 11,
+      "season_id": 27,
+      "competition_name": "La Liga",
+      "season_name": "2015/2016"
+    },
+    "3825767": {
+      "competition_id": 11,
+      "season_id": 27,
+      "competition_name": "La Liga",
+      "season_name": "2015/2016"
+    },
+    "3825775": {
+      "competition_id": 11,
+      "season_id": 27,
+      "competition_name": "La Liga",
+      "season_name": "2015/2016"
+    },
+    "3825783": {
+      "competition_id": 11,
+      "season_id": 27,
+      "competition_name": "La Liga",
+      "season_name": "2015/2016"
+    },
+    "3825789": {
+      "competition_id": 11,
+      "season_id": 27,
+      "competition_name": "La Liga",
+      "season_name": "2015/2016"
+    },
+    "3825813": {
+      "competition_id": 11,
+      "season_id": 27,
+      "competition_name": "La Liga",
+      "season_name": "2015/2016"
+    },
+    "3825821": {
+      "competition_id": 11,
+      "season_id": 27,
+      "competition_name": "La Liga",
+      "season_name": "2015/2016"
+    },
+    "3825838": {
+      "competition_id": 11,
+      "season_id": 27,
+      "competition_name": "La Liga",
+      "season_name": "2015/2016"
+    },
+    "3825843": {
+      "competition_id": 11,
+      "season_id": 27,
+      "competition_name": "La Liga",
+      "season_name": "2015/2016"
+    },
+    "3825844": {
+      "competition_id": 11,
+      "season_id": 27,
+      "competition_name": "La Liga",
+      "season_name": "2015/2016"
+    },
+    "3825858": {
+      "competition_id": 11,
+      "season_id": 27,
+      "competition_name": "La Liga",
+      "season_name": "2015/2016"
+    },
+    "3825860": {
+      "competition_id": 11,
+      "season_id": 27,
+      "competition_name": "La Liga",
+      "season_name": "2015/2016"
+    },
+    "3825873": {
+      "competition_id": 11,
+      "season_id": 27,
+      "competition_name": "La Liga",
+      "season_name": "2015/2016"
+    },
+    "3825893": {
+      "competition_id": 11,
+      "season_id": 27,
+      "competition_name": "La Liga",
+      "season_name": "2015/2016"
+    },
+    "3825902": {
+      "competition_id": 11,
+      "season_id": 27,
+      "competition_name": "La Liga",
+      "season_name": "2015/2016"
+    },
+    "3825907": {
+      "competition_id": 11,
+      "season_id": 27,
+      "competition_name": "La Liga",
+      "season_name": "2015/2016"
+    }
+  },
+  "rule": "70/15/15 whole-match split within competition-season; deterministic, no outcome stratification",
+  "source": "Previously cached official StatsBomb event files; retrospective reuse, not untouched confirmation."
+}

@@ -1,0 +1,81 @@
+{
+  "shots": 500,
+  "goals": 43,
+  "matches": 26,
+  "scores": {
+    "vlm_xg": {
+      "brier": 0.08426965200000001,
+      "log_loss": 0.30304053779377826,
+      "auc": 0.7450511424354994,
+      "mean_xg": 0.173292
+    },
+    "original_logistic": {
+      "brier": 0.06655435097310335,
+      "log_loss": 0.24644917934367128,
+      "auc": 0.7881532746425117,
+      "mean_xg": 0.10277819301432498
+    },
+    "original_no_header": {
+      "brier": 0.06793928146492982,
+      "log_loss": 0.25409437878349916,
+      "auc": 0.7688667243397282,
+      "mean_xg": 0.099800018050647
+    },
+    "local_logistic": {
+      "brier": 0.06582901232496922,
+      "log_loss": 0.25638814065594157,
+      "auc": 0.7796549793903619,
+      "mean_xg": 0.10363822877630986
+    },
+    "local_no_header": {
+      "brier": 0.06693890019942579,
+      "log_loss": 0.26264820306084685,
+      "auc": 0.7674927484606382,
+      "mean_xg": 0.10054194145787286
+    },
+    "sb_xg": {
+      "brier": 0.06230367224497499,
+      "log_loss": 0.23013649609763587,
+      "auc": 0.8453513816090784,
+      "mean_xg": 0.0970940439102
+    },
+    "training_prior": {
+      "brier": 0.07861594994334942,
+      "log_loss": 0.29325849189953906,
+      "auc": 0.5,
+      "mean_xg": 0.08945686900958467
+    }
+  },
+  "goal_rate": 0.086,
+  "mean_overprediction": 0.08729200000000001,
+  "primary": {
+    "first": "vlm_xg",
+    "second": "original_logistic",
+    "difference": 0.017715301026896658,
+    "confidence_level": 0.975,
+    "interval": [
+      0.008315891813616359,
+      0.025789966244499397
+    ]
+  },
+  "secondary_local": {
+    "first": "vlm_xg",
+    "second": "local_logistic",
+    "difference": 0.018440639675030766,
+    "confidence_level": 0.95,
+    "interval": [
+      0.010511358917663555,
+      0.025625261897352064
+    ]
+  },
+  "secondary_no_header": {
+    "first": "vlm_xg",
+    "second": "original_no_header",
+    "difference": 0.01633037053507018,
+    "confidence_level": 0.95,
+    "interval": [
+      0.00840384876816204,
+      0.023238565526961352
+    ]
+  }
+}

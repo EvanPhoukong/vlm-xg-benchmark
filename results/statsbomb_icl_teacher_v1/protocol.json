@@ -1,0 +1,47 @@
+{
+  "model": "gpt-6.2-sol",
+  "intro": "Historical examples follow on numbered contact sheets. Each cell shows a DIFFERENT\npast shot paired with the probability predicted by the existing StatsBomb xG model.\nThese labels are teacher-model probabilities, not observed goal/no-goal outcomes\nand not ground-truth probabilities. Use the visual situations and their probability\nlabels as examples for estimating xG for a new shot. Read cells left to right, then\ntop to bottom. Each diagram uses the same symbol legend and goal-at-top orientation.\nThe separate QUERY after the examples has no supplied probability or outcome.\nReturn your own probability for that query only.",
+  "prompt": "You are a professional football (soccer) analyst. The query diagram shows a shot\nat contact on a half pitch, with the goal at the top. Gold star = shooter; blue circles\n= teammates; red circles = opposing outfield players; orange square = opposing keeper.\nEstimate the probability of a goal (xG), assuming an average professional finisher.\nBody part, ball height, ball speed and previous motion are unknown. Average over the\nplausible executions compatible with the positions instead of inventing these details.\nReply with JSON only: {\"xg\": <number between 0 and 1>, \"reason\": \"<one short sentence>\"}.",
+  "arms": [
+    "zero",
+    "teacher64",
+    "shuffled_teacher64"
+  ],
+  "cap_usd": 10.0,
+  "max_output_tokens": 1024,
+  "effort": "low",
+  "service_tier": "default",
+  "rates_per_million": {
+    "input": 2.0,
+    "cached_input": 0.1,
+    "output": 10.0
+  },
+  "prior_conservative_usd": 5.49503,
+  "prior_estimated_usd": 4.46579,
+  "parent_ledger_sha256": "62ee4b365d3f654f0107ff4d87f2f1bf001a9ee6d9af4c4f2ef2ddd1d8046318",
+  "parent_protocol_sha256": "7247af3367a305845f49b5a1af47ba4b5ed7a53b5a2126a50f6fdb012b1314dd",
+  "pages_sha256": "80102226841c10f32115ddb4f8d86c375f601d774e431e0b7e24c9d20d08daa6",
+  "examples_sha256": "73d997f993ae30b356fc16c742d4ac272619ae726d84e0f5f94275bfc11eb078",
+  "pool_sha256": "04472347e5dbc276e9e96bb28c3580a75c5a94d97db31135df2b0558a5c40d97",
+  "declaration_sha256": "a5bc583a72af8235cff7d9773764735eb684f46cffb4f9008c00ac9c427659db",
+  "python_sha256": "371205f01b94618513233c2342c03438e871f6f83ac3d2c29434065ded8e93c4",
+  "runner_sha256": "84f44c9a6ecf471843bce65e86966b3abb859fb4f12d35c38630cd28a42b5aad",
+  "declaration": {
+    "purpose": "Additional fixed teacher-probability ICL and shuffled-teacher control, declared before scoring any primary confirmation predictions.",
+    "model": "gpt-6.2-sol",
+    "examples": 64,
+    "labels": "StatsBomb xG from training examples,rounded to4 decimals; never query labels.",
+    "candidates": [
+      150,
+      100,
+      80
+    ],
+    "budget_rule": "After original800 calls, largest N with parent conservative spend+1.15*N*sum(forecast costs of zero and two teacher arms)+largest new reservation+$0.20 <=$10. Forecast input from server count+1024,output from mean original same-format64-example calls plus50%+64 tokens. Freeze N before secondary calls.",
+    "scope": "New fresh zero control and paired teacher/shuffled-teacher calls; no weights,calibration or averaging. Same source test pool prefix,so secondary evidence is exploratory and not independent replication of primary.",
+    "primary": "Teacher64-minus-fresh-zero and teacher64-minus-shuffledteacher Brier.97.5% whole-match bootstrap intervals within secondary family; combined report also gives98.75% intervals across all4 ICL contrasts.",
+    "combined_cap_usd": 10.0,
+    "intro": "Historical examples follow on numbered contact sheets. Each cell shows a DIFFERENT\npast shot paired with the probability predicted by the existing StatsBomb xG model.\nThese labels are teacher-model probabilities, not observed goal/no-goal outcomes\nand not ground-truth probabilities. Use the visual situations and their probability\nlabels as examples for estimating xG for a new shot. Read cells left to right, then\ntop to bottom. Each diagram uses the same symbol legend and goal-at-top orientation.\nThe separate QUERY after the examples has no supplied probability or outcome.\nReturn your own probability for that query only.",
+    "no_confirmation_scores_inspected": true
+  },
+  "input_format": "64 training-only teacher probabilities on4 numbered contact sheets; query remains512px. Fresh zero and shuffled-label controls."
+}

@@ -1,0 +1,17 @@
+{
+  "purpose": "Additional fixed teacher-probability ICL and shuffled-teacher control, declared before scoring any primary confirmation predictions.",
+  "model": "gpt-6.2-sol",
+  "examples": 64,
+  "labels": "StatsBomb xG from training examples,rounded to4 decimals; never query labels.",
+  "candidates": [
+    150,
+    100,
+    80
+  ],
+  "budget_rule": "After original800 calls, largest N with parent conservative spend+1.15*N*sum(forecast costs of zero and two teacher arms)+largest new reservation+$0.20 <=$10. Forecast input from server count+1024,output from mean original same-format64-example calls plus50%+64 tokens. Freeze N before secondary calls.",
+  "scope": "New fresh zero control and paired teacher/shuffled-teacher calls; no weights,calibration or averaging. Same source test pool prefix,so secondary evidence is exploratory and not independent replication of primary.",
+  "primary": "Teacher64-minus-fresh-zero and teacher64-minus-shuffledteacher Brier.97.5% whole-match bootstrap intervals within secondary family; combined report also gives98.75% intervals across all4 ICL contrasts.",
+  "combined_cap_usd": 10.0,
+  "intro": "Historical examples follow on numbered contact sheets. Each cell shows a DIFFERENT\npast shot paired with the probability predicted by the existing StatsBomb xG model.\nThese labels are teacher-model probabilities, not observed goal/no-goal outcomes\nand not ground-truth probabilities. Use the visual situations and their probability\nlabels as examples for estimating xG for a new shot. Read cells left to right, then\ntop to bottom. Each diagram uses the same symbol legend and goal-at-top orientation.\nThe separate QUERY after the examples has no supplied probability or outcome.\nReturn your own probability for that query only.",
+  "no_confirmation_scores_inspected": true
+}

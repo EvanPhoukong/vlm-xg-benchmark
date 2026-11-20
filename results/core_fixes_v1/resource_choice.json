@@ -1,0 +1,16 @@
+{
+  "n": 150,
+  "projections_usd": {
+    "200": 4.794708541666667,
+    "150": 3.8822215625,
+    "100": 2.969734583333333
+  },
+  "pilot_mean_conservative_costs": {
+    "luna": 0.00021991666666666665,
+    "astra": 0.0105875,
+    "examples": 0.0018865416666666666,
+    "shuffled": 0.0019058333333333334
+  },
+  "rule": "Largest N from 200/150/100 under prespecified usage-only forecast. No pilot accuracy scored.",
+  "pilot_attempts_sha256": "bb7f72519389aad79c4772bdaf9e9a48e138502b6be47c2582e307a8734a0638"
+}

@@ -1,0 +1,71 @@
+Data: StatsBomb open data, competition 43, season 106
+All non-penalty shots with freeze frames: 1430 (152 goals)
+VLM sample: 50 shots (7 goals), observed goal rate 0.140
+VLM: gemini/gemini-3.8-flash, zero-shot, context=image only
+
+model              AUC    Brier  LogLoss   MeanXG
+vlm_xg           0.588   0.1251   0.4278    0.172
+sb_xg            0.601   0.1111   0.4220    0.116
+baseline_xg      0.674   0.1155   0.3910    0.130
+
+Brier(VLM) - Brier(StatsBomb) = +0.0140  (95% bootstrap CI -0.0112 to +0.0363)
+Brier(VLM) - Brier(baseline)  = +0.0095  (95% bootstrap CI -0.0030 to +0.0218)
+Spearman rho, VLM vs StatsBomb xG: 0.711
+Mean gap (VLM - StatsBomb): +0.056; mean absolute gap: 0.083
+
+Disagreement by body_part:
+             n  goals    vlm  statsbomb  mean_gap
+body_part                                        
+Head        10      1  0.236      0.071     0.165
+Left Foot   14      2  0.116      0.084     0.032
+Other        1      0  0.580      0.517     0.063
+Right Foot  25      4  0.162      0.135     0.026
+
+Disagreement by play_pattern:
+                 n  goals    vlm  statsbomb  mean_gap
+play_pattern                                         
+From Corner     13      2  0.246      0.156     0.090
+From Free Kick  10      2  0.130      0.065     0.065
+From Goal Kick   2      0  0.165      0.062     0.103
+From Kick Off    1      0  0.050      0.027     0.023
+From Throw In    4      0  0.123      0.059     0.064
+Regular Play    20      3  0.162      0.136     0.026
+
+Disagreement by cone_bin:
+           n  goals    vlm  statsbomb  mean_gap
+cone_bin                                       
+0          4      2  0.322      0.376    -0.053
+1         20      4  0.226      0.138     0.089
+2         20      0  0.112      0.063     0.049
+3+         6      1  0.092      0.045     0.047
+
+Disagreement by dist_bin:
+           n  goals    vlm  statsbomb  mean_gap
+dist_bin                                       
+<6         3      1  0.540      0.443     0.097
+6-12      15      3  0.249      0.155     0.095
+12-18     14      2  0.159      0.105     0.053
+18-25      9      1  0.080      0.049     0.031
+25+        9      0  0.034      0.024     0.010
+
+Largest VLM over-estimates:
+                             shot_id  goal  sb_xg  vlm_xg   gap  body_part  distance  defenders_in_cone                                                                                                                                                                     vlm_reason
+0e55900b-d2c5-4473-b159-aa752a27e8f7     0  0.144    0.42 0.276       Head     5.860                  1                                    The shot is taken from point-blank range inside the six-yard box, though it faces severe crowding from nearby defenders and the goalkeeper.
+9be1b301-9784-4f2b-b709-d2d4dec0d578     0  0.050    0.32 0.270  Left Foot    18.531                  1 Close-range attempt from inside the penalty area with a good sight of goal, though under tight pressure from a nearby defender and with the goalkeeper covering the near post.
+b85a7aad-d825-414a-bc3b-836ff6fbff82     0  0.057    0.32 0.263       Head    11.780                  1                              The shot is taken from very close range near the six-yard box, but the crowded penalty area presents multiple defenders who can block the effort.
+d71bc1d5-1501-4fe6-9ae8-a490371ee93e     1  0.027    0.28 0.253 Right Foot    10.456                  1                               The shot is taken from very close range near the six-yard box, but faces an acute angle, an adjacent defender, and a well-positioned goalkeeper.
+7dc143c8-2c30-4d5e-b227-682e509874b1     0  0.037    0.22 0.183  Left Foot    11.609                  0                                    The shot is taken from very close range, but the angle is narrow with both the goalkeeper and an immediate defender smothering the attempt.
+4d09313e-118e-459a-9ee8-01dc7a56f08f     0  0.106    0.28 0.174       Head    11.300                  1                                Central shot from close range near the penalty spot, though under heavy immediate pressure from a defender with the goalkeeper well-positioned.
+449f2702-ad18-4bc8-a9ef-59fb1dc1a707     0  0.107    0.28 0.173       Head     9.338                  2                               Central, close-range opportunity inside the penalty area, though under close pressure with a defender directly between the shooter and the goal.
+9cac3331-2996-499e-8bd1-c3bcdde52453     0  0.053    0.22 0.167 Right Foot    14.121                  2                     The shot is taken from a dangerous central position around 10 yards out, though under close pressure from a defender with the goalkeeper in good position.
+
+Largest VLM under-estimates:
+                             shot_id  goal  sb_xg  vlm_xg    gap  body_part  distance  defenders_in_cone                                                                                                                                                                                   vlm_reason
+4b8db9ec-fbb1-485b-b348-d8bb3aecbf07     1  0.779    0.40 -0.379 Right Foot     9.534                  0 The shot is taken from very close range (around 9-10 yards) with a central angle and significant open goal space to the right of the displaced goalkeeper, despite close defensive pressure.
+6e8ce1fe-2cc7-499d-a137-df556d0ce758     0  0.317    0.22 -0.097  Left Foot    14.135                  1                                                               Central shooting position close to the penalty spot with a clear sight of goal, though heavily pressured by a nearby defender.
+3a9a382c-c6fc-4f96-9b1e-9eae06af8ebb     0  0.332    0.28 -0.052 Right Foot     8.901                  2                                                                   Central shot from very close range, but heavily congested with defenders and the goalkeeper directly in the shooting lane.
+2b86a444-5696-4c2d-ba7f-837ec9756684     1  0.669    0.62 -0.049 Right Foot     4.780                  0                                 The shot is taken from point-blank range right on the goal line, presenting an extremely high-probability scoring opportunity despite the crowded goalmouth.
+3074f495-700d-416f-b0af-f2db45328354     0  0.081    0.04 -0.041  Left Foot    22.871                  1                                                      The shot is taken from outside the penalty area under immediate pressure from multiple closely surrounding defenders and a crowded box.
+fa3b646a-a38f-456c-ae47-678e3be6d54b     0  0.089    0.07 -0.019 Right Foot    19.721                  1         The shot is taken from a central position at the edge of the penalty box, but faces significant congestion with multiple defenders and the goalkeeper directly in the shooting lane.
+be213c96-cdf9-4a6a-a1c5-4e8c33966c0b     0  0.064    0.05 -0.014 Right Foot    18.266                  2                                                         The shot is taken from the edge of the penalty area through heavy traffic, with multiple defenders blocking the direct line to goal.
+a53883b6-db8a-4d3d-bca7-10c49010f58e     0  0.064    0.05 -0.014 Right Foot    26.294                  5                                                   The shot is taken from outside the penalty box through a heavily congested penalty area with multiple defenders blocking the path to goal.

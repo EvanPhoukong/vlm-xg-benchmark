@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "checks": [
+    "eligible.json frozen",
+    "source_audit.json frozen",
+    "crop_audit.json frozen",
+    "baseline_models.json frozen",
+    "experiment.py frozen",
+    "common.py frozen",
+    "source.mjs frozen",
+    "run.mjs frozen",
+    "fixed selected prefix",
+    "selected cohort and schedule hashes",
+    "complete paired predictions",
+    "unique shots and ten match groups",
+    "representation schedule reproducible",
+    "all extracted snapshots reconstruct from hashed raw ranges",
+    "all twenty small camera resources match canonical LFS SHA256",
+    "pre-shot positions,roles,actor identity and spatial features reproduce",
+    "outcome/header/event-location mutation leaves input pixels unchanged",
+    "training-only scaling and complete-match exclusions reproduce",
+    "all model request hashes,image bytes,answers,settings and costs reconcile",
+    "reported costs and cap",
+    "no paid runner active"
+  ],
+  "check_count": 21,
+  "snapshots_verified": 612,
+  "requests_verified": 1216,
+  "estimated_usd": 5.525213999999986,
+  "conservative_usd": 6.683824999999987,
+  "full_large_file_sha256_verified": false,
+  "small_camera_resource_sha256_verified": true
+}

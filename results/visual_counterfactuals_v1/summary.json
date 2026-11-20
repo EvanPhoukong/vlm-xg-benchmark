@@ -1,0 +1,32 @@
+{
+  "results": {
+    "luna_original": {
+      "expected_direction_count": 10,
+      "pairs": 12,
+      "mean_favorable_minus_base": 0.10583333333333333,
+      "mean_absolute_repeat_change": 0.06333333333333334,
+      "ties": 1,
+      "reversals": [
+        "angle_0"
+      ]
+    },
+    "luna_uncertainty": {
+      "expected_direction_count": 7,
+      "pairs": 12,
+      "mean_favorable_minus_base": 0.09916666666666668,
+      "mean_absolute_repeat_change": 0.1275,
+      "ties": 0,
+      "reversals": [
+        "distance_0",
+        "angle_2",
+        "blocking_0",
+        "blocking_1",
+        "blocking_2"
+      ]
+    }
+  },
+  "calls": 72,
+  "estimated_usd": 0.0145834,
+  "shared_conservative_usd": 0.42839125,
+  "request_and_response_audit": "passed"
+}

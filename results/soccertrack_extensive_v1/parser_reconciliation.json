@@ -1,0 +1,19 @@
+[
+  {
+    "before": {
+      "job_id": "opus__118575_2_47424",
+      "arm": "opus",
+      "shot_id": "118575_2_47424",
+      "model": "claude-opus-5-5",
+      "state": "uncertain",
+      "input_bound": 1463,
+      "reserved_usd": 0.027795,
+      "charged_bound_usd": 0.027795,
+      "request_sha256": "882d882e0ab60fe66b209454c2a57d976ed279a8a3a1fd9f6e004ce6bc0c3d4e",
+      "image_sha256": "0d326dd7503baef92c0d69d82542a22fa832e8608502becc062292c1b482b7ef",
+      "started_unix": 1794555357.9866285,
+      "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+    },
+    "original_response_sha256": "982d23d8322d8993a75fd3e45570936000274e011f505641a6a712f36a697e26"
+  }
+]

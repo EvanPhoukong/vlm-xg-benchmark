@@ -1,0 +1,58 @@
+{
+  "luna": {
+    "repeat_cases": 12,
+    "mean_absolute_repeat_change": 0.06749999999999999,
+    "probe_cases": 12,
+    "expected_direction_count": 9,
+    "ties": [],
+    "reversals": [
+      "angle_0",
+      "blocking_2",
+      "distance_0"
+    ],
+    "mean_favorable_change": 0.1575
+  },
+  "astra": {
+    "repeat_cases": 12,
+    "mean_absolute_repeat_change": 0.008749999999999999,
+    "probe_cases": 12,
+    "expected_direction_count": 10,
+    "ties": [],
+    "reversals": [
+      "angle_1",
+      "angle_2"
+    ],
+    "mean_favorable_change": 0.22083333333333333
+  },
+  "examples": {
+    "repeat_cases": 12,
+    "mean_absolute_repeat_change": 0.052083333333333336,
+    "probe_cases": 12,
+    "expected_direction_count": 7,
+    "ties": [
+      "angle_1"
+    ],
+    "reversals": [
+      "blocking_0",
+      "blocking_1",
+      "blocking_2",
+      "keeper_1"
+    ],
+    "mean_favorable_change": 0.04666666666666666
+  },
+  "shuffled": {
+    "repeat_cases": 12,
+    "mean_absolute_repeat_change": 0.03541666666666666,
+    "probe_cases": 12,
+    "expected_direction_count": 7,
+    "ties": [],
+    "reversals": [
+      "angle_1",
+      "blocking_0",
+      "blocking_1",
+      "blocking_2",
+      "keeper_2"
+    ],
+    "mean_favorable_change": 0.0041666666666666605
+  }
+}

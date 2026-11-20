@@ -1,0 +1,1124 @@
+{
+  "dataset": "SoccerTrack v2",
+  "model": "gpt-6.2-sol",
+  "shots": 80,
+  "goals": 10,
+  "matches": 10,
+  "metrics": {
+    "zero": {
+      "n": 80,
+      "goals": 10,
+      "goal_rate": 0.125,
+      "brier": 0.108515,
+      "logloss": 0.37517874054318134,
+      "auc": 0.6328571428571429,
+      "mean_xg": 0.092,
+      "mean_bias": -0.032999999999999995
+    },
+    "outcome8": {
+      "n": 80,
+      "goals": 10,
+      "goal_rate": 0.125,
+      "brier": 0.11268375,
+      "logloss": 0.3921726933859292,
+      "auc": 0.43,
+      "mean_xg": 0.115625,
+      "mean_bias": -0.009375
+    },
+    "outcome16": {
+      "n": 80,
+      "goals": 10,
+      "goal_rate": 0.125,
+      "brier": 0.11271624999999999,
+      "logloss": 0.39262525735101966,
+      "auc": 0.4442857142857143,
+      "mean_xg": 0.12237500000000001,
+      "mean_bias": -0.0026249999999999967
+    },
+    "shuffled_outcome16": {
+      "n": 80,
+      "goals": 10,
+      "goal_rate": 0.125,
+      "brier": 0.111565,
+      "logloss": 0.3876923719325097,
+      "auc": 0.4742857142857143,
+      "mean_xg": 0.11875,
+      "mean_bias": -0.006250000000000001
+    },
+    "teacher16": {
+      "n": 80,
+      "goals": 10,
+      "goal_rate": 0.125,
+      "brier": 0.10957376249999999,
+      "logloss": 0.37612251549699083,
+      "auc": 0.5578571428571428,
+      "mean_xg": 0.1316125,
+      "mean_bias": 0.006612500000000002
+    },
+    "shuffled_teacher16": {
+      "n": 80,
+      "goals": 10,
+      "goal_rate": 0.125,
+      "brier": 0.1133333,
+      "logloss": 0.393315474711266,
+      "auc": 0.44857142857142857,
+      "mean_xg": 0.13125,
+      "mean_bias": 0.006250000000000004
+    },
+    "logistic": {
+      "n": 80,
+      "goals": 10,
+      "goal_rate": 0.125,
+      "brier": 0.08712504032404245,
+      "logloss": 0.30988774131079133,
+      "auc": 0.7471428571428571,
+      "mean_xg": 0.13958721221382375,
+      "mean_bias": 0.014587212213823772
+    },
+    "logistic_header": {
+      "n": 80,
+      "goals": 10,
+      "goal_rate": 0.125,
+      "brier": 0.08153346723864559,
+      "logloss": 0.29495112640959353,
+      "auc": 0.77,
+      "mean_xg": 0.1469629156590738,
+      "mean_bias": 0.02196291565907379
+    },
+    "training_constant": {
+      "n": 80,
+      "goals": 10,
+      "goal_rate": 0.125,
+      "brier": 0.10955367459115628,
+      "logloss": 0.37754459101029747,
+      "auc": 0.565,
+      "mean_xg": 0.14396087005783761,
+      "mean_bias": 0.01896087005783762
+    }
+  },
+  "primary": {
+    "outcome16_minus_zero": {
+      "difference": 0.004201249999999991,
+      "confidence": 0.9875,
+      "interval": [
+        -0.004646177884615396,
+        0.01132932632970909
+      ],
+      "matches": 10
+    },
+    "outcome16_minus_shuffled_outcome16": {
+      "difference": 0.0011512499999999982,
+      "confidence": 0.9875,
+      "interval": [
+        -0.0008929813801286005,
+        0.0029562555803571435
+      ],
+      "matches": 10
+    },
+    "teacher16_minus_zero": {
+      "difference": 0.0010587624999999954,
+      "confidence": 0.9875,
+      "interval": [
+        -0.0070602981156180225,
+        0.00872267047624145
+      ],
+      "matches": 10
+    },
+    "teacher16_minus_shuffled_teacher16": {
+      "difference": -0.003759537500000006,
+      "confidence": 0.9875,
+      "interval": [
+        -0.007446828283313339,
+        0.00021102981919447444
+      ],
+      "matches": 10
+    }
+  },
+  "calls": 480,
+  "estimated_usd": 5.4419356,
+  "conservative_usd": 6.82062,
+  "cap_usd": 10.0,
+  "failures": 0,
+  "per_match": {
+    "117092": {
+      "zero": {
+        "n": 12,
+        "goals": 4,
+        "goal_rate": 0.3333333333333333,
+        "brier": 0.2743,
+        "logloss": 0.8294891866835052,
+        "auc": 0.796875,
+        "mean_xg": 0.085,
+        "mean_bias": -0.24833333333333332
+      },
+      "outcome8": {
+        "n": 12,
+        "goals": 4,
+        "goal_rate": 0.3333333333333333,
+        "brier": 0.2778083333333333,
+        "logloss": 0.8495441199319883,
+        "auc": 0.546875,
+        "mean_xg": 0.09583333333333334,
+        "mean_bias": -0.23750000000000002
+      },
+      "outcome16": {
+        "n": 12,
+        "goals": 4,
+        "goal_rate": 0.3333333333333333,
+        "brier": 0.28961666666666663,
+        "logloss": 0.9198310854803066,
+        "auc": 0.375,
+        "mean_xg": 0.07833333333333332,
+        "mean_bias": -0.25499999999999995
+      },
+      "shuffled_outcome16": {
+        "n": 12,
+        "goals": 4,
+        "goal_rate": 0.3333333333333333,
+        "brier": 0.28925000000000006,
+        "logloss": 0.9179605463511683,
+        "auc": 0.40625,
+        "mean_xg": 0.07666666666666667,
+        "mean_bias": -0.25666666666666665
+      },
+      "teacher16": {
+        "n": 12,
+        "goals": 4,
+        "goal_rate": 0.3333333333333333,
+        "brier": 0.27253333333333335,
+        "logloss": 0.8233322439615617,
+        "auc": 0.453125,
+        "mean_xg": 0.11666666666666665,
+        "mean_bias": -0.21666666666666667
+      },
+      "shuffled_teacher16": {
+        "n": 12,
+        "goals": 4,
+        "goal_rate": 0.3333333333333333,
+        "brier": 0.2813875,
+        "logloss": 0.8638680759724194,
+        "auc": 0.359375,
+        "mean_xg": 0.10316666666666668,
+        "mean_bias": -0.23016666666666663
+      },
+      "logistic": {
+        "n": 12,
+        "goals": 4,
+        "goal_rate": 0.3333333333333333,
+        "brier": 0.20710791187056002,
+        "logloss": 0.6441019362827101,
+        "auc": 0.8125,
+        "mean_xg": 0.1497101335496586,
+        "mean_bias": -0.18362319978367478
+      },
+      "logistic_header": {
+        "n": 12,
+        "goals": 4,
+        "goal_rate": 0.3333333333333333,
+        "brier": 0.19662021718091263,
+        "logloss": 0.6082131404730521,
+        "auc": 0.875,
+        "mean_xg": 0.15681828155812474,
+        "mean_bias": -0.17651505177520854
+      },
+      "training_constant": {
+        "n": 12,
+        "goals": 4,
+        "goal_rate": 0.3333333333333333,
+        "brier": 0.2579163897179249,
+        "logloss": 0.7490175940592723,
+        "auc": 0.5,
+        "mean_xg": 0.14440433212996392,
+        "mean_bias": -0.1889290012033694
+      }
+    },
+    "117093": {
+      "zero": {
+        "n": 10,
+        "goals": 1,
+        "goal_rate": 0.1,
+        "brier": 0.07724,
+        "logloss": 0.2669279777308854,
+        "auc": 1.0,
+        "mean_xg": 0.10800000000000001,
+        "mean_bias": 0.008000000000000002
+      },
+      "outcome8": {
+        "n": 10,
+        "goals": 1,
+        "goal_rate": 0.1,
+        "brier": 0.08762,
+        "logloss": 0.3149198537754437,
+        "auc": 0.7777777777777778,
+        "mean_xg": 0.14999999999999997,
+        "mean_bias": 0.04999999999999999
+      },
+      "outcome16": {
+        "n": 10,
+        "goals": 1,
+        "goal_rate": 0.1,
+        "brier": 0.09029999999999999,
+        "logloss": 0.32431709247171014,
+        "auc": 0.7222222222222222,
+        "mean_xg": 0.146,
+        "mean_bias": 0.046
+      },
+      "shuffled_outcome16": {
+        "n": 10,
+        "goals": 1,
+        "goal_rate": 0.1,
+        "brier": 0.08685999999999998,
+        "logloss": 0.3102972596628063,
+        "auc": 0.8333333333333334,
+        "mean_xg": 0.13399999999999998,
+        "mean_bias": 0.03400000000000001
+      },
+      "teacher16": {
+        "n": 10,
+        "goals": 1,
+        "goal_rate": 0.1,
+        "brier": 0.09247999999999999,
+        "logloss": 0.33100596953073874,
+        "auc": 0.6111111111111112,
+        "mean_xg": 0.138,
+        "mean_bias": 0.03799999999999999
+      },
+      "shuffled_teacher16": {
+        "n": 10,
+        "goals": 1,
+        "goal_rate": 0.1,
+        "brier": 0.08961,
+        "logloss": 0.3208764063373253,
+        "auc": 0.6666666666666666,
+        "mean_xg": 0.149,
+        "mean_bias": 0.049
+      },
+      "logistic": {
+        "n": 10,
+        "goals": 1,
+        "goal_rate": 0.1,
+        "brier": 0.09835457619434641,
+        "logloss": 0.3609826122084684,
+        "auc": 0.4444444444444444,
+        "mean_xg": 0.09916461255266092,
+        "mean_bias": -0.0008353874473390838
+      },
+      "logistic_header": {
+        "n": 10,
+        "goals": 1,
+        "goal_rate": 0.1,
+        "brier": 0.0960505033342504,
+        "logloss": 0.35174981455092025,
+        "auc": 0.4444444444444444,
+        "mean_xg": 0.09445387535372238,
+        "mean_bias": -0.0055461246462776195
+      },
+      "training_constant": {
+        "n": 10,
+        "goals": 1,
+        "goal_rate": 0.1,
+        "brier": 0.0916231043941825,
+        "logloss": 0.33244775233931284,
+        "auc": 0.5,
+        "mean_xg": 0.14028776978417265,
+        "mean_bias": 0.04028776978417266
+      }
+    },
+    "118575": {
+      "zero": {
+        "n": 6,
+        "goals": 0,
+        "goal_rate": 0.0,
+        "brier": 0.005283333333333334,
+        "logloss": 0.07444961021705819,
+        "auc": null,
+        "mean_xg": 0.07166666666666667,
+        "mean_bias": 0.07166666666666667
+      },
+      "outcome8": {
+        "n": 6,
+        "goals": 0,
+        "goal_rate": 0.0,
+        "brier": 0.022916666666666665,
+        "logloss": 0.15471587919331667,
+        "auc": null,
+        "mean_xg": 0.14166666666666664,
+        "mean_bias": 0.14166666666666664
+      },
+      "outcome16": {
+        "n": 6,
+        "goals": 0,
+        "goal_rate": 0.0,
+        "brier": 0.015566666666666668,
+        "logloss": 0.1285801466101513,
+        "auc": null,
+        "mean_xg": 0.12,
+        "mean_bias": 0.12
+      },
+      "shuffled_outcome16": {
+        "n": 6,
+        "goals": 0,
+        "goal_rate": 0.0,
+        "brier": 0.013683333333333334,
+        "logloss": 0.1224615905899336,
+        "auc": null,
+        "mean_xg": 0.11499999999999999,
+        "mean_bias": 0.11499999999999999
+      },
+      "teacher16": {
+        "n": 6,
+        "goals": 0,
+        "goal_rate": 0.0,
+        "brier": 0.014783333333333334,
+        "logloss": 0.1264440748131855,
+        "auc": null,
+        "mean_xg": 0.11833333333333335,
+        "mean_bias": 0.11833333333333335
+      },
+      "shuffled_teacher16": {
+        "n": 6,
+        "goals": 0,
+        "goal_rate": 0.0,
+        "brier": 0.01455,
+        "logloss": 0.12303018288627503,
+        "auc": null,
+        "mean_xg": 0.115,
+        "mean_bias": 0.115
+      },
+      "logistic": {
+        "n": 6,
+        "goals": 0,
+        "goal_rate": 0.0,
+        "brier": 0.00791217563694528,
+        "logloss": 0.08793985767210181,
+        "auc": null,
+        "mean_xg": 0.083683679252343,
+        "mean_bias": 0.083683679252343
+      },
+      "logistic_header": {
+        "n": 6,
+        "goals": 0,
+        "goal_rate": 0.0,
+        "brier": 0.009652484249431251,
+        "logloss": 0.09508958759623175,
+        "auc": null,
+        "mean_xg": 0.08982805322308647,
+        "mean_bias": 0.08982805322308647
+      },
+      "training_constant": {
+        "n": 6,
+        "goals": 0,
+        "goal_rate": 0.0,
+        "brier": 0.021138272722700063,
+        "logloss": 0.15711013744745858,
+        "auc": null,
+        "mean_xg": 0.14539007092198578,
+        "mean_bias": 0.14539007092198578
+      }
+    },
+    "118576": {
+      "zero": {
+        "n": 13,
+        "goals": 2,
+        "goal_rate": 0.15384615384615385,
+        "brier": 0.1264153846153846,
+        "logloss": 0.40950419486223394,
+        "auc": 0.8409090909090909,
+        "mean_xg": 0.10307692307692307,
+        "mean_bias": -0.050769230769230775
+      },
+      "outcome8": {
+        "n": 13,
+        "goals": 2,
+        "goal_rate": 0.15384615384615385,
+        "brier": 0.1294,
+        "logloss": 0.4250265279460405,
+        "auc": 0.6363636363636364,
+        "mean_xg": 0.11692307692307696,
+        "mean_bias": -0.03692307692307693
+      },
+      "outcome16": {
+        "n": 13,
+        "goals": 2,
+        "goal_rate": 0.15384615384615385,
+        "brier": 0.13106923076923074,
+        "logloss": 0.43132083729359455,
+        "auc": 0.45454545454545453,
+        "mean_xg": 0.14076923076923079,
+        "mean_bias": -0.013076923076923068
+      },
+      "shuffled_outcome16": {
+        "n": 13,
+        "goals": 2,
+        "goal_rate": 0.15384615384615385,
+        "brier": 0.12969999999999998,
+        "logloss": 0.4263412075185539,
+        "auc": 0.5227272727272727,
+        "mean_xg": 0.1515384615384615,
+        "mean_bias": -0.002307692307692295
+      },
+      "teacher16": {
+        "n": 13,
+        "goals": 2,
+        "goal_rate": 0.15384615384615385,
+        "brier": 0.1270153846153846,
+        "logloss": 0.4175849981977915,
+        "auc": 0.8409090909090909,
+        "mean_xg": 0.1723076923076923,
+        "mean_bias": 0.018461538461538467
+      },
+      "shuffled_teacher16": {
+        "n": 13,
+        "goals": 2,
+        "goal_rate": 0.15384615384615385,
+        "brier": 0.12905384615384619,
+        "logloss": 0.42403052691743753,
+        "auc": 0.7045454545454546,
+        "mean_xg": 0.17307692307692307,
+        "mean_bias": 0.01923076923076924
+      },
+      "logistic": {
+        "n": 13,
+        "goals": 2,
+        "goal_rate": 0.15384615384615385,
+        "brier": 0.060893084325447086,
+        "logloss": 0.2524715585039585,
+        "auc": 1.0,
+        "mean_xg": 0.21672696960747173,
+        "mean_bias": 0.06288081576131788
+      },
+      "logistic_header": {
+        "n": 13,
+        "goals": 2,
+        "goal_rate": 0.15384615384615385,
+        "brier": 0.052535987451982506,
+        "logloss": 0.23583626529974464,
+        "auc": 1.0,
+        "mean_xg": 0.23737112593079926,
+        "mean_bias": 0.08352497208464539
+      },
+      "training_constant": {
+        "n": 13,
+        "goals": 2,
+        "goal_rate": 0.15384615384615385,
+        "brier": 0.13020839704758805,
+        "logloss": 0.4294440427420158,
+        "auc": 0.5,
+        "mean_xg": 0.14828897338403044,
+        "mean_bias": -0.005557180462123412
+      }
+    },
+    "118577": {
+      "zero": {
+        "n": 12,
+        "goals": 2,
+        "goal_rate": 0.16666666666666666,
+        "brier": 0.15479166666666666,
+        "logloss": 0.5585662670317201,
+        "auc": 0.2,
+        "mean_xg": 0.08583333333333333,
+        "mean_bias": -0.08083333333333333
+      },
+      "outcome8": {
+        "n": 12,
+        "goals": 2,
+        "goal_rate": 0.16666666666666666,
+        "brier": 0.15189166666666667,
+        "logloss": 0.5162565105466004,
+        "auc": 0.2,
+        "mean_xg": 0.11250000000000003,
+        "mean_bias": -0.05416666666666667
+      },
+      "outcome16": {
+        "n": 12,
+        "goals": 2,
+        "goal_rate": 0.16666666666666666,
+        "brier": 0.14264999999999997,
+        "logloss": 0.4630695514416658,
+        "auc": 0.425,
+        "mean_xg": 0.135,
+        "mean_bias": -0.031666666666666655
+      },
+      "shuffled_outcome16": {
+        "n": 12,
+        "goals": 2,
+        "goal_rate": 0.16666666666666666,
+        "brier": 0.14255,
+        "logloss": 0.4625156282136078,
+        "auc": 0.475,
+        "mean_xg": 0.12833333333333333,
+        "mean_bias": -0.03833333333333332
+      },
+      "teacher16": {
+        "n": 12,
+        "goals": 2,
+        "goal_rate": 0.16666666666666666,
+        "brier": 0.13875833333333332,
+        "logloss": 0.44554712041561695,
+        "auc": 0.55,
+        "mean_xg": 0.1375,
+        "mean_bias": -0.029166666666666657
+      },
+      "shuffled_teacher16": {
+        "n": 12,
+        "goals": 2,
+        "goal_rate": 0.16666666666666666,
+        "brier": 0.14892466666666668,
+        "logloss": 0.4978567451137457,
+        "auc": 0.3,
+        "mean_xg": 0.12633333333333333,
+        "mean_bias": -0.04033333333333334
+      },
+      "logistic": {
+        "n": 12,
+        "goals": 2,
+        "goal_rate": 0.16666666666666666,
+        "brier": 0.098024016377482,
+        "logloss": 0.312169926855192,
+        "auc": 0.9,
+        "mean_xg": 0.16246138038498248,
+        "mean_bias": -0.004205286281684197
+      },
+      "logistic_header": {
+        "n": 12,
+        "goals": 2,
+        "goal_rate": 0.16666666666666666,
+        "brier": 0.08967718300071335,
+        "logloss": 0.29499117580000617,
+        "auc": 0.9,
+        "mean_xg": 0.19257780989698173,
+        "mean_bias": 0.02591114323031506
+      },
+      "training_constant": {
+        "n": 12,
+        "goals": 2,
+        "goal_rate": 0.16666666666666666,
+        "brier": 0.1394557823129252,
+        "logloss": 0.4527772580319341,
+        "auc": 0.5,
+        "mean_xg": 0.14285714285714282,
+        "mean_bias": -0.023809523809523836
+      }
+    },
+    "118578": {
+      "zero": {
+        "n": 4,
+        "goals": 0,
+        "goal_rate": 0.0,
+        "brier": 0.009500000000000001,
+        "logloss": 0.10011352977770643,
+        "auc": null,
+        "mean_xg": 0.095,
+        "mean_bias": 0.095
+      },
+      "outcome8": {
+        "n": 4,
+        "goals": 0,
+        "goal_rate": 0.0,
+        "brier": 0.010075,
+        "logloss": 0.10293704634083642,
+        "auc": null,
+        "mean_xg": 0.0975,
+        "mean_bias": 0.0975
+      },
+      "outcome16": {
+        "n": 4,
+        "goals": 0,
+        "goal_rate": 0.0,
+        "brier": 0.010275000000000001,
+        "logloss": 0.10305920612826586,
+        "auc": null,
+        "mean_xg": 0.0975,
+        "mean_bias": 0.0975
+      },
+      "shuffled_outcome16": {
+        "n": 4,
+        "goals": 0,
+        "goal_rate": 0.0,
+        "brier": 0.007549999999999999,
+        "logloss": 0.08902537709608284,
+        "auc": null,
+        "mean_xg": 0.085,
+        "mean_bias": 0.085
+      },
+      "teacher16": {
+        "n": 4,
+        "goals": 0,
+        "goal_rate": 0.0,
+        "brier": 0.0165,
+        "logloss": 0.1341090353130485,
+        "auc": null,
+        "mean_xg": 0.125,
+        "mean_bias": 0.125
+      },
+      "shuffled_teacher16": {
+        "n": 4,
+        "goals": 0,
+        "goal_rate": 0.0,
+        "brier": 0.017550000000000003,
+        "logloss": 0.13969166213908263,
+        "auc": null,
+        "mean_xg": 0.13,
+        "mean_bias": 0.13
+      },
+      "logistic": {
+        "n": 4,
+        "goals": 0,
+        "goal_rate": 0.0,
+        "brier": 0.014605524773647419,
+        "logloss": 0.11708679803509359,
+        "auc": null,
+        "mean_xg": 0.10888740560003374,
+        "mean_bias": 0.10888740560003374
+      },
+      "logistic_header": {
+        "n": 4,
+        "goals": 0,
+        "goal_rate": 0.0,
+        "brier": 0.0043418544963211075,
+        "logloss": 0.06559340245259354,
+        "auc": null,
+        "mean_xg": 0.06331168180301087,
+        "mean_bias": 0.06331168180301087
+      },
+      "training_constant": {
+        "n": 4,
+        "goals": 0,
+        "goal_rate": 0.0,
+        "brier": 0.020852611137900923,
+        "logloss": 0.1559573650522073,
+        "auc": null,
+        "mean_xg": 0.1444043321299639,
+        "mean_bias": 0.1444043321299639
+      }
+    },
+    "128057": {
+      "zero": {
+        "n": 5,
+        "goals": 0,
+        "goal_rate": 0.0,
+        "brier": 0.005679999999999999,
+        "logloss": 0.07500657364021554,
+        "auc": null,
+        "mean_xg": 0.07200000000000001,
+        "mean_bias": 0.07200000000000001
+      },
+      "outcome8": {
+        "n": 5,
+        "goals": 0,
+        "goal_rate": 0.0,
+        "brier": 0.015560000000000001,
+        "logloss": 0.12857610778400436,
+        "auc": null,
+        "mean_xg": 0.12000000000000002,
+        "mean_bias": 0.12000000000000002
+      },
+      "outcome16": {
+        "n": 5,
+        "goals": 0,
+        "goal_rate": 0.0,
+        "brier": 0.01118,
+        "logloss": 0.10805661302894416,
+        "auc": null,
+        "mean_xg": 0.10200000000000001,
+        "mean_bias": 0.10200000000000001
+      },
+      "shuffled_outcome16": {
+        "n": 5,
+        "goals": 0,
+        "goal_rate": 0.0,
+        "brier": 0.011019999999999999,
+        "logloss": 0.10796306765773456,
+        "auc": null,
+        "mean_xg": 0.10200000000000001,
+        "mean_bias": 0.10200000000000001
+      },
+      "teacher16": {
+        "n": 5,
+        "goals": 0,
+        "goal_rate": 0.0,
+        "brier": 0.0086752,
+        "logloss": 0.09347036625040368,
+        "auc": null,
+        "mean_xg": 0.0888,
+        "mean_bias": 0.0888
+      },
+      "shuffled_teacher16": {
+        "n": 5,
+        "goals": 0,
+        "goal_rate": 0.0,
+        "brier": 0.0091386,
+        "logloss": 0.09515258714602463,
+        "auc": null,
+        "mean_xg": 0.09020000000000002,
+        "mean_bias": 0.09020000000000002
+      },
+      "logistic": {
+        "n": 5,
+        "goals": 0,
+        "goal_rate": 0.0,
+        "brier": 0.009650855039288656,
+        "logloss": 0.09813355897938994,
+        "auc": null,
+        "mean_xg": 0.09290352807136486,
+        "mean_bias": 0.09290352807136486
+      },
+      "logistic_header": {
+        "n": 5,
+        "goals": 0,
+        "goal_rate": 0.0,
+        "brier": 0.011726326480174234,
+        "logloss": 0.10647613627586927,
+        "auc": null,
+        "mean_xg": 0.1000341454774922,
+        "mean_bias": 0.1000341454774922
+      },
+      "training_constant": {
+        "n": 5,
+        "goals": 0,
+        "goal_rate": 0.0,
+        "brier": 0.019539831194357725,
+        "logloss": 0.15057285847937432,
+        "auc": null,
+        "mean_xg": 0.13978494623655913,
+        "mean_bias": 0.13978494623655913
+      }
+    },
+    "128058": {
+      "zero": {
+        "n": 7,
+        "goals": 0,
+        "goal_rate": 0.0,
+        "brier": 0.010228571428571429,
+        "logloss": 0.09422234844216026,
+        "auc": null,
+        "mean_xg": 0.08857142857142855,
+        "mean_bias": 0.08857142857142855
+      },
+      "outcome8": {
+        "n": 7,
+        "goals": 0,
+        "goal_rate": 0.0,
+        "brier": 0.01635714285714286,
+        "logloss": 0.13050117429303096,
+        "auc": null,
+        "mean_xg": 0.12142857142857144,
+        "mean_bias": 0.12142857142857144
+      },
+      "outcome16": {
+        "n": 7,
+        "goals": 0,
+        "goal_rate": 0.0,
+        "brier": 0.020271428571428572,
+        "logloss": 0.14712200846502413,
+        "auc": null,
+        "mean_xg": 0.1357142857142857,
+        "mean_bias": 0.1357142857142857
+      },
+      "shuffled_outcome16": {
+        "n": 7,
+        "goals": 0,
+        "goal_rate": 0.0,
+        "brier": 0.014814285714285714,
+        "logloss": 0.12389847505627873,
+        "auc": null,
+        "mean_xg": 0.11571428571428573,
+        "mean_bias": 0.11571428571428573
+      },
+      "teacher16": {
+        "n": 7,
+        "goals": 0,
+        "goal_rate": 0.0,
+        "brier": 0.015999999999999997,
+        "logloss": 0.12889249493662727,
+        "auc": null,
+        "mean_xg": 0.12,
+        "mean_bias": 0.12
+      },
+      "shuffled_teacher16": {
+        "n": 7,
+        "goals": 0,
+        "goal_rate": 0.0,
+        "brier": 0.023885714285714284,
+        "logloss": 0.1593287140378211,
+        "auc": null,
+        "mean_xg": 0.1457142857142857,
+        "mean_bias": 0.1457142857142857
+      },
+      "logistic": {
+        "n": 7,
+        "goals": 0,
+        "goal_rate": 0.0,
+        "brier": 0.0650572845924809,
+        "logloss": 0.22731953408675093,
+        "auc": null,
+        "mean_xg": 0.17401025909353837,
+        "mean_bias": 0.17401025909353837
+      },
+      "logistic_header": {
+        "n": 7,
+        "goals": 0,
+        "goal_rate": 0.0,
+        "brier": 0.052884167036096094,
+        "logloss": 0.20491256317297973,
+        "auc": null,
+        "mean_xg": 0.16694812726408964,
+        "mean_bias": 0.16694812726408964
+      },
+      "training_constant": {
+        "n": 7,
+        "goals": 0,
+        "goal_rate": 0.0,
+        "brier": 0.01982301346296707,
+        "logloss": 0.15174683251586377,
+        "auc": null,
+        "mean_xg": 0.1407942238267148,
+        "mean_bias": 0.1407942238267148
+      }
+    },
+    "132831": {
+      "zero": {
+        "n": 6,
+        "goals": 0,
+        "goal_rate": 0.0,
+        "brier": 0.009000000000000001,
+        "logloss": 0.09158874179476341,
+        "auc": null,
+        "mean_xg": 0.08666666666666667,
+        "mean_bias": 0.08666666666666667
+      },
+      "outcome8": {
+        "n": 6,
+        "goals": 0,
+        "goal_rate": 0.0,
+        "brier": 0.006716666666666667,
+        "logloss": 0.08191484001835055,
+        "auc": null,
+        "mean_xg": 0.07833333333333334,
+        "mean_bias": 0.07833333333333334
+      },
+      "outcome16": {
+        "n": 6,
+        "goals": 0,
+        "goal_rate": 0.0,
+        "brier": 0.009016666666666668,
+        "logloss": 0.09652211774330682,
+        "auc": null,
+        "mean_xg": 0.09166666666666667,
+        "mean_bias": 0.09166666666666667
+      },
+      "shuffled_outcome16": {
+        "n": 6,
+        "goals": 0,
+        "goal_rate": 0.0,
+        "brier": 0.008116666666666666,
+        "logloss": 0.0926704037634579,
+        "auc": null,
+        "mean_xg": 0.08833333333333333,
+        "mean_bias": 0.08833333333333333
+      },
+      "teacher16": {
+        "n": 6,
+        "goals": 0,
+        "goal_rate": 0.0,
+        "brier": 0.010487500000000002,
+        "logloss": 0.10648543337626754,
+        "auc": null,
+        "mean_xg": 0.10083333333333333,
+        "mean_bias": 0.10083333333333333
+      },
+      "shuffled_teacher16": {
+        "n": 6,
+        "goals": 0,
+        "goal_rate": 0.0,
+        "brier": 0.012320833333333331,
+        "logloss": 0.11421633105356586,
+        "auc": null,
+        "mean_xg": 0.1075,
+        "mean_bias": 0.1075
+      },
+      "logistic": {
+        "n": 6,
+        "goals": 0,
+        "goal_rate": 0.0,
+        "brier": 0.009765741094229638,
+        "logloss": 0.09028708563572425,
+        "auc": null,
+        "mean_xg": 0.08484205740631373,
+        "mean_bias": 0.08484205740631373
+      },
+      "logistic_header": {
+        "n": 6,
+        "goals": 0,
+        "goal_rate": 0.0,
+        "brier": 0.012862681945937836,
+        "logloss": 0.09909686647626727,
+        "auc": null,
+        "mean_xg": 0.09167895690691885,
+        "mean_bias": 0.09167895690691885
+      },
+      "training_constant": {
+        "n": 6,
+        "goals": 0,
+        "goal_rate": 0.0,
+        "brier": 0.021019610010917483,
+        "logloss": 0.15663207067864374,
+        "auc": null,
+        "mean_xg": 0.1449814126394052,
+        "mean_bias": 0.1449814126394052
+      }
+    },
+    "132877": {
+      "zero": {
+        "n": 5,
+        "goals": 1,
+        "goal_rate": 0.2,
+        "brier": 0.17852,
+        "logloss": 0.5867051899751908,
+        "auc": 0.25,
+        "mean_xg": 0.11600000000000002,
+        "mean_bias": -0.08399999999999999
+      },
+      "outcome8": {
+        "n": 5,
+        "goals": 1,
+        "goal_rate": 0.2,
+        "brier": 0.1779,
+        "logloss": 0.5843486488947433,
+        "auc": 0.25,
+        "mean_xg": 0.11399999999999999,
+        "mean_bias": -0.08600000000000001
+      },
+      "outcome16": {
+        "n": 5,
+        "goals": 1,
+        "goal_rate": 0.2,
+        "brier": 0.16736,
+        "logloss": 0.5263767200900746,
+        "auc": 0.25,
+        "mean_xg": 0.164,
+        "mean_bias": -0.03599999999999999
+      },
+      "shuffled_outcome16": {
+        "n": 5,
+        "goals": 1,
+        "goal_rate": 0.2,
+        "brier": 0.17381999999999997,
+        "logloss": 0.5500538454533802,
+        "auc": 0.25,
+        "mean_xg": 0.17,
+        "mean_bias": -0.02999999999999998
+      },
+      "teacher16": {
+        "n": 5,
+        "goals": 1,
+        "goal_rate": 0.2,
+        "brier": 0.17628,
+        "logloss": 0.5641943418314246,
+        "auc": 0.125,
+        "mean_xg": 0.152,
+        "mean_bias": -0.048
+      },
+      "shuffled_teacher16": {
+        "n": 5,
+        "goals": 1,
+        "goal_rate": 0.2,
+        "brier": 0.17696,
+        "logloss": 0.5660139088754222,
+        "auc": 0.5,
+        "mean_xg": 0.13599999999999998,
+        "mean_bias": -0.06400000000000002
+      },
+      "logistic": {
+        "n": 5,
+        "goals": 1,
+        "goal_rate": 0.2,
+        "brier": 0.17302387238943318,
+        "logloss": 0.5608374358161602,
+        "auc": 0.5,
+        "mean_xg": 0.09650571662055982,
+        "mean_bias": -0.10349428337944018
+      },
+      "logistic_header": {
+        "n": 5,
+        "goals": 1,
+        "goal_rate": 0.2,
+        "brier": 0.17247129797656297,
+        "logloss": 0.5560015530498662,
+        "auc": 0.5,
+        "mean_xg": 0.1045640716797694,
+        "mean_bias": -0.0954359283202306
+      },
+      "training_constant": {
+        "n": 5,
+        "goals": 1,
+        "goal_rate": 0.2,
+        "brier": 0.16281394123919274,
+        "logloss": 0.5106808295433243,
+        "auc": 0.5,
+        "mean_xg": 0.14695340501792115,
+        "mean_bias": -0.053046594982078865
+      }
+    }
+  },
+  "combined_estimated_usd": 5.488011600000003,
+  "combined_conservative_usd": 7.065415000000004,
+  "sol_estimated_usd": 5.4419356000000025,
+  "sonnet_startup_estimated_usd": 0.046076,
+  "rejected_attempts": 7,
+  "rejected_max_reservation_usd": 0.18792999999999999,
+  "total_successful_calls": 484,
+  "total_api_attempts": 491,
+  "example_fold_counts": {
+    "117092": {
+      "example_goals8": 1,
+      "example_goals16": 1,
+      "shuffled_outcomes_changed": true
+    },
+    "117093": {
+      "example_goals8": 2,
+      "example_goals16": 3,
+      "shuffled_outcomes_changed": true
+    },
+    "118575": {
+      "example_goals8": 3,
+      "example_goals16": 3,
+      "shuffled_outcomes_changed": true
+    },
+    "118576": {
+      "example_goals8": 1,
+      "example_goals16": 3,
+      "shuffled_outcomes_changed": true
+    },
+    "118577": {
+      "example_goals8": 1,
+      "example_goals16": 3,
+      "shuffled_outcomes_changed": true
+    },
+    "118578": {
+      "example_goals8": 0,
+      "example_goals16": 0,
+      "shuffled_outcomes_changed": false
+    },
+    "128057": {
+      "example_goals8": 2,
+      "example_goals16": 2,
+      "shuffled_outcomes_changed": true
+    },
+    "128058": {
+      "example_goals8": 2,
+      "example_goals16": 3,
+      "shuffled_outcomes_changed": true
+    },
+    "132831": {
+      "example_goals8": 0,
+      "example_goals16": 2,
+      "shuffled_outcomes_changed": true
+    },
+    "132877": {
+      "example_goals8": 0,
+      "example_goals16": 4,
+      "shuffled_outcomes_changed": true
+    }
+  }
+}

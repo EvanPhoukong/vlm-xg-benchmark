@@ -1,0 +1,71 @@
+Data: StatsBomb open data, competition 43, season 106
+All non-penalty shots with freeze frames: 1430 (152 goals)
+VLM sample: 50 shots (7 goals), observed goal rate 0.140
+VLM: openai/gpt-6-luna, zero-shot, context=image only
+
+model              AUC    Brier  LogLoss   MeanXG
+vlm_xg           0.610   0.1276   0.4069    0.195
+sb_xg            0.601   0.1111   0.4220    0.116
+baseline_xg      0.674   0.1155   0.3910    0.130
+
+Brier(VLM) - Brier(StatsBomb) = +0.0165  (95% bootstrap CI -0.0182 to +0.0517)
+Brier(VLM) - Brier(baseline)  = +0.0121  (95% bootstrap CI -0.0125 to +0.0333)
+Spearman rho, VLM vs StatsBomb xG: 0.552
+Mean gap (VLM - StatsBomb): +0.079; mean absolute gap: 0.123
+
+Disagreement by body_part:
+             n  goals    vlm  statsbomb  mean_gap
+body_part                                        
+Head        10      1  0.248      0.071     0.177
+Left Foot   14      2  0.139      0.084     0.054
+Other        1      0  0.620      0.517     0.103
+Right Foot  25      4  0.188      0.135     0.053
+
+Disagreement by play_pattern:
+                 n  goals    vlm  statsbomb  mean_gap
+play_pattern                                         
+From Corner     13      2  0.232      0.156     0.075
+From Free Kick  10      2  0.147      0.065     0.082
+From Goal Kick   2      0  0.330      0.062     0.268
+From Kick Off    1      0  0.030      0.027     0.003
+From Throw In    4      0  0.153      0.059     0.094
+Regular Play    20      3  0.198      0.136     0.062
+
+Disagreement by cone_bin:
+           n  goals    vlm  statsbomb  mean_gap
+cone_bin                                       
+0          4      2  0.325      0.376    -0.051
+1         20      4  0.241      0.138     0.103
+2         20      0  0.148      0.063     0.085
+3+         6      1  0.110      0.045     0.065
+
+Disagreement by dist_bin:
+           n  goals    vlm  statsbomb  mean_gap
+dist_bin                                       
+<6         3      1  0.460      0.443     0.017
+6-12      15      3  0.256      0.155     0.101
+12-18     14      2  0.199      0.105     0.094
+18-25      9      1  0.134      0.049     0.085
+25+        9      0  0.058      0.024     0.033
+
+Largest VLM over-estimates:
+                             shot_id  goal  sb_xg  vlm_xg   gap  body_part  distance  defenders_in_cone                                                                                                                                  vlm_reason
+95582d85-7eed-4aeb-bbe6-2b1a429b6295     0  0.018    0.38 0.362 Right Foot     9.227                  0 The shot is from extremely close range, but the tight angle and nearby goalkeeper and defenders substantially reduce the chance of scoring.
+ef6accb7-1ca3-46b0-9ba9-9c1f3fee82aa     0  0.059    0.32 0.261       Head     9.626                  2            The shot is from very close range near the right side of goal, but the goalkeeper and several defenders crowd the shooting lane.
+8d13ea77-6e18-493c-8e54-258f942c255b     0  0.042    0.30 0.258       Head    11.904                  1                The shot is from a close, central position, but a crowded cluster of defenders and the goalkeeper obstruct the path to goal.
+c0e30aed-d026-4957-8d78-509ab472e2bc     0  0.042    0.28 0.238       Head    10.890                  3                    The shot is from close range and centrally positioned, but the goalkeeper and several defenders crowd the shooting lane.
+9be1b301-9784-4f2b-b709-d2d4dec0d578     0  0.050    0.28 0.230  Left Foot    18.531                  1 The shot is from close range inside the box with a reasonable angle, but a nearby defender and the goalkeeper reduce the chance of scoring.
+40c60798-23de-4690-ab6b-47b58c1f58c4     1  0.013    0.24 0.227 Right Foot    23.064                  1                                       The shooter is close to goal but at a tight angle, with several defenders crowding the shooting lane.
+9cac3331-2996-499e-8bd1-c3bcdde52453     0  0.053    0.27 0.217 Right Foot    14.121                  2    The shot is from close range inside the box, but the angle is somewhat narrow and the goalkeeper and nearby defenders obstruct the goal.
+f951c284-4260-4f72-a737-c5cd541fcefa     0  0.128    0.34 0.212 Right Foot    15.345                  1              The shot is from very close range with a reasonable angle, but the goalkeeper and nearby defenders make the attempt difficult.
+
+Largest VLM under-estimates:
+                             shot_id  goal  sb_xg  vlm_xg    gap  body_part  distance  defenders_in_cone                                                                                                                                     vlm_reason
+4b8db9ec-fbb1-485b-b348-d8bb3aecbf07     1  0.779    0.22 -0.559 Right Foot     9.534                  0             The shot is from a central position fairly close to goal, but the goalkeeper and several defenders make the shooting lane crowded.
+2b86a444-5696-4c2d-ba7f-837ec9756684     1  0.669    0.48 -0.189 Right Foot     4.780                  0                             The shot is from very close range and near the goalmouth, but a crowd of defenders makes a clean finish difficult.
+afbe9884-329f-4721-a822-ccba6d081310     0  0.258    0.14 -0.118  Left Foot    12.192                  1                 The shot is close to goal but from a fairly acute angle, with the goalkeeper and several defenders crowding the shooting lane.
+3a9a382c-c6fc-4f96-9b1e-9eae06af8ebb     0  0.332    0.22 -0.112 Right Foot     8.901                  2                                       The shot is central and close to goal, but the goalkeeper and several defenders crowd the shooting lane.
+6e8ce1fe-2cc7-499d-a137-df556d0ce758     0  0.317    0.22 -0.097  Left Foot    14.135                  1          The shot is from a central position inside the box, but the goalkeeper and nearby defenders significantly obstruct the route to goal.
+a53883b6-db8a-4d3d-bca7-10c49010f58e     0  0.064    0.05 -0.014 Right Foot    26.294                  5                          The shot is from roughly 21 metres at a narrow angle, with a crowded defensive wall and goalkeeper blocking the goal.
+3074f495-700d-416f-b0af-f2db45328354     0  0.081    0.08 -0.001  Left Foot    22.871                  1                  The shot is from roughly 19 metres at a modest angle, with several defenders and the goalkeeper between the shooter and goal.
+fa3b646a-a38f-456c-ae47-678e3be6d54b     0  0.089    0.09  0.001 Right Foot    19.721                  1 A central shot from about 18 metres has a reasonable angle, but nearby defenders and a centrally positioned goalkeeper make scoring difficult.

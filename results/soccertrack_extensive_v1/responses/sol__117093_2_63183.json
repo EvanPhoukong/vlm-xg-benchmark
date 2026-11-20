@@ -1,0 +1,129 @@
+{
+  "id": "resp_03a282810aa0f903016af6bd56916887d08b43045be040693d",
+  "object": "response",
+  "created_at": 1794555222,
+  "status": "completed",
+  "access_programs": {
+    "cyber": "standard"
+  },
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1794555226,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "image": {
+    "context_compression": "disabled"
+  },
+  "incomplete_details": null,
+  "input_transformations": [],
+  "instructions": null,
+  "max_output_tokens": 1024,
+  "max_tool_calls": null,
+  "model": "gpt-6.1-sol",
+  "moderation": null,
+  "output": [
+    {
+      "id": "rs_03a282810aa0f903016af6bd57a9e087d08d28a3a2e782a0e2",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq9r1adxPokUZi0-Dtkiv-oF5Dcn-x1U1TNL95LHO5SO5slu7GGehfdJHd_YquThasks5Tn2b_C-YVJ8NXAkxHenDyauUNJbfjY0qavepAafcmTSfMBFUcZGQwVDfLTa982Zdz1uKv6-GXId5JANnndf55h78B1ZTSbW15Cg_wgGgGmz1nV5qg1nnQoU2kg4im776XvmqrVHi5RmEnhdrtnvf6SdTUGgdGa1tFqrAX0od7IsLNw05VTSUOD1Ym-D4DAXji00tHOJxXYAZ2RbyvVRN9fbyZlG2KMXd_-ughzDM4peHathXBeGlzh-rLVVgnBgLsr0kvAFD5Tc11NRPkcK2vtKtp0Ig8XgwS3r0LTYE3hGP_VEfyqtMR1o8yNH7HrR6N1_lszu6TsD_E9TRVNx5fuDul0TIPrvDdtWp2ACDhsvxnbt0QgU6yJFehFurlVEm0K7MxjtdnZnSpJYIO_GeYTsQ7EfrU1ypDay_IntWvvNpMC5CeoTuhOdkudaVmbmz4nZbj9DTEPV8ZyjhO0x34uVvj0ybi8LxiGKMqcDWo2SHE4PRLeoFP7mF_4urbuZUl359ScepNs790wMPcLoyzaBal9LBLollNdwYNgiEHfzlVEbAcHxP-vYXSe2KDKb3tgHk0q8JnMisATr4_lkijBh4GNsPqpxCq-cQ9e6BoT_FVEu9CZEVWVUrXY1VU20LUAa2pHvr34ZkU4pThZ0uZYwwFlBuop4riRH8r2EQh1smrbMuegrzUO0BejIqMJwiLdP7BbZRJgs1aCc2Evxo2YvxpeDhr1tKrk7p0CfaaIOkeYeGQOiVd51A0m8DRs1NADnF4n4j-n0VT8WycaqG77NpVGAdusceUGwVRG61c1Mn1uTkg8yrDSXBmDSzXgFDb9otVgRrEXNu4ZNU5LsF594WhR8i81LxOOCFX9F6_qU7nGWt2uOHu0988NPq6RC7fnQYhZ7wSMlwu0AlD3-XiGCkZ30wHlEPgVf7drTpTc5WiYlcbFFNfPlFcNz6iTRUvwBPu2jbs5Qc1VT_EJoIAARVpliPk_NuMUV07v6opfOQwNA-Nlm45kK6mAelo5c7Q9LDXIgtv4Nyc3hbJfqEYWWRnQHA90sAJKVt9Y8Rm-X9MRxyADQpg0_ZWYku9XHZCz1HvWegH4TtwP1b_0w9nCRbG4BEO9basaRXpXhb4Oo8Xxd1i1r7jsyRZ7zFDKWpi1jLU2BBkkoGdepAhkzUOucvzMTTD1WO7Si1bAlQri3VVtuwZQ7gQjxhc3TBT3-bbhn9ytwK1JyAAZzIVOe3zTgoXl6uneIiBYD1MC6EtdnjYSV13fWeEVVTLGcNhkbM_4BFvlg0pBUZnxq8-ViXUYZAb-HrTFfc_pNaT0WhJwUWGW6RqV4U2iCikKA8ecNORu48NIP9ebPUPozlYq4YU_EygMWcVheSnVC4JpETrvS641PHakhxUgQT_BfMftPYVUh_QxxY171P1lLtSfizyCNXmMX54vWfxn_Au4Lcsw-zlhgxaZeRw0x9r65E_FKcO7ORhEuh5A4nmLLiH35JjAUIxHfne6yCDrVILsifaMEsh1uZi8aS4XbFVZouExv1YEzg6l7t6eOcgc6A7fmoFDIjBBs285dQrw6Zsn8rBVN0OBXzYJ1uwKttOB33fv9PyOWgqfnVDKKjan876CdEy5C3NF3Ir-lTgLFsbkkkSwH_YlvALo_fw2GFSrBVMerlk0Nyy-tXLCDPfWeVmvjFymLzbl69y2vR39MSFxKA8LJW_DSvLhuYZVyvPXzZTsuQzj_m0bTw8cFFvKjB7g-WsBh20PCa3ORgKZVt48tKmtM7qYeLmJ07nX_NhvcQdkMzhUyyPtyPuD8nkzETpBuL6MvYApYg3DF6v4ATmNCT3LrK0Dz2qnnEKRmBVCBAHPybh1J0x_8izD0axjt2hUWkS6-XqN6LDyFO8CMpnauA2fjAyyTEXjvLCky4csSpHCzgGPaF4loqE_BxeLP1yYQV9vbchY6hAua-J58QnWeXOe6MM3U1W6wBw7VNlSflxUvvKP98CoU-7nQDbfA9FW_HwmZ1yKeLz5BpFbp4fyPiyN4-xQVET9urXX0SKlVzy09O4Qm4nU2yuuUUSalSnCYDyYGBRg55f4-6OBJ7illqAwBl4blqbUp2xhePdSZAY8OqVvKyb4CPdkkcTwwaoliyeLAlLOEmb4fLpNZXytAPvAlb0u8ef3OWarj2tEGB8CLucPzkSwjAnbguX6IkEvnunRF989ujWLlM7pzt4ouqCU6AWX0mIdgS3mDxZpdQT11QOE_e_JXVatS9xGr38O9d1-D7JNHKjeN-HZx7YO66IgOVmMW8METcNYXYe9juyyZu2nkGYAae-Ih3QT7ZTXZJKCJVsWdND0yMs-dqzw4Ra2Mbi7NwKlWcLQFv5AuqJ2iB4k2bWr8FqT2SIbdLKGrBgTW26VGkNf0oGvXAkLIC4wb6HZ8bXouIsj3k5WTS_oQgZR24klf7TDTTGraU_3E3uJjtHIdenItncpAWi5UqAD0wvMYpX3h9pPZjdqvBoV-Kw_hA5byMQfcfe-ZeBKPJS2nX6x6G4HhcTtnRBKqgLIFmtMOUoJoUeXqV8tek88Tn_Go9nbgpfIN9MbF5JHP9c0bZ_aKslVAwacL8SRgE69DmfAa_k06L8YnTMSo4w909q7if0HPoLsvu-muyDyJKYIJyBxBeMq4JePfazTNXAbiOHoNJ2SHaQcGqF1rq17HZN7NRpURy-AwdQYWKvZLD1B3jCMtJLaX9IvIToUaHfpPB3lLe5DguwNkF1jz7Dar_mMbRcLU5wjVOi8aMEosIvne_hGe0fUc_VYJUUtqwmUfRtdtjYXW0MdLjo7ewpRhWxjhYY0lEMZkiV6ZWeUz5tcg==",
+      "summary": []
+    },
+    {
+      "id": "msg_03a282810aa0f903016af6bd59542887d0ae9b6daaa29d7259",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"xg\":0.12,\"reason\":\"The apparent shooting position is inside the penalty area at an angle, with nearby defenders and the goalkeeper limiting the opening.\"}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "all_turns",
+    "effort": "low",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": false,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "json_schema",
+      "description": null,
+      "name": "shot_prediction",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "xg": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "reason": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "xg",
+          "reason"
+        ],
+        "additionalProperties": false
+      },
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 860,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 89,
+    "output_tokens_details": {
+      "reasoning_tokens": 45
+    },
+    "total_tokens": 949
+  },
+  "user": null,
+  "metadata": {}
+}

@@ -1,0 +1,66 @@
+{
+  "selected_arm": "icl64",
+  "matched_shuffle": "shuffled64",
+  "n": 200,
+  "development_metrics": {
+    "icl32": {
+      "n": 40,
+      "goals": 2,
+      "goal_rate": 0.05,
+      "brier": 0.076659825,
+      "logloss": 0.299570475711775,
+      "auc": 0.29605263157894735,
+      "mean_xg": 0.13027499999999997,
+      "mean_bias": 0.08027499999999999
+    },
+    "icl64": {
+      "n": 40,
+      "goals": 2,
+      "goal_rate": 0.05,
+      "brier": 0.0653875,
+      "logloss": 0.27445415035596976,
+      "auc": 0.2894736842105263,
+      "mean_xg": 0.10925,
+      "mean_bias": 0.059250000000000004
+    },
+    "icl8": {
+      "n": 40,
+      "goals": 2,
+      "goal_rate": 0.05,
+      "brier": 0.08210437500000001,
+      "logloss": 0.31376788682210643,
+      "auc": 0.3026315789473684,
+      "mean_xg": 0.14747500000000002,
+      "mean_bias": 0.097475
+    },
+    "shuffled64": {
+      "n": 40,
+      "goals": 2,
+      "goal_rate": 0.05,
+      "brier": 0.06399122499999998,
+      "logloss": 0.2725868087976294,
+      "auc": 0.25,
+      "mean_xg": 0.105075,
+      "mean_bias": 0.055075000000000006
+    },
+    "zero": {
+      "n": 40,
+      "goals": 2,
+      "goal_rate": 0.05,
+      "brier": 0.08713562500000001,
+      "logloss": 0.32656977429204376,
+      "auc": 0.3026315789473684,
+      "mean_xg": 0.15212499999999998,
+      "mean_bias": 0.10212499999999998
+    }
+  },
+  "forecast_conservative_usd": {
+    "200": 7.9054625000000005,
+    "150": 6.301493750000001,
+    "120": 5.339112500000001,
+    "100": 4.697525000000001,
+    "80": 4.055937500000001
+  },
+  "spent_conservative_usd": 1.21737,
+  "decision": "Development-only Brier selects count;usage-only rule selects confirmation N. No confirmation outcomes scored."
+}

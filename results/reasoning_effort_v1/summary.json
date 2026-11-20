@@ -1,0 +1,54 @@
+{
+  "status": "complete",
+  "shots": 12,
+  "goals": 2,
+  "matches": 11,
+  "scores": {
+    "low": {
+      "brier": 0.188775,
+      "log_loss": 0.6062528273624925,
+      "auc": 0.225,
+      "mean_xg": 0.20083333333333334
+    },
+    "medium": {
+      "brier": 0.14696666666666666,
+      "log_loss": 0.4602506685708852,
+      "auc": 0.55,
+      "mean_xg": 0.16833333333333333
+    },
+    "baseline_xg": {
+      "brier": 0.15696096364145828,
+      "log_loss": 0.5230202135925065,
+      "auc": 0.65,
+      "mean_xg": 0.08215497722598535
+    },
+    "sb_xg": {
+      "brier": 0.14833565891934378,
+      "log_loss": 0.47728114337284006,
+      "auc": 0.7,
+      "mean_xg": 0.084717604
+    }
+  },
+  "usage": {
+    "low": {
+      "input_tokens": 5172,
+      "output_tokens": 4265,
+      "cached_input_tokens": 0,
+      "reasoning_tokens": 3721,
+      "estimated_usd": 0.0026496999999999996
+    },
+    "medium": {
+      "input_tokens": 5172,
+      "output_tokens": 6285,
+      "cached_input_tokens": 0,
+      "reasoning_tokens": 5747,
+      "estimated_usd": 0.0036596999999999997
+    }
+  },
+  "medium_minus_low_brier": -0.041808333333333336,
+  "exploratory_match_bootstrap_95": [
+    -0.10504772727272729,
+    0.003946363636363663
+  ],
+  "estimated_total_usd": 0.0063094
+}

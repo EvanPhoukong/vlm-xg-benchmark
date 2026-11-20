@@ -1,0 +1,35 @@
+{
+  "status": "promising independently tested zero-shot candidate, not established logistic superiority",
+  "model": "gpt-6-astra",
+  "reasoning_effort": "low",
+  "image_detail": "high",
+  "max_output_tokens": 4096,
+  "service_tier": "default",
+  "store": false,
+  "prompt": "You are a professional football (soccer) analyst.\nThe image shows a shot at the moment it is taken, drawn on a half pitch with the goal at the top.\nGold star = shooter. Blue circles = shooter's teammates. Red circles = opponents.\nOrange square = opposing goalkeeper.\nEstimate the probability that this shot results in a goal (expected goals, xG),\nassuming an average professional finisher.\nReply with JSON only: {\"xg\": <number between 0 and 1>, \"reason\": \"<one short sentence>\"}",
+  "schema": {
+    "type": "object",
+    "properties": {
+      "xg": {
+        "type": "number",
+        "minimum": 0,
+        "maximum": 1
+      },
+      "reason": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "xg",
+      "reason"
+    ],
+    "additionalProperties": false
+  },
+  "renderer_sha256": "a1f05c14580d120bdca7036888d0eef0ec55b03fa577349c5c891cddb331c6c5",
+  "no_postprocessing": true,
+  "no_examples": true,
+  "evidence": "150 new shots, 25 goals, 34 matches. 99% five-comparison-adjusted match interval supports lower Brier than Luna. Ranking/short-range/stability diagnostics also improved by point estimate.",
+  "main_summary_sha256": "12d43fcf2145252a0b01916bf2cc53af6f07f388c234721d25efe57bdd914266",
+  "original_benchmark_preserved": true,
+  "next_validation": "Another fixed unused-match cohort is needed before a general or baseline-superiority claim. No new runner or automatic stage is created."
+}

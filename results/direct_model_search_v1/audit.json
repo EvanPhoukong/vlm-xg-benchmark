@@ -1,0 +1,47 @@
+{
+  "checks": {
+    "frozen_engine": true,
+    "original_renderer_unchanged": true,
+    "all_attempts_complete": true,
+    "within_new_cap": true,
+    "within_attempt_cap": true,
+    "fresh_match_groups": true,
+    "screen_complete": true,
+    "screen_frozen": true,
+    "confirmation_complete": true,
+    "confirmation_frozen": true,
+    "all_reconstructed_requests_and_raw_responses": true,
+    "confirmation_outside_all_recorded_prior_matches": true,
+    "unique_confirmation_shots": true,
+    "source_events_unchanged": true,
+    "choice_frozen": true,
+    "no_exact_credential_in_outputs": true
+  },
+  "passed": true,
+  "successful_calls": 650,
+  "new_estimated_usd": 0.383967,
+  "conservative_exposure_usd": 0.41293575,
+  "new_combined_cap_usd": 3.0,
+  "new_gemini_usd": 0,
+  "new_claude_usd": 0,
+  "by_model": {
+    "gpt-6-luna": {
+      "calls": 500,
+      "estimated_usd": 0.110127,
+      "input_tokens": 242250,
+      "output_tokens": 171804
+    },
+    "gpt-6.1-terra": {
+      "calls": 100,
+      "estimated_usd": 0.16192,
+      "input_tokens": 48550,
+      "output_tokens": 22674
+    },
+    "gpt-6.1-sol": {
+      "calls": 50,
+      "estimated_usd": 0.11192,
+      "input_tokens": 21550,
+      "output_tokens": 6882
+    }
+  }
+}

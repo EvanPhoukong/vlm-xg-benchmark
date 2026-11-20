@@ -1,0 +1,434 @@
+{
+  "dataset": "SoccerTrack v2 v1.2 official test matches",
+  "attribution": "Atom Scott, Ikuma Uchida, Kento Kuroda, Yufi Kim and Keisuke Fujii, SoccerTrack v2",
+  "source": "https://huggingface.co/datasets/atomscott/soccertrack-v2",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "source_labels_sha256": {
+    "128057": "03bb79bdf9404ad9e8bb1c8c569676ec82614ea3e2360238d10ff8fd78c9f577",
+    "132831": "dd14428b3a0495969ce3a6ca68cb0c73509672c12b82c685c9bcb5d68ee4e3c7"
+  },
+  "sample_seed": 7,
+  "preparation": "Selected 8 frames (0.32 s) before each SHOT or GOAL action, resized longest side to at most 1536 px.",
+  "shots": [
+    {
+      "shot_id": "128057_2_37446",
+      "match_id": "128057",
+      "half": 2,
+      "event_frame": 37446,
+      "frame_index": 37437,
+      "goal": 1,
+      "frame": "frames/128057_2_37446.png",
+      "sha256": "19c0062aa70be5fd6d4990e71f43885b5a5f9c4499da2ca872d1009b16590ab7",
+      "size": [
+        1536,
+        405
+      ]
+    },
+    {
+      "shot_id": "128057_1_31371",
+      "match_id": "128057",
+      "half": 1,
+      "event_frame": 31371,
+      "frame_index": 31362,
+      "goal": 0,
+      "frame": "frames/128057_1_31371.png",
+      "sha256": "34077f207325f1a518f342bc7c4489e8fef8698cc65f06c31abd60dec842f4d0",
+      "size": [
+        1536,
+        405
+      ]
+    },
+    {
+      "shot_id": "132831_1_53195",
+      "match_id": "132831",
+      "half": 1,
+      "event_frame": 53195,
+      "frame_index": 53186,
+      "goal": 0,
+      "frame": "frames/132831_1_53195.png",
+      "sha256": "e09ffdea12f194dcb33365f05630cd3323f599aa89a312f7ab2af3a523c23c54",
+      "size": [
+        1536,
+        602
+      ]
+    },
+    {
+      "shot_id": "132831_2_6083",
+      "match_id": "132831",
+      "half": 2,
+      "event_frame": 6083,
+      "frame_index": 6074,
+      "goal": 1,
+      "frame": "frames/132831_2_6083.png",
+      "sha256": "a821b6765d543db502c1074df2cf6a802ddab02b2d679dfddfe18f2a8f77c066",
+      "size": [
+        1536,
+        602
+      ]
+    },
+    {
+      "shot_id": "128057_2_32022",
+      "match_id": "128057",
+      "half": 2,
+      "event_frame": 32022,
+      "frame_index": 32013,
+      "goal": 0,
+      "frame": "frames/128057_2_32022.png",
+      "sha256": "cb9547013d9d1bc4b9da0f852f0b701dab5d4328ebf6b65f2f72727f9f953295",
+      "size": [
+        1536,
+        405
+      ]
+    },
+    {
+      "shot_id": "132831_1_54099",
+      "match_id": "132831",
+      "half": 1,
+      "event_frame": 54099,
+      "frame_index": 54090,
+      "goal": 0,
+      "frame": "frames/132831_1_54099.png",
+      "sha256": "bc74c471d2a2b77fb08d0d8ba390dc124294d5f4633d2362fb48852f351c1424",
+      "size": [
+        1536,
+        602
+      ]
+    },
+    {
+      "shot_id": "132831_1_11275",
+      "match_id": "132831",
+      "half": 1,
+      "event_frame": 11275,
+      "frame_index": 11266,
+      "goal": 0,
+      "frame": "frames/132831_1_11275.png",
+      "sha256": "bf4b8d09b1cfa1dd145129f71cb155e0cf84ae95d9ea22b4a63098f4bd43247b",
+      "size": [
+        1536,
+        602
+      ]
+    },
+    {
+      "shot_id": "128057_2_52475",
+      "match_id": "128057",
+      "half": 2,
+      "event_frame": 52475,
+      "frame_index": 52466,
+      "goal": 0,
+      "frame": "frames/128057_2_52475.png",
+      "sha256": "ea7414218769518e4146ca117ed43f065850a10959137fa6008c2745106f9408",
+      "size": [
+        1536,
+        405
+      ]
+    },
+    {
+      "shot_id": "132831_1_24795",
+      "match_id": "132831",
+      "half": 1,
+      "event_frame": 24795,
+      "frame_index": 24786,
+      "goal": 0,
+      "frame": "frames/132831_1_24795.png",
+      "sha256": "719d09c60c1bfac6408aaf2019e2fadd7cab6199279247875a01b5daf14edb37",
+      "size": [
+        1536,
+        602
+      ]
+    },
+    {
+      "shot_id": "132831_1_60049",
+      "match_id": "132831",
+      "half": 1,
+      "event_frame": 60049,
+      "frame_index": 60040,
+      "goal": 0,
+      "frame": "frames/132831_1_60049.png",
+      "sha256": "a1cc565bd64b43893baf5201272c34f7c46a935c0517d7f9fee4aad12c29857c",
+      "size": [
+        1536,
+        602
+      ]
+    },
+    {
+      "shot_id": "128057_2_25172",
+      "match_id": "128057",
+      "half": 2,
+      "event_frame": 25172,
+      "frame_index": 25163,
+      "goal": 0,
+      "frame": "frames/128057_2_25172.png",
+      "sha256": "948ce153d3499f0c543502acb334459186694661037defaf313583f66f0b8d12",
+      "size": [
+        1536,
+        405
+      ]
+    },
+    {
+      "shot_id": "128057_2_46854",
+      "match_id": "128057",
+      "half": 2,
+      "event_frame": 46854,
+      "frame_index": 46845,
+      "goal": 1,
+      "frame": "frames/128057_2_46854.png",
+      "sha256": "85b39258b62d4b54e03485658fb7baeb1343c22b55a286955e0f1705a2838241",
+      "size": [
+        1536,
+        405
+      ]
+    },
+    {
+      "shot_id": "132831_1_17396",
+      "match_id": "132831",
+      "half": 1,
+      "event_frame": 17396,
+      "frame_index": 17387,
+      "goal": 0,
+      "frame": "frames/132831_1_17396.png",
+      "sha256": "39e4d3b2d4b43f32ea7e8672aa0224795d042da14018a56a59af5a4a31816815",
+      "size": [
+        1536,
+        602
+      ]
+    },
+    {
+      "shot_id": "132831_2_12870",
+      "match_id": "132831",
+      "half": 2,
+      "event_frame": 12870,
+      "frame_index": 12861,
+      "goal": 0,
+      "frame": "frames/132831_2_12870.png",
+      "sha256": "07ce7805a6e1631eeda4f806e83b21f33f089a904fe74cbc8041aab873974dd8",
+      "size": [
+        1536,
+        602
+      ]
+    },
+    {
+      "shot_id": "128057_2_15916",
+      "match_id": "128057",
+      "half": 2,
+      "event_frame": 15916,
+      "frame_index": 15907,
+      "goal": 0,
+      "frame": "frames/128057_2_15916.png",
+      "sha256": "355b271481a98c25361fa7922cbbeb55585b85d68b617fb7914f617f8dd33b19",
+      "size": [
+        1536,
+        405
+      ]
+    },
+    {
+      "shot_id": "128057_2_53875",
+      "match_id": "128057",
+      "half": 2,
+      "event_frame": 53875,
+      "frame_index": 53866,
+      "goal": 1,
+      "frame": "frames/128057_2_53875.png",
+      "sha256": "e55d5a75cfbce08aa647da569ae9b33626c88f16c407ec18557876e58187348c",
+      "size": [
+        1536,
+        405
+      ]
+    },
+    {
+      "shot_id": "132831_1_3107",
+      "match_id": "132831",
+      "half": 1,
+      "event_frame": 3107,
+      "frame_index": 3098,
+      "goal": 1,
+      "frame": "frames/132831_1_3107.png",
+      "sha256": "1d8efd3a2c5badf7fcc84af5f138ba6fb2b23f9468998aa4f3fed1a5c3ef27fe",
+      "size": [
+        1536,
+        602
+      ]
+    },
+    {
+      "shot_id": "132831_1_14251",
+      "match_id": "132831",
+      "half": 1,
+      "event_frame": 14251,
+      "frame_index": 14242,
+      "goal": 0,
+      "frame": "frames/132831_1_14251.png",
+      "sha256": "6344f6635259434b5e83bfbd7defcdf7c8e3f3a521b39ec21a736f9e0161946d",
+      "size": [
+        1536,
+        602
+      ]
+    },
+    {
+      "shot_id": "128057_2_2282",
+      "match_id": "128057",
+      "half": 2,
+      "event_frame": 2282,
+      "frame_index": 2273,
+      "goal": 1,
+      "frame": "frames/128057_2_2282.png",
+      "sha256": "b685b9b579de6ca9c1225dde21433eed32eae0943bf937ab9980e8f028bcbcdc",
+      "size": [
+        1536,
+        405
+      ]
+    },
+    {
+      "shot_id": "132831_1_58553",
+      "match_id": "132831",
+      "half": 1,
+      "event_frame": 58553,
+      "frame_index": 58544,
+      "goal": 0,
+      "frame": "frames/132831_1_58553.png",
+      "sha256": "c09c5bdb14b668ab3ad3c424a6cbd183ec9c04ad31c59bda673fa5df376446ea",
+      "size": [
+        1536,
+        602
+      ]
+    },
+    {
+      "shot_id": "128057_2_14635",
+      "match_id": "128057",
+      "half": 2,
+      "event_frame": 14635,
+      "frame_index": 14626,
+      "goal": 0,
+      "frame": "frames/128057_2_14635.png",
+      "sha256": "c11a24d93a2e30108951361a5ededdcdbd67f4f79d9b36b22f255302196e4217",
+      "size": [
+        1536,
+        405
+      ]
+    },
+    {
+      "shot_id": "132831_1_42570",
+      "match_id": "132831",
+      "half": 1,
+      "event_frame": 42570,
+      "frame_index": 42561,
+      "goal": 0,
+      "frame": "frames/132831_1_42570.png",
+      "sha256": "007bf86c7d2e5dd820c04bb74aa6aec3b218d624cd07b678ba499d7a866f13c4",
+      "size": [
+        1536,
+        602
+      ]
+    },
+    {
+      "shot_id": "132831_1_41070",
+      "match_id": "132831",
+      "half": 1,
+      "event_frame": 41070,
+      "frame_index": 41061,
+      "goal": 0,
+      "frame": "frames/132831_1_41070.png",
+      "sha256": "0397843116a0b1931e9885a3023986d0e316b0a144db415cded82089f430e4a2",
+      "size": [
+        1536,
+        602
+      ]
+    },
+    {
+      "shot_id": "128057_1_26887",
+      "match_id": "128057",
+      "half": 1,
+      "event_frame": 26887,
+      "frame_index": 26878,
+      "goal": 0,
+      "frame": "frames/128057_1_26887.png",
+      "sha256": "203414d6a22712dddfe75e8f673764975d1cf2a4ccf0502bea9b8bbcef5bf803",
+      "size": [
+        1536,
+        405
+      ]
+    },
+    {
+      "shot_id": "128057_2_26996",
+      "match_id": "128057",
+      "half": 2,
+      "event_frame": 26996,
+      "frame_index": 26987,
+      "goal": 0,
+      "frame": "frames/128057_2_26996.png",
+      "sha256": "b6375c74a3c8aa56eb344f938f9b63f19acabd6f5965f147c2c852937d71996f",
+      "size": [
+        1536,
+        405
+      ]
+    },
+    {
+      "shot_id": "132831_2_11195",
+      "match_id": "132831",
+      "half": 2,
+      "event_frame": 11195,
+      "frame_index": 11186,
+      "goal": 0,
+      "frame": "frames/132831_2_11195.png",
+      "sha256": "156961d32d4c6d2693d24d41c828108e1a57eeec70e4c136f9419cd7127f7963",
+      "size": [
+        1536,
+        602
+      ]
+    },
+    {
+      "shot_id": "132831_2_64016",
+      "match_id": "132831",
+      "half": 2,
+      "event_frame": 64016,
+      "frame_index": 64007,
+      "goal": 1,
+      "frame": "frames/132831_2_64016.png",
+      "sha256": "1d65d76c46f1a32721d28706083d83f0a2b43181c74cd0729f5661093062feaa",
+      "size": [
+        1536,
+        602
+      ]
+    },
+    {
+      "shot_id": "132831_2_37281",
+      "match_id": "132831",
+      "half": 2,
+      "event_frame": 37281,
+      "frame_index": 37272,
+      "goal": 0,
+      "frame": "frames/132831_2_37281.png",
+      "sha256": "78a2a36117bfd6c7b6c46268625c5c098b247354546e5ea9882bd6556d6d3458",
+      "size": [
+        1536,
+        602
+      ]
+    },
+    {
+      "shot_id": "132831_2_51072",
+      "match_id": "132831",
+      "half": 2,
+      "event_frame": 51072,
+      "frame_index": 51063,
+      "goal": 0,
+      "frame": "frames/132831_2_51072.png",
+      "sha256": "8892d5c61976700700096c95737ae3d1d576e9b6b589a4a8a205b3a1b23fc6ee",
+      "size": [
+        1536,
+        602
+      ]
+    },
+    {
+      "shot_id": "132831_2_29625",
+      "match_id": "132831",
+      "half": 2,
+      "event_frame": 29625,
+      "frame_index": 29616,
+      "goal": 0,
+      "frame": "frames/132831_2_29625.png",
+      "sha256": "bea88dba929c8f755e8f37a1e986000c19ee7ad141e7454001a7dab9235abe35",
+      "size": [
+        1536,
+        602
+      ]
+    }
+  ]
+}

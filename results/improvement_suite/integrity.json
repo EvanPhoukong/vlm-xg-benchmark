@@ -1,0 +1,37 @@
+{
+  "all_passed": true,
+  "checks": {
+    "vision: frozen source": true,
+    "pixels: frozen source": true,
+    "context: frozen source": true,
+    "confirmation_bundesliga/inference: frozen source": true,
+    "confirmation_bundesliga/best_vision: frozen source": true,
+    "noise training: frozen source": true,
+    "protected input: /mnt/c/Users/ephou/Downloads/xG/output/research-loop/data/wc2018.jsonl": true,
+    "protected input: /mnt/c/Users/ephou/Downloads/xG/output/research-loop/data/wc2022.jsonl": true,
+    "protected input: /home/evan/xG_Research/vlm-xg-benchmark/results/hybrid_gpt_6_luna_300/geometry_predictions.csv": true,
+    "protected input: /mnt/c/Users/ephou/Downloads/xG/output/research-loop/external_vlm_selection.jsonl": true,
+    "protected input: /mnt/c/Users/ephou/Downloads/xG/output/research-loop/rich_vlm_external/cache.jsonl": true,
+    "protected input: /mnt/c/Users/ephou/Downloads/xG/output/research-loop/rich_vlm_external/predictions.csv": true,
+    "protected input: /mnt/c/Users/ephou/Downloads/xG/output/research-loop/rich_vlm_external/protocol.json": true,
+    "protected input: /mnt/c/Users/ephou/Downloads/xG/output/research-loop/frozen_probability_models.joblib": true,
+    "original study input: /mnt/c/Users/ephou/Downloads/xG/output/research-loop/frozen_probability_models.joblib": true,
+    "original study input: /home/evan/xG_Research/vlm-xg-benchmark/results/gpt_6_luna/shots.csv": true,
+    "original study input: /home/evan/xG_Research/vlm-xg-benchmark/results/hybrid_gpt_6_luna_300/predictions.csv": true,
+    "confirmation has no earlier match overlap": true,
+    "confirmation has 200 unique shots": true,
+    "vision/second_cache.jsonl: complete unique cohort": true,
+    "vision/fewshot_cache.jsonl: complete unique cohort": true,
+    "confirmation_bundesliga/inference/baseline_cache.jsonl: complete unique cohort": true,
+    "incomplete secondary trial is explicitly unscored": true
+  },
+  "incomplete_conditions": [
+    {
+      "condition": "Best VLM fresh confirmation",
+      "completed_shots": 46,
+      "target_shots": 200,
+      "reason": "API credit balance exhausted"
+    }
+  ],
+  "note": "No credentials read or recorded. This checks saved provenance, not whether every planned secondary trial completed or whether models generalize."
+}

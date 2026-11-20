@@ -1,0 +1,129 @@
+{
+  "id": "resp_01044371052c424a016af6bfc7e6e487d0a1c0609bc2d72351",
+  "object": "response",
+  "created_at": 1794555847,
+  "status": "completed",
+  "access_programs": {
+    "cyber": "standard"
+  },
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1794555850,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "image": {
+    "context_compression": "disabled"
+  },
+  "incomplete_details": null,
+  "input_transformations": [],
+  "instructions": null,
+  "max_output_tokens": 1024,
+  "max_tool_calls": null,
+  "model": "gpt-6.1-terra",
+  "moderation": null,
+  "output": [
+    {
+      "id": "rs_01044371052c424a016af6bfc9369c87d09c21f654ade14e10",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq9r_LBUD0Na-uUbJVBQHJEeDKbkpMZCRqp92yhfuTayNMxE1YrN6IBEVjKvUY_MiDe3bpAMGviNpOlHoLexXkG0Hk-2H2_XNJSB5-fiYuuhOu4D4TyqYHXJS-s-kqatQkR7rh3ovxIVzovpx_VITCEbTneuDatyVZlckcv5HbuWbVibkHJIwHPL0-WV0RJfF2FWoYKkolSm5OkoaoA4zwIGTWRGNRNPlNiTmV2O7wgt4dJDBN71J2-b6tjZtJlx-52g2WILeqibr7FCpNi1Pp2wosuerbtA86ou22vAxdkMczAHw4wacl0PGFpa2AduZohXU74hqdhI7Nu-ZnSnle0CwUvQWRcJPkY2q8yaSj_pEbl-Rs7J1HtHqW8pJMtRj9Auo-Gu5Gq1h9g_UigfafZe6ZEUnAUqWA9Rn24nKqS6TNb6NqDiFwJt6HdV6QSaF34MU_Z88RuBLn3cKS_Yp6_AqJ3U5eB2DhS1koXESrnSW_llzvwXJsowzIUKNoHDYACrCms638-gicaiDSPcPydgMTKrYLkE0FFu6S7sgSeMp2QbbcrHVqtSYIkpfyACPDzQ56UBdYefU5r_ve_YM1tgUTkL22XRDb4INczc7UEyRNBTlkQdVG69itYnV7Gv2PrMWDRbNoWArOCiA3CbLYlaIQU_5wZCj9MZnoHrAsfSSoak3g1NQX-j1PC83x3OMcb2sUwaQkid2lZ6uCRB2F-8apFs9Hw-Fu9UwsVJAGJTZkvL0yyuN1KAAwpK1whpM_pxrV8oY8QrSwmkGDhobJ9KdUmRopAUwLts_5Ypw-zap4KSsnijlCenfUpQOjqee-nfc5ZDEw83bakWfBwH89bFR0-nvj7C8D6sDHiD716Ba1ZomnNyS9aelSy0B1_m8_5wpQ-4WNnYRdPe-voLaWvE5HK2u1r05W7BNq5QghcEymi0yRreJk6Ri0XL5CjBG9eGljm-KL7Df5BMAHkWrS_Tze4WlJ0akbA9FmCPWzldu9PUW8qeeV5xrvE5v69FPj12ZZHsRzJIthBl37SpGGx5fkGFK7MCdPdZjWGZzg7KuFzJ__S-5SxSO_zhe0YmTzSTPSweMdCrOfi_36JFkwH-tJYZIaasNMfQDkMwh0qNroQC4Hpvl-jz_seDEoCDbp9WReJbpNEo3hWOKJ2IgDlyrBahnVjTgWwv_zZKz7oisr_I_RGdBnpsSwucaEscJJCP1dwXzuTqRg_s6nLgT76ZMIz23YgIQmCSKxAjaTcuKm9i5TXlSmv7cB_JVFDceLeQhmd3wNMdXkWa6BNT65deyNiU22ZQOQVlPG-gmEG0gJsebnwyLMFl2Ia6N82LrGVLPuhjAETTKOWji1o99mkSEdkf3ry_BcVJhO3WS0b-cA0v-bhJMocdTc4tgIYm13dYCLwdIIu6jJh-aq6saeCPMceLuPGeu5-L_Rdz08zI-davf6tv31NSvPl1JsLZP7npuYpc470U5FSTdRlmKEKe3hXUc6clbvBjxqsAqsVeqjK1bLq_AEbcodiNiZJuuANx9Ylb_nopl4Z5yGkDMtHQirIKqp6iO-zzUk0aZSBu1A0lovkLktl-6b62y0mHSYrYVQjSKCBOsGuKhLCStV1E_4eF_ZpUeEKuFgaAwjukVYYn-1WZJz8dv_pr7k8zQXmdMUHAXI48mRH07PcyuvwXymn7BlVvXcBffxkaGsW6ItxTO0uNk_pKBmohy7M3Qnp6FonGtdU9omqY_iBmrTaSldVsHrbB98GK0IE-1l8xmf9ihWC8wuB9auS4G-g4NLYGWn69N5Aw9ok5qWerWKa6kInOH5DkQcvwONPZNcX9_gsVqaPOZt5C8nMwtNnf7wqrvR8SUXrcSt5v9n60kTznz4KhNWaqeSDbE6bSUdnzKPc-ECv1VFlKzElujRqdURbqhcmfS0fu_4r6GxNrQZZBoaQLX0Gtt03aTwgR_3ZXpQo8ozS650kDNcgJHAB9IMeIIU7_cV0c7l-38lLDlUi1KTlrI8GxKi0rs31OpLZN6rfIgS15AVv34bXWDKA3kKsGDxABtqy7EouebcN6sld0ulE3UfpeEmujeoofcbBmpvU0cHynuDzL_NnIVmswHd_gi_",
+      "summary": []
+    },
+    {
+      "id": "msg_01044371052c424a016af6bfca22e887d099b7a569d6c3f947",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"xg\":0.08,\"reason\":\"The attack is near goal, but the crowded penalty area makes a clean finish difficult.\"}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "all_turns",
+    "effort": "low",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": false,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "json_schema",
+      "description": null,
+      "name": "shot_prediction",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "xg": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "reason": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "xg",
+          "reason"
+        ],
+        "additionalProperties": false
+      },
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 860,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 78,
+    "output_tokens_details": {
+      "reasoning_tokens": 40
+    },
+    "total_tokens": 938
+  },
+  "user": null,
+  "metadata": {}
+}

@@ -1,0 +1,116 @@
+{
+  "games": [
+    {
+      "game": 1,
+      "roles": [
+        {
+          "team": "Home",
+          "period": 1,
+          "goalkeeper": "Player11",
+          "attack_right": true,
+          "initial_x": 0.00082
+        },
+        {
+          "team": "Away",
+          "period": 1,
+          "goalkeeper": "Player25",
+          "attack_right": false,
+          "initial_x": 0.90509
+        },
+        {
+          "team": "Home",
+          "period": 2,
+          "goalkeeper": "Player11",
+          "attack_right": false,
+          "initial_x": 1.01279
+        },
+        {
+          "team": "Away",
+          "period": 2,
+          "goalkeeper": "Player22",
+          "attack_right": true,
+          "initial_x": 0.0342
+        }
+      ],
+      "event_source_sha256": "097dda6345e17390dca095331458fd00e47960c480c76f4356fd4edf2575ef05",
+      "tracking_hashes": {
+        "Home": "0a3d0eff7785950379c587d3597b86a2d91c2492281b4652e1abb97c99b6b364",
+        "Away": "0a3df68a92af0290ede472e62de3b6489ddee29223da09bdf0cf76c8e0ab0618"
+      },
+      "penalty_related_event_counts": 0,
+      "shot_subtypes": [
+        "BLOCKED",
+        "HEAD-OFF TARGET-OUT",
+        "HEAD-ON TARGET-GOAL",
+        "HEAD-ON TARGET-SAVED",
+        "HEAD-WOODWORK-OUT",
+        "OFF TARGET",
+        "OFF TARGET-OUT",
+        "ON TARGET-GOAL",
+        "ON TARGET-SAVED"
+      ]
+    },
+    {
+      "game": 2,
+      "roles": [
+        {
+          "team": "Home",
+          "period": 1,
+          "goalkeeper": "Player11",
+          "attack_right": false,
+          "initial_x": 0.94275
+        },
+        {
+          "team": "Away",
+          "period": 1,
+          "goalkeeper": "Player25",
+          "attack_right": true,
+          "initial_x": 0.01218
+        },
+        {
+          "team": "Home",
+          "period": 2,
+          "goalkeeper": "Player11",
+          "attack_right": true,
+          "initial_x": 0.08899
+        },
+        {
+          "team": "Away",
+          "period": 2,
+          "goalkeeper": "Player25",
+          "attack_right": false,
+          "initial_x": 0.95926
+        }
+      ],
+      "event_source_sha256": "edf31a18599265b77a8baf150f2ce6d89456fb0324b62ea7a391229657a619ba",
+      "tracking_hashes": {
+        "Home": "3f9990ac204b07133e4202441d6fcbb386897c7c7f81e1bc3ce4d35bc8644694",
+        "Away": "aa639f40762eade46c389020fe4458266b5ba14027b1e96e22e75db62803718b"
+      },
+      "penalty_related_event_counts": 1,
+      "shot_subtypes": [
+        "BLOCKED",
+        "HEAD-OFF TARGET-OUT",
+        "HEAD-ON TARGET-GOAL",
+        "OFF TARGET-HEAD-OUT",
+        "OFF TARGET-OUT",
+        "ON TARGET-GOAL",
+        "ON TARGET-SAVED"
+      ]
+    }
+  ],
+  "omissions": [
+    {
+      "shot_id": "metrica_game_2_event_1671",
+      "reason": "annotated_penalty"
+    },
+    {
+      "shot_id": "metrica_game_2_event_1903",
+      "reason": "shooter_tracking_unavailable"
+    }
+  ],
+  "coordinate_mapping": "Provider 0..1 positions mapped to normalized StatsBomb 120x80, rotated 180 degrees when team attacks left. Physical source pitch 105x68 m; displayed numbers are normalized units.",
+  "role_inference": "Goalkeeper and direction inferred once per team/half from the initial tracking frame, before any evaluated shot. Require keeper x<.2 or >.8 and opposite team directions. Roles are inferred rather than provider-certified.",
+  "frame_rule": "Event Start Frame only; no End Frame, End X/Y, goal outcome, subtype, event/player/team names or clock is rendered. All finite synchronized player positions except the shooter enter the diagram.",
+  "limitations": "Two anonymized games only; no population-level confirmation or trustworthy match-bootstrap claim. Cross-provider match identity overlap cannot be excluded from anonymized source."
+}

@@ -1,0 +1,60 @@
+{
+  "dataset": "SoccerTrack v2 v1.2 (called SoccerNet v2 by the user)",
+  "seed": 2026112007,
+  "model": "gpt-6.2-sol",
+  "arms": [
+    "zero",
+    "outcome8",
+    "outcome16",
+    "shuffled_outcome16",
+    "teacher16",
+    "shuffled_teacher16"
+  ],
+  "prompt": "You are a professional football (soccer) analyst.\nThe image is a panoramic match frame taken shortly before the shot.\nEstimate the probability that this shot results in a goal (expected goals, xG),\nassuming an average professional finisher.\nReply with JSON only: {\"xg\": <number between 0 and 1>, \"reason\": \"<one short sentence>\"}",
+  "outcome_intro": "Historical examples follow on numbered contact sheets. Each cell is a DIFFERENT\npast shot with its single observed result printed below: GOAL or NO GOAL.\nThese binary outcomes are noisy, not true probabilities: scoring once does not\nmean true xG is 1, and missing once does not mean true xG is 0. Use the situations\nand outcomes as examples for estimating a new shot's scoring probability.\nAll example frames are before contact. No example comes from the query match.\nRead left to right, then top to bottom. The separate NEW QUERY after these sheets\nhas an unknown outcome. Predict only its probability.",
+  "teacher_intro": "Historical examples follow on numbered contact sheets. Each cell is a DIFFERENT\npast shot paired with an xG probability from a logistic model trained on other\nmatches, excluding the query match. These are teacher-model predictions, not\nground-truth probabilities or observed outcomes. Use the situations and probability\nlabels as examples for estimating a new shot's scoring probability.\nAll example frames are before contact. No example comes from the query match.\nRead left to right, then top to bottom. The separate NEW QUERY after these sheets\nhas no supplied probability or outcome. Predict only its probability.",
+  "cap_usd": 10.0,
+  "max_output_tokens": 1024,
+  "max_attempts": 2000,
+  "workers": 6,
+  "retries": 0,
+  "effort": "low",
+  "service_tier": "default",
+  "image_detail": "high",
+  "rates_per_million": {
+    "input": 2.0,
+    "cached_input": 0.1,
+    "output": 10.0
+  },
+  "pricing_source": "https://developers.openai.com/api/docs/models/gpt-6.2-sol",
+  "selection": "Fixed natural random ordered pool of306 shots,all10 matches. No accuracy-driven arm or example-count selection.",
+  "resource_rule": "Before any generation, select largest N from[306,240,200,150,120,100,80,60] for which sum of per-job counted-input conservative costs plus128 output tokens per job, multiplied by1.15, plus largest6-request maximum reservation +$0.20 <=$10. Counts use the largest-canvas query from each match/arm preview plus256 tokens. Hard per-request guards remain in force. No test-driven expansion.",
+  "examples": "16 natural random shots from other9 matches for each excluded query match;8 are nested prefix. No goal balancing. Fixed permutations preserve binary counts or complete teacher-value distributions.",
+  "teacher": "Distance/angle logistic model trained on other9 matches,including their training example labels but excluding every event of the query match. Its predictions on training examples are in-context teacher labels,rounded4 decimals. No query reference probability supplied.",
+  "statistics": "4 primary Brier contrasts:outcome16-zero,outcome16-shuffledoutcome,teacher16-zero,teacher16-shuffledteacher.98.75% whole-match percentile intervals,20000 resamples,conditional on fitted example/model choices.8-example and logistic comparisons descriptive.10 matches limit generalization.",
+  "scope": "All source matches were previously studied; exploratory match-held-out cross-validation,not untouched external confirmation. Raw VLM probabilities,no calibration,averaging,head or weight updates.",
+  "images": "Original audited query PNGs unchanged. Before-shot example frames letterboxed at most768x384 into2-column sheets,8 per page,JPEG92 with no chroma subsampling. Players remain small and shooters unmarked. No post-shot frames,query outcomes,coordinates,identities or prior query probabilities enter requests.",
+  "limitations": [
+    "University matches with retained average-professional-finisher prompt.",
+    "BAS SHOT/GOAL can omit blocked/header attempts assigned other classes; unidentified penalties may remain.",
+    "Baseline uses at-event source coordinates; image is approximately0.32s earlier.",
+    "Example sets and logistic fits overlap across folds; bootstrap intervals condition on these fitted inputs.",
+    "Some natural16-example samples may contain no goals; a binary shuffled control then cannot change labels,which must be reported.",
+    "Compare methods on identical shots;do not compare absolute Brier with StatsBomb cohorts."
+  ],
+  "budget_scope": "New SoccerTrack ICL run only,$10 combined across all6 conditions; no account-wide balance claim. Other completed experiment ledgers are preserved.",
+  "pool_sha256": "4795c39fb7457c2c65bcf9d91a2c499614ce8cac6f746c65ed3ca8562bec08f2",
+  "pages_sha256": "425c682e60d98a0bf76eb4230472a55f8dbb5c1c763b54aeb0f9e5c5dcdf98f2",
+  "examples_sha256": "43904d22a9c0daae50e200017cf886e8890f19571cbdf132a3445b456aa290e3",
+  "baselines_sha256": "c984754d51b95eea92112329310481e546fd5996d66eff62bc41b30f965b10b9",
+  "preview_sha256": "af8bf77355e53f0402569e424bfd9e7e1dba82590995cd4840e9993e6dccb3b4",
+  "source_hashes": {
+    "shots": "79ca36f7b04edaf5df99f808db9723b966f12d038f6276e3b68592324a08b5f5",
+    "audit": "d82771423bfc72ee6a81c4f909648adc7bafa432aa10451cf55c4fad0e1dc56f",
+    "frames": "fa4e3c296b90cf215566facf40dd7fa8667925af315078abd6cd8125a530aed8",
+    "frame_audit": "bffe14c4760edcf2b6abb9841d172dcda770b63324c1f96318d259d712092c04"
+  },
+  "python_sha256": "7ef2708e20fd5dbc0c783db460333a0737d3d2220f42a2a50ef6411c7eab151f",
+  "runner_sha256": "9b83a48eeea92b5c528fef2ff2100c62b1746489d42d7612ac9b3f400f7dc587",
+  "attribution": "SoccerTrack v2 by Atom Scott,Ikuma Uchida,Kento Kuroda,Yufi Kim,Keisuke Fujii. CC BY4.0. https://huggingface.co/datasets/atomscott/soccertrack-v2"
+}

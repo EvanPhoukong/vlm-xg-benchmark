@@ -1,0 +1,62 @@
+{
+  "passed": true,
+  "checks": {
+    "source_sha256": true,
+    "preparation_sha256": true,
+    "common_sha256": true,
+    "engine_sha256": true,
+    "examples_sha256": true,
+    "pool_sha256": true,
+    "shared_http_validator_unchanged": true,
+    "examples_disjoint_from_queries": true,
+    "negative_control_same_goal_count": true,
+    "negative_control_changes_labels": true,
+    "new_match_groups": true,
+    "source_events_unchanged": true,
+    "example_images_frozen": true,
+    "correct_example_outcomes_match_frozen_source": true,
+    "motion_source_provenance_frozen": true,
+    "motion_tracking_source_files_frozen": true,
+    "usage_only_snapshot": true,
+    "pilot_records_unchanged": true,
+    "resource_rule_reproduced": true,
+    "main_exact_pool_prefix": true,
+    "pilot_complete": true,
+    "pilot_protocol_frozen": true,
+    "main_complete": true,
+    "main_protocol_frozen": true,
+    "repeats_complete": true,
+    "repeats_protocol_frozen": true,
+    "probes_complete": true,
+    "probes_protocol_frozen": true,
+    "motion_complete": true,
+    "motion_protocol_frozen": true,
+    "all_raw_answers_requests_models_usage_images": true,
+    "past_only_motion_frames": true,
+    "under_dollar_cap": true,
+    "under_attempt_cap": true,
+    "no_generation_lock": true,
+    "private_exact_credential_scan": true
+  },
+  "calls": 945,
+  "estimated_usd": 2.56374418,
+  "conservative_usd": 2.971702125,
+  "cap_usd": 4.0,
+  "prior_partial_conservative_usd": 1.4552639,
+  "by_model": {
+    "gpt-6-luna": {
+      "calls": 747,
+      "estimated_usd": 0.63566418,
+      "input_tokens": 6043673,
+      "cached_input_tokens": 483568,
+      "output_tokens": 149636
+    },
+    "gpt-6-astra": {
+      "calls": 198,
+      "estimated_usd": 1.92808,
+      "input_tokens": 85338,
+      "cached_input_tokens": 0,
+      "output_tokens": 21494
+    }
+  }
+}

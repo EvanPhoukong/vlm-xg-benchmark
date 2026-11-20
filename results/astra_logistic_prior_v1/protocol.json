@@ -1,0 +1,1394 @@
+{
+  "design": "Paired, prospective comparison on match groups outside the recorded development and evaluation sets. All 100 shots and both prompts frozen before inference.",
+  "baseline": "Frozen four-feature logistic fit from 3,068 World Cup 2018/2022 shots.",
+  "primary": "Two paired Brier differences, hybrid minus Astra and hybrid minus the supplied logistic regression. Use 97.5% whole-match bootstrap intervals for each.",
+  "secondary": "Log loss, AUC, mean xG, and shifts from the logistic starting point. Other logistic and StatsBomb are descriptive references.",
+  "model": {
+    "model": "gpt-6-astra",
+    "effort": "low"
+  },
+  "original_prompt": "You are a professional football (soccer) analyst.\nThe image shows a shot at the moment it is taken, drawn on a half pitch with the goal at the top.\nGold star = shooter. Blue circles = shooter's teammates. Red circles = opponents.\nOrange square = opposing goalkeeper.\nEstimate the probability that this shot results in a goal (expected goals, xG),\nassuming an average professional finisher.\nReply with JSON only: {\"xg\": <number between 0 and 1>, \"reason\": \"<one short sentence>\"}",
+  "hybrid_addition": "A logistic regression trained on past shots estimates this shot's xG at {probability}.\nIt uses shot distance, angle to goal, a header indicator and the number of opponents\nin the shooting cone. Treat that estimate as your starting point. Inspect the diagram\nfor relevant visual evidence the regression may miss, such as the goalkeeper's\nposition or where defenders are positioned within the shooting lane. Return your\nown final goal probability. Adjust the starting estimate when the image justifies\na change, and keep it if the image gives no clear reason to adjust. In your reason,\nname the visual evidence for your adjustment or why you kept the estimate.",
+  "schema": {
+    "type": "object",
+    "properties": {
+      "xg": {
+        "type": "number",
+        "minimum": 0,
+        "maximum": 1
+      },
+      "reason": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "xg",
+      "reason"
+    ],
+    "additionalProperties": false
+  },
+  "image_detail": "high",
+  "max_output_tokens": 1024,
+  "cap_usd": 2.9,
+  "workers": 8,
+  "retries": 0,
+  "rates_per_million": [
+    10.0,
+    1.0,
+    50.0
+  ],
+  "sources": {
+    "266557": "6c20c3fafe5a8e060380277a743323f2777607e5b34012d49b5ed99f29f81583",
+    "267273": "16556c64527a6e87ae6d9548aac12c4068ccb1e925a0d569652c19dcdd934833",
+    "267274": "f1c470b58503431b5b1d89b64b7b0d7a83093195a2ffbd1d68518438746f8023",
+    "267327": "18a1d958af9f488f24bfac7a3fb63957c1dd0a240c557a8c16b69a8439eaa6d2",
+    "3825564": "b91496a6e1875a57f5a11163b7e07fc7f0d2cec50022dc726a01eee8a730d285",
+    "3825567": "4854383a27cb78253c06bf71beadb4d26946d3959fc4425613600769be63fea2",
+    "3825569": "d49232b1a2b6f324eef5189a22758f34926d9be7a69666da6c14dabeb59a72b9",
+    "3825572": "2f4d8fb00ed16900fa721cd3693705efe8175dfd9b11c13756fd441fbc07db1c",
+    "3825573": "7e4d01909793098c5fb3d5849b80606a4496484a1230d504bfae636787fd2132",
+    "3825574": "a678bc11deb0f8e6572e4fae93d866097ff2bab19d02418c4c9d36b8b136bf1e",
+    "3825577": "8bb25055b8b2adc1b1c44303ec25f76acf17bf706b8b0267278bf6aafdcc847f",
+    "3825584": "06d83f86ac626e194e60560dc4123b5a79de72b33531e9394c845f2b55ed5fa5",
+    "3825602": "5765606b87e276b5091c7e01095e596862d6fe0717ab04c3ef3bf7b303a8d9fa",
+    "3825604": "b67a1dec74a2e9dbd8b96eed22741308f35a1c5e2e8b91424eddf9265d1a6644",
+    "3825650": "898c9258f109e1faf45a8c825cbf80504f89e4110b34ff69101cb08e29aedeed",
+    "3825671": "cc5aa532907521a100b4188a19620ffc27e3ce63e36d730f41c712684c68293f",
+    "3825673": "19e5d063d6f21b5a0a272fa919ad47643f776f92861d7494890d03752f23ac90",
+    "3825704": "420ff147450916fa1b02e00a00279bb051e14b4464924e227b34fe915fc82c54",
+    "3825719": "cab11230838549d958c41ea425e5fdc704aed1efbf68a32f63b45fe37eb16f56",
+    "3825720": "1e9f25e9f4bbfbf5362df8b0284d1adecd2d0d7becac9f50885eb98f841633c5",
+    "3825723": "292507140a6f175df97a6cd0975453c8a94538e6991ad6cdbeb31cf9eac59b65",
+    "3825724": "fe4519376cd7d43374c3c2ae40307ab177b21878d515e1e3da182940ea81248c",
+    "3825753": "c6204ded8c1807d61cd2610818a89eb50065554185cc35480cf05c4cbea4ca05",
+    "3825779": "0d513cd77040b65c11964b046e22565cb5c7a95f4a997dc90d9779b25f58232b",
+    "3825801": "e84a411483779327faa0f3bb4afe164d6763e3a1cbf8607e8544bf948ed905c6",
+    "3825805": "fe9942ba767aa6f4f4d23c1eca92bd959fc649afbd019d7017faae1859bde890",
+    "3825806": "a97263060a1da05c860ada4d5b53a923aa9af24ade5e99ad15b71c066f100f7d",
+    "3825809": "32520c1d46c451e5241b642bd0e411a3df20eba4b5ab923add3bff107e6a29d9",
+    "3825822": "d88848fc47335c8737e8202b5a627df3d41236017e18466da82ab0220657afca",
+    "3825826": "26133bd728adfcd121991bbb296f2f527f733561618619efab312c7bdbff7bf9",
+    "3825831": "0ea073f5465b961ff5fd435cd5c0d5fde2994c05aee2629e53e07f4f6583d43f",
+    "3825857": "2cb0f0dd1119dd8f2e4999523143da55b0368331fc44f660aa8ec2d64de5653b",
+    "3825865": "0ad7312918276f6782204873087eb0eecdd512a4ccf67e868881be869fe7d192",
+    "3825866": "7d56e9e3d7c6474680ed35247d2180638fad05a524825a57c98d39d5d619db99",
+    "3825875": "79a827beac6c9dc49674c5c3574e6d308f89a1cdd0b7f334f5357dcbb920b585",
+    "3825877": "d5a4c8549abb00fcf405afc27eb9f1e85de5aeb6e59cfbeea0815ce02721430c",
+    "3825895": "ed95f178675af37c80b93b1c73448f60970e309718cb31f79444eb97e4d4fca6",
+    "3825898": "3a3df90b8482d021136145f97ab20d34559b3c6b3f47f4c3ef06c4547d35c9b3",
+    "3825900": "d942da4601ea73e806fccc8d18a17d41ee1975ebbe64c9549ee96b54d57637c6",
+    "3825906": "cd0daa384fa95e611d197af1b7c0ea6936d322d06e976cafc7f9aac4a4b1dd30"
+  },
+  "eligible_shots": 945,
+  "baseline_sha256": "d27da31dde2bb3995466b86d7f4aea24441c63798fce068cf781e20be41b40d9",
+  "selection_sha256": "8f1f146eca82385efd70a37649ee4c41d1c2f3ba928feaba2aab1ecbdbd7e821",
+  "match_plan_sha256": "0e83a488e8ae321b294613425c2a6f694da3ac1ddd8d529c434b41051bb0e7f1",
+  "code": {
+    "experiments/astra_logistic_prior/run.py": "8e5b986239964607f668be2058716230c1215c2768c1b0201b1aae19e9f90398",
+    "experiments/direct_model_search/run.py": "15ff846b26babc4b854237df440fcd74a999c3586e113aa3ddd4ac699413f006",
+    "experiments/dataset_transfer/prepare.py": "f0a086892dd60c1480618db99d5b3931299a6b00a1dbd63c8952d4890678fb3e",
+    "xg_vlm_pilot.py": "50e81b26678fedb97744a38b1d36a7fedd1bc7ea9c6332b270ed27a5228726c9"
+  },
+  "schedule": [
+    {
+      "shot_id": "8544f235-c0ef-49f9-aa37-65397d0df6fa",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/8544f235-c0ef-49f9-aa37-65397d0df6fa.png",
+      "image_sha256": "7c7aa4abcb6b491e2fd45584c19373289f8aee25abb76b1a62566603bea7f34a"
+    },
+    {
+      "shot_id": "8544f235-c0ef-49f9-aa37-65397d0df6fa",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/8544f235-c0ef-49f9-aa37-65397d0df6fa.png",
+      "image_sha256": "7c7aa4abcb6b491e2fd45584c19373289f8aee25abb76b1a62566603bea7f34a",
+      "logistic_probability": "0.133341"
+    },
+    {
+      "shot_id": "4f841596-d4d0-40ea-9ed7-50e490b8ebde",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/4f841596-d4d0-40ea-9ed7-50e490b8ebde.png",
+      "image_sha256": "a391d951937a25c0f84d275ddbaf71a653c606e665448c1262dac628d46ae398"
+    },
+    {
+      "shot_id": "4f841596-d4d0-40ea-9ed7-50e490b8ebde",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/4f841596-d4d0-40ea-9ed7-50e490b8ebde.png",
+      "image_sha256": "a391d951937a25c0f84d275ddbaf71a653c606e665448c1262dac628d46ae398",
+      "logistic_probability": "0.038756"
+    },
+    {
+      "shot_id": "13196ba1-e6db-49e7-84d8-659d6f0b8ff2",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/13196ba1-e6db-49e7-84d8-659d6f0b8ff2.png",
+      "image_sha256": "f9d34325941c2c1b4a577cfcbc93a22eeb4dcd2bc6853e7d8d01a909af1a7a2f",
+      "logistic_probability": "0.033532"
+    },
+    {
+      "shot_id": "13196ba1-e6db-49e7-84d8-659d6f0b8ff2",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/13196ba1-e6db-49e7-84d8-659d6f0b8ff2.png",
+      "image_sha256": "f9d34325941c2c1b4a577cfcbc93a22eeb4dcd2bc6853e7d8d01a909af1a7a2f"
+    },
+    {
+      "shot_id": "33c891ef-9a84-4856-b459-83cb64bb0472",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/33c891ef-9a84-4856-b459-83cb64bb0472.png",
+      "image_sha256": "1c5b469249891a7d0d08704e8464bf8b4cb0076775518875b8ffbc80b9b1b0bf",
+      "logistic_probability": "0.033685"
+    },
+    {
+      "shot_id": "33c891ef-9a84-4856-b459-83cb64bb0472",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/33c891ef-9a84-4856-b459-83cb64bb0472.png",
+      "image_sha256": "1c5b469249891a7d0d08704e8464bf8b4cb0076775518875b8ffbc80b9b1b0bf"
+    },
+    {
+      "shot_id": "0a7a0500-6557-43eb-a582-22469fbb8f72",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/0a7a0500-6557-43eb-a582-22469fbb8f72.png",
+      "image_sha256": "aedb5f4e3fd36a9820a2e28829bd3e2aedd3c2152533506e7780774aa05bfc67",
+      "logistic_probability": "0.071040"
+    },
+    {
+      "shot_id": "0a7a0500-6557-43eb-a582-22469fbb8f72",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/0a7a0500-6557-43eb-a582-22469fbb8f72.png",
+      "image_sha256": "aedb5f4e3fd36a9820a2e28829bd3e2aedd3c2152533506e7780774aa05bfc67"
+    },
+    {
+      "shot_id": "5a015f03-9a74-43af-b323-d7aa4850ef6e",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/5a015f03-9a74-43af-b323-d7aa4850ef6e.png",
+      "image_sha256": "4127fb52eb0a58d86014d344adc1ea67e8c2220fda2284a1fb6b7845fc2e36af"
+    },
+    {
+      "shot_id": "5a015f03-9a74-43af-b323-d7aa4850ef6e",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/5a015f03-9a74-43af-b323-d7aa4850ef6e.png",
+      "image_sha256": "4127fb52eb0a58d86014d344adc1ea67e8c2220fda2284a1fb6b7845fc2e36af",
+      "logistic_probability": "0.081836"
+    },
+    {
+      "shot_id": "ed901a24-4dc3-4bbd-9588-74b62fd3116e",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/ed901a24-4dc3-4bbd-9588-74b62fd3116e.png",
+      "image_sha256": "aecd20e79dba559b862836a1b285b9bf1ddb419ac8f56d8863e8785ffd0c1a9e"
+    },
+    {
+      "shot_id": "ed901a24-4dc3-4bbd-9588-74b62fd3116e",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/ed901a24-4dc3-4bbd-9588-74b62fd3116e.png",
+      "image_sha256": "aecd20e79dba559b862836a1b285b9bf1ddb419ac8f56d8863e8785ffd0c1a9e",
+      "logistic_probability": "0.029423"
+    },
+    {
+      "shot_id": "179367b7-3a00-4696-a4c1-b1431f17c781",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/179367b7-3a00-4696-a4c1-b1431f17c781.png",
+      "image_sha256": "cb6f9ff5f911a7c0595cf58101083c4929ea864ba3e3d81b2d3ca23803796ce1"
+    },
+    {
+      "shot_id": "179367b7-3a00-4696-a4c1-b1431f17c781",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/179367b7-3a00-4696-a4c1-b1431f17c781.png",
+      "image_sha256": "cb6f9ff5f911a7c0595cf58101083c4929ea864ba3e3d81b2d3ca23803796ce1",
+      "logistic_probability": "0.321693"
+    },
+    {
+      "shot_id": "3dbf3180-8661-41b1-89c1-7c27bb89e508",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/3dbf3180-8661-41b1-89c1-7c27bb89e508.png",
+      "image_sha256": "dd5d1d26e6eb56cd578dc204de2e24a55c30a6299e802dc96eb17158f02b9daf",
+      "logistic_probability": "0.023264"
+    },
+    {
+      "shot_id": "3dbf3180-8661-41b1-89c1-7c27bb89e508",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/3dbf3180-8661-41b1-89c1-7c27bb89e508.png",
+      "image_sha256": "dd5d1d26e6eb56cd578dc204de2e24a55c30a6299e802dc96eb17158f02b9daf"
+    },
+    {
+      "shot_id": "120cfcfb-5db7-4035-a290-7dfd81abe811",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/120cfcfb-5db7-4035-a290-7dfd81abe811.png",
+      "image_sha256": "afd9399cdcdc2140505c8b3994c997b680b527bf2b56d1f84e191548189bf454",
+      "logistic_probability": "0.029820"
+    },
+    {
+      "shot_id": "120cfcfb-5db7-4035-a290-7dfd81abe811",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/120cfcfb-5db7-4035-a290-7dfd81abe811.png",
+      "image_sha256": "afd9399cdcdc2140505c8b3994c997b680b527bf2b56d1f84e191548189bf454"
+    },
+    {
+      "shot_id": "4fef020d-21b9-465a-b793-26b2e386e779",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/4fef020d-21b9-465a-b793-26b2e386e779.png",
+      "image_sha256": "19b84944107ac3f2477ad96af46569b047734d2827902304e90116d8eac4a5e9",
+      "logistic_probability": "0.089952"
+    },
+    {
+      "shot_id": "4fef020d-21b9-465a-b793-26b2e386e779",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/4fef020d-21b9-465a-b793-26b2e386e779.png",
+      "image_sha256": "19b84944107ac3f2477ad96af46569b047734d2827902304e90116d8eac4a5e9"
+    },
+    {
+      "shot_id": "800279c5-2275-469f-b2c3-4836fb731efa",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/800279c5-2275-469f-b2c3-4836fb731efa.png",
+      "image_sha256": "59dd2ece761f169b18c919db30cccff6e9c35dee26ed55e2d375f7413dc8ee34"
+    },
+    {
+      "shot_id": "800279c5-2275-469f-b2c3-4836fb731efa",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/800279c5-2275-469f-b2c3-4836fb731efa.png",
+      "image_sha256": "59dd2ece761f169b18c919db30cccff6e9c35dee26ed55e2d375f7413dc8ee34",
+      "logistic_probability": "0.157983"
+    },
+    {
+      "shot_id": "2dbec2a7-410c-413a-9c46-43c8de4ce703",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/2dbec2a7-410c-413a-9c46-43c8de4ce703.png",
+      "image_sha256": "ac4d911738af92dfaa33d0730259fafb1ecd84da5740f5fcdb3537b03f0cc6bf"
+    },
+    {
+      "shot_id": "2dbec2a7-410c-413a-9c46-43c8de4ce703",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/2dbec2a7-410c-413a-9c46-43c8de4ce703.png",
+      "image_sha256": "ac4d911738af92dfaa33d0730259fafb1ecd84da5740f5fcdb3537b03f0cc6bf",
+      "logistic_probability": "0.144856"
+    },
+    {
+      "shot_id": "60ddcae1-6103-4ceb-949c-1221e8e64a8e",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/60ddcae1-6103-4ceb-949c-1221e8e64a8e.png",
+      "image_sha256": "b3ef42eaf91e6342063fe44413fb6c00d5f1edf199251aa121c3e20e7633b91d",
+      "logistic_probability": "0.187924"
+    },
+    {
+      "shot_id": "60ddcae1-6103-4ceb-949c-1221e8e64a8e",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/60ddcae1-6103-4ceb-949c-1221e8e64a8e.png",
+      "image_sha256": "b3ef42eaf91e6342063fe44413fb6c00d5f1edf199251aa121c3e20e7633b91d"
+    },
+    {
+      "shot_id": "d31276ca-2602-4e1f-a8ed-ca5015f2353c",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/d31276ca-2602-4e1f-a8ed-ca5015f2353c.png",
+      "image_sha256": "0edca65e8f809ca6486b0e38131bdf1eef747bf8ee3ade7c9bd5312867b88d9d",
+      "logistic_probability": "0.210978"
+    },
+    {
+      "shot_id": "d31276ca-2602-4e1f-a8ed-ca5015f2353c",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/d31276ca-2602-4e1f-a8ed-ca5015f2353c.png",
+      "image_sha256": "0edca65e8f809ca6486b0e38131bdf1eef747bf8ee3ade7c9bd5312867b88d9d"
+    },
+    {
+      "shot_id": "27b4d019-3a0e-4793-89c8-a8f329f202e4",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/27b4d019-3a0e-4793-89c8-a8f329f202e4.png",
+      "image_sha256": "56451638382c0ac5383e07df03423993d66575580401efbc1b9ffd0028cba13d"
+    },
+    {
+      "shot_id": "27b4d019-3a0e-4793-89c8-a8f329f202e4",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/27b4d019-3a0e-4793-89c8-a8f329f202e4.png",
+      "image_sha256": "56451638382c0ac5383e07df03423993d66575580401efbc1b9ffd0028cba13d",
+      "logistic_probability": "0.105918"
+    },
+    {
+      "shot_id": "71efce2c-bfa9-4f23-9278-e7e091d02597",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/71efce2c-bfa9-4f23-9278-e7e091d02597.png",
+      "image_sha256": "fa20c9acd0a646b235ccbb4528d1e46f7aa460496625a12104b5f494defdd56e"
+    },
+    {
+      "shot_id": "71efce2c-bfa9-4f23-9278-e7e091d02597",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/71efce2c-bfa9-4f23-9278-e7e091d02597.png",
+      "image_sha256": "fa20c9acd0a646b235ccbb4528d1e46f7aa460496625a12104b5f494defdd56e",
+      "logistic_probability": "0.152409"
+    },
+    {
+      "shot_id": "1e7c28d0-99f3-4c4f-a9aa-b1819740aa48",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/1e7c28d0-99f3-4c4f-a9aa-b1819740aa48.png",
+      "image_sha256": "061ccaeea0bb9b96093225a7a2596de7edbae06b5ca5347afea84fdef9c9387f"
+    },
+    {
+      "shot_id": "1e7c28d0-99f3-4c4f-a9aa-b1819740aa48",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/1e7c28d0-99f3-4c4f-a9aa-b1819740aa48.png",
+      "image_sha256": "061ccaeea0bb9b96093225a7a2596de7edbae06b5ca5347afea84fdef9c9387f",
+      "logistic_probability": "0.212205"
+    },
+    {
+      "shot_id": "61e204ab-1204-46c6-a2fe-fb069bd7b5a5",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/61e204ab-1204-46c6-a2fe-fb069bd7b5a5.png",
+      "image_sha256": "3063b2ca3d58fb846623051702ba5bbb048fdec2db197a16554e916e7375dda4"
+    },
+    {
+      "shot_id": "61e204ab-1204-46c6-a2fe-fb069bd7b5a5",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/61e204ab-1204-46c6-a2fe-fb069bd7b5a5.png",
+      "image_sha256": "3063b2ca3d58fb846623051702ba5bbb048fdec2db197a16554e916e7375dda4",
+      "logistic_probability": "0.032176"
+    },
+    {
+      "shot_id": "c70478c7-b13f-490e-ac7d-3e6e53c3ac2c",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/c70478c7-b13f-490e-ac7d-3e6e53c3ac2c.png",
+      "image_sha256": "d1319e88668fc55fae89a54294c5b888e5a0a025a89230b785ce948f9283aaf3",
+      "logistic_probability": "0.021310"
+    },
+    {
+      "shot_id": "c70478c7-b13f-490e-ac7d-3e6e53c3ac2c",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/c70478c7-b13f-490e-ac7d-3e6e53c3ac2c.png",
+      "image_sha256": "d1319e88668fc55fae89a54294c5b888e5a0a025a89230b785ce948f9283aaf3"
+    },
+    {
+      "shot_id": "25a5f9cb-421a-404b-917a-b9189117bb5d",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/25a5f9cb-421a-404b-917a-b9189117bb5d.png",
+      "image_sha256": "fc198b8bb4d1abf326a55545d2366e2d63986ddc9518baeb340d03c70236c8e4",
+      "logistic_probability": "0.023601"
+    },
+    {
+      "shot_id": "25a5f9cb-421a-404b-917a-b9189117bb5d",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/25a5f9cb-421a-404b-917a-b9189117bb5d.png",
+      "image_sha256": "fc198b8bb4d1abf326a55545d2366e2d63986ddc9518baeb340d03c70236c8e4"
+    },
+    {
+      "shot_id": "1d95c836-fd7c-4e9e-82e8-a65463cbaaf3",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/1d95c836-fd7c-4e9e-82e8-a65463cbaaf3.png",
+      "image_sha256": "56433483d850f5f1ac206224b5911610bded97227259e910e6a2cf46d58a470f"
+    },
+    {
+      "shot_id": "1d95c836-fd7c-4e9e-82e8-a65463cbaaf3",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/1d95c836-fd7c-4e9e-82e8-a65463cbaaf3.png",
+      "image_sha256": "56433483d850f5f1ac206224b5911610bded97227259e910e6a2cf46d58a470f",
+      "logistic_probability": "0.223298"
+    },
+    {
+      "shot_id": "f43b76b3-0bbc-4248-a32f-efc9a37edb1d",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/f43b76b3-0bbc-4248-a32f-efc9a37edb1d.png",
+      "image_sha256": "334a48128510aba2bd6825fc8dadd2dfdcd4b44357fec884ea033469b444ffcc"
+    },
+    {
+      "shot_id": "f43b76b3-0bbc-4248-a32f-efc9a37edb1d",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/f43b76b3-0bbc-4248-a32f-efc9a37edb1d.png",
+      "image_sha256": "334a48128510aba2bd6825fc8dadd2dfdcd4b44357fec884ea033469b444ffcc",
+      "logistic_probability": "0.149301"
+    },
+    {
+      "shot_id": "b89f570e-1ae0-4ec5-a0a6-0ad107e4df4f",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/b89f570e-1ae0-4ec5-a0a6-0ad107e4df4f.png",
+      "image_sha256": "170a1b6f0c3f89835a6aa312e8cb0126398a547eb78293f2ae778a382eaf8360"
+    },
+    {
+      "shot_id": "b89f570e-1ae0-4ec5-a0a6-0ad107e4df4f",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/b89f570e-1ae0-4ec5-a0a6-0ad107e4df4f.png",
+      "image_sha256": "170a1b6f0c3f89835a6aa312e8cb0126398a547eb78293f2ae778a382eaf8360",
+      "logistic_probability": "0.044406"
+    },
+    {
+      "shot_id": "d09a842e-28ea-41fc-9f44-543482bc0e5f",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/d09a842e-28ea-41fc-9f44-543482bc0e5f.png",
+      "image_sha256": "d74fd1f9dfcdbe1fdf2ba45959dc6a39a985dccd2734839507305d7c312dc7df"
+    },
+    {
+      "shot_id": "d09a842e-28ea-41fc-9f44-543482bc0e5f",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/d09a842e-28ea-41fc-9f44-543482bc0e5f.png",
+      "image_sha256": "d74fd1f9dfcdbe1fdf2ba45959dc6a39a985dccd2734839507305d7c312dc7df",
+      "logistic_probability": "0.028025"
+    },
+    {
+      "shot_id": "d33f6306-11d4-43b6-a461-bd7d25772b7e",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/d33f6306-11d4-43b6-a461-bd7d25772b7e.png",
+      "image_sha256": "96788cb1c8c0665a62024f5236e381d2ea33f71372389644f5f077897f8c05fd",
+      "logistic_probability": "0.020407"
+    },
+    {
+      "shot_id": "d33f6306-11d4-43b6-a461-bd7d25772b7e",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/d33f6306-11d4-43b6-a461-bd7d25772b7e.png",
+      "image_sha256": "96788cb1c8c0665a62024f5236e381d2ea33f71372389644f5f077897f8c05fd"
+    },
+    {
+      "shot_id": "3ba068c5-0aa6-4447-bc0d-a79dcf0ca972",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/3ba068c5-0aa6-4447-bc0d-a79dcf0ca972.png",
+      "image_sha256": "e82366bbff2556f8d1ed1c8c4c720f34fc1239b762a1040ee6e458354188332c",
+      "logistic_probability": "0.116229"
+    },
+    {
+      "shot_id": "3ba068c5-0aa6-4447-bc0d-a79dcf0ca972",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/3ba068c5-0aa6-4447-bc0d-a79dcf0ca972.png",
+      "image_sha256": "e82366bbff2556f8d1ed1c8c4c720f34fc1239b762a1040ee6e458354188332c"
+    },
+    {
+      "shot_id": "8c8639c5-97ec-44f8-9b83-b1d2436e0ed0",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/8c8639c5-97ec-44f8-9b83-b1d2436e0ed0.png",
+      "image_sha256": "c114c27021e56d29f003bcecaae73cf21a382c9e12ada01ad78326cb0eff87e3"
+    },
+    {
+      "shot_id": "8c8639c5-97ec-44f8-9b83-b1d2436e0ed0",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/8c8639c5-97ec-44f8-9b83-b1d2436e0ed0.png",
+      "image_sha256": "c114c27021e56d29f003bcecaae73cf21a382c9e12ada01ad78326cb0eff87e3",
+      "logistic_probability": "0.162183"
+    },
+    {
+      "shot_id": "2db7840e-1050-482b-95f8-b662bb1dd1c0",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/2db7840e-1050-482b-95f8-b662bb1dd1c0.png",
+      "image_sha256": "92e53038e5f6f479f79c583e06f90b6b1b8b4564c34d4577ba24671b8d82ff82"
+    },
+    {
+      "shot_id": "2db7840e-1050-482b-95f8-b662bb1dd1c0",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/2db7840e-1050-482b-95f8-b662bb1dd1c0.png",
+      "image_sha256": "92e53038e5f6f479f79c583e06f90b6b1b8b4564c34d4577ba24671b8d82ff82",
+      "logistic_probability": "0.055782"
+    },
+    {
+      "shot_id": "e8eee976-3068-4c12-85ca-dca7cac8cb7d",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/e8eee976-3068-4c12-85ca-dca7cac8cb7d.png",
+      "image_sha256": "3999dc5203a477da92fdfc5d9c069e31a48372cb2be204669dae021bf0d96b73",
+      "logistic_probability": "0.032094"
+    },
+    {
+      "shot_id": "e8eee976-3068-4c12-85ca-dca7cac8cb7d",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/e8eee976-3068-4c12-85ca-dca7cac8cb7d.png",
+      "image_sha256": "3999dc5203a477da92fdfc5d9c069e31a48372cb2be204669dae021bf0d96b73"
+    },
+    {
+      "shot_id": "7efe58b6-e16d-4812-b89b-046f0166e172",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/7efe58b6-e16d-4812-b89b-046f0166e172.png",
+      "image_sha256": "704a36e6de70fd0fa2471c3f8c42d732ce7a58e5d8a74fbfbcf962f391da2a07",
+      "logistic_probability": "0.098029"
+    },
+    {
+      "shot_id": "7efe58b6-e16d-4812-b89b-046f0166e172",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/7efe58b6-e16d-4812-b89b-046f0166e172.png",
+      "image_sha256": "704a36e6de70fd0fa2471c3f8c42d732ce7a58e5d8a74fbfbcf962f391da2a07"
+    },
+    {
+      "shot_id": "b04d528a-f93d-4dd7-86d0-2011dc9e311d",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/b04d528a-f93d-4dd7-86d0-2011dc9e311d.png",
+      "image_sha256": "1844463ae36cd35a21a292db9aa2a970e46ed62618617c55b28fb5529b21bcff",
+      "logistic_probability": "0.266141"
+    },
+    {
+      "shot_id": "b04d528a-f93d-4dd7-86d0-2011dc9e311d",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/b04d528a-f93d-4dd7-86d0-2011dc9e311d.png",
+      "image_sha256": "1844463ae36cd35a21a292db9aa2a970e46ed62618617c55b28fb5529b21bcff"
+    },
+    {
+      "shot_id": "897a3d60-bf0d-4795-9fea-4ff4049752b2",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/897a3d60-bf0d-4795-9fea-4ff4049752b2.png",
+      "image_sha256": "3fa4665e8e650306338b1473fb8e52d35532251a8f5d5102e752ff40960b0865",
+      "logistic_probability": "0.202957"
+    },
+    {
+      "shot_id": "897a3d60-bf0d-4795-9fea-4ff4049752b2",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/897a3d60-bf0d-4795-9fea-4ff4049752b2.png",
+      "image_sha256": "3fa4665e8e650306338b1473fb8e52d35532251a8f5d5102e752ff40960b0865"
+    },
+    {
+      "shot_id": "d99c2759-eb4d-4532-a917-93ef586df93e",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/d99c2759-eb4d-4532-a917-93ef586df93e.png",
+      "image_sha256": "b8248ddcbfba03152b27b2f628ea25914199a2e46043dc8bfbcbd102c284c06c"
+    },
+    {
+      "shot_id": "d99c2759-eb4d-4532-a917-93ef586df93e",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/d99c2759-eb4d-4532-a917-93ef586df93e.png",
+      "image_sha256": "b8248ddcbfba03152b27b2f628ea25914199a2e46043dc8bfbcbd102c284c06c",
+      "logistic_probability": "0.010021"
+    },
+    {
+      "shot_id": "96867514-0290-491f-aa00-a6582166af95",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/96867514-0290-491f-aa00-a6582166af95.png",
+      "image_sha256": "ac9f83b8757bad205f26bbed239528f3c96bab5f767c1a92f18c28b82d782042",
+      "logistic_probability": "0.074776"
+    },
+    {
+      "shot_id": "96867514-0290-491f-aa00-a6582166af95",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/96867514-0290-491f-aa00-a6582166af95.png",
+      "image_sha256": "ac9f83b8757bad205f26bbed239528f3c96bab5f767c1a92f18c28b82d782042"
+    },
+    {
+      "shot_id": "603b89d6-7dd4-467c-b8f3-0f063a76f1af",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/603b89d6-7dd4-467c-b8f3-0f063a76f1af.png",
+      "image_sha256": "b261985ef3b262c5eff606e474eccc1076c9e16b17f4982aa9cda5c2e47de50b"
+    },
+    {
+      "shot_id": "603b89d6-7dd4-467c-b8f3-0f063a76f1af",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/603b89d6-7dd4-467c-b8f3-0f063a76f1af.png",
+      "image_sha256": "b261985ef3b262c5eff606e474eccc1076c9e16b17f4982aa9cda5c2e47de50b",
+      "logistic_probability": "0.104307"
+    },
+    {
+      "shot_id": "ad1cc607-ca76-4b92-8b4f-f7bdb2132b68",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/ad1cc607-ca76-4b92-8b4f-f7bdb2132b68.png",
+      "image_sha256": "cc25b3624f058b4ef68b0d0a99aedf83d0458bb4247474710ac48ebfd8098911"
+    },
+    {
+      "shot_id": "ad1cc607-ca76-4b92-8b4f-f7bdb2132b68",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/ad1cc607-ca76-4b92-8b4f-f7bdb2132b68.png",
+      "image_sha256": "cc25b3624f058b4ef68b0d0a99aedf83d0458bb4247474710ac48ebfd8098911",
+      "logistic_probability": "0.039945"
+    },
+    {
+      "shot_id": "7cc6c9e3-86b4-48eb-90c2-b332705ecc91",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/7cc6c9e3-86b4-48eb-90c2-b332705ecc91.png",
+      "image_sha256": "32dd7c03f7bdc578b6607c73f17e672f2f28d69135a077e52f9246f63f2cf5dc"
+    },
+    {
+      "shot_id": "7cc6c9e3-86b4-48eb-90c2-b332705ecc91",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/7cc6c9e3-86b4-48eb-90c2-b332705ecc91.png",
+      "image_sha256": "32dd7c03f7bdc578b6607c73f17e672f2f28d69135a077e52f9246f63f2cf5dc",
+      "logistic_probability": "0.079223"
+    },
+    {
+      "shot_id": "189543b2-eb27-4be3-89e6-acbc9f977441",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/189543b2-eb27-4be3-89e6-acbc9f977441.png",
+      "image_sha256": "baca40035c450f0613e3e74dbb85cb6d0364b8a9e47ba476172bf3d4ba04684a",
+      "logistic_probability": "0.015657"
+    },
+    {
+      "shot_id": "189543b2-eb27-4be3-89e6-acbc9f977441",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/189543b2-eb27-4be3-89e6-acbc9f977441.png",
+      "image_sha256": "baca40035c450f0613e3e74dbb85cb6d0364b8a9e47ba476172bf3d4ba04684a"
+    },
+    {
+      "shot_id": "55f5ff4e-4e46-4636-9f73-98ea099710a6",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/55f5ff4e-4e46-4636-9f73-98ea099710a6.png",
+      "image_sha256": "b00844e8055589054b8bb435aaf96404dcf4108e2b5d8d141381c5555517e2fa",
+      "logistic_probability": "0.100476"
+    },
+    {
+      "shot_id": "55f5ff4e-4e46-4636-9f73-98ea099710a6",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/55f5ff4e-4e46-4636-9f73-98ea099710a6.png",
+      "image_sha256": "b00844e8055589054b8bb435aaf96404dcf4108e2b5d8d141381c5555517e2fa"
+    },
+    {
+      "shot_id": "f8cb4a1b-e84c-4ebd-ac2e-4079643186b0",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/f8cb4a1b-e84c-4ebd-ac2e-4079643186b0.png",
+      "image_sha256": "aaf59037b697a65b64db397c6d9258d2513aa63fb8f75c4e3d256ac580b5367f",
+      "logistic_probability": "0.037980"
+    },
+    {
+      "shot_id": "f8cb4a1b-e84c-4ebd-ac2e-4079643186b0",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/f8cb4a1b-e84c-4ebd-ac2e-4079643186b0.png",
+      "image_sha256": "aaf59037b697a65b64db397c6d9258d2513aa63fb8f75c4e3d256ac580b5367f"
+    },
+    {
+      "shot_id": "20655e38-fc30-4846-afc9-4488b4aba24f",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/20655e38-fc30-4846-afc9-4488b4aba24f.png",
+      "image_sha256": "2fab0faab2554fb85e85eeaa02913bc7d0c5581e5631ecb006707dc3778e00e7"
+    },
+    {
+      "shot_id": "20655e38-fc30-4846-afc9-4488b4aba24f",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/20655e38-fc30-4846-afc9-4488b4aba24f.png",
+      "image_sha256": "2fab0faab2554fb85e85eeaa02913bc7d0c5581e5631ecb006707dc3778e00e7",
+      "logistic_probability": "0.017761"
+    },
+    {
+      "shot_id": "f21630af-6cbe-4a65-9575-05f11e0fe502",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/f21630af-6cbe-4a65-9575-05f11e0fe502.png",
+      "image_sha256": "14ad7a5bd99fd47e6acd12e0ef11a448d21f14bed0d11c3839afdcdeb1d6e9c5"
+    },
+    {
+      "shot_id": "f21630af-6cbe-4a65-9575-05f11e0fe502",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/f21630af-6cbe-4a65-9575-05f11e0fe502.png",
+      "image_sha256": "14ad7a5bd99fd47e6acd12e0ef11a448d21f14bed0d11c3839afdcdeb1d6e9c5",
+      "logistic_probability": "0.605684"
+    },
+    {
+      "shot_id": "f371e4ac-b294-4131-b0fd-1fa1f9156406",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/f371e4ac-b294-4131-b0fd-1fa1f9156406.png",
+      "image_sha256": "4a585cd4ab4f0605439292106af79206206a13f1c117cea25000935c44b88980"
+    },
+    {
+      "shot_id": "f371e4ac-b294-4131-b0fd-1fa1f9156406",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/f371e4ac-b294-4131-b0fd-1fa1f9156406.png",
+      "image_sha256": "4a585cd4ab4f0605439292106af79206206a13f1c117cea25000935c44b88980",
+      "logistic_probability": "0.015421"
+    },
+    {
+      "shot_id": "097ba4e6-1512-404e-a60b-c6cd21662f37",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/097ba4e6-1512-404e-a60b-c6cd21662f37.png",
+      "image_sha256": "e84f6ec60e4956b2d36e6d8a386b1e4619b25d8551706321a21d1dfd4a347ffb",
+      "logistic_probability": "0.001510"
+    },
+    {
+      "shot_id": "097ba4e6-1512-404e-a60b-c6cd21662f37",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/097ba4e6-1512-404e-a60b-c6cd21662f37.png",
+      "image_sha256": "e84f6ec60e4956b2d36e6d8a386b1e4619b25d8551706321a21d1dfd4a347ffb"
+    },
+    {
+      "shot_id": "d37ccafe-1b17-42be-82cf-a6805b2cdecb",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/d37ccafe-1b17-42be-82cf-a6805b2cdecb.png",
+      "image_sha256": "81a21fc8d572a0adf81ac769dbc2476b605b23b88a74546f0b0e0b5900ef16e7"
+    },
+    {
+      "shot_id": "d37ccafe-1b17-42be-82cf-a6805b2cdecb",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/d37ccafe-1b17-42be-82cf-a6805b2cdecb.png",
+      "image_sha256": "81a21fc8d572a0adf81ac769dbc2476b605b23b88a74546f0b0e0b5900ef16e7",
+      "logistic_probability": "0.077462"
+    },
+    {
+      "shot_id": "25805ad9-c4bc-4508-a431-dc0993059c02",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/25805ad9-c4bc-4508-a431-dc0993059c02.png",
+      "image_sha256": "3cadca3ba11240cf790121c79befabfa1b7b40995275246ca09a557d979c4d63"
+    },
+    {
+      "shot_id": "25805ad9-c4bc-4508-a431-dc0993059c02",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/25805ad9-c4bc-4508-a431-dc0993059c02.png",
+      "image_sha256": "3cadca3ba11240cf790121c79befabfa1b7b40995275246ca09a557d979c4d63",
+      "logistic_probability": "0.081724"
+    },
+    {
+      "shot_id": "dd29d6cf-f02f-4b16-a5dc-153df17c952a",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/dd29d6cf-f02f-4b16-a5dc-153df17c952a.png",
+      "image_sha256": "f01034ae76b62676716530b12c520d60ad781fc40c0d589e7c32f0ef93836acd"
+    },
+    {
+      "shot_id": "dd29d6cf-f02f-4b16-a5dc-153df17c952a",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/dd29d6cf-f02f-4b16-a5dc-153df17c952a.png",
+      "image_sha256": "f01034ae76b62676716530b12c520d60ad781fc40c0d589e7c32f0ef93836acd",
+      "logistic_probability": "0.041138"
+    },
+    {
+      "shot_id": "a8522328-fd47-4bbb-b89f-043c935cc58b",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/a8522328-fd47-4bbb-b89f-043c935cc58b.png",
+      "image_sha256": "80b5e5427018e18192067645fb832929278bcdad8ebf69d5b6b6249d32f168df",
+      "logistic_probability": "0.009486"
+    },
+    {
+      "shot_id": "a8522328-fd47-4bbb-b89f-043c935cc58b",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/a8522328-fd47-4bbb-b89f-043c935cc58b.png",
+      "image_sha256": "80b5e5427018e18192067645fb832929278bcdad8ebf69d5b6b6249d32f168df"
+    },
+    {
+      "shot_id": "17c244bd-9ce5-4ff4-83f0-c4dec30fbfe4",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/17c244bd-9ce5-4ff4-83f0-c4dec30fbfe4.png",
+      "image_sha256": "34c1b864ff51ae7f11a10437eeaf2703c8fa65257af6bc2a44d4aef042a4004b",
+      "logistic_probability": "0.025256"
+    },
+    {
+      "shot_id": "17c244bd-9ce5-4ff4-83f0-c4dec30fbfe4",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/17c244bd-9ce5-4ff4-83f0-c4dec30fbfe4.png",
+      "image_sha256": "34c1b864ff51ae7f11a10437eeaf2703c8fa65257af6bc2a44d4aef042a4004b"
+    },
+    {
+      "shot_id": "33369d13-fc1c-4778-a420-47762e838426",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/33369d13-fc1c-4778-a420-47762e838426.png",
+      "image_sha256": "bfed62adfbb3f00433d1ccbfe907b6b2cddfdd79fa00808c8c7f43ffa8eef9bc"
+    },
+    {
+      "shot_id": "33369d13-fc1c-4778-a420-47762e838426",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/33369d13-fc1c-4778-a420-47762e838426.png",
+      "image_sha256": "bfed62adfbb3f00433d1ccbfe907b6b2cddfdd79fa00808c8c7f43ffa8eef9bc",
+      "logistic_probability": "0.087891"
+    },
+    {
+      "shot_id": "3c909538-9d95-4070-a970-c2e5e7a62bf7",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/3c909538-9d95-4070-a970-c2e5e7a62bf7.png",
+      "image_sha256": "4b7ba2524e1cb136088f22e26a102d79e3b7c7fb72d425cc0dfd53e201c357d6",
+      "logistic_probability": "0.058391"
+    },
+    {
+      "shot_id": "3c909538-9d95-4070-a970-c2e5e7a62bf7",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/3c909538-9d95-4070-a970-c2e5e7a62bf7.png",
+      "image_sha256": "4b7ba2524e1cb136088f22e26a102d79e3b7c7fb72d425cc0dfd53e201c357d6"
+    },
+    {
+      "shot_id": "8c6a7d2f-afca-4c04-8577-39749ef390d2",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/8c6a7d2f-afca-4c04-8577-39749ef390d2.png",
+      "image_sha256": "f8c103c5275c9e1dcbcc58e8b820511727fea014c49d94d2b7c654267b7db275"
+    },
+    {
+      "shot_id": "8c6a7d2f-afca-4c04-8577-39749ef390d2",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/8c6a7d2f-afca-4c04-8577-39749ef390d2.png",
+      "image_sha256": "f8c103c5275c9e1dcbcc58e8b820511727fea014c49d94d2b7c654267b7db275",
+      "logistic_probability": "0.293960"
+    },
+    {
+      "shot_id": "30c89258-5875-462f-be94-cebeb7ed5e4e",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/30c89258-5875-462f-be94-cebeb7ed5e4e.png",
+      "image_sha256": "c749863983cf81149cc895d6a0a38f14cbee03afbdde9faa372b1a696c6333a7",
+      "logistic_probability": "0.060560"
+    },
+    {
+      "shot_id": "30c89258-5875-462f-be94-cebeb7ed5e4e",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/30c89258-5875-462f-be94-cebeb7ed5e4e.png",
+      "image_sha256": "c749863983cf81149cc895d6a0a38f14cbee03afbdde9faa372b1a696c6333a7"
+    },
+    {
+      "shot_id": "d00eac11-b609-4b9c-8364-cde2587b02f1",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/d00eac11-b609-4b9c-8364-cde2587b02f1.png",
+      "image_sha256": "2ab46616b2ea2156524b25be3f00a65ee2ac44506752c8451ae7b8e9b50994eb",
+      "logistic_probability": "0.040150"
+    },
+    {
+      "shot_id": "d00eac11-b609-4b9c-8364-cde2587b02f1",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/d00eac11-b609-4b9c-8364-cde2587b02f1.png",
+      "image_sha256": "2ab46616b2ea2156524b25be3f00a65ee2ac44506752c8451ae7b8e9b50994eb"
+    },
+    {
+      "shot_id": "1d545780-df6c-403e-974a-4ee841664a26",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/1d545780-df6c-403e-974a-4ee841664a26.png",
+      "image_sha256": "faf80f5dfe82f7fe06bba6620632e97dd0b31170b02a561f4f0fd9657736697d",
+      "logistic_probability": "0.056531"
+    },
+    {
+      "shot_id": "1d545780-df6c-403e-974a-4ee841664a26",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/1d545780-df6c-403e-974a-4ee841664a26.png",
+      "image_sha256": "faf80f5dfe82f7fe06bba6620632e97dd0b31170b02a561f4f0fd9657736697d"
+    },
+    {
+      "shot_id": "2f19fd1f-15e8-4df7-85da-5566dd580759",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/2f19fd1f-15e8-4df7-85da-5566dd580759.png",
+      "image_sha256": "ac167cb5a221532ca76f2376d6b5fa10c723bf822d46d5982f57f8ebf2e740a3",
+      "logistic_probability": "0.067755"
+    },
+    {
+      "shot_id": "2f19fd1f-15e8-4df7-85da-5566dd580759",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/2f19fd1f-15e8-4df7-85da-5566dd580759.png",
+      "image_sha256": "ac167cb5a221532ca76f2376d6b5fa10c723bf822d46d5982f57f8ebf2e740a3"
+    },
+    {
+      "shot_id": "fa6411ef-e222-4bb2-b48d-3950ab388f61",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/fa6411ef-e222-4bb2-b48d-3950ab388f61.png",
+      "image_sha256": "2092fa5cfbd82e85fa567daa1a5c5f7c2a758caa432fce525f59049221eb64af"
+    },
+    {
+      "shot_id": "fa6411ef-e222-4bb2-b48d-3950ab388f61",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/fa6411ef-e222-4bb2-b48d-3950ab388f61.png",
+      "image_sha256": "2092fa5cfbd82e85fa567daa1a5c5f7c2a758caa432fce525f59049221eb64af",
+      "logistic_probability": "0.100585"
+    },
+    {
+      "shot_id": "89ac2a27-b231-4c94-9353-f00cc740f35b",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/89ac2a27-b231-4c94-9353-f00cc740f35b.png",
+      "image_sha256": "b3c07367bedca8ec2ff4117bf29b27cb1eade4f8cb3b5afc6cd7fd5ecde17a16"
+    },
+    {
+      "shot_id": "89ac2a27-b231-4c94-9353-f00cc740f35b",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/89ac2a27-b231-4c94-9353-f00cc740f35b.png",
+      "image_sha256": "b3c07367bedca8ec2ff4117bf29b27cb1eade4f8cb3b5afc6cd7fd5ecde17a16",
+      "logistic_probability": "0.032267"
+    },
+    {
+      "shot_id": "72be986e-5444-4c04-8b12-eb45c0a6c51e",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/72be986e-5444-4c04-8b12-eb45c0a6c51e.png",
+      "image_sha256": "489f86f7fc215157fb446e32707f5a8e88681a67b98b26df6dc887b75d7bdfa8"
+    },
+    {
+      "shot_id": "72be986e-5444-4c04-8b12-eb45c0a6c51e",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/72be986e-5444-4c04-8b12-eb45c0a6c51e.png",
+      "image_sha256": "489f86f7fc215157fb446e32707f5a8e88681a67b98b26df6dc887b75d7bdfa8",
+      "logistic_probability": "0.193016"
+    },
+    {
+      "shot_id": "68d491f5-51e4-4140-8fcd-7ad6f3100b26",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/68d491f5-51e4-4140-8fcd-7ad6f3100b26.png",
+      "image_sha256": "227b974dab23ba11bd3792e13b46a60e43810ec917b50b9e611dfa1785365ea9",
+      "logistic_probability": "0.277000"
+    },
+    {
+      "shot_id": "68d491f5-51e4-4140-8fcd-7ad6f3100b26",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/68d491f5-51e4-4140-8fcd-7ad6f3100b26.png",
+      "image_sha256": "227b974dab23ba11bd3792e13b46a60e43810ec917b50b9e611dfa1785365ea9"
+    },
+    {
+      "shot_id": "c4c9f0ab-1c48-4729-b04b-8e1ee56c235c",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/c4c9f0ab-1c48-4729-b04b-8e1ee56c235c.png",
+      "image_sha256": "e1f0897c2952fb243f0ad690bbce01675adca7ff7a3d9ebe5dea574854cce898",
+      "logistic_probability": "0.053148"
+    },
+    {
+      "shot_id": "c4c9f0ab-1c48-4729-b04b-8e1ee56c235c",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/c4c9f0ab-1c48-4729-b04b-8e1ee56c235c.png",
+      "image_sha256": "e1f0897c2952fb243f0ad690bbce01675adca7ff7a3d9ebe5dea574854cce898"
+    },
+    {
+      "shot_id": "d8960dbe-83e3-47db-9180-93233d8b76e9",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/d8960dbe-83e3-47db-9180-93233d8b76e9.png",
+      "image_sha256": "07a5653a55dfd40a8a09715a1b74aad132699c28a7a8aeebb961ec8131d5a2e0",
+      "logistic_probability": "0.110424"
+    },
+    {
+      "shot_id": "d8960dbe-83e3-47db-9180-93233d8b76e9",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/d8960dbe-83e3-47db-9180-93233d8b76e9.png",
+      "image_sha256": "07a5653a55dfd40a8a09715a1b74aad132699c28a7a8aeebb961ec8131d5a2e0"
+    },
+    {
+      "shot_id": "b0f16225-8f81-4553-8d92-ed0c79a2c410",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/b0f16225-8f81-4553-8d92-ed0c79a2c410.png",
+      "image_sha256": "be313001c620ead59d2116621a1514bf926f19e72b3328cfa45de54a393d8cb5"
+    },
+    {
+      "shot_id": "b0f16225-8f81-4553-8d92-ed0c79a2c410",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/b0f16225-8f81-4553-8d92-ed0c79a2c410.png",
+      "image_sha256": "be313001c620ead59d2116621a1514bf926f19e72b3328cfa45de54a393d8cb5",
+      "logistic_probability": "0.157680"
+    },
+    {
+      "shot_id": "5349882a-308c-4e82-9a9e-47c0e9dab267",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/5349882a-308c-4e82-9a9e-47c0e9dab267.png",
+      "image_sha256": "c522b0f5a622ae9e3963a44ffe143f13b0fcbbf547f41bbaa6cf0673f8861510",
+      "logistic_probability": "0.120256"
+    },
+    {
+      "shot_id": "5349882a-308c-4e82-9a9e-47c0e9dab267",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/5349882a-308c-4e82-9a9e-47c0e9dab267.png",
+      "image_sha256": "c522b0f5a622ae9e3963a44ffe143f13b0fcbbf547f41bbaa6cf0673f8861510"
+    },
+    {
+      "shot_id": "d6702d84-2680-4050-995b-2f3c886eb1d0",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/d6702d84-2680-4050-995b-2f3c886eb1d0.png",
+      "image_sha256": "ca33b7234dd044c7ce484be62d954c83c99f9ad77261191099ca5213dffb4a32",
+      "logistic_probability": "0.336255"
+    },
+    {
+      "shot_id": "d6702d84-2680-4050-995b-2f3c886eb1d0",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/d6702d84-2680-4050-995b-2f3c886eb1d0.png",
+      "image_sha256": "ca33b7234dd044c7ce484be62d954c83c99f9ad77261191099ca5213dffb4a32"
+    },
+    {
+      "shot_id": "47f24d70-d7aa-4c8b-be9e-af604e310d09",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/47f24d70-d7aa-4c8b-be9e-af604e310d09.png",
+      "image_sha256": "352dfac989f3210d4db00b52f8860c9a7db6e8cb847649095e06618095b481c7",
+      "logistic_probability": "0.158685"
+    },
+    {
+      "shot_id": "47f24d70-d7aa-4c8b-be9e-af604e310d09",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/47f24d70-d7aa-4c8b-be9e-af604e310d09.png",
+      "image_sha256": "352dfac989f3210d4db00b52f8860c9a7db6e8cb847649095e06618095b481c7"
+    },
+    {
+      "shot_id": "5322cc2c-dbf6-41e2-a9b4-f6f160dc1ce2",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/5322cc2c-dbf6-41e2-a9b4-f6f160dc1ce2.png",
+      "image_sha256": "d01f3317f815d6c5911c30722cf8344df241ff47abc69bdcecdca541b0ccb856",
+      "logistic_probability": "0.022283"
+    },
+    {
+      "shot_id": "5322cc2c-dbf6-41e2-a9b4-f6f160dc1ce2",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/5322cc2c-dbf6-41e2-a9b4-f6f160dc1ce2.png",
+      "image_sha256": "d01f3317f815d6c5911c30722cf8344df241ff47abc69bdcecdca541b0ccb856"
+    },
+    {
+      "shot_id": "36205c11-18fa-4351-b334-0a472ca9e4a3",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/36205c11-18fa-4351-b334-0a472ca9e4a3.png",
+      "image_sha256": "07b4f17a86cde918198d94b25d74f074af3099650dd3e51f4fcdf4b443f3936c"
+    },
+    {
+      "shot_id": "36205c11-18fa-4351-b334-0a472ca9e4a3",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/36205c11-18fa-4351-b334-0a472ca9e4a3.png",
+      "image_sha256": "07b4f17a86cde918198d94b25d74f074af3099650dd3e51f4fcdf4b443f3936c",
+      "logistic_probability": "0.011700"
+    },
+    {
+      "shot_id": "4824ffd4-5902-4495-913e-21cd4dfbbc78",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/4824ffd4-5902-4495-913e-21cd4dfbbc78.png",
+      "image_sha256": "381a6aaaa0e5935ca38120afd18e02b44c51ca88d84f31f66652dd2f605e03c8"
+    },
+    {
+      "shot_id": "4824ffd4-5902-4495-913e-21cd4dfbbc78",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/4824ffd4-5902-4495-913e-21cd4dfbbc78.png",
+      "image_sha256": "381a6aaaa0e5935ca38120afd18e02b44c51ca88d84f31f66652dd2f605e03c8",
+      "logistic_probability": "0.107274"
+    },
+    {
+      "shot_id": "c844ce14-ebc9-4858-be93-c2489aded6d8",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/c844ce14-ebc9-4858-be93-c2489aded6d8.png",
+      "image_sha256": "6a6ffadeecf03d1dbb42f34d97c342b38730ec7e90914ed6de37e6ee42f4f075",
+      "logistic_probability": "0.047629"
+    },
+    {
+      "shot_id": "c844ce14-ebc9-4858-be93-c2489aded6d8",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/c844ce14-ebc9-4858-be93-c2489aded6d8.png",
+      "image_sha256": "6a6ffadeecf03d1dbb42f34d97c342b38730ec7e90914ed6de37e6ee42f4f075"
+    },
+    {
+      "shot_id": "26300399-ffed-4ca5-b7de-161c617feaf3",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/26300399-ffed-4ca5-b7de-161c617feaf3.png",
+      "image_sha256": "6878e51caac898ba7937a3a1395ebf84cb791a328fbfca8ffc185b6677612af0"
+    },
+    {
+      "shot_id": "26300399-ffed-4ca5-b7de-161c617feaf3",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/26300399-ffed-4ca5-b7de-161c617feaf3.png",
+      "image_sha256": "6878e51caac898ba7937a3a1395ebf84cb791a328fbfca8ffc185b6677612af0",
+      "logistic_probability": "0.109196"
+    },
+    {
+      "shot_id": "d26b4057-a637-40ce-b7df-a3c47b3d8839",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/d26b4057-a637-40ce-b7df-a3c47b3d8839.png",
+      "image_sha256": "64d4d30484c4826935316202857bfef4afca1c55bac013d8d462e9f717b92c1d",
+      "logistic_probability": "0.068326"
+    },
+    {
+      "shot_id": "d26b4057-a637-40ce-b7df-a3c47b3d8839",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/d26b4057-a637-40ce-b7df-a3c47b3d8839.png",
+      "image_sha256": "64d4d30484c4826935316202857bfef4afca1c55bac013d8d462e9f717b92c1d"
+    },
+    {
+      "shot_id": "6cc3bf0a-f73d-4b99-b8e7-42f30079f11b",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/6cc3bf0a-f73d-4b99-b8e7-42f30079f11b.png",
+      "image_sha256": "636b2ebe6cab5c7ab459e9e4ed8c892471a1334e49925490e8cc89b33805a48a",
+      "logistic_probability": "0.095925"
+    },
+    {
+      "shot_id": "6cc3bf0a-f73d-4b99-b8e7-42f30079f11b",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/6cc3bf0a-f73d-4b99-b8e7-42f30079f11b.png",
+      "image_sha256": "636b2ebe6cab5c7ab459e9e4ed8c892471a1334e49925490e8cc89b33805a48a"
+    },
+    {
+      "shot_id": "72e40c11-7989-4aa3-aa93-f1bf405391f4",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/72e40c11-7989-4aa3-aa93-f1bf405391f4.png",
+      "image_sha256": "259122c1ed67c63ab5c6c98331b1df906a127f2a97e60596a4f9761c556b8f99"
+    },
+    {
+      "shot_id": "72e40c11-7989-4aa3-aa93-f1bf405391f4",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/72e40c11-7989-4aa3-aa93-f1bf405391f4.png",
+      "image_sha256": "259122c1ed67c63ab5c6c98331b1df906a127f2a97e60596a4f9761c556b8f99",
+      "logistic_probability": "0.033894"
+    },
+    {
+      "shot_id": "5c0dad5a-0a5e-4cd2-9945-c0b8f540eafe",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/5c0dad5a-0a5e-4cd2-9945-c0b8f540eafe.png",
+      "image_sha256": "d2dcb967b6cb9182d6c700d170336ee89cc00ae72d14dd96ac250ac83c4ae217"
+    },
+    {
+      "shot_id": "5c0dad5a-0a5e-4cd2-9945-c0b8f540eafe",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/5c0dad5a-0a5e-4cd2-9945-c0b8f540eafe.png",
+      "image_sha256": "d2dcb967b6cb9182d6c700d170336ee89cc00ae72d14dd96ac250ac83c4ae217",
+      "logistic_probability": "0.170453"
+    },
+    {
+      "shot_id": "52aa01d1-1d7b-4688-9f84-210cfea309cf",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/52aa01d1-1d7b-4688-9f84-210cfea309cf.png",
+      "image_sha256": "3664f8b173b69ae818d04b3103a7aa05d032c1e3208e12770d7582aeed71e655",
+      "logistic_probability": "0.115143"
+    },
+    {
+      "shot_id": "52aa01d1-1d7b-4688-9f84-210cfea309cf",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/52aa01d1-1d7b-4688-9f84-210cfea309cf.png",
+      "image_sha256": "3664f8b173b69ae818d04b3103a7aa05d032c1e3208e12770d7582aeed71e655"
+    },
+    {
+      "shot_id": "192ef4cc-abd7-444d-aa71-2c7d5dad9270",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/192ef4cc-abd7-444d-aa71-2c7d5dad9270.png",
+      "image_sha256": "7d7a0701047baa63c4a43229cc936b2e68f517570dcf92b59b4a176150936721"
+    },
+    {
+      "shot_id": "192ef4cc-abd7-444d-aa71-2c7d5dad9270",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/192ef4cc-abd7-444d-aa71-2c7d5dad9270.png",
+      "image_sha256": "7d7a0701047baa63c4a43229cc936b2e68f517570dcf92b59b4a176150936721",
+      "logistic_probability": "0.030360"
+    },
+    {
+      "shot_id": "bf7123bf-b216-4597-8f7b-89bd84047676",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/bf7123bf-b216-4597-8f7b-89bd84047676.png",
+      "image_sha256": "610992212aa7c06a24039e5cc9f340503b0b063268b06692e392da3244bddabc",
+      "logistic_probability": "0.074148"
+    },
+    {
+      "shot_id": "bf7123bf-b216-4597-8f7b-89bd84047676",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/bf7123bf-b216-4597-8f7b-89bd84047676.png",
+      "image_sha256": "610992212aa7c06a24039e5cc9f340503b0b063268b06692e392da3244bddabc"
+    },
+    {
+      "shot_id": "1bedb562-dcb8-422b-8b6f-15cbd47f29b3",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/1bedb562-dcb8-422b-8b6f-15cbd47f29b3.png",
+      "image_sha256": "4736b98f75f42e6005b81d8578b37c79cfbc1bded14cc3ba01ad92efbfd2cd85"
+    },
+    {
+      "shot_id": "1bedb562-dcb8-422b-8b6f-15cbd47f29b3",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/1bedb562-dcb8-422b-8b6f-15cbd47f29b3.png",
+      "image_sha256": "4736b98f75f42e6005b81d8578b37c79cfbc1bded14cc3ba01ad92efbfd2cd85",
+      "logistic_probability": "0.034897"
+    },
+    {
+      "shot_id": "e18241aa-618e-4268-8d92-a11aaa371003",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/e18241aa-618e-4268-8d92-a11aaa371003.png",
+      "image_sha256": "a3d16d459e118bf531badc4dc2bdd51886183da51eee86ee271707ec36b5e39e"
+    },
+    {
+      "shot_id": "e18241aa-618e-4268-8d92-a11aaa371003",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/e18241aa-618e-4268-8d92-a11aaa371003.png",
+      "image_sha256": "a3d16d459e118bf531badc4dc2bdd51886183da51eee86ee271707ec36b5e39e",
+      "logistic_probability": "0.072405"
+    },
+    {
+      "shot_id": "42cd9db2-8621-4a7c-b90d-fdbd90f3047b",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/42cd9db2-8621-4a7c-b90d-fdbd90f3047b.png",
+      "image_sha256": "e3c24995209ab299fb25682c0a620d0773640481b46a559b3201ffd3189a2573",
+      "logistic_probability": "0.049725"
+    },
+    {
+      "shot_id": "42cd9db2-8621-4a7c-b90d-fdbd90f3047b",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/42cd9db2-8621-4a7c-b90d-fdbd90f3047b.png",
+      "image_sha256": "e3c24995209ab299fb25682c0a620d0773640481b46a559b3201ffd3189a2573"
+    },
+    {
+      "shot_id": "6c1205be-990a-4b97-95bd-c14e334782d7",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/6c1205be-990a-4b97-95bd-c14e334782d7.png",
+      "image_sha256": "04a180dd5c7b93b1ba7434a23ff5280d53fd6fe338c4fa663b251080c9b42532",
+      "logistic_probability": "0.057548"
+    },
+    {
+      "shot_id": "6c1205be-990a-4b97-95bd-c14e334782d7",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/6c1205be-990a-4b97-95bd-c14e334782d7.png",
+      "image_sha256": "04a180dd5c7b93b1ba7434a23ff5280d53fd6fe338c4fa663b251080c9b42532"
+    },
+    {
+      "shot_id": "602d21e6-f208-42bf-9b45-f6eaeca98598",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/602d21e6-f208-42bf-9b45-f6eaeca98598.png",
+      "image_sha256": "9765d7d9f2392979f53838ad874421f04408f6c0f263cf5991d655966d7e3ede",
+      "logistic_probability": "0.040816"
+    },
+    {
+      "shot_id": "602d21e6-f208-42bf-9b45-f6eaeca98598",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/602d21e6-f208-42bf-9b45-f6eaeca98598.png",
+      "image_sha256": "9765d7d9f2392979f53838ad874421f04408f6c0f263cf5991d655966d7e3ede"
+    },
+    {
+      "shot_id": "88c89eb6-e396-4d00-b5bb-ee43b5ad84f2",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/88c89eb6-e396-4d00-b5bb-ee43b5ad84f2.png",
+      "image_sha256": "9eeafed95c316204d5bb1d83356d96b3f37fa8fbd5ad0b017649caecf07d42f2"
+    },
+    {
+      "shot_id": "88c89eb6-e396-4d00-b5bb-ee43b5ad84f2",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/88c89eb6-e396-4d00-b5bb-ee43b5ad84f2.png",
+      "image_sha256": "9eeafed95c316204d5bb1d83356d96b3f37fa8fbd5ad0b017649caecf07d42f2",
+      "logistic_probability": "0.190842"
+    },
+    {
+      "shot_id": "d3ec378a-cb79-4746-8541-cc211185535d",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/d3ec378a-cb79-4746-8541-cc211185535d.png",
+      "image_sha256": "c6ac44145785af3bd64b3a74e73c5b14f648fedfc9f0202c799f999ec9e67e19",
+      "logistic_probability": "0.034857"
+    },
+    {
+      "shot_id": "d3ec378a-cb79-4746-8541-cc211185535d",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/d3ec378a-cb79-4746-8541-cc211185535d.png",
+      "image_sha256": "c6ac44145785af3bd64b3a74e73c5b14f648fedfc9f0202c799f999ec9e67e19"
+    },
+    {
+      "shot_id": "4017eb7f-c801-40b5-ab01-7edd87f171ce",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/4017eb7f-c801-40b5-ab01-7edd87f171ce.png",
+      "image_sha256": "c2977871e24bbc30907bbebe9d4bc27181b19ff17ff593a7375f655c8ba4d14e",
+      "logistic_probability": "0.133485"
+    },
+    {
+      "shot_id": "4017eb7f-c801-40b5-ab01-7edd87f171ce",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/4017eb7f-c801-40b5-ab01-7edd87f171ce.png",
+      "image_sha256": "c2977871e24bbc30907bbebe9d4bc27181b19ff17ff593a7375f655c8ba4d14e"
+    },
+    {
+      "shot_id": "e5965a61-bbfe-4746-a037-a804c6423379",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/e5965a61-bbfe-4746-a037-a804c6423379.png",
+      "image_sha256": "e9a1e43afb4267ae3f154d2b6be86e5e78b0aa917db4a9ae37a4cf7364599238",
+      "logistic_probability": "0.118708"
+    },
+    {
+      "shot_id": "e5965a61-bbfe-4746-a037-a804c6423379",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/e5965a61-bbfe-4746-a037-a804c6423379.png",
+      "image_sha256": "e9a1e43afb4267ae3f154d2b6be86e5e78b0aa917db4a9ae37a4cf7364599238"
+    },
+    {
+      "shot_id": "6f7bf0f1-9ae2-4a56-aae2-ebe62456cff3",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/6f7bf0f1-9ae2-4a56-aae2-ebe62456cff3.png",
+      "image_sha256": "e1367e1491f94fb98660cc58431137f91026bb64d12d057dc019a7693aba60ee",
+      "logistic_probability": "0.001626"
+    },
+    {
+      "shot_id": "6f7bf0f1-9ae2-4a56-aae2-ebe62456cff3",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/6f7bf0f1-9ae2-4a56-aae2-ebe62456cff3.png",
+      "image_sha256": "e1367e1491f94fb98660cc58431137f91026bb64d12d057dc019a7693aba60ee"
+    },
+    {
+      "shot_id": "6ad44b8b-2acb-424e-9aa0-b4a8e40c87d5",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/6ad44b8b-2acb-424e-9aa0-b4a8e40c87d5.png",
+      "image_sha256": "731af793050bcb8edb3db3712e9ad922ae1c1b7714f78ddb17973e302822f12d",
+      "logistic_probability": "0.134635"
+    },
+    {
+      "shot_id": "6ad44b8b-2acb-424e-9aa0-b4a8e40c87d5",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/6ad44b8b-2acb-424e-9aa0-b4a8e40c87d5.png",
+      "image_sha256": "731af793050bcb8edb3db3712e9ad922ae1c1b7714f78ddb17973e302822f12d"
+    },
+    {
+      "shot_id": "9e108521-3beb-46f7-9b74-b086c052e966",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/9e108521-3beb-46f7-9b74-b086c052e966.png",
+      "image_sha256": "6e9e4da05b4fb94afc5ff396e796793616606eae913c6fcc923ec719d5c5739a"
+    },
+    {
+      "shot_id": "9e108521-3beb-46f7-9b74-b086c052e966",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/9e108521-3beb-46f7-9b74-b086c052e966.png",
+      "image_sha256": "6e9e4da05b4fb94afc5ff396e796793616606eae913c6fcc923ec719d5c5739a",
+      "logistic_probability": "0.007227"
+    },
+    {
+      "shot_id": "8066dc45-949c-444d-9941-cf67631a7e56",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/8066dc45-949c-444d-9941-cf67631a7e56.png",
+      "image_sha256": "c8e5fb6228602e74d9ac9d4a1ab7f7178512b4f92a60c5fd6b07423040551a69"
+    },
+    {
+      "shot_id": "8066dc45-949c-444d-9941-cf67631a7e56",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/8066dc45-949c-444d-9941-cf67631a7e56.png",
+      "image_sha256": "c8e5fb6228602e74d9ac9d4a1ab7f7178512b4f92a60c5fd6b07423040551a69",
+      "logistic_probability": "0.359472"
+    },
+    {
+      "shot_id": "c7bd8051-8938-4fc2-9d84-e968ab451b24",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/c7bd8051-8938-4fc2-9d84-e968ab451b24.png",
+      "image_sha256": "d707809c650c53967acba69dd7bf77b8d267718ce7e3d74f4c5e9fed9a50ce2d"
+    },
+    {
+      "shot_id": "c7bd8051-8938-4fc2-9d84-e968ab451b24",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/c7bd8051-8938-4fc2-9d84-e968ab451b24.png",
+      "image_sha256": "d707809c650c53967acba69dd7bf77b8d267718ce7e3d74f4c5e9fed9a50ce2d",
+      "logistic_probability": "0.139735"
+    },
+    {
+      "shot_id": "860c1bf0-5896-4d49-8535-82aa5a3a2e6d",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/860c1bf0-5896-4d49-8535-82aa5a3a2e6d.png",
+      "image_sha256": "9f048dda2fa0a8ed1d6464ae956c1851a2955bb8f16bfa229e98bbce2b0df014",
+      "logistic_probability": "0.025938"
+    },
+    {
+      "shot_id": "860c1bf0-5896-4d49-8535-82aa5a3a2e6d",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/860c1bf0-5896-4d49-8535-82aa5a3a2e6d.png",
+      "image_sha256": "9f048dda2fa0a8ed1d6464ae956c1851a2955bb8f16bfa229e98bbce2b0df014"
+    },
+    {
+      "shot_id": "2b704df7-4d74-4fbb-bd46-f4465a004d49",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/2b704df7-4d74-4fbb-bd46-f4465a004d49.png",
+      "image_sha256": "1af489c748492a25cab426a151c7e0832785177efa7650d8fb0a8b8b568a90c1"
+    },
+    {
+      "shot_id": "2b704df7-4d74-4fbb-bd46-f4465a004d49",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/2b704df7-4d74-4fbb-bd46-f4465a004d49.png",
+      "image_sha256": "1af489c748492a25cab426a151c7e0832785177efa7650d8fb0a8b8b568a90c1",
+      "logistic_probability": "0.028567"
+    },
+    {
+      "shot_id": "e07d7852-d3c7-479d-a799-fe403e62eda6",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/e07d7852-d3c7-479d-a799-fe403e62eda6.png",
+      "image_sha256": "087b0804ffafdd299300c3c77590f0c3a3bf7c791df44771dccd9633bb1f6ee5",
+      "logistic_probability": "0.005470"
+    },
+    {
+      "shot_id": "e07d7852-d3c7-479d-a799-fe403e62eda6",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/e07d7852-d3c7-479d-a799-fe403e62eda6.png",
+      "image_sha256": "087b0804ffafdd299300c3c77590f0c3a3bf7c791df44771dccd9633bb1f6ee5"
+    },
+    {
+      "shot_id": "b5a1cfe9-4e19-4501-a2d9-d72f1373f464",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/b5a1cfe9-4e19-4501-a2d9-d72f1373f464.png",
+      "image_sha256": "916653471a3d3ab9e598b1dc216a8d3d4779ba07ef6149ba09eb5bf06cec0fc0",
+      "logistic_probability": "0.290408"
+    },
+    {
+      "shot_id": "b5a1cfe9-4e19-4501-a2d9-d72f1373f464",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/b5a1cfe9-4e19-4501-a2d9-d72f1373f464.png",
+      "image_sha256": "916653471a3d3ab9e598b1dc216a8d3d4779ba07ef6149ba09eb5bf06cec0fc0"
+    },
+    {
+      "shot_id": "25f7384a-4fa1-4855-a6ad-ee396ca2da2a",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/25f7384a-4fa1-4855-a6ad-ee396ca2da2a.png",
+      "image_sha256": "40efeec319b0bff7fe2ac87bd38b85fc10390678edf48299f59bc80df68c62b1"
+    },
+    {
+      "shot_id": "25f7384a-4fa1-4855-a6ad-ee396ca2da2a",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/25f7384a-4fa1-4855-a6ad-ee396ca2da2a.png",
+      "image_sha256": "40efeec319b0bff7fe2ac87bd38b85fc10390678edf48299f59bc80df68c62b1",
+      "logistic_probability": "0.154353"
+    },
+    {
+      "shot_id": "618cdc75-5596-4ed8-bcc3-a29541120f56",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/618cdc75-5596-4ed8-bcc3-a29541120f56.png",
+      "image_sha256": "d9e63ee3cc3a6faa60cd201bd09df6ef014c0cfb09c46a2ab7fcb76438252b55",
+      "logistic_probability": "0.032643"
+    },
+    {
+      "shot_id": "618cdc75-5596-4ed8-bcc3-a29541120f56",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/618cdc75-5596-4ed8-bcc3-a29541120f56.png",
+      "image_sha256": "d9e63ee3cc3a6faa60cd201bd09df6ef014c0cfb09c46a2ab7fcb76438252b55"
+    },
+    {
+      "shot_id": "711a5425-322e-4c36-8c26-483afbbe587d",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/711a5425-322e-4c36-8c26-483afbbe587d.png",
+      "image_sha256": "5eb5ab370896e8cefcc54f1512904e75009f954e3e45d690649be83b558e60d1",
+      "logistic_probability": "0.058425"
+    },
+    {
+      "shot_id": "711a5425-322e-4c36-8c26-483afbbe587d",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/711a5425-322e-4c36-8c26-483afbbe587d.png",
+      "image_sha256": "5eb5ab370896e8cefcc54f1512904e75009f954e3e45d690649be83b558e60d1"
+    }
+  ]
+}

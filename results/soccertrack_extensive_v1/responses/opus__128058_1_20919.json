@@ -1,0 +1,38 @@
+{
+  "model": "claude-opus-5-5",
+  "id": "msg_011CgzZmXGRMVLavEZpRgfdS",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "thinking",
+      "thinking": "",
+      "signature": "CAQS+wgKEAgTGAI4AUIIdGhpbmtpbmcSDDNT+PyMdjzXqdTTKBoMn+tJVi9pFbscXTtlIjDB+Jw4YXWdkOmZCCGxzJ+IfM1Q6qILbC/nE5AilHLXuTikXyXpu6cIGSkUR0gTOgcqmAj4HI42CJJ2f5u8H2Zzjw3Yq9I/ajeF6AZ59AQD5JiM9mCXseeXgmPoHy0VzUQrC3nCajG12hQSC2CgEdCycR1EeHOvmHCVTEKHBkoeMKV9rtYo6KHG8IrFfcRHlxf8w9CytYD+XeDL2GMoJotuVZQyt9omjv5G6cBqVo/vtM4XYSgSy6t6gc+NdLb/rM+GL+ORvpEQTca4FT19BjoRkDCgJ+kSCmdGcc0tWMeJVCblFIBItktU35R59ijJdUCuJ2e8Rrt66Grw8SzytcExALA0hAWbKX+0pMTdcZwW+PWOHf5JO86xEQedIljmZhEIll82Lc2T2BrlaPg1Q6CnMiXh9qZmHts7eQgLeCRiCu3aQEGS+GYxppYTW9sgc3CUwvwjjBiLqsPPF2mVdxqzzI7nW/c83IE4OXvv7g32YhHxq7HfTM5F6KH68i7J6pLKxUzjd3Ou3pfOSwK+43/ze82fE0ssCtoQhbTOeUck0UPWhS62i62vmX3VmZOF8O7wMHzuvFnmPEfpThwidNJTdQixNPKNQzHE21zAbCuNyzFfCktq4mTkYxLo8gWWVYD2DSpFT+8AU785ZNb6LQrrWm45vkXihRguKXwFTKkzSambA95smq/aSvG6rmt1pz5daw6o2PSSSJu9xLl8AVOpU8YCPOtZG+axoW7jEoIPv6ckyq9l3Q9HCbE8c8lKELCdslK4o5kQqESrudXq41gieBZmhrj/YQ6+qF79IdaDxM5+JDhNjJWWt+9rGPd65xu56hiE89xnFAZ7gKs3NLEgKcV2pyAndF7TPDMh6jnyyr4b4mI4aa4BDvfVetA4AfDK+G/XB7lSuLbUSWcGTP/KIz5FvK9/SYqYgWJCbN3kS22gvSEVn11vNRMXq9KBSeOsXCgK/aQIZf5Q8L0fif/v3UBacQydMPFqXphdm3np6OMCcB2oEMPWA8DODoZ0OLLtOaIwvzX6xEvoQMW84J8JDEDQnDz7eJlAMxYQTg1+3RL0nKhYVlG90lRYEmEZRd/eMlet1+8nogwFStCIbbxcBUrXFGj6ucnk0J4k6iKh2l1r0Ju2K354S3ifyWXQpQn6vw3KkWzeIggSH0szLkoo1f/Iv8AmanvJFZQjms+c5lr8AXxI3izATZJz8yfxka4+CICd+9Rr+XVXcFkJn+wogqszHzkeADeXj5kuz4lC8TekfHBFevyYqhKap4UUr5ZM+03/BucNuVCk7gVb542sSzNXC0aDrk4emKVNQqmVOyzZbQ2fXLyp3SjgbLTYIeRmFGP4SU3qWuzS0l5W65Bk1soSwLEyk4KNilquCg81yu+qSMIvVf2BfRNkGBKMtXqNur3Nvpyk8RJ9EB5B1HmtH2W9jssGPaUN50Rr/CA1UAhTpVz5b0+bu+vTGAE="
+    },
+    {
+      "type": "text",
+      "text": "{\"xg\": 0.08, \"reason\": \"The attack appears to be developing around the edge of the right-hand penalty area, with several defenders and the goalkeeper in position, so the chance looks like a moderate-distance attempt under pressure.\"}"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 951,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 274,
+    "output_tokens_details": {
+      "thinking_tokens": 194
+    },
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

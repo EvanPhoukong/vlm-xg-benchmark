@@ -1,0 +1,158 @@
+{
+  "model": "gpt-6-luna",
+  "prompt": "You are a professional football (soccer) analyst.\nThe image shows a shot at the moment it is taken, drawn on a half pitch with the goal at the top.\nGold star = shooter. Blue circles = shooter's teammates. Red circles = opponents.\nOrange square = opposing goalkeeper.\nEstimate the probability that this shot results in a goal (expected goals, xG),\nassuming an average professional finisher.\nReply with JSON only: {\"xg\": <number between 0 and 1>, \"reason\": \"<one short sentence>\"}",
+  "schema": {
+    "type": "object",
+    "properties": {
+      "xg": {
+        "type": "number",
+        "minimum": 0,
+        "maximum": 1
+      },
+      "reason": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "xg",
+      "reason"
+    ],
+    "additionalProperties": false
+  },
+  "limits": {
+    "attempts": 24,
+    "input": 120000,
+    "output": 24000,
+    "per_output": 2048,
+    "usd": 0.25
+  },
+  "seed": 20261029,
+  "schedule": [
+    {
+      "shot_id": "a84dc163-7627-4553-900a-7720ce6b6099",
+      "effort": "medium"
+    },
+    {
+      "shot_id": "a84dc163-7627-4553-900a-7720ce6b6099",
+      "effort": "low"
+    },
+    {
+      "shot_id": "c0e30aed-d026-4957-8d78-509ab472e2bc",
+      "effort": "medium"
+    },
+    {
+      "shot_id": "c0e30aed-d026-4957-8d78-509ab472e2bc",
+      "effort": "low"
+    },
+    {
+      "shot_id": "546c1d65-f1b5-4c42-8983-b743be29f3f8",
+      "effort": "low"
+    },
+    {
+      "shot_id": "546c1d65-f1b5-4c42-8983-b743be29f3f8",
+      "effort": "medium"
+    },
+    {
+      "shot_id": "d2f58c81-92d6-4a50-811a-2413929f5c1d",
+      "effort": "low"
+    },
+    {
+      "shot_id": "d2f58c81-92d6-4a50-811a-2413929f5c1d",
+      "effort": "medium"
+    },
+    {
+      "shot_id": "c5b9e95f-da7a-4d83-a43a-82e211f8cb5a",
+      "effort": "medium"
+    },
+    {
+      "shot_id": "c5b9e95f-da7a-4d83-a43a-82e211f8cb5a",
+      "effort": "low"
+    },
+    {
+      "shot_id": "9c16738b-cf6c-4669-a694-276a322ff6d8",
+      "effort": "low"
+    },
+    {
+      "shot_id": "9c16738b-cf6c-4669-a694-276a322ff6d8",
+      "effort": "medium"
+    },
+    {
+      "shot_id": "2be63b79-06c8-46a1-8688-d5257673d4d9",
+      "effort": "low"
+    },
+    {
+      "shot_id": "2be63b79-06c8-46a1-8688-d5257673d4d9",
+      "effort": "medium"
+    },
+    {
+      "shot_id": "f1ea3de4-8ca4-4ce0-8aeb-e18c3681742d",
+      "effort": "medium"
+    },
+    {
+      "shot_id": "f1ea3de4-8ca4-4ce0-8aeb-e18c3681742d",
+      "effort": "low"
+    },
+    {
+      "shot_id": "711ae41d-8fee-4b6d-9362-4006c7d12b5a",
+      "effort": "medium"
+    },
+    {
+      "shot_id": "711ae41d-8fee-4b6d-9362-4006c7d12b5a",
+      "effort": "low"
+    },
+    {
+      "shot_id": "605589a6-a83f-4533-b88f-a8e775efa581",
+      "effort": "medium"
+    },
+    {
+      "shot_id": "605589a6-a83f-4533-b88f-a8e775efa581",
+      "effort": "low"
+    },
+    {
+      "shot_id": "8aa0fcc9-cdaa-47ab-b593-ec0343ad1843",
+      "effort": "medium"
+    },
+    {
+      "shot_id": "8aa0fcc9-cdaa-47ab-b593-ec0343ad1843",
+      "effort": "low"
+    },
+    {
+      "shot_id": "9000f0f2-73ed-4a71-917d-2d525af7ba80",
+      "effort": "medium"
+    },
+    {
+      "shot_id": "9000f0f2-73ed-4a71-917d-2d525af7ba80",
+      "effort": "low"
+    }
+  ],
+  "selection": "Four shots per distance stratum [0,12),[12,18),[18,infinity); normalized pitch units; seed selection independent of outcomes and prior errors. Previously studied development cohort.",
+  "source_sha256": "2e90d6ca89461354e5bd34b8bdcc966b2306834e5bacb92fe4597dc697ea2954",
+  "pilot_sha256": "a1f05c14580d120bdca7036888d0eef0ec55b03fa577349c5c891cddb331c6c5",
+  "runner_sha256": "7db06a75eb079e414dcee5682c055fc171cc49548d30e19235d6b14f4b16ba99",
+  "images": {
+    "a84dc163-7627-4553-900a-7720ce6b6099": "3b7601a1f232e56cc9606d20471d1c73a6dd479e37a27e0134b9dfc7e6274399",
+    "c0e30aed-d026-4957-8d78-509ab472e2bc": "3dd9e464137c58afd594865d8e50b77b718fc5459808159c9be42c30f9637fe8",
+    "546c1d65-f1b5-4c42-8983-b743be29f3f8": "3ced3c76089db8c107fd3d326b19555b0c13883ba39b160b631d31f0dde43077",
+    "d2f58c81-92d6-4a50-811a-2413929f5c1d": "48265e88cfdd2758c241816d88b2cf9b574be417e5feeb379a966e554ab05ae6",
+    "c5b9e95f-da7a-4d83-a43a-82e211f8cb5a": "ffaf4a2aafd86eb6ebe22d75dad357f99757a63518e375191d3dc3d03354b8f3",
+    "9c16738b-cf6c-4669-a694-276a322ff6d8": "89247c7a017c71f0d50bafbd6234dc8e198bdda2e1640305fb8d2f3fe64433da",
+    "2be63b79-06c8-46a1-8688-d5257673d4d9": "53e6f7d62688521553a48c86a62ade8a4523c2a03fd45873738b296816696ae1",
+    "f1ea3de4-8ca4-4ce0-8aeb-e18c3681742d": "7964ab9f536e471474055d64560523cc5e539178f2231b8b11492fd78c3a56b0",
+    "711ae41d-8fee-4b6d-9362-4006c7d12b5a": "40398f4776ca2efe38265292251aa42ef920cc4c5104bcd0d66ae684c9228381",
+    "605589a6-a83f-4533-b88f-a8e775efa581": "46c2d4e5fb6ce73f6231e9ce035d43004b013ee082357dfa5ae65be86595aeac",
+    "8aa0fcc9-cdaa-47ab-b593-ec0343ad1843": "8cfced45343a6171e8f10924802f0199fd5bd27e49e11b0a1b9fc2db5258454b",
+    "9000f0f2-73ed-4a71-917d-2d525af7ba80": "b88668084c808e76a33c1b2da8302e81460982cf52758817cd88d7d986229348"
+  },
+  "rates_per_million": {
+    "input": 0.1,
+    "cached_input": 0.01,
+    "output": 0.5,
+    "conservative_input": 0.125
+  },
+  "price_source": "https://developers.openai.com/api/docs/models/gpt-6-luna",
+  "batch_size": 6,
+  "retries": 0,
+  "settings": "Identical high-detail images, prompt, JSON schema, service tier and output allowance; only effort differs. No calibration or downstream model.",
+  "preflight": "Official token count plus 1024 input-token safety allowance; reserve full output allowance before generation.",
+  "stopping": "Stop on invalid/incomplete response, uncertain charge, unexpected model or budget cap. No replacement shots or automatic expansion."
+}

@@ -1,0 +1,385 @@
+{
+  "status": "post_hoc_descriptive",
+  "raw_predictions_unchanged": true,
+  "note": "Exact algebraic Brier decomposition and error localization, not calibration or a causal attribution. Centered error contains probability spread and association with outcomes, and cannot be equated with visual measurement error.",
+  "cohorts": {
+    "premier_league": {
+      "original_logistic": {
+        "baseline": "original_logistic",
+        "shots": 500,
+        "goal_rate": 0.1,
+        "mean_vlm": 0.16362000000000002,
+        "mean_baseline": 0.09705126911028102,
+        "vlm_brier": 0.092649,
+        "baseline_brier": 0.08072381458147032,
+        "brier_gap": 0.011925185418529674,
+        "vlm_squared_overall_bias": 0.004047504400000001,
+        "baseline_squared_overall_bias": 8.695013859982944e-06,
+        "difference_in_squared_overall_bias": 0.004038809386140018,
+        "difference_in_centered_error": 0.007886376032389661,
+        "fraction_of_positive_gap_due_to_overall_bias_component": 0.3386789592272844,
+        "distance_bins": [
+          {
+            "distance_bin_normalized_pitch_units": "0-6",
+            "shots": 20,
+            "goals": 8,
+            "goal_rate": 0.4,
+            "mean_vlm": 0.39449999999999996,
+            "mean_baseline": 0.41000726860183595,
+            "contribution_to_overall_brier_gap": 0.001648204614681113
+          },
+          {
+            "distance_bin_normalized_pitch_units": "6-12",
+            "shots": 106,
+            "goals": 13,
+            "goal_rate": 0.12264150943396226,
+            "mean_vlm": 0.3187735849056604,
+            "mean_baseline": 0.1755083989903827,
+            "contribution_to_overall_brier_gap": 0.007959552796268268
+          },
+          {
+            "distance_bin_normalized_pitch_units": "12-18",
+            "shots": 110,
+            "goals": 16,
+            "goal_rate": 0.14545454545454545,
+            "mean_vlm": 0.18545454545454546,
+            "mean_baseline": 0.10272180801606928,
+            "contribution_to_overall_brier_gap": 0.0008267498172323258
+          },
+          {
+            "distance_bin_normalized_pitch_units": "18-30",
+            "shots": 224,
+            "goals": 12,
+            "goal_rate": 0.05357142857142857,
+            "mean_vlm": 0.08116071428571428,
+            "mean_baseline": 0.04382011541058885,
+            "contribution_to_overall_brier_gap": 0.0014389519043706781
+          },
+          {
+            "distance_bin_normalized_pitch_units": "30+",
+            "shots": 40,
+            "goals": 1,
+            "goal_rate": 0.025,
+            "mean_vlm": 0.03875,
+            "mean_baseline": 0.01516235390959247,
+            "contribution_to_overall_brier_gap": 5.172628597729479e-05
+          }
+        ]
+      },
+      "original_no_header": {
+        "baseline": "original_no_header",
+        "shots": 500,
+        "goal_rate": 0.1,
+        "mean_vlm": 0.16362000000000002,
+        "mean_baseline": 0.09413229745188773,
+        "vlm_brier": 0.092649,
+        "baseline_brier": 0.08258109513295436,
+        "brier_gap": 0.010067904867045632,
+        "vlm_squared_overall_bias": 0.004047504400000001,
+        "baseline_squared_overall_bias": 3.442993319312335e-05,
+        "difference_in_squared_overall_bias": 0.004013074466806878,
+        "difference_in_centered_error": 0.00605483040023877,
+        "fraction_of_positive_gap_due_to_overall_bias_component": 0.3986007535631881,
+        "distance_bins": [
+          {
+            "distance_bin_normalized_pitch_units": "0-6",
+            "shots": 20,
+            "goals": 8,
+            "goal_rate": 0.4,
+            "mean_vlm": 0.39449999999999996,
+            "mean_baseline": 0.38859021574483693,
+            "contribution_to_overall_brier_gap": 0.0016108240175277827
+          },
+          {
+            "distance_bin_normalized_pitch_units": "6-12",
+            "shots": 106,
+            "goals": 13,
+            "goal_rate": 0.12264150943396226,
+            "mean_vlm": 0.3187735849056604,
+            "mean_baseline": 0.1811080493050182,
+            "contribution_to_overall_brier_gap": 0.007148021308752778
+          },
+          {
+            "distance_bin_normalized_pitch_units": "12-18",
+            "shots": 110,
+            "goals": 16,
+            "goal_rate": 0.14545454545454545,
+            "mean_vlm": 0.18545454545454546,
+            "mean_baseline": 0.09091998282625316,
+            "contribution_to_overall_brier_gap": -0.0001478366226615725
+          },
+          {
+            "distance_bin_normalized_pitch_units": "18-30",
+            "shots": 224,
+            "goals": 12,
+            "goal_rate": 0.05357142857142857,
+            "mean_vlm": 0.08116071428571428,
+            "mean_baseline": 0.04178753566692237,
+            "contribution_to_overall_brier_gap": 0.001412797317773035
+          },
+          {
+            "distance_bin_normalized_pitch_units": "30+",
+            "shots": 40,
+            "goals": 1,
+            "goal_rate": 0.025,
+            "mean_vlm": 0.03875,
+            "mean_baseline": 0.01838212711091838,
+            "contribution_to_overall_brier_gap": 4.409884565362346e-05
+          }
+        ]
+      }
+    },
+    "womens_world_cup": {
+      "original_logistic": {
+        "baseline": "original_logistic",
+        "shots": 500,
+        "goal_rate": 0.086,
+        "mean_vlm": 0.173292,
+        "mean_baseline": 0.10277819301432498,
+        "vlm_brier": 0.08426965200000001,
+        "baseline_brier": 0.06655435097310335,
+        "brier_gap": 0.017715301026896668,
+        "vlm_squared_overall_bias": 0.0076198932640000015,
+        "baseline_squared_overall_bias": 0.00028150776082594366,
+        "difference_in_squared_overall_bias": 0.007338385503174058,
+        "difference_in_centered_error": 0.010376915523722607,
+        "fraction_of_positive_gap_due_to_overall_bias_component": 0.41423995516826856,
+        "distance_bins": [
+          {
+            "distance_bin_normalized_pitch_units": "0-6",
+            "shots": 20,
+            "goals": 11,
+            "goal_rate": 0.55,
+            "mean_vlm": 0.4715,
+            "mean_baseline": 0.450696990906832,
+            "contribution_to_overall_brier_gap": 0.0013419040899287854
+          },
+          {
+            "distance_bin_normalized_pitch_units": "6-12",
+            "shots": 125,
+            "goals": 18,
+            "goal_rate": 0.144,
+            "mean_vlm": 0.32264,
+            "mean_baseline": 0.17916967121576768,
+            "contribution_to_overall_brier_gap": 0.008381186809916409
+          },
+          {
+            "distance_bin_normalized_pitch_units": "12-18",
+            "shots": 122,
+            "goals": 7,
+            "goal_rate": 0.05737704918032787,
+            "mean_vlm": 0.18614754098360656,
+            "mean_baseline": 0.09260256963479206,
+            "contribution_to_overall_brier_gap": 0.006590416419912379
+          },
+          {
+            "distance_bin_normalized_pitch_units": "18-30",
+            "shots": 178,
+            "goals": 6,
+            "goal_rate": 0.033707865168539325,
+            "mean_vlm": 0.06808988764044945,
+            "mean_baseline": 0.04426112252654961,
+            "contribution_to_overall_brier_gap": 0.0010837278210296694
+          },
+          {
+            "distance_bin_normalized_pitch_units": "30+",
+            "shots": 55,
+            "goals": 1,
+            "goal_rate": 0.01818181818181818,
+            "mean_vlm": 0.03738181818181818,
+            "mean_baseline": 0.014599172397898525,
+            "contribution_to_overall_brier_gap": 0.00031806588610941753
+          }
+        ]
+      },
+      "original_no_header": {
+        "baseline": "original_no_header",
+        "shots": 500,
+        "goal_rate": 0.086,
+        "mean_vlm": 0.173292,
+        "mean_baseline": 0.099800018050647,
+        "vlm_brier": 0.08426965200000001,
+        "baseline_brier": 0.06793928146492982,
+        "brier_gap": 0.016330370535070193,
+        "vlm_squared_overall_bias": 0.0076198932640000015,
+        "baseline_squared_overall_bias": 0.00019044049819818334,
+        "difference_in_squared_overall_bias": 0.007429452765801818,
+        "difference_in_centered_error": 0.008900917769268352,
+        "fraction_of_positive_gap_due_to_overall_bias_component": 0.4549469805260536,
+        "distance_bins": [
+          {
+            "distance_bin_normalized_pitch_units": "0-6",
+            "shots": 20,
+            "goals": 11,
+            "goal_rate": 0.55,
+            "mean_vlm": 0.4715,
+            "mean_baseline": 0.40527053563022203,
+            "contribution_to_overall_brier_gap": 0.0012714027219224875
+          },
+          {
+            "distance_bin_normalized_pitch_units": "6-12",
+            "shots": 125,
+            "goals": 18,
+            "goal_rate": 0.144,
+            "mean_vlm": 0.32264,
+            "mean_baseline": 0.17338405441578666,
+            "contribution_to_overall_brier_gap": 0.007410032737355486
+          },
+          {
+            "distance_bin_normalized_pitch_units": "12-18",
+            "shots": 122,
+            "goals": 7,
+            "goal_rate": 0.05737704918032787,
+            "mean_vlm": 0.18614754098360656,
+            "mean_baseline": 0.0941222215383898,
+            "contribution_to_overall_brier_gap": 0.006265314409357146
+          },
+          {
+            "distance_bin_normalized_pitch_units": "18-30",
+            "shots": 178,
+            "goals": 6,
+            "goal_rate": 0.033707865168539325,
+            "mean_vlm": 0.06808988764044945,
+            "mean_baseline": 0.04292275319566374,
+            "contribution_to_overall_brier_gap": 0.0010489749105719532
+          },
+          {
+            "distance_bin_normalized_pitch_units": "30+",
+            "shots": 55,
+            "goals": 1,
+            "goal_rate": 0.01818181818181818,
+            "mean_vlm": 0.03738181818181818,
+            "mean_baseline": 0.018153280258800517,
+            "contribution_to_overall_brier_gap": 0.000334645755863105
+          }
+        ]
+      }
+    },
+    "metrica_v2": {
+      "original_logistic": {
+        "baseline": "original_logistic",
+        "shots": 46,
+        "goal_rate": 0.15217391304347827,
+        "mean_vlm": 0.1823913043478261,
+        "mean_baseline": 0.10517210167471684,
+        "vlm_brier": 0.10544130434782609,
+        "baseline_brier": 0.10130130402702898,
+        "brier_gap": 0.004140000320797102,
+        "vlm_squared_overall_bias": 0.0009130907372400761,
+        "baseline_squared_overall_bias": 0.002209170271944631,
+        "difference_in_squared_overall_bias": -0.001296079534704555,
+        "difference_in_centered_error": 0.00543607985550168,
+        "fraction_of_positive_gap_due_to_overall_bias_component": -0.3130626652838066,
+        "distance_bins": [
+          {
+            "distance_bin_normalized_pitch_units": "0-6",
+            "shots": 1,
+            "goals": 1,
+            "goal_rate": 1.0,
+            "mean_vlm": 0.72,
+            "mean_baseline": 0.7170350275732903,
+            "contribution_to_overall_brier_gap": -3.628642653149079e-05
+          },
+          {
+            "distance_bin_normalized_pitch_units": "6-12",
+            "shots": 13,
+            "goals": 4,
+            "goal_rate": 0.3076923076923077,
+            "mean_vlm": 0.34153846153846157,
+            "mean_baseline": 0.1965611474551695,
+            "contribution_to_overall_brier_gap": -0.0007722274645580958
+          },
+          {
+            "distance_bin_normalized_pitch_units": "12-18",
+            "shots": 8,
+            "goals": 1,
+            "goal_rate": 0.125,
+            "mean_vlm": 0.18125,
+            "mean_baseline": 0.09388997301840683,
+            "contribution_to_overall_brier_gap": 0.005012310447228144
+          },
+          {
+            "distance_bin_normalized_pitch_units": "18-30",
+            "shots": 19,
+            "goals": 1,
+            "goal_rate": 0.05263157894736842,
+            "mean_vlm": 0.08631578947368422,
+            "mean_baseline": 0.03826478665781896,
+            "contribution_to_overall_brier_gap": -0.00011458527179582936
+          },
+          {
+            "distance_bin_normalized_pitch_units": "30+",
+            "shots": 5,
+            "goals": 0,
+            "goal_rate": 0.0,
+            "mean_vlm": 0.028000000000000004,
+            "mean_baseline": 0.01748720038013319,
+            "contribution_to_overall_brier_gap": 5.078903645437567e-05
+          }
+        ]
+      },
+      "original_no_header": {
+        "baseline": "original_no_header",
+        "shots": 46,
+        "goal_rate": 0.15217391304347827,
+        "mean_vlm": 0.1823913043478261,
+        "mean_baseline": 0.11559379143163712,
+        "vlm_brier": 0.10544130434782609,
+        "baseline_brier": 0.10601490235300429,
+        "brier_gap": -0.0005735980051781997,
+        "vlm_squared_overall_bias": 0.0009130907372400761,
+        "baseline_squared_overall_bias": 0.0013381052971370884,
+        "difference_in_squared_overall_bias": -0.00042501455989701225,
+        "difference_in_centered_error": -0.00014858344528116685,
+        "fraction_of_positive_gap_due_to_overall_bias_component": null,
+        "distance_bins": [
+          {
+            "distance_bin_normalized_pitch_units": "0-6",
+            "shots": 1,
+            "goals": 1,
+            "goal_rate": 1.0,
+            "mean_vlm": 0.72,
+            "mean_baseline": 0.5923845581743875,
+            "contribution_to_overall_brier_gap": -0.0019076162698845494
+          },
+          {
+            "distance_bin_normalized_pitch_units": "6-12",
+            "shots": 13,
+            "goals": 4,
+            "goal_rate": 0.3076923076923077,
+            "mean_vlm": 0.34153846153846157,
+            "mean_baseline": 0.23733962958068827,
+            "contribution_to_overall_brier_gap": -0.003203552062404734
+          },
+          {
+            "distance_bin_normalized_pitch_units": "12-18",
+            "shots": 8,
+            "goals": 1,
+            "goal_rate": 0.125,
+            "mean_vlm": 0.18125,
+            "mean_baseline": 0.10309289553467633,
+            "contribution_to_overall_brier_gap": 0.004520655783699026
+          },
+          {
+            "distance_bin_normalized_pitch_units": "18-30",
+            "shots": 19,
+            "goals": 1,
+            "goal_rate": 0.05263157894736842,
+            "mean_vlm": 0.08631578947368422,
+            "mean_baseline": 0.037328310219958194,
+            "contribution_to_overall_brier_gap": -1.618022922886365e-05
+          },
+          {
+            "distance_bin_normalized_pitch_units": "30+",
+            "shots": 5,
+            "goals": 0,
+            "goal_rate": 0.0,
+            "mean_vlm": 0.028000000000000004,
+            "mean_baseline": 0.02110672093507117,
+            "contribution_to_overall_brier_gap": 3.309477264092772e-05
+          }
+        ]
+      }
+    }
+  }
+}

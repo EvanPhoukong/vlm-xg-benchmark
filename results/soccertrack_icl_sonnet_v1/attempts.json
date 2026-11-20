@@ -1,0 +1,158 @@
+[
+  {
+    "job": {
+      "shot_id": "118577_1_24546",
+      "match_id": "118577",
+      "image": "results/soccertrack_extensive_v1/frames/118577_1_24546.png",
+      "sha256": "d3eb19e76c65bddd3de138acec175568a8c7a599ab793b241b1853036e5e1081",
+      "arm": "teacher16"
+    },
+    "state": "completed",
+    "input_bound": 8695,
+    "reserved_usd": 0.0319775,
+    "request_sha256": "ad6241e3176555e357655e63d765b90fd8de5eea7a85aa84fce9fa0ee14f9bc4",
+    "response_file": "responses/118577_1_24546_teacher16.json",
+    "started_utc": "2026-11-20T05:31:26.893Z",
+    "usage": {
+      "input_tokens": 7881,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 89,
+      "output_tokens_details": {
+        "thinking_tokens": 0
+      },
+      "service_tier": "standard",
+      "inference_geo": "global",
+      "speed": "standard"
+    },
+    "answer": {
+      "xg": 0.1,
+      "reason": "Play is concentrated near the right-hand goal with several attackers and defenders around the box, but the shot origin looks like a typical open-play attempt from the edge of or inside the area with a crowded defense, so the chance is modest."
+    },
+    "returned_model": "claude-sonnet-5-5",
+    "estimated_usd": 0.016652,
+    "conservative_usd": 0.0205925,
+    "completed_utc": "2026-11-20T05:31:31.971Z"
+  },
+  {
+    "job": {
+      "shot_id": "118577_1_24546",
+      "match_id": "118577",
+      "image": "results/soccertrack_extensive_v1/frames/118577_1_24546.png",
+      "sha256": "d3eb19e76c65bddd3de138acec175568a8c7a599ab793b241b1853036e5e1081",
+      "arm": "shuffled_outcome16"
+    },
+    "state": "completed",
+    "input_bound": 8706,
+    "reserved_usd": 0.032005,
+    "request_sha256": "82406c2ae4ca1fb71d899ab136554527390a4b44659290852d87f4f9b619feaa",
+    "response_file": "responses/118577_1_24546_shuffled_outcome16.json",
+    "started_utc": "2026-11-20T05:31:27.537Z",
+    "usage": {
+      "input_tokens": 7892,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 73,
+      "output_tokens_details": {
+        "thinking_tokens": 0
+      },
+      "service_tier": "standard",
+      "inference_geo": "global",
+      "speed": "standard"
+    },
+    "answer": {
+      "xg": 0.07,
+      "reason": "The action is far from the camera near the right-side goal, with many players clustered around the box and no clear sign of a close, unobstructed chance, so it is a typical low-probability shot."
+    },
+    "returned_model": "claude-sonnet-5-5",
+    "estimated_usd": 0.016514,
+    "conservative_usd": 0.02046,
+    "completed_utc": "2026-11-20T05:31:32.374Z"
+  },
+  {
+    "job": {
+      "shot_id": "118577_1_24546",
+      "match_id": "118577",
+      "image": "results/soccertrack_extensive_v1/frames/118577_1_24546.png",
+      "sha256": "d3eb19e76c65bddd3de138acec175568a8c7a599ab793b241b1853036e5e1081",
+      "arm": "outcome8"
+    },
+    "state": "completed",
+    "input_bound": 5458,
+    "reserved_usd": 0.023885,
+    "request_sha256": "1f55eb5bb41ec5e2ab644ac14bf3be0ce47754b3caf555720ad6687c41a1ebf8",
+    "response_file": "responses/118577_1_24546_outcome8.json",
+    "started_utc": "2026-11-20T05:31:27.188Z",
+    "usage": {
+      "input_tokens": 4644,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 66,
+      "output_tokens_details": {
+        "thinking_tokens": 0
+      },
+      "service_tier": "standard",
+      "inference_geo": "global",
+      "speed": "standard"
+    },
+    "answer": {
+      "xg": 0.07,
+      "reason": "Players are bunched far from goal near the right penalty area, with several defenders between the ball and the goal, so this looks like a low-quality shot opportunity."
+    },
+    "returned_model": "claude-sonnet-5-5",
+    "estimated_usd": 0.009948,
+    "conservative_usd": 0.01227,
+    "completed_utc": "2026-11-20T05:31:32.059Z"
+  },
+  {
+    "job": {
+      "shot_id": "118577_1_24546",
+      "match_id": "118577",
+      "image": "results/soccertrack_extensive_v1/frames/118577_1_24546.png",
+      "sha256": "d3eb19e76c65bddd3de138acec175568a8c7a599ab793b241b1853036e5e1081",
+      "arm": "zero"
+    },
+    "state": "completed",
+    "input_bound": 1975,
+    "reserved_usd": 0.0151775,
+    "request_sha256": "2221ce6acde5bcc16588fccdb719c1bd3e69095a1217428c4e05f6ba17579cb7",
+    "response_file": "responses/118577_1_24546_zero.json",
+    "started_utc": "2026-11-20T05:31:26.246Z",
+    "usage": {
+      "input_tokens": 1161,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 64,
+      "output_tokens_details": {
+        "thinking_tokens": 0
+      },
+      "service_tier": "standard",
+      "inference_geo": "global",
+      "speed": "standard"
+    },
+    "answer": {
+      "xg": 0.04,
+      "reason": "Players are spread out in midfield far from goal with no clear shooter or imminent chance, so any shot would likely be a low-probability long-range effort."
+    },
+    "returned_model": "claude-sonnet-5-5",
+    "estimated_usd": 0.002962,
+    "conservative_usd": 0.0035425,
+    "completed_utc": "2026-11-20T05:31:31.116Z"
+  }
+]

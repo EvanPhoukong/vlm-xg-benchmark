@@ -1,0 +1,9 @@
+{
+  "prior_protocol": "protocol_before_path_optimization.json",
+  "reason": "Optimize UNC image verification by resolving the contained image directory once, rejecting per-file symlinks and checking exact whitelisted filenames/content hashes concurrently. No data, split, image, objective or training settings changed; no VLM training completed.",
+  "interrupted_checks": [
+    "baseline validation source audit",
+    "offline data tests"
+  ],
+  "new_api_calls": 0
+}

@@ -1,0 +1,81 @@
+{
+  "shots": 500,
+  "goals": 50,
+  "matches": 40,
+  "scores": {
+    "vlm_xg": {
+      "brier": 0.092649,
+      "log_loss": 0.3199132972838147,
+      "auc": 0.7108666666666666,
+      "mean_xg": 0.16362000000000002
+    },
+    "original_logistic": {
+      "brier": 0.08072381458147032,
+      "log_loss": 0.2911979280578722,
+      "auc": 0.7368444444444444,
+      "mean_xg": 0.09705126911028103
+    },
+    "original_no_header": {
+      "brier": 0.08258109513295436,
+      "log_loss": 0.2997742295182883,
+      "auc": 0.7108,
+      "mean_xg": 0.09413229745188773
+    },
+    "local_logistic": {
+      "brier": 0.08153987762924553,
+      "log_loss": 0.2965791446207007,
+      "auc": 0.7262222222222223,
+      "mean_xg": 0.10155895182964142
+    },
+    "local_no_header": {
+      "brier": 0.08324162759828861,
+      "log_loss": 0.30348125979295626,
+      "auc": 0.7107555555555556,
+      "mean_xg": 0.09954392446952166
+    },
+    "sb_xg": {
+      "brier": 0.07373605729642504,
+      "log_loss": 0.26459484927235416,
+      "auc": 0.7900888888888888,
+      "mean_xg": 0.09961021312
+    },
+    "training_prior": {
+      "brier": 0.09000918273645547,
+      "log_loss": 0.3251349263256892,
+      "auc": 0.5,
+      "mean_xg": 0.09696969696969694
+    }
+  },
+  "goal_rate": 0.1,
+  "mean_overprediction": 0.06362000000000001,
+  "primary": {
+    "first": "vlm_xg",
+    "second": "original_logistic",
+    "difference": 0.01192518541852968,
+    "confidence_level": 0.975,
+    "interval": [
+      0.003743308453181755,
+      0.020100231140250856
+    ]
+  },
+  "secondary_local": {
+    "first": "vlm_xg",
+    "second": "local_logistic",
+    "difference": 0.011109122370754473,
+    "confidence_level": 0.95,
+    "interval": [
+      0.004278116329895196,
+      0.017700013086006612
+    ]
+  },
+  "secondary_no_header": {
+    "first": "vlm_xg",
+    "second": "original_no_header",
+    "difference": 0.010067904867045646,
+    "confidence_level": 0.95,
+    "interval": [
+      0.002423399224088071,
+      0.017480669289127154
+    ]
+  }
+}

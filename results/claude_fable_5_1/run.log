@@ -1,0 +1,20 @@
+Verified 300 original shots and images.
+first msgbatch_01DK79kD6GAX9TuLdr77ugfn: 10 requests, reserved $0.1882
+in_progress MessageBatchRequestCounts(canceled=0, errored=0, expired=0, processing=10, succeeded=0)
+ended MessageBatchRequestCounts(canceled=0, errored=0, expired=0, processing=0, succeeded=10)
+10/300 scored, $0.0420 used
+main msgbatch_01FjzKMagBbheWZdtes1paBJ: 290 requests, reserved $5.4563
+in_progress MessageBatchRequestCounts(canceled=0, errored=0, expired=0, processing=290, succeeded=0)
+ended MessageBatchRequestCounts(canceled=0, errored=0, expired=0, processing=0, succeeded=290)
+300/300 scored, $1.2461 used
+StatsBomb 2022 FIFA World Cup (competition 43, season 106)
+Original 300-shot Claude cohort | 42 goals | image-only, zero-shot
+Claude claude-fable-5-1 | Anthropic Message Batches API | max_tokens=600
+Usage-based API cost $1.2461 (cap $10.00)
+
+model                AUC    Brier  LogLoss   MeanXG
+vlm_xg             0.721   0.1126   0.3732    0.141
+sb_xg              0.793   0.0989   0.3378    0.100
+baseline_xg        0.768   0.1050   0.3494    0.108
+Brier(Fable) - Brier(sb_xg) = +0.0137 (95% bootstrap CI +0.0035 to +0.0239)
+Brier(Fable) - Brier(baseline_xg) = +0.0076 (95% bootstrap CI -0.0018 to +0.0166)

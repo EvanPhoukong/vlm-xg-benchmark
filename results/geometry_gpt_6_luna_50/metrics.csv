@@ -1,0 +1,7 @@
+measurement,column,unit,eligible,answered,mean_absolute_error,median_absolute_error,p90_absolute_error,mean_signed_error,tolerance,within_tolerance,within_tolerance_fraction
+"Shot distance, direct answer",shot_distance,pitch units,50,50,0.19114447184458186,0.14175799052961402,0.4251467246511061,-0.14009448641817554,2.0,50,1.0
+"Goal-opening angle, direct answer",goal_angle_degrees,degrees,50,50,1.910194871986368,0.4046156182897498,2.0602475439340475,1.6240382968260156,5.0,48,0.96
+Shooter position,shooter_position_error,pitch units,50,50,0.2262395606667355,0.20000000000000107,0.5127634042946978,,2.0,50,1.0
+Goalkeeper position,goalkeeper_position_error,pitch units,50,50,0.15190899632652702,0.10000000000000309,0.22360679774998174,,2.0,50,1.0
+Distance calculated from VLM coordinates,computed_distance,pitch units,50,50,0.1798503194716018,0.14017816472324895,0.4478654203818288,-0.13527870549240012,2.0,50,1.0
+Angle calculated from VLM coordinates,computed_angle_degrees,degrees,50,50,0.6422734432743619,0.168729021542239,1.1742948570680176,0.5023476185383362,5.0,49,0.98

@@ -1,0 +1,539 @@
+{
+  "scope": "Outcome-free synthetic geometry diagnostic. No new real-shot accuracy claim; no corrections, averages or constraints applied to xG.",
+  "rationale": "Separate sensitivity to spatial evidence from generic probability-level changes and ordinary repeat variability.",
+  "design": "12 fixed pairs: three each for distance, equal-distance angle, keeper displacement and defender blocking. Original and missing-information Luna; favorable/base/exact-repeat calls randomized. Expected favorable minus base positive. Report every reversal/tie and repeat variability.",
+  "limitations": "Simplified synthetic diagrams, not new goal-labelled matches. Expectations are qualitative. Cases share templates and are not independent statistical evidence about football accuracy. One repeat per base scene diagnoses variability, not a complete stochastic characterization.",
+  "attempt_cap": 72,
+  "study_cap_usd": 0.25,
+  "shared_new_round_cap_usd": 3.0,
+  "arms": {
+    "luna_original": {
+      "model": "gpt-6-luna",
+      "effort": "low",
+      "prompt": "original"
+    },
+    "luna_uncertainty": {
+      "model": "gpt-6-luna",
+      "effort": "low",
+      "prompt": "uncertainty"
+    }
+  },
+  "prompts": {
+    "original": "You are a professional football (soccer) analyst.\nThe image shows a shot at the moment it is taken, drawn on a half pitch with the goal at the top.\nGold star = shooter. Blue circles = shooter's teammates. Red circles = opponents.\nOrange square = opposing goalkeeper.\nEstimate the probability that this shot results in a goal (expected goals, xG),\nassuming an average professional finisher.\nReply with JSON only: {\"xg\": <number between 0 and 1>, \"reason\": \"<one short sentence>\"}",
+    "uncertainty": "Before estimating, inspect the shooter's position, the visible opening between the\nposts, the goalkeeper's position and reach, and opponents between shooter and goal.\nThis diagram contains positions only. Body part, ball height, ball speed, balance,\nand the preceding action are unobserved. Account for that missing information in\nthe probability: average over plausible executions compatible with the scene,\ninstead of assuming an ideal grounded shot or inventing a header or a pass.\nDo not infer the outcome from the diagram. Return your own direct estimate.\n\nYou are a professional football (soccer) analyst.\nThe image shows a shot at the moment it is taken, drawn on a half pitch with the goal at the top.\nGold star = shooter. Blue circles = shooter's teammates. Red circles = opponents.\nOrange square = opposing goalkeeper.\nEstimate the probability that this shot results in a goal (expected goals, xG),\nassuming an average professional finisher.\nReply with JSON only: {\"xg\": <number between 0 and 1>, \"reason\": \"<one short sentence>\"}"
+  },
+  "max_output_tokens": 4096,
+  "source_sha256": "a1f05c14580d120bdca7036888d0eef0ec55b03fa577349c5c891cddb331c6c5",
+  "engine_sha256": "521f3319ff5ce3b1f4b0235b789c9537d57929b8c5f3d5519f7d201654c24c52",
+  "model_engine_sha256": "15ff846b26babc4b854237df440fcd74a999c3586e113aa3ddd4ac699413f006",
+  "scenes_sha256": "0b23557fc42d08413df3a114b369c6a3eee91b367f39f8d8ba88961e54de8d14",
+  "schedule": [
+    {
+      "case": "distance_0",
+      "arm": "luna_original",
+      "condition": "repeat",
+      "image": "results/visual_counterfactuals_v1/images/distance_0_base.png",
+      "image_sha256": "7d804b328a52a2f513ab4d1d60c439fcaf093cfdfbedfa30e3c0a48a1f43781d"
+    },
+    {
+      "case": "distance_0",
+      "arm": "luna_original",
+      "condition": "favorable",
+      "image": "results/visual_counterfactuals_v1/images/distance_0_favorable.png",
+      "image_sha256": "d06888f85bb28200ae1b9df50d6627d07cc0d91748afa4686e43a8c7665d2245"
+    },
+    {
+      "case": "distance_0",
+      "arm": "luna_original",
+      "condition": "base",
+      "image": "results/visual_counterfactuals_v1/images/distance_0_base.png",
+      "image_sha256": "7d804b328a52a2f513ab4d1d60c439fcaf093cfdfbedfa30e3c0a48a1f43781d"
+    },
+    {
+      "case": "distance_0",
+      "arm": "luna_uncertainty",
+      "condition": "favorable",
+      "image": "results/visual_counterfactuals_v1/images/distance_0_favorable.png",
+      "image_sha256": "d06888f85bb28200ae1b9df50d6627d07cc0d91748afa4686e43a8c7665d2245"
+    },
+    {
+      "case": "distance_0",
+      "arm": "luna_uncertainty",
+      "condition": "repeat",
+      "image": "results/visual_counterfactuals_v1/images/distance_0_base.png",
+      "image_sha256": "7d804b328a52a2f513ab4d1d60c439fcaf093cfdfbedfa30e3c0a48a1f43781d"
+    },
+    {
+      "case": "distance_0",
+      "arm": "luna_uncertainty",
+      "condition": "base",
+      "image": "results/visual_counterfactuals_v1/images/distance_0_base.png",
+      "image_sha256": "7d804b328a52a2f513ab4d1d60c439fcaf093cfdfbedfa30e3c0a48a1f43781d"
+    },
+    {
+      "case": "distance_1",
+      "arm": "luna_uncertainty",
+      "condition": "repeat",
+      "image": "results/visual_counterfactuals_v1/images/distance_1_base.png",
+      "image_sha256": "46489b81e13ee1c8015fb35b5c480d588fb27d04d020af61012602b3fd18d7dc"
+    },
+    {
+      "case": "distance_1",
+      "arm": "luna_uncertainty",
+      "condition": "favorable",
+      "image": "results/visual_counterfactuals_v1/images/distance_1_favorable.png",
+      "image_sha256": "808c19d7a313268acaff912eaaa5e0087a469c77192c6a48d3791a8b5edee559"
+    },
+    {
+      "case": "distance_1",
+      "arm": "luna_uncertainty",
+      "condition": "base",
+      "image": "results/visual_counterfactuals_v1/images/distance_1_base.png",
+      "image_sha256": "46489b81e13ee1c8015fb35b5c480d588fb27d04d020af61012602b3fd18d7dc"
+    },
+    {
+      "case": "distance_1",
+      "arm": "luna_original",
+      "condition": "base",
+      "image": "results/visual_counterfactuals_v1/images/distance_1_base.png",
+      "image_sha256": "46489b81e13ee1c8015fb35b5c480d588fb27d04d020af61012602b3fd18d7dc"
+    },
+    {
+      "case": "distance_1",
+      "arm": "luna_original",
+      "condition": "favorable",
+      "image": "results/visual_counterfactuals_v1/images/distance_1_favorable.png",
+      "image_sha256": "808c19d7a313268acaff912eaaa5e0087a469c77192c6a48d3791a8b5edee559"
+    },
+    {
+      "case": "distance_1",
+      "arm": "luna_original",
+      "condition": "repeat",
+      "image": "results/visual_counterfactuals_v1/images/distance_1_base.png",
+      "image_sha256": "46489b81e13ee1c8015fb35b5c480d588fb27d04d020af61012602b3fd18d7dc"
+    },
+    {
+      "case": "distance_2",
+      "arm": "luna_original",
+      "condition": "repeat",
+      "image": "results/visual_counterfactuals_v1/images/distance_2_base.png",
+      "image_sha256": "5bd1b82b97504d058d1c7e81a9950e26797bee8f1d7774614eb4b3c440c45504"
+    },
+    {
+      "case": "distance_2",
+      "arm": "luna_original",
+      "condition": "favorable",
+      "image": "results/visual_counterfactuals_v1/images/distance_2_favorable.png",
+      "image_sha256": "7c58df89dd3ab6ea3984ba74f07ddd93229ef84d3ed6ded4f29175387f5f187e"
+    },
+    {
+      "case": "distance_2",
+      "arm": "luna_original",
+      "condition": "base",
+      "image": "results/visual_counterfactuals_v1/images/distance_2_base.png",
+      "image_sha256": "5bd1b82b97504d058d1c7e81a9950e26797bee8f1d7774614eb4b3c440c45504"
+    },
+    {
+      "case": "distance_2",
+      "arm": "luna_uncertainty",
+      "condition": "base",
+      "image": "results/visual_counterfactuals_v1/images/distance_2_base.png",
+      "image_sha256": "5bd1b82b97504d058d1c7e81a9950e26797bee8f1d7774614eb4b3c440c45504"
+    },
+    {
+      "case": "distance_2",
+      "arm": "luna_uncertainty",
+      "condition": "repeat",
+      "image": "results/visual_counterfactuals_v1/images/distance_2_base.png",
+      "image_sha256": "5bd1b82b97504d058d1c7e81a9950e26797bee8f1d7774614eb4b3c440c45504"
+    },
+    {
+      "case": "distance_2",
+      "arm": "luna_uncertainty",
+      "condition": "favorable",
+      "image": "results/visual_counterfactuals_v1/images/distance_2_favorable.png",
+      "image_sha256": "7c58df89dd3ab6ea3984ba74f07ddd93229ef84d3ed6ded4f29175387f5f187e"
+    },
+    {
+      "case": "angle_0",
+      "arm": "luna_original",
+      "condition": "favorable",
+      "image": "results/visual_counterfactuals_v1/images/angle_0_favorable.png",
+      "image_sha256": "7d804b328a52a2f513ab4d1d60c439fcaf093cfdfbedfa30e3c0a48a1f43781d"
+    },
+    {
+      "case": "angle_0",
+      "arm": "luna_original",
+      "condition": "repeat",
+      "image": "results/visual_counterfactuals_v1/images/angle_0_base.png",
+      "image_sha256": "41fbe75961c1a59fa0d94600f49fa8098ce68357d5ee5f594be9de042f3ac9db"
+    },
+    {
+      "case": "angle_0",
+      "arm": "luna_original",
+      "condition": "base",
+      "image": "results/visual_counterfactuals_v1/images/angle_0_base.png",
+      "image_sha256": "41fbe75961c1a59fa0d94600f49fa8098ce68357d5ee5f594be9de042f3ac9db"
+    },
+    {
+      "case": "angle_0",
+      "arm": "luna_uncertainty",
+      "condition": "repeat",
+      "image": "results/visual_counterfactuals_v1/images/angle_0_base.png",
+      "image_sha256": "41fbe75961c1a59fa0d94600f49fa8098ce68357d5ee5f594be9de042f3ac9db"
+    },
+    {
+      "case": "angle_0",
+      "arm": "luna_uncertainty",
+      "condition": "favorable",
+      "image": "results/visual_counterfactuals_v1/images/angle_0_favorable.png",
+      "image_sha256": "7d804b328a52a2f513ab4d1d60c439fcaf093cfdfbedfa30e3c0a48a1f43781d"
+    },
+    {
+      "case": "angle_0",
+      "arm": "luna_uncertainty",
+      "condition": "base",
+      "image": "results/visual_counterfactuals_v1/images/angle_0_base.png",
+      "image_sha256": "41fbe75961c1a59fa0d94600f49fa8098ce68357d5ee5f594be9de042f3ac9db"
+    },
+    {
+      "case": "angle_1",
+      "arm": "luna_uncertainty",
+      "condition": "favorable",
+      "image": "results/visual_counterfactuals_v1/images/angle_1_favorable.png",
+      "image_sha256": "46489b81e13ee1c8015fb35b5c480d588fb27d04d020af61012602b3fd18d7dc"
+    },
+    {
+      "case": "angle_1",
+      "arm": "luna_uncertainty",
+      "condition": "base",
+      "image": "results/visual_counterfactuals_v1/images/angle_1_base.png",
+      "image_sha256": "a01af71461bddd516341bb3eca43f140b97871dfb998e1cf758e119e62f1d725"
+    },
+    {
+      "case": "angle_1",
+      "arm": "luna_uncertainty",
+      "condition": "repeat",
+      "image": "results/visual_counterfactuals_v1/images/angle_1_base.png",
+      "image_sha256": "a01af71461bddd516341bb3eca43f140b97871dfb998e1cf758e119e62f1d725"
+    },
+    {
+      "case": "angle_1",
+      "arm": "luna_original",
+      "condition": "favorable",
+      "image": "results/visual_counterfactuals_v1/images/angle_1_favorable.png",
+      "image_sha256": "46489b81e13ee1c8015fb35b5c480d588fb27d04d020af61012602b3fd18d7dc"
+    },
+    {
+      "case": "angle_1",
+      "arm": "luna_original",
+      "condition": "base",
+      "image": "results/visual_counterfactuals_v1/images/angle_1_base.png",
+      "image_sha256": "a01af71461bddd516341bb3eca43f140b97871dfb998e1cf758e119e62f1d725"
+    },
+    {
+      "case": "angle_1",
+      "arm": "luna_original",
+      "condition": "repeat",
+      "image": "results/visual_counterfactuals_v1/images/angle_1_base.png",
+      "image_sha256": "a01af71461bddd516341bb3eca43f140b97871dfb998e1cf758e119e62f1d725"
+    },
+    {
+      "case": "angle_2",
+      "arm": "luna_original",
+      "condition": "repeat",
+      "image": "results/visual_counterfactuals_v1/images/angle_2_base.png",
+      "image_sha256": "00bce3276812ce94ab1995199b8eaf8f88e97004c14f56705983854e78e54b07"
+    },
+    {
+      "case": "angle_2",
+      "arm": "luna_original",
+      "condition": "base",
+      "image": "results/visual_counterfactuals_v1/images/angle_2_base.png",
+      "image_sha256": "00bce3276812ce94ab1995199b8eaf8f88e97004c14f56705983854e78e54b07"
+    },
+    {
+      "case": "angle_2",
+      "arm": "luna_original",
+      "condition": "favorable",
+      "image": "results/visual_counterfactuals_v1/images/angle_2_favorable.png",
+      "image_sha256": "5bd1b82b97504d058d1c7e81a9950e26797bee8f1d7774614eb4b3c440c45504"
+    },
+    {
+      "case": "angle_2",
+      "arm": "luna_uncertainty",
+      "condition": "repeat",
+      "image": "results/visual_counterfactuals_v1/images/angle_2_base.png",
+      "image_sha256": "00bce3276812ce94ab1995199b8eaf8f88e97004c14f56705983854e78e54b07"
+    },
+    {
+      "case": "angle_2",
+      "arm": "luna_uncertainty",
+      "condition": "base",
+      "image": "results/visual_counterfactuals_v1/images/angle_2_base.png",
+      "image_sha256": "00bce3276812ce94ab1995199b8eaf8f88e97004c14f56705983854e78e54b07"
+    },
+    {
+      "case": "angle_2",
+      "arm": "luna_uncertainty",
+      "condition": "favorable",
+      "image": "results/visual_counterfactuals_v1/images/angle_2_favorable.png",
+      "image_sha256": "5bd1b82b97504d058d1c7e81a9950e26797bee8f1d7774614eb4b3c440c45504"
+    },
+    {
+      "case": "keeper_0",
+      "arm": "luna_uncertainty",
+      "condition": "favorable",
+      "image": "results/visual_counterfactuals_v1/images/keeper_0_favorable.png",
+      "image_sha256": "3d132815471bdb41d89cb551c1d7814d1fb9ac8a87eb5d6d268bbddf080b0cbb"
+    },
+    {
+      "case": "keeper_0",
+      "arm": "luna_uncertainty",
+      "condition": "base",
+      "image": "results/visual_counterfactuals_v1/images/keeper_0_base.png",
+      "image_sha256": "808c19d7a313268acaff912eaaa5e0087a469c77192c6a48d3791a8b5edee559"
+    },
+    {
+      "case": "keeper_0",
+      "arm": "luna_uncertainty",
+      "condition": "repeat",
+      "image": "results/visual_counterfactuals_v1/images/keeper_0_base.png",
+      "image_sha256": "808c19d7a313268acaff912eaaa5e0087a469c77192c6a48d3791a8b5edee559"
+    },
+    {
+      "case": "keeper_0",
+      "arm": "luna_original",
+      "condition": "favorable",
+      "image": "results/visual_counterfactuals_v1/images/keeper_0_favorable.png",
+      "image_sha256": "3d132815471bdb41d89cb551c1d7814d1fb9ac8a87eb5d6d268bbddf080b0cbb"
+    },
+    {
+      "case": "keeper_0",
+      "arm": "luna_original",
+      "condition": "repeat",
+      "image": "results/visual_counterfactuals_v1/images/keeper_0_base.png",
+      "image_sha256": "808c19d7a313268acaff912eaaa5e0087a469c77192c6a48d3791a8b5edee559"
+    },
+    {
+      "case": "keeper_0",
+      "arm": "luna_original",
+      "condition": "base",
+      "image": "results/visual_counterfactuals_v1/images/keeper_0_base.png",
+      "image_sha256": "808c19d7a313268acaff912eaaa5e0087a469c77192c6a48d3791a8b5edee559"
+    },
+    {
+      "case": "keeper_1",
+      "arm": "luna_original",
+      "condition": "repeat",
+      "image": "results/visual_counterfactuals_v1/images/keeper_1_base.png",
+      "image_sha256": "85e7d56610467e51ecd8a14b858d483d3a97713a5608a07dc5c6490803eb3668"
+    },
+    {
+      "case": "keeper_1",
+      "arm": "luna_original",
+      "condition": "base",
+      "image": "results/visual_counterfactuals_v1/images/keeper_1_base.png",
+      "image_sha256": "85e7d56610467e51ecd8a14b858d483d3a97713a5608a07dc5c6490803eb3668"
+    },
+    {
+      "case": "keeper_1",
+      "arm": "luna_original",
+      "condition": "favorable",
+      "image": "results/visual_counterfactuals_v1/images/keeper_1_favorable.png",
+      "image_sha256": "bcf66a665257da6483447ddb3d431c2a232f6372e50a2a1693851f4bc55d2b4a"
+    },
+    {
+      "case": "keeper_1",
+      "arm": "luna_uncertainty",
+      "condition": "base",
+      "image": "results/visual_counterfactuals_v1/images/keeper_1_base.png",
+      "image_sha256": "85e7d56610467e51ecd8a14b858d483d3a97713a5608a07dc5c6490803eb3668"
+    },
+    {
+      "case": "keeper_1",
+      "arm": "luna_uncertainty",
+      "condition": "favorable",
+      "image": "results/visual_counterfactuals_v1/images/keeper_1_favorable.png",
+      "image_sha256": "bcf66a665257da6483447ddb3d431c2a232f6372e50a2a1693851f4bc55d2b4a"
+    },
+    {
+      "case": "keeper_1",
+      "arm": "luna_uncertainty",
+      "condition": "repeat",
+      "image": "results/visual_counterfactuals_v1/images/keeper_1_base.png",
+      "image_sha256": "85e7d56610467e51ecd8a14b858d483d3a97713a5608a07dc5c6490803eb3668"
+    },
+    {
+      "case": "keeper_2",
+      "arm": "luna_uncertainty",
+      "condition": "repeat",
+      "image": "results/visual_counterfactuals_v1/images/keeper_2_base.png",
+      "image_sha256": "045bdb408b13b93f16189a92bba1c0974555f3aa85ee5dfb8b023c33a86dfc28"
+    },
+    {
+      "case": "keeper_2",
+      "arm": "luna_uncertainty",
+      "condition": "base",
+      "image": "results/visual_counterfactuals_v1/images/keeper_2_base.png",
+      "image_sha256": "045bdb408b13b93f16189a92bba1c0974555f3aa85ee5dfb8b023c33a86dfc28"
+    },
+    {
+      "case": "keeper_2",
+      "arm": "luna_uncertainty",
+      "condition": "favorable",
+      "image": "results/visual_counterfactuals_v1/images/keeper_2_favorable.png",
+      "image_sha256": "927f56040522a99ed165617c6744bc80da5c9cf4b1beea05ce9db654abb61798"
+    },
+    {
+      "case": "keeper_2",
+      "arm": "luna_original",
+      "condition": "repeat",
+      "image": "results/visual_counterfactuals_v1/images/keeper_2_base.png",
+      "image_sha256": "045bdb408b13b93f16189a92bba1c0974555f3aa85ee5dfb8b023c33a86dfc28"
+    },
+    {
+      "case": "keeper_2",
+      "arm": "luna_original",
+      "condition": "base",
+      "image": "results/visual_counterfactuals_v1/images/keeper_2_base.png",
+      "image_sha256": "045bdb408b13b93f16189a92bba1c0974555f3aa85ee5dfb8b023c33a86dfc28"
+    },
+    {
+      "case": "keeper_2",
+      "arm": "luna_original",
+      "condition": "favorable",
+      "image": "results/visual_counterfactuals_v1/images/keeper_2_favorable.png",
+      "image_sha256": "927f56040522a99ed165617c6744bc80da5c9cf4b1beea05ce9db654abb61798"
+    },
+    {
+      "case": "blocking_0",
+      "arm": "luna_uncertainty",
+      "condition": "base",
+      "image": "results/visual_counterfactuals_v1/images/blocking_0_base.png",
+      "image_sha256": "aaaecc6e67a15d710ed8b7af1b851c3d44c012a94683f87dd6ca8578e2fa95ae"
+    },
+    {
+      "case": "blocking_0",
+      "arm": "luna_uncertainty",
+      "condition": "favorable",
+      "image": "results/visual_counterfactuals_v1/images/blocking_0_favorable.png",
+      "image_sha256": "615274efa5e88c2b41e1e5444d37c6c4f4ad9b71a3a7f703c90baea87c79a4d6"
+    },
+    {
+      "case": "blocking_0",
+      "arm": "luna_uncertainty",
+      "condition": "repeat",
+      "image": "results/visual_counterfactuals_v1/images/blocking_0_base.png",
+      "image_sha256": "aaaecc6e67a15d710ed8b7af1b851c3d44c012a94683f87dd6ca8578e2fa95ae"
+    },
+    {
+      "case": "blocking_0",
+      "arm": "luna_original",
+      "condition": "favorable",
+      "image": "results/visual_counterfactuals_v1/images/blocking_0_favorable.png",
+      "image_sha256": "615274efa5e88c2b41e1e5444d37c6c4f4ad9b71a3a7f703c90baea87c79a4d6"
+    },
+    {
+      "case": "blocking_0",
+      "arm": "luna_original",
+      "condition": "repeat",
+      "image": "results/visual_counterfactuals_v1/images/blocking_0_base.png",
+      "image_sha256": "aaaecc6e67a15d710ed8b7af1b851c3d44c012a94683f87dd6ca8578e2fa95ae"
+    },
+    {
+      "case": "blocking_0",
+      "arm": "luna_original",
+      "condition": "base",
+      "image": "results/visual_counterfactuals_v1/images/blocking_0_base.png",
+      "image_sha256": "aaaecc6e67a15d710ed8b7af1b851c3d44c012a94683f87dd6ca8578e2fa95ae"
+    },
+    {
+      "case": "blocking_1",
+      "arm": "luna_uncertainty",
+      "condition": "base",
+      "image": "results/visual_counterfactuals_v1/images/blocking_1_base.png",
+      "image_sha256": "272628085608427a49a7e77d71afdf8cdb210eb97b0e3eb1bcad54cf071a199f"
+    },
+    {
+      "case": "blocking_1",
+      "arm": "luna_uncertainty",
+      "condition": "repeat",
+      "image": "results/visual_counterfactuals_v1/images/blocking_1_base.png",
+      "image_sha256": "272628085608427a49a7e77d71afdf8cdb210eb97b0e3eb1bcad54cf071a199f"
+    },
+    {
+      "case": "blocking_1",
+      "arm": "luna_uncertainty",
+      "condition": "favorable",
+      "image": "results/visual_counterfactuals_v1/images/blocking_1_favorable.png",
+      "image_sha256": "a08536a8bdb8d3f316d21b9deee8f12e34ce5aad27f888f3e6f058e852673a05"
+    },
+    {
+      "case": "blocking_1",
+      "arm": "luna_original",
+      "condition": "base",
+      "image": "results/visual_counterfactuals_v1/images/blocking_1_base.png",
+      "image_sha256": "272628085608427a49a7e77d71afdf8cdb210eb97b0e3eb1bcad54cf071a199f"
+    },
+    {
+      "case": "blocking_1",
+      "arm": "luna_original",
+      "condition": "repeat",
+      "image": "results/visual_counterfactuals_v1/images/blocking_1_base.png",
+      "image_sha256": "272628085608427a49a7e77d71afdf8cdb210eb97b0e3eb1bcad54cf071a199f"
+    },
+    {
+      "case": "blocking_1",
+      "arm": "luna_original",
+      "condition": "favorable",
+      "image": "results/visual_counterfactuals_v1/images/blocking_1_favorable.png",
+      "image_sha256": "a08536a8bdb8d3f316d21b9deee8f12e34ce5aad27f888f3e6f058e852673a05"
+    },
+    {
+      "case": "blocking_2",
+      "arm": "luna_uncertainty",
+      "condition": "favorable",
+      "image": "results/visual_counterfactuals_v1/images/blocking_2_favorable.png",
+      "image_sha256": "c8e84ede1421e6f7811aa5220d4bde2a292cf97b0f0b5ab62086dcb37baf879b"
+    },
+    {
+      "case": "blocking_2",
+      "arm": "luna_uncertainty",
+      "condition": "repeat",
+      "image": "results/visual_counterfactuals_v1/images/blocking_2_base.png",
+      "image_sha256": "95b9a1da214c3f8ffdc43b31aafb0f7f9ae630e3fd50b4c372509b7e9ac924fd"
+    },
+    {
+      "case": "blocking_2",
+      "arm": "luna_uncertainty",
+      "condition": "base",
+      "image": "results/visual_counterfactuals_v1/images/blocking_2_base.png",
+      "image_sha256": "95b9a1da214c3f8ffdc43b31aafb0f7f9ae630e3fd50b4c372509b7e9ac924fd"
+    },
+    {
+      "case": "blocking_2",
+      "arm": "luna_original",
+      "condition": "repeat",
+      "image": "results/visual_counterfactuals_v1/images/blocking_2_base.png",
+      "image_sha256": "95b9a1da214c3f8ffdc43b31aafb0f7f9ae630e3fd50b4c372509b7e9ac924fd"
+    },
+    {
+      "case": "blocking_2",
+      "arm": "luna_original",
+      "condition": "base",
+      "image": "results/visual_counterfactuals_v1/images/blocking_2_base.png",
+      "image_sha256": "95b9a1da214c3f8ffdc43b31aafb0f7f9ae630e3fd50b4c372509b7e9ac924fd"
+    },
+    {
+      "case": "blocking_2",
+      "arm": "luna_original",
+      "condition": "favorable",
+      "image": "results/visual_counterfactuals_v1/images/blocking_2_favorable.png",
+      "image_sha256": "c8e84ede1421e6f7811aa5220d4bde2a292cf97b0f0b5ab62086dcb37baf879b"
+    }
+  ],
+  "no_outcome_input": true,
+  "retries": 0,
+  "timing": "Prepared after development choice but before independent accuracy outcomes are scored. Paid work starts only after the fixed accuracy campaign finishes, sharing its $3 ceiling."
+}

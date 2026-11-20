@@ -1,0 +1,27 @@
+test_context_join_follows_shot_ids_and_excludes_outcomes (test_confirmation.ConfirmationTests.test_context_join_follows_shot_ids_and_excludes_outcomes) ... ok
+test_multiple_comparison_interval_contains_the_95_percent_interval (test_confirmation.ConfirmationTests.test_multiple_comparison_interval_contains_the_95_percent_interval) ... ok
+test_context_ignores_shot_outcome_and_commercial_xg (test_offline_trials.OfflineTests.test_context_ignores_shot_outcome_and_commercial_xg) ... ok
+test_future_pass_does_not_enter_shot_context (test_offline_trials.OfflineTests.test_future_pass_does_not_enter_shot_context) ... ok
+test_other_team_or_old_pass_cannot_supply_context (test_offline_trials.OfflineTests.test_other_team_or_old_pass_cannot_supply_context) ... ok
+test_pixel_affine_mapping_and_roles_on_unoccluded_generic_scene (test_offline_trials.OfflineTests.test_pixel_affine_mapping_and_roles_on_unoccluded_generic_scene) ... /mnt/c/Users/ephou/Downloads/xG/tmp/improvement-suite/pixel_control.py:24: ResourceWarning: unclosed file <_io.BufferedReader name='/tmp/tmpz6leco26/calibration.png'>
+  height = Image.open(folder/'calibration.png').height
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/mnt/c/Users/ephou/Downloads/xG/tmp/improvement-suite/pixel_control.py:29: ResourceWarning: unclosed file <_io.BufferedReader name='/tmp/tmpz6leco26/calibration.png'>
+  'image_width': Image.open(folder/'calibration.png').width}
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+test_held_out_match_cannot_supply_errors (test_robust_xg.RobustnessTests.test_held_out_match_cannot_supply_errors) ... ok
+test_missing_keeper_and_defenders_do_not_use_reference_substitutes (test_robust_xg.RobustnessTests.test_missing_keeper_and_defenders_do_not_use_reference_substitutes) ... ok
+test_noise_changes_positions_before_geometry_is_recomputed (test_robust_xg.RobustnessTests.test_noise_changes_positions_before_geometry_is_recomputed) ... ok
+test_outcomes_and_commercial_xg_cannot_change_augmented_inputs (test_robust_xg.RobustnessTests.test_outcomes_and_commercial_xg_cannot_change_augmented_inputs) ... ok
+test_test_measurements_do_not_accept_true_shot_coordinates (test_robust_xg.RobustnessTests.test_test_measurements_do_not_accept_true_shot_coordinates) ... ok
+test_zero_noise_weighted_duplicates_preserve_the_fitted_model (test_robust_xg.RobustnessTests.test_zero_noise_weighted_duplicates_preserve_the_fitted_model) ... ok
+test_consensus_aligns_defenders_and_averages_two_agreeing_reads (test_vision_trials.VisionTests.test_consensus_aligns_defenders_and_averages_two_agreeing_reads) ... ok
+test_defender_order_cannot_change_disagreement (test_vision_trials.VisionTests.test_defender_order_cannot_change_disagreement) ... ok
+test_missing_marker_requires_third_read_and_majority_controls_visibility (test_vision_trials.VisionTests.test_missing_marker_requires_third_read_and_majority_controls_visibility) ... ok
+test_third_read_median_rejects_one_large_shooter_error (test_vision_trials.VisionTests.test_third_read_median_rejects_one_large_shooter_error) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.431s
+
+OK

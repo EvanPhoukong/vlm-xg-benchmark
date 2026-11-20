@@ -1,0 +1,506 @@
+[
+  {
+    "id": "distance_0",
+    "factor": "distance",
+    "base": {
+      "x": 104,
+      "y": 40,
+      "ff": [
+        {
+          "location": [
+            118,
+            40
+          ],
+          "teammate": false,
+          "position": {
+            "name": "Goalkeeper"
+          }
+        }
+      ]
+    },
+    "favorable": {
+      "x": 112.0,
+      "y": 40,
+      "ff": [
+        {
+          "location": [
+            118,
+            40
+          ],
+          "teammate": false,
+          "position": {
+            "name": "Goalkeeper"
+          }
+        }
+      ]
+    },
+    "expected": "Moving the unblocked central shooter closer should increase xG."
+  },
+  {
+    "id": "distance_1",
+    "factor": "distance",
+    "base": {
+      "x": 100,
+      "y": 40,
+      "ff": [
+        {
+          "location": [
+            118,
+            40
+          ],
+          "teammate": false,
+          "position": {
+            "name": "Goalkeeper"
+          }
+        }
+      ]
+    },
+    "favorable": {
+      "x": 110.0,
+      "y": 40,
+      "ff": [
+        {
+          "location": [
+            118,
+            40
+          ],
+          "teammate": false,
+          "position": {
+            "name": "Goalkeeper"
+          }
+        }
+      ]
+    },
+    "expected": "Moving the unblocked central shooter closer should increase xG."
+  },
+  {
+    "id": "distance_2",
+    "factor": "distance",
+    "base": {
+      "x": 96,
+      "y": 40,
+      "ff": [
+        {
+          "location": [
+            118,
+            40
+          ],
+          "teammate": false,
+          "position": {
+            "name": "Goalkeeper"
+          }
+        }
+      ]
+    },
+    "favorable": {
+      "x": 108.0,
+      "y": 40,
+      "ff": [
+        {
+          "location": [
+            118,
+            40
+          ],
+          "teammate": false,
+          "position": {
+            "name": "Goalkeeper"
+          }
+        }
+      ]
+    },
+    "expected": "Moving the unblocked central shooter closer should increase xG."
+  },
+  {
+    "id": "angle_0",
+    "factor": "angle",
+    "base": {
+      "x": 110.4,
+      "y": 52.8,
+      "ff": [
+        {
+          "location": [
+            118,
+            40
+          ],
+          "teammate": false,
+          "position": {
+            "name": "Goalkeeper"
+          }
+        }
+      ]
+    },
+    "favorable": {
+      "x": 104,
+      "y": 40,
+      "ff": [
+        {
+          "location": [
+            118,
+            40
+          ],
+          "teammate": false,
+          "position": {
+            "name": "Goalkeeper"
+          }
+        }
+      ]
+    },
+    "expected": "A central view opens more goal than an equal-distance wide view."
+  },
+  {
+    "id": "angle_1",
+    "factor": "angle",
+    "base": {
+      "x": 108.0,
+      "y": 56.0,
+      "ff": [
+        {
+          "location": [
+            118,
+            40
+          ],
+          "teammate": false,
+          "position": {
+            "name": "Goalkeeper"
+          }
+        }
+      ]
+    },
+    "favorable": {
+      "x": 100,
+      "y": 40,
+      "ff": [
+        {
+          "location": [
+            118,
+            40
+          ],
+          "teammate": false,
+          "position": {
+            "name": "Goalkeeper"
+          }
+        }
+      ]
+    },
+    "expected": "A central view opens more goal than an equal-distance wide view."
+  },
+  {
+    "id": "angle_2",
+    "factor": "angle",
+    "base": {
+      "x": 105.6,
+      "y": 59.2,
+      "ff": [
+        {
+          "location": [
+            118,
+            40
+          ],
+          "teammate": false,
+          "position": {
+            "name": "Goalkeeper"
+          }
+        }
+      ]
+    },
+    "favorable": {
+      "x": 96,
+      "y": 40,
+      "ff": [
+        {
+          "location": [
+            118,
+            40
+          ],
+          "teammate": false,
+          "position": {
+            "name": "Goalkeeper"
+          }
+        }
+      ]
+    },
+    "expected": "A central view opens more goal than an equal-distance wide view."
+  },
+  {
+    "id": "keeper_0",
+    "factor": "keeper",
+    "base": {
+      "x": 110,
+      "y": 40,
+      "ff": [
+        {
+          "location": [
+            118,
+            40
+          ],
+          "teammate": false,
+          "position": {
+            "name": "Goalkeeper"
+          }
+        }
+      ]
+    },
+    "favorable": {
+      "x": 110,
+      "y": 40,
+      "ff": [
+        {
+          "location": [
+            118,
+            58
+          ],
+          "teammate": false,
+          "position": {
+            "name": "Goalkeeper"
+          }
+        }
+      ]
+    },
+    "expected": "Displacing the goalkeeper far from the shooting lane should increase xG."
+  },
+  {
+    "id": "keeper_1",
+    "factor": "keeper",
+    "base": {
+      "x": 106,
+      "y": 40,
+      "ff": [
+        {
+          "location": [
+            118,
+            40
+          ],
+          "teammate": false,
+          "position": {
+            "name": "Goalkeeper"
+          }
+        }
+      ]
+    },
+    "favorable": {
+      "x": 106,
+      "y": 40,
+      "ff": [
+        {
+          "location": [
+            118,
+            58
+          ],
+          "teammate": false,
+          "position": {
+            "name": "Goalkeeper"
+          }
+        }
+      ]
+    },
+    "expected": "Displacing the goalkeeper far from the shooting lane should increase xG."
+  },
+  {
+    "id": "keeper_2",
+    "factor": "keeper",
+    "base": {
+      "x": 102,
+      "y": 40,
+      "ff": [
+        {
+          "location": [
+            118,
+            40
+          ],
+          "teammate": false,
+          "position": {
+            "name": "Goalkeeper"
+          }
+        }
+      ]
+    },
+    "favorable": {
+      "x": 102,
+      "y": 40,
+      "ff": [
+        {
+          "location": [
+            118,
+            58
+          ],
+          "teammate": false,
+          "position": {
+            "name": "Goalkeeper"
+          }
+        }
+      ]
+    },
+    "expected": "Displacing the goalkeeper far from the shooting lane should increase xG."
+  },
+  {
+    "id": "blocking_0",
+    "factor": "blocking",
+    "base": {
+      "x": 110,
+      "y": 40,
+      "ff": [
+        {
+          "location": [
+            118,
+            40
+          ],
+          "teammate": false,
+          "position": {
+            "name": "Goalkeeper"
+          }
+        },
+        {
+          "location": [
+            114,
+            40
+          ],
+          "teammate": false,
+          "position": {
+            "name": "Center Back"
+          }
+        }
+      ]
+    },
+    "favorable": {
+      "x": 110,
+      "y": 40,
+      "ff": [
+        {
+          "location": [
+            118,
+            40
+          ],
+          "teammate": false,
+          "position": {
+            "name": "Goalkeeper"
+          }
+        },
+        {
+          "location": [
+            114,
+            60
+          ],
+          "teammate": false,
+          "position": {
+            "name": "Center Back"
+          }
+        }
+      ]
+    },
+    "expected": "Moving the blocking opponent out of the lane should increase xG."
+  },
+  {
+    "id": "blocking_1",
+    "factor": "blocking",
+    "base": {
+      "x": 106,
+      "y": 40,
+      "ff": [
+        {
+          "location": [
+            118,
+            40
+          ],
+          "teammate": false,
+          "position": {
+            "name": "Goalkeeper"
+          }
+        },
+        {
+          "location": [
+            110,
+            40
+          ],
+          "teammate": false,
+          "position": {
+            "name": "Center Back"
+          }
+        }
+      ]
+    },
+    "favorable": {
+      "x": 106,
+      "y": 40,
+      "ff": [
+        {
+          "location": [
+            118,
+            40
+          ],
+          "teammate": false,
+          "position": {
+            "name": "Goalkeeper"
+          }
+        },
+        {
+          "location": [
+            110,
+            60
+          ],
+          "teammate": false,
+          "position": {
+            "name": "Center Back"
+          }
+        }
+      ]
+    },
+    "expected": "Moving the blocking opponent out of the lane should increase xG."
+  },
+  {
+    "id": "blocking_2",
+    "factor": "blocking",
+    "base": {
+      "x": 102,
+      "y": 40,
+      "ff": [
+        {
+          "location": [
+            118,
+            40
+          ],
+          "teammate": false,
+          "position": {
+            "name": "Goalkeeper"
+          }
+        },
+        {
+          "location": [
+            106,
+            40
+          ],
+          "teammate": false,
+          "position": {
+            "name": "Center Back"
+          }
+        }
+      ]
+    },
+    "favorable": {
+      "x": 102,
+      "y": 40,
+      "ff": [
+        {
+          "location": [
+            118,
+            40
+          ],
+          "teammate": false,
+          "position": {
+            "name": "Goalkeeper"
+          }
+        },
+        {
+          "location": [
+            106,
+            60
+          ],
+          "teammate": false,
+          "position": {
+            "name": "Center Back"
+          }
+        }
+      ]
+    },
+    "expected": "Moving the blocking opponent out of the lane should increase xG."
+  }
+]

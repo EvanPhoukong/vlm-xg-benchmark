@@ -1,0 +1,50 @@
+{
+  "dataset": "SoccerTrack v2 v1.2 public-author mirror",
+  "model": "claude-sonnet-5-5",
+  "arms": [
+    "raw",
+    "diagram",
+    "marked_crop",
+    "photo_diagram"
+  ],
+  "prompt": "You are a professional football (soccer) analyst. Estimate the probability that\nthe identified shot results in a goal (expected goals,xG),assuming an average\nprofessional finisher. All inputs show the same situation shortly before contact.\nThe input may contain a panoramic photograph,a marked full-view/crop photograph,\na positional pitch diagram,or a photograph and diagram together.\nIn pitch diagrams,the attacking goal is at the top; gold star=shooter,blue circles=\nteammates,red circles=opponents,orange square=opposing goalkeeper.\nIn annotated photos,a yellow S marks the shooter,an orange GK marks the opposing\ngoalkeeper,and a cyan line marks the attacking goal mouth. Plain photographs have\nno added markers. Diagram marker colors refer to the overlay,not jersey colors.\nUse only the shown situation. Body part,ball height and previous motion are unknown.\nReply with JSON only:{\"xg\":<number between0 and1>,\"reason\":\"<one short sentence>\"}.",
+  "seed": 2026112009,
+  "input": "Single pre-contact snapshot,using GSR player positions/roles and actor ID. Raw PNG unchanged. Diagram and marked photo are annotation-assisted. Calibration H,K,D,Knew reprojects physical goal posts for the photo crop.",
+  "timing": "GSR suffix frame=decoded video index+1. Use the exact saved frame0.32 seconds before event. Contact frame retrieved only for source-alignment audit,never model inputs. No interpolated auxiliary ball track.",
+  "sample_rule": "Use all source-audit-eligible shots if the pre-generation token forecast fits$10;otherwise choose a deterministic natural prefix from[240,200,150,120,100,80] before accuracy inspection. All four visual conditions fixed;no method selection on scores.",
+  "statistics": "4 primary Brier contrasts:diagram-raw,marked_crop-raw,photo_diagram-raw,spatial_logistic-basic_logistic.98.75% whole-match percentile intervals,20000 resamples. Overlapping other-match fits are held fixed in bootstrap.",
+  "statistical_features": [
+    "distance_m",
+    "angle_rad",
+    "keeper_line_distance_m",
+    "keeper_lateral_error_m",
+    "defenders_in_cone",
+    "nearest_defender_m"
+  ],
+  "baseline": "L2 logistic with ridge1,training-only scaling,leave-one-complete-match-out. Primary basic and spatial baselines share the same pre-contact coordinates and match exclusions.",
+  "cap_usd": 10.0,
+  "rates_per_million": {
+    "input": 2.0,
+    "cache_write": 2.5,
+    "cache_read": 0.1,
+    "output": 10.0
+  },
+  "effort": "low",
+  "max_output_tokens": 1024,
+  "workers": 6,
+  "retries": 0,
+  "global_inference": true,
+  "budget": "New spatial experiment only. Conservative completed exposure charges all input at1.25x uncached input plus actual output;pending/uncertain calls reserve counted input+1024 plus maximum output. Stop on unresolved charges or cap.",
+  "scope": "Exploratory reused matches,annotation-assisted information-value test,not end-to-end player detection. No reference xG,query outcomes,body part,identities or numeric coordinates enter visual requests. No calibration of outputs,teacher probabilities,ICL or weight updates.",
+  "source": "Only verified byte ranges of public mirror GSR files retrieved;full large-file SHA hashes are not claimed verified. Calibration homography and camera-intrinsic files match local canonical LFS SHA256 exactly. Original pointers and historical results preserved.",
+  "source_geometry_caveat": "Raw event locations and tracking at contact can disagree;record errors and report sensitivity excluding contact-location discrepancies over5m. Primary eligibility does not select on this discrepancy or outcomes.",
+  "eligible_sha256": "f8f6cd5df8f43cc88c6f707296791f3b14aff467b6342ed496dbb192d9c431db",
+  "source_audit_sha256": "5c2a8514bf9c3254dcdb1e0b6f8fac6680b2f9ef38a6a766fa0db49fada2b52b",
+  "crop_audit_sha256": "8b233832210066ef2ed5c7967a54cad44106665d8fef4fe01d1602e36f067b37",
+  "baseline_models_sha256": "6a1c76af40d4fa734779eca06e1940c93625403d2e454cab589370be7860fd2b",
+  "python_sha256": "648ba4843f99e2fd02a3f7b4127e5695c13f6780b7e6e0a8ea9ca04911e004a7",
+  "common_sha256": "993073773a54ba07dd8c35d55fde462addcdb991da3441b059190921805903f5",
+  "source_runner_sha256": "252e7c15e1cdce0dbef8004e2d187f0d8baf2ebac508a8d2aeb7b8f2d9550165",
+  "runner_sha256": "7e242f377e7ba7ad4c993af068d23b0df0b5fbf109d413137b567179ad83c17d",
+  "attribution": "SoccerTrack v2 by Atom Scott,Ikuma Uchida,Kento Kuroda,Yufi Kim,Keisuke Fujii. CC BY4.0. https://huggingface.co/datasets/atomscott/soccertrack-v2"
+}

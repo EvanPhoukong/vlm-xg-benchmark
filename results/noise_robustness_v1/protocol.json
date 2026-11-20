@@ -1,0 +1,32 @@
+{
+  "seed": 20261022,
+  "copies": 16,
+  "stress_copies": 3,
+  "defender_jitter_sd": 0.25,
+  "defender_dropout": 0.05,
+  "family": "spline",
+  "context": false,
+  "C": 0.3,
+  "folds": 5,
+  "bootstrap_resamples": 4000,
+  "selection": "One fixed noise specification; no hyperparameter search or external tuning.",
+  "primary_comparison": "noise_trained minus original_hybrid on the same 200 saved Euro 2024 readings",
+  "primary_metric": "Brier score",
+  "external_status": "Previously studied cohort: exploratory reuse, not independent confirmation.",
+  "noise_limit": "Training errors came from an older prompt/rendering. Defender jitter/dropout are assumptions, not measured rates.",
+  "weighting": "One clean and fifteen noisy copies per shot, each with weight 1/16; total shot weight one.",
+  "input_sha256": {
+    "/mnt/c/Users/ephou/Downloads/xG/output/research-loop/data/wc2018.jsonl": "41d023d7605b9a3e82ef7c640fbafc09e66bf4c0fe0a04236efd293b12ee4986",
+    "/mnt/c/Users/ephou/Downloads/xG/output/research-loop/data/wc2022.jsonl": "00f19129c87ce11446c22ad996ba43516e0e13e619687371a8bd7bc0280d9d55",
+    "/home/evan/xG_Research/vlm-xg-benchmark/results/hybrid_gpt_6_luna_300/geometry_predictions.csv": "572a2814cf1545bcdcffe0067ecf9cc887db575950b232135caebb99a5b22225",
+    "/mnt/c/Users/ephou/Downloads/xG/output/research-loop/external_vlm_selection.jsonl": "d2e4d1b11474ea32a9f23301c198988351c028b74f804507fbe2b66c40a9c5b1",
+    "/mnt/c/Users/ephou/Downloads/xG/output/research-loop/rich_vlm_external/cache.jsonl": "9d94a32ff1da45d944ef5f662f2516982352e38cd5c09e2635b4ea5e8815fcb4",
+    "/mnt/c/Users/ephou/Downloads/xG/output/research-loop/rich_vlm_external/predictions.csv": "55be6594544fa99afd6fa4b6d4f20b70ead8e5612bc1036086b331bc57ae6d88",
+    "/mnt/c/Users/ephou/Downloads/xG/output/research-loop/rich_vlm_external/protocol.json": "e63c9aac72d03f0a5e4f3dafc15b98f05fcdd35812a8e35a959075a854200ebf",
+    "/mnt/c/Users/ephou/Downloads/xG/output/research-loop/frozen_probability_models.joblib": "35934414b8c1b3e1f7c31f22b3ffdebcbecc6f8351bf10d1aeedbb4d16a798e2"
+  },
+  "implementation_sha256": "f4c5614e69292444a2a7f7da324af3601cbe8a82063eae09ca880288d899fe16",
+  "features_sha256": "782d44b3ebc2fda528899eb20777acb890c644779d7a8cfa94fddc2cfdcf2e1d",
+  "python": "3.14.7",
+  "sklearn": "1.9.1"
+}

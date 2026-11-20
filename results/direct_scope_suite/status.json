@@ -1,0 +1,20 @@
+{
+  "status": "complete",
+  "stages": [
+    "reasoning",
+    "rendering",
+    "confirmation",
+    "invariance"
+  ],
+  "generation_calls": 420,
+  "usage": {
+    "input_tokens": 181020,
+    "output_tokens": 152076,
+    "cached_tokens": 0,
+    "reasoning_tokens": 133468,
+    "estimated_usd": 0.09414,
+    "conservative_usd": 0.0986655
+  },
+  "estimated_total_including_prior_pilot_usd": 0.1004494,
+  "no_active_generation": true
+}

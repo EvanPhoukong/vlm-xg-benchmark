@@ -1,0 +1,92 @@
+{
+  "seed": 2026111302,
+  "dataset": "StatsBomb Open Data, cached event + shot freeze-frame data",
+  "counts": {
+    "train": {
+      "shots": 2000,
+      "goals": 181,
+      "matches": 207
+    },
+    "validation": {
+      "shots": 400,
+      "goals": 49,
+      "matches": 43
+    },
+    "test": {
+      "shots": 500,
+      "goals": 63,
+      "matches": 48
+    }
+  },
+  "pool_counts": {
+    "train": 5023,
+    "validation": 1073,
+    "test": 1100
+  },
+  "cached_matches": 298,
+  "match_plan_sha256": "5607bc6fb3adb0d0d90f031d55f9a611243096962df0ffb872c1d5f7a66df623",
+  "source_audit_sha256": "abcc8b6bb0a3b9f3cb8a31286b6dd40ed3821aeae18ef4b683663398895601a5",
+  "selected_sha256": "44a501f76073b17be17febb0e24912fb54d4ad5259533a90958c70577209b445",
+  "jsonl_sha256": {
+    "train": "e6fb6a4878a00821d7163f6e013d0a7d788a014eb6052bf36bce42238a75fdfe",
+    "validation": "9f132d85767bb9564d8788887cdd69624db79a34c1a8b473f6601428703035ad",
+    "test": "3f8451cbd132cee88754fa9308f95c9b9a336205066a68352d375e7979c1fd47"
+  },
+  "code_sha256": {
+    "prepare.py": "b607739e991b75c09532ed4c35ddba9f9b1559d1118219c903dc3db5f08b8c06",
+    "common.py": "5a5ba20436a703af2098592813f06fd819278e96d7b53bfc627c321343ebb5f0"
+  },
+  "model_id": "Qwen/Qwen2-VL-2B-Instruct",
+  "prompt": "The diagram shows a soccer shot at contact. Goal is at the top. Gold star: shooter. Blue circles: teammates. Red circles: opposing outfield players. Orange square: opposing goalkeeper. Estimate the probability of a goal from this situation. Body part, ball height and previous motion are not supplied.",
+  "representation": "New deterministic 512x512 Pillow half-pitch renderer; identical for both supervised arms. Not the legacy benchmark renderer.",
+  "model_inputs": "Only positional diagram and fixed generic prompt. No body part, numerical coordinates, outcome, xG reference, match/competition identity or previous predictions.",
+  "objective": "Unweighted binary cross-entropy on observed goal/no-goal; sigmoid probability at inference. No generated numeric targets or teacher xG labels.",
+  "arms": [
+    "frozen_quantized_vlm_plus_linear_head",
+    "qlora_text_attention_plus_same_linear_head"
+  ],
+  "references": [
+    "training_goal_rate",
+    "image_feature_logistic",
+    "logistic_with_header",
+    "statsbomb_xg"
+  ],
+  "primary_metric": "Brier score",
+  "secondary_metrics": [
+    "log_loss",
+    "AUC",
+    "reliability",
+    "per_competition"
+  ],
+  "training": {
+    "epochs": 3,
+    "micro_batch": 1,
+    "gradient_accumulation": 8,
+    "adapter_lr": 0.0002,
+    "head_lr": 0.001,
+    "weight_decay": 0.01,
+    "lora_rank": 8,
+    "lora_alpha": 16,
+    "lora_dropout": 0.05,
+    "adapter_modules": "Text attention q_proj/v_proj only; vision encoder frozen",
+    "image_pixels": 200704,
+    "checkpoint_selection": "lowest complete-epoch validation Brier",
+    "class_weights": false,
+    "resampling": false,
+    "max_seconds_per_arm": 3600
+  },
+  "test_policy": "Test labels are not loaded by training/checkpoint selection; separate explicit evaluation after both arms are fixed.",
+  "interpretation": "Exploratory supervised study on previously used matches. Training/validation/test are disjoint here, but this is not independent confirmation of earlier zero-shot studies.",
+  "budget": {
+    "new_paid_api_calls": 0,
+    "per_model_api_cap_usd": 10,
+    "cloud_gpu_jobs": 0,
+    "local_compute_only": true,
+    "note": "No automatic paid service or GPU rental; local compute has no token bill."
+  },
+  "provenance": {
+    "repository": "https://github.com/hudl/open-data",
+    "credit": "StatsBomb",
+    "license": "See StatsBomb repository LICENSE.pdf; retain attribution in publications."
+  }
+}

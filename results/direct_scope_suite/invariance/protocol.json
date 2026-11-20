@@ -1,0 +1,295 @@
+{
+  "name": "invariance",
+  "prompt": "You are a professional football (soccer) analyst.\nThe image shows a shot at the moment it is taken, drawn on a half pitch with the goal at the top.\nGold star = shooter. Blue circles = shooter's teammates. Red circles = opponents.\nOrange square = opposing goalkeeper.\nEstimate the probability that this shot results in a goal (expected goals, xG),\nassuming an average professional finisher.\nReply with JSON only: {\"xg\": <number between 0 and 1>, \"reason\": \"<one short sentence>\"}",
+  "model": "gpt-6-luna",
+  "schedule": [
+    {
+      "shot_id": "9615ffbc-b513-45e6-9ccc-015234483f95",
+      "condition": "mirror",
+      "effort": "low",
+      "image": "images/mirrored/9615ffbc-b513-45e6-9ccc-015234483f95.png",
+      "image_sha256": "e55a89d7235ddd8192e0c921801cf2d2532cfae437c769676f5016e3903359e2"
+    },
+    {
+      "shot_id": "9615ffbc-b513-45e6-9ccc-015234483f95",
+      "condition": "repeat",
+      "effort": "low",
+      "image": "images/rendering/standard/9615ffbc-b513-45e6-9ccc-015234483f95.png",
+      "image_sha256": "dcc4e23292592f5886656f42ca9d17cf2370072d77614ec06c2c97cfddbb1386"
+    },
+    {
+      "shot_id": "db8267ad-256a-450d-997f-382a4d545634",
+      "condition": "mirror",
+      "effort": "low",
+      "image": "images/mirrored/db8267ad-256a-450d-997f-382a4d545634.png",
+      "image_sha256": "9a27034515ac1cf94a1efefee4161bfc2ae01045b881d448437cc0722850c731"
+    },
+    {
+      "shot_id": "db8267ad-256a-450d-997f-382a4d545634",
+      "condition": "repeat",
+      "effort": "low",
+      "image": "images/rendering/standard/db8267ad-256a-450d-997f-382a4d545634.png",
+      "image_sha256": "f6ea4ad4c22fa8323676c59b8ebecbfa45633f70163766becc214ddc4634c167"
+    },
+    {
+      "shot_id": "ddb6f298-8ac3-4d35-bfb7-f03f76b54c1e",
+      "condition": "repeat",
+      "effort": "low",
+      "image": "images/rendering/standard/ddb6f298-8ac3-4d35-bfb7-f03f76b54c1e.png",
+      "image_sha256": "9e9cee94988bab00f514889fb9c18be1819ac6b87d087bddca800bedec4a26a1"
+    },
+    {
+      "shot_id": "ddb6f298-8ac3-4d35-bfb7-f03f76b54c1e",
+      "condition": "mirror",
+      "effort": "low",
+      "image": "images/mirrored/ddb6f298-8ac3-4d35-bfb7-f03f76b54c1e.png",
+      "image_sha256": "cc76b95c088733ccfc8f9d8f5dcb27ee7f513cf6a3e2b1373a3e164bccc8313a"
+    },
+    {
+      "shot_id": "6e57cb5e-fe39-4d22-ab15-155340299c5e",
+      "condition": "repeat",
+      "effort": "low",
+      "image": "images/rendering/standard/6e57cb5e-fe39-4d22-ab15-155340299c5e.png",
+      "image_sha256": "a85aeb8b81a374930bca57289eec320bb32637e05cf3f67235245a5039fdb851"
+    },
+    {
+      "shot_id": "6e57cb5e-fe39-4d22-ab15-155340299c5e",
+      "condition": "mirror",
+      "effort": "low",
+      "image": "images/mirrored/6e57cb5e-fe39-4d22-ab15-155340299c5e.png",
+      "image_sha256": "7b0eb7e682cd9ddbe2207685f63d642e33717c4f826457e7b7c7a38ebdda6abc"
+    },
+    {
+      "shot_id": "9cde5a33-b4a9-4bbe-8ea2-76d7ef1badfc",
+      "condition": "mirror",
+      "effort": "low",
+      "image": "images/mirrored/9cde5a33-b4a9-4bbe-8ea2-76d7ef1badfc.png",
+      "image_sha256": "546b25addc14c54433e81fd798627c78aa24ae3e23faba569e540b54587d9835"
+    },
+    {
+      "shot_id": "9cde5a33-b4a9-4bbe-8ea2-76d7ef1badfc",
+      "condition": "repeat",
+      "effort": "low",
+      "image": "images/rendering/standard/9cde5a33-b4a9-4bbe-8ea2-76d7ef1badfc.png",
+      "image_sha256": "af623573788848082b6b5ef74ef6d9d4415c94090c7fe41fa6996ce54b7829e6"
+    },
+    {
+      "shot_id": "cd7df5a3-11c8-41d0-9ca5-ef6feea55964",
+      "condition": "repeat",
+      "effort": "low",
+      "image": "images/rendering/standard/cd7df5a3-11c8-41d0-9ca5-ef6feea55964.png",
+      "image_sha256": "77af6fc05e33674577cccb5922047c42942b957054a087525222e84702407beb"
+    },
+    {
+      "shot_id": "cd7df5a3-11c8-41d0-9ca5-ef6feea55964",
+      "condition": "mirror",
+      "effort": "low",
+      "image": "images/mirrored/cd7df5a3-11c8-41d0-9ca5-ef6feea55964.png",
+      "image_sha256": "cad90c972bd881cb91eb891b82ec832b40d6c0e8baaf6df1876c8cfbeb935681"
+    },
+    {
+      "shot_id": "b37c4059-f00c-411b-93d6-e3c13355a153",
+      "condition": "repeat",
+      "effort": "low",
+      "image": "images/rendering/standard/b37c4059-f00c-411b-93d6-e3c13355a153.png",
+      "image_sha256": "8603d5aa4cbcb0b3df941bac76fca4a11ff002d5afe775cc958704f8b41b1121"
+    },
+    {
+      "shot_id": "b37c4059-f00c-411b-93d6-e3c13355a153",
+      "condition": "mirror",
+      "effort": "low",
+      "image": "images/mirrored/b37c4059-f00c-411b-93d6-e3c13355a153.png",
+      "image_sha256": "ce5164ad0ed0dc26fbb32e54cf9b1857a600c006418a9d35b7b48ace93a0ef79"
+    },
+    {
+      "shot_id": "58d90922-71f3-410a-bc38-8f5c2019b615",
+      "condition": "mirror",
+      "effort": "low",
+      "image": "images/mirrored/58d90922-71f3-410a-bc38-8f5c2019b615.png",
+      "image_sha256": "c0035e56a4be57ac616a74c377af1c3bcad7c4767e30e9ac4b5eed8424d8ebdb"
+    },
+    {
+      "shot_id": "58d90922-71f3-410a-bc38-8f5c2019b615",
+      "condition": "repeat",
+      "effort": "low",
+      "image": "images/rendering/standard/58d90922-71f3-410a-bc38-8f5c2019b615.png",
+      "image_sha256": "b0875b19e8564b50aea5bdd9ad1eb85dfb4cd178337bb59b59cf443379d99851"
+    },
+    {
+      "shot_id": "90d7ee1b-aa71-4292-ba17-0bcd15e6e03a",
+      "condition": "mirror",
+      "effort": "low",
+      "image": "images/mirrored/90d7ee1b-aa71-4292-ba17-0bcd15e6e03a.png",
+      "image_sha256": "aa4f157cd6fa14990555e8427d5bc04c76e71f343cd3c15b482925b38cefb509"
+    },
+    {
+      "shot_id": "90d7ee1b-aa71-4292-ba17-0bcd15e6e03a",
+      "condition": "repeat",
+      "effort": "low",
+      "image": "images/rendering/standard/90d7ee1b-aa71-4292-ba17-0bcd15e6e03a.png",
+      "image_sha256": "250df52a2afce61d7ba3067732990a4b9d68457bbf013f19e75f6946a4e30ec5"
+    },
+    {
+      "shot_id": "70fe857d-6f28-4b38-8ad7-a655328ec176",
+      "condition": "repeat",
+      "effort": "low",
+      "image": "images/rendering/standard/70fe857d-6f28-4b38-8ad7-a655328ec176.png",
+      "image_sha256": "0f208b25b474991e8b4cc93a922fcf5a0d5ba2cccfb44df689b067f624bd928a"
+    },
+    {
+      "shot_id": "70fe857d-6f28-4b38-8ad7-a655328ec176",
+      "condition": "mirror",
+      "effort": "low",
+      "image": "images/mirrored/70fe857d-6f28-4b38-8ad7-a655328ec176.png",
+      "image_sha256": "67fa76d3756c564a09119563793016d93ebd81fd5e416b6edefa15ac8ff16c1d"
+    },
+    {
+      "shot_id": "90380b1f-260f-42c9-95fb-ae1ca4941ee2",
+      "condition": "repeat",
+      "effort": "low",
+      "image": "images/rendering/standard/90380b1f-260f-42c9-95fb-ae1ca4941ee2.png",
+      "image_sha256": "fe9f4f9b6548215c8123808ac3016f5cc5f1985495d5d011e248aa2ad6676955"
+    },
+    {
+      "shot_id": "90380b1f-260f-42c9-95fb-ae1ca4941ee2",
+      "condition": "mirror",
+      "effort": "low",
+      "image": "images/mirrored/90380b1f-260f-42c9-95fb-ae1ca4941ee2.png",
+      "image_sha256": "8a1e06bec7923e3b090a326220488913bb0b714f331f9c916209abf4c2054e70"
+    },
+    {
+      "shot_id": "b5d4b6d2-2276-4827-ad51-fd13e52e6ecf",
+      "condition": "mirror",
+      "effort": "low",
+      "image": "images/mirrored/b5d4b6d2-2276-4827-ad51-fd13e52e6ecf.png",
+      "image_sha256": "f333a3d2d8feeb8e657a91c28d78685a3a4a3a80d360e6e76c120350ffbe8881"
+    },
+    {
+      "shot_id": "b5d4b6d2-2276-4827-ad51-fd13e52e6ecf",
+      "condition": "repeat",
+      "effort": "low",
+      "image": "images/rendering/standard/b5d4b6d2-2276-4827-ad51-fd13e52e6ecf.png",
+      "image_sha256": "88a40a4ed3c6a73ac7070eb7da1d7a4d06b25e80a3613f0408c8dbc36e6ff509"
+    },
+    {
+      "shot_id": "be17203f-f93a-4a28-9704-0d0783b29be2",
+      "condition": "mirror",
+      "effort": "low",
+      "image": "images/mirrored/be17203f-f93a-4a28-9704-0d0783b29be2.png",
+      "image_sha256": "74b6a664f8078f9ac733639681302ab21c31b130bbdff220cdc5600ba4b498fc"
+    },
+    {
+      "shot_id": "be17203f-f93a-4a28-9704-0d0783b29be2",
+      "condition": "repeat",
+      "effort": "low",
+      "image": "images/rendering/standard/be17203f-f93a-4a28-9704-0d0783b29be2.png",
+      "image_sha256": "7f0e241068f6079d9ad6b4f2b3e04d5bfcd7548174b93d1ff94d4bd762450a87"
+    },
+    {
+      "shot_id": "095adc8d-612d-445a-9a9a-33100ece166c",
+      "condition": "repeat",
+      "effort": "low",
+      "image": "images/rendering/standard/095adc8d-612d-445a-9a9a-33100ece166c.png",
+      "image_sha256": "268d075b60409fbddddd2c91090d468d1507bf098932c0e5ded6a009f2d6f8e9"
+    },
+    {
+      "shot_id": "095adc8d-612d-445a-9a9a-33100ece166c",
+      "condition": "mirror",
+      "effort": "low",
+      "image": "images/mirrored/095adc8d-612d-445a-9a9a-33100ece166c.png",
+      "image_sha256": "88dcc1446e0baf22d6b63ec381cbb8f47b445a058701078605aca4bee1817eba"
+    },
+    {
+      "shot_id": "9747c65f-740c-42bb-87a9-a309a35acf08",
+      "condition": "mirror",
+      "effort": "low",
+      "image": "images/mirrored/9747c65f-740c-42bb-87a9-a309a35acf08.png",
+      "image_sha256": "2b6c3176b9cc187497f25d2d3e5133a6d3f9c72a15f4a83fa40e23b3aea1c425"
+    },
+    {
+      "shot_id": "9747c65f-740c-42bb-87a9-a309a35acf08",
+      "condition": "repeat",
+      "effort": "low",
+      "image": "images/rendering/standard/9747c65f-740c-42bb-87a9-a309a35acf08.png",
+      "image_sha256": "231d3e458d6a5683331f247bc27ce172c5c411cea75fc35b520125767a41dd3f"
+    },
+    {
+      "shot_id": "547ca4c3-bd06-4274-a82b-98622617e165",
+      "condition": "repeat",
+      "effort": "low",
+      "image": "images/rendering/standard/547ca4c3-bd06-4274-a82b-98622617e165.png",
+      "image_sha256": "edfa2cab11bbf48a8cd022c0a9732eb0f9cdce121c195927d745003c1a14aca4"
+    },
+    {
+      "shot_id": "547ca4c3-bd06-4274-a82b-98622617e165",
+      "condition": "mirror",
+      "effort": "low",
+      "image": "images/mirrored/547ca4c3-bd06-4274-a82b-98622617e165.png",
+      "image_sha256": "76b57f989d8bf0b41d2e235b1f2d9fee4c6d64a1820e7e886b58011d4b9e3891"
+    },
+    {
+      "shot_id": "9cc86132-6a78-440a-b926-2926ddd6946f",
+      "condition": "mirror",
+      "effort": "low",
+      "image": "images/mirrored/9cc86132-6a78-440a-b926-2926ddd6946f.png",
+      "image_sha256": "1d229097d1315c5004aaf3799b4db067f2db0851d40362c861f700db9ebb8d3e"
+    },
+    {
+      "shot_id": "9cc86132-6a78-440a-b926-2926ddd6946f",
+      "condition": "repeat",
+      "effort": "low",
+      "image": "images/rendering/standard/9cc86132-6a78-440a-b926-2926ddd6946f.png",
+      "image_sha256": "6e184bd33fc0fbf52dabaad749358ce5801cd338fbc855fb8c47fe46e7e5f617"
+    },
+    {
+      "shot_id": "9e674fd1-9541-42e1-921f-a8ccbed1d7c6",
+      "condition": "mirror",
+      "effort": "low",
+      "image": "images/mirrored/9e674fd1-9541-42e1-921f-a8ccbed1d7c6.png",
+      "image_sha256": "438457c30485d74ae76d1533924b93863d97a44862dfd73b11371941cd978f8f"
+    },
+    {
+      "shot_id": "9e674fd1-9541-42e1-921f-a8ccbed1d7c6",
+      "condition": "repeat",
+      "effort": "low",
+      "image": "images/rendering/standard/9e674fd1-9541-42e1-921f-a8ccbed1d7c6.png",
+      "image_sha256": "500c519109250bdef0ea54fbf1965d88f971e7c0eb1b027ca9754de1c449765b"
+    },
+    {
+      "shot_id": "b85a7aad-d825-414a-bc3b-836ff6fbff82",
+      "condition": "mirror",
+      "effort": "low",
+      "image": "images/mirrored/b85a7aad-d825-414a-bc3b-836ff6fbff82.png",
+      "image_sha256": "390d38382b1a51c1562bd133b017a912144059f80143e9f70e1b75ef9e25131c"
+    },
+    {
+      "shot_id": "b85a7aad-d825-414a-bc3b-836ff6fbff82",
+      "condition": "repeat",
+      "effort": "low",
+      "image": "images/rendering/standard/b85a7aad-d825-414a-bc3b-836ff6fbff82.png",
+      "image_sha256": "ba1436ca6129bae7cc70f3d6c40c00bf8b67a9263ef9ed2337e72392eb34d661"
+    },
+    {
+      "shot_id": "0337c5e5-aaeb-4704-a6c6-35590a5cb9a0",
+      "condition": "mirror",
+      "effort": "low",
+      "image": "images/mirrored/0337c5e5-aaeb-4704-a6c6-35590a5cb9a0.png",
+      "image_sha256": "12f0a6e1f7a4915c3f60de55cf94900c6d24be0da0eb45503dba6c2b75e9c473"
+    },
+    {
+      "shot_id": "0337c5e5-aaeb-4704-a6c6-35590a5cb9a0",
+      "condition": "repeat",
+      "effort": "low",
+      "image": "images/rendering/standard/0337c5e5-aaeb-4704-a6c6-35590a5cb9a0.png",
+      "image_sha256": "7429d0d2e071ca1ec9bd61ceafd1a1aaf63027c107cf783fbb710167d05c5e09"
+    }
+  ],
+  "metadata": {
+    "primary": "Mean absolute change for mirror minus exact-repeat, against reused original standard readings; match-bootstrap interval.",
+    "diagnostic": "20 development scenes; reflection keeps goal at top and all spatial relationships mirrored. Unknown body part; approximate symmetry expected, not strict physical equivalence.",
+    "selection": "First 20 prespecified rendering shots; no outcome or prediction selection; no probability averaging or adjustment."
+  },
+  "common_protocol_sha256": "352742c1fcf5afac503f466dd396f4d3c020e8377e119d8c134b93846e6ffe5f",
+  "engine_sha256": "3508dde508c8267ff49cfe9f316cd912b7a0eb5c51f7a87f5ab8455ea7ebef7b",
+  "runner_sha256": "02717bf02d122d6f798ebe0fa600ee0a5ad5b392b92661e55c4063803f699fab"
+}

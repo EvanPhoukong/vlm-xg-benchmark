@@ -1,0 +1,12 @@
+{
+  "status": "incomplete",
+  "reason": "API credit balance exhausted",
+  "api_error_code": "credit_balance_exhausted",
+  "completed_shots": 46,
+  "target_shots": 200,
+  "successful_second_readings": 46,
+  "successful_third_readings": 9,
+  "recorded_utc": "2026-10-23T04:17:14.538905+00:00",
+  "partial_cohort_scored": false,
+  "resume": "After credits are available, rerun unchanged confirm_best_vision.py to reuse the cache."
+}

@@ -1,0 +1,15 @@
+{
+  "implementation_sha256": "56546c0752fb5e7ccd66df42cfdcdddce3613dfcffde44766f61dd908128f7e0",
+  "chosen_method": "multiview_noise_head",
+  "selection": "Lowest screening Euro Brier among multiple-reading and four-example pipelines, each with current or noise-trained head; no fresh outcomes used.",
+  "screening_brier": 0.0727462450369806,
+  "selection_inputs_sha256": {
+    "multiview": "3477796876ca7c027fa6984003f16aa7a9528c70bc3e6c8ab414a61134328bd8",
+    "fewshot": "ae8c6768722d5d6d058dfcded68670ffc9fc7158491fcb09f41929a7afd8a876"
+  },
+  "selection_sha256": "68cee32eb336f1d2675c9fcb8cdfe4280f3501a09000ea03b827e1490a69644f",
+  "vision_implementation_sha256": "dc5dd492118a73ae91dba651645e11d3cad85de96c12b3085d0246cb40fefd40",
+  "noise_models_sha256": "a5558f24e6ad710d77936446d097b9fa32c41ef3e1eb19c2f1ca78041bc659ee",
+  "purpose": "Secondary prospective confirmation of the strongest screening image-only VLM pipeline. Selected and frozen before fresh baseline scores exist.",
+  "comparisons": "Best VLM vs noise-only, simple known-coordinate baseline and StatsBomb; report 98.333% Bonferroni intervals across these three secondary comparisons."
+}

@@ -1,0 +1,123 @@
+{
+  "id": "resp_0b958415240a4ba6016ae41cf55e3887d0a433ac9adad2ad64",
+  "object": "response",
+  "created_at": 1793334517,
+  "status": "completed",
+  "access_programs": null,
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1793334520,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": 4096,
+  "max_tool_calls": null,
+  "model": "gpt-6-astra",
+  "moderation": null,
+  "output": [
+    {
+      "id": "rs_0b958415240a4ba6016ae41cf645e087d0b3fb5767c9ea98ca",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq5Bz4fdf3qmYXqmU1MPJOf3OBLdzWuM_IHFeCfsbFLUiySp12MsJOfE22WZAYkl2gE-9TJZQUlPNVS2p_-e-Qc6lhqDLzccQSwmhVbmE6L8oqj9DNi34Td16qUD1DkBxxzGuqyx3RbrHcMMs2_tzvz4F5oHRsNBfpOeFlDCX4AapEaYjRZwT2RYVgMexSErBWKExLExnmT7p2Q9Tg7vpcvFoD_MQy-AO0O6HrKGTVl5ppnDFxOkb8AWOLOus7SaEthAhMIFn09R9VdfGMdSBuO1QqciMBkxs8XqsmDEICGEr22AXCRsIp-BbhfZ7sq6AzkY517GTIc3GKvdrHlLXVX7Hix5FabM8e9NDAljANkVNahLmzEkLx_cMV8vIvLl-tMpprhoiy5FzFerq7KGJxxsz0rgRXeTKvZ3H5szxVOXdiTOzt0F71KmPGRm-wEaBH9_-oFoxvkt3pRnIUwIQa4KnQH9aap4ytv4WoxrUB7pD3xkGT608Tm4MwG50hg8jXvsvuoaz4U5_0k-fLnJg7GrYnqkF9avfSoRvxI6I2aPfNljf-AeCUwUDSkXLqrzdSQrYpm9sSYtTyujbl5Jb5F7s7XMXS0KtW2_cZUTeyaTszuCYNDtjCYxx6R8tgwr_xhfb3K4uAEYD7FReA4PPNa3HsMIAaPoT2Ol8GAGRKrndinO7hVC6KIbzv2NXtV8IURd1_TJQgUy1PWfZYqFsyVNEuOQ6x1Lfd-nKDv3waJF8KO6j7o2TyfA2E5bynT7b8VgKpNZTNXZPDBNk2GEh21nZ0arHtTYfgB2PxwAhNo4nj7qI8gTvMrVxHg6X_3rlcOVyKupKOdWdkbghYidw8K-S_SP3y8gfq4SJaIwWYiB5kTRxRBo0X5Y6iJoAogseXy6CtShqmBu7IOt1xUwUodl0jTDq78OSfufoZtUBBv6ovolxXWfhRV_iEnNqNAYg0Vh1WssY3VF8gB4QhFEjQx3tM9iFcy23YPYnzqq1SCYZXGBnO1ZRr6PdLZmQ80lpkzCcMSbzIZLliD4SySrf0X9XbgBrnyskfuxJ4cx972waoyRU7y4edXPSK-vn_bEgmXGXWsT6ksYirmt0gIX7ArDAyjNcamIKp3ExQKSox9lUgHiq70FbjmI0tKV1groKTF9uHQunB-YhwY4lL3CS6dZozpzPrbAZHDsmK0_krspHk-I6T6ON_LAraH4Whb-z4PmEm1KcGhaEva27X2MesExxtSat-2dVO3bqiXJnSSvzCODknNpaGbzAebKwFMv3o1XW7hZBYKHYTFOB358MFusOh6kcBEl6GTqZZWGiAN5ZRUtTsPZrQD4rcmWyJ3qZyMMHlBla6se9-XMBjC-qu7ovPTN12Ls2_57GVfD-pQIDq6MyRkGPDVX0r9sLOgw_TsdnmRffEpKSCnIkpDxhoo0hpdaB_SPG4pMpLdBnEXWSEq0-YTHQcYpE6qIJq3lUr5IJ17BfUNnxYYhRv0lYdhbYsH3T2HXwsrHokQCzghHK0Pd2oeeOnfn6NWMLEWKVBagS8TUUn2RR_uvcXRZ13LHI5EjlYG3rlc8pBILv64OvfdDGCfsvWGY7dmBI4-Rx8aJPmVmFTC7bT200iMVxCMsESGhSfOHyxgfI8-bWZshtLFLPgx9aBFIBpHduKiV1odGPC",
+      "summary": []
+    },
+    {
+      "id": "msg_0b958415240a4ba6016ae41cf7358887d0b1557763e465112b",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"xg\":0.05,\"reason\":\"The shooter is just outside the box at an angle, with nearby defenders and a crowded shooting lane reducing the chance of scoring.\"}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "all_turns",
+    "effort": "low",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": false,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "json_schema",
+      "description": null,
+      "name": "shot_prediction",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "xg": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "reason": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "xg",
+          "reason"
+        ],
+        "additionalProperties": false
+      },
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 431,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 68,
+    "output_tokens_details": {
+      "reasoning_tokens": 22
+    },
+    "total_tokens": 499
+  },
+  "user": null,
+  "metadata": {}
+}

@@ -1,0 +1,7 @@
+Data: xGHub (broadcast frames)
+Eligible shots in the official test split: 30 (5 goals)
+VLM sample: 30 shots (5 goals), observed goal rate 0.167
+VLM: ollama/qwen3.5:4b, zero-shot, context=image only
+
+model              AUC    Brier  LogLoss   MeanXG
+vlm_xg           0.680   0.1858   0.5617    0.400

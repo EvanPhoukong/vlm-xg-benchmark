@@ -1,0 +1,626 @@
+[
+  {
+    "shot_id": "a84dc163-7627-4553-900a-7720ce6b6099",
+    "effort": "medium",
+    "state": "completed",
+    "input_bound": 1455,
+    "started_utc": "2026-10-29T23:20:16Z",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 687,
+      "output_tokens_details": {
+        "reasoning_tokens": 641
+      },
+      "total_tokens": 1118
+    },
+    "response_file": "response_01_medium.json",
+    "seconds": 8.718,
+    "answer": {
+      "xg": 0.27,
+      "reason": "A close-range shot from inside the penalty area has a reasonable angle, but the goalkeeper and nearby defenders make the chance difficult."
+    },
+    "model": "gpt-6-luna"
+  },
+  {
+    "shot_id": "a84dc163-7627-4553-900a-7720ce6b6099",
+    "effort": "low",
+    "state": "completed",
+    "input_bound": 1455,
+    "started_utc": "2026-10-29T23:20:25Z",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 43,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 474
+    },
+    "response_file": "response_02_low.json",
+    "seconds": 2.172,
+    "answer": {
+      "xg": 0.08,
+      "reason": "The shot is from close range near the center, but multiple defenders crowd the shooting lane and the goalkeeper is positioned centrally."
+    },
+    "model": "gpt-6-luna"
+  },
+  {
+    "shot_id": "c0e30aed-d026-4957-8d78-509ab472e2bc",
+    "effort": "medium",
+    "state": "completed",
+    "input_bound": 1455,
+    "started_utc": "2026-10-29T23:20:28Z",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 254,
+      "output_tokens_details": {
+        "reasoning_tokens": 212
+      },
+      "total_tokens": 685
+    },
+    "response_file": "response_03_medium.json",
+    "seconds": 3.766,
+    "answer": {
+      "xg": 0.28,
+      "reason": "The shot is close and fairly central, but the goalkeeper and a dense cluster of defenders obstruct the goal."
+    },
+    "model": "gpt-6-luna"
+  },
+  {
+    "shot_id": "c0e30aed-d026-4957-8d78-509ab472e2bc",
+    "effort": "low",
+    "state": "completed",
+    "input_bound": 1455,
+    "started_utc": "2026-10-29T23:20:32Z",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 311,
+      "output_tokens_details": {
+        "reasoning_tokens": 269
+      },
+      "total_tokens": 742
+    },
+    "response_file": "response_04_low.json",
+    "seconds": 5.859,
+    "answer": {
+      "xg": 0.38,
+      "reason": "The shot is from very close and nearly central, but the goalkeeper and several defenders crowd the shooting lane."
+    },
+    "model": "gpt-6-luna"
+  },
+  {
+    "shot_id": "546c1d65-f1b5-4c42-8983-b743be29f3f8",
+    "effort": "low",
+    "state": "completed",
+    "input_bound": 1455,
+    "started_utc": "2026-10-29T23:20:38Z",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 868,
+      "output_tokens_details": {
+        "reasoning_tokens": 819
+      },
+      "total_tokens": 1299
+    },
+    "response_file": "response_05_low.json",
+    "seconds": 11.781,
+    "answer": {
+      "xg": 0.12,
+      "reason": "The shot is from inside the penalty area but at a tight angle, with several defenders crowding the shooting lane and the goalkeeper in position."
+    },
+    "model": "gpt-6-luna"
+  },
+  {
+    "shot_id": "546c1d65-f1b5-4c42-8983-b743be29f3f8",
+    "effort": "medium",
+    "state": "completed",
+    "input_bound": 1455,
+    "started_utc": "2026-10-29T23:20:50Z",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 713,
+      "output_tokens_details": {
+        "reasoning_tokens": 667
+      },
+      "total_tokens": 1144
+    },
+    "response_file": "response_06_medium.json",
+    "seconds": 8.078,
+    "answer": {
+      "xg": 0.1,
+      "reason": "The shot is from close range but at a noticeable angle, with the goalkeeper set and several defenders crowding the shooting lane."
+    },
+    "model": "gpt-6-luna"
+  },
+  {
+    "shot_id": "d2f58c81-92d6-4a50-811a-2413929f5c1d",
+    "effort": "low",
+    "state": "completed",
+    "input_bound": 1455,
+    "started_utc": "2026-10-29T23:24:39Z",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 407,
+      "output_tokens_details": {
+        "reasoning_tokens": 358
+      },
+      "total_tokens": 838
+    },
+    "response_file": "response_07_low.json",
+    "seconds": 6.5,
+    "answer": {
+      "xg": 0.12,
+      "reason": "The shot is from close range but at a left-sided angle, with several defenders crowding the shooting lane and the goalkeeper covering the goal."
+    },
+    "model": "gpt-6-luna"
+  },
+  {
+    "shot_id": "d2f58c81-92d6-4a50-811a-2413929f5c1d",
+    "effort": "medium",
+    "state": "completed",
+    "input_bound": 1455,
+    "started_utc": "2026-10-29T23:24:46Z",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 794,
+      "output_tokens_details": {
+        "reasoning_tokens": 751
+      },
+      "total_tokens": 1225
+    },
+    "response_file": "response_08_medium.json",
+    "seconds": 9.125,
+    "answer": {
+      "xg": 0.02,
+      "reason": "The shot is from roughly 30 metres at a narrow angle, with several defenders crowding the goal area."
+    },
+    "model": "gpt-6-luna"
+  },
+  {
+    "shot_id": "c5b9e95f-da7a-4d83-a43a-82e211f8cb5a",
+    "effort": "medium",
+    "state": "completed",
+    "input_bound": 1455,
+    "started_utc": "2026-10-29T23:24:55Z",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 363,
+      "output_tokens_details": {
+        "reasoning_tokens": 321
+      },
+      "total_tokens": 794
+    },
+    "response_file": "response_09_medium.json",
+    "seconds": 4.859,
+    "answer": {
+      "xg": 0.03,
+      "reason": "The shot is central but from roughly 29 metres out, with several defenders crowding the shooting lane."
+    },
+    "model": "gpt-6-luna"
+  },
+  {
+    "shot_id": "c5b9e95f-da7a-4d83-a43a-82e211f8cb5a",
+    "effort": "low",
+    "state": "completed",
+    "input_bound": 1455,
+    "started_utc": "2026-10-29T23:25:00Z",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 331,
+      "output_tokens_details": {
+        "reasoning_tokens": 285
+      },
+      "total_tokens": 762
+    },
+    "response_file": "response_10_low.json",
+    "seconds": 6.141,
+    "answer": {
+      "xg": 0.03,
+      "reason": "The shot is central but from well outside the penalty area, with several defenders crowding the shooting lane and the goalkeeper set."
+    },
+    "model": "gpt-6-luna"
+  },
+  {
+    "shot_id": "9c16738b-cf6c-4669-a694-276a322ff6d8",
+    "effort": "low",
+    "state": "completed",
+    "input_bound": 1455,
+    "started_utc": "2026-10-29T23:25:07Z",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 395,
+      "output_tokens_details": {
+        "reasoning_tokens": 349
+      },
+      "total_tokens": 826
+    },
+    "response_file": "response_11_low.json",
+    "seconds": 6.297,
+    "answer": {
+      "xg": 0.38,
+      "reason": "The shot is from close range at a relatively tight angle, but the goalkeeper and several defenders are clustered around the shooting lane."
+    },
+    "model": "gpt-6-luna"
+  },
+  {
+    "shot_id": "9c16738b-cf6c-4669-a694-276a322ff6d8",
+    "effort": "medium",
+    "state": "completed",
+    "input_bound": 1455,
+    "started_utc": "2026-10-29T23:25:13Z",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 359,
+      "output_tokens_details": {
+        "reasoning_tokens": 314
+      },
+      "total_tokens": 790
+    },
+    "response_file": "response_12_medium.json",
+    "seconds": 4.875,
+    "answer": {
+      "xg": 0.24,
+      "reason": "The shot is from close range but at a tight angle, with the goalkeeper and several defenders crowding the shooting lane."
+    },
+    "model": "gpt-6-luna"
+  },
+  {
+    "shot_id": "2be63b79-06c8-46a1-8688-d5257673d4d9",
+    "effort": "low",
+    "state": "completed",
+    "input_bound": 1455,
+    "started_utc": "2026-10-29T23:25:44Z",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 291,
+      "output_tokens_details": {
+        "reasoning_tokens": 246
+      },
+      "total_tokens": 722
+    },
+    "response_file": "response_13_low.json",
+    "seconds": 5.75,
+    "answer": {
+      "xg": 0.08,
+      "reason": "The shot is from a moderate distance at a fairly tight angle, with the goalkeeper and several defenders obstructing the goal."
+    },
+    "model": "gpt-6-luna"
+  },
+  {
+    "shot_id": "2be63b79-06c8-46a1-8688-d5257673d4d9",
+    "effort": "medium",
+    "state": "completed",
+    "input_bound": 1455,
+    "started_utc": "2026-10-29T23:25:49Z",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 412,
+      "output_tokens_details": {
+        "reasoning_tokens": 367
+      },
+      "total_tokens": 843
+    },
+    "response_file": "response_14_medium.json",
+    "seconds": 5.515,
+    "answer": {
+      "xg": 0.06,
+      "reason": "The shot is from a fairly acute angle inside the box, with the goalkeeper and several defenders crowding the goalmouth."
+    },
+    "model": "gpt-6-luna"
+  },
+  {
+    "shot_id": "f1ea3de4-8ca4-4ce0-8aeb-e18c3681742d",
+    "effort": "medium",
+    "state": "completed",
+    "input_bound": 1455,
+    "started_utc": "2026-10-29T23:25:55Z",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 347,
+      "output_tokens_details": {
+        "reasoning_tokens": 301
+      },
+      "total_tokens": 778
+    },
+    "response_file": "response_15_medium.json",
+    "seconds": 4.547,
+    "answer": {
+      "xg": 0.3,
+      "reason": "A central shot from roughly 9\u201310 metres has good scoring potential, but nearby defenders and the goalkeeper make it difficult."
+    },
+    "model": "gpt-6-luna"
+  },
+  {
+    "shot_id": "f1ea3de4-8ca4-4ce0-8aeb-e18c3681742d",
+    "effort": "low",
+    "state": "completed",
+    "input_bound": 1455,
+    "started_utc": "2026-10-29T23:26:00Z",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 426,
+      "output_tokens_details": {
+        "reasoning_tokens": 384
+      },
+      "total_tokens": 857
+    },
+    "response_file": "response_16_low.json",
+    "seconds": 7.156,
+    "answer": {
+      "xg": 0.22,
+      "reason": "The shot is central from around the penalty spot, but the goalkeeper and several defenders crowd the shooting lane."
+    },
+    "model": "gpt-6-luna"
+  },
+  {
+    "shot_id": "711ae41d-8fee-4b6d-9362-4006c7d12b5a",
+    "effort": "medium",
+    "state": "completed",
+    "input_bound": 1455,
+    "started_utc": "2026-10-29T23:26:07Z",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1307,
+      "output_tokens_details": {
+        "reasoning_tokens": 1259
+      },
+      "total_tokens": 1738
+    },
+    "response_file": "response_17_medium.json",
+    "seconds": 13.843,
+    "answer": {
+      "xg": 0.09,
+      "reason": "The shot is from around 11 metres at a fairly tight angle, with the goalkeeper set and several defenders crowding the shooting lane."
+    },
+    "model": "gpt-6-luna"
+  },
+  {
+    "shot_id": "711ae41d-8fee-4b6d-9362-4006c7d12b5a",
+    "effort": "low",
+    "state": "completed",
+    "input_bound": 1455,
+    "started_utc": "2026-10-29T23:26:21Z",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 297,
+      "output_tokens_details": {
+        "reasoning_tokens": 252
+      },
+      "total_tokens": 728
+    },
+    "response_file": "response_18_low.json",
+    "seconds": 4.813,
+    "answer": {
+      "xg": 0.38,
+      "reason": "The shot is from close range with a reasonable angle, but the goalkeeper and several defenders are tightly positioned around the shooter."
+    },
+    "model": "gpt-6-luna"
+  },
+  {
+    "shot_id": "605589a6-a83f-4533-b88f-a8e775efa581",
+    "effort": "medium",
+    "state": "completed",
+    "input_bound": 1455,
+    "started_utc": "2026-10-29T23:26:26Z",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 475,
+      "output_tokens_details": {
+        "reasoning_tokens": 427
+      },
+      "total_tokens": 906
+    },
+    "response_file": "response_19_medium.json",
+    "seconds": 5.578,
+    "answer": {
+      "xg": 0.28,
+      "reason": "The shot is from close range inside the box, but the angle is somewhat tight and nearby defenders and the goalkeeper constrain the goal opening."
+    },
+    "model": "gpt-6-luna"
+  },
+  {
+    "shot_id": "605589a6-a83f-4533-b88f-a8e775efa581",
+    "effort": "low",
+    "state": "completed",
+    "input_bound": 1455,
+    "started_utc": "2026-10-29T23:26:32Z",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 375,
+      "output_tokens_details": {
+        "reasoning_tokens": 331
+      },
+      "total_tokens": 806
+    },
+    "response_file": "response_20_low.json",
+    "seconds": 6.437,
+    "answer": {
+      "xg": 0.22,
+      "reason": "The shot is from close range with a reasonable angle, but nearby defenders and the goalkeeper make the attempt heavily contested."
+    },
+    "model": "gpt-6-luna"
+  },
+  {
+    "shot_id": "8aa0fcc9-cdaa-47ab-b593-ec0343ad1843",
+    "effort": "medium",
+    "state": "completed",
+    "input_bound": 1455,
+    "started_utc": "2026-10-29T23:26:39Z",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 276,
+      "output_tokens_details": {
+        "reasoning_tokens": 230
+      },
+      "total_tokens": 707
+    },
+    "response_file": "response_21_medium.json",
+    "seconds": 4.063,
+    "answer": {
+      "xg": 0.32,
+      "reason": "A close, central shot from inside the penalty area has a good chance, but the goalkeeper and nearby defenders make it difficult."
+    },
+    "model": "gpt-6-luna"
+  },
+  {
+    "shot_id": "8aa0fcc9-cdaa-47ab-b593-ec0343ad1843",
+    "effort": "low",
+    "state": "completed",
+    "input_bound": 1455,
+    "started_utc": "2026-10-29T23:26:43Z",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 475,
+      "output_tokens_details": {
+        "reasoning_tokens": 428
+      },
+      "total_tokens": 906
+    },
+    "response_file": "response_22_low.json",
+    "seconds": 6.969,
+    "answer": {
+      "xg": 0.28,
+      "reason": "A central shot from roughly 11 metres has good scoring potential, but the goalkeeper is set and nearby defenders crowd the shooting lane."
+    },
+    "model": "gpt-6-luna"
+  },
+  {
+    "shot_id": "9000f0f2-73ed-4a71-917d-2d525af7ba80",
+    "effort": "medium",
+    "state": "completed",
+    "input_bound": 1455,
+    "started_utc": "2026-10-29T23:26:50Z",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 298,
+      "output_tokens_details": {
+        "reasoning_tokens": 257
+      },
+      "total_tokens": 729
+    },
+    "response_file": "response_23_medium.json",
+    "seconds": 4.594,
+    "answer": {
+      "xg": 0.03,
+      "reason": "The shot is from outside the box at moderate range, with several defenders crowding the shooting lane."
+    },
+    "model": "gpt-6-luna"
+  },
+  {
+    "shot_id": "9000f0f2-73ed-4a71-917d-2d525af7ba80",
+    "effort": "low",
+    "state": "completed",
+    "input_bound": 1455,
+    "started_utc": "2026-10-29T23:26:55Z",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 46,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 477
+    },
+    "response_file": "response_24_low.json",
+    "seconds": 1.954,
+    "answer": {
+      "xg": 0.12,
+      "reason": "The shot is from close range but slightly left of center, with several defenders crowding the shooting lane and the goalkeeper positioned in goal."
+    },
+    "model": "gpt-6-luna"
+  }
+]

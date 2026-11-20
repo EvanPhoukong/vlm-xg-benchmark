@@ -1,0 +1,136 @@
+{
+  "input": "/home/evan/xG_Research/vlm-xg-benchmark/results/gpt_6_luna/shots.csv",
+  "input_sha256": "2e90d6ca89461354e5bd34b8bdcc966b2306834e5bacb92fe4597dc697ea2954",
+  "shots": 50,
+  "seed": 7,
+  "model": "gpt-6-luna",
+  "prompt": "Read the geometry of this football shot diagram, not its scoring probability.\nThe goal is at the top. Gold star = shooter; blue circles = teammates;\nred circles = opponents; orange square = opposing goalkeeper.\n\nUse normalized pitch units, not meters. The full pitch is 120 units long and\n80 units wide; the picture shows the attacking half. Goal width is 8 units.\nThe penalty spot is 12 units from the goal line; penalty-area depth is 18 units;\nsix-yard-area depth is 6 units. Use marker CENTERS for locations.\n\nReport locations relative to the CENTER of the goal on the goal line:\n- lateral: 0 at goal center, negative to IMAGE LEFT, positive to IMAGE RIGHT;\n  the touchlines are -40 and +40. The posts are at lateral -4 and +4.\n- depth: 0 at the goal line, positive DOWN the image into the field;\n  the halfway line is depth 60.\n\nEstimate the shooter's lateral and depth coordinates, the straight-line distance\nfrom the shooter to goal CENTER, and the goal-opening angle in degrees.\nThe goal-opening angle is the angle BETWEEN the two lines from the shooter to\nthe two posts (0 to 180 degrees), not the bearing toward the center of goal.\nAlso locate the opposing goalkeeper, if the orange square is visible.\nReturn null for a measurement that cannot be determined. If the goalkeeper is\nnot visible, set goalkeeper_visible=false and both goalkeeper coordinates=null.\nGive JSON only, using the requested schema. Do not estimate xG.\n",
+  "schema": {
+    "type": "object",
+    "properties": {
+      "shooter_lateral": {
+        "type": [
+          "number",
+          "null"
+        ],
+        "minimum": -44,
+        "maximum": 44
+      },
+      "shooter_depth": {
+        "type": [
+          "number",
+          "null"
+        ],
+        "minimum": -4,
+        "maximum": 64
+      },
+      "shot_distance": {
+        "type": [
+          "number",
+          "null"
+        ],
+        "minimum": 0,
+        "maximum": 100
+      },
+      "goal_angle_degrees": {
+        "type": [
+          "number",
+          "null"
+        ],
+        "minimum": 0,
+        "maximum": 180
+      },
+      "goalkeeper_visible": {
+        "type": "boolean"
+      },
+      "goalkeeper_lateral": {
+        "type": [
+          "number",
+          "null"
+        ],
+        "minimum": -44,
+        "maximum": 44
+      },
+      "goalkeeper_depth": {
+        "type": [
+          "number",
+          "null"
+        ],
+        "minimum": -4,
+        "maximum": 64
+      }
+    },
+    "required": [
+      "shooter_lateral",
+      "shooter_depth",
+      "shot_distance",
+      "goal_angle_degrees",
+      "goalkeeper_visible",
+      "goalkeeper_lateral",
+      "goalkeeper_depth"
+    ],
+    "additionalProperties": false
+  },
+  "settings": {
+    "reasoning_effort": "low",
+    "image_detail": "high",
+    "max_output_tokens": 2048
+  },
+  "request_signature": "c57699c212e45fcb98feb882432210bb4fbd4abffb6721aebece5a44a5f326c2",
+  "selection": [
+    "ce3f29de-9ef9-4f98-88a2-12d09c20c0c3",
+    "39f1b4e4-757e-4c37-b42d-b52826448257",
+    "80f6a8f8-8c52-49e0-ba91-32b59cbe6330",
+    "4232fdf4-5a2b-47bf-ae3b-0f5fdeea3684",
+    "64d9bf0a-3845-4cfa-b1f8-e81c4341f568",
+    "eae27d9b-4c57-427b-8b4c-6e7cd0f1b5cb",
+    "a638d5f3-6820-4295-80f9-51ce1021ac4e",
+    "ca8ff3c0-c049-435d-830a-3979bf1181e5",
+    "24f06115-ff02-43b0-9381-e895e38a736f",
+    "97e2dd79-ed15-412c-b0c5-f73564e5d13d",
+    "4d09313e-118e-459a-9ee8-01dc7a56f08f",
+    "c15dc8c4-2d91-435a-a390-11fd17a2bf2f",
+    "e0b68076-fbac-4918-b206-97d14b9d2e42",
+    "62fb7c39-248e-4bf9-8386-762a65c8c4d6",
+    "e32629f1-a105-440c-8bfa-fdfebd076f4a",
+    "b0746354-fb11-4c00-916e-2ffe9303599d",
+    "026c0f2c-4a2f-489f-a26b-9bd76966366b",
+    "4c292e31-05ce-4f6f-a5d1-5e5d408b26e6",
+    "feec1a47-a09f-40a8-b376-83235a04f754",
+    "994da29b-03e4-4354-94fa-09955eeb2744",
+    "535b2a25-6aaf-4936-8390-841cd52843ea",
+    "52b8141b-59ae-4ae1-8509-7ac620e4c9e1",
+    "9e674fd1-9541-42e1-921f-a8ccbed1d7c6",
+    "e534d589-ffb5-42c2-a449-541547acec89",
+    "480e1191-458e-4d33-af33-5c6fdf422fe0",
+    "f951c284-4260-4f72-a737-c5cd541fcefa",
+    "7cec90dd-6f0f-48db-8475-02056b3807d6",
+    "5f66b1e6-4264-46d4-bf52-ec9e834b12c6",
+    "40c60798-23de-4690-ab6b-47b58c1f58c4",
+    "605589a6-a83f-4533-b88f-a8e775efa581",
+    "519a5012-c032-4962-bc66-7b72b7533891",
+    "0fcd16e1-49bb-45f6-9cd6-90db37fc3cdc",
+    "78b596e2-8a04-4d2a-ba99-369f526424a7",
+    "8aafb6ab-26fa-4ccb-87b7-a9c4e9aae35b",
+    "8dd1ce3c-8097-412a-9951-4939e15903f3",
+    "e9d3617f-6951-47d3-a0f0-f99a6bd56390",
+    "01ae7e3c-91d2-4989-9fd8-641f2d55cfe2",
+    "7dc143c8-2c30-4d5e-b227-682e509874b1",
+    "34f546bf-8be7-4a35-9e42-bfd908c2f766",
+    "90d7ee1b-aa71-4292-ba17-0bcd15e6e03a",
+    "ed57db75-dfc9-4bf5-8f72-c85a80bb9829",
+    "c16ca4fa-a630-423d-9594-9b5000b69427",
+    "f1ea3de4-8ca4-4ce0-8aeb-e18c3681742d",
+    "641eb264-6cf2-4608-a8b8-5c2405194994",
+    "5d9a7dee-a394-45bd-a788-6791bcb46e98",
+    "a937340c-4952-453c-9606-d316b920cf67",
+    "76686ee8-2674-4762-a7d0-1b9dc6fb4d10",
+    "8d9322d1-dee7-4ea0-9402-6122d500dcfe",
+    "3c39ef38-538e-4e10-af3d-768e0ed2dcd3",
+    "a4a5da42-0a22-4fd7-9408-fc83c588f603"
+  ],
+  "tolerances": {
+    "distance_and_position_units": 2,
+    "angle_degrees": 5
+  }
+}

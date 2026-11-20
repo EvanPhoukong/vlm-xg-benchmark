@@ -1,0 +1,9 @@
+{
+  "input_bound": 9093,
+  "pool_n": 304,
+  "arms": 5,
+  "max_calls": 1520,
+  "maximum_uncached_reservation_per_shot": 0.1648625,
+  "preview_sha256": "97ef234ef14d23df64cde5935c25136259146678e91b3b18397b7497c2745246",
+  "rule": "Before accuracy inspection, evaluate a prefix of the fixed pool, up to304 shots. At each block choose the largest next1..10 complete shots whose full five-arm maximum uncached/write-cost reservations fit the remaining$10. Reserve all block requests durably before any dispatch. Finish every reserved complete-shot block. Stop before the next complete shot would exceed cap. Cache savings may allow a larger prefix but never change arms/examples. Final cohort is usage-selected, not fixed-N external confirmation."
+}

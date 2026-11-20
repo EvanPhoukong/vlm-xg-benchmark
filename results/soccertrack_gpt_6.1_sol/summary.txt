@@ -1,0 +1,8 @@
+Data: SoccerTrack v2 v1.2, real panoramic pre-shot images
+Prepared official test shots: 30 (7 goals)
+VLM sample: 30 shots (7 goals), observed goal rate 0.233
+VLM: openai/gpt-6.1-sol, zero-shot, context=image only
+
+model              AUC    Brier  LogLoss   MeanXG
+vlm_xg           0.550   0.1909   0.6001    0.115
+Estimated Sol cost at uncached rates: $0.1148

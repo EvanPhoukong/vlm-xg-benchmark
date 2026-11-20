@@ -1,0 +1,56 @@
+{
+  "stage": "rendering",
+  "shots": 40,
+  "goals": 5,
+  "matches": 27,
+  "scores": {
+    "standard": {
+      "brier": 0.087995,
+      "log_loss": 0.29902135936035107,
+      "auc": 0.8542857142857143,
+      "mean_xg": 0.148
+    },
+    "outline": {
+      "brier": 0.09232,
+      "log_loss": 0.3058401794907763,
+      "auc": 0.8314285714285714,
+      "mean_xg": 0.1515
+    },
+    "baseline_xg": {
+      "brier": 0.0781994045613889,
+      "log_loss": 0.2688555665791198,
+      "auc": 0.8571428571428571,
+      "mean_xg": 0.10648141458045543
+    },
+    "sb_xg": {
+      "brier": 0.07171924737324474,
+      "log_loss": 0.256666906166645,
+      "auc": 0.8742857142857143,
+      "mean_xg": 0.1104646806
+    }
+  },
+  "usage": {
+    "input_tokens": 34480,
+    "output_tokens": 23526,
+    "cached_tokens": 0,
+    "reasoning_tokens": 19988,
+    "estimated_usd": 0.015211,
+    "conservative_usd": 0.016073
+  },
+  "conditions": [
+    "standard",
+    "outline"
+  ],
+  "primary": {
+    "first": "outline",
+    "second": "standard",
+    "brier_difference": 0.004325000000000001,
+    "confidence_level": 0.95,
+    "interval": [
+      -0.010951513157894714,
+      0.018251683210436742
+    ],
+    "interpretation": "negative favors first; whole-match resampling; conditions on fixed predictions"
+  },
+  "selected_renderer": "standard"
+}

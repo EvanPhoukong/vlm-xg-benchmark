@@ -1,0 +1,13 @@
+{
+  "competition_id": 9,
+  "season_id": 281,
+  "name": "Bundesliga 2023/24",
+  "matches": 40,
+  "shots": 200,
+  "seed": 20261023,
+  "purpose": "Fresh matches for frozen noise-trained VLM hybrid and pixel control; never retune models using this cohort.",
+  "selection": "Uniform random 40 match IDs before events, then 200 eligible shot IDs without outcome stratification.",
+  "image_condition": "Unchanged single-panel renderer to isolate noise training.",
+  "head_files_sha256": "a5558f24e6ad710d77936446d097b9fa32c41ef3e1eb19c2f1ca78041bc659ee",
+  "context_experiment": "New input set examined separately, never called image-only."
+}

@@ -1,0 +1,129 @@
+{
+  "id": "resp_0a7470dc555655a0016af6c09296a087d0911703db67c3bc23",
+  "object": "response",
+  "created_at": 1794556050,
+  "status": "completed",
+  "access_programs": {
+    "cyber": "standard"
+  },
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1794556056,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "image": {
+    "context_compression": "disabled"
+  },
+  "incomplete_details": null,
+  "input_transformations": [],
+  "instructions": null,
+  "max_output_tokens": 1024,
+  "max_tool_calls": null,
+  "model": "gpt-6.1-sol",
+  "moderation": null,
+  "output": [
+    {
+      "id": "rs_0a7470dc555655a0016af6c093f84c87d095475573e7238f7e",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq9sCYk9VKYqY4hVVGIdyChGJ0Z4oqDKkgNx53QK1j2G9iHHXijiaL5t23P6YM225xj-BHZ6QvLq93ewEAKBtc0IXvaEhSykQqEn7Y1gHDGb-wWuwA5YHpJaBuznae7WGgHQMgLENwTDU6NCTCsAOikvfehJ86qIEshbVswUra1YpRlX0_S05pTsTo9D4EnG08GwmazhSpgmMiamqnTtiTyX5jS5Qpa9KJfmGPbFlZYwKyIYjjfd7NkjV1DpvZ9j-5EeMg05aURchHHxSXmzQN3CWZ57rf-e_NHMuajXD8LlcMlauIS9DJ0CKb_Ym9GpBFzEEoeEBDoCI5_ol8k5VTdjQsVBAsdLhAQsGbgnTUSXy3Zwjb75KyGzgF_FDHxha03QJKgvs0TACHXb7QYjY6ab9oMnBQpqXeJ36FJHEsrG--m5R7DAZpdAaYpmVvkzueZAr_4Z54j2HcvnDpwZIpnhrdLka0hH5mBXaN5k8uPEd0-VPvFlLcbCINrRwWO3usJ4RlhhOkWwbJTww6zSI5okhZ9cZw7WcdX36cEnX0atpiXatgI-ouvksAEeh1wyeVXvfRZyYecTviFQjOxeNHfUBq0J8WAfnn2mqX0yMGgv3Dnb8TNGMfHFUURKIqQJmxZVE97I4jGPwePPwD54cmdqKWxuqIf61LIaCmlzBYUu8bqv-E0qhSqrQSmw6Vr_V1rdBVG0vTSYgd_wQY3oDszDmxbQEHeEoIDOqhc5CmIwGkU_XNphQKcLkPDbMw93Xnc7JPa5oG1diLxbez1YVpWFe8swv8SkfBJ9aSIeX6mF00KjxB_KpkgzznbLA3LABRTi-N6gYOcfXNyJo0ZNwvWWNu6oahCmulBax0asYQGbjlfNLuJRi_Y-ngcA3mlnNiu4PQLgMAd7yIjb2vkGgaiIx6epFrEGE3ll8NWztq51j6L9NgwGTOlnkxehF1nnI4aAEJl70rnl6z9y_ArgpI0SX1kr3fxlGhIymRd_RzYymXCd705E8BxhGchjsH1QrJM34pm72P1s32IKeqyDVK20Vnb4vlxGXAntTQ6rwJLkIvrtX_4nCT8QOHSB-ln7kmKZsy4wtnOHGdS3nKL8s4OYO3VSE1L79qiWwX6GnyLa0JhzX8b0KR5rqJjuXeq9sh5KjU7ULG6SKvWb6mwEtdbBtlF1apNcqV9qho_1rvW4d6rXjIyzid2YJRmdtD8mwgIKdM7o-VghUb8NerSv4SjzRMTOMRQ_r9NG4z3mOqveyFip6lf28eyy7A6_AGyqoMOne64Vb3YFcgzpPmQcDJFeB3w-SdvK0F6MRBvv3h-Is6tMddg1xr5mgc3pa0O_yL9R-74Wy_ApL6zHLHzxyBqjIG0kHAl0urYGwSpgJ6Wp50uCnJCEEDO8ABlipA-lpQh9bJ-nJXz63Yubb8-5NM9VHIsBfo58SeiCSnk0GkrMR8H-lS60kEtYiZw4q0MS3cANB9c_SELI8kDbTKKglem7qgi0RIU5MOkBcT9qjTux22QG6cNE41s7To9XbCHo9J2xEqfzVF6MvUUbO5nVwFgCWS-IZT_EP-aQ_QswAoLLbAMG9fTYO6gO9714hrZafDadMJpgeFlhbjzLeht0AcheCBmQ1R0IRF8Zm1hGZJiHEwO6MJ2wuUaZSVCdl4ODnQnY-22GJ3lCKVVOtEDxU06copVEhlU1a7dEEu_Yq1oaKw0u_1I9MD8srDlJeFaMOY604WEqdIEREuvizpjuTRrNR6MMhoYl0J0GrcsqYYfU9VkvcLBA1bQFW0lsiafI2T-7KhrPQj8wqInIU5aE-GCDMfeuJ6H-_uE2_NjcXXZO6InqvVFHPNSPEsQRw0-XHQKaC68AFcy6Y2iIE9Z2FGgp_XWZlkXNR23EFjzmLsAVfXDveRmHZFKfcAe13vPUUQBABv-_GpTPuglQxz06XYYGI6fH-10phWPrdjouANzc0XBDvxu1ENiT_Q4RqoL2j9tm58Ig3GQ_hCGRGALXsYZHEYNamP5wbEnxCLiKQvsC7Vd0vcpB_obVR4PDrFHUlXvAZGwDaBNDdmuo60tK7tBsnca6tLLZrmkOWnjke0Ad2BZq_kFhH3UryfmLPDlrUfR5uwTwkYKrcKaE3z01bIIRg5iPqvHmO5MkknGG9dnswKRN3kdmbUN6ih1S401Gu-XXyGVj8-8Jyeb2_oJknyn4lzETgdcu_Ng0HOQFFe1OMTqktoKw2RtnitliwqMXWy9CumUNuK92JRLNrbtmhYwGFXJPmoOef8Y44F6iU4PI3NbF6mAw_kT5Ixip2BrScy6CPrJ6s2pjgY0foqKAsj_F0vjonSrX0EZr785RnPpqqGzPvgV2S7MoGYWRf24-Do-yBcG2FhA4BN4xJ_2A4KBM8V6kefkkOgPrbkxuBM21flerb7zMN6UwrONf6C7bdPOwkI1gZhFHRMFJn7M6BwzW9XF8apgnHSlj2_ddE8drGaktIo5rb2faK6bcG2ViwV-At1HUwKOgwLkPe-Swz6XK2txm6X3l_egJRAunYtakaP6N-aVm2ii3CQ_JIJsMV0HByS6pHa3uAhH4I4rx2PAYX5cFx3EHP9_6ZJQr7U5jPn5lSFEDjtMMjcvRhdpV-eGthCgQbyEH9xhak6m2QIHPRTqM61ZXu94lKojUHcmm5mYKX7aCACPcpVOPHyS346NBrieozwqtRp81SJzVT0VTI6EyORzDciuDstN-idzcOkQWlkVjO4Z0phgxY5_3wZhXFmH4jyWyg7f3qWUZTqDcZ-kFITwORu8kR-fHH_1XiHPyXkEyPRGd5SlmwoB47RCYhCMSuQqxL_o9SryXbRVxNg2TrP9FZorDuZ36PvPGZsxjYqx40oM6yGDv_saQagOdoQRMudnSc3u5whgnfCQA_4YlM97GfZ2BFH6O4WPDdrgRrG634BMMUjFYggeRFJC4HTUH-dunWNftVG8Th317dRRwftHffvlkwmkQTkLbwxP785gQmHhaitQm8NhDak6BrJzcZk7RcswwGOa5_MIz__DyYppweC8BjWK0dEZWfoBRaOlYdansc3_6C_iC1RwwsBRO8-7PzA7EmjazxUme9rTwUQlh1fgwNefR803Kei6-60DfSMSbNLbSiuuwh1J1CB8W72C6RQzMkuYPCTZhY4PehDMKyhZDhz5hPmr3dy0RDbzKao9Sf3IcYxq7-MOt4FPVQT3jsU9YDG1-yw9LjIDB5bTbcpho0i1hBRDvf_qM2VgOlsEwGRY34ipDkZIPYq3cp8IfASIz_ovYtH0uLabsaIush2l63Wd97GOkLLLg1OC1E6EVIN2F9hBo2OllvQdY4kdqZn5hWD83kSIijD6lGhe8hfucxj7OJ3U5Q3FK4R1yjrfFSMBMRlq14a4jpFYRF4j_9bFDhqDvAguwHxdeBN-L6wQUJdLaNR8gGs1ky51xn54tU0mIZvGV0c84b0",
+      "summary": []
+    },
+    {
+      "id": "msg_0a7470dc555655a0016af6c0976e3c87d0b5d102ef6533e2bc",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"xg\":0.13,\"reason\":\"The shot appears to come from an angle inside the penalty area, with nearby defenders and the goalkeeper limiting the scoring opportunity.\"}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "all_turns",
+    "effort": "low",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": false,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "json_schema",
+      "description": null,
+      "name": "shot_prediction",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "xg": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "reason": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "xg",
+          "reason"
+        ],
+        "additionalProperties": false
+      },
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 860,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 136,
+    "output_tokens_details": {
+      "reasoning_tokens": 91
+    },
+    "total_tokens": 996
+  },
+  "user": null,
+  "metadata": {}
+}

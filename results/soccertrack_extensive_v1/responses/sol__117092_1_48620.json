@@ -1,0 +1,129 @@
+{
+  "id": "resp_0e16ccd2e489c783016af6bc4bc2e087d098937b23a32c6a58",
+  "object": "response",
+  "created_at": 1794554955,
+  "status": "completed",
+  "access_programs": {
+    "cyber": "standard"
+  },
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1794554961,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "image": {
+    "context_compression": "disabled"
+  },
+  "incomplete_details": null,
+  "input_transformations": [],
+  "instructions": null,
+  "max_output_tokens": 1024,
+  "max_tool_calls": null,
+  "model": "gpt-6.1-sol",
+  "moderation": null,
+  "output": [
+    {
+      "id": "rs_0e16ccd2e489c783016af6bc4e91d487d08585c8649dcfed6e",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq9rxRicJb848-UDHRVL_O0x-RKIFjcbxwME7xhMMFW4nPggrsTOrgVKELX1Z6s8Gf2LdAJUQlhjsH9WBZHoQZE0KnN8BJxx4BAs2LiwoJdey4vEcYVUfgDQcqfH9v8LWy_2ueCYoYCaC85-MMTo-3T_3v1GTLXTB-8yel7sPk1AnrXuawHpGdKc6b24FzvCGcfUkwSuIHwZ-ryBXc9Q-BEo5IuoRJjUeaBGlApT6qs7czAz9juvB1kCHVTMSAM4sMzJSs4vASYiJpFepLJUAJbR48yOqwP2JX5iYAvhJen2b78-yDS8fq_pFhNaBRWs-P11npgKITj4Uida5hOzCTYxjQwMSZQTLYf_FaDvtW7Fi_SJRzW0rKbOeuqheZw3YxBtko0CGQxjdXU4sEiYDYOHWG7TgUx2DZvq-SwqfEVpeJojktf9IBZSIANMk3RneGUlU1qOJeesQnsiqFVwa34j1nbRyMBwEx-ZJg5ZDb8PBYH2fXi3NjxGNIR0P9aX9WtvYfdgrE1CPMK6SuHvZM7MbUPgRyTpwZ8GQUAcRC1QaMvWrGHd-EqahtWxD9c71Q0woeLltNUVtRhCi18NpItml4A2E7t3maea0X3iHM2Q0pwQBmqAL8y2h4TxXGdo0cMuWCIwtX739r0I45q4sL8UusDY7kFf6ml-C580zecuX6A4SaM0lyhHg4brHfZek_V9BtFZELOfap5LEOvyU8ZR2iht4LY87kpjfCKZvD9QVZg8Gf0G1fADL15rfxP9Sx3gYs5heDJ9Kjyb86ad9FBR-wxoXPl_jraQShIHCmP4-GComHVwFVWErH9twyFXqedUzhPN-lGdOV4R1A7E2nKL2kfF1OxysyxkGnHCGfcVyZUSM5BzIUdwy_JdTtOHQMGLAbT5Oh12ghvtQ-MtFXCg10r_n3hPUZbubmVwB_yriWtHKkPGsc6TMgDIWDUJRWObSl-fnm-KcMtK5ZN0I--y2DFx5wMXPKcoUmoIDz_jWj5CDUBV7tZrrhz4dGuthBliMRjU826jT1WDfx56XTQ053dkMLvq_vC-n79BoVBaJV9JkQBsVeqw6BGtDL2pTHmnpeX0TdXQyxVocvrsBwjaOzjIw0ljEoYuGOTQJHdyAWPajGzfXxMs0UhkE5q9ekrPHnGjaW02RRGLqXBLB2sZoNH8t4NGZtfvctMSt4gIaWpQRalFngXwaVJd3XCNL21Ww7wZQU-0kMFKRlUmlNq-B3caSOM1Y47YagQYbNavd1aXyXY2QTSbUeMrtToosJq9DZV_zMH-e571t0eGETICsln-vp-UpRzK8Zd5ZizUVfKlcpObSWvyPhUekjJTBTeYea3NxR-H4MBrOv1LIEhbXGyqz_Rw1nHqBXW49wEB7dXAy6vOpUpBB9_Ofp_AmQ88KGPOCdEWPdhSe0-E5nuWjaEOvuxSHhIbwWqITArBOCDbTUcnxMrsaApwX3KAAgBF2C32WzF9d42Ymrr4Gmq5RA8wFNmJHfhkRTd9HkSRzzG6LExm_Nhg5IVkdgKLrBbhJ4ShtvVr_mgtlUoQmiS8IarUbx4_8jMu9Ulmkb5bfpHbM1zy_vlUKXDiySjmyH27ywBx4SY2bdcDlwUTgh48B5IWVU0T_8IpxJJLKxsyuQYMETrCBLPnux-9YIddvqgn2mqChCEejoUtWiHPgTca2vViimu5xkN7B1tJr75eF1hlP9oS2jJCVkEQgpZsnEqCdIbtkP7D9rtN2q71YD107iNoXBbaKzo4dkg8w1IgKAFtZgddAlIeWwSKRU_3yfFnMUBYSYiefdlyXs-XH5FpKzPhpHxtArdzlKZ-ZK80FoYYlrHli6IisWAKgWu0J6PLIA3LJ_0HXdOse-LWyhTsfNO-r8_oBJe1MoYs-WibQOtpOFoSTofgZr96p4pNMix7z3DSR_pYwmX1NX3p2YsCWa3oOb-Rgy_42u4EwO49Odhnz4Mb1tskinivPKFLG9c7VUoI_UqVScrxsmBp8VjDHl9sQ3OV1JizyACH84Qy5tQtmrC4xm86f1iekbQVYVD8YuW3s46ToEcGulxwHzRkFXw2tKEEa6uaSKbGqjXK5xZPit8kCtsUlOtoeatBDeyIv6LdoKMvplI-v4saZAJgEeHh4-C5O6mJzgVx65BLWwmHqUXw-lfuWDsql4-Bo9IpBUH5K7Qa99KoTH8lTQw9Wex_OBfFQdnaLs0v61WdgGA1MJL8YVgyZztRjvfQMxtLPEUD6SdntcX8A6TsZg3v5S52avMCOPhBcu_VgNxrQAlao2SJGP-JGh3BRNdU6kq7q4hfTIbMi0yDPm0-Pg7G2e4wxtPbxYZjYSRZBCNFLQBakT-aDl2A8ItcRV7VxW7V52KimLhMLkk4ifJnla9YaMDJVtWOvD1Hi8b-NW05YpWzeGjMfzf0PYXsHp9l9D2LQF21QHDyuAIgqRUsnxCTO4DpNkXvEAyFk-cQ4xOF1VH5zG6zuQAtK56nTh88A_ySeh-YgmdIBupW5ReEtoaMKkCR7uVsJlL6lbL_8Ki1YBZLAibDO1rH8Qt6oRvoklmwWr5fQd4VCPYh_JgkOeCH70em2gWtsv9f5HfiIuLzDwjc4aDWpvWDkR6RNBoBd_wGFipMvL5f_lhVLANTREwdR82iJnUngpUyyLpl327SmcZ7Pol4nH8fp81ovL1MvXLnd7EQICjBCU5-5vcGJ4HIgOxlVkW5OcNIiIBmQXMMnE_-tDUD6e3h7XmmQC1QIpMsC-2xVhI7TV0lvv_dogBD9et8XxydqLn83F2hE3nrglEligcjyyzFI0Nii7DbC2N3H_c2ToWdJKgvTKk5Cw7bJW5iPL9XWbSmWS70bKvztUvQVIp38WJHGsEgG2UuAtiLA7HuufV7y8qWHMK41S2o4cFk9xHs9lY-1qea9qATH1tQyelL_Q06oHjjZjc9-cM2HeJdUomJN14CQAlqviuj4anVO_7eCBHsoi14uxkwTQ-Lh6Sf2zYqxJRJfc20zr52aGe6VHYFboCi4GZV2ipVEIEPLrztKSa31cQ9CLZWexJtVU2Qit1itrzEta-qczg2YI",
+      "summary": []
+    },
+    {
+      "id": "msg_0e16ccd2e489c783016af6bc50b43c87d08e0fd81c7f51a264",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"xg\":0.07,\"reason\":\"The apparent shooter is some distance from goal, with nearby defenders and a goalkeeper positioned to cover the shot.\"}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "all_turns",
+    "effort": "low",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": false,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "json_schema",
+      "description": null,
+      "name": "shot_prediction",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "xg": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "reason": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "xg",
+          "reason"
+        ],
+        "additionalProperties": false
+      },
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 1494,
+    "input_tokens_details": {
+      "cache_write_tokens": 1491,
+      "cached_tokens": 0
+    },
+    "output_tokens": 101,
+    "output_tokens_details": {
+      "reasoning_tokens": 59
+    },
+    "total_tokens": 1595
+  },
+  "user": null,
+  "metadata": {}
+}

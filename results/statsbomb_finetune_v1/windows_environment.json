@@ -1,0 +1,21 @@
+{
+  "platform": "Windows",
+  "base_python": "C:\\Program Files\\WindowsApps\\OpenAI.CodexPrimaryRuntime.v26-1112-737-0_26.1112.737.0_x64__3k8sg7r9htsxt\\dependencies\\python\\python.exe",
+  "training_python": "C:\\Users\\ephou\\AppData\\Local\\Temp\\xg_research_windows_ft_py312\\Scripts\\python.exe",
+  "python_version": "3.12.14",
+  "gpu": "NVIDIA GeForce RTX 5060",
+  "gpu_memory_mib": 8151,
+  "status": "environment_created_package_download_blocked",
+  "network_checks": {
+    "pypi.org": "DNS resolution failed: WinError 11001",
+    "download.pytorch.org": "DNS resolution failed: WinError 11001"
+  },
+  "torch_install_exit_code": 1,
+  "cached_cuda_torch_wheel_available": false,
+  "cached_cpu_torch_seen": "2.14.1+cpu",
+  "new_paid_api_calls": 0,
+  "new_api_spend_usd": 0,
+  "power_shell_script_syntax_checked": true,
+  "powershell_script_launch": "denied: unsigned script; no policy changes attempted",
+  "native_windows_preflight_saved": true
+}

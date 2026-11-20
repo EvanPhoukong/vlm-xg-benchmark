@@ -1,0 +1,61 @@
+{
+  "authorization": "User requested changes that address core errors; only available open data. Keep direct raw xG, no recalibration, $10 provider limits.",
+  "cap_usd": 4.0,
+  "max_attempts": 1200,
+  "max_output_tokens": 4096,
+  "workers": 6,
+  "retries": 0,
+  "rates": {
+    "gpt-6-luna": [
+      0.1,
+      0.01,
+      0.5
+    ],
+    "gpt-6-astra": [
+      10.0,
+      1.0,
+      50.0
+    ]
+  },
+  "arms": {
+    "luna": {
+      "model": "gpt-6-luna",
+      "effort": "low",
+      "examples": null
+    },
+    "astra": {
+      "model": "gpt-6-astra",
+      "effort": "low",
+      "examples": null
+    },
+    "examples": {
+      "model": "gpt-6-luna",
+      "effort": "low",
+      "examples": "goal"
+    },
+    "shuffled": {
+      "model": "gpt-6-luna",
+      "effort": "low",
+      "examples": "shuffled_goal"
+    }
+  },
+  "original_prompt": "You are a professional football (soccer) analyst.\nThe image shows a shot at the moment it is taken, drawn on a half pitch with the goal at the top.\nGold star = shooter. Blue circles = shooter's teammates. Red circles = opponents.\nOrange square = opposing goalkeeper.\nEstimate the probability that this shot results in a goal (expected goals, xG),\nassuming an average professional finisher.\nReply with JSON only: {\"xg\": <number between 0 and 1>, \"reason\": \"<one short sentence>\"}",
+  "example_intro": "Historical training examples follow. Each image shows a DIFFERENT past shot,\nwith its single observed goal/no-goal outcome. A single scored shot does not have\ntrue xG 1, and a missed shot does not have true xG 0: these are noisy binary outcomes.\nUse the visual situations and outcomes as examples for estimating a new shot's\nprobability. The final query is separate and its outcome is unknown.\n",
+  "motion_prompt": "The input contains either one current tracking snapshot or three snapshots\nordered from 1.00 seconds before contact, through 0.48 seconds before contact, to\nthe shot-contact frame. Estimate xG for the shot in the LAST frame. All frames\nprecede or equal contact; no future trajectory or outcome is supplied.\nGold star = the eventual shooter in every frame. Magenta diamond = tracked ball.\nBlue circles = teammates, red circles = opponents, orange square = opposing keeper.\nGoal is at the top. Body part and ball height are unknown. Use the available\npositional and motion evidence, assuming an average professional finisher.\nReturn JSON only: {\"xg\": <number between 0 and 1>, \"reason\": \"<one short sentence>\"}.\n",
+  "scope": "Astra/Luna zero-shot preserved. Separate 48-example outcome-labelled in-context condition; not represented as zero-shot or weight fine tuning. Shuffled-label negative control preserves example goal count. All VLM probabilities remain raw.",
+  "novelty": "Astra not previously evaluated. Earlier examples were four geometry-only demonstrations with no scoring outcomes. New Metrica history uses actual source past frames, not repeated readings/zoom/synthetic motion.",
+  "stages": "12 reused AFCON pilot shots x4 conditions for usage/validity only, never accuracy selection. Resource-only fixed rule chooses first100/150/200 from frozen new200-shot pool. Then main, exact repeats, controlled synthetic pairs, and Metrica motion. No method winner selection or test-driven tuning.",
+  "resource_rule": "After full pilot, choose largest N from [200,150,100] whose projected conservative remaining cost plus pilot exposure, one maximum Astra response reservation and $0.05 buffer fits $4. Projection=1.25 times pilot mean conservative per-arm cost for N+36 future calls per arm, plus 180 Luna single-call equivalents for motion. If no N fits, stop without accuracy claim.",
+  "primary": "Five new-cohort Brier comparisons: Astra-Luna, Astra-original4logistic, examples-Luna, examples-original4logistic, examples-shuffled. 99% whole-match intervals for five tests. No equivalence claim from crossing zero.",
+  "core_criteria": "Brier alone does not establish a core fix. Also report AUC, 6-18-unit errors, training-constant reference, correct-vs-shuffled examples, raw exact-repeat variability and controlled directional consistency. No averaging or enforcing probabilities.",
+  "no_query_leakage": "Example images/outcomes come only from WC2018/22 training groups. Query labels, coordinates, headers, reference predictions and goal rates never enter requests. Main new groups exclude all488 prior StatsBomb groups.",
+  "footage": "User has no authorized local footage; xGHub gate respected. Motion uses available Metrica tracking and cannot replace a real-frame/pose test.",
+  "known_prior_conservative_usd": 1.4552639,
+  "account_caveat": "Partial older usage only; no full bill or verified balance. New hard ceiling $4 leaves room under $10; stop on exhausted credit/uncertain charge.",
+  "source_sha256": "a1f05c14580d120bdca7036888d0eef0ec55b03fa577349c5c891cddb331c6c5",
+  "preparation_sha256": "3af7b73cc3114403da593ef221d4a6529be263fd04f1be69ab2dee757b8cc4ad",
+  "common_sha256": "a78bd89daae22602f2b44aed716ea72bc510bbaf7a11e27a95030450656b62f3",
+  "engine_sha256": "f7e191d8e80081e6fb4a27bc5b38cd2a5fe20e821fb66b4de814a24ac06df765",
+  "examples_sha256": "dabeaead9ff57b52947b85e66d5599d5ec31b9a60144695902249a4b5af17a05",
+  "pool_sha256": "f160f213adede33d4f65aa687d803a34a44b48f9110b32e4137b6dcca3b18b16"
+}

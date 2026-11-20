@@ -1,0 +1,18 @@
+{
+  "shots": 20,
+  "mean_repeat_change": 0.042499999999999996,
+  "mean_mirror_change": 0.06700000000000002,
+  "mirror_minus_repeat_interval_95": [
+    -0.002222222222222223,
+    0.05105263157894736
+  ],
+  "usage": {
+    "input_tokens": 17240,
+    "output_tokens": 14031,
+    "cached_tokens": 0,
+    "reasoning_tokens": 12261,
+    "estimated_usd": 0.0087395,
+    "conservative_usd": 0.0091705
+  },
+  "interpretation": "Mirroring adds no new outcome labels. Compare its effects to ordinary repeated-call variability; do not treat transformed views as independent test shots."
+}

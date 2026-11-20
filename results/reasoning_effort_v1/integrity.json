@@ -1,0 +1,44 @@
+{
+  "status": "passed",
+  "responses": 24,
+  "shots": 12,
+  "returned_models": [
+    "gpt-6-luna"
+  ],
+  "source_prompt_runner_and_image_hashes_unchanged": true,
+  "response_json_matches_ledger": true,
+  "returned_reasoning_matches_schedule": true,
+  "payloads_differ_only_by_effort": true,
+  "caps_respected": true,
+  "no_active_runner": true,
+  "totals": {
+    "input_tokens": 10344,
+    "output_tokens": 10550
+  },
+  "response_sha256": {
+    "response_01_medium.json": "a691889506da093e0163597be5b970df2c2dee1e22f3ec9937f069976184a62a",
+    "response_02_low.json": "408e3ed1883eb3da6ad7d2dd56ad1011f548b0fa69ad45efb7574709032cfcec",
+    "response_03_medium.json": "f39085297f76c63255c466112161a303a9102fdfd4c20c768e57eb8e940b6156",
+    "response_04_low.json": "a258cfb4719387a748044fcb6074b58383ea507d778cfbcb764f3527f19a794a",
+    "response_05_low.json": "64d6baae9a35bad58b5adc65a5f15462832a63c8d2af16b4b2dfdf05425f5b94",
+    "response_06_medium.json": "d36c7cb3d2bc475be78b5366b94290d5eec739fb731ac1c030855a17bd1722a1",
+    "response_07_low.json": "f142118d51fabe63bd0d9caa89d9ae5f8e6d262a0271737284d7642ee5a16fba",
+    "response_08_medium.json": "f42fde506ed8e0ccdc9d1af1c461ef3ce965d9f1f4ab83b62a7a6786b68cd9c5",
+    "response_09_medium.json": "4828aae2e240837ef1e020b544bffefe78253ada062061b11c81970023489f54",
+    "response_10_low.json": "dd6139768b249201daa3b2261915615ca1f47b9fcc94a93429958d74369c91a2",
+    "response_11_low.json": "0cecf17ecae5eb48e747537396691285e4c73a215e51dfd87894f183678d6aeb",
+    "response_12_medium.json": "54809327c0c412d128ec09930dd89364c478db8aaf6e25160d17776924512e58",
+    "response_13_low.json": "86af50705bf1a0e91484ba7ba048cbb2369d3f7ea1be41ff7960d576dbd4a843",
+    "response_14_medium.json": "27870d6c68d6b8d060f3f3b827ba4fdd219d8d2473f47cf43ba44c0236f25ff6",
+    "response_15_medium.json": "56a69d332a3f90c5a51c0f7814eed13d1a7fae990a564c76f92e9ea074c3ab03",
+    "response_16_low.json": "83b3f41ce6834e32aede9f43a162b2b4fca1ca53ede3bfc7f7c6a7972b97a89b",
+    "response_17_medium.json": "d327556c4803172d455a261ad23a5eb8f89fe27131037a99c67fbf1ed77d6324",
+    "response_18_low.json": "b37bef105b198e226058358c2ddd004407ae0d99446009fd30853f2aaa874b1d",
+    "response_19_medium.json": "8c55e3122d166bedbbdb5e52a34f6ecdd846bff2869b702bc55ca02a04e7209e",
+    "response_20_low.json": "e01311f7bd6a6b3c7a03c5e37fb9ba05f81abe4f2e2ea07331290315b5c78ef3",
+    "response_21_medium.json": "50e2ffe71677302caa48ddc1c3ebedadbab593e206c3ae0501f8afad3477ad96",
+    "response_22_low.json": "310271ec60c9712660ce1360a909e75a9efb89a921cf90a9989333676d7d4740",
+    "response_23_medium.json": "ec7e61950c715fb4bb75512ec67331d06971cdcd53886614794ab8e24050b366",
+    "response_24_low.json": "d8884ba083ba8862b63a8e13e2e82f6aa4598e59e7fa44fa791230df68ce3042"
+  }
+}

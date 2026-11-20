@@ -1,0 +1,7 @@
+{
+  "audit_repair": "The first broad secret-pattern scan matched a random substring inside an opaque encrypted_content response field. It did not display or decode that field. The final check scans for the exact authorized API credential privately instead.",
+  "inference_changed": false,
+  "raw_responses_changed": false,
+  "scores_changed": false,
+  "extra_api_requests": 0
+}

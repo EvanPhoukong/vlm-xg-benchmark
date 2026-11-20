@@ -1,0 +1,23 @@
+{
+  "protected_inputs_unchanged": {
+    "/mnt/c/Users/ephou/Downloads/xG/output/research-loop/data/wc2018.jsonl": true,
+    "/mnt/c/Users/ephou/Downloads/xG/output/research-loop/data/wc2022.jsonl": true,
+    "/home/evan/xG_Research/vlm-xg-benchmark/results/hybrid_gpt_6_luna_300/geometry_predictions.csv": true,
+    "/mnt/c/Users/ephou/Downloads/xG/output/research-loop/external_vlm_selection.jsonl": true,
+    "/mnt/c/Users/ephou/Downloads/xG/output/research-loop/rich_vlm_external/cache.jsonl": true,
+    "/mnt/c/Users/ephou/Downloads/xG/output/research-loop/rich_vlm_external/predictions.csv": true,
+    "/mnt/c/Users/ephou/Downloads/xG/output/research-loop/rich_vlm_external/protocol.json": true,
+    "/mnt/c/Users/ephou/Downloads/xG/output/research-loop/frozen_probability_models.joblib": true
+  },
+  "current_hybrid_max_reproduction_difference": 9.8879238130678e-17,
+  "development_shots": 3068,
+  "development_matches": 128,
+  "development_goals": 287,
+  "external_shots": 200,
+  "external_matches": 50,
+  "external_goals": 16,
+  "training_error_donors": 300,
+  "all_test_shots_retained": true,
+  "api_requests": 0,
+  "models_sha256": "a5558f24e6ad710d77936446d097b9fa32c41ef3e1eb19c2f1ca78041bc659ee"
+}

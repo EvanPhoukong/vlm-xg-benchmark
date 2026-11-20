@@ -1,0 +1,79 @@
+{
+  "shots": 200,
+  "goals": 16,
+  "matches": 40,
+  "scores": {
+    "luna_uncertainty": {
+      "brier": 0.07529325,
+      "log_loss": 0.2692904030005227,
+      "auc": 0.7639266304347826,
+      "mean_xg": 0.15125
+    },
+    "luna_original": {
+      "brier": 0.07869050500000001,
+      "log_loss": 0.2695337349007969,
+      "auc": 0.8084239130434783,
+      "mean_xg": 0.163155
+    },
+    "baseline_xg": {
+      "brier": 0.0662012957112931,
+      "log_loss": 0.2351646440205885,
+      "auc": 0.8050271739130435,
+      "mean_xg": 0.09385680035581494
+    },
+    "baseline_image_xg": {
+      "brier": 0.06737287544282693,
+      "log_loss": 0.23753140720127036,
+      "auc": 0.8050271739130435,
+      "mean_xg": 0.09565496123491812
+    },
+    "sb_xg": {
+      "brier": 0.05797612226974776,
+      "log_loss": 0.20695024097752426,
+      "auc": 0.8668478260869564,
+      "mean_xg": 0.08874195109449999
+    }
+  },
+  "primary": [
+    {
+      "first": "luna_uncertainty",
+      "second": "baseline_xg",
+      "difference": 0.009091954288706908,
+      "confidence_level": 0.975,
+      "interval": [
+        -0.001002492000685814,
+        0.018361133042225336
+      ]
+    },
+    {
+      "first": "luna_uncertainty",
+      "second": "luna_original",
+      "difference": -0.003397255,
+      "confidence_level": 0.975,
+      "interval": [
+        -0.014185570414572862,
+        0.007403210936844195
+      ]
+    }
+  ],
+  "secondary_no_header": {
+    "first": "luna_uncertainty",
+    "second": "baseline_image_xg",
+    "difference": 0.007920374557173078,
+    "confidence_level": 0.95,
+    "interval": [
+      -1.691487057028207e-05,
+      0.01580980132858397
+    ]
+  },
+  "secondary_statsbomb": {
+    "first": "luna_uncertainty",
+    "second": "sb_xg",
+    "difference": 0.017317127730252242,
+    "confidence_level": 0.95,
+    "interval": [
+      0.007515691419190021,
+      0.026873719384200415
+    ]
+  }
+}

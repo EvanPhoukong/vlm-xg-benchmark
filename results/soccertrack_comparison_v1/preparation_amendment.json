@@ -1,0 +1,7 @@
+{
+  "reason": "Pre-scoring source audit found raw shotMissed tags and BAS actors assigned to opponents. Add shotMissed and use a unique primary-shot node at the aligned timestamp when actor is wrong. Deduplicate same-frame actions.",
+  "prior_preparation": "preparation_v0_unrun",
+  "prior_protocol_frozen": false,
+  "new_API_calls": 0,
+  "accuracy_scoring_started": false
+}

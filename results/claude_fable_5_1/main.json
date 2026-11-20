@@ -1,0 +1,2902 @@
+{
+  "f3bcd7c8-1fb7-4336-b5b9-ba70dd428ae4": {
+    "status": "succeeded",
+    "cost_usd": 0.00416,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 65,
+    "vlm_xg": 0.05,
+    "vlm_reason": "Shot from just outside the box, right of center, with many defenders packed between shooter and goal, likely a second-ball volley or set-piece rebound."
+  },
+  "87b6c4e5-8879-49ac-bb0d-d732354d78e0": {
+    "status": "succeeded",
+    "cost_usd": 0.004035,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 60,
+    "vlm_xg": 0.07,
+    "vlm_reason": "Shot from inside the box but at a tight angle on the left, with many defenders crowding the area and the goalkeeper well positioned."
+  },
+  "6d21bd7c-0fa6-4bdc-9fe0-77a923cafc1d": {
+    "status": "succeeded",
+    "cost_usd": 0.00406,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 61,
+    "vlm_xg": 0.03,
+    "vlm_reason": "Long-range shot from ~25 yards, slightly right of centre, with many defenders between shooter and goal and keeper well positioned."
+  },
+  "2be63b79-06c8-46a1-8688-d5257673d4d9": {
+    "status": "succeeded",
+    "cost_usd": 0.00416,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 65,
+    "vlm_xg": 0.06,
+    "vlm_reason": "Shot from inside the box near the penalty spot but at an angle, with several defenders crowding the shooting lane and goalkeeper well positioned."
+  },
+  "dfd8ea23-e92c-4b57-bfd0-1617a8253887": {
+    "status": "succeeded",
+    "cost_usd": 0.00401,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 59,
+    "vlm_xg": 0.04,
+    "vlm_reason": "Shot from ~22-24m outside the box, central, with several defenders between shooter and goal and goalkeeper well positioned."
+  },
+  "62fb7c39-248e-4bf9-8386-762a65c8c4d6": {
+    "status": "succeeded",
+    "cost_usd": 0.003835,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 52,
+    "vlm_xg": 0.03,
+    "vlm_reason": "Long-range shot from ~27m out on the left, well outside the box with many defenders packed in the area to block."
+  },
+  "5994da52-68c1-4f92-9588-c2085766ca21": {
+    "status": "succeeded",
+    "cost_usd": 0.004035,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 60,
+    "vlm_xg": 0.06,
+    "vlm_reason": "Shot from wide-left edge of the penalty area at a tight angle, with several defenders between shooter and goal and the keeper set."
+  },
+  "58d90922-71f3-410a-bc38-8f5c2019b615": {
+    "status": "succeeded",
+    "cost_usd": 0.004035,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 60,
+    "vlm_xg": 0.04,
+    "vlm_reason": "Shot from outside the box edge (~20m) with many defenders between shooter and goal, likely a crowded set-piece scenario."
+  },
+  "8d04b410-694a-4eb3-8354-d8e67249dfb3": {
+    "status": "succeeded",
+    "cost_usd": 0.004135,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 64,
+    "vlm_xg": 0.06,
+    "vlm_reason": "Shot from the edge of the penalty area, roughly 17-18m out, with several defenders crowding the path and goalkeeper well positioned."
+  },
+  "1d65242c-90e4-4111-9274-491bf60a4ae7": {
+    "status": "succeeded",
+    "cost_usd": 0.00401,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 59,
+    "vlm_xg": 0.03,
+    "vlm_reason": "Long-range shot from ~25 yards through a crowded box with many defenders blocking the path and goalkeeper well positioned."
+  },
+  "4d310ca7-0c38-46f7-8d2d-2b695968dd56": {
+    "status": "succeeded",
+    "cost_usd": 0.00396,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 57,
+    "vlm_xg": 0.2,
+    "vlm_reason": "Shot from the penalty spot area, central, but heavily crowded with several defenders directly in front and goalkeeper set."
+  },
+  "7c9f51b5-7c05-4ba0-ae27-d0c4639b0709": {
+    "status": "succeeded",
+    "cost_usd": 0.004335,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 72,
+    "vlm_xg": 0.04,
+    "vlm_reason": "Shot from the edge of the box at the penalty arc with a crowded box full of defenders between shooter and goal, likely a blocked or low-quality long-range attempt."
+  },
+  "78a794a1-c48c-4699-904a-5ca28cb9cc15": {
+    "status": "succeeded",
+    "cost_usd": 0.004085,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 62,
+    "vlm_xg": 0.42,
+    "vlm_reason": "Shot from inside the six-yard box area, central, but a defender is tight on the shooter and others nearby, with the keeper set on the line."
+  },
+  "b5d4b6d2-2276-4827-ad51-fd13e52e6ecf": {
+    "status": "succeeded",
+    "cost_usd": 0.004235,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 68,
+    "vlm_xg": 0.04,
+    "vlm_reason": "Shot from the edge of the penalty area (~18m) through a crowded box with many defenders between shooter and goal, likely a header or volley from a set piece."
+  },
+  "9996c5af-1237-4f3c-9178-bedb7fed6d23": {
+    "status": "succeeded",
+    "cost_usd": 0.003985,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 58,
+    "vlm_xg": 0.06,
+    "vlm_reason": "Shot from the left edge of the penalty area at a tight angle with many defenders crowding the box and the keeper well positioned."
+  },
+  "ed57db75-dfc9-4bf5-8f72-c85a80bb9829": {
+    "status": "succeeded",
+    "cost_usd": 0.004185,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 66,
+    "vlm_xg": 0.42,
+    "vlm_reason": "Shot from very close range inside the six-yard box, but the goalkeeper is near and several defenders crowd the area, likely a header or scramble situation."
+  },
+  "3df430b3-eaa6-4b63-9246-1f86d8249d55": {
+    "status": "succeeded",
+    "cost_usd": 0.003985,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 58,
+    "vlm_xg": 0.03,
+    "vlm_reason": "Long-range shot from ~25 yards centrally with many defenders between shooter and goal, goalkeeper well positioned."
+  },
+  "0e55900b-d2c5-4473-b159-aa752a27e8f7": {
+    "status": "succeeded",
+    "cost_usd": 0.004535,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 80,
+    "vlm_xg": 0.35,
+    "vlm_reason": "Shot from very close range inside the six-yard box near the goal line, but crowded with several defenders and the goalkeeper positioned right in front, likely a header or scramble from a corner/set piece."
+  },
+  "81bfba47-f671-4b85-adc5-fb8fc77f87b0": {
+    "status": "succeeded",
+    "cost_usd": 0.00426,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 69,
+    "vlm_xg": 0.3,
+    "vlm_reason": "Shot from inside the six-yard box area, very close range and central, but heavy traffic with several defenders and the goalkeeper positioned between shooter and goal."
+  },
+  "df62858c-cec5-41e8-a76c-30125e24472c": {
+    "status": "succeeded",
+    "cost_usd": 0.004435,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 76,
+    "vlm_xg": 0.06,
+    "vlm_reason": "Shot from the edge of the six-yard-box/penalty-spot area but through a dense crowd of defenders with several blockers directly in the shooting lane and goalkeeper set."
+  },
+  "db8267ad-256a-450d-997f-382a4d545634": {
+    "status": "succeeded",
+    "cost_usd": 0.00381,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 51,
+    "vlm_xg": 0.03,
+    "vlm_reason": "Long-range shot from ~25 yards outside the box with many defenders crowded between shooter and goal."
+  },
+  "3a9a382c-c6fc-4f96-9b1e-9eae06af8ebb": {
+    "status": "succeeded",
+    "cost_usd": 0.00401,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 59,
+    "vlm_xg": 0.28,
+    "vlm_reason": "Very close-range shot from central position near the six-yard box, but heavy congestion with several defenders and the keeper positioned to block."
+  },
+  "d68c0771-3315-4ef2-8c10-82157b6eeb7e": {
+    "status": "succeeded",
+    "cost_usd": 0.00431,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 71,
+    "vlm_xg": 0.18,
+    "vlm_reason": "Shot from inside the six-yard-box edge, central, but heavily congested with several defenders directly between shooter and goal, likely a header or scramble from a set piece."
+  },
+  "620c38af-7953-47a7-8b22-948783027911": {
+    "status": "succeeded",
+    "cost_usd": 0.00391,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 55,
+    "vlm_xg": 0.04,
+    "vlm_reason": "Shot from the edge of the box at the D with many defenders between shooter and goal, goalkeeper well positioned."
+  },
+  "ff453b86-63e4-4e15-a1f3-2513f1f9f4f3": {
+    "status": "succeeded",
+    "cost_usd": 0.00411,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 63,
+    "vlm_xg": 0.04,
+    "vlm_reason": "Shot from ~22 meters outside the box, central, but with several defenders blocking the path and a crowded box in front of the goalkeeper."
+  },
+  "a59ccb02-568d-4752-81b1-59dd9c8cc309": {
+    "status": "succeeded",
+    "cost_usd": 0.003935,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 56,
+    "vlm_xg": 0.04,
+    "vlm_reason": "Shot from outside the box at a wide-left angle with many defenders clustered in the shooting lane and the keeper set."
+  },
+  "4c292e31-05ce-4f6f-a5d1-5e5d408b26e6": {
+    "status": "succeeded",
+    "cost_usd": 0.00426,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 69,
+    "vlm_xg": 0.28,
+    "vlm_reason": "Shot from inside the six-yard box area, very close to goal, but heavily crowded with defenders between shooter and goal and goalkeeper well-positioned."
+  },
+  "6e57cb5e-fe39-4d22-ab15-155340299c5e": {
+    "status": "succeeded",
+    "cost_usd": 0.004085,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 62,
+    "vlm_xg": 0.04,
+    "vlm_reason": "Shot from the left edge of the penalty area at a tight angle with multiple defenders between shooter and goal and the keeper well positioned."
+  },
+  "ab3fd1ea-a8c3-487b-a32a-07d0b7603ff2": {
+    "status": "succeeded",
+    "cost_usd": 0.00406,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 61,
+    "vlm_xg": 0.12,
+    "vlm_reason": "Shot from inside the box near penalty spot area but heavily congested with many defenders blocking the line, likely from a set piece scramble."
+  },
+  "47d48ad1-0bec-4db0-89fa-69f2064e2eee": {
+    "status": "succeeded",
+    "cost_usd": 0.00426,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 69,
+    "vlm_xg": 0.12,
+    "vlm_reason": "Close-range shot from inside the six-yard box area but heavily congested with many defenders blocking and goalkeeper positioned, likely a header from a set piece."
+  },
+  "fdc1ea86-c887-49f5-9f86-f613bc4f2000": {
+    "status": "succeeded",
+    "cost_usd": 0.00426,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 69,
+    "vlm_xg": 0.35,
+    "vlm_reason": "Shot from very close range inside the six-yard box area but heavily congested with several defenders and the keeper directly in front, likely a header or scramble from a set piece."
+  },
+  "108530c5-bc45-44f6-a676-961004913a8c": {
+    "status": "succeeded",
+    "cost_usd": 0.003985,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 58,
+    "vlm_xg": 0.04,
+    "vlm_reason": "Shot from outside the box at a wide angle with two defenders directly in front blocking the path and goalkeeper well positioned."
+  },
+  "060deabd-8fca-4998-b49c-bf4dee752a0e": {
+    "status": "succeeded",
+    "cost_usd": 0.00411,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 63,
+    "vlm_xg": 0.04,
+    "vlm_reason": "Shot from the left edge of the penalty area at a wide angle with two defenders tight and keeper well positioned, making a goal unlikely."
+  },
+  "6ffaa2e9-dde1-4e99-b913-008e8f6c8b0e": {
+    "status": "succeeded",
+    "cost_usd": 0.004035,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 60,
+    "vlm_xg": 0.28,
+    "vlm_reason": "Close-range shot from just outside the six-yard box, central, but goalkeeper is positioned and several defenders are nearby to block."
+  },
+  "e5f4a1df-48f8-403f-84cf-2310bb7efb92": {
+    "status": "succeeded",
+    "cost_usd": 0.003985,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 58,
+    "vlm_xg": 0.28,
+    "vlm_reason": "Shot from inside the six-yard box edge at a slight angle, but heavily congested with several defenders between shooter and goal."
+  },
+  "994da29b-03e4-4354-94fa-09955eeb2744": {
+    "status": "succeeded",
+    "cost_usd": 0.004235,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 68,
+    "vlm_xg": 0.04,
+    "vlm_reason": "Shot from the edge of the box (~18-20 yards) with a crowded penalty area full of defenders blocking the path, goalkeeper well positioned."
+  },
+  "ddb6f298-8ac3-4d35-bfb7-f03f76b54c1e": {
+    "status": "succeeded",
+    "cost_usd": 0.004285,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 70,
+    "vlm_xg": 0.12,
+    "vlm_reason": "Shot from inside the box around 12-14m out but heavily crowded with several defenders between shooter and goal, likely a header or blocked attempt from a set piece."
+  },
+  "97e2dd79-ed15-412c-b0c5-f73564e5d13d": {
+    "status": "succeeded",
+    "cost_usd": 0.00411,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 63,
+    "vlm_xg": 0.28,
+    "vlm_reason": "Shot from close range inside the six-yard box edge but from a tight angle on the right with several defenders nearby and keeper positioned centrally."
+  },
+  "f33a5a8d-7585-4055-8d75-a6c8a4b5dfec": {
+    "status": "succeeded",
+    "cost_usd": 0.003885,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 54,
+    "vlm_xg": 0.04,
+    "vlm_reason": "Long-range shot from just outside the penalty area with many defenders crowding the box and blocking the shooting lane."
+  },
+  "a02febea-2c60-41f1-914d-dc065dd50ac7": {
+    "status": "succeeded",
+    "cost_usd": 0.00426,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 69,
+    "vlm_xg": 0.04,
+    "vlm_reason": "Shot from outside the box near the left corner of the penalty area with a crowded box and many bodies between shooter and goal, likely a header or volley from a set piece."
+  },
+  "67f52955-48b3-418c-976f-a34575324c1d": {
+    "status": "succeeded",
+    "cost_usd": 0.00401,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 59,
+    "vlm_xg": 0.06,
+    "vlm_reason": "Shot from the edge of the penalty area, slightly right of centre, through a crowded box with many defenders between shooter and goal."
+  },
+  "8fd3af63-509c-463b-88d2-fa1c6eabb793": {
+    "status": "succeeded",
+    "cost_usd": 0.00396,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 57,
+    "vlm_xg": 0.04,
+    "vlm_reason": "Shot from the edge of the box at the D with many defenders crowding the shooting lane and goalkeeper well positioned."
+  },
+  "217cf729-0d66-4202-9024-bfbe3850488c": {
+    "status": "succeeded",
+    "cost_usd": 0.004385,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 74,
+    "vlm_xg": 0.04,
+    "vlm_reason": "Long-range shot from outside the box (~22m) with a defender directly in front and a crowded penalty area of seven defenders blocking the path, goalkeeper well positioned."
+  },
+  "ca8ff3c0-c049-435d-830a-3979bf1181e5": {
+    "status": "succeeded",
+    "cost_usd": 0.004435,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 76,
+    "vlm_xg": 0.06,
+    "vlm_reason": "Shot from around the penalty spot edge / top of the box with many defenders and the goalkeeper positioned between shooter and goal, likely a crowded header or volley from a set piece."
+  },
+  "764b23bf-288e-458f-8cd8-6d77176339ee": {
+    "status": "succeeded",
+    "cost_usd": 0.00411,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 63,
+    "vlm_xg": 0.04,
+    "vlm_reason": "Shot from just outside the penalty area through a crowd of defenders with the goalkeeper well positioned, a low-probability long-range effort."
+  },
+  "e9d3617f-6951-47d3-a0f0-f99a6bd56390": {
+    "status": "succeeded",
+    "cost_usd": 0.003935,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 56,
+    "vlm_xg": 0.12,
+    "vlm_reason": "Shot from around the penalty spot area with multiple defenders in front and goalkeeper positioned, moderate chance."
+  },
+  "60937c94-36e7-4cc1-9041-1be1cc64f688": {
+    "status": "succeeded",
+    "cost_usd": 0.004285,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 70,
+    "vlm_xg": 0.28,
+    "vlm_reason": "Shot from very close range inside the six-yard box but at a tight angle to the right with the goalkeeper positioned near the post and defenders close, limiting the open target."
+  },
+  "3d5d5149-d1b3-4625-b191-b66281462965": {
+    "status": "succeeded",
+    "cost_usd": 0.004235,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 68,
+    "vlm_xg": 0.28,
+    "vlm_reason": "Close-range shot from inside the six-yard box area but with crowded defenders around and goalkeeper positioned, likely a header or scramble from a set piece."
+  },
+  "127912cf-2ecc-43fa-a2f7-5ab3199f5c4d": {
+    "status": "succeeded",
+    "cost_usd": 0.004085,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 62,
+    "vlm_xg": 0.04,
+    "vlm_reason": "Shot from outside the box (~20m) centrally, with several defenders crowding the lane and goalkeeper set, giving a low chance."
+  },
+  "9cac3331-2996-499e-8bd1-c3bcdde52453": {
+    "status": "succeeded",
+    "cost_usd": 0.00391,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 55,
+    "vlm_xg": 0.2,
+    "vlm_reason": "Shot from around the penalty spot area, central, with one defender tight and goalkeeper set, in a crowded box."
+  },
+  "9c6d9302-1de8-4a97-ac5c-52153023503d": {
+    "status": "succeeded",
+    "cost_usd": 0.00386,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 53,
+    "vlm_xg": 0.03,
+    "vlm_reason": "Shot from outside the box (~20m) with a crowded penalty area and several defenders between shooter and goal."
+  },
+  "d0ea94db-b546-458a-90c6-ee49c9ae5d93": {
+    "status": "succeeded",
+    "cost_usd": 0.004135,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 64,
+    "vlm_xg": 0.04,
+    "vlm_reason": "Shot from the edge of the box (~18-20m) through a crowded penalty area with many defenders blocking the lane and goalkeeper set."
+  },
+  "4780ef6a-c5b0-4ed1-912e-829dd87523ad": {
+    "status": "succeeded",
+    "cost_usd": 0.004135,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 64,
+    "vlm_xg": 0.04,
+    "vlm_reason": "Shot from just outside the penalty area edge, slightly left of center, with many defenders between shooter and goal and goalkeeper well positioned."
+  },
+  "c9bdb7ab-5b37-4fea-a46b-5969a3563175": {
+    "status": "succeeded",
+    "cost_usd": 0.00446,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 77,
+    "vlm_xg": 0.06,
+    "vlm_reason": "Shot from the edge of the six-yard-box area edge of penalty box (~16m) with many defenders packed in front and goalkeeper set, typical crowded set-piece scenario."
+  },
+  "79b4ee7e-a9d3-4830-8aaa-98c6de71e178": {
+    "status": "succeeded",
+    "cost_usd": 0.003735,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 48,
+    "vlm_xg": 0.03,
+    "vlm_reason": "Long-range shot from wide left outside the box with multiple defenders blocking the path to goal."
+  },
+  "9cde5a33-b4a9-4bbe-8ea2-76d7ef1badfc": {
+    "status": "succeeded",
+    "cost_usd": 0.00391,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 55,
+    "vlm_xg": 0.03,
+    "vlm_reason": "Long-range shot from ~25 yards outside the box with a crowded wall of defenders blocking the path to goal."
+  },
+  "e3b647a1-3b4c-4b02-89f5-fedb8ae83755": {
+    "status": "succeeded",
+    "cost_usd": 0.00406,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 61,
+    "vlm_xg": 0.03,
+    "vlm_reason": "Shot from the edge of the box at an angle with many defenders crowded in front; likely a volley or rebound from a cleared set piece."
+  },
+  "f1ea3de4-8ca4-4ce0-8aeb-e18c3681742d": {
+    "status": "succeeded",
+    "cost_usd": 0.004085,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 62,
+    "vlm_xg": 0.12,
+    "vlm_reason": "Shot from ~12-14 yards centrally but through a crowded box with many defenders between shooter and goal, and goalkeeper set."
+  },
+  "dfa9f0c8-7c97-42fe-9d91-b21cee6dd5ff": {
+    "status": "succeeded",
+    "cost_usd": 0.003935,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 56,
+    "vlm_xg": 0.03,
+    "vlm_reason": "Long-range shot from ~25 yards outside the box through a crowded penalty area with many defenders in the line of fire."
+  },
+  "14374288-0565-4f12-b39e-318100137d0a": {
+    "status": "succeeded",
+    "cost_usd": 0.00396,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 57,
+    "vlm_xg": 0.04,
+    "vlm_reason": "Shot from well outside the box with a crowd of defenders directly between the shooter and goal, blocking the shooting lane."
+  },
+  "4232fdf4-5a2b-47bf-ae3b-0f5fdeea3684": {
+    "status": "succeeded",
+    "cost_usd": 0.004285,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 70,
+    "vlm_xg": 0.35,
+    "vlm_reason": "Very close-range shot inside the six-yard box but with goalkeeper and several defenders crowding the goal line area, typical of a scramble/set-piece situation."
+  },
+  "ad2caade-93ae-4fc8-bc21-a1142c2107d7": {
+    "status": "succeeded",
+    "cost_usd": 0.004135,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 64,
+    "vlm_xg": 0.28,
+    "vlm_reason": "Close-range shot from inside the box near the six-yard area but at a fairly wide angle with a defender tight and goalkeeper well positioned."
+  },
+  "7bfd3322-79dd-41dc-8ea9-dd83156ee37a": {
+    "status": "succeeded",
+    "cost_usd": 0.00431,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 71,
+    "vlm_xg": 0.33,
+    "vlm_reason": "Close-range shot from the edge of the six-yard box, slightly right of center, but several defenders are clustered between the shooter and the goal with the keeper well positioned."
+  },
+  "4bba88e2-fa9e-4890-ae65-0fbbd71e2932": {
+    "status": "succeeded",
+    "cost_usd": 0.004235,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 68,
+    "vlm_xg": 0.09,
+    "vlm_reason": "Shot from the penalty spot area in a crowded box (likely set piece), central but with many defenders between shooter and goal and goalkeeper well positioned."
+  },
+  "130588e4-eb77-40f5-8dcd-7b3d3b957075": {
+    "status": "succeeded",
+    "cost_usd": 0.00406,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 61,
+    "vlm_xg": 0.03,
+    "vlm_reason": "Long-range shot from ~25 yards outside the box with many defenders between the shooter and goal and the goalkeeper well positioned."
+  },
+  "752418ff-5b38-47af-8789-2bac6b37f2c0": {
+    "status": "succeeded",
+    "cost_usd": 0.00451,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 79,
+    "vlm_xg": 0.32,
+    "vlm_reason": "Close-range shot from just inside the six-yard area, central, but goalkeeper is well positioned and several defenders are nearby in a crowded box, likely a header or scramble from a set piece."
+  },
+  "21b0a72e-9edd-405b-a6aa-edf3c20ff8e3": {
+    "status": "succeeded",
+    "cost_usd": 0.00421,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 67,
+    "vlm_xg": 0.28,
+    "vlm_reason": "Shot from inside the six-yard box area but at a tight angle on the left with a defender right beside the shooter and the keeper positioned to cover the near side."
+  },
+  "9e674fd1-9541-42e1-921f-a8ccbed1d7c6": {
+    "status": "succeeded",
+    "cost_usd": 0.00421,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 67,
+    "vlm_xg": 0.12,
+    "vlm_reason": "Shot from ~12 yards centrally in a crowded box with many defenders between shooter and goal, likely a header or deflected attempt from a set piece."
+  },
+  "b37c4059-f00c-411b-93d6-e3c13355a153": {
+    "status": "succeeded",
+    "cost_usd": 0.00396,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 57,
+    "vlm_xg": 0.04,
+    "vlm_reason": "Long-range shot from around 25+ meters out, central but with several defenders between shooter and goal and keeper well positioned."
+  },
+  "12475fe7-5f96-4551-8b24-4099dcb63911": {
+    "status": "succeeded",
+    "cost_usd": 0.00426,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 69,
+    "vlm_xg": 0.12,
+    "vlm_reason": "Shot from about 10 yards out in a very congested box with multiple defenders between the shooter and the goal, likely a header or deflected attempt from a set piece."
+  },
+  "eae27d9b-4c57-427b-8b4c-6e7cd0f1b5cb": {
+    "status": "succeeded",
+    "cost_usd": 0.003985,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 58,
+    "vlm_xg": 0.04,
+    "vlm_reason": "Long-range shot from outside the box, off-center, with many defenders between shooter and goal and goalkeeper well positioned."
+  },
+  "c9d3d537-8f05-4767-bf73-9a1f1a8a37cf": {
+    "status": "succeeded",
+    "cost_usd": 0.004235,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 68,
+    "vlm_xg": 0.22,
+    "vlm_reason": "Close-range shot from inside the six-yard box but heavily crowded by many defenders with the keeper positioned, likely a header or scramble from a set piece."
+  },
+  "9000f0f2-73ed-4a71-917d-2d525af7ba80": {
+    "status": "succeeded",
+    "cost_usd": 0.004035,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 60,
+    "vlm_xg": 0.04,
+    "vlm_reason": "Shot from outside the box (~20 m) at an angle with many defenders crowding the central lane, making it a low-probability attempt."
+  },
+  "ce3f29de-9ef9-4f98-88a2-12d09c20c0c3": {
+    "status": "succeeded",
+    "cost_usd": 0.004085,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 62,
+    "vlm_xg": 0.06,
+    "vlm_reason": "Shot from wide-left edge of the penalty area at a tight angle, with a defender directly in front and several bodies between shooter and goal."
+  },
+  "d87edf8c-6487-45f5-b61b-01a8501ffbe3": {
+    "status": "succeeded",
+    "cost_usd": 0.00391,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 55,
+    "vlm_xg": 0.03,
+    "vlm_reason": "Long-range shot from well outside the box (~28m) with many players congesting the path to goal and goalkeeper set."
+  },
+  "72907c83-f8eb-421f-aa75-3b2d4c96d747": {
+    "status": "succeeded",
+    "cost_usd": 0.00426,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 69,
+    "vlm_xg": 0.35,
+    "vlm_reason": "Shot from inside the six-yard box edge, central, but crowded with many defenders nearby and goalkeeper positioned; likely a header or scramble situation."
+  },
+  "2761f5d8-8b96-4f81-a56b-19c32dfd38aa": {
+    "status": "succeeded",
+    "cost_usd": 0.004335,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 72,
+    "vlm_xg": 0.12,
+    "vlm_reason": "Close-range shot from just outside the six-yard box but at a tight angle with a defender directly in front and the keeper positioned well, likely a header from a crowded set piece."
+  },
+  "ef6accb7-1ca3-46b0-9ba9-9c1f3fee82aa": {
+    "status": "succeeded",
+    "cost_usd": 0.00426,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 69,
+    "vlm_xg": 0.3,
+    "vlm_reason": "Shot from inside the six-yard box edge but with many bodies crowding the line and the goalkeeper well positioned, typical of a scramble from a set piece."
+  },
+  "69de8840-7050-44c6-a13a-aac71b5f6cef": {
+    "status": "succeeded",
+    "cost_usd": 0.00401,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 59,
+    "vlm_xg": 0.04,
+    "vlm_reason": "Shot from a very wide angle at the edge of the box with many defenders between shooter and goal, goalkeeper well positioned."
+  },
+  "ba96f3ec-0c47-44fe-a71d-e9bdbd6dfc70": {
+    "status": "succeeded",
+    "cost_usd": 0.00426,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 69,
+    "vlm_xg": 0.06,
+    "vlm_reason": "Shot from the edge of the box (~18m) with several defenders between shooter and goal and keeper well positioned, typical of a crowded set-piece scramble."
+  },
+  "2c44ca3f-6e81-4f0c-a80c-96b9653da2e1": {
+    "status": "succeeded",
+    "cost_usd": 0.004385,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 74,
+    "vlm_xg": 0.38,
+    "vlm_reason": "Shot from very close range inside the six-yard box, but goalkeeper is well positioned and several defenders are crowded around, suggesting a congested set-piece situation like a header."
+  },
+  "f0fff306-21ef-46ac-be68-450af71b5cc5": {
+    "status": "succeeded",
+    "cost_usd": 0.004385,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 74,
+    "vlm_xg": 0.09,
+    "vlm_reason": "Shot from around the penalty spot area, slightly right of center, with several defenders crowding the box and goalkeeper positioned centrally, making it a contested mid-range chance."
+  },
+  "8d13ea77-6e18-493c-8e54-258f942c255b": {
+    "status": "succeeded",
+    "cost_usd": 0.004085,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 62,
+    "vlm_xg": 0.09,
+    "vlm_reason": "Shot from inside the box near the penalty spot area but with heavy congestion, several defenders blocking the line and the goalkeeper set."
+  },
+  "73de072f-23cd-4f38-89be-fd209c58b659": {
+    "status": "succeeded",
+    "cost_usd": 0.00446,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 77,
+    "vlm_xg": 0.12,
+    "vlm_reason": "Shot from inside the box about 10-11m out, central, but heavily congested with several defenders directly between shooter and goal and keeper set, typical of a corner/set-piece scramble."
+  },
+  "076bfa17-336a-42b8-a6ac-731a4de8dee6": {
+    "status": "succeeded",
+    "cost_usd": 0.004185,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 66,
+    "vlm_xg": 0.07,
+    "vlm_reason": "Shot from around the penalty spot edge with several defenders clustered tightly around the shooter and blocking the lane, goalkeeper well positioned."
+  },
+  "63422fb4-45a3-4f30-8340-53d468a8b8cb": {
+    "status": "succeeded",
+    "cost_usd": 0.00426,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 69,
+    "vlm_xg": 0.12,
+    "vlm_reason": "Close-range shot from a tight angle on the left edge of the six-yard box with many defenders and the goalkeeper positioned near the near post, limiting the target."
+  },
+  "9c4da7a8-5924-4b37-8764-59b14fbbf2db": {
+    "status": "succeeded",
+    "cost_usd": 0.00391,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 55,
+    "vlm_xg": 0.03,
+    "vlm_reason": "Long-range shot from roughly 25 meters outside the box with multiple defenders crowded in the shooting lane."
+  },
+  "a4a5da42-0a22-4fd7-9408-fc83c588f603": {
+    "status": "succeeded",
+    "cost_usd": 0.00421,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 67,
+    "vlm_xg": 0.03,
+    "vlm_reason": "Long-range shot from outside the box (~25m) with a crowded penalty area and many bodies between shooter and goal, goalkeeper well positioned."
+  },
+  "eb01f465-08f6-4adf-a1b8-865127b41a97": {
+    "status": "succeeded",
+    "cost_usd": 0.00431,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 71,
+    "vlm_xg": 0.28,
+    "vlm_reason": "Shot from close range (~10m) inside the box near central position, but goalkeeper is well-positioned and several defenders are nearby, likely a header or crowded situation."
+  },
+  "fa3b646a-a38f-456c-ae47-678e3be6d54b": {
+    "status": "succeeded",
+    "cost_usd": 0.004185,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 66,
+    "vlm_xg": 0.06,
+    "vlm_reason": "Shot from the edge of the box (~20m) through a crowded penalty area with several defenders between shooter and goal and goalkeeper well positioned."
+  },
+  "318b1124-3eb5-4315-a2a7-754510010b58": {
+    "status": "succeeded",
+    "cost_usd": 0.00391,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 55,
+    "vlm_xg": 0.04,
+    "vlm_reason": "Shot from ~22 yards outside the box, central, but with several defenders directly in front blocking the shooting lane."
+  },
+  "28811240-5987-468a-87d6-c237987e22d2": {
+    "status": "succeeded",
+    "cost_usd": 0.004135,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 64,
+    "vlm_xg": 0.04,
+    "vlm_reason": "Shot from the edge of the box at a wide-ish angle with many defenders crowded between shooter and goal, likely a set-piece scramble."
+  },
+  "1146ccdf-7a18-4edb-af66-dc85645a90c2": {
+    "status": "succeeded",
+    "cost_usd": 0.00456,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 81,
+    "vlm_xg": 0.08,
+    "vlm_reason": "Shot from inside the box near the penalty spot area but at an angle, crowded with several defenders between shooter and goal, goalkeeper positioned, likely a header or contested shot from a set piece."
+  },
+  "1a45230e-3810-4d1d-ac49-c700f4de76ef": {
+    "status": "succeeded",
+    "cost_usd": 0.00401,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 59,
+    "vlm_xg": 0.03,
+    "vlm_reason": "Shot from wide left outside the box at a tight angle with many defenders between shooter and goal and goalkeeper well positioned."
+  },
+  "62ec4d64-0584-490c-a180-76389b8f22c6": {
+    "status": "succeeded",
+    "cost_usd": 0.004285,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 70,
+    "vlm_xg": 0.09,
+    "vlm_reason": "Shot from the edge of the penalty area, roughly 17m out and central, but with several defenders crowding the shooting lane and the goalkeeper well positioned."
+  },
+  "9615ffbc-b513-45e6-9ccc-015234483f95": {
+    "status": "succeeded",
+    "cost_usd": 0.00421,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 67,
+    "vlm_xg": 0.13,
+    "vlm_reason": "Shot from close range (~10m) slightly right of center, but a crowded box with many defenders in front and a defender tight on the shooter reduces the chance."
+  },
+  "8dd1ce3c-8097-412a-9951-4939e15903f3": {
+    "status": "succeeded",
+    "cost_usd": 0.00421,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 67,
+    "vlm_xg": 0.12,
+    "vlm_reason": "Shot from around the penalty spot area but with a defender directly in front blocking the shot and goalkeeper well positioned, likely a header or contested effort."
+  },
+  "c2770548-8c9d-474a-8cd7-6114ce4f76e1": {
+    "status": "succeeded",
+    "cost_usd": 0.00401,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 59,
+    "vlm_xg": 0.04,
+    "vlm_reason": "Long-range shot from ~25 meters outside the box, central but with several defenders between shooter and goal and goalkeeper set."
+  },
+  "519a5012-c032-4962-bc66-7b72b7533891": {
+    "status": "succeeded",
+    "cost_usd": 0.004235,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 68,
+    "vlm_xg": 0.35,
+    "vlm_reason": "Shot from inside the six-yard-box edge area, close range and slightly left of center, with goalkeeper set but defenders not blocking the shooting lane."
+  },
+  "37c91977-3d8e-42a7-8368-806c40c8e9fc": {
+    "status": "succeeded",
+    "cost_usd": 0.004235,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 68,
+    "vlm_xg": 0.45,
+    "vlm_reason": "Shot from inside the six-yard box very close to goal, but the goalkeeper is positioned right in front and defenders crowd the line, limiting the open target."
+  },
+  "0bb6e24e-6f18-49af-ac19-ff2d55ac0fc7": {
+    "status": "succeeded",
+    "cost_usd": 0.00421,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 67,
+    "vlm_xg": 0.28,
+    "vlm_reason": "Close-range central shot from around 8-9 yards out in a crowded box, likely a header from a corner/set piece with keeper set and defenders nearby."
+  },
+  "97734f34-6e02-4e86-b03d-c9d858dd8c92": {
+    "status": "succeeded",
+    "cost_usd": 0.004085,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 62,
+    "vlm_xg": 0.05,
+    "vlm_reason": "Shot from just outside the box near the D with several defenders clustered directly in front of the shooter, heavily obstructing the shooting lane."
+  },
+  "546c1d65-f1b5-4c42-8983-b743be29f3f8": {
+    "status": "succeeded",
+    "cost_usd": 0.004185,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 66,
+    "vlm_xg": 0.07,
+    "vlm_reason": "Shot from the right side of the box around the penalty spot area at a wide angle, with multiple defenders between shooter and goal and keeper well positioned."
+  },
+  "3346f978-27fc-4507-a755-40bf2c782df2": {
+    "status": "succeeded",
+    "cost_usd": 0.004085,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 62,
+    "vlm_xg": 0.03,
+    "vlm_reason": "Long-range shot from ~25 meters outside the box at an angle, with many defenders blocking the path and goalkeeper well positioned."
+  },
+  "d3ba40fa-09d6-4488-b17d-672aaa2928d7": {
+    "status": "succeeded",
+    "cost_usd": 0.00406,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 61,
+    "vlm_xg": 0.12,
+    "vlm_reason": "Shot from the penalty spot area, slightly right of center, but several defenders between shooter and goal and goalkeeper well positioned."
+  },
+  "0fcd16e1-49bb-45f6-9cd6-90db37fc3cdc": {
+    "status": "succeeded",
+    "cost_usd": 0.00446,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 77,
+    "vlm_xg": 0.45,
+    "vlm_reason": "Shot from very close range inside the six-yard box, slightly left of center, but the goalkeeper is positioned and a defender is tight on the shooter, likely a header or scramble situation."
+  },
+  "5c54df63-0251-46f6-9130-998568670772": {
+    "status": "succeeded",
+    "cost_usd": 0.004135,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 64,
+    "vlm_xg": 0.08,
+    "vlm_reason": "Close-range shot from a crowded corner-kick situation but at a tight angle right of goal with many defenders and the goalkeeper blocking."
+  },
+  "be213c96-cdf9-4a6a-a1c5-4e8c33966c0b": {
+    "status": "succeeded",
+    "cost_usd": 0.00396,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 57,
+    "vlm_xg": 0.07,
+    "vlm_reason": "Shot from the edge of the penalty area, central but with many defenders crowded in front and the goalkeeper well positioned."
+  },
+  "1540a282-cfd2-4a45-96e6-3a95c39914f1": {
+    "status": "succeeded",
+    "cost_usd": 0.003935,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 56,
+    "vlm_xg": 0.04,
+    "vlm_reason": "Long-range shot from just outside the box at the D, with many bodies between shooter and goal and a set goalkeeper."
+  },
+  "b43d9cd5-f92f-448e-9fc1-967b658adfda": {
+    "status": "succeeded",
+    "cost_usd": 0.00386,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 53,
+    "vlm_xg": 0.06,
+    "vlm_reason": "Shot from around the penalty spot area but off-center with many defenders crowding the path to goal and keeper set."
+  },
+  "2345dd7d-8990-4f6a-abaf-f93463247f7e": {
+    "status": "succeeded",
+    "cost_usd": 0.004135,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 64,
+    "vlm_xg": 0.35,
+    "vlm_reason": "Shot from very close range inside the six-yard box but from a tight angle with several defenders crowding the shooter and the keeper positioned nearby."
+  },
+  "1d0a8857-a8ba-461f-9e98-de32270f52c7": {
+    "status": "succeeded",
+    "cost_usd": 0.00436,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 73,
+    "vlm_xg": 0.35,
+    "vlm_reason": "Shot from close range inside the six-yard area edge, central, but goalkeeper is well positioned directly in front and several defenders are nearby though mostly behind the shooter."
+  },
+  "700d58f9-8032-4543-9a9d-b134c6996608": {
+    "status": "succeeded",
+    "cost_usd": 0.004235,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 68,
+    "vlm_xg": 0.04,
+    "vlm_reason": "Shot from outside the box, roughly 22-24 yards out and off-centre, with several defenders between shooter and goal and goalkeeper well positioned."
+  },
+  "be0a885b-0523-4ed4-99ca-fdd4121209d5": {
+    "status": "succeeded",
+    "cost_usd": 0.00401,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 59,
+    "vlm_xg": 0.04,
+    "vlm_reason": "Long-range shot from ~22m just outside the box with several defenders directly between the shooter and goal, heavily obstructed view."
+  },
+  "ac8b083c-950f-4978-8497-8f60b4b4fe6d": {
+    "status": "succeeded",
+    "cost_usd": 0.004185,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 66,
+    "vlm_xg": 0.35,
+    "vlm_reason": "Shot from inside the six-yard box very close to goal but at a tight angle to the left with the goalkeeper and a defender right in front of the shooter."
+  },
+  "b1309c1c-2272-43ac-a0a6-c9f358d70c18": {
+    "status": "succeeded",
+    "cost_usd": 0.004335,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 72,
+    "vlm_xg": 0.28,
+    "vlm_reason": "Close-range shot from inside the six-yard box area but with a crowded box, defenders adjacent and goalkeeper set, likely a header or scramble from a set piece."
+  },
+  "4938ed57-19a7-4bca-bafe-9273a5ff5884": {
+    "status": "succeeded",
+    "cost_usd": 0.00411,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 63,
+    "vlm_xg": 0.04,
+    "vlm_reason": "Shot from outside the box (~22m) through a crowded penalty area with many defenders blocking the lane and goalkeeper well positioned."
+  },
+  "ff1a53d0-f872-4616-8507-eff81ff4f55f": {
+    "status": "succeeded",
+    "cost_usd": 0.004235,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 68,
+    "vlm_xg": 0.07,
+    "vlm_reason": "Shot from ~14-16 yards, slightly left of center, through a crowded box with several defenders between shooter and goal, goalkeeper well positioned."
+  },
+  "59597c3f-d84d-467b-a791-46d9ffd85032": {
+    "status": "succeeded",
+    "cost_usd": 0.00421,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 67,
+    "vlm_xg": 0.45,
+    "vlm_reason": "Shot from inside the six-yard box very close to goal, but goalkeeper is positioned and a defender is near, likely a header or scramble from a cross."
+  },
+  "ac9db281-af11-4d8c-b1a4-262997862862": {
+    "status": "succeeded",
+    "cost_usd": 0.00411,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 63,
+    "vlm_xg": 0.12,
+    "vlm_reason": "Close-range shot near the six-yard box edge but from a tight angle to the right with several defenders nearby and the keeper positioned to cover."
+  },
+  "4d09313e-118e-459a-9ee8-01dc7a56f08f": {
+    "status": "succeeded",
+    "cost_usd": 0.003985,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 58,
+    "vlm_xg": 0.3,
+    "vlm_reason": "Close-range shot from central area near the six-yard box, but crowded with defenders and likely a header or scramble from a set piece."
+  },
+  "b73e743c-d52b-41c7-b455-268e8938cbe9": {
+    "status": "succeeded",
+    "cost_usd": 0.00416,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 65,
+    "vlm_xg": 0.3,
+    "vlm_reason": "Shot from inside the six-yard box edge, central, but goalkeeper positioned and defenders close by, likely a header from a cross/set piece."
+  },
+  "00b789c7-1a36-4662-a2f1-b472ccdf2ede": {
+    "status": "succeeded",
+    "cost_usd": 0.003985,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 58,
+    "vlm_xg": 0.03,
+    "vlm_reason": "Shot from the edge of the box at a wide angle with multiple defenders immediately around the shooter blocking the path to goal."
+  },
+  "c6dfbf3c-fee3-4529-bf1c-88c912c73ca2": {
+    "status": "succeeded",
+    "cost_usd": 0.004185,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 66,
+    "vlm_xg": 0.03,
+    "vlm_reason": "Shot from an extremely tight angle at the edge of the six-yard box near the byline with a defender right on the shooter and the keeper covering the near post."
+  },
+  "711ae41d-8fee-4b6d-9362-4006c7d12b5a": {
+    "status": "succeeded",
+    "cost_usd": 0.00416,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 65,
+    "vlm_xg": 0.12,
+    "vlm_reason": "Shot from inside the box near the six-yard line but from a wide-left angle with several defenders crowding the shooting lane and the keeper positioned."
+  },
+  "d53ccaf1-0307-4067-946b-d514978dfae2": {
+    "status": "succeeded",
+    "cost_usd": 0.00446,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 77,
+    "vlm_xg": 0.35,
+    "vlm_reason": "Shot from inside the six-yard box very close to goal, but the goalkeeper is positioned right in front of the shooter and several defenders are nearby, likely a header or scramble situation."
+  },
+  "4d2a7a72-edd7-4891-9a82-3443a1b0b635": {
+    "status": "succeeded",
+    "cost_usd": 0.004135,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 64,
+    "vlm_xg": 0.28,
+    "vlm_reason": "Close-range shot from the edge of the six-yard box but at a tight angle, with the goalkeeper well positioned and several defenders in the box."
+  },
+  "cb9682c8-3388-4616-b615-7568171b4fd3": {
+    "status": "succeeded",
+    "cost_usd": 0.003935,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 56,
+    "vlm_xg": 0.04,
+    "vlm_reason": "Long-range shot from ~22m outside the box with many defenders crowding the shooting lane and goalkeeper set."
+  },
+  "e534d589-ffb5-42c2-a449-541547acec89": {
+    "status": "succeeded",
+    "cost_usd": 0.003985,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 58,
+    "vlm_xg": 0.05,
+    "vlm_reason": "Shot from just outside the penalty area at a wide-left angle with many defenders in front and the goalkeeper well positioned."
+  },
+  "fd610db8-b330-48eb-a1ef-a12f8f806da2": {
+    "status": "succeeded",
+    "cost_usd": 0.004435,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 76,
+    "vlm_xg": 0.35,
+    "vlm_reason": "Very close-range shot from inside the six-yard box, but the goalkeeper is positioned directly in front and several defenders crowd the area, likely a header or scramble from a set piece."
+  },
+  "01ae7e3c-91d2-4989-9fd8-641f2d55cfe2": {
+    "status": "succeeded",
+    "cost_usd": 0.004185,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 66,
+    "vlm_xg": 0.35,
+    "vlm_reason": "Shot from inside the six-yard box edge, very close to goal but from a tight angle to the right of the goalkeeper's post with defenders nearby."
+  },
+  "5783c86d-02e9-4d3c-89e8-0b1ea00d2aca": {
+    "status": "succeeded",
+    "cost_usd": 0.004035,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 60,
+    "vlm_xg": 0.12,
+    "vlm_reason": "Shot from around the penalty spot in a crowded box with several defenders directly between shooter and goal, likely a header or contested strike."
+  },
+  "bb569056-5824-4a84-9bf7-098df409c1fb": {
+    "status": "succeeded",
+    "cost_usd": 0.00401,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 59,
+    "vlm_xg": 0.06,
+    "vlm_reason": "Shot from around the penalty spot/edge of box with many defenders crowding the path to goal, likely from a set piece scramble."
+  },
+  "92e8f2c9-a5de-4e1b-9b4b-b3b6bf96aec9": {
+    "status": "succeeded",
+    "cost_usd": 0.004135,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 64,
+    "vlm_xg": 0.28,
+    "vlm_reason": "Shot from central position near the penalty spot area with a defender directly in front and the goalkeeper well positioned, but close range gives a decent chance."
+  },
+  "a54fab01-3f2e-4d5a-961f-16f3e8616662": {
+    "status": "succeeded",
+    "cost_usd": 0.004385,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 74,
+    "vlm_xg": 0.07,
+    "vlm_reason": "Header/shot from the edge of the six-yard-box area around the penalty spot zone, but heavily crowded with several defenders between shooter and goal, likely from a set piece."
+  },
+  "96b42342-137b-42fb-9b1b-c65116b5f82b": {
+    "status": "succeeded",
+    "cost_usd": 0.00436,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 73,
+    "vlm_xg": 0.16,
+    "vlm_reason": "Shot from inside the six-yard box edge at a tight angle to the right of goal, with the goalkeeper positioned and several defenders nearby reducing the finish probability."
+  },
+  "af44367b-ffb2-4595-bc0e-975f6abe7ca6": {
+    "status": "succeeded",
+    "cost_usd": 0.003985,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 58,
+    "vlm_xg": 0.03,
+    "vlm_reason": "Long-range shot from outside the box at an angle with many defenders crowding the path to goal and goalkeeper well positioned."
+  },
+  "70e7f361-0036-4d20-a401-2e4afbd31e5a": {
+    "status": "succeeded",
+    "cost_usd": 0.00401,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 59,
+    "vlm_xg": 0.04,
+    "vlm_reason": "Shot from around 20+ yards outside the box, slightly left of center, with many defenders between shooter and goal blocking the line."
+  },
+  "3c39ef38-538e-4e10-af3d-768e0ed2dcd3": {
+    "status": "succeeded",
+    "cost_usd": 0.004135,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 64,
+    "vlm_xg": 0.04,
+    "vlm_reason": "Shot from a very wide, tight angle at the edge of the penalty area with many defenders packed in the box and the goalkeeper well positioned."
+  },
+  "8aafb6ab-26fa-4ccb-87b7-a9c4e9aae35b": {
+    "status": "succeeded",
+    "cost_usd": 0.004285,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 70,
+    "vlm_xg": 0.3,
+    "vlm_reason": "Close-range shot from inside the six-yard box edge, slightly off-centre, but crowded box with several defenders and goalkeeper positioned near the shot line."
+  },
+  "c15dc8c4-2d91-435a-a390-11fd17a2bf2f": {
+    "status": "succeeded",
+    "cost_usd": 0.004285,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 70,
+    "vlm_xg": 0.08,
+    "vlm_reason": "Shot from inside the box but at a very tight angle on the left, with the goalkeeper positioned right next to the shooter covering the near post and several defenders nearby."
+  },
+  "b4b2bbe9-bd6b-4445-b010-245913557fde": {
+    "status": "succeeded",
+    "cost_usd": 0.00401,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 59,
+    "vlm_xg": 0.04,
+    "vlm_reason": "Shot from outside the box at an angle with many defenders crowded between the shooter and the goal, goalkeeper well positioned."
+  },
+  "34eba09f-f80e-4bf8-b56d-3bceab8a5eed": {
+    "status": "succeeded",
+    "cost_usd": 0.00436,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 73,
+    "vlm_xg": 0.07,
+    "vlm_reason": "Shot from ~14m left of center inside the box but with a crowded penalty area, several defenders between shooter and goal, likely a header or deflected attempt from a set piece."
+  },
+  "8aa0fcc9-cdaa-47ab-b593-ec0343ad1843": {
+    "status": "succeeded",
+    "cost_usd": 0.004235,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 68,
+    "vlm_xg": 0.22,
+    "vlm_reason": "Shot from inside the box near the penalty spot, central, but with several defenders close by including one directly adjacent to the shooter, and the keeper well positioned."
+  },
+  "b660fbc5-1653-455b-98f7-9eefab7d3fea": {
+    "status": "succeeded",
+    "cost_usd": 0.00381,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 51,
+    "vlm_xg": 0.03,
+    "vlm_reason": "Long-range shot from just outside the penalty area with many defenders crowding the box between shooter and goal."
+  },
+  "9be1b301-9784-4f2b-b709-d2d4dec0d578": {
+    "status": "succeeded",
+    "cost_usd": 0.004035,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 60,
+    "vlm_xg": 0.12,
+    "vlm_reason": "Shot from inside the box but at a tight angle on the left side, with a defender right on the shooter and goalkeeper well positioned."
+  },
+  "a947d83c-9d7f-4e69-aaaf-34028ac5f299": {
+    "status": "succeeded",
+    "cost_usd": 0.00431,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 71,
+    "vlm_xg": 0.22,
+    "vlm_reason": "Very close-range shot from a tight angle at the edge of the six-yard box, with the goalkeeper positioned well and a defender adjacent, limiting the open target."
+  },
+  "2d49a2a9-4a1d-4198-aa2c-b09ca2ed4565": {
+    "status": "succeeded",
+    "cost_usd": 0.00396,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 57,
+    "vlm_xg": 0.07,
+    "vlm_reason": "Shot from the edge of the penalty area, central but with many defenders crowded in front and the goalkeeper well positioned."
+  },
+  "7dc143c8-2c30-4d5e-b227-682e509874b1": {
+    "status": "succeeded",
+    "cost_usd": 0.00426,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 69,
+    "vlm_xg": 0.07,
+    "vlm_reason": "Shot from a very tight angle near the goal line at the edge of the six-yard box, with the goalkeeper positioned right at the near post covering most of the goal."
+  },
+  "e4d8f973-7517-497c-8ff8-dcd54dde1da1": {
+    "status": "succeeded",
+    "cost_usd": 0.00426,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 69,
+    "vlm_xg": 0.05,
+    "vlm_reason": "Shot from the left edge of the penalty area at a tight angle with several defenders clustered around and in front of the shooter, and the goalkeeper well positioned."
+  },
+  "9fa41c60-ab9c-4fcb-8d5c-39a781e7a9c0": {
+    "status": "succeeded",
+    "cost_usd": 0.00411,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 63,
+    "vlm_xg": 0.04,
+    "vlm_reason": "Shot from the edge of the box (~18m) through a crowded penalty area with many defenders between shooter and goal, likely from a set piece."
+  },
+  "e19e6d23-1ae7-41f7-8523-ca44e192c002": {
+    "status": "succeeded",
+    "cost_usd": 0.00421,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 67,
+    "vlm_xg": 0.35,
+    "vlm_reason": "Shot from inside the six-yard box at a tight-ish angle left of goal, with goalkeeper near post and a defender close, but very near the goal line."
+  },
+  "e823ad07-c3bc-4381-ba75-91912727a627": {
+    "status": "succeeded",
+    "cost_usd": 0.004335,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 72,
+    "vlm_xg": 0.3,
+    "vlm_reason": "Shot from very close range centrally just outside the six-yard box, but with several defenders crowding the shooter and the keeper set, likely a header or scramble from a set piece."
+  },
+  "ce3c5309-f67c-45f6-9ff3-354a958dc5f7": {
+    "status": "succeeded",
+    "cost_usd": 0.004135,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 64,
+    "vlm_xg": 0.28,
+    "vlm_reason": "Close-range shot from inside the six-yard box area but at a tight angle left of goal with a defender adjacent and keeper positioned near the post."
+  },
+  "80f6a8f8-8c52-49e0-ba91-32b59cbe6330": {
+    "status": "succeeded",
+    "cost_usd": 0.00391,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 55,
+    "vlm_xg": 0.04,
+    "vlm_reason": "Shot from the edge of the box at a wide-left angle with many defenders in between and goalkeeper well positioned."
+  },
+  "34f546bf-8be7-4a35-9e42-bfd908c2f766": {
+    "status": "succeeded",
+    "cost_usd": 0.00411,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 63,
+    "vlm_xg": 0.22,
+    "vlm_reason": "Shot from inside the box about 10m out but at a tight angle to the left, with a defender tight on the shooter and the keeper positioned well."
+  },
+  "cd7df5a3-11c8-41d0-9ca5-ef6feea55964": {
+    "status": "succeeded",
+    "cost_usd": 0.004085,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 62,
+    "vlm_xg": 0.03,
+    "vlm_reason": "Long-range shot from outside the box, well left of center, with a crowd of defenders blocking the path to goal and the goalkeeper set."
+  },
+  "9e626aa5-58e5-48c8-afd9-6d8eb3596264": {
+    "status": "succeeded",
+    "cost_usd": 0.003985,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 58,
+    "vlm_xg": 0.18,
+    "vlm_reason": "Close-range shot inside the box but from a tight angle to the right with the goalkeeper well positioned and a defender nearby."
+  },
+  "688ff909-c4de-4082-8d84-0aa37c1105b4": {
+    "status": "succeeded",
+    "cost_usd": 0.00396,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 57,
+    "vlm_xg": 0.04,
+    "vlm_reason": "Shot from outside the box (~22m) with many defenders and teammates crowding the path to goal, goalkeeper set."
+  },
+  "0ae4e2c7-07a3-4dc5-986c-ef18f62e62ce": {
+    "status": "succeeded",
+    "cost_usd": 0.004135,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 64,
+    "vlm_xg": 0.09,
+    "vlm_reason": "Shot from inside the box near the penalty spot but from a wide-left angle with many defenders crowding the area and goalkeeper well positioned."
+  },
+  "9e5a1e2d-6c0e-4e11-b710-ccfd5ac90ee9": {
+    "status": "succeeded",
+    "cost_usd": 0.004035,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 60,
+    "vlm_xg": 0.38,
+    "vlm_reason": "Shot from very close range near the penalty spot area, central, with goalkeeper in position and one defender nearby but not directly blocking."
+  },
+  "be17203f-f93a-4a28-9704-0d0783b29be2": {
+    "status": "succeeded",
+    "cost_usd": 0.00436,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 73,
+    "vlm_xg": 0.28,
+    "vlm_reason": "Shot from inside the six-yard box very close to goal, but the goalkeeper is positioned right next to the shooter and several defenders crowd the line, limiting the open target."
+  },
+  "b85a7aad-d825-414a-bc3b-836ff6fbff82": {
+    "status": "succeeded",
+    "cost_usd": 0.004335,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 72,
+    "vlm_xg": 0.12,
+    "vlm_reason": "Shot from ~10m near the penalty spot area in a crowded box with many defenders between shooter and goal, likely a header or set-piece scramble with partial blocking."
+  },
+  "e32629f1-a105-440c-8bfa-fdfebd076f4a": {
+    "status": "succeeded",
+    "cost_usd": 0.00431,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 71,
+    "vlm_xg": 0.12,
+    "vlm_reason": "Close-range shot from inside the six-yard-box edge but with many defenders crowded in front and a congested goalmouth, likely a header or scramble from a set piece."
+  },
+  "b0746354-fb11-4c00-916e-2ffe9303599d": {
+    "status": "succeeded",
+    "cost_usd": 0.00411,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 63,
+    "vlm_xg": 0.06,
+    "vlm_reason": "Shot from a wide angle inside the box, around 14-15m from goal, with many defenders between shooter and goal and the keeper positioned."
+  },
+  "9c16738b-cf6c-4669-a694-276a322ff6d8": {
+    "status": "succeeded",
+    "cost_usd": 0.004185,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 66,
+    "vlm_xg": 0.35,
+    "vlm_reason": "Shot from very close range right by the goal line but at a tight angle beside the near post with the goalkeeper positioned adjacent, limiting the open target."
+  },
+  "43b2d123-6945-4a7c-8292-f7792af341f9": {
+    "status": "succeeded",
+    "cost_usd": 0.00426,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 69,
+    "vlm_xg": 0.05,
+    "vlm_reason": "Shot from just outside the penalty area edge with a crowded box of defenders in the shooting lane and goalkeeper set, giving a low chance of scoring."
+  },
+  "867b8791-49c0-4d98-a976-c0b4cfc1cb5a": {
+    "status": "succeeded",
+    "cost_usd": 0.00406,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 61,
+    "vlm_xg": 0.04,
+    "vlm_reason": "Long-range shot from just outside the penalty area with many defenders between shooter and goal, likely a blocked or low-quality attempt."
+  },
+  "9747c65f-740c-42bb-87a9-a309a35acf08": {
+    "status": "succeeded",
+    "cost_usd": 0.004235,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 68,
+    "vlm_xg": 0.04,
+    "vlm_reason": "Shot from just outside the penalty area edge at a slight angle, with many defenders crowded between shooter and goal, plus goalkeeper well positioned."
+  },
+  "605589a6-a83f-4533-b88f-a8e775efa581": {
+    "status": "succeeded",
+    "cost_usd": 0.00426,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 69,
+    "vlm_xg": 0.35,
+    "vlm_reason": "Close-range shot from the edge of the six-yard box, slightly right of center, but with two defenders tight and goalkeeper positioned, partially obstructing."
+  },
+  "76686ee8-2674-4762-a7d0-1b9dc6fb4d10": {
+    "status": "succeeded",
+    "cost_usd": 0.004335,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 72,
+    "vlm_xg": 0.42,
+    "vlm_reason": "Shot from inside the six-yard box right in front of goal, but goalkeeper is positioned directly on the line and two defenders flank the shooter, limiting the open target."
+  },
+  "3074f495-700d-416f-b0af-f2db45328354": {
+    "status": "succeeded",
+    "cost_usd": 0.00406,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 61,
+    "vlm_xg": 0.04,
+    "vlm_reason": "Shot from ~20 yards at the edge of the box with many defenders packed between shooter and goal, goalkeeper well positioned."
+  },
+  "4b230dcf-b3cd-42eb-aa82-b73c0f958617": {
+    "status": "succeeded",
+    "cost_usd": 0.00406,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 61,
+    "vlm_xg": 0.12,
+    "vlm_reason": "Shot from around the penalty spot area, central but heavily congested with several defenders directly in front of the shooter and goalkeeper set."
+  },
+  "6c3a8948-24c5-4a9f-94ef-820524a32e7c": {
+    "status": "succeeded",
+    "cost_usd": 0.00456,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 81,
+    "vlm_xg": 0.45,
+    "vlm_reason": "Shot from very close range inside the six-yard box, but the goalkeeper is positioned right next to the shooter and several defenders are nearby, likely from a crowded set-piece or rebound situation."
+  },
+  "819e2c8c-5a57-4cf6-b3e6-36e23513dc9a": {
+    "status": "succeeded",
+    "cost_usd": 0.003885,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 54,
+    "vlm_xg": 0.12,
+    "vlm_reason": "Shot from ~10 yards in central box but heavily congested with several defenders blocking and keeper well positioned."
+  },
+  "e0e3e4da-8a23-4e2c-b4d2-b7bef8feb9fe": {
+    "status": "succeeded",
+    "cost_usd": 0.004085,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 62,
+    "vlm_xg": 0.04,
+    "vlm_reason": "Shot from ~22m outside the box through a crowded penalty area with many defenders blocking the lane and goalkeeper well positioned."
+  },
+  "d2f58c81-92d6-4a50-811a-2413929f5c1d": {
+    "status": "succeeded",
+    "cost_usd": 0.003785,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 50,
+    "vlm_xg": 0.03,
+    "vlm_reason": "Long-range shot from ~25m outside the box at an angle with many defenders between shooter and goal."
+  },
+  "21b51419-7d6c-443b-8107-2c90cb73bdbc": {
+    "status": "succeeded",
+    "cost_usd": 0.00421,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 67,
+    "vlm_xg": 0.35,
+    "vlm_reason": "Shot from inside the six-yard box area, close range but at a tight angle to the left of goal with the goalkeeper positioned and several defenders nearby."
+  },
+  "9cc86132-6a78-440a-b926-2926ddd6946f": {
+    "status": "succeeded",
+    "cost_usd": 0.00396,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 57,
+    "vlm_xg": 0.03,
+    "vlm_reason": "Shot from outside the box at a wide angle on the right with many defenders between shooter and goal and the keeper well positioned."
+  },
+  "c16ca4fa-a630-423d-9594-9b5000b69427": {
+    "status": "succeeded",
+    "cost_usd": 0.00421,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 67,
+    "vlm_xg": 0.28,
+    "vlm_reason": "Close-range shot from ~10m slightly right of center inside the box, but a defender is immediately adjacent and others nearby, with the keeper positioned."
+  },
+  "c319aceb-f6cd-40e3-8431-557a2619a822": {
+    "status": "succeeded",
+    "cost_usd": 0.00401,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 59,
+    "vlm_xg": 0.05,
+    "vlm_reason": "Shot from the edge of the box at a wide angle on the left with several defenders between shooter and goal, making a goal unlikely."
+  },
+  "afbe9884-329f-4721-a822-ccba6d081310": {
+    "status": "succeeded",
+    "cost_usd": 0.00431,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 71,
+    "vlm_xg": 0.35,
+    "vlm_reason": "Shot from inside the six-yard box area edge, very close range, but crowded with defenders nearby and goalkeeper positioned, likely a header or scramble situation."
+  },
+  "4799713f-dd43-4ede-a5c6-b2ea63f69933": {
+    "status": "succeeded",
+    "cost_usd": 0.00396,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 57,
+    "vlm_xg": 0.04,
+    "vlm_reason": "Long-range shot from just outside the box with many defenders crowding the shooting lane and the goalkeeper well positioned."
+  },
+  "7aaedea3-0cdf-4082-8ea9-efbb40703b91": {
+    "status": "succeeded",
+    "cost_usd": 0.004285,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 70,
+    "vlm_xg": 0.28,
+    "vlm_reason": "Close-range shot from inside the box near the six-yard line, but a defender is tight on the shooter and the goalkeeper is well positioned, with a crowded area."
+  },
+  "83c4eb51-6f0c-4174-9b1a-37bc9aa37a9a": {
+    "status": "succeeded",
+    "cost_usd": 0.00421,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 67,
+    "vlm_xg": 0.04,
+    "vlm_reason": "Shot from the edge of the box (~20m) through a crowd of defenders with the goalkeeper well positioned, typical low-value long-range attempt."
+  },
+  "6bd41f74-6e8e-4714-bc4d-fdb8e0f1528f": {
+    "status": "succeeded",
+    "cost_usd": 0.004285,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 70,
+    "vlm_xg": 0.08,
+    "vlm_reason": "Shot from ~14m near penalty spot area with many defenders crowding the box and bodies between shooter and goal, likely a header or contested strike from a set piece."
+  },
+  "a53883b6-db8a-4d3d-bca7-10c49010f58e": {
+    "status": "succeeded",
+    "cost_usd": 0.00431,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 71,
+    "vlm_xg": 0.03,
+    "vlm_reason": "Long-range shot from ~25m outside the box with a crowded wall of defenders and attackers between shooter and goal, likely a free kick or direct effort from distance."
+  },
+  "76fd24e6-a4f1-4a23-8fe8-6c154da2aafd": {
+    "status": "succeeded",
+    "cost_usd": 0.00426,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 69,
+    "vlm_xg": 0.12,
+    "vlm_reason": "Shot from central position around the penalty spot but with a crowded box full of defenders blocking the path and goalkeeper set, likely a header or volley from a cross."
+  },
+  "d07f9ed6-ff50-4f64-8a79-4702889c0d40": {
+    "status": "succeeded",
+    "cost_usd": 0.004385,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 74,
+    "vlm_xg": 0.12,
+    "vlm_reason": "Shot from ~10-12 yards centrally but heavily congested with several defenders directly blocking the path and goalkeeper set, likely a header or scramble from a set piece."
+  },
+  "6f976433-79ae-46c6-8442-5619a2616918": {
+    "status": "succeeded",
+    "cost_usd": 0.00391,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 55,
+    "vlm_xg": 0.18,
+    "vlm_reason": "Shot from inside the box near the penalty spot but off-center with several defenders close and goalkeeper well positioned."
+  },
+  "500f07f5-8b73-4da3-a208-ae5c9806f7b3": {
+    "status": "succeeded",
+    "cost_usd": 0.004285,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 70,
+    "vlm_xg": 0.09,
+    "vlm_reason": "Shot from a tight angle on the left edge of the six-yard box with many defenders packed in and the goalkeeper well positioned, likely a header from a set piece."
+  },
+  "654f8fdc-223a-4074-9ac3-bf5ccbd27083": {
+    "status": "succeeded",
+    "cost_usd": 0.004235,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 68,
+    "vlm_xg": 0.28,
+    "vlm_reason": "Shot from very close range near the six-yard box in a crowded area with several defenders and goalkeeper positioned, likely a header or scramble from a set piece."
+  },
+  "ac8028fd-d64c-4c42-9434-91109755b4c4": {
+    "status": "succeeded",
+    "cost_usd": 0.00401,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 59,
+    "vlm_xg": 0.04,
+    "vlm_reason": "Shot from the edge of the penalty area, slightly left of center, with many defenders crowding the box and blocking the path to goal."
+  },
+  "be726f9e-21ea-4db2-b188-92a93bf619c8": {
+    "status": "succeeded",
+    "cost_usd": 0.003935,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 56,
+    "vlm_xg": 0.04,
+    "vlm_reason": "Long-range shot from outside the box (~25m) with a crowded penalty area of defenders blocking the line to goal."
+  },
+  "9cd13a7d-13be-4553-a2e1-b4bab349e413": {
+    "status": "succeeded",
+    "cost_usd": 0.00416,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 65,
+    "vlm_xg": 0.12,
+    "vlm_reason": "Shot from around the penalty spot area but heavily congested with defenders directly in front and goalkeeper set, likely a header or blocked attempt."
+  },
+  "272d6bda-a5dc-4e90-b118-c333ae21e13e": {
+    "status": "succeeded",
+    "cost_usd": 0.00431,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 71,
+    "vlm_xg": 0.06,
+    "vlm_reason": "Shot from the edge of the box (~20m) with a crowded penalty area and multiple defenders directly between shooter and goal, likely a blocked or saved effort."
+  },
+  "0d3c66d5-64b8-4fd7-8955-ad27a86d6ec1": {
+    "status": "succeeded",
+    "cost_usd": 0.004135,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 64,
+    "vlm_xg": 0.12,
+    "vlm_reason": "Shot from ~12 yards centrally but through a crowded box with several defenders directly between shooter and goal, goalkeeper well positioned."
+  },
+  "9a788179-9c98-49e9-a51e-80a48d401785": {
+    "status": "succeeded",
+    "cost_usd": 0.00451,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 79,
+    "vlm_xg": 0.35,
+    "vlm_reason": "Shot from close range just outside the six-yard box at a slight angle, but the goalkeeper is well positioned and a defender is right next to the shooter, likely pressuring or partially blocking."
+  },
+  "a2444b31-3332-4440-9302-e5a00e0dc734": {
+    "status": "succeeded",
+    "cost_usd": 0.004185,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 66,
+    "vlm_xg": 0.05,
+    "vlm_reason": "Shot from the edge of the penalty area, slightly right of center, with a crowded box of defenders between shooter and goal and the keeper well positioned."
+  },
+  "40c60798-23de-4690-ab6b-47b58c1f58c4": {
+    "status": "succeeded",
+    "cost_usd": 0.00431,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 71,
+    "vlm_xg": 0.05,
+    "vlm_reason": "Shot from a wide angle at the edge of the penalty area, roughly 16-18m out, with many defenders crowding the box and a defender right in front of the shooter."
+  },
+  "a937340c-4952-453c-9606-d316b920cf67": {
+    "status": "succeeded",
+    "cost_usd": 0.00431,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 71,
+    "vlm_xg": 0.22,
+    "vlm_reason": "Shot from inside the six-yard box area edge, very close to goal, but heavily crowded with multiple defenders between shooter and goal and the keeper well positioned."
+  },
+  "015c52d6-b1c1-45c2-b450-75238519b983": {
+    "status": "succeeded",
+    "cost_usd": 0.00416,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 65,
+    "vlm_xg": 0.06,
+    "vlm_reason": "Shot from the edge of the penalty area, roughly 18m out, with four defenders packed directly in front of the shooter blocking the line to goal."
+  },
+  "f04052f9-712a-4992-a561-b3a46bb0d53b": {
+    "status": "succeeded",
+    "cost_usd": 0.00436,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 73,
+    "vlm_xg": 0.38,
+    "vlm_reason": "Shot from very close range (~6 yards, central) in a crowded goalmouth, but goalkeeper is set and several defenders are nearby, likely a header or scramble."
+  },
+  "acf2f09c-043c-48bc-8e4d-d7ddc04b74ec": {
+    "status": "succeeded",
+    "cost_usd": 0.00426,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 69,
+    "vlm_xg": 0.12,
+    "vlm_reason": "Shot from the left edge of the six-yard box at a tight angle amid a crowded box with many defenders between shooter and goal, likely a header from a set piece."
+  },
+  "e0b68076-fbac-4918-b206-97d14b9d2e42": {
+    "status": "succeeded",
+    "cost_usd": 0.004085,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 62,
+    "vlm_xg": 0.05,
+    "vlm_reason": "Shot from the edge of the box at a wide-ish angle with a defender right next to the shooter and multiple bodies between ball and goal."
+  },
+  "79a770c1-3ec1-4ea5-b834-9a58ed3b3843": {
+    "status": "succeeded",
+    "cost_usd": 0.00441,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 75,
+    "vlm_xg": 0.28,
+    "vlm_reason": "Shot from central position around 11-12 yards out inside the box, but with several defenders nearby and the goalkeeper set, suggesting a crowded box scenario like a set piece."
+  },
+  "19a225eb-4436-4a53-a354-3b40dfa6ca31": {
+    "status": "succeeded",
+    "cost_usd": 0.004135,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 64,
+    "vlm_xg": 0.55,
+    "vlm_reason": "Shot from inside the six-yard box very close to goal, though the goalkeeper is right on the line near the shooter and several defenders are nearby."
+  },
+  "90d7ee1b-aa71-4292-ba17-0bcd15e6e03a": {
+    "status": "succeeded",
+    "cost_usd": 0.00416,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 65,
+    "vlm_xg": 0.07,
+    "vlm_reason": "Shot from around the penalty spot area with many defenders packed between shooter and goal, likely a header or volley from a set piece with heavy traffic."
+  },
+  "4e3dddd6-1001-4bca-a950-fe89f59cea25": {
+    "status": "succeeded",
+    "cost_usd": 0.004085,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 62,
+    "vlm_xg": 0.35,
+    "vlm_reason": "Close-range shot from about 8-10 yards near the center with goalkeeper set but several defenders nearby creating pressure and potential block."
+  },
+  "5d9a7dee-a394-45bd-a788-6791bcb46e98": {
+    "status": "succeeded",
+    "cost_usd": 0.00406,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 61,
+    "vlm_xg": 0.14,
+    "vlm_reason": "Shot from inside the box around 10-12 yards out but in a crowded central area with several defenders between shooter and goal and keeper set."
+  },
+  "78b596e2-8a04-4d2a-ba99-369f526424a7": {
+    "status": "succeeded",
+    "cost_usd": 0.004035,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 60,
+    "vlm_xg": 0.12,
+    "vlm_reason": "Shot from around the penalty spot but heavily congested with multiple defenders directly between shooter and goal, goalkeeper set."
+  },
+  "5f66b1e6-4264-46d4-bf52-ec9e834b12c6": {
+    "status": "succeeded",
+    "cost_usd": 0.004235,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 68,
+    "vlm_xg": 0.09,
+    "vlm_reason": "Shot from inside the six-yard box edge but heavily crowded with multiple defenders between shooter and goal, likely a header or scramble from a set piece."
+  },
+  "ca879c6e-6742-4d2b-8b98-5e9b726ee77e": {
+    "status": "succeeded",
+    "cost_usd": 0.00416,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 65,
+    "vlm_xg": 0.35,
+    "vlm_reason": "Shot from very close range inside the six-yard box but with the goalkeeper right in front and several defenders crowding the area, likely a header or scramble."
+  },
+  "5f957f67-cdbc-4a3e-b3bc-89492062f995": {
+    "status": "succeeded",
+    "cost_usd": 0.00411,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 63,
+    "vlm_xg": 0.3,
+    "vlm_reason": "Shot from the edge of the six-yard box, centrally, but the goalkeeper is right in front of the shooter and two defenders are close by."
+  },
+  "990bd967-1e5e-4380-baf7-13af7ddde792": {
+    "status": "succeeded",
+    "cost_usd": 0.00401,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 59,
+    "vlm_xg": 0.06,
+    "vlm_reason": "Shot from the edge of the penalty area, slightly right of center, with many defenders crowding the box and the keeper well positioned."
+  },
+  "a84dc163-7627-4553-900a-7720ce6b6099": {
+    "status": "succeeded",
+    "cost_usd": 0.003985,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 58,
+    "vlm_xg": 0.13,
+    "vlm_reason": "Shot from central area near penalty spot but crowded with several defenders between shooter and goal, goalkeeper well positioned."
+  },
+  "8d9322d1-dee7-4ea0-9402-6122d500dcfe": {
+    "status": "succeeded",
+    "cost_usd": 0.004085,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 62,
+    "vlm_xg": 0.33,
+    "vlm_reason": "Shot from very close range inside the six-yard box, but with a crowd of defenders immediately around the shooter and the keeper set on the line."
+  },
+  "a925c8e0-53ea-4496-9854-64292c603fa3": {
+    "status": "succeeded",
+    "cost_usd": 0.00396,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 57,
+    "vlm_xg": 0.04,
+    "vlm_reason": "Shot from just outside the penalty area edge, slightly right of centre, with many defenders crowded between shooter and goal."
+  },
+  "f599adfa-210a-4a2a-9e72-13132f299650": {
+    "status": "succeeded",
+    "cost_usd": 0.00421,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 67,
+    "vlm_xg": 0.28,
+    "vlm_reason": "Shot from inside the six-yard box area, close range (~7m) but goalkeeper set and several defenders crowding the path, likely a header or scramble."
+  },
+  "8294e192-b4b3-410d-88bf-dbafd1d5d730": {
+    "status": "succeeded",
+    "cost_usd": 0.00411,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 63,
+    "vlm_xg": 0.28,
+    "vlm_reason": "Shot from inside the six-yard box edge but at a tight angle right of goal with a defender adjacent and goalkeeper well positioned."
+  },
+  "c0e30aed-d026-4957-8d78-509ab472e2bc": {
+    "status": "succeeded",
+    "cost_usd": 0.00426,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 69,
+    "vlm_xg": 0.13,
+    "vlm_reason": "Close-range shot from inside the six-yard-area edge but heavily congested with many defenders between shooter and goal, likely a header or scramble from a set piece."
+  },
+  "96265fa7-2689-4ba5-bfe3-781c93b4ee60": {
+    "status": "succeeded",
+    "cost_usd": 0.00416,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 65,
+    "vlm_xg": 0.45,
+    "vlm_reason": "Shot from very close range inside the six-yard box, central position, though a defender is right next to the shooter and the goalkeeper is positioned on the line."
+  },
+  "5078e0df-5e43-4742-956a-45fd5c985eaf": {
+    "status": "succeeded",
+    "cost_usd": 0.00431,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 71,
+    "vlm_xg": 0.35,
+    "vlm_reason": "Shot from inside the six-yard box very close to goal, but crowded with many defenders and the keeper positioned nearby, likely a header or scramble from a set piece."
+  },
+  "0337c5e5-aaeb-4704-a6c6-35590a5cb9a0": {
+    "status": "succeeded",
+    "cost_usd": 0.00441,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 75,
+    "vlm_xg": 0.12,
+    "vlm_reason": "Close-range shot from a tight angle on the left edge of the six-yard box, but with many defenders packed between the shooter and goal and the keeper positioned, limiting the chance."
+  },
+  "a1545633-330a-4c29-bdc4-e7a8d2720acc": {
+    "status": "succeeded",
+    "cost_usd": 0.00396,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 57,
+    "vlm_xg": 0.04,
+    "vlm_reason": "Shot from just outside the penalty area, central, but with many defenders crowding the lane and goalkeeper well positioned."
+  },
+  "53d825ac-a98d-41ca-b81f-1015dee17376": {
+    "status": "succeeded",
+    "cost_usd": 0.00431,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 71,
+    "vlm_xg": 0.05,
+    "vlm_reason": "Shot from the edge of the penalty area, slightly right of center, through a crowded box with many defenders between shooter and goal, likely a header or volley from a set piece."
+  },
+  "144b76d4-3fe1-4f55-9f32-ca04aa1ab4f2": {
+    "status": "succeeded",
+    "cost_usd": 0.004185,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 66,
+    "vlm_xg": 0.06,
+    "vlm_reason": "Shot from ~16-17m out, left of center, with a crowded box and several defenders directly between shooter and goal, goalkeeper well positioned."
+  },
+  "70fe857d-6f28-4b38-8ad7-a655328ec176": {
+    "status": "succeeded",
+    "cost_usd": 0.00441,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 75,
+    "vlm_xg": 0.35,
+    "vlm_reason": "Shot from inside the six-yard box at a slight angle, but goalkeeper is positioned and crowded box with defenders nearby, likely a header or scramble from a set piece."
+  },
+  "743254c2-073c-4f7b-a0af-c0a6304c36d5": {
+    "status": "succeeded",
+    "cost_usd": 0.004285,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 70,
+    "vlm_xg": 0.04,
+    "vlm_reason": "Shot from the edge of the box at a wide angle with many defenders packed in front and the goalkeeper positioned, typical of a crowded set-piece second ball."
+  },
+  "2a672651-8c7c-4ac7-b16c-711fa08790df": {
+    "status": "succeeded",
+    "cost_usd": 0.004035,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 60,
+    "vlm_xg": 0.05,
+    "vlm_reason": "Shot from the edge of the box at a wide angle with many defenders packed between shooter and goal, making a clean strike unlikely."
+  },
+  "526a8e99-85bc-4561-a695-0158650da5f7": {
+    "status": "succeeded",
+    "cost_usd": 0.00401,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 59,
+    "vlm_xg": 0.03,
+    "vlm_reason": "Shot from the edge of the box at a wide-left angle with a crowded penalty area full of defenders blocking the path to goal."
+  },
+  "c5b9e95f-da7a-4d83-a43a-82e211f8cb5a": {
+    "status": "succeeded",
+    "cost_usd": 0.00406,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 61,
+    "vlm_xg": 0.03,
+    "vlm_reason": "Long-range shot from ~25-28 meters out, central but with many defenders between shooter and goal, goalkeeper well positioned."
+  },
+  "feec1a47-a09f-40a8-b376-83235a04f754": {
+    "status": "succeeded",
+    "cost_usd": 0.00391,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 55,
+    "vlm_xg": 0.03,
+    "vlm_reason": "Long-range shot from outside the box with several defenders between shooter and goal and a well-positioned goalkeeper."
+  },
+  "4702956b-c7d2-4b36-848c-4057f688bba0": {
+    "status": "succeeded",
+    "cost_usd": 0.00411,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 63,
+    "vlm_xg": 0.28,
+    "vlm_reason": "Shot from inside the six-yard area edge, central-left, but with several defenders tightly surrounding the shooter and keeper well positioned."
+  },
+  "189cd753-a975-4179-b545-89a4e9fc2e38": {
+    "status": "succeeded",
+    "cost_usd": 0.003835,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 52,
+    "vlm_xg": 0.03,
+    "vlm_reason": "Long-range shot from ~25 yards outside the box with several defenders in front and a crowded path to goal."
+  },
+  "52b8141b-59ae-4ae1-8509-7ac620e4c9e1": {
+    "status": "succeeded",
+    "cost_usd": 0.00426,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 69,
+    "vlm_xg": 0.04,
+    "vlm_reason": "Shot from just outside the penalty area edge (~19-20m) through a crowded box with many defenders between shooter and goal, likely a set-piece scramble."
+  },
+  "c9b5444c-548d-4936-af96-3f376dc1cdc6": {
+    "status": "succeeded",
+    "cost_usd": 0.004285,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 70,
+    "vlm_xg": 0.03,
+    "vlm_reason": "Long-range shot from ~25 yards outside the box with a crowded wall of defenders between shooter and goal, likely a free kick or blocked-prone effort."
+  },
+  "90380b1f-260f-42c9-95fb-ae1ca4941ee2": {
+    "status": "succeeded",
+    "cost_usd": 0.004485,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 78,
+    "vlm_xg": 0.07,
+    "vlm_reason": "Shot from inside the box near the penalty spot edge but with a crowded area, many defenders between shooter and goal and goalkeeper set, likely a header or congested strike from a set piece."
+  },
+  "449f2702-ad18-4bc8-a9ef-59fb1dc1a707": {
+    "status": "succeeded",
+    "cost_usd": 0.00401,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 59,
+    "vlm_xg": 0.28,
+    "vlm_reason": "Shot from the edge of the six-yard box, central, but with several defenders crowding the shooter and blocking lanes to goal."
+  },
+  "899e757d-7040-4cbc-9999-0f94ee7d48e3": {
+    "status": "succeeded",
+    "cost_usd": 0.004235,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 68,
+    "vlm_xg": 0.05,
+    "vlm_reason": "Shot from a wide angle at the edge of the six-yard box corner area with multiple defenders blocking and the keeper well positioned, giving a low chance."
+  },
+  "3a1509ee-760a-4695-8f34-4fc753ad490c": {
+    "status": "succeeded",
+    "cost_usd": 0.004385,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 74,
+    "vlm_xg": 0.35,
+    "vlm_reason": "Shot from inside the six-yard box very close to goal, but the goalkeeper is right on the shooter and several defenders crowd the goalmouth, making a block or save likely."
+  },
+  "026c0f2c-4a2f-489f-a26b-9bd76966366b": {
+    "status": "succeeded",
+    "cost_usd": 0.00436,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 73,
+    "vlm_xg": 0.12,
+    "vlm_reason": "Shot from about 11m, slightly right of centre, in a crowded box with several defenders between shooter and goal, likely a header or deflected-ball situation from a set piece."
+  },
+  "39f1b4e4-757e-4c37-b42d-b52826448257": {
+    "status": "succeeded",
+    "cost_usd": 0.004135,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 64,
+    "vlm_xg": 0.04,
+    "vlm_reason": "Shot from around 20+ yards outside the box through a crowded penalty area with many defenders blocking the path, goalkeeper well positioned."
+  },
+  "3e9b1782-21f4-4684-a2b4-7fcb434e81d2": {
+    "status": "succeeded",
+    "cost_usd": 0.00411,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 63,
+    "vlm_xg": 0.05,
+    "vlm_reason": "Shot from the edge of the penalty area, centrally located, but with a crowded box of many defenders directly in front blocking the shooting lane."
+  },
+  "64d9bf0a-3845-4cfa-b1f8-e81c4341f568": {
+    "status": "succeeded",
+    "cost_usd": 0.004235,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 68,
+    "vlm_xg": 0.09,
+    "vlm_reason": "Shot from around the penalty spot but heavily crowded with several defenders directly between shooter and goal, likely a header or deflected attempt from a set piece."
+  },
+  "095adc8d-612d-445a-9a9a-33100ece166c": {
+    "status": "succeeded",
+    "cost_usd": 0.00386,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 53,
+    "vlm_xg": 0.03,
+    "vlm_reason": "Long-range shot from ~22m outside the box through a crowded penalty area with many defenders blocking the path."
+  },
+  "6e8ce1fe-2cc7-499d-a137-df556d0ce758": {
+    "status": "succeeded",
+    "cost_usd": 0.004285,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 70,
+    "vlm_xg": 0.28,
+    "vlm_reason": "Shot from just outside the six-yard box, slightly left of centre, with a defender very close and the goalkeeper well positioned, but close range gives a decent chance."
+  },
+  "459d3411-945a-436f-b6eb-f7701b89cff7": {
+    "status": "succeeded",
+    "cost_usd": 0.00416,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 65,
+    "vlm_xg": 0.08,
+    "vlm_reason": "Shot from inside the box but wide-left angle with many defenders crowding the path and keeper well positioned, likely a header or volley from a set piece."
+  },
+  "d71bc1d5-1501-4fe6-9ae8-a490371ee93e": {
+    "status": "succeeded",
+    "cost_usd": 0.00406,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 61,
+    "vlm_xg": 0.35,
+    "vlm_reason": "Shot from very close range just right of the six-yard box, but tight angle and goalkeeper plus a defender close by reduce the chance."
+  },
+  "547ca4c3-bd06-4274-a82b-98622617e165": {
+    "status": "succeeded",
+    "cost_usd": 0.00421,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 67,
+    "vlm_xg": 0.22,
+    "vlm_reason": "Shot from inside the six-yard box line but at a very tight angle near the left post, with the goalkeeper positioned and several defenders crowding the central area."
+  },
+  "733e5141-6b97-4010-8100-b926aa73c9bf": {
+    "status": "succeeded",
+    "cost_usd": 0.004085,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 62,
+    "vlm_xg": 0.28,
+    "vlm_reason": "Shot from central position just inside the penalty area edge (~16m), but a defender is directly in front and the goalkeeper is well positioned."
+  },
+  "ede02998-ca90-4878-bfcd-7cd738fb99dd": {
+    "status": "succeeded",
+    "cost_usd": 0.004135,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 64,
+    "vlm_xg": 0.03,
+    "vlm_reason": "Shot from outside the box at a wide angle on the edge of the penalty area, with many bodies between shooter and goal and goalkeeper set."
+  },
+  "6ec6d6e5-6600-49ad-98dc-60d422c2be0f": {
+    "status": "succeeded",
+    "cost_usd": 0.004135,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 64,
+    "vlm_xg": 0.07,
+    "vlm_reason": "Shot from around the penalty spot edge area with several defenders clustered in front and goalkeeper well positioned, limiting the shooting angle."
+  },
+  "abff7ac7-6180-4fa7-94b9-0c644380e9a9": {
+    "status": "succeeded",
+    "cost_usd": 0.004235,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 68,
+    "vlm_xg": 0.05,
+    "vlm_reason": "Shot from ~18m at the edge of the box, central but heavily crowded with several defenders directly in the shooting lane and goalkeeper well positioned."
+  },
+  "0ada1c14-4a75-4b1b-98b2-bd91c1f22dbd": {
+    "status": "succeeded",
+    "cost_usd": 0.00391,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 55,
+    "vlm_xg": 0.03,
+    "vlm_reason": "Long-range shot from outside the box at a wide angle with several defenders crowding the path and the keeper well positioned."
+  },
+  "02c29470-d751-4a39-b438-d7f2d1de3f23": {
+    "status": "succeeded",
+    "cost_usd": 0.00421,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 67,
+    "vlm_xg": 0.42,
+    "vlm_reason": "Shot from very close range just outside the six-yard box, central, with goalkeeper and one defender nearby but likely a header or rebound in a crowded box."
+  },
+  "ad8fa32c-3fea-4b86-a322-1177cd561c78": {
+    "status": "succeeded",
+    "cost_usd": 0.004235,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 68,
+    "vlm_xg": 0.04,
+    "vlm_reason": "Shot from just outside the box at the edge of the D with many defenders packed in front and the goalkeeper well positioned, typical low-value long-range attempt."
+  },
+  "661531f6-17c2-4898-a780-a61b4cbf95a9": {
+    "status": "succeeded",
+    "cost_usd": 0.00406,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 61,
+    "vlm_xg": 0.35,
+    "vlm_reason": "Shot from very close range just outside the six-yard box, central, but goalkeeper is well positioned and several defenders are nearby to block."
+  },
+  "641eb264-6cf2-4608-a8b8-5c2405194994": {
+    "status": "succeeded",
+    "cost_usd": 0.004435,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 76,
+    "vlm_xg": 0.35,
+    "vlm_reason": "Shot from inside the six-yard box right in front of goal, but the goalkeeper is positioned directly on the shooter and many defenders crowd the area, likely a scramble/header."
+  },
+  "7cec90dd-6f0f-48db-8475-02056b3807d6": {
+    "status": "succeeded",
+    "cost_usd": 0.00441,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 75,
+    "vlm_xg": 0.07,
+    "vlm_reason": "Shot from a wide-left angle around the penalty spot depth with multiple defenders tightly marking and the keeper well positioned, likely a header or contested effort from a set piece."
+  },
+  "51847ed7-8369-40a5-a442-862b9063b95f": {
+    "status": "succeeded",
+    "cost_usd": 0.004135,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 64,
+    "vlm_xg": 0.05,
+    "vlm_reason": "Shot from around the edge of the penalty area, slightly right of center, with many defenders packed between shooter and goal and the keeper well positioned."
+  },
+  "160eb8c3-7fbc-41db-809f-0b9071f10c68": {
+    "status": "succeeded",
+    "cost_usd": 0.004285,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 70,
+    "vlm_xg": 0.05,
+    "vlm_reason": "Shot from the edge of the box at a wide-ish angle with multiple defenders crowding the shooter and blocking the lane, goalkeeper well positioned."
+  },
+  "4b8db9ec-fbb1-485b-b348-d8bb3aecbf07": {
+    "status": "succeeded",
+    "cost_usd": 0.004085,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 62,
+    "vlm_xg": 0.28,
+    "vlm_reason": "Close-range shot from near the six-yard box edge, central-right, but a defender is directly in front and the goalkeeper is well positioned."
+  },
+  "1a3dd69a-682b-43be-aa29-ed4cc4f717e5": {
+    "status": "succeeded",
+    "cost_usd": 0.00396,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 57,
+    "vlm_xg": 0.03,
+    "vlm_reason": "Shot from wide left outside the penalty area at a tight angle with many defenders packed in the box, very low scoring chance."
+  },
+  "a542a434-0c60-49bd-b185-58fe80506670": {
+    "status": "succeeded",
+    "cost_usd": 0.00416,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 65,
+    "vlm_xg": 0.18,
+    "vlm_reason": "Shot from very close range inside the six-yard box but from a tight angle on the left with the goalkeeper positioned near the near post and several defenders around."
+  },
+  "486ab284-2136-435a-9308-0edc96b90a5a": {
+    "status": "succeeded",
+    "cost_usd": 0.003985,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 58,
+    "vlm_xg": 0.04,
+    "vlm_reason": "Long-range shot from outside the box (~25m) with many defenders between shooter and goal, goalkeeper well positioned."
+  },
+  "7ddc71ea-7fbb-426b-bc81-ad287bb99a3f": {
+    "status": "succeeded",
+    "cost_usd": 0.00406,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 61,
+    "vlm_xg": 0.12,
+    "vlm_reason": "Shot from a tight angle on the left edge of the six-yard box with a defender close and goalkeeper positioned, limiting the target."
+  },
+  "c53fbe0a-5479-4e5a-8637-6c83b7e68786": {
+    "status": "succeeded",
+    "cost_usd": 0.004335,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 72,
+    "vlm_xg": 0.04,
+    "vlm_reason": "Shot from ~20 yards just outside the box edge with many defenders blocking the path to goal and a crowded penalty area, likely a rebound/second-ball strike."
+  },
+  "34382857-95ed-4b41-8b3b-0b372664bf39": {
+    "status": "succeeded",
+    "cost_usd": 0.004335,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 72,
+    "vlm_xg": 0.22,
+    "vlm_reason": "Shot from inside the box about 11-12m out, slightly right of centre, but several defenders are nearby and the keeper is well positioned, moderately reducing the chance."
+  },
+  "cb38d9a0-e2fc-4103-b7eb-25b54cbcc69e": {
+    "status": "succeeded",
+    "cost_usd": 0.003835,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 52,
+    "vlm_xg": 0.03,
+    "vlm_reason": "Long-range shot from ~25 yards at a wide-left angle with many defenders between shooter and goal."
+  },
+  "1ec1a0e0-f57f-4390-879a-872cdc7be137": {
+    "status": "succeeded",
+    "cost_usd": 0.00406,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 61,
+    "vlm_xg": 0.05,
+    "vlm_reason": "Shot from the edge of the box at a wide angle with multiple defenders between shooter and goal and the keeper positioned on the near post."
+  },
+  "c37984d3-4c45-48d8-a0da-e2cdb7cc48b2": {
+    "status": "succeeded",
+    "cost_usd": 0.004035,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 60,
+    "vlm_xg": 0.03,
+    "vlm_reason": "Long-range shot from ~25 yards outside the box with many defenders between shooter and goal and a tight pressure from an opponent."
+  },
+  "63df3171-a209-4ce8-8a45-069cc7ce977b": {
+    "status": "succeeded",
+    "cost_usd": 0.003885,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 54,
+    "vlm_xg": 0.04,
+    "vlm_reason": "Shot from just outside the box, slightly right of center, with many defenders between the shooter and goal blocking the path."
+  },
+  "26b97ae4-3213-4621-9403-327bd8d869db": {
+    "status": "succeeded",
+    "cost_usd": 0.004435,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 76,
+    "vlm_xg": 0.28,
+    "vlm_reason": "Close-range shot from inside the six-yard-box edge area, slightly right of center, but several defenders nearby and goalkeeper positioned, likely a header or crowded scramble."
+  },
+  "9d2721df-3127-484a-baa3-99140a5f540b": {
+    "status": "succeeded",
+    "cost_usd": 0.004285,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 70,
+    "vlm_xg": 0.09,
+    "vlm_reason": "Shot from inside the box around 11-12m out but heavily congested with several defenders directly between shooter and goal, reducing a decent position to a low-probability chance."
+  },
+  "1b7f0b8c-83a1-4f81-a6d2-469a14a2beda": {
+    "status": "succeeded",
+    "cost_usd": 0.004285,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 70,
+    "vlm_xg": 0.06,
+    "vlm_reason": "Shot from a wide-left angle around the edge of the six-yard box/penalty area, with several defenders between shooter and goal and goalkeeper well positioned."
+  },
+  "ced60082-1f48-48d6-9398-4f1d05993843": {
+    "status": "succeeded",
+    "cost_usd": 0.004085,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 62,
+    "vlm_xg": 0.03,
+    "vlm_reason": "Long-range shot from roughly 25-28 metres out with a defender directly in front and a crowded box of defenders between shooter and goal."
+  },
+  "fbbcbd30-78e7-4627-9714-bdf463a6c12e": {
+    "status": "succeeded",
+    "cost_usd": 0.00411,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 63,
+    "vlm_xg": 0.12,
+    "vlm_reason": "Shot from ~14m right of centre inside the box, under immediate pressure from a defender with several opponents nearby and keeper well positioned."
+  },
+  "13d33a38-98fb-4bd9-8a7f-c77928e25cba": {
+    "status": "succeeded",
+    "cost_usd": 0.004135,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 64,
+    "vlm_xg": 0.12,
+    "vlm_reason": "Close-range shot from a tight-ish angle left of goal in a crowded box with several defenders and the keeper positioned between shooter and goal."
+  },
+  "82066543-74f5-45b6-a293-877eaa14038d": {
+    "status": "succeeded",
+    "cost_usd": 0.00411,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 63,
+    "vlm_xg": 0.04,
+    "vlm_reason": "Shot from the edge of the box at a slight angle with many defenders between shooter and goal, crowded penalty area and goalkeeper set."
+  },
+  "bde8a681-2dfa-431a-9637-223cc85dfd10": {
+    "status": "succeeded",
+    "cost_usd": 0.004185,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 66,
+    "vlm_xg": 0.3,
+    "vlm_reason": "Shot from very close range inside the six-yard area, central, but with several defenders nearby and a congested goalmouth typical of a set-piece scramble."
+  },
+  "5b242fc1-be28-4ca0-9e6c-aa1d5d272b49": {
+    "status": "succeeded",
+    "cost_usd": 0.00416,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 65,
+    "vlm_xg": 0.07,
+    "vlm_reason": "Shot from ~17m near the top of the box, slightly left of centre, with a crowded penalty area and multiple defenders between shooter and goal."
+  },
+  "9ec02244-15d4-4d47-9f4a-efabc72118a2": {
+    "status": "succeeded",
+    "cost_usd": 0.00446,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 77,
+    "vlm_xg": 0.28,
+    "vlm_reason": "Shot from central position around 8-9 yards out, but the goalkeeper is set and there is a defender immediately adjacent to the shooter, likely a header or scramble from a set piece."
+  },
+  "a638d5f3-6820-4295-80f9-51ce1021ac4e": {
+    "status": "succeeded",
+    "cost_usd": 0.00421,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 67,
+    "vlm_xg": 0.08,
+    "vlm_reason": "Shot from around the penalty spot in a crowded box with multiple defenders between shooter and goal, likely a header or deflected attempt from a set piece."
+  },
+  "e2fdd559-20ee-4568-938b-e0fc4f20d432": {
+    "status": "succeeded",
+    "cost_usd": 0.004435,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 76,
+    "vlm_xg": 0.12,
+    "vlm_reason": "Shot from a very tight angle near the left edge of the six-yard box with the goalkeeper and several defenders packed in the goalmouth, leaving little of the goal to aim at."
+  },
+  "3e1d3da1-96d0-4420-ba9c-dd49658072d5": {
+    "status": "succeeded",
+    "cost_usd": 0.00406,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 61,
+    "vlm_xg": 0.04,
+    "vlm_reason": "Shot from a wide, tight angle on the left edge of the box with many defenders crowding the path to goal and the keeper well positioned."
+  },
+  "2df12147-20e3-409f-82da-ea198b3bd365": {
+    "status": "succeeded",
+    "cost_usd": 0.004335,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 72,
+    "vlm_xg": 0.08,
+    "vlm_reason": "Shooter is at an extremely tight angle near the byline and goal line with a defender adjacent and the keeper covering the near post, leaving almost no goal to aim at."
+  },
+  "af3d2269-1129-429d-8148-0d590c3da45a": {
+    "status": "succeeded",
+    "cost_usd": 0.00416,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 65,
+    "vlm_xg": 0.12,
+    "vlm_reason": "Shot from inside the six-yard-box edge area but heavily congested with multiple defenders between shooter and goal, likely a header from a set piece."
+  },
+  "2f831180-2b97-4643-b625-0f0d13fa60f6": {
+    "status": "succeeded",
+    "cost_usd": 0.00391,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 55,
+    "vlm_xg": 0.08,
+    "vlm_reason": "Shot from inside the box but at a wide angle on the left with many defenders crowding the area and keeper well positioned."
+  },
+  "6403c129-bef8-44e0-aff0-bca5706954d7": {
+    "status": "succeeded",
+    "cost_usd": 0.00421,
+    "model": "claude-fable-5-1",
+    "stop_reason": "end_turn",
+    "input_tokens": 507,
+    "output_tokens": 67,
+    "vlm_xg": 0.09,
+    "vlm_reason": "Shot from inside the box near the penalty spot but from a wide-left angle with many defenders crowding the central area, typical of a congested set-piece situation."
+  }
+}

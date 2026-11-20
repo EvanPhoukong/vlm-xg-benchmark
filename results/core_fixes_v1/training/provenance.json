@@ -1,0 +1,11 @@
+{
+  "source_hashes": {
+    "wc2018": "41d023d7605b9a3e82ef7c640fbafc09e66bf4c0fe0a04236efd293b12ee4986",
+    "wc2022": "00f19129c87ce11446c22ad996ba43516e0e13e619687371a8bd7bc0280d9d55"
+  },
+  "training_shots": 3068,
+  "examples": 48,
+  "selection": "Fixed natural random sample independent of outcomes/errors. No probability labels, geometric answers, baseline predictions, query retrieval or selected goal-rate anchors.",
+  "negative_control": "Fixed permutation of binary outcome labels on identical images preserves the exact positive count.",
+  "difference_from_prior_work": "Earlier four-example experiment supplied geometry only and explicitly no outcomes; this new condition supplies observed historical binary outcomes to the VLM."
+}

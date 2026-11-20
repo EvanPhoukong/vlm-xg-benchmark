@@ -1,0 +1,129 @@
+{
+  "id": "resp_091247298af68489016af6c44f841487d0a7186e0a8938138e",
+  "object": "response",
+  "created_at": 1794557007,
+  "status": "completed",
+  "access_programs": {
+    "cyber": "standard"
+  },
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1794557016,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "image": {
+    "context_compression": "disabled"
+  },
+  "incomplete_details": null,
+  "input_transformations": [],
+  "instructions": null,
+  "max_output_tokens": 1024,
+  "max_tool_calls": null,
+  "model": "gpt-6.1-sol",
+  "moderation": null,
+  "output": [
+    {
+      "id": "rs_091247298af68489016af6c451646887d0a6bfa2c88493076e",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq9sRYNPOUz8Hq__q1tuu1aFCShlSLgSoYw0P-JcDQg9HPhF81W7MLV99NUTt3E6I-hxxJNOkN39iYAWk63lGZB13dosmQGTuCiWYvoITvvUHOkvwdsm7n4NjoYqsj8QrT7SWc7Y5lDEoCXypSd2rXRmGecrmzXooqH8Z8jcymUTgKAIEw6PgXAQURRtuSRfSajjIBqtcrv4USyVvCWPz1pY6F4Xtss0m6x-mp4OIEPTgd56aamhTN02SkYdqA5czg5oNptejhwx1221EhJlfD32gVvIa2CGQaMoO1WXntM_woTdQE65bv1b9tZtL25hCmXYTifkOvzUE8mDaEbAHoZ7ZvaoJM3aVlD0qnL88q_zu8HuMr965H-JPMZWxb2F_ccQ2fiW7SlpAGXIlA2PjDi3KVpj7jNIxAu42YRZcejb2mGgQillHz1qDLuMK9o0cXKUvEo8cNbSrfs5fQwphR67aCO-ppHAKBoUAANEo-4u_B3FeTKhcTuWxvzObUGemO9KGwGxnZ6hggahQriJKWE2aihkNJXQcJssDX9D8xK3yfez17rMAv7uz-GTWsb2tE4MCuF0Xcvgscw1dUlXM63smgqwDS4Yb7TrBiYRsBaHakmy4U8lL-ROIvtanqYKuQA9ZJOkVo0O9nJwNBsPXuErwjPJJTG6-Oy95eVSg7kVWqxO7YkTGu_eICsJ6AsMIsA3MvSANajxa7HcxjIqqFbBGeNyyskRZLtyYW7HvZRxOMgZQlfY8r8QwXA9H7T-I8sIsP154cfMwwAokquWeIiKu-a6eEuzYsu5BqEI1Pz_fBde_CJIgOor1Pt5mR8nLkykQb1Dt_Nky3cmn1_TxZFowdfkT38bbg9v-dXUXin-aT8BOxryOciwAlaC4CYy8HD4GcLWJZPljZdDBcVduZZjQV0j2TY8tc4MVPhqEFZr5qBNjrESwSwQKEl63KkZ-8DKWt9fAgAKJQ5uKyjqpsse8MBEt-zXsBGeE0ZfOuQWR4-n1HXwcSFgHF5ifmrsWKqmO5SthF3_ABVhLxTSJlANPS5eJq1E0bzb7-ZHDhTeYMebmo-FoRypmMvoLuNosVgYK13OvVdLcWWQ8tOkSRs7DOjyIBuWeDLX-qLMa4HbvC0HS7JHDwvnv46OR0KnpRA6QJJrcPIJd2NQtS-jN7_-qi51_q0i-wPRDUxhXVFjX5W5FxY9xcTyx4NLV6-jiINeckV8jQrVGwfX0baK_l4wGXzRu0JKwqM2SC_BjRVRH1Ebz4cCDI_DLxVYUXfn36Pp8_W7dV9-XfKYQAC453jU5xfLu28beQUAFGGnJ40wu6qVKQ42NWBfxjSVaq5rXgDI0VB3ruAmJOjNxJsvTLWNphpyOZcqzQLbUjsxI3RTzgAHrTyTBZmQu2wVhgFFrkKtBNnY7Y2Smfr37h7M-aBLbMOiI9AOhKbvfvJazzv3qyYBfYRRlNRQkMmfLr17Amk5CyT-kgkImKL8H1utAF8l6JbiuA2OKI1HjeAXCuTtYQ8LyMkpsPzW9mpg6SEg664FsUgStkh6RLT_tD6EXGv9dRW8cIs-1t1x6xlqxLkrZ-UuwIC3mUAEzNAm_nnhYccpq_NlEVCLhyH6yAsaqDc6A42wU8WuBKmoSmvQpyBsej_aa_ebdV_1FJWW0RfSNHLnneYz8J0Eu2P7a9AuBE837W6G-xi8GPYip8gQ8c3kU2eDyOF7XyMIjbjUQ0iPCH0g7icAVAlpTWBAMhAUF58bU-caYZqQTdQtsY_O59w2L8d6YTDglCGRusBd6ubfLbENxbwn5EA-xT73JRHrZTj6mDCWkHgg4fpY0QqFJ4SUwQ6GYIVo7qWsuMh5k9Dig1blXveFss2gOToofDtTbdDoV0flOt1WUxepcy99kxUzgQC6koqHvBnE-sf5hZsk3Z73k6r2vWiTToZpAo4KPtQiD4WcIu5XBXwVRyxTyxMcHYjjNQq5Z86iDdbOLsODHAV_kMX0jMB443BffV0ZSK9uqhOTMt3PipGzRwqQ0SgB8PvuLo9lq7KDF32_0-_EYndtIheDIF0hijjv0dr8vzQHCBdDPP6ABOOKdyFpaForwnT2lBCPJhF6gSbO8FHU_yC8ffFNMY308zjANjqtE45yTi9Z6CGJMZW4UYbv3uFlWdgNOtH0dAefuunrZeysT3K4epN2EMadw0L6dddba6_BMP-hoszowLNA_BVGHD7p4apD_-5zZJjwkavKmDhA1ii-17IInQE76ZDawx6cXWsCvvez0VkWIXcnREf3rqKYy5Tk7YSg583ri2rNa9_klU3vOb3pWBK0t6_xMw55ToCIIjR3zAypqjLVLYt-gjXksjqu7fMAOBlDGFFaOFwi5ZGw4pjKBId7HExrVvTPmToPzDdEno9QeqMGl_Df9GkyKjTtyVY8ugSvtYR1C6smNgDqxJIUzPXKC0bNwBrnT8If6bHPQW34MkOWabyooaLrYSraXZGl_xv7Jpgq10ZMU9bz5-uM_utBPkLq7J0xz39B8U1bWheBBYWHzQSQuJh6BXMlTU_4q7IG2tLRQ3LVqkt3ynRPB588BtYe-g8jml2Lu9eUi5RgcEZHdTTbRhYo60Gz3YSUkIsHGXUpelH2qgCSE8RFzWSmvMwFeZrx-4qWFOuDupk4UbyrJMRD4WiR0WV8iPCi0gGS395GU7AVTVYit5BLj4OdNMVYPesH2XdFVgTYsnqatIb2Ju8QtxevlUb9sCeVTWktSgiggZ5kEWJYrnBL4BsHV20i5idzLg8nRyuFyoWdbEwfpjInDAm94ct0G5PmrJd5dRWoOoBX8L0UJeV6igNhtEImGTOkrg8_vZgMWVTBQUfUU4HPWOshew6y2dqvT5Dc_VPz48-XStW7GYsCrO_w9LMxb3vZHMsJkJ4vFlg_aFjWe6hJ-WaTEyD3bJmbhbnPQJ-hXstUY5P5lRPXOm7dk6w2CulItOQVPgVFJxv61Y3ZuW_hewftmnOY4nf5XYdESfH9LjRwPregPFtg-4I-3qf9UQ47eG-a21GdapGbolF6pTrxbKCybh8HVpyA92vVOQu6BGAVqTqHy9ufWx-yUUsrIjehHuQq9jBQT5ngVrjGPo1Ncgseqjs6kbGMes7hANxok-sqyeItnMcYSi7NyzfeFL8ksbzj_sYp1gos3EtCeQPtv9ANxM9L0-xb1P8XqrxYgU0j1YcKRiLDELjf4ocGHsMWQuEotza_XGoSLPKMr4Oi_teOBeN6M1gkUCM9kBkIny57EGtXWul9M9jwyXn3912pgx53dDqQPngJXKQMnN9JqWd-TIdTRXZ_Ki6XUtKoRBOEXryiCL93LJINnLdMFBgk4YYOnzcr6HmpyFaNqLjHx1OG93E7K7Dlyo5iUJkCAczZozYw6qS9O3w8hsNKggMeWVgaLpY6sZYjJ9u6qD4y63MKqgYQeIOWwL_RiVDN8ohgJx7_froqbFSN2z8_9eygs9_9BKrS1L6M1mm0n4cEWnHQvH59Md-cRbuwm5_4Z3jGevrihUIfIEvqiE6ky1LKsJR8z_4ZUeFL_6S40SsbZWtKJ3bw2M4GJerMALtDJzZ47V2XJDll4doXKJ7Fvvu7UA8bkeU9N4ivM9v3O3gc7bdUoFXrtkEs5cmBqHfHFMW1td6ruHQZ4Lll8Y-sSx-3Ne1sc4XH7RnO5TXGha-nWLGSwKfeF-U5C9Hb5J5HyCgyWgzdoR4HY3_umiwu1hCIX6uGPmKpTUA7v2kuanGTR82p8ck2eDyz6AGrH0uJwKmUdEtjmZ8WAQpP8PkqX76RzWwbry4s3B6S_reWiSwHt1KgbJLVWr0VexDI-qTdiezCFrA0D5wbQx5Ge7Q5AvtZ7gYo_Zw21IxbiAt898qseUzbgOnriDPXeIiA_28kWvhsM8psuOZuO__y8I-1XWh53BxZNMIqguwMzmS6WzNTyX1KrL2cfRvfXSCbKdM7QQacv9Xb2FLv4ZSc-Lo_DABZGrJ7s0uSPTH4y0sHLVqYbYWuKC-6dKc8bWC8ciX38bNHzMWmQwxqp6igynvv5eCm3lHGehPvk_X_qmCF3qFx04EZwm-qfnlWuggOeg2E_xkGAz6x4VF2FGMB7iBe9YSnjJFIqt3ImuXC3KQj1dLnEOpxiJZl8=",
+      "summary": []
+    },
+    {
+      "id": "msg_091247298af68489016af6c457f4b887d0bf2f71bb7a8ae9a6",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"xg\":0.16,\"reason\":\"The shooter appears inside the penalty area at an angle, with nearby defenders and the goalkeeper limiting the opening.\"}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "all_turns",
+    "effort": "low",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": false,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "json_schema",
+      "description": null,
+      "name": "shot_prediction",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "xg": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "reason": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "xg",
+          "reason"
+        ],
+        "additionalProperties": false
+      },
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 860,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 185,
+    "output_tokens_details": {
+      "reasoning_tokens": 143
+    },
+    "total_tokens": 1045
+  },
+  "user": null,
+  "metadata": {}
+}

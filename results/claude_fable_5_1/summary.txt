@@ -1,0 +1,11 @@
+StatsBomb 2022 FIFA World Cup (competition 43, season 106)
+Original 300-shot Claude cohort | 42 goals | image-only, zero-shot
+Claude claude-fable-5-1 | Anthropic Message Batches API | max_tokens=600
+Usage-based API cost $1.2461 (cap $10.00)
+
+model                AUC    Brier  LogLoss   MeanXG
+vlm_xg             0.721   0.1126   0.3732    0.141
+sb_xg              0.793   0.0989   0.3378    0.100
+baseline_xg        0.768   0.1050   0.3494    0.108
+Brier(Fable) - Brier(sb_xg) = +0.0137 (95% bootstrap CI +0.0035 to +0.0239)
+Brier(Fable) - Brier(baseline_xg) = +0.0076 (95% bootstrap CI -0.0018 to +0.0166)

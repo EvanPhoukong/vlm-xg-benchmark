@@ -1,0 +1,28 @@
+{
+  "model_id": "Qwen/Qwen2-VL-2B-Instruct",
+  "python_executable": "C:\\Users\\ephou\\AppData\\Local\\Temp\\xg_research_windows_ft_py312\\Scripts\\python.exe",
+  "python_version": "3.12.14",
+  "platform": "Windows",
+  "virtual_environment": true,
+  "missing_packages": [
+    "torch",
+    "transformers",
+    "peft",
+    "accelerate",
+    "bitsandbytes",
+    "PIL",
+    "numpy"
+  ],
+  "missing_pip_packages": [
+    "torch",
+    "transformers",
+    "peft",
+    "accelerate",
+    "bitsandbytes",
+    "Pillow",
+    "numpy"
+  ],
+  "paid_api_calls": 0,
+  "cloud_gpu_jobs": 0,
+  "status": "blocked_missing_training_runtime"
+}

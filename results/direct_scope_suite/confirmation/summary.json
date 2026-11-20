@@ -1,0 +1,92 @@
+{
+  "stage": "confirmation",
+  "shots": 150,
+  "goals": 14,
+  "matches": 36,
+  "scores": {
+    "original_low": {
+      "brier": 0.09797869333333334,
+      "log_loss": 0.33387463244888904,
+      "auc": 0.6756827731092437,
+      "mean_xg": 0.18094666666666667
+    },
+    "candidate": {
+      "brier": 0.09797869333333334,
+      "log_loss": 0.33387463244888904,
+      "auc": 0.6756827731092437,
+      "mean_xg": 0.18094666666666667
+    },
+    "baseline_xg": {
+      "brier": 0.08266536743371157,
+      "log_loss": 0.2975566133188283,
+      "auc": 0.6896008403361344,
+      "mean_xg": 0.1003945079668437
+    },
+    "sb_xg": {
+      "brier": 0.07754181925214702,
+      "log_loss": 0.27644402077333013,
+      "auc": 0.7547268907563025,
+      "mean_xg": 0.097429922706
+    },
+    "baseline_image_xg": {
+      "brier": 0.08479412948580882,
+      "log_loss": 0.3014300202970483,
+      "auc": 0.6848739495798319,
+      "mean_xg": 0.10169982787221325
+    }
+  },
+  "usage": {
+    "input_tokens": 64650,
+    "output_tokens": 46118,
+    "cached_tokens": 0,
+    "reasoning_tokens": 39489,
+    "estimated_usd": 0.029524,
+    "conservative_usd": 0.03114025
+  },
+  "conditions": [
+    "original_low",
+    "candidate"
+  ],
+  "primary": [
+    {
+      "first": "candidate",
+      "second": "baseline_xg",
+      "brier_difference": 0.015313325899621762,
+      "confidence_level": 0.975,
+      "interval": [
+        -0.0018478917171783243,
+        0.030967129414607403
+      ],
+      "interpretation": "negative favors first; whole-match resampling; conditions on fixed predictions"
+    },
+    {
+      "first": "candidate",
+      "second": "original_low",
+      "brier_difference": 0.0,
+      "confidence_level": 0.975,
+      "interval": [
+        0.0,
+        0.0
+      ],
+      "interpretation": "negative favors first; whole-match resampling; conditions on fixed predictions"
+    }
+  ],
+  "secondary_no_header": {
+    "first": "candidate",
+    "second": "baseline_image_xg",
+    "brier_difference": 0.013184563847524514,
+    "confidence_level": 0.95,
+    "interval": [
+      -0.0009825458577531262,
+      0.026557058143626203
+    ],
+    "interpretation": "negative favors first; whole-match resampling; conditions on fixed predictions"
+  },
+  "candidate": {
+    "effort": "low",
+    "renderer": "standard",
+    "rule": "Effort selected on AFCON development; outline used only if its paired WC development Brier is lower. No confirmation outcomes used.",
+    "reasoning_selection_sha256": "04bb01c6b2d64a83150b70c4616487a549090754071ebb733eb19aa7ccfe604f",
+    "rendering_selection_sha256": "b49add6fd0fef733b85f02960d643017031264d6a0888657e33d49ea27155214"
+  }
+}

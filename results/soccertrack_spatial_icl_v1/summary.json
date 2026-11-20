@@ -1,0 +1,186 @@
+{
+  "dataset": "SoccerTrack v2",
+  "model": "claude-sonnet-5-5",
+  "shots": 304,
+  "goals": 43,
+  "matches": 10,
+  "metrics": {
+    "zero": {
+      "n": 304,
+      "goals": 43,
+      "goal_rate": 0.14144736842105263,
+      "brier": 0.11474638157894737,
+      "logloss": 0.3866905489055633,
+      "auc": 0.7056045620600553,
+      "mean_xg": 0.08924342105263157,
+      "mean_bias": -0.052203947368421044
+    },
+    "outcome32": {
+      "n": 304,
+      "goals": 43,
+      "goal_rate": 0.14144736842105263,
+      "brier": 0.11872080592105265,
+      "logloss": 0.4025480761431067,
+      "auc": 0.6812349639133921,
+      "mean_xg": 0.08166118421052633,
+      "mean_bias": -0.059786184210526304
+    },
+    "shuffled_outcome32": {
+      "n": 304,
+      "goals": 43,
+      "goal_rate": 0.14144736842105263,
+      "brier": 0.11952738486842106,
+      "logloss": 0.40715906949371894,
+      "auc": 0.6639935846030474,
+      "mean_xg": 0.08139802631578948,
+      "mean_bias": -0.060049342105263144
+    },
+    "teacher32": {
+      "n": 304,
+      "goals": 43,
+      "goal_rate": 0.14144736842105263,
+      "brier": 0.11515604605263158,
+      "logloss": 0.38611336425123116,
+      "auc": 0.6842199055511005,
+      "mean_xg": 0.10803947368421053,
+      "mean_bias": -0.03340789473684209
+    },
+    "shuffled_teacher32": {
+      "n": 304,
+      "goals": 43,
+      "goal_rate": 0.14144736842105263,
+      "brier": 0.11730577960526317,
+      "logloss": 0.39329601979915985,
+      "auc": 0.6700080192461909,
+      "mean_xg": 0.10171381578947368,
+      "mean_bias": -0.03973355263157894
+    },
+    "historical_raw": {
+      "n": 304,
+      "goals": 43,
+      "goal_rate": 0.14144736842105263,
+      "brier": 0.1292953947368421,
+      "logloss": 0.4616543827161107,
+      "auc": 0.599126793192551,
+      "mean_xg": 0.05072368421052631,
+      "mean_bias": -0.0907236842105263
+    },
+    "historical_diagram": {
+      "n": 304,
+      "goals": 43,
+      "goal_rate": 0.14144736842105263,
+      "brier": 0.11482514473684213,
+      "logloss": 0.38695312722219183,
+      "auc": 0.7060500757373251,
+      "mean_xg": 0.08875657894736842,
+      "mean_bias": -0.0526907894736842
+    },
+    "historical_photo_diagram": {
+      "n": 304,
+      "goals": 43,
+      "goal_rate": 0.14144736842105263,
+      "brier": 0.11612565789473683,
+      "logloss": 0.38963436018216385,
+      "auc": 0.706629243517776,
+      "mean_xg": 0.08144736842105264,
+      "mean_bias": -0.059999999999999984
+    },
+    "logistic_basic": {
+      "n": 304,
+      "goals": 43,
+      "goal_rate": 0.14144736842105263,
+      "brier": 0.11139941036252225,
+      "logloss": 0.37832363567726146,
+      "auc": 0.6606967833912502,
+      "mean_xg": 0.14116145798939406,
+      "mean_bias": -0.0002859104316585645
+    },
+    "logistic_spatial": {
+      "n": 304,
+      "goals": 43,
+      "goal_rate": 0.14144736842105263,
+      "brier": 0.1087796121259413,
+      "logloss": 0.36683041721698856,
+      "auc": 0.71041610977457,
+      "mean_xg": 0.1424241397148898,
+      "mean_bias": 0.0009767712938371627
+    },
+    "training_constant": {
+      "n": 304,
+      "goals": 43,
+      "goal_rate": 0.14144736842105263,
+      "brier": 0.12153929609332463,
+      "logloss": 0.4079914446955838,
+      "auc": 0.45348837209302323,
+      "mean_xg": 0.141603937751508,
+      "mean_bias": 0.0001565693304553601
+    }
+  },
+  "primary": {
+    "outcome32_minus_zero": {
+      "difference": 0.00397442434210526,
+      "confidence": 0.9875,
+      "interval": [
+        -0.0013413562075846458,
+        0.01046031637044544
+      ],
+      "matches": 10
+    },
+    "outcome32_minus_shuffled_outcome32": {
+      "difference": -0.0008065789473684234,
+      "confidence": 0.9875,
+      "interval": [
+        -0.004513242155062278,
+        0.0025846482214680836
+      ],
+      "matches": 10
+    },
+    "teacher32_minus_zero": {
+      "difference": 0.000409664473684209,
+      "confidence": 0.9875,
+      "interval": [
+        -0.0036634114560525504,
+        0.004650345915992096
+      ],
+      "matches": 10
+    },
+    "teacher32_minus_shuffled_teacher32": {
+      "difference": -0.002149733552631583,
+      "confidence": 0.9875,
+      "interval": [
+        -0.00723328885799589,
+        0.002170445957022162
+      ],
+      "matches": 10
+    }
+  },
+  "example_count": 32,
+  "example_goal_counts": {
+    "117092": 3,
+    "117093": 2,
+    "118575": 5,
+    "118576": 3,
+    "118577": 3,
+    "118578": 4,
+    "128057": 4,
+    "128058": 4,
+    "132831": 5,
+    "132877": 6
+  },
+  "calls": 1520,
+  "estimated_usd": 6.3177996,
+  "conservative_usd": 7.448312,
+  "cap_usd": 10,
+  "usage": {
+    "input_tokens": 1844368,
+    "output_tokens": 108715,
+    "cache_creation_input_tokens": 283440,
+    "cache_read_input_tokens": 8333136
+  },
+  "terminal": {
+    "reason": "full_pool_completed",
+    "selected_n": 304,
+    "cap_usd": 10
+  },
+  "scope": "Exploratory annotation-assisted evaluation on previously studied matches; resource-selected prefix; fresh diagram-zero control; historical photo/diagram references descriptive."
+}

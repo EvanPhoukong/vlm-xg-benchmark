@@ -1,0 +1,121 @@
+{
+  "zero": [],
+  "icl8": [
+    {
+      "path": "results/statsbomb_icl_v1/examples/correct8_01.png",
+      "sha256": "c470a643d40528842b85109bfaf5e22fcb8d9acb50faa29da9d9b70c23a7fd16",
+      "first_example": 1,
+      "last_example": 8,
+      "size": [
+        768,
+        432
+      ]
+    }
+  ],
+  "icl32": [
+    {
+      "path": "results/statsbomb_icl_v1/examples/correct32_01.png",
+      "sha256": "de5625313e1a136186244c243312adf30952915eccbb66f9f67b1860751884f6",
+      "first_example": 1,
+      "last_example": 16,
+      "size": [
+        768,
+        864
+      ]
+    },
+    {
+      "path": "results/statsbomb_icl_v1/examples/correct32_02.png",
+      "sha256": "81ea7d79c4f31d0832c9c4aa57e356cddb03eec7e3bdd1b563b9144aae82baf7",
+      "first_example": 17,
+      "last_example": 32,
+      "size": [
+        768,
+        864
+      ]
+    }
+  ],
+  "icl64": [
+    {
+      "path": "results/statsbomb_icl_v1/examples/correct64_01.png",
+      "sha256": "de5625313e1a136186244c243312adf30952915eccbb66f9f67b1860751884f6",
+      "first_example": 1,
+      "last_example": 16,
+      "size": [
+        768,
+        864
+      ]
+    },
+    {
+      "path": "results/statsbomb_icl_v1/examples/correct64_02.png",
+      "sha256": "81ea7d79c4f31d0832c9c4aa57e356cddb03eec7e3bdd1b563b9144aae82baf7",
+      "first_example": 17,
+      "last_example": 32,
+      "size": [
+        768,
+        864
+      ]
+    },
+    {
+      "path": "results/statsbomb_icl_v1/examples/correct64_03.png",
+      "sha256": "85428196c5b22e281e5d3e20a7301b2f9d4440ae12fd0c0d74f9f6c611f09a82",
+      "first_example": 33,
+      "last_example": 48,
+      "size": [
+        768,
+        864
+      ]
+    },
+    {
+      "path": "results/statsbomb_icl_v1/examples/correct64_04.png",
+      "sha256": "7f7bd8335f3d98f48803d885e04221791ca888fb24162e2f1f94a558e588d0d5",
+      "first_example": 49,
+      "last_example": 64,
+      "size": [
+        768,
+        864
+      ]
+    }
+  ],
+  "shuffled64": [
+    {
+      "path": "results/statsbomb_icl_v1/examples/shuffled64_01.png",
+      "sha256": "7e165642bb46af2e05804a414cee219e219930334ea600bdeebb2d54b2fcbf3a",
+      "first_example": 1,
+      "last_example": 16,
+      "size": [
+        768,
+        864
+      ]
+    },
+    {
+      "path": "results/statsbomb_icl_v1/examples/shuffled64_02.png",
+      "sha256": "aed1d1a51e11e90ccf9b5fff87a18a02d8812d367840cd5d30500605a576bb71",
+      "first_example": 17,
+      "last_example": 32,
+      "size": [
+        768,
+        864
+      ]
+    },
+    {
+      "path": "results/statsbomb_icl_v1/examples/shuffled64_03.png",
+      "sha256": "85428196c5b22e281e5d3e20a7301b2f9d4440ae12fd0c0d74f9f6c611f09a82",
+      "first_example": 33,
+      "last_example": 48,
+      "size": [
+        768,
+        864
+      ]
+    },
+    {
+      "path": "results/statsbomb_icl_v1/examples/shuffled64_04.png",
+      "sha256": "739b27eee905d1cd5313078723d576815f44e5245321b1207dbb609913c0e854",
+      "first_example": 49,
+      "last_example": 64,
+      "size": [
+        768,
+        864
+      ]
+    }
+  ]
+}

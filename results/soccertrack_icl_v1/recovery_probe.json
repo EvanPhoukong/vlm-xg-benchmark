@@ -1,0 +1,25 @@
+{
+  "kind": "single bounded recovery attempt after read-only token counting succeeded",
+  "job": {
+    "shot_id": "118575_1_15795",
+    "match_id": "118575",
+    "image": "results/soccertrack_extensive_v1/frames/118575_1_15795.png",
+    "sha256": "881d6c2d4bb73a1765f574e742d2b9640c9cf09e1734b595e672af44569e28ba",
+    "arm": "shuffled_outcome16"
+  },
+  "request_sha256": "16dd280fd89ff61847b5540a9874abdcba7ee5712cf27a760575f3687c8fbbea",
+  "prior_conservative_exposure_usd": 1.5225049999999998,
+  "reserved_usd": 0.030055,
+  "state": "http_rejected",
+  "started_utc": "2026-11-20T05:26:10.458Z",
+  "http_status": 429,
+  "headers": {
+    "x-request-id": "req_2fc892518ddf4f859b620c7f5ac038c5"
+  },
+  "error": {
+    "message": "You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.",
+    "type": "insufficient_quota",
+    "param": null,
+    "code": "credit_balance_exhausted"
+  }
+}

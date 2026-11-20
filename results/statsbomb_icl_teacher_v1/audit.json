@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "checks": [
+    "parent ledger unchanged",
+    "parent protocol unchanged",
+    "pages.json frozen",
+    "examples/manifest.json frozen",
+    "pool.json frozen",
+    "declaration.json frozen",
+    "teacher Python frozen",
+    "teacher runner frozen",
+    "labels from training StatsBomb reference only",
+    "shuffled teacher distribution preserved",
+    "shuffled teacher associations changed",
+    "query and example matches disjoint",
+    "same original held-out prefix",
+    "fixed secondary schedule",
+    "all secondary calls completed",
+    "teacher controls change captions only",
+    "every secondary request hash,response,image and cost verified",
+    "combined spending within $10",
+    "secondary lock released"
+  ],
+  "check_count": 19,
+  "secondary_requests_verified": 300,
+  "combined_conservative_usd": 7.6221499999999995
+}

@@ -1,0 +1,10 @@
+{
+  "stage": "offline preflight, before any generation or model scores",
+  "initial_failure": "Single opening-frame extreme position mislabeled game-1 period-2 Away Player22 as goalkeeper; three later frames lacked that player. Offline goalkeeper guard failed.",
+  "correction": "Median opening-period identity and identity continuity across halves; stable keeper is Player25. Verify no goalkeeper substitution and available opposing keeper at each shot.",
+  "initial_unrun_selection_sha256": "bf3a35df0c3dfa21337d60ab5c4bc62fd07a0d4c71582001c164ce6f4fa1bbcf",
+  "verified_selection_sha256": "7b0af6ce202ece6e9c26e44e24ac1c306b6d952d51352851fc589a544de920d8",
+  "data_plan_sha256": "80c2829d11dcda2c4dc6c5b6851a469599553166ef63c01d2de8448a002f8379",
+  "revised_preparation_sha256": "cabf631001f6a47033eff4f247923729195dd5982441325f1d7bc318ad858b11",
+  "StatsBomb_cohorts": "unchanged; preparation code revised only for Metrica goalkeeper handling. Initial images and records preserved, never sent to a model."
+}

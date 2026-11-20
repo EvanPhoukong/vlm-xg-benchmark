@@ -1,0 +1,125 @@
+{
+  "id": "resp_0f03027be183563c016ae40427a3b087d0a81eaecb42a65576",
+  "object": "response",
+  "created_at": 1793328167,
+  "status": "completed",
+  "access_programs": {
+    "cyber": "standard"
+  },
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1793328170,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": 4096,
+  "max_tool_calls": null,
+  "model": "gpt-6.1-terra",
+  "moderation": null,
+  "output": [
+    {
+      "id": "rs_0f03027be183563c016ae4042861a487d0b097099e4fae39b6",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq5AQqzhgbvF78dJ-47xCMJJKM90WOLM4fB-uJPQqEy5mBl7C6tkD-eM4kYvZrUe2qB22ZxmniZixFMQYblyuQZA1tmAVYvNpO0b81ei-7JdaVvfCcVm8oRfpdj_ozlU6FSkNn9ZnrwbxQp40A92QP3hKLt7TCQUAO3UsXwKMozWz2oIjoXvIgsfUU5o8G4O1xw157XCSxTtHNcf3nNDnb4Ptu7DOBQd3ZgPGf_UTIdh7G6GZuFS3XPpjbXtNYkIXmGhccizLHKQUNkFxseUOe276hDlrdAKw0WgIgE_mMBXY4s3WTrvwBLfvLC0RU72Oqw1WPMaed7rb-XnEGOrLrhjkkiuKv-JViqn9lRXtC18h8iPDMbQrYwXLLV0biteOgXZLMKXFQagMvyb1xrwrLOTUHy7120Kj4WKWNR1436o9lsGNf7Xi8E-4rS6Hxgto8xs4p9UXkY8dIQBxBSqhjf-QslKNfxIEMRpJD2OIyrnBWk7l8QSS9srCHO6BJyajoD2TrdeCJ87KKOLtc9x10PmRIv9Q_NKyNoHEzOcEPKoOZR5xSnAHIRdMPltx-ik5wp6rrnU7akeQ9jdMPBD1amvGLaIPL7mg5UdCNKnooZ2PTqFoCO48csRpvzbzdsgiJPINO-00MUf7TtbR4p23_nGdRPcmQUiKz9O3KI4YMs3WDYvVMzIAe_UM-9drex6nfPPbok4b9-bzJlYCa2SP37ZAYJhXvun8ekKchSTr7xfzcZKAXtlzIuRkSj7xqmqS1sT5P64x-1U1E8VQAEnTtRny7M_saqT3N77znDHqnfZrUiBjiIdTYS5TrNlTLiU3zEOYJ7m_mN3u0teqhhn2KpaQjPqfTaYCXH7-PdqnLlpybVBWIA8xa6VqG_byhoTWvUCFa-tKl4AhYIxUzneG0BUq_2REFVvq0igTc3FAFo4Dk8lkHcqA14EpBvmWXWFoeuHBNeMAA_khHqz76mLmvWIbG_sP1SOfplIPgcJHXP5sAKynI5D58MQBNhG5F6RyHkk8h52KACNU4XTJgqZRhHB3-ENKk-_LWnXPacT7cDxXR5UcCW9lg-oA1ezbEW0KxLrLhB33maZiqSPURyHWYIthmxrYeOV8N4pDn7X1Ge5OrnbTls00oT6TNvWFOVjtq4hYuIb8GT-PzKdqjQrnn-g19j79rp0KxbHdY864ywh6j2WuPRUbFWnw-QbHBF-jz1FyB9rdgTi0GiUHTrIzL6A46S1iFOZ0H_Ru-zTADLEbpif8nKlDSGa_GvR8gRBHQDBgAk5ETvoTbNqE2l32su-H9tj7JuEmTLd3_AJqtoKTC65qiTn8S-QUNGlZHtUJ5sE97agx5Wr9x3qQNeYRUHoGILSDav4xj8-YenCVUsRi6inJJXpcH9kwBXpuNWF48XuCnu-xRelVnMk2mXZyvPwsJOHjqy-VOV9XQO1-QDUmcbNUf1gnR6dItvknO4TPZIk3AQ6rbbdLLdJM7YcftCvh6fo9do5xo-VBzFL7rg8zgvgKeRffCtM_C_CseketPRWbYDq7YOHr3XSk9ydq47EOhih3Oz1BkpJwXL-CrgGhhW6fxDI6oMKsOu2sA7b4TOfriDMuYJp0CI4_Y_1I_cit6xsME1YxhLwsAEkyuwKe5IKQE2ojpuWYloJRJMYOVHKz6Qt05s4fArJO4YYFZB01VBz668c-uzECS7A4aozg1rgHLYMxUjW_jYFpEai1CXZLD5RI6zetMfs-D9mH5SWJw2Qe1cZnw8bBmO-f05sL0w5baX86tF0Ry8kH6urVKvoJ0liyqOUNPfiP6Aae1qHv4dX_bTOGuu0ChQ-UtapyAGk8yJBHvYWPgDaTnPLnXxL8QUYm98WJs2JG_ddp2tB_AXX_qGThGuZ827QZAvhnCIXZARrb7jMEMYITTZhhGUzY-EKNSirNfAcy3qqzLxibqLW-lUe4WmMIWjo6mVDHv2TugWTgxor5VFPJfoS81Plh66BIQAQbvitIlx02gXDFkQ_MFVWmRXWDJ_XNxzzg-sCo-XUm-tFxHd5VQslycb8ezxWiOVYQjv15PR2kHVo4wK-n7DO8qPNjZphpOzFL5ctlUdme5T7YukpCiEm-_dEg3OdGksApO4T4KFg5kawwoxMGYl2VWZATwEPAa_6vjgHTHO_cT-Be8x3Rsa0ks-p_AgDW5gAACC57l5dBixrRAhtc50cGKOnhY8GnLSkcTZXwpiPmRJUEgbDssZBm18mG5Luvy4wZWS-AuLu16M9zFNmsh-3xWwDunSN6mGE3Fxx82zPYTLo5dpah0QOA4s47A1DeE28U9BLE1Yav7VLMGvlOx62xbSGQmlyw-ncWKWuP9WBesmUKwg-N5_VSRYXk9jawHMTeimWhO05JjK8V5jAOJXyyG_L4xEYrJ-3KDqkepVzigLbw0bHb5bmNO4QH2hXL-iiJOp_TOOU74cSLe8HfMUtIs1zKmdOWou-QPx3h25Njll0q_Yn48tpp4uGkSDxmTCkB7KY-lghKJPkds3Wjsy9oj_Fg9asHAqe-er2FmUHwo_32ixTzSyMpq2Qxg_onDGS-VVdZTGWKejf7pJ8gSVpPwFc0s6wrVpYiu1FrXzlH32fQrQ659MDzxt3Lbvqpk0ZAtKBeIDZOd1L8lRQ==",
+      "summary": []
+    },
+    {
+      "id": "msg_0f03027be183563c016ae4042a46cc87d0b38e6092ce5c1544",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"xg\":0.03,\"reason\":\"The central shot is from outside the box, with a centered goalkeeper and several opponents obstructing the route to goal.\"}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": false,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "json_schema",
+      "description": null,
+      "name": "shot_prediction",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "xg": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "reason": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "xg",
+          "reason"
+        ],
+        "additionalProperties": false
+      },
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 539,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 164,
+    "output_tokens_details": {
+      "reasoning_tokens": 120
+    },
+    "total_tokens": 703
+  },
+  "user": null,
+  "metadata": {}
+}

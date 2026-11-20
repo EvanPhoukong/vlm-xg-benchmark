@@ -1,0 +1,2813 @@
+{
+  "dataset": "SoccerTrack v2 v1.2",
+  "dataset_revision": "325bd4c57ee8e135ab652f3921d274526ada496b",
+  "model": {
+    "provider": "openai",
+    "model": "gpt-6.1-sol",
+    "rates": [
+      2.0,
+      0.1,
+      10.0
+    ]
+  },
+  "cohort": [
+    {
+      "shot_id": "117092_1_12157",
+      "match_id": "117092",
+      "half": 1,
+      "event_frame": 12157,
+      "frame_index": 12148,
+      "image": "results/soccertrack_sol_expansion_v1/frames/117092_1_12157.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "117092_1_12977",
+      "match_id": "117092",
+      "half": 1,
+      "event_frame": 12977,
+      "frame_index": 12968,
+      "image": "results/soccertrack_sol_expansion_v1/frames/117092_1_12977.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "117092_1_31002",
+      "match_id": "117092",
+      "half": 1,
+      "event_frame": 31002,
+      "frame_index": 30993,
+      "image": "results/soccertrack_sol_expansion_v1/frames/117092_1_31002.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "117092_1_32210",
+      "match_id": "117092",
+      "half": 1,
+      "event_frame": 32210,
+      "frame_index": 32201,
+      "image": "results/soccertrack_sol_expansion_v1/frames/117092_1_32210.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "117092_1_32237",
+      "match_id": "117092",
+      "half": 1,
+      "event_frame": 32237,
+      "frame_index": 32228,
+      "image": "results/soccertrack_sol_expansion_v1/frames/117092_1_32237.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "117092_1_33673",
+      "match_id": "117092",
+      "half": 1,
+      "event_frame": 33673,
+      "frame_index": 33664,
+      "image": "results/soccertrack_sol_expansion_v1/frames/117092_1_33673.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "117092_1_38873",
+      "match_id": "117092",
+      "half": 1,
+      "event_frame": 38873,
+      "frame_index": 38864,
+      "image": "results/soccertrack_sol_expansion_v1/frames/117092_1_38873.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "117092_1_39162",
+      "match_id": "117092",
+      "half": 1,
+      "event_frame": 39162,
+      "frame_index": 39153,
+      "image": "results/soccertrack_sol_expansion_v1/frames/117092_1_39162.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "117092_1_41159",
+      "match_id": "117092",
+      "half": 1,
+      "event_frame": 41159,
+      "frame_index": 41150,
+      "image": "results/soccertrack_sol_expansion_v1/frames/117092_1_41159.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "117092_1_42407",
+      "match_id": "117092",
+      "half": 1,
+      "event_frame": 42407,
+      "frame_index": 42398,
+      "image": "results/soccertrack_sol_expansion_v1/frames/117092_1_42407.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "117092_1_48620",
+      "match_id": "117092",
+      "half": 1,
+      "event_frame": 48620,
+      "frame_index": 48611,
+      "image": "results/soccertrack_sol_expansion_v1/frames/117092_1_48620.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "117092_1_55713",
+      "match_id": "117092",
+      "half": 1,
+      "event_frame": 55713,
+      "frame_index": 55704,
+      "image": "results/soccertrack_sol_expansion_v1/frames/117092_1_55713.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "117092_1_59246",
+      "match_id": "117092",
+      "half": 1,
+      "event_frame": 59246,
+      "frame_index": 59237,
+      "image": "results/soccertrack_sol_expansion_v1/frames/117092_1_59246.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "117092_1_63781",
+      "match_id": "117092",
+      "half": 1,
+      "event_frame": 63781,
+      "frame_index": 63772,
+      "image": "results/soccertrack_sol_expansion_v1/frames/117092_1_63781.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "117092_1_67276",
+      "match_id": "117092",
+      "half": 1,
+      "event_frame": 67276,
+      "frame_index": 67267,
+      "image": "results/soccertrack_sol_expansion_v1/frames/117092_1_67276.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "117092_1_8014",
+      "match_id": "117092",
+      "half": 1,
+      "event_frame": 8014,
+      "frame_index": 8005,
+      "image": "results/soccertrack_sol_expansion_v1/frames/117092_1_8014.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "117092_2_11008",
+      "match_id": "117092",
+      "half": 2,
+      "event_frame": 11008,
+      "frame_index": 10999,
+      "image": "results/soccertrack_sol_expansion_v1/frames/117092_2_11008.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "117092_2_13630",
+      "match_id": "117092",
+      "half": 2,
+      "event_frame": 13630,
+      "frame_index": 13621,
+      "image": "results/soccertrack_sol_expansion_v1/frames/117092_2_13630.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "117092_2_14904",
+      "match_id": "117092",
+      "half": 2,
+      "event_frame": 14904,
+      "frame_index": 14895,
+      "image": "results/soccertrack_sol_expansion_v1/frames/117092_2_14904.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "117092_2_20923",
+      "match_id": "117092",
+      "half": 2,
+      "event_frame": 20923,
+      "frame_index": 20914,
+      "image": "results/soccertrack_sol_expansion_v1/frames/117092_2_20923.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "117092_2_23671",
+      "match_id": "117092",
+      "half": 2,
+      "event_frame": 23671,
+      "frame_index": 23662,
+      "image": "results/soccertrack_sol_expansion_v1/frames/117092_2_23671.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "117092_2_33790",
+      "match_id": "117092",
+      "half": 2,
+      "event_frame": 33790,
+      "frame_index": 33781,
+      "image": "results/soccertrack_sol_expansion_v1/frames/117092_2_33790.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "117092_2_42966",
+      "match_id": "117092",
+      "half": 2,
+      "event_frame": 42966,
+      "frame_index": 42957,
+      "image": "results/soccertrack_sol_expansion_v1/frames/117092_2_42966.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "117092_2_43015",
+      "match_id": "117092",
+      "half": 2,
+      "event_frame": 43015,
+      "frame_index": 43006,
+      "image": "results/soccertrack_sol_expansion_v1/frames/117092_2_43015.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "117092_2_44296",
+      "match_id": "117092",
+      "half": 2,
+      "event_frame": 44296,
+      "frame_index": 44287,
+      "image": "results/soccertrack_sol_expansion_v1/frames/117092_2_44296.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "117092_2_50941",
+      "match_id": "117092",
+      "half": 2,
+      "event_frame": 50941,
+      "frame_index": 50932,
+      "image": "results/soccertrack_sol_expansion_v1/frames/117092_2_50941.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "117092_2_55700",
+      "match_id": "117092",
+      "half": 2,
+      "event_frame": 55700,
+      "frame_index": 55691,
+      "image": "results/soccertrack_sol_expansion_v1/frames/117092_2_55700.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "117092_2_57952",
+      "match_id": "117092",
+      "half": 2,
+      "event_frame": 57952,
+      "frame_index": 57943,
+      "image": "results/soccertrack_sol_expansion_v1/frames/117092_2_57952.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "117092_2_62517",
+      "match_id": "117092",
+      "half": 2,
+      "event_frame": 62517,
+      "frame_index": 62508,
+      "image": "results/soccertrack_sol_expansion_v1/frames/117092_2_62517.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "117093_1_13161",
+      "match_id": "117093",
+      "half": 1,
+      "event_frame": 13161,
+      "frame_index": 13152,
+      "image": "results/soccertrack_sol_expansion_v1/frames/117093_1_13161.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "117093_1_15033",
+      "match_id": "117093",
+      "half": 1,
+      "event_frame": 15033,
+      "frame_index": 15024,
+      "image": "results/soccertrack_sol_expansion_v1/frames/117093_1_15033.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "117093_1_1921",
+      "match_id": "117093",
+      "half": 1,
+      "event_frame": 1921,
+      "frame_index": 1912,
+      "image": "results/soccertrack_sol_expansion_v1/frames/117093_1_1921.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "117093_1_23670",
+      "match_id": "117093",
+      "half": 1,
+      "event_frame": 23670,
+      "frame_index": 23661,
+      "image": "results/soccertrack_sol_expansion_v1/frames/117093_1_23670.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "117093_1_26786",
+      "match_id": "117093",
+      "half": 1,
+      "event_frame": 26786,
+      "frame_index": 26777,
+      "image": "results/soccertrack_sol_expansion_v1/frames/117093_1_26786.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "117093_1_32426",
+      "match_id": "117093",
+      "half": 1,
+      "event_frame": 32426,
+      "frame_index": 32417,
+      "image": "results/soccertrack_sol_expansion_v1/frames/117093_1_32426.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "117093_1_35313",
+      "match_id": "117093",
+      "half": 1,
+      "event_frame": 35313,
+      "frame_index": 35304,
+      "image": "results/soccertrack_sol_expansion_v1/frames/117093_1_35313.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "117093_1_41567",
+      "match_id": "117093",
+      "half": 1,
+      "event_frame": 41567,
+      "frame_index": 41558,
+      "image": "results/soccertrack_sol_expansion_v1/frames/117093_1_41567.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "117093_1_43439",
+      "match_id": "117093",
+      "half": 1,
+      "event_frame": 43439,
+      "frame_index": 43430,
+      "image": "results/soccertrack_sol_expansion_v1/frames/117093_1_43439.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "117093_1_46815",
+      "match_id": "117093",
+      "half": 1,
+      "event_frame": 46815,
+      "frame_index": 46806,
+      "image": "results/soccertrack_sol_expansion_v1/frames/117093_1_46815.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "117093_1_4964",
+      "match_id": "117093",
+      "half": 1,
+      "event_frame": 4964,
+      "frame_index": 4955,
+      "image": "results/soccertrack_sol_expansion_v1/frames/117093_1_4964.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "117093_1_52005",
+      "match_id": "117093",
+      "half": 1,
+      "event_frame": 52005,
+      "frame_index": 51996,
+      "image": "results/soccertrack_sol_expansion_v1/frames/117093_1_52005.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "117093_1_54931",
+      "match_id": "117093",
+      "half": 1,
+      "event_frame": 54931,
+      "frame_index": 54922,
+      "image": "results/soccertrack_sol_expansion_v1/frames/117093_1_54931.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "117093_1_56221",
+      "match_id": "117093",
+      "half": 1,
+      "event_frame": 56221,
+      "frame_index": 56212,
+      "image": "results/soccertrack_sol_expansion_v1/frames/117093_1_56221.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "117093_1_58238",
+      "match_id": "117093",
+      "half": 1,
+      "event_frame": 58238,
+      "frame_index": 58229,
+      "image": "results/soccertrack_sol_expansion_v1/frames/117093_1_58238.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "117093_1_59378",
+      "match_id": "117093",
+      "half": 1,
+      "event_frame": 59378,
+      "frame_index": 59369,
+      "image": "results/soccertrack_sol_expansion_v1/frames/117093_1_59378.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "117093_1_699",
+      "match_id": "117093",
+      "half": 1,
+      "event_frame": 699,
+      "frame_index": 690,
+      "image": "results/soccertrack_sol_expansion_v1/frames/117093_1_699.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "117093_2_11027",
+      "match_id": "117093",
+      "half": 2,
+      "event_frame": 11027,
+      "frame_index": 11018,
+      "image": "results/soccertrack_sol_expansion_v1/frames/117093_2_11027.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "117093_2_23727",
+      "match_id": "117093",
+      "half": 2,
+      "event_frame": 23727,
+      "frame_index": 23718,
+      "image": "results/soccertrack_sol_expansion_v1/frames/117093_2_23727.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "117093_2_27082",
+      "match_id": "117093",
+      "half": 2,
+      "event_frame": 27082,
+      "frame_index": 27073,
+      "image": "results/soccertrack_sol_expansion_v1/frames/117093_2_27082.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "117093_2_27565",
+      "match_id": "117093",
+      "half": 2,
+      "event_frame": 27565,
+      "frame_index": 27556,
+      "image": "results/soccertrack_sol_expansion_v1/frames/117093_2_27565.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "117093_2_37809",
+      "match_id": "117093",
+      "half": 2,
+      "event_frame": 37809,
+      "frame_index": 37800,
+      "image": "results/soccertrack_sol_expansion_v1/frames/117093_2_37809.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "117093_2_48712",
+      "match_id": "117093",
+      "half": 2,
+      "event_frame": 48712,
+      "frame_index": 48703,
+      "image": "results/soccertrack_sol_expansion_v1/frames/117093_2_48712.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "117093_2_58086",
+      "match_id": "117093",
+      "half": 2,
+      "event_frame": 58086,
+      "frame_index": 58077,
+      "image": "results/soccertrack_sol_expansion_v1/frames/117093_2_58086.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "117093_2_63183",
+      "match_id": "117093",
+      "half": 2,
+      "event_frame": 63183,
+      "frame_index": 63174,
+      "image": "results/soccertrack_sol_expansion_v1/frames/117093_2_63183.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "117093_2_6657",
+      "match_id": "117093",
+      "half": 2,
+      "event_frame": 6657,
+      "frame_index": 6648,
+      "image": "results/soccertrack_sol_expansion_v1/frames/117093_2_6657.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "117093_2_70158",
+      "match_id": "117093",
+      "half": 2,
+      "event_frame": 70158,
+      "frame_index": 70149,
+      "image": "results/soccertrack_sol_expansion_v1/frames/117093_2_70158.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "117093_2_8873",
+      "match_id": "117093",
+      "half": 2,
+      "event_frame": 8873,
+      "frame_index": 8864,
+      "image": "results/soccertrack_sol_expansion_v1/frames/117093_2_8873.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118575_1_10348",
+      "match_id": "118575",
+      "half": 1,
+      "event_frame": 10348,
+      "frame_index": 10339,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118575_1_10348.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118575_1_13346",
+      "match_id": "118575",
+      "half": 1,
+      "event_frame": 13346,
+      "frame_index": 13337,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118575_1_13346.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118575_1_15795",
+      "match_id": "118575",
+      "half": 1,
+      "event_frame": 15795,
+      "frame_index": 15786,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118575_1_15795.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118575_1_17304",
+      "match_id": "118575",
+      "half": 1,
+      "event_frame": 17304,
+      "frame_index": 17295,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118575_1_17304.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118575_1_22965",
+      "match_id": "118575",
+      "half": 1,
+      "event_frame": 22965,
+      "frame_index": 22956,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118575_1_22965.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118575_1_23671",
+      "match_id": "118575",
+      "half": 1,
+      "event_frame": 23671,
+      "frame_index": 23662,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118575_1_23671.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118575_1_27186",
+      "match_id": "118575",
+      "half": 1,
+      "event_frame": 27186,
+      "frame_index": 27177,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118575_1_27186.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118575_1_29378",
+      "match_id": "118575",
+      "half": 1,
+      "event_frame": 29378,
+      "frame_index": 29369,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118575_1_29378.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118575_1_42095",
+      "match_id": "118575",
+      "half": 1,
+      "event_frame": 42095,
+      "frame_index": 42086,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118575_1_42095.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118575_1_46641",
+      "match_id": "118575",
+      "half": 1,
+      "event_frame": 46641,
+      "frame_index": 46632,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118575_1_46641.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118575_1_5153",
+      "match_id": "118575",
+      "half": 1,
+      "event_frame": 5153,
+      "frame_index": 5144,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118575_1_5153.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118575_1_59951",
+      "match_id": "118575",
+      "half": 1,
+      "event_frame": 59951,
+      "frame_index": 59942,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118575_1_59951.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118575_1_64914",
+      "match_id": "118575",
+      "half": 1,
+      "event_frame": 64914,
+      "frame_index": 64905,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118575_1_64914.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118575_2_19481",
+      "match_id": "118575",
+      "half": 2,
+      "event_frame": 19481,
+      "frame_index": 19472,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118575_2_19481.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118575_2_40546",
+      "match_id": "118575",
+      "half": 2,
+      "event_frame": 40546,
+      "frame_index": 40537,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118575_2_40546.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118575_2_42224",
+      "match_id": "118575",
+      "half": 2,
+      "event_frame": 42224,
+      "frame_index": 42215,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118575_2_42224.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118575_2_47424",
+      "match_id": "118575",
+      "half": 2,
+      "event_frame": 47424,
+      "frame_index": 47415,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118575_2_47424.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118575_2_48348",
+      "match_id": "118575",
+      "half": 2,
+      "event_frame": 48348,
+      "frame_index": 48339,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118575_2_48348.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118575_2_50891",
+      "match_id": "118575",
+      "half": 2,
+      "event_frame": 50891,
+      "frame_index": 50882,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118575_2_50891.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118575_2_60538",
+      "match_id": "118575",
+      "half": 2,
+      "event_frame": 60538,
+      "frame_index": 60529,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118575_2_60538.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118575_2_60590",
+      "match_id": "118575",
+      "half": 2,
+      "event_frame": 60590,
+      "frame_index": 60581,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118575_2_60590.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118575_2_67513",
+      "match_id": "118575",
+      "half": 2,
+      "event_frame": 67513,
+      "frame_index": 67504,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118575_2_67513.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118575_2_68999",
+      "match_id": "118575",
+      "half": 2,
+      "event_frame": 68999,
+      "frame_index": 68990,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118575_2_68999.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118575_2_72277",
+      "match_id": "118575",
+      "half": 2,
+      "event_frame": 72277,
+      "frame_index": 72268,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118575_2_72277.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118576_1_14855",
+      "match_id": "118576",
+      "half": 1,
+      "event_frame": 14855,
+      "frame_index": 14846,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118576_1_14855.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118576_1_19538",
+      "match_id": "118576",
+      "half": 1,
+      "event_frame": 19538,
+      "frame_index": 19529,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118576_1_19538.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118576_1_20287",
+      "match_id": "118576",
+      "half": 1,
+      "event_frame": 20287,
+      "frame_index": 20278,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118576_1_20287.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118576_1_22513",
+      "match_id": "118576",
+      "half": 1,
+      "event_frame": 22513,
+      "frame_index": 22504,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118576_1_22513.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118576_1_24161",
+      "match_id": "118576",
+      "half": 1,
+      "event_frame": 24161,
+      "frame_index": 24152,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118576_1_24161.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118576_1_28710",
+      "match_id": "118576",
+      "half": 1,
+      "event_frame": 28710,
+      "frame_index": 28701,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118576_1_28710.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118576_1_29063",
+      "match_id": "118576",
+      "half": 1,
+      "event_frame": 29063,
+      "frame_index": 29054,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118576_1_29063.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118576_1_31399",
+      "match_id": "118576",
+      "half": 1,
+      "event_frame": 31399,
+      "frame_index": 31390,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118576_1_31399.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118576_1_35142",
+      "match_id": "118576",
+      "half": 1,
+      "event_frame": 35142,
+      "frame_index": 35133,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118576_1_35142.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118576_1_35838",
+      "match_id": "118576",
+      "half": 1,
+      "event_frame": 35838,
+      "frame_index": 35829,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118576_1_35838.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118576_1_38496",
+      "match_id": "118576",
+      "half": 1,
+      "event_frame": 38496,
+      "frame_index": 38487,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118576_1_38496.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118576_1_46295",
+      "match_id": "118576",
+      "half": 1,
+      "event_frame": 46295,
+      "frame_index": 46286,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118576_1_46295.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118576_1_48199",
+      "match_id": "118576",
+      "half": 1,
+      "event_frame": 48199,
+      "frame_index": 48190,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118576_1_48199.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118576_1_50465",
+      "match_id": "118576",
+      "half": 1,
+      "event_frame": 50465,
+      "frame_index": 50456,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118576_1_50465.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118576_1_51555",
+      "match_id": "118576",
+      "half": 1,
+      "event_frame": 51555,
+      "frame_index": 51546,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118576_1_51555.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118576_1_53157",
+      "match_id": "118576",
+      "half": 1,
+      "event_frame": 53157,
+      "frame_index": 53148,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118576_1_53157.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118576_1_54259",
+      "match_id": "118576",
+      "half": 1,
+      "event_frame": 54259,
+      "frame_index": 54250,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118576_1_54259.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118576_1_59651",
+      "match_id": "118576",
+      "half": 1,
+      "event_frame": 59651,
+      "frame_index": 59642,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118576_1_59651.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118576_1_61240",
+      "match_id": "118576",
+      "half": 1,
+      "event_frame": 61240,
+      "frame_index": 61231,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118576_1_61240.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118576_1_62543",
+      "match_id": "118576",
+      "half": 1,
+      "event_frame": 62543,
+      "frame_index": 62534,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118576_1_62543.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118576_1_64746",
+      "match_id": "118576",
+      "half": 1,
+      "event_frame": 64746,
+      "frame_index": 64737,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118576_1_64746.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118576_1_70410",
+      "match_id": "118576",
+      "half": 1,
+      "event_frame": 70410,
+      "frame_index": 70401,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118576_1_70410.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118576_1_7062",
+      "match_id": "118576",
+      "half": 1,
+      "event_frame": 7062,
+      "frame_index": 7053,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118576_1_7062.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118576_1_71703",
+      "match_id": "118576",
+      "half": 1,
+      "event_frame": 71703,
+      "frame_index": 71694,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118576_1_71703.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118576_1_8208",
+      "match_id": "118576",
+      "half": 1,
+      "event_frame": 8208,
+      "frame_index": 8199,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118576_1_8208.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118576_1_9158",
+      "match_id": "118576",
+      "half": 1,
+      "event_frame": 9158,
+      "frame_index": 9149,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118576_1_9158.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118576_2_10053",
+      "match_id": "118576",
+      "half": 2,
+      "event_frame": 10053,
+      "frame_index": 10044,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118576_2_10053.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118576_2_11982",
+      "match_id": "118576",
+      "half": 2,
+      "event_frame": 11982,
+      "frame_index": 11973,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118576_2_11982.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118576_2_17186",
+      "match_id": "118576",
+      "half": 2,
+      "event_frame": 17186,
+      "frame_index": 17177,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118576_2_17186.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118576_2_31506",
+      "match_id": "118576",
+      "half": 2,
+      "event_frame": 31506,
+      "frame_index": 31497,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118576_2_31506.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118576_2_37328",
+      "match_id": "118576",
+      "half": 2,
+      "event_frame": 37328,
+      "frame_index": 37319,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118576_2_37328.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118576_2_41455",
+      "match_id": "118576",
+      "half": 2,
+      "event_frame": 41455,
+      "frame_index": 41446,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118576_2_41455.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118576_2_45097",
+      "match_id": "118576",
+      "half": 2,
+      "event_frame": 45097,
+      "frame_index": 45088,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118576_2_45097.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118576_2_47339",
+      "match_id": "118576",
+      "half": 2,
+      "event_frame": 47339,
+      "frame_index": 47330,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118576_2_47339.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118576_2_47475",
+      "match_id": "118576",
+      "half": 2,
+      "event_frame": 47475,
+      "frame_index": 47466,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118576_2_47475.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118576_2_50477",
+      "match_id": "118576",
+      "half": 2,
+      "event_frame": 50477,
+      "frame_index": 50468,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118576_2_50477.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118576_2_54996",
+      "match_id": "118576",
+      "half": 2,
+      "event_frame": 54996,
+      "frame_index": 54987,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118576_2_54996.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118576_2_58266",
+      "match_id": "118576",
+      "half": 2,
+      "event_frame": 58266,
+      "frame_index": 58257,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118576_2_58266.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118576_2_58311",
+      "match_id": "118576",
+      "half": 2,
+      "event_frame": 58311,
+      "frame_index": 58302,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118576_2_58311.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118576_2_61870",
+      "match_id": "118576",
+      "half": 2,
+      "event_frame": 61870,
+      "frame_index": 61861,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118576_2_61870.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118576_2_67143",
+      "match_id": "118576",
+      "half": 2,
+      "event_frame": 67143,
+      "frame_index": 67134,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118576_2_67143.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118576_2_6809",
+      "match_id": "118576",
+      "half": 2,
+      "event_frame": 6809,
+      "frame_index": 6800,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118576_2_6809.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118576_2_9456",
+      "match_id": "118576",
+      "half": 2,
+      "event_frame": 9456,
+      "frame_index": 9447,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118576_2_9456.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118577_1_10581",
+      "match_id": "118577",
+      "half": 1,
+      "event_frame": 10581,
+      "frame_index": 10572,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118577_1_10581.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118577_1_11108",
+      "match_id": "118577",
+      "half": 1,
+      "event_frame": 11108,
+      "frame_index": 11099,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118577_1_11108.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118577_1_19387",
+      "match_id": "118577",
+      "half": 1,
+      "event_frame": 19387,
+      "frame_index": 19378,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118577_1_19387.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118577_1_24546",
+      "match_id": "118577",
+      "half": 1,
+      "event_frame": 24546,
+      "frame_index": 24537,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118577_1_24546.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118577_1_36395",
+      "match_id": "118577",
+      "half": 1,
+      "event_frame": 36395,
+      "frame_index": 36386,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118577_1_36395.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118577_1_42668",
+      "match_id": "118577",
+      "half": 1,
+      "event_frame": 42668,
+      "frame_index": 42659,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118577_1_42668.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118577_1_44804",
+      "match_id": "118577",
+      "half": 1,
+      "event_frame": 44804,
+      "frame_index": 44795,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118577_1_44804.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118577_1_45631",
+      "match_id": "118577",
+      "half": 1,
+      "event_frame": 45631,
+      "frame_index": 45622,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118577_1_45631.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118577_1_46715",
+      "match_id": "118577",
+      "half": 1,
+      "event_frame": 46715,
+      "frame_index": 46706,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118577_1_46715.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118577_1_47717",
+      "match_id": "118577",
+      "half": 1,
+      "event_frame": 47717,
+      "frame_index": 47708,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118577_1_47717.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118577_1_48207",
+      "match_id": "118577",
+      "half": 1,
+      "event_frame": 48207,
+      "frame_index": 48198,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118577_1_48207.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118577_1_49619",
+      "match_id": "118577",
+      "half": 1,
+      "event_frame": 49619,
+      "frame_index": 49610,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118577_1_49619.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118577_1_52909",
+      "match_id": "118577",
+      "half": 1,
+      "event_frame": 52909,
+      "frame_index": 52900,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118577_1_52909.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118577_1_60284",
+      "match_id": "118577",
+      "half": 1,
+      "event_frame": 60284,
+      "frame_index": 60275,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118577_1_60284.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118577_1_61280",
+      "match_id": "118577",
+      "half": 1,
+      "event_frame": 61280,
+      "frame_index": 61271,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118577_1_61280.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118577_1_61420",
+      "match_id": "118577",
+      "half": 1,
+      "event_frame": 61420,
+      "frame_index": 61411,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118577_1_61420.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118577_1_65095",
+      "match_id": "118577",
+      "half": 1,
+      "event_frame": 65095,
+      "frame_index": 65086,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118577_1_65095.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118577_1_66527",
+      "match_id": "118577",
+      "half": 1,
+      "event_frame": 66527,
+      "frame_index": 66518,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118577_1_66527.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118577_1_67938",
+      "match_id": "118577",
+      "half": 1,
+      "event_frame": 67938,
+      "frame_index": 67929,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118577_1_67938.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118577_1_68005",
+      "match_id": "118577",
+      "half": 1,
+      "event_frame": 68005,
+      "frame_index": 67996,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118577_1_68005.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118577_1_72087",
+      "match_id": "118577",
+      "half": 1,
+      "event_frame": 72087,
+      "frame_index": 72078,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118577_1_72087.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118577_2_11357",
+      "match_id": "118577",
+      "half": 2,
+      "event_frame": 11357,
+      "frame_index": 11348,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118577_2_11357.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118577_2_15629",
+      "match_id": "118577",
+      "half": 2,
+      "event_frame": 15629,
+      "frame_index": 15620,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118577_2_15629.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118577_2_18711",
+      "match_id": "118577",
+      "half": 2,
+      "event_frame": 18711,
+      "frame_index": 18702,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118577_2_18711.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118577_2_33248",
+      "match_id": "118577",
+      "half": 2,
+      "event_frame": 33248,
+      "frame_index": 33239,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118577_2_33248.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118577_2_35906",
+      "match_id": "118577",
+      "half": 2,
+      "event_frame": 35906,
+      "frame_index": 35897,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118577_2_35906.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118577_2_3866",
+      "match_id": "118577",
+      "half": 2,
+      "event_frame": 3866,
+      "frame_index": 3857,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118577_2_3866.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118577_2_38712",
+      "match_id": "118577",
+      "half": 2,
+      "event_frame": 38712,
+      "frame_index": 38703,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118577_2_38712.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118577_2_45261",
+      "match_id": "118577",
+      "half": 2,
+      "event_frame": 45261,
+      "frame_index": 45252,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118577_2_45261.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118577_2_54835",
+      "match_id": "118577",
+      "half": 2,
+      "event_frame": 54835,
+      "frame_index": 54826,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118577_2_54835.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118577_2_6473",
+      "match_id": "118577",
+      "half": 2,
+      "event_frame": 6473,
+      "frame_index": 6464,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118577_2_6473.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118577_2_68227",
+      "match_id": "118577",
+      "half": 2,
+      "event_frame": 68227,
+      "frame_index": 68218,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118577_2_68227.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118577_2_7182",
+      "match_id": "118577",
+      "half": 2,
+      "event_frame": 7182,
+      "frame_index": 7173,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118577_2_7182.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118578_1_12728",
+      "match_id": "118578",
+      "half": 1,
+      "event_frame": 12728,
+      "frame_index": 12719,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118578_1_12728.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118578_1_14198",
+      "match_id": "118578",
+      "half": 1,
+      "event_frame": 14198,
+      "frame_index": 14189,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118578_1_14198.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118578_1_18302",
+      "match_id": "118578",
+      "half": 1,
+      "event_frame": 18302,
+      "frame_index": 18293,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118578_1_18302.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118578_1_19353",
+      "match_id": "118578",
+      "half": 1,
+      "event_frame": 19353,
+      "frame_index": 19344,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118578_1_19353.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118578_1_20328",
+      "match_id": "118578",
+      "half": 1,
+      "event_frame": 20328,
+      "frame_index": 20319,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118578_1_20328.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118578_1_21173",
+      "match_id": "118578",
+      "half": 1,
+      "event_frame": 21173,
+      "frame_index": 21164,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118578_1_21173.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118578_1_29390",
+      "match_id": "118578",
+      "half": 1,
+      "event_frame": 29390,
+      "frame_index": 29381,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118578_1_29390.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118578_1_45892",
+      "match_id": "118578",
+      "half": 1,
+      "event_frame": 45892,
+      "frame_index": 45883,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118578_1_45892.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118578_1_49957",
+      "match_id": "118578",
+      "half": 1,
+      "event_frame": 49957,
+      "frame_index": 49948,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118578_1_49957.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118578_1_50742",
+      "match_id": "118578",
+      "half": 1,
+      "event_frame": 50742,
+      "frame_index": 50733,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118578_1_50742.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118578_1_62182",
+      "match_id": "118578",
+      "half": 1,
+      "event_frame": 62182,
+      "frame_index": 62173,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118578_1_62182.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118578_1_66596",
+      "match_id": "118578",
+      "half": 1,
+      "event_frame": 66596,
+      "frame_index": 66587,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118578_1_66596.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118578_1_69285",
+      "match_id": "118578",
+      "half": 1,
+      "event_frame": 69285,
+      "frame_index": 69276,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118578_1_69285.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118578_1_69336",
+      "match_id": "118578",
+      "half": 1,
+      "event_frame": 69336,
+      "frame_index": 69327,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118578_1_69336.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118578_2_12239",
+      "match_id": "118578",
+      "half": 2,
+      "event_frame": 12239,
+      "frame_index": 12230,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118578_2_12239.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118578_2_18096",
+      "match_id": "118578",
+      "half": 2,
+      "event_frame": 18096,
+      "frame_index": 18087,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118578_2_18096.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118578_2_20900",
+      "match_id": "118578",
+      "half": 2,
+      "event_frame": 20900,
+      "frame_index": 20891,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118578_2_20900.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118578_2_24091",
+      "match_id": "118578",
+      "half": 2,
+      "event_frame": 24091,
+      "frame_index": 24082,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118578_2_24091.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118578_2_29180",
+      "match_id": "118578",
+      "half": 2,
+      "event_frame": 29180,
+      "frame_index": 29171,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118578_2_29180.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118578_2_42328",
+      "match_id": "118578",
+      "half": 2,
+      "event_frame": 42328,
+      "frame_index": 42319,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118578_2_42328.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118578_2_46925",
+      "match_id": "118578",
+      "half": 2,
+      "event_frame": 46925,
+      "frame_index": 46916,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118578_2_46925.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118578_2_48330",
+      "match_id": "118578",
+      "half": 2,
+      "event_frame": 48330,
+      "frame_index": 48321,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118578_2_48330.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118578_2_5195",
+      "match_id": "118578",
+      "half": 2,
+      "event_frame": 5195,
+      "frame_index": 5186,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118578_2_5195.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118578_2_55716",
+      "match_id": "118578",
+      "half": 2,
+      "event_frame": 55716,
+      "frame_index": 55707,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118578_2_55716.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118578_2_56835",
+      "match_id": "118578",
+      "half": 2,
+      "event_frame": 56835,
+      "frame_index": 56826,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118578_2_56835.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118578_2_61128",
+      "match_id": "118578",
+      "half": 2,
+      "event_frame": 61128,
+      "frame_index": 61119,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118578_2_61128.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118578_2_62149",
+      "match_id": "118578",
+      "half": 2,
+      "event_frame": 62149,
+      "frame_index": 62140,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118578_2_62149.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118578_2_64417",
+      "match_id": "118578",
+      "half": 2,
+      "event_frame": 64417,
+      "frame_index": 64408,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118578_2_64417.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "118578_2_9275",
+      "match_id": "118578",
+      "half": 2,
+      "event_frame": 9275,
+      "frame_index": 9266,
+      "image": "results/soccertrack_sol_expansion_v1/frames/118578_2_9275.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "128057_1_26887",
+      "match_id": "128057",
+      "half": 1,
+      "event_frame": 26887,
+      "frame_index": 26878,
+      "image": "results/soccertrack_sol_v1/frames/128057_1_26887.png",
+      "reuse_original": true
+    },
+    {
+      "shot_id": "128057_1_31371",
+      "match_id": "128057",
+      "half": 1,
+      "event_frame": 31371,
+      "frame_index": 31362,
+      "image": "results/soccertrack_sol_v1/frames/128057_1_31371.png",
+      "reuse_original": true
+    },
+    {
+      "shot_id": "128057_1_33830",
+      "match_id": "128057",
+      "half": 1,
+      "event_frame": 33830,
+      "frame_index": 33821,
+      "image": "results/soccertrack_sol_expansion_v1/frames/128057_1_33830.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "128057_1_47392",
+      "match_id": "128057",
+      "half": 1,
+      "event_frame": 47392,
+      "frame_index": 47383,
+      "image": "results/soccertrack_sol_expansion_v1/frames/128057_1_47392.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "128057_1_48495",
+      "match_id": "128057",
+      "half": 1,
+      "event_frame": 48495,
+      "frame_index": 48486,
+      "image": "results/soccertrack_sol_expansion_v1/frames/128057_1_48495.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "128057_1_51650",
+      "match_id": "128057",
+      "half": 1,
+      "event_frame": 51650,
+      "frame_index": 51641,
+      "image": "results/soccertrack_sol_expansion_v1/frames/128057_1_51650.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "128057_1_5439",
+      "match_id": "128057",
+      "half": 1,
+      "event_frame": 5439,
+      "frame_index": 5430,
+      "image": "results/soccertrack_sol_expansion_v1/frames/128057_1_5439.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "128057_1_58729",
+      "match_id": "128057",
+      "half": 1,
+      "event_frame": 58729,
+      "frame_index": 58720,
+      "image": "results/soccertrack_sol_expansion_v1/frames/128057_1_58729.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "128057_1_60268",
+      "match_id": "128057",
+      "half": 1,
+      "event_frame": 60268,
+      "frame_index": 60259,
+      "image": "results/soccertrack_sol_expansion_v1/frames/128057_1_60268.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "128057_1_62766",
+      "match_id": "128057",
+      "half": 1,
+      "event_frame": 62766,
+      "frame_index": 62757,
+      "image": "results/soccertrack_sol_expansion_v1/frames/128057_1_62766.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "128057_2_12390",
+      "match_id": "128057",
+      "half": 2,
+      "event_frame": 12390,
+      "frame_index": 12381,
+      "image": "results/soccertrack_sol_expansion_v1/frames/128057_2_12390.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "128057_2_14635",
+      "match_id": "128057",
+      "half": 2,
+      "event_frame": 14635,
+      "frame_index": 14626,
+      "image": "results/soccertrack_sol_v1/frames/128057_2_14635.png",
+      "reuse_original": true
+    },
+    {
+      "shot_id": "128057_2_15916",
+      "match_id": "128057",
+      "half": 2,
+      "event_frame": 15916,
+      "frame_index": 15907,
+      "image": "results/soccertrack_sol_v1/frames/128057_2_15916.png",
+      "reuse_original": true
+    },
+    {
+      "shot_id": "128057_2_2282",
+      "match_id": "128057",
+      "half": 2,
+      "event_frame": 2282,
+      "frame_index": 2273,
+      "image": "results/soccertrack_sol_v1/frames/128057_2_2282.png",
+      "reuse_original": true
+    },
+    {
+      "shot_id": "128057_2_24334",
+      "match_id": "128057",
+      "half": 2,
+      "event_frame": 24334,
+      "frame_index": 24325,
+      "image": "results/soccertrack_sol_expansion_v1/frames/128057_2_24334.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "128057_2_25172",
+      "match_id": "128057",
+      "half": 2,
+      "event_frame": 25172,
+      "frame_index": 25163,
+      "image": "results/soccertrack_sol_v1/frames/128057_2_25172.png",
+      "reuse_original": true
+    },
+    {
+      "shot_id": "128057_2_26996",
+      "match_id": "128057",
+      "half": 2,
+      "event_frame": 26996,
+      "frame_index": 26987,
+      "image": "results/soccertrack_sol_v1/frames/128057_2_26996.png",
+      "reuse_original": true
+    },
+    {
+      "shot_id": "128057_2_32022",
+      "match_id": "128057",
+      "half": 2,
+      "event_frame": 32022,
+      "frame_index": 32013,
+      "image": "results/soccertrack_sol_v1/frames/128057_2_32022.png",
+      "reuse_original": true
+    },
+    {
+      "shot_id": "128057_2_37446",
+      "match_id": "128057",
+      "half": 2,
+      "event_frame": 37446,
+      "frame_index": 37437,
+      "image": "results/soccertrack_sol_v1/frames/128057_2_37446.png",
+      "reuse_original": true
+    },
+    {
+      "shot_id": "128057_2_42564",
+      "match_id": "128057",
+      "half": 2,
+      "event_frame": 42564,
+      "frame_index": 42555,
+      "image": "results/soccertrack_sol_expansion_v1/frames/128057_2_42564.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "128057_2_46854",
+      "match_id": "128057",
+      "half": 2,
+      "event_frame": 46854,
+      "frame_index": 46845,
+      "image": "results/soccertrack_sol_v1/frames/128057_2_46854.png",
+      "reuse_original": true
+    },
+    {
+      "shot_id": "128057_2_52475",
+      "match_id": "128057",
+      "half": 2,
+      "event_frame": 52475,
+      "frame_index": 52466,
+      "image": "results/soccertrack_sol_v1/frames/128057_2_52475.png",
+      "reuse_original": true
+    },
+    {
+      "shot_id": "128057_2_53875",
+      "match_id": "128057",
+      "half": 2,
+      "event_frame": 53875,
+      "frame_index": 53866,
+      "image": "results/soccertrack_sol_v1/frames/128057_2_53875.png",
+      "reuse_original": true
+    },
+    {
+      "shot_id": "128057_2_60105",
+      "match_id": "128057",
+      "half": 2,
+      "event_frame": 60105,
+      "frame_index": 60096,
+      "image": "results/soccertrack_sol_expansion_v1/frames/128057_2_60105.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "128057_2_63897",
+      "match_id": "128057",
+      "half": 2,
+      "event_frame": 63897,
+      "frame_index": 63888,
+      "image": "results/soccertrack_sol_expansion_v1/frames/128057_2_63897.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "128057_2_66689",
+      "match_id": "128057",
+      "half": 2,
+      "event_frame": 66689,
+      "frame_index": 66680,
+      "image": "results/soccertrack_sol_expansion_v1/frames/128057_2_66689.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "128057_2_67791",
+      "match_id": "128057",
+      "half": 2,
+      "event_frame": 67791,
+      "frame_index": 67782,
+      "image": "results/soccertrack_sol_expansion_v1/frames/128057_2_67791.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "128058_1_14852",
+      "match_id": "128058",
+      "half": 1,
+      "event_frame": 14852,
+      "frame_index": 14843,
+      "image": "results/soccertrack_sol_expansion_v1/frames/128058_1_14852.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "128058_1_16275",
+      "match_id": "128058",
+      "half": 1,
+      "event_frame": 16275,
+      "frame_index": 16266,
+      "image": "results/soccertrack_sol_expansion_v1/frames/128058_1_16275.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "128058_1_20919",
+      "match_id": "128058",
+      "half": 1,
+      "event_frame": 20919,
+      "frame_index": 20910,
+      "image": "results/soccertrack_sol_expansion_v1/frames/128058_1_20919.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "128058_1_22177",
+      "match_id": "128058",
+      "half": 1,
+      "event_frame": 22177,
+      "frame_index": 22168,
+      "image": "results/soccertrack_sol_expansion_v1/frames/128058_1_22177.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "128058_1_24708",
+      "match_id": "128058",
+      "half": 1,
+      "event_frame": 24708,
+      "frame_index": 24699,
+      "image": "results/soccertrack_sol_expansion_v1/frames/128058_1_24708.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "128058_1_47131",
+      "match_id": "128058",
+      "half": 1,
+      "event_frame": 47131,
+      "frame_index": 47122,
+      "image": "results/soccertrack_sol_expansion_v1/frames/128058_1_47131.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "128058_1_49293",
+      "match_id": "128058",
+      "half": 1,
+      "event_frame": 49293,
+      "frame_index": 49284,
+      "image": "results/soccertrack_sol_expansion_v1/frames/128058_1_49293.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "128058_1_50727",
+      "match_id": "128058",
+      "half": 1,
+      "event_frame": 50727,
+      "frame_index": 50718,
+      "image": "results/soccertrack_sol_expansion_v1/frames/128058_1_50727.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "128058_1_56179",
+      "match_id": "128058",
+      "half": 1,
+      "event_frame": 56179,
+      "frame_index": 56170,
+      "image": "results/soccertrack_sol_expansion_v1/frames/128058_1_56179.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "128058_1_66517",
+      "match_id": "128058",
+      "half": 1,
+      "event_frame": 66517,
+      "frame_index": 66508,
+      "image": "results/soccertrack_sol_expansion_v1/frames/128058_1_66517.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "128058_2_13897",
+      "match_id": "128058",
+      "half": 2,
+      "event_frame": 13897,
+      "frame_index": 13888,
+      "image": "results/soccertrack_sol_expansion_v1/frames/128058_2_13897.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "128058_2_14542",
+      "match_id": "128058",
+      "half": 2,
+      "event_frame": 14542,
+      "frame_index": 14533,
+      "image": "results/soccertrack_sol_expansion_v1/frames/128058_2_14542.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "128058_2_18599",
+      "match_id": "128058",
+      "half": 2,
+      "event_frame": 18599,
+      "frame_index": 18590,
+      "image": "results/soccertrack_sol_expansion_v1/frames/128058_2_18599.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "128058_2_21928",
+      "match_id": "128058",
+      "half": 2,
+      "event_frame": 21928,
+      "frame_index": 21919,
+      "image": "results/soccertrack_sol_expansion_v1/frames/128058_2_21928.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "128058_2_22032",
+      "match_id": "128058",
+      "half": 2,
+      "event_frame": 22032,
+      "frame_index": 22023,
+      "image": "results/soccertrack_sol_expansion_v1/frames/128058_2_22032.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "128058_2_29633",
+      "match_id": "128058",
+      "half": 2,
+      "event_frame": 29633,
+      "frame_index": 29624,
+      "image": "results/soccertrack_sol_expansion_v1/frames/128058_2_29633.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "128058_2_31188",
+      "match_id": "128058",
+      "half": 2,
+      "event_frame": 31188,
+      "frame_index": 31179,
+      "image": "results/soccertrack_sol_expansion_v1/frames/128058_2_31188.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "128058_2_32257",
+      "match_id": "128058",
+      "half": 2,
+      "event_frame": 32257,
+      "frame_index": 32248,
+      "image": "results/soccertrack_sol_expansion_v1/frames/128058_2_32257.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "128058_2_33595",
+      "match_id": "128058",
+      "half": 2,
+      "event_frame": 33595,
+      "frame_index": 33586,
+      "image": "results/soccertrack_sol_expansion_v1/frames/128058_2_33595.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "128058_2_42942",
+      "match_id": "128058",
+      "half": 2,
+      "event_frame": 42942,
+      "frame_index": 42933,
+      "image": "results/soccertrack_sol_expansion_v1/frames/128058_2_42942.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "128058_2_43271",
+      "match_id": "128058",
+      "half": 2,
+      "event_frame": 43271,
+      "frame_index": 43262,
+      "image": "results/soccertrack_sol_expansion_v1/frames/128058_2_43271.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "128058_2_48018",
+      "match_id": "128058",
+      "half": 2,
+      "event_frame": 48018,
+      "frame_index": 48009,
+      "image": "results/soccertrack_sol_expansion_v1/frames/128058_2_48018.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "128058_2_48749",
+      "match_id": "128058",
+      "half": 2,
+      "event_frame": 48749,
+      "frame_index": 48740,
+      "image": "results/soccertrack_sol_expansion_v1/frames/128058_2_48749.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "128058_2_51460",
+      "match_id": "128058",
+      "half": 2,
+      "event_frame": 51460,
+      "frame_index": 51451,
+      "image": "results/soccertrack_sol_expansion_v1/frames/128058_2_51460.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "128058_2_56102",
+      "match_id": "128058",
+      "half": 2,
+      "event_frame": 56102,
+      "frame_index": 56093,
+      "image": "results/soccertrack_sol_expansion_v1/frames/128058_2_56102.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "128058_2_63387",
+      "match_id": "128058",
+      "half": 2,
+      "event_frame": 63387,
+      "frame_index": 63378,
+      "image": "results/soccertrack_sol_expansion_v1/frames/128058_2_63387.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "128058_2_63465",
+      "match_id": "128058",
+      "half": 2,
+      "event_frame": 63465,
+      "frame_index": 63456,
+      "image": "results/soccertrack_sol_expansion_v1/frames/128058_2_63465.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "128058_2_7308",
+      "match_id": "128058",
+      "half": 2,
+      "event_frame": 7308,
+      "frame_index": 7299,
+      "image": "results/soccertrack_sol_expansion_v1/frames/128058_2_7308.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "128058_2_9239",
+      "match_id": "128058",
+      "half": 2,
+      "event_frame": 9239,
+      "frame_index": 9230,
+      "image": "results/soccertrack_sol_expansion_v1/frames/128058_2_9239.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "132831_1_11275",
+      "match_id": "132831",
+      "half": 1,
+      "event_frame": 11275,
+      "frame_index": 11266,
+      "image": "results/soccertrack_sol_v1/frames/132831_1_11275.png",
+      "reuse_original": true
+    },
+    {
+      "shot_id": "132831_1_14251",
+      "match_id": "132831",
+      "half": 1,
+      "event_frame": 14251,
+      "frame_index": 14242,
+      "image": "results/soccertrack_sol_v1/frames/132831_1_14251.png",
+      "reuse_original": true
+    },
+    {
+      "shot_id": "132831_1_17396",
+      "match_id": "132831",
+      "half": 1,
+      "event_frame": 17396,
+      "frame_index": 17387,
+      "image": "results/soccertrack_sol_v1/frames/132831_1_17396.png",
+      "reuse_original": true
+    },
+    {
+      "shot_id": "132831_1_24795",
+      "match_id": "132831",
+      "half": 1,
+      "event_frame": 24795,
+      "frame_index": 24786,
+      "image": "results/soccertrack_sol_v1/frames/132831_1_24795.png",
+      "reuse_original": true
+    },
+    {
+      "shot_id": "132831_1_27603",
+      "match_id": "132831",
+      "half": 1,
+      "event_frame": 27603,
+      "frame_index": 27594,
+      "image": "results/soccertrack_sol_expansion_v1/frames/132831_1_27603.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "132831_1_3107",
+      "match_id": "132831",
+      "half": 1,
+      "event_frame": 3107,
+      "frame_index": 3098,
+      "image": "results/soccertrack_sol_v1/frames/132831_1_3107.png",
+      "reuse_original": true
+    },
+    {
+      "shot_id": "132831_1_36988",
+      "match_id": "132831",
+      "half": 1,
+      "event_frame": 36988,
+      "frame_index": 36979,
+      "image": "results/soccertrack_sol_expansion_v1/frames/132831_1_36988.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "132831_1_37620",
+      "match_id": "132831",
+      "half": 1,
+      "event_frame": 37620,
+      "frame_index": 37611,
+      "image": "results/soccertrack_sol_expansion_v1/frames/132831_1_37620.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "132831_1_41070",
+      "match_id": "132831",
+      "half": 1,
+      "event_frame": 41070,
+      "frame_index": 41061,
+      "image": "results/soccertrack_sol_v1/frames/132831_1_41070.png",
+      "reuse_original": true
+    },
+    {
+      "shot_id": "132831_1_42570",
+      "match_id": "132831",
+      "half": 1,
+      "event_frame": 42570,
+      "frame_index": 42561,
+      "image": "results/soccertrack_sol_v1/frames/132831_1_42570.png",
+      "reuse_original": true
+    },
+    {
+      "shot_id": "132831_1_43565",
+      "match_id": "132831",
+      "half": 1,
+      "event_frame": 43565,
+      "frame_index": 43556,
+      "image": "results/soccertrack_sol_expansion_v1/frames/132831_1_43565.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "132831_1_49919",
+      "match_id": "132831",
+      "half": 1,
+      "event_frame": 49919,
+      "frame_index": 49910,
+      "image": "results/soccertrack_sol_expansion_v1/frames/132831_1_49919.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "132831_1_53195",
+      "match_id": "132831",
+      "half": 1,
+      "event_frame": 53195,
+      "frame_index": 53186,
+      "image": "results/soccertrack_sol_v1/frames/132831_1_53195.png",
+      "reuse_original": true
+    },
+    {
+      "shot_id": "132831_1_54099",
+      "match_id": "132831",
+      "half": 1,
+      "event_frame": 54099,
+      "frame_index": 54090,
+      "image": "results/soccertrack_sol_v1/frames/132831_1_54099.png",
+      "reuse_original": true
+    },
+    {
+      "shot_id": "132831_1_54132",
+      "match_id": "132831",
+      "half": 1,
+      "event_frame": 54132,
+      "frame_index": 54123,
+      "image": "results/soccertrack_sol_expansion_v1/frames/132831_1_54132.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "132831_1_58553",
+      "match_id": "132831",
+      "half": 1,
+      "event_frame": 58553,
+      "frame_index": 58544,
+      "image": "results/soccertrack_sol_v1/frames/132831_1_58553.png",
+      "reuse_original": true
+    },
+    {
+      "shot_id": "132831_1_58628",
+      "match_id": "132831",
+      "half": 1,
+      "event_frame": 58628,
+      "frame_index": 58619,
+      "image": "results/soccertrack_sol_expansion_v1/frames/132831_1_58628.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "132831_1_60049",
+      "match_id": "132831",
+      "half": 1,
+      "event_frame": 60049,
+      "frame_index": 60040,
+      "image": "results/soccertrack_sol_v1/frames/132831_1_60049.png",
+      "reuse_original": true
+    },
+    {
+      "shot_id": "132831_1_64997",
+      "match_id": "132831",
+      "half": 1,
+      "event_frame": 64997,
+      "frame_index": 64988,
+      "image": "results/soccertrack_sol_expansion_v1/frames/132831_1_64997.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "132831_1_66501",
+      "match_id": "132831",
+      "half": 1,
+      "event_frame": 66501,
+      "frame_index": 66492,
+      "image": "results/soccertrack_sol_expansion_v1/frames/132831_1_66501.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "132831_1_9858",
+      "match_id": "132831",
+      "half": 1,
+      "event_frame": 9858,
+      "frame_index": 9849,
+      "image": "results/soccertrack_sol_expansion_v1/frames/132831_1_9858.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "132831_2_11195",
+      "match_id": "132831",
+      "half": 2,
+      "event_frame": 11195,
+      "frame_index": 11186,
+      "image": "results/soccertrack_sol_v1/frames/132831_2_11195.png",
+      "reuse_original": true
+    },
+    {
+      "shot_id": "132831_2_12870",
+      "match_id": "132831",
+      "half": 2,
+      "event_frame": 12870,
+      "frame_index": 12861,
+      "image": "results/soccertrack_sol_v1/frames/132831_2_12870.png",
+      "reuse_original": true
+    },
+    {
+      "shot_id": "132831_2_22124",
+      "match_id": "132831",
+      "half": 2,
+      "event_frame": 22124,
+      "frame_index": 22115,
+      "image": "results/soccertrack_sol_expansion_v1/frames/132831_2_22124.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "132831_2_29625",
+      "match_id": "132831",
+      "half": 2,
+      "event_frame": 29625,
+      "frame_index": 29616,
+      "image": "results/soccertrack_sol_v1/frames/132831_2_29625.png",
+      "reuse_original": true
+    },
+    {
+      "shot_id": "132831_2_32297",
+      "match_id": "132831",
+      "half": 2,
+      "event_frame": 32297,
+      "frame_index": 32288,
+      "image": "results/soccertrack_sol_expansion_v1/frames/132831_2_32297.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "132831_2_37281",
+      "match_id": "132831",
+      "half": 2,
+      "event_frame": 37281,
+      "frame_index": 37272,
+      "image": "results/soccertrack_sol_v1/frames/132831_2_37281.png",
+      "reuse_original": true
+    },
+    {
+      "shot_id": "132831_2_41894",
+      "match_id": "132831",
+      "half": 2,
+      "event_frame": 41894,
+      "frame_index": 41885,
+      "image": "results/soccertrack_sol_expansion_v1/frames/132831_2_41894.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "132831_2_46260",
+      "match_id": "132831",
+      "half": 2,
+      "event_frame": 46260,
+      "frame_index": 46251,
+      "image": "results/soccertrack_sol_expansion_v1/frames/132831_2_46260.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "132831_2_47271",
+      "match_id": "132831",
+      "half": 2,
+      "event_frame": 47271,
+      "frame_index": 47262,
+      "image": "results/soccertrack_sol_expansion_v1/frames/132831_2_47271.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "132831_2_51072",
+      "match_id": "132831",
+      "half": 2,
+      "event_frame": 51072,
+      "frame_index": 51063,
+      "image": "results/soccertrack_sol_v1/frames/132831_2_51072.png",
+      "reuse_original": true
+    },
+    {
+      "shot_id": "132831_2_52172",
+      "match_id": "132831",
+      "half": 2,
+      "event_frame": 52172,
+      "frame_index": 52163,
+      "image": "results/soccertrack_sol_expansion_v1/frames/132831_2_52172.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "132831_2_59044",
+      "match_id": "132831",
+      "half": 2,
+      "event_frame": 59044,
+      "frame_index": 59035,
+      "image": "results/soccertrack_sol_expansion_v1/frames/132831_2_59044.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "132831_2_6083",
+      "match_id": "132831",
+      "half": 2,
+      "event_frame": 6083,
+      "frame_index": 6074,
+      "image": "results/soccertrack_sol_v1/frames/132831_2_6083.png",
+      "reuse_original": true
+    },
+    {
+      "shot_id": "132831_2_61072",
+      "match_id": "132831",
+      "half": 2,
+      "event_frame": 61072,
+      "frame_index": 61063,
+      "image": "results/soccertrack_sol_expansion_v1/frames/132831_2_61072.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "132831_2_64016",
+      "match_id": "132831",
+      "half": 2,
+      "event_frame": 64016,
+      "frame_index": 64007,
+      "image": "results/soccertrack_sol_v1/frames/132831_2_64016.png",
+      "reuse_original": true
+    },
+    {
+      "shot_id": "132831_2_8359",
+      "match_id": "132831",
+      "half": 2,
+      "event_frame": 8359,
+      "frame_index": 8350,
+      "image": "results/soccertrack_sol_expansion_v1/frames/132831_2_8359.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "132877_1_17726",
+      "match_id": "132877",
+      "half": 1,
+      "event_frame": 17726,
+      "frame_index": 17717,
+      "image": "results/soccertrack_sol_expansion_v1/frames/132877_1_17726.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "132877_1_2409",
+      "match_id": "132877",
+      "half": 1,
+      "event_frame": 2409,
+      "frame_index": 2400,
+      "image": "results/soccertrack_sol_expansion_v1/frames/132877_1_2409.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "132877_1_30200",
+      "match_id": "132877",
+      "half": 1,
+      "event_frame": 30200,
+      "frame_index": 30191,
+      "image": "results/soccertrack_sol_expansion_v1/frames/132877_1_30200.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "132877_1_32580",
+      "match_id": "132877",
+      "half": 1,
+      "event_frame": 32580,
+      "frame_index": 32571,
+      "image": "results/soccertrack_sol_expansion_v1/frames/132877_1_32580.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "132877_1_45259",
+      "match_id": "132877",
+      "half": 1,
+      "event_frame": 45259,
+      "frame_index": 45250,
+      "image": "results/soccertrack_sol_expansion_v1/frames/132877_1_45259.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "132877_1_45822",
+      "match_id": "132877",
+      "half": 1,
+      "event_frame": 45822,
+      "frame_index": 45813,
+      "image": "results/soccertrack_sol_expansion_v1/frames/132877_1_45822.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "132877_1_52198",
+      "match_id": "132877",
+      "half": 1,
+      "event_frame": 52198,
+      "frame_index": 52189,
+      "image": "results/soccertrack_sol_expansion_v1/frames/132877_1_52198.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "132877_1_55350",
+      "match_id": "132877",
+      "half": 1,
+      "event_frame": 55350,
+      "frame_index": 55341,
+      "image": "results/soccertrack_sol_expansion_v1/frames/132877_1_55350.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "132877_1_57596",
+      "match_id": "132877",
+      "half": 1,
+      "event_frame": 57596,
+      "frame_index": 57587,
+      "image": "results/soccertrack_sol_expansion_v1/frames/132877_1_57596.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "132877_1_60633",
+      "match_id": "132877",
+      "half": 1,
+      "event_frame": 60633,
+      "frame_index": 60624,
+      "image": "results/soccertrack_sol_expansion_v1/frames/132877_1_60633.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "132877_1_61167",
+      "match_id": "132877",
+      "half": 1,
+      "event_frame": 61167,
+      "frame_index": 61158,
+      "image": "results/soccertrack_sol_expansion_v1/frames/132877_1_61167.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "132877_1_63151",
+      "match_id": "132877",
+      "half": 1,
+      "event_frame": 63151,
+      "frame_index": 63142,
+      "image": "results/soccertrack_sol_expansion_v1/frames/132877_1_63151.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "132877_1_64932",
+      "match_id": "132877",
+      "half": 1,
+      "event_frame": 64932,
+      "frame_index": 64923,
+      "image": "results/soccertrack_sol_expansion_v1/frames/132877_1_64932.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "132877_2_14405",
+      "match_id": "132877",
+      "half": 2,
+      "event_frame": 14405,
+      "frame_index": 14396,
+      "image": "results/soccertrack_sol_expansion_v1/frames/132877_2_14405.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "132877_2_18660",
+      "match_id": "132877",
+      "half": 2,
+      "event_frame": 18660,
+      "frame_index": 18651,
+      "image": "results/soccertrack_sol_expansion_v1/frames/132877_2_18660.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "132877_2_20210",
+      "match_id": "132877",
+      "half": 2,
+      "event_frame": 20210,
+      "frame_index": 20201,
+      "image": "results/soccertrack_sol_expansion_v1/frames/132877_2_20210.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "132877_2_3126",
+      "match_id": "132877",
+      "half": 2,
+      "event_frame": 3126,
+      "frame_index": 3117,
+      "image": "results/soccertrack_sol_expansion_v1/frames/132877_2_3126.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "132877_2_31617",
+      "match_id": "132877",
+      "half": 2,
+      "event_frame": 31617,
+      "frame_index": 31608,
+      "image": "results/soccertrack_sol_expansion_v1/frames/132877_2_31617.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "132877_2_32756",
+      "match_id": "132877",
+      "half": 2,
+      "event_frame": 32756,
+      "frame_index": 32747,
+      "image": "results/soccertrack_sol_expansion_v1/frames/132877_2_32756.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "132877_2_41193",
+      "match_id": "132877",
+      "half": 2,
+      "event_frame": 41193,
+      "frame_index": 41184,
+      "image": "results/soccertrack_sol_expansion_v1/frames/132877_2_41193.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "132877_2_44445",
+      "match_id": "132877",
+      "half": 2,
+      "event_frame": 44445,
+      "frame_index": 44436,
+      "image": "results/soccertrack_sol_expansion_v1/frames/132877_2_44445.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "132877_2_4957",
+      "match_id": "132877",
+      "half": 2,
+      "event_frame": 4957,
+      "frame_index": 4948,
+      "image": "results/soccertrack_sol_expansion_v1/frames/132877_2_4957.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "132877_2_53745",
+      "match_id": "132877",
+      "half": 2,
+      "event_frame": 53745,
+      "frame_index": 53736,
+      "image": "results/soccertrack_sol_expansion_v1/frames/132877_2_53745.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "132877_2_55086",
+      "match_id": "132877",
+      "half": 2,
+      "event_frame": 55086,
+      "frame_index": 55077,
+      "image": "results/soccertrack_sol_expansion_v1/frames/132877_2_55086.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "132877_2_58631",
+      "match_id": "132877",
+      "half": 2,
+      "event_frame": 58631,
+      "frame_index": 58622,
+      "image": "results/soccertrack_sol_expansion_v1/frames/132877_2_58631.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "132877_2_63862",
+      "match_id": "132877",
+      "half": 2,
+      "event_frame": 63862,
+      "frame_index": 63853,
+      "image": "results/soccertrack_sol_expansion_v1/frames/132877_2_63862.png",
+      "reuse_original": false
+    },
+    {
+      "shot_id": "132877_2_6474",
+      "match_id": "132877",
+      "half": 2,
+      "event_frame": 6474,
+      "frame_index": 6465,
+      "image": "results/soccertrack_sol_expansion_v1/frames/132877_2_6474.png",
+      "reuse_original": false
+    }
+  ],
+  "shots": 306,
+  "goals": 44,
+  "matches": 10,
+  "reused_original": 30,
+  "new_predictions": 276,
+  "prompt": "You are a professional football (soccer) analyst.\nThe image is a panoramic match frame taken shortly before the shot.\nEstimate the probability that this shot results in a goal (expected goals, xG),\nassuming an average professional finisher.\nReply with JSON only: {\"xg\": <number between 0 and 1>, \"reason\": \"<one short sentence>\"}",
+  "reasoning_effort": "low",
+  "image_detail": "high",
+  "max_output_tokens": 1024,
+  "primary_comparison": "All 306 Sol probabilities versus existing leave-one-match-out distance/angle logistic predictions; each baseline fold fits the other 9 matches.",
+  "secondary": "Official 64-shot test subset versus the original six-training-match baseline; original 30 and new 276 reported separately.",
+  "selection": "All audited unique SHOT/GOAL events. No tuning, replacement by score, goal balancing, repeated-reading averaging or output calibration.",
+  "interpretation": "More evaluation shots improve precision, not the underlying model. The old 30-shot score may move either way. Previously inspected source matches; exploratory expansion, not untouched confirmation.",
+  "budget": {
+    "per_model_cap_usd": 10.0,
+    "prior_conservative_usd": 0.13086,
+    "per_call_input_bound": 4096,
+    "max_new_reservations_usd": 5.087232,
+    "automatic_retries": 0,
+    "scope": "This expansion plus logged earlier SoccerTrack Sol usage, not an account-wide balance."
+  },
+  "source_hashes": {
+    "shots.json": "79ca36f7b04edaf5df99f808db9723b966f12d038f6276e3b68592324a08b5f5",
+    "source_audit.json": "d82771423bfc72ee6a81c4f909648adc7bafa432aa10451cf55c4fad0e1dc56f",
+    "lomo_predictions.json": "727816f1f6ce5f3d6a12a6e825b87826370787b7842cf1c6640aecf8ba9a13a2",
+    "lomo_models.json": "2e6562ad9370a65837001d021cd8e42627bb11ba9076b14ab9f9274ffa1db22f",
+    "baseline_models.json": "913c4a9787cb01536aecb867a54b04a41ecf72f8a67867fd8557fd9d8f875b70",
+    "reused_sol.json": "eb5946c66497dfcaa18650a6b52280a20c971d0978cb3bb0a35ea0e82e837af3"
+  },
+  "legacy_ledger_sha256": null,
+  "engine_hashes": {
+    "expand_sol.py": "503cccdba99a6892edaaa31ca9c71807573a22f703b7475db8e9a3d4c52a86a1",
+    "run.py": "8e7c69c100888de0b0bfc5f65c1411e4a30cefad8cd7d89aa5db39ca3caa9390",
+    "common.py": "5713af52108cd13ec559a8eade1ede2d8dd8183e3952754b989303b4a4677206"
+  },
+  "frame_preparation": "Seek from the actual first decoded frame PTS, then decode to the exact 25fps target timestamp, 8 frames before contact. Do not bulk-download all videos (about 77 GiB).",
+  "frame_caveat": "Original 30 PNGs are retained byte-for-byte. New PNGs use PyAV RGB plus Pillow LANCZOS at longest side 1536; the original resizing implementation is not established.",
+  "limitations": [
+    "Unidentified penalties may be included; do not call this a non-penalty cohort.",
+    "BAS SHOT/GOAL protocol may omit blocked/header attempts assigned other event classes.",
+    "Professional-finisher instruction on university-level matches is retained for an exact pilot comparison.",
+    "No calibration, hybrid prior, fine-tuning or probability averaging.",
+    "Header baseline has explicit body-part information absent from image-only prompts."
+  ]
+}

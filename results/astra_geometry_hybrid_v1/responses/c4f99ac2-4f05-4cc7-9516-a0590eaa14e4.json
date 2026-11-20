@@ -1,0 +1,174 @@
+{
+  "id": "resp_0bf1568233eecc30016aed5c90285087d0859c0961401b2548",
+  "object": "response",
+  "created_at": 1793940624,
+  "status": "completed",
+  "access_programs": null,
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1793940627,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "image": {
+    "context_compression": "disabled"
+  },
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": 2048,
+  "max_tool_calls": null,
+  "model": "gpt-6-astra",
+  "moderation": null,
+  "output": [
+    {
+      "id": "rs_0bf1568233eecc30016aed5c9126bc87d0af918b0700e5dc89",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq7VyTJeugss1o1ABAo4EsaHij3mTfp9rsfKWLpjXmQ8TtbwnV6ZrjRplNSna9lbJdIAQdkmxHvg17QGFeiJqctgq302ep7oNIxRTSJrwPdUl6tLscUmJF5MvgDVvKQqt6pNIhk2ZaOqzWv4h3bz9jZ0YSgoUkP30-9FEN7Lv6IIsLs-iQ9ZbfoIZfbKYfe5B2UT3RBkMRs4oAk845ZorjdSsyjsd7a22llWqMwEd9f4NwSnSnkVCIo4MvN8k8wCv64g6qx4oMZjnh0B1ru9gIeyDMbZOs9cMpKMMrQIW2SVPpbHLGNagtQSvjiVEBjAdIepVbY1jMnZv_w7LAfg_Hz-Ui-gMbQRIfpdOxYEFnchb05qq4mqxPmQ9CwjX5DUEServZ2o4_A8-_YoFFE93VoyNKQdzAKA41JH3cG3Lj_yMPy3W4EpzOZyLvxCDHP_IeaWAdM_nWzyZDnwGg1qNsR5ZCJqHTgbAMTd3yZRu-8K7rEGoT6OSWrBvR1plgkho1IJvuQ_0Z-LRtiXar2xTGPIHXpCfgVGjMdx8GwHHoydvPMxWklTHr4cPuPC_-VMn8BHz1B4VwccKt-R87wuKX7nlMH6P2-9b8nuRc2t7dAjC0HpNKnlBwP-4De1fD_WJXKsy5CxxsOQLWTLjKmOkNMkRCtHHAZAY2jnOC5srIckPgDvPPz71s8H6I2Ch4f-Rvzjg_jCvxYZgQLv9p-mUnTDj3euGNq1jLf0Ml7JtSUOH7TSs0N4VeG6TdlihwT1ifs0yYyILVqtKnJexYfh78y1_XuI28THQaY24WRt0hovTiAv9UxwZYnTzrCKwcnDmavWqvBVEJT76tm0HcAARotOOcMznC5-z0wpRrbUU5-wnHvzAOtHTZRZ2C9L0XNiOePbSkM2aNbwipWmY2juzAJU7v7RxRDaq3yxT2nKCi5c90suNqpTSECsfC2EU4h1yJdeyRILI1fkgXDuCr1PtUCkM2BpOH4NbT3lzqctCKsqbcrtS7XsYK8113Ns_ceNz2nlNRJmU2R_xknA9UTw_WT-69_IM1h8soZIFRB3eK7FdpaRK5jJXuWwhHDwfpUs0PdWWNe118SZPcKF0nA1K0ucaZF-vIVqsY4MTuDBc50Tg7bfHWO_w82_xZuI85pB6JnwLacDzSeYu-wNOoYpNNVVUZLcHgIHxyIpmcn5ald_13AYBoorrwuh3L3ZjFdvsPaxx3p5jLIsPHYnBSW8izfXA_lgdmNZNgNCegCv1mPmNbId-fvgehL9wFAfW8UWRkR2RRDkTsDMC4zAeNyxKHAHXQ4OMtuqwPoTCt3JMlqyIUoKjJWm3GORFwEyzQBXYBa5k3AruLzXF04FK50UGMnHwGT1R_VDIVPwnR8ffof-Yaiosmugb4vEBGY04fNW7UzfvebVag_f2eXXfGpT8eDDeGFmJSvHN4uRXhXN-c-hBzc2hGqEGemja9gUOZd00_t_EyTOBi9kwBeZkfpAzvg5x91lrhJRPoSnV8foaAyhV_EZIRNHLzdJg4MXmSe3bHvxzDO1d9d4N9waklBLLrkwXHo3ZxyL2GyCUDu6Xv4freniMP2_wc-JjqUaT_MvKZnm7xgFPUPLfQQUVWLjgWGs_Yd_MFY18pff6jWi0cqzwkVMHRME7PZTkNuMb0qNiF66CFmH5KAtrkJsxukClR2TTBmYK1jzy3UcFNEtwG3OpWj9ZR_XKqYePJfbSTlJAV0N2ysLa7FNULSf9WEz_BOqPhR9uat6JXzLsDODx8FxNZbDOzBY8xdrB6x01NL6VooM60Mt-VYcgh9P1DA-vVKPYzuEvbV7yvfDuYwjnq_v3frB8-itCQc_er5ZOH6HW8nk-JnpazSOzKiYzdud6W8sfaHMDkb-Y61YLkhEhqM2UUfsDFUztRA0NlIqYgQ4StUOb022lzJkHmmpVGI3rLIPxo1_zjkmRZAvJygWEPb6fvm9EA-jEXluVN9uTBnghLtvTXZBi06oTIU5SuDQHo_5o7bPeG8bayI8BboxMp9JJBW0SLbmb_YtMzI1abOKN3e8ql2RGJWvDIv6VROeWLICqI1KvePFxHDKN4ht13JM0-7Y5F7BLNOXIgZi2xRBDZVXNLl85bo_9Gb2pxY6ZdQF7YmLWRKhTNi85TMjqIKM9ki01STCVfF4lonXi20CufEchyqRrqrrHbyA5UyLX523B3VOwve5uXeRNeaNfttTQu-SDdROTDruepU3FQGmlRVY5_RM-phNfR3Ht2GT4Xm31DMwd0s79S8R-iZpzrqkQ4PzI=",
+      "summary": []
+    },
+    {
+      "id": "msg_0bf1568233eecc30016aed5c93156c87d08ea120107e5d88ad",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"shooter_lateral\":-1.9,\"shooter_depth\":14.0,\"shot_distance\":14.1,\"goal_angle_degrees\":31.4,\"goalkeeper_visible\":true,\"goalkeeper_lateral\":-1.0,\"goalkeeper_depth\":3.1}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "all_turns",
+    "effort": "low",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": false,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "json_schema",
+      "description": null,
+      "name": "shot_geometry",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "shooter_lateral": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "minimum": -44,
+            "maximum": 44
+          },
+          "shooter_depth": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "minimum": -4,
+            "maximum": 64
+          },
+          "shot_distance": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "minimum": 0,
+            "maximum": 100
+          },
+          "goal_angle_degrees": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "minimum": 0,
+            "maximum": 180
+          },
+          "goalkeeper_visible": {
+            "type": "boolean"
+          },
+          "goalkeeper_lateral": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "minimum": -44,
+            "maximum": 44
+          },
+          "goalkeeper_depth": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "minimum": -4,
+            "maximum": 64
+          }
+        },
+        "required": [
+          "shooter_lateral",
+          "shooter_depth",
+          "shot_distance",
+          "goal_angle_degrees",
+          "goalkeeper_visible",
+          "goalkeeper_lateral",
+          "goalkeeper_depth"
+        ],
+        "additionalProperties": false
+      },
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 701,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 167,
+    "output_tokens_details": {
+      "reasoning_tokens": 98
+    },
+    "total_tokens": 868
+  },
+  "user": null,
+  "metadata": {}
+}

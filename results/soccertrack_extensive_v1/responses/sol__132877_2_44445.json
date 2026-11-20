@@ -1,0 +1,129 @@
+{
+  "id": "resp_09b67ccf892ad3fb016af6c433612c87d0905f91582560fafb",
+  "object": "response",
+  "created_at": 1794556979,
+  "status": "completed",
+  "access_programs": {
+    "cyber": "standard"
+  },
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1794556984,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "image": {
+    "context_compression": "disabled"
+  },
+  "incomplete_details": null,
+  "input_transformations": [],
+  "instructions": null,
+  "max_output_tokens": 1024,
+  "max_tool_calls": null,
+  "model": "gpt-6.1-sol",
+  "moderation": null,
+  "output": [
+    {
+      "id": "rs_09b67ccf892ad3fb016af6c434752c87d08d34a02e22c50c97",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq9sQ4SFnfxf98fdl-R1Z5B35cMt9FIVRWFHqnhT16cQ3sCNFsapOfYo7VY2ff9hyxqJ-mO55VADReYuTCFnoTsJynbExLiLSr4MesFy85gMceVn3B1JsXT_UomOF6U1--gjZo1KkxfT4-zlkwBez6Ebl1b59VOvL_oXxqb7ZHHqn9UYKQ-alfuXYG890CP_B3HKPjJBdnuLFgO6jZg_LilYX_GCLenVmokQP6ThyFoNHE1Tho8ogXmmcSL0pzVtc7pnZITLlww9A894TQ1Hs87Xa4mKN1R-9HkEQei0qvH1mWnh3YmRXX8EtR0T4PQ8qC0oqgFCZ7SKssUyYNH94c8AAdhyfDv1pkJMr09aAy4jlgU1GVytmfW3ApPimdJ3IWjs7d-ZLqg1MxO1Svg15bazGpo-oq_YVxCPbgCh3wiiQuuMsdmIYd7TBsYlgG7gWO6JHQnJMzW802YMNriJsQNrc5M3CeZoxSTbIXSTtWFjpk-1b0qFxVE3s0dimKg7shujraiIWk35rxNw86WRSpB-C9VKwwC9SmRifD3xlx5gHyHa6VLs_vW1XXCxmMHFE9ao2bxFnv0Pl4w9P_DPzy9xXRV5yJEpvOPrHNl8NlyJbUUUBSPiNU9M0877FFBlVtWRd9VYkdPNGpLL_XepHzhdoooB0zGaOoRGHm4LcyTZd3vAL1uKLuG4CC_Ff1-BlA0qgO8QNoT1AWnYYKDVoCvPW4PhRg-saaO5DuA4746F609AXY37-RIS9byVqss0J2lShn9sk-0eXSTXzk6loIb7sknNGgO_kcO6_6QZgsl5MdLcmIQ-cJzx2xYrS8wCHw5lZw-NdsPfTE3OhpEDlXfImQWDGF9ok20ECgcEuN7YvlBO4-aEc-nZtC-INib6CgJ_hhE1f5-GxAk1EysWxkVNQF6ODqIwtROJ0-qTcYKYaaDT69tE0xW_z9qexJoScjZ_IM2EVvJ4aagNiOS86pQ63RIuI35yXEmtKKnMsrdUnztz_9okq6DFHpcvVoNKwWWilwNLU6BvT4IfSdltLASy-uq0ID8li28hAuRS6ptS63LXD7sEPrSl5UiOU60cdzLXkr7QDUyVQz6qQruMtmrd4ollDiXxnzaTOO5pcjT8Y_reoPcfKT7OmPkMo1rTfn3u6z9uBZOrzdpmVNL4oXveaHPnN1_On5l-9OZmnEGhgIjGYw-zFwG-abveTb1kAI7bo0DtUC974dJl9MMlGjUp4ukksY-t889FfoIuAv_7LGjGIPkX3CO8Y2fMebB-A_SCFjOYRe-mgUkt-vcTPaVI5BAs1i5Up11AIQdlQB5pi0CleeVr8vDFo-pNNHbnwJKnodjBHdWdfr9lPuWEqmxTLUxN0sihfSGJIH55c2kft8fFunfxyhBFwezT4nqzMErb9xESkYbb9f_NywVO7CAexxEeQV6f8DTN6o4idZCqVmIrW8igSQrd2hM7LQycA3mocAUMks0Fp3THTiMCCVEysq-v_8Euw0I2r9ZRjP2Sv_WljlqxvZv_LQK25n_T5FYSVNbj6NWD3AukdBnwvmHceWMZEmdaEIPIjWcPvuC34WThYX0cyDIhT7uwmKICmpR1IrXXe-zEPZpq89IZ1CUey13-NF2EFWeEIoPcZWuZVY4ee51MwiKEz-gKKtuHKXyNs9Ufyrm0A17rNP-S_PlRCme6dWhW5tulmaqtSIzAn3fINUMIOrTNzk66vCwXbwwW6upK6VUWJdEo2ZwceDaLeepnGJ8Jkmyh6Gkft9suHS3d9Qbn_bCOWM9BJCvLBe-5x7Ex16I0-zVsyYo9Ji0O8x4Q7VimuyfqFuLUgfWqzCrmz4Kgxene50SCyBItdb7lzIY0-wXVaeufGK6j6UZ-CBKRC-Mp4dwO6UEzKhyG7HhdoWzWsThXqaaTWr99NUREYPT9nqwgwo6K1PY4Ibc_raSESt9MK_FRm0ROGISDNikpMORuf9THseGrc9ASGYLmzahTJ-THR0p3fku8434sRicbP2vyZa-lc_PbEW5p7L7wqXuaG67j1qyV5pmmQoGGtvrzKqxSMpu7pXVIari4tcEmpPTA0IlV086dwctYeMC6vvXPN04Q044-HLKbZCKjbcmM9Yb2-4oVIs9HcHuFTBpHjDbJ2qj53KAOhWBZdS4f_4o5oNWn08QK4QVA-FNfNXuOqvzYoplY2yjcSBRVeMH6Jj47z-gXGVjo0nigHLNWoMPLcT1-t5lGhfbZtH5XGVH3mFDsqGmZLfguqJ1EHmUyGe92naD7CUO-Ze8fD7T0PqKqBWWryi4Jwwk4bIiMnOucamszdoyqXwtZRSEsPHBHbyQx8Xn09LnkZJq1Cn7jh8QXb2nNSBm8HBK3nn3tyo9Of-96PMrgPV5iiRfGZneHEcN7u78GCnNGEnK3CbkHgiSC27nv1d8iOD_-A8zBkf1TfKU0yKnPMYQYEQqI7aD6Zys1LsdOTFbYTXt0mfwMczKQMOjX-EeqML3gmuaWX9vfP5rSFkOI2VX7ojtx6Fgs5sk_uleVg9C5PoEVz8eycxiZEdrpqsY7W3tbISmHTGEyfy4NOcr4NQDrbx0BUJMOTaevNUmvfHuFv8CRlWIhujjMHF7P1gclVj-Y9i8MRAM-Bw1ejjImyQvVps4zv-EdlhAw_0WfUE2kW4Aw7oNZ5z715O9c5543PENNIUwfDosLvSS8PV3I7SnS8pvnjqwtr3wmQ6EKVxztIRvsxxUVnfm3Ddk24m6qOL02kG7_Yqq5UJRH_5CVlYF3-I_Q9r-Gf_RISuLPzLXPbiMJIsTD1WUxekQf2wSVg5bPynkeEBPsKxnk_A52WCHNJRKCXuYo24rGPGJMKgekqlfq_X3a6a9LWSmahbnuNaqW675duz6jPhMHn4i5YK5w5eoGCMyAp42X0femF8qY07goiL8WHl7KgrPNNh-ks7YB38GMt6ROJNuKh7Uoc61AIEzU5g6yb-BnKtdPXRtou-VYylw-hXjqOeH6Boxa9t6XnpTGb0N8OMO8lLQmjyZ2PaHtcgJdTwOjY3kqKcuT2AcHtuVkNFSJILefoOW1WDVrV5PAq6N8cZ-6EKcH2iFlSqgZYZbzO75gAxvB-M6QV6FUzyCv4j8TBd53MYMU4KzyaMTW2LcmRharIC9bHamAm6bx1gTr6OTHFyhgWqFQotjk4QvwnAvYeuuj_rjjSOH9Dno3QLZpdAi2grV--WlJsmryRIYwdXr-_sxRJLpyPbqOC8owEuXxIKlevldoR6ae2FTESTdMlNQ7xIjBIzVeUxQ1w8JFwEc-ISd4WGHmGfev10llELyIamTJmE1toHk6TyaiLy2bHd9hP96JBtjf32OhfRwA==",
+      "summary": []
+    },
+    {
+      "id": "msg_09b67ccf892ad3fb016af6c43756c487d09c81d78e68845c4a",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"xg\":0.12,\"reason\":\"The apparent shooting position is inside the penalty area at an angle, with nearby defenders and the goalkeeper covering the goal.\"}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "all_turns",
+    "effort": "low",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": false,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "json_schema",
+      "description": null,
+      "name": "shot_prediction",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "xg": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "reason": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "xg",
+          "reason"
+        ],
+        "additionalProperties": false
+      },
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 860,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 121,
+    "output_tokens_details": {
+      "reasoning_tokens": 77
+    },
+    "total_tokens": 981
+  },
+  "user": null,
+  "metadata": {}
+}

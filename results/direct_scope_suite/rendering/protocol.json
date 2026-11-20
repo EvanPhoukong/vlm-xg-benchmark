@@ -1,0 +1,577 @@
+{
+  "name": "rendering",
+  "prompt": "You are a professional football (soccer) analyst.\nThe image shows a shot at the moment it is taken, drawn on a half pitch with the goal at the top.\nGold star = shooter. Blue circles = shooter's teammates. Red circles = opponents.\nOrange square = opposing goalkeeper.\nEstimate the probability that this shot results in a goal (expected goals, xG),\nassuming an average professional finisher.\nReply with JSON only: {\"xg\": <number between 0 and 1>, \"reason\": \"<one short sentence>\"}",
+  "model": "gpt-6-luna",
+  "schedule": [
+    {
+      "shot_id": "9615ffbc-b513-45e6-9ccc-015234483f95",
+      "condition": "standard",
+      "effort": "low",
+      "image": "images/rendering/standard/9615ffbc-b513-45e6-9ccc-015234483f95.png",
+      "image_sha256": "dcc4e23292592f5886656f42ca9d17cf2370072d77614ec06c2c97cfddbb1386"
+    },
+    {
+      "shot_id": "9615ffbc-b513-45e6-9ccc-015234483f95",
+      "condition": "outline",
+      "effort": "low",
+      "image": "images/rendering/outline/9615ffbc-b513-45e6-9ccc-015234483f95.png",
+      "image_sha256": "8429586b2b85fb6cca617e95d8e47262d1d7501fd1ccc38297fba335238b63f9"
+    },
+    {
+      "shot_id": "db8267ad-256a-450d-997f-382a4d545634",
+      "condition": "outline",
+      "effort": "low",
+      "image": "images/rendering/outline/db8267ad-256a-450d-997f-382a4d545634.png",
+      "image_sha256": "0ab87f82dcb7d151e78dcb1a48f1840f2a5f285e34d53707ed2f0a1ab6647be0"
+    },
+    {
+      "shot_id": "db8267ad-256a-450d-997f-382a4d545634",
+      "condition": "standard",
+      "effort": "low",
+      "image": "images/rendering/standard/db8267ad-256a-450d-997f-382a4d545634.png",
+      "image_sha256": "f6ea4ad4c22fa8323676c59b8ebecbfa45633f70163766becc214ddc4634c167"
+    },
+    {
+      "shot_id": "ddb6f298-8ac3-4d35-bfb7-f03f76b54c1e",
+      "condition": "standard",
+      "effort": "low",
+      "image": "images/rendering/standard/ddb6f298-8ac3-4d35-bfb7-f03f76b54c1e.png",
+      "image_sha256": "9e9cee94988bab00f514889fb9c18be1819ac6b87d087bddca800bedec4a26a1"
+    },
+    {
+      "shot_id": "ddb6f298-8ac3-4d35-bfb7-f03f76b54c1e",
+      "condition": "outline",
+      "effort": "low",
+      "image": "images/rendering/outline/ddb6f298-8ac3-4d35-bfb7-f03f76b54c1e.png",
+      "image_sha256": "9a80924bdba360db228bab4a2366f5f7a87a20131cefac392573f8635fcd3dc1"
+    },
+    {
+      "shot_id": "6e57cb5e-fe39-4d22-ab15-155340299c5e",
+      "condition": "standard",
+      "effort": "low",
+      "image": "images/rendering/standard/6e57cb5e-fe39-4d22-ab15-155340299c5e.png",
+      "image_sha256": "a85aeb8b81a374930bca57289eec320bb32637e05cf3f67235245a5039fdb851"
+    },
+    {
+      "shot_id": "6e57cb5e-fe39-4d22-ab15-155340299c5e",
+      "condition": "outline",
+      "effort": "low",
+      "image": "images/rendering/outline/6e57cb5e-fe39-4d22-ab15-155340299c5e.png",
+      "image_sha256": "e3e9c8ff8808c75ef000e390850b6f310b0d0470da68e3cca716a80cd25e1ae0"
+    },
+    {
+      "shot_id": "9cde5a33-b4a9-4bbe-8ea2-76d7ef1badfc",
+      "condition": "outline",
+      "effort": "low",
+      "image": "images/rendering/outline/9cde5a33-b4a9-4bbe-8ea2-76d7ef1badfc.png",
+      "image_sha256": "6c077c774f4018b308ae7f56721e00f95bd1b44925f509f811311b27573c8e98"
+    },
+    {
+      "shot_id": "9cde5a33-b4a9-4bbe-8ea2-76d7ef1badfc",
+      "condition": "standard",
+      "effort": "low",
+      "image": "images/rendering/standard/9cde5a33-b4a9-4bbe-8ea2-76d7ef1badfc.png",
+      "image_sha256": "af623573788848082b6b5ef74ef6d9d4415c94090c7fe41fa6996ce54b7829e6"
+    },
+    {
+      "shot_id": "cd7df5a3-11c8-41d0-9ca5-ef6feea55964",
+      "condition": "outline",
+      "effort": "low",
+      "image": "images/rendering/outline/cd7df5a3-11c8-41d0-9ca5-ef6feea55964.png",
+      "image_sha256": "c89eec8c889e3bb67ab8656f7da41b93fed1193096db561b89f9c46b4041842c"
+    },
+    {
+      "shot_id": "cd7df5a3-11c8-41d0-9ca5-ef6feea55964",
+      "condition": "standard",
+      "effort": "low",
+      "image": "images/rendering/standard/cd7df5a3-11c8-41d0-9ca5-ef6feea55964.png",
+      "image_sha256": "77af6fc05e33674577cccb5922047c42942b957054a087525222e84702407beb"
+    },
+    {
+      "shot_id": "b37c4059-f00c-411b-93d6-e3c13355a153",
+      "condition": "outline",
+      "effort": "low",
+      "image": "images/rendering/outline/b37c4059-f00c-411b-93d6-e3c13355a153.png",
+      "image_sha256": "b05ef590025319eafb9394603d2599677ea087ded6635f226ec32da78648e551"
+    },
+    {
+      "shot_id": "b37c4059-f00c-411b-93d6-e3c13355a153",
+      "condition": "standard",
+      "effort": "low",
+      "image": "images/rendering/standard/b37c4059-f00c-411b-93d6-e3c13355a153.png",
+      "image_sha256": "8603d5aa4cbcb0b3df941bac76fca4a11ff002d5afe775cc958704f8b41b1121"
+    },
+    {
+      "shot_id": "58d90922-71f3-410a-bc38-8f5c2019b615",
+      "condition": "outline",
+      "effort": "low",
+      "image": "images/rendering/outline/58d90922-71f3-410a-bc38-8f5c2019b615.png",
+      "image_sha256": "e3979b05e428e92ceef869200481ae1e699e674cecefdaa5c153138011b9b020"
+    },
+    {
+      "shot_id": "58d90922-71f3-410a-bc38-8f5c2019b615",
+      "condition": "standard",
+      "effort": "low",
+      "image": "images/rendering/standard/58d90922-71f3-410a-bc38-8f5c2019b615.png",
+      "image_sha256": "b0875b19e8564b50aea5bdd9ad1eb85dfb4cd178337bb59b59cf443379d99851"
+    },
+    {
+      "shot_id": "90d7ee1b-aa71-4292-ba17-0bcd15e6e03a",
+      "condition": "standard",
+      "effort": "low",
+      "image": "images/rendering/standard/90d7ee1b-aa71-4292-ba17-0bcd15e6e03a.png",
+      "image_sha256": "250df52a2afce61d7ba3067732990a4b9d68457bbf013f19e75f6946a4e30ec5"
+    },
+    {
+      "shot_id": "90d7ee1b-aa71-4292-ba17-0bcd15e6e03a",
+      "condition": "outline",
+      "effort": "low",
+      "image": "images/rendering/outline/90d7ee1b-aa71-4292-ba17-0bcd15e6e03a.png",
+      "image_sha256": "4eef9d6ff7ac5678872bd758bd73024a96c156831dcc8ddad9a118635bfd8533"
+    },
+    {
+      "shot_id": "70fe857d-6f28-4b38-8ad7-a655328ec176",
+      "condition": "standard",
+      "effort": "low",
+      "image": "images/rendering/standard/70fe857d-6f28-4b38-8ad7-a655328ec176.png",
+      "image_sha256": "0f208b25b474991e8b4cc93a922fcf5a0d5ba2cccfb44df689b067f624bd928a"
+    },
+    {
+      "shot_id": "70fe857d-6f28-4b38-8ad7-a655328ec176",
+      "condition": "outline",
+      "effort": "low",
+      "image": "images/rendering/outline/70fe857d-6f28-4b38-8ad7-a655328ec176.png",
+      "image_sha256": "a275c1cca4fc60195788bc683a4feb1648f2291502911d574c01844e5271e56b"
+    },
+    {
+      "shot_id": "90380b1f-260f-42c9-95fb-ae1ca4941ee2",
+      "condition": "outline",
+      "effort": "low",
+      "image": "images/rendering/outline/90380b1f-260f-42c9-95fb-ae1ca4941ee2.png",
+      "image_sha256": "3b9f3dca3d91eb1ece6ef7f00c0a1769a98a4a79b6fb727d718ea2938a4c11bd"
+    },
+    {
+      "shot_id": "90380b1f-260f-42c9-95fb-ae1ca4941ee2",
+      "condition": "standard",
+      "effort": "low",
+      "image": "images/rendering/standard/90380b1f-260f-42c9-95fb-ae1ca4941ee2.png",
+      "image_sha256": "fe9f4f9b6548215c8123808ac3016f5cc5f1985495d5d011e248aa2ad6676955"
+    },
+    {
+      "shot_id": "b5d4b6d2-2276-4827-ad51-fd13e52e6ecf",
+      "condition": "outline",
+      "effort": "low",
+      "image": "images/rendering/outline/b5d4b6d2-2276-4827-ad51-fd13e52e6ecf.png",
+      "image_sha256": "16c7018b153f0ad4e07ccc873d0fc15c3cb6248be837fa8e0ea914403124e0a3"
+    },
+    {
+      "shot_id": "b5d4b6d2-2276-4827-ad51-fd13e52e6ecf",
+      "condition": "standard",
+      "effort": "low",
+      "image": "images/rendering/standard/b5d4b6d2-2276-4827-ad51-fd13e52e6ecf.png",
+      "image_sha256": "88a40a4ed3c6a73ac7070eb7da1d7a4d06b25e80a3613f0408c8dbc36e6ff509"
+    },
+    {
+      "shot_id": "be17203f-f93a-4a28-9704-0d0783b29be2",
+      "condition": "outline",
+      "effort": "low",
+      "image": "images/rendering/outline/be17203f-f93a-4a28-9704-0d0783b29be2.png",
+      "image_sha256": "bd685019a411d71f5a833270d40050c179a5afa52f3ba58d9af0bb8db6dcba7d"
+    },
+    {
+      "shot_id": "be17203f-f93a-4a28-9704-0d0783b29be2",
+      "condition": "standard",
+      "effort": "low",
+      "image": "images/rendering/standard/be17203f-f93a-4a28-9704-0d0783b29be2.png",
+      "image_sha256": "7f0e241068f6079d9ad6b4f2b3e04d5bfcd7548174b93d1ff94d4bd762450a87"
+    },
+    {
+      "shot_id": "095adc8d-612d-445a-9a9a-33100ece166c",
+      "condition": "outline",
+      "effort": "low",
+      "image": "images/rendering/outline/095adc8d-612d-445a-9a9a-33100ece166c.png",
+      "image_sha256": "09fdc1d4e5cc8a3f0f3572e2e4f6a328af32d57bdceb1356dffb2425ec3b6488"
+    },
+    {
+      "shot_id": "095adc8d-612d-445a-9a9a-33100ece166c",
+      "condition": "standard",
+      "effort": "low",
+      "image": "images/rendering/standard/095adc8d-612d-445a-9a9a-33100ece166c.png",
+      "image_sha256": "268d075b60409fbddddd2c91090d468d1507bf098932c0e5ded6a009f2d6f8e9"
+    },
+    {
+      "shot_id": "9747c65f-740c-42bb-87a9-a309a35acf08",
+      "condition": "outline",
+      "effort": "low",
+      "image": "images/rendering/outline/9747c65f-740c-42bb-87a9-a309a35acf08.png",
+      "image_sha256": "5435b03477d80975166093972ae4a1eab6a8c572e809b7578df51c24761fa940"
+    },
+    {
+      "shot_id": "9747c65f-740c-42bb-87a9-a309a35acf08",
+      "condition": "standard",
+      "effort": "low",
+      "image": "images/rendering/standard/9747c65f-740c-42bb-87a9-a309a35acf08.png",
+      "image_sha256": "231d3e458d6a5683331f247bc27ce172c5c411cea75fc35b520125767a41dd3f"
+    },
+    {
+      "shot_id": "547ca4c3-bd06-4274-a82b-98622617e165",
+      "condition": "standard",
+      "effort": "low",
+      "image": "images/rendering/standard/547ca4c3-bd06-4274-a82b-98622617e165.png",
+      "image_sha256": "edfa2cab11bbf48a8cd022c0a9732eb0f9cdce121c195927d745003c1a14aca4"
+    },
+    {
+      "shot_id": "547ca4c3-bd06-4274-a82b-98622617e165",
+      "condition": "outline",
+      "effort": "low",
+      "image": "images/rendering/outline/547ca4c3-bd06-4274-a82b-98622617e165.png",
+      "image_sha256": "571db5021777fc65ff8e333e54a25a7d0a759c745147ffebf418cd387e1e5ecd"
+    },
+    {
+      "shot_id": "9cc86132-6a78-440a-b926-2926ddd6946f",
+      "condition": "standard",
+      "effort": "low",
+      "image": "images/rendering/standard/9cc86132-6a78-440a-b926-2926ddd6946f.png",
+      "image_sha256": "6e184bd33fc0fbf52dabaad749358ce5801cd338fbc855fb8c47fe46e7e5f617"
+    },
+    {
+      "shot_id": "9cc86132-6a78-440a-b926-2926ddd6946f",
+      "condition": "outline",
+      "effort": "low",
+      "image": "images/rendering/outline/9cc86132-6a78-440a-b926-2926ddd6946f.png",
+      "image_sha256": "e94b789ab8cad45a9e079d9575a137e7c6905c44dcef5cc94c24e13638edc50a"
+    },
+    {
+      "shot_id": "9e674fd1-9541-42e1-921f-a8ccbed1d7c6",
+      "condition": "outline",
+      "effort": "low",
+      "image": "images/rendering/outline/9e674fd1-9541-42e1-921f-a8ccbed1d7c6.png",
+      "image_sha256": "074deb2db9be678894cc04b1e85af30a7ec3cbe522bd57276527f19e9e77b225"
+    },
+    {
+      "shot_id": "9e674fd1-9541-42e1-921f-a8ccbed1d7c6",
+      "condition": "standard",
+      "effort": "low",
+      "image": "images/rendering/standard/9e674fd1-9541-42e1-921f-a8ccbed1d7c6.png",
+      "image_sha256": "500c519109250bdef0ea54fbf1965d88f971e7c0eb1b027ca9754de1c449765b"
+    },
+    {
+      "shot_id": "b85a7aad-d825-414a-bc3b-836ff6fbff82",
+      "condition": "standard",
+      "effort": "low",
+      "image": "images/rendering/standard/b85a7aad-d825-414a-bc3b-836ff6fbff82.png",
+      "image_sha256": "ba1436ca6129bae7cc70f3d6c40c00bf8b67a9263ef9ed2337e72392eb34d661"
+    },
+    {
+      "shot_id": "b85a7aad-d825-414a-bc3b-836ff6fbff82",
+      "condition": "outline",
+      "effort": "low",
+      "image": "images/rendering/outline/b85a7aad-d825-414a-bc3b-836ff6fbff82.png",
+      "image_sha256": "43715d8d977b25dd8054b89816cf62b09fcb320423e3e4f1e8b9abf71e1d479b"
+    },
+    {
+      "shot_id": "0337c5e5-aaeb-4704-a6c6-35590a5cb9a0",
+      "condition": "outline",
+      "effort": "low",
+      "image": "images/rendering/outline/0337c5e5-aaeb-4704-a6c6-35590a5cb9a0.png",
+      "image_sha256": "3d44dfa399979a7e7489e806733bfdfc719066ab9598158f81714554dc077ecf"
+    },
+    {
+      "shot_id": "0337c5e5-aaeb-4704-a6c6-35590a5cb9a0",
+      "condition": "standard",
+      "effort": "low",
+      "image": "images/rendering/standard/0337c5e5-aaeb-4704-a6c6-35590a5cb9a0.png",
+      "image_sha256": "7429d0d2e071ca1ec9bd61ceafd1a1aaf63027c107cf783fbb710167d05c5e09"
+    },
+    {
+      "shot_id": "7dc143c8-2c30-4d5e-b227-682e509874b1",
+      "condition": "outline",
+      "effort": "low",
+      "image": "images/rendering/outline/7dc143c8-2c30-4d5e-b227-682e509874b1.png",
+      "image_sha256": "c43f0a50e2516f1040762a9e81fd23e433bd8fbccc3ae23916422b2bfd1f9d0a"
+    },
+    {
+      "shot_id": "7dc143c8-2c30-4d5e-b227-682e509874b1",
+      "condition": "standard",
+      "effort": "low",
+      "image": "images/rendering/standard/7dc143c8-2c30-4d5e-b227-682e509874b1.png",
+      "image_sha256": "80555ebf8dfbe22b74a7b79db8ea08f6f02da5b1735aee4e4ee6d5ce86d03cfe"
+    },
+    {
+      "shot_id": "73de072f-23cd-4f38-89be-fd209c58b659",
+      "condition": "standard",
+      "effort": "low",
+      "image": "images/rendering/standard/73de072f-23cd-4f38-89be-fd209c58b659.png",
+      "image_sha256": "6be2fa7b8162c14fe0f0ba35d679e978aa5ab6fb58ec44bd4549f4d4e4ec7e11"
+    },
+    {
+      "shot_id": "73de072f-23cd-4f38-89be-fd209c58b659",
+      "condition": "outline",
+      "effort": "low",
+      "image": "images/rendering/outline/73de072f-23cd-4f38-89be-fd209c58b659.png",
+      "image_sha256": "d8d46a7d028cfefc8c5b1d42114a52b5de3ad1752fa56ce102b869896c799356"
+    },
+    {
+      "shot_id": "2a275f0d-eb16-4923-9c98-b2e7f7fdf086",
+      "condition": "outline",
+      "effort": "low",
+      "image": "images/rendering/outline/2a275f0d-eb16-4923-9c98-b2e7f7fdf086.png",
+      "image_sha256": "08aa8e2f1439f472266592c0a63ed63778e86c3dddb1a9677e677af023e029f9"
+    },
+    {
+      "shot_id": "2a275f0d-eb16-4923-9c98-b2e7f7fdf086",
+      "condition": "standard",
+      "effort": "low",
+      "image": "images/rendering/standard/2a275f0d-eb16-4923-9c98-b2e7f7fdf086.png",
+      "image_sha256": "c3dfb1f99df07b0d067469c1108c235137b5985e39b57a9fc3559dc02bf69329"
+    },
+    {
+      "shot_id": "a54fab01-3f2e-4d5a-961f-16f3e8616662",
+      "condition": "standard",
+      "effort": "low",
+      "image": "images/rendering/standard/a54fab01-3f2e-4d5a-961f-16f3e8616662.png",
+      "image_sha256": "5bf27cf4b728b1e26a1ed394c6baa2866260646748503e6ec8df4675973c71ab"
+    },
+    {
+      "shot_id": "a54fab01-3f2e-4d5a-961f-16f3e8616662",
+      "condition": "outline",
+      "effort": "low",
+      "image": "images/rendering/outline/a54fab01-3f2e-4d5a-961f-16f3e8616662.png",
+      "image_sha256": "4919eb7d4b7d314ff8e591ec99b78d56db05e73a93c947431a23950ab833f6b6"
+    },
+    {
+      "shot_id": "733e5141-6b97-4010-8100-b926aa73c9bf",
+      "condition": "standard",
+      "effort": "low",
+      "image": "images/rendering/standard/733e5141-6b97-4010-8100-b926aa73c9bf.png",
+      "image_sha256": "8ca5e055f9de8fb5d528cf1076b0f7971a57470792d83fbeeb1c11b1f351e5cf"
+    },
+    {
+      "shot_id": "733e5141-6b97-4010-8100-b926aa73c9bf",
+      "condition": "outline",
+      "effort": "low",
+      "image": "images/rendering/outline/733e5141-6b97-4010-8100-b926aa73c9bf.png",
+      "image_sha256": "ec85b4c008e39a22c3e5d7f843d8d3fac15185300f89179258a97810328422f6"
+    },
+    {
+      "shot_id": "5783c86d-02e9-4d3c-89e8-0b1ea00d2aca",
+      "condition": "outline",
+      "effort": "low",
+      "image": "images/rendering/outline/5783c86d-02e9-4d3c-89e8-0b1ea00d2aca.png",
+      "image_sha256": "68d595545ef78539ec0360d5c42b8261ac291d88e79b2cc85e5382ba7ae65c57"
+    },
+    {
+      "shot_id": "5783c86d-02e9-4d3c-89e8-0b1ea00d2aca",
+      "condition": "standard",
+      "effort": "low",
+      "image": "images/rendering/standard/5783c86d-02e9-4d3c-89e8-0b1ea00d2aca.png",
+      "image_sha256": "ac1bc9983c0142bf22db0ba7ea5164b3293731468fcbab27b5b8ecaae3e4ebc0"
+    },
+    {
+      "shot_id": "1b7f0b8c-83a1-4f81-a6d2-469a14a2beda",
+      "condition": "standard",
+      "effort": "low",
+      "image": "images/rendering/standard/1b7f0b8c-83a1-4f81-a6d2-469a14a2beda.png",
+      "image_sha256": "faf4fd07841db9e99bbce6eab10cad5a1fc5bc60f0dd622bb2a01071ef060c03"
+    },
+    {
+      "shot_id": "1b7f0b8c-83a1-4f81-a6d2-469a14a2beda",
+      "condition": "outline",
+      "effort": "low",
+      "image": "images/rendering/outline/1b7f0b8c-83a1-4f81-a6d2-469a14a2beda.png",
+      "image_sha256": "79032c2bfb7c08364cfffff60285f256128b7a074342d7c8e734d901a8884970"
+    },
+    {
+      "shot_id": "ad8fa32c-3fea-4b86-a322-1177cd561c78",
+      "condition": "outline",
+      "effort": "low",
+      "image": "images/rendering/outline/ad8fa32c-3fea-4b86-a322-1177cd561c78.png",
+      "image_sha256": "ca40ad5340e0ebc0b1aa1da17a124b144c78ee0fa4fc86af13ca7e62fded8dc5"
+    },
+    {
+      "shot_id": "ad8fa32c-3fea-4b86-a322-1177cd561c78",
+      "condition": "standard",
+      "effort": "low",
+      "image": "images/rendering/standard/ad8fa32c-3fea-4b86-a322-1177cd561c78.png",
+      "image_sha256": "da786f62c15263d7809aae6999d1ffb0206fe3b741d8606c85be5b65f570534a"
+    },
+    {
+      "shot_id": "af44367b-ffb2-4595-bc0e-975f6abe7ca6",
+      "condition": "outline",
+      "effort": "low",
+      "image": "images/rendering/outline/af44367b-ffb2-4595-bc0e-975f6abe7ca6.png",
+      "image_sha256": "4524037b7d83dce940c5713b5fd960b75f6b30b6a9db6059431b3bfebb9369b8"
+    },
+    {
+      "shot_id": "af44367b-ffb2-4595-bc0e-975f6abe7ca6",
+      "condition": "standard",
+      "effort": "low",
+      "image": "images/rendering/standard/af44367b-ffb2-4595-bc0e-975f6abe7ca6.png",
+      "image_sha256": "49667c86f669ae831e6c685cb761f5208abf66f8abf177acd0f5229df6dfdd96"
+    },
+    {
+      "shot_id": "449f2702-ad18-4bc8-a9ef-59fb1dc1a707",
+      "condition": "standard",
+      "effort": "low",
+      "image": "images/rendering/standard/449f2702-ad18-4bc8-a9ef-59fb1dc1a707.png",
+      "image_sha256": "7681512a2fceb7098bba1f226c9efadbbe33d6862a997607f824621315c890e8"
+    },
+    {
+      "shot_id": "449f2702-ad18-4bc8-a9ef-59fb1dc1a707",
+      "condition": "outline",
+      "effort": "low",
+      "image": "images/rendering/outline/449f2702-ad18-4bc8-a9ef-59fb1dc1a707.png",
+      "image_sha256": "741f3ec2eae29a1878d7bc1ff9e27f8056ca8d1e73087103433af08d1fd15ec4"
+    },
+    {
+      "shot_id": "be726f9e-21ea-4db2-b188-92a93bf619c8",
+      "condition": "outline",
+      "effort": "low",
+      "image": "images/rendering/outline/be726f9e-21ea-4db2-b188-92a93bf619c8.png",
+      "image_sha256": "0965d5713803a86a9b2ec1e97a03a04a4fd7256ba59c36dfa3b7d0f9d806ec22"
+    },
+    {
+      "shot_id": "be726f9e-21ea-4db2-b188-92a93bf619c8",
+      "condition": "standard",
+      "effort": "low",
+      "image": "images/rendering/standard/be726f9e-21ea-4db2-b188-92a93bf619c8.png",
+      "image_sha256": "b2c0f3822f3aac06014073eaf7921b8fd2163577f9a80edadcdf1a6a5e7c494a"
+    },
+    {
+      "shot_id": "b660fbc5-1653-455b-98f7-9eefab7d3fea",
+      "condition": "outline",
+      "effort": "low",
+      "image": "images/rendering/outline/b660fbc5-1653-455b-98f7-9eefab7d3fea.png",
+      "image_sha256": "6cd9ac80ebea6c00022fdd722bd5413c26b8edb0d9cfefca3d16d4679c725341"
+    },
+    {
+      "shot_id": "b660fbc5-1653-455b-98f7-9eefab7d3fea",
+      "condition": "standard",
+      "effort": "low",
+      "image": "images/rendering/standard/b660fbc5-1653-455b-98f7-9eefab7d3fea.png",
+      "image_sha256": "d09976aae790839d9abc553acc82667c64d2837ea51385fe4ebab728eed510ca"
+    },
+    {
+      "shot_id": "ca8ff3c0-c049-435d-830a-3979bf1181e5",
+      "condition": "outline",
+      "effort": "low",
+      "image": "images/rendering/outline/ca8ff3c0-c049-435d-830a-3979bf1181e5.png",
+      "image_sha256": "b4ab89aafdc96fb1b628261d1b87f22eeaa4d297b9ce2ef7c473c361f176494f"
+    },
+    {
+      "shot_id": "ca8ff3c0-c049-435d-830a-3979bf1181e5",
+      "condition": "standard",
+      "effort": "low",
+      "image": "images/rendering/standard/ca8ff3c0-c049-435d-830a-3979bf1181e5.png",
+      "image_sha256": "bd89fa6e563bd500e09a373c37344e501990854a0c8615619226d5a433acb4aa"
+    },
+    {
+      "shot_id": "7c9f51b5-7c05-4ba0-ae27-d0c4639b0709",
+      "condition": "outline",
+      "effort": "low",
+      "image": "images/rendering/outline/7c9f51b5-7c05-4ba0-ae27-d0c4639b0709.png",
+      "image_sha256": "9bebb9e0a9c3ec2e341cf6f99a33af7943985a043a7029fb28905cd03382c3aa"
+    },
+    {
+      "shot_id": "7c9f51b5-7c05-4ba0-ae27-d0c4639b0709",
+      "condition": "standard",
+      "effort": "low",
+      "image": "images/rendering/standard/7c9f51b5-7c05-4ba0-ae27-d0c4639b0709.png",
+      "image_sha256": "356500d850a3cca339d3be5716a446423ec1a49d92e8514ae1af0b12cb3e75e3"
+    },
+    {
+      "shot_id": "6f976433-79ae-46c6-8442-5619a2616918",
+      "condition": "outline",
+      "effort": "low",
+      "image": "images/rendering/outline/6f976433-79ae-46c6-8442-5619a2616918.png",
+      "image_sha256": "f270891ab810ad2b8186d0976c30ddad7f1d9184f1da57b1c9e12d481031dec1"
+    },
+    {
+      "shot_id": "6f976433-79ae-46c6-8442-5619a2616918",
+      "condition": "standard",
+      "effort": "low",
+      "image": "images/rendering/standard/6f976433-79ae-46c6-8442-5619a2616918.png",
+      "image_sha256": "15741bf6d5e3d05838184a8abbcb4dae71ea360000a995af1e369bef61ebc473"
+    },
+    {
+      "shot_id": "6e8ce1fe-2cc7-499d-a137-df556d0ce758",
+      "condition": "outline",
+      "effort": "low",
+      "image": "images/rendering/outline/6e8ce1fe-2cc7-499d-a137-df556d0ce758.png",
+      "image_sha256": "bd3f0f3f23d1ef79696a9696bd0ba2a5fa0d5e269abf6c372d23d4edd4938e88"
+    },
+    {
+      "shot_id": "6e8ce1fe-2cc7-499d-a137-df556d0ce758",
+      "condition": "standard",
+      "effort": "low",
+      "image": "images/rendering/standard/6e8ce1fe-2cc7-499d-a137-df556d0ce758.png",
+      "image_sha256": "eb6299da0bbef43c9d72b1eee429069b893e5fa2c65f7e33376009e114accaac"
+    },
+    {
+      "shot_id": "ff1a53d0-f872-4616-8507-eff81ff4f55f",
+      "condition": "outline",
+      "effort": "low",
+      "image": "images/rendering/outline/ff1a53d0-f872-4616-8507-eff81ff4f55f.png",
+      "image_sha256": "eea1160faa6ec5ef0c640fd60588a67af6a7fbe0c70651e7836803fb630226b7"
+    },
+    {
+      "shot_id": "ff1a53d0-f872-4616-8507-eff81ff4f55f",
+      "condition": "standard",
+      "effort": "low",
+      "image": "images/rendering/standard/ff1a53d0-f872-4616-8507-eff81ff4f55f.png",
+      "image_sha256": "4f432576d4bba6f8ad2f7df98cbe10dea176e824ada66187045fed470c2149e4"
+    },
+    {
+      "shot_id": "af3d2269-1129-429d-8148-0d590c3da45a",
+      "condition": "outline",
+      "effort": "low",
+      "image": "images/rendering/outline/af3d2269-1129-429d-8148-0d590c3da45a.png",
+      "image_sha256": "fb5ffb57102b2a32ccb7c1855821beeb466bae1704a7c14019a3e729c8207339"
+    },
+    {
+      "shot_id": "af3d2269-1129-429d-8148-0d590c3da45a",
+      "condition": "standard",
+      "effort": "low",
+      "image": "images/rendering/standard/af3d2269-1129-429d-8148-0d590c3da45a.png",
+      "image_sha256": "f718264586f63da76bed2baf21239f20bb073c9bf8936eed76e0374929204cb5"
+    },
+    {
+      "shot_id": "9e5a1e2d-6c0e-4e11-b710-ccfd5ac90ee9",
+      "condition": "standard",
+      "effort": "low",
+      "image": "images/rendering/standard/9e5a1e2d-6c0e-4e11-b710-ccfd5ac90ee9.png",
+      "image_sha256": "031fecf6c2668adbe0fac71716d2a9b24c0c7c97395a12a4bea4c09a51a67013"
+    },
+    {
+      "shot_id": "9e5a1e2d-6c0e-4e11-b710-ccfd5ac90ee9",
+      "condition": "outline",
+      "effort": "low",
+      "image": "images/rendering/outline/9e5a1e2d-6c0e-4e11-b710-ccfd5ac90ee9.png",
+      "image_sha256": "7087ca29cf16e206b4f6f392b70dad90938efcf1e6265af991fe2d7afdc0b998"
+    },
+    {
+      "shot_id": "d87edf8c-6487-45f5-b61b-01a8501ffbe3",
+      "condition": "standard",
+      "effort": "low",
+      "image": "images/rendering/standard/d87edf8c-6487-45f5-b61b-01a8501ffbe3.png",
+      "image_sha256": "e6d9439ae776efb6c639dc9c2cba0e03fe0c68a1377fcb63c12643b13b81e4c5"
+    },
+    {
+      "shot_id": "d87edf8c-6487-45f5-b61b-01a8501ffbe3",
+      "condition": "outline",
+      "effort": "low",
+      "image": "images/rendering/outline/d87edf8c-6487-45f5-b61b-01a8501ffbe3.png",
+      "image_sha256": "526398e85bd975451822ea22e5f750fe400e0256ab39f62e5ef642c115c57dfb"
+    }
+  ],
+  "metadata": {
+    "effort": "low",
+    "selection_sha256": "b49add6fd0fef733b85f02960d643017031264d6a0888657e33d49ea27155214",
+    "selection": "40 original World Cup development shots excluding pilot, selected without outcomes or prior errors",
+    "change": "Hollow dark-gold shooter star; same size and center, same pitch and every other marker. No shift, count annotation or numerical answers.",
+    "primary": "outline minus standard Brier, exploratory whole-match 95% interval; independent AFCON confirmation determines whether any selected gain generalizes."
+  },
+  "common_protocol_sha256": "352742c1fcf5afac503f466dd396f4d3c020e8377e119d8c134b93846e6ffe5f",
+  "engine_sha256": "3508dde508c8267ff49cfe9f316cd912b7a0eb5c51f7a87f5ab8455ea7ebef7b",
+  "runner_sha256": "02717bf02d122d6f798ebe0fa600ee0a5ad5b392b92661e55c4063803f699fab"
+}

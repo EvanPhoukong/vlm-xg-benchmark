@@ -1,0 +1,38 @@
+{
+  "model": "claude-opus-5-5",
+  "id": "msg_011CgzaR2HxUmdHTTArjT9d2",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "thinking",
+      "thinking": "",
+      "signature": "CAQS8gYKEAgTGAI4AUIIdGhpbmtpbmcSDAOcozkhLET8c5wCJhoMmus2jZYU0YYcd4sCIjDwk9L8DMX+WnH/3dG6zJgxCVhJJHx6lNTcXp+u5HW1wSpdnhdhBsV1sdDipWX7UisqjwYmwIDLMvDBb5w2lym20z2MYJWJkIVZ05bq6IfZkTFCqBKP9PPF5flVU0JDShvkSlYHc9q6Bbq3eeIyJDnehIJ1LxoZ/7qtQJBRO4WMsUjUEEnd0kA7X/ZkM5R09wj6yG3n3BziGyW6NTTcTyg7zV/8B0ubVokAOQFujngm3VIxjbxTo6K75X0LCCh3K4yB9KAJj6amsadc4dIgXFP5e7I//ogaM7DSmLMd0z5a+6wrRRT83CNtE/s7bsD6Nq9pDEOL1i678Wg8iNx8UmighHvlK6YtLsue+aNU51l39z+0CkAX8YibMzlu0WAnUSZZd0gffQVaGu8eSVzmkUgmxykKEliC3sGvzx0Zy+HgFLUe//JocB0SaXli8JUICJisQ46yXfyI13MD3Z/xIQH6JKlvCcQcAIyR6eBMgsOz2GvYunaXneDYPLr6pIbSQ6bQb9fdWwWYpB+TpXkiImHTm+RGszdcWJlAsw+uByZiV/0e1bhjoqOorn3YcioNjdI8Dr5VDLGOcwaGWl8yFKBNLdSheimnMDRZJhfNt/x09VGJoi6ixQvc182H3f32g7sKTlVp0kH1oWfIoeeP2dxy4xrgf4VLH/cMcxWQke/+3LIW1LmFpTawEAY/11tKccc2EyXBQt+Kpjatb+z07sTX78iK+qbMq+ob2BCyf6ntTX0TBdJpJCVdE3QDzy7AICxSd7wf4z6viPmAYAG7EkjR7kKOkjOZ5eY0qy91OdqXQ/jluxv3qM8yDzYDc8otj33f7RSd5N7xqH61E4TUSlt0WQOIjqEW/SWdcwBbfecUQRmRVz0ZtpxUKDRZmsQ4o/oQvoh+VsRtgsqRnQ61+Z69Y+VVrPq4t05dZlN/e0WYQ4HE2UZtlc2m1rmHECHCoQDrSn/IIXgg8RDhgrz/ZsPpIkqdiu6NvtO0VXTCE5XiB0BUw67mzcL2dUiBSqoGhgvO6x6zfS5L7r8OA5x95auu/ZjYRe/k7XKtbVtjkB5YU9TrJXn3TeTEBpEzImSIdptjk25ZT4avrXwpXrl/YcNDfl4YAQ=="
+    },
+    {
+      "type": "text",
+      "text": "{\"xg\": 0.05, \"reason\": \"The shot appears to come from distance toward the left goal, with several defenders crowding the penalty area, so the scoring chance is low.\"}"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 951,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 153,
+    "output_tokens_details": {
+      "thinking_tokens": 94
+    },
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,98 @@
+{
+  "authorized": "User requested autonomous direct visual xG experiments, other models allowed, $10 limits; 29 October 2026 America/Los_Angeles.",
+  "scope": "Image + generic fixed instructions -> VLM -> raw xG. No calibration, probability head, baseline fusion, numeric query answers, examples, tools, fine tuning or averaging.",
+  "arms": {
+    "luna_original": {
+      "model": "gpt-6-luna",
+      "effort": "low",
+      "prompt": "original"
+    },
+    "luna_uncertainty": {
+      "model": "gpt-6-luna",
+      "effort": "low",
+      "prompt": "uncertainty"
+    },
+    "terra_original": {
+      "model": "gpt-6.1-terra",
+      "effort": "medium",
+      "prompt": "original"
+    },
+    "terra_uncertainty": {
+      "model": "gpt-6.1-terra",
+      "effort": "medium",
+      "prompt": "uncertainty"
+    },
+    "sol_original": {
+      "model": "gpt-6.1-sol",
+      "effort": "low",
+      "prompt": "original"
+    }
+  },
+  "prompts": {
+    "original": "You are a professional football (soccer) analyst.\nThe image shows a shot at the moment it is taken, drawn on a half pitch with the goal at the top.\nGold star = shooter. Blue circles = shooter's teammates. Red circles = opponents.\nOrange square = opposing goalkeeper.\nEstimate the probability that this shot results in a goal (expected goals, xG),\nassuming an average professional finisher.\nReply with JSON only: {\"xg\": <number between 0 and 1>, \"reason\": \"<one short sentence>\"}",
+    "uncertainty": "Before estimating, inspect the shooter's position, the visible opening between the\nposts, the goalkeeper's position and reach, and opponents between shooter and goal.\nThis diagram contains positions only. Body part, ball height, ball speed, balance,\nand the preceding action are unobserved. Account for that missing information in\nthe probability: average over plausible executions compatible with the scene,\ninstead of assuming an ideal grounded shot or inventing a header or a pass.\nDo not infer the outcome from the diagram. Return your own direct estimate.\n\nYou are a professional football (soccer) analyst.\nThe image shows a shot at the moment it is taken, drawn on a half pitch with the goal at the top.\nGold star = shooter. Blue circles = shooter's teammates. Red circles = opponents.\nOrange square = opposing goalkeeper.\nEstimate the probability that this shot results in a goal (expected goals, xG),\nassuming an average professional finisher.\nReply with JSON only: {\"xg\": <number between 0 and 1>, \"reason\": \"<one short sentence>\"}"
+  },
+  "schema": {
+    "type": "object",
+    "properties": {
+      "xg": {
+        "type": "number",
+        "minimum": 0,
+        "maximum": 1
+      },
+      "reason": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "xg",
+      "reason"
+    ],
+    "additionalProperties": false
+  },
+  "max_output_tokens": 4096,
+  "image_detail": "high",
+  "service_tier": "default",
+  "new_combined_cap_usd": 3.0,
+  "attempt_cap": 650,
+  "concurrency": 3,
+  "automatic_retries": 0,
+  "prices_per_million": {
+    "gpt-6-luna": [
+      0.1,
+      0.01,
+      0.5
+    ],
+    "gpt-6.1-terra": [
+      1.0,
+      0.05,
+      5.0
+    ],
+    "gpt-6.1-sol": [
+      2.0,
+      0.1,
+      10.0
+    ]
+  },
+  "conservative_input_multiplier": 1.25,
+  "pricing_sources": [
+    "https://developers.openai.com/api/docs/models/gpt-6-luna",
+    "https://developers.openai.com/api/docs/models/gpt-6.1-terra",
+    "https://developers.openai.com/api/docs/models/gpt-6.1-sol"
+  ],
+  "providers": {
+    "openai": "saved credential available",
+    "anthropic": "not configured; no calls",
+    "gemini": "not configured; no calls"
+  },
+  "budget": "New round capped at $3 combined. Prior direct campaign conservative estimate $0.1049749. Other older records/account activity not fully bill-reconciled; no verified account-balance claim.",
+  "screen": "50 previously used AFCON development shots, identical saved image bytes. New paired controls. All 5 arms fixed before inference. Reused development, not untouched validation.",
+  "novelty": "New Terra/Sol models and explicit missing-information marginalization, without numeric anchors. Prior effort, marker, grid/zoom, geometry-first and examples remain historical.",
+  "selection": "After complete fixed screen, select minimum raw Brier among all 5 arms; ties in listed order. Original Luna may win. No significance claim from selection data.",
+  "confirmation": "200 natural-sample non-penalty freeze-frame shots from 40 outcome-blind randomly selected unused La Liga 2015/16 match groups. Compare winner against newly called original Luna and frozen 4-feature logistic. Separate StatsBomb/no-header logistic references.",
+  "primary": "Winner minus 4-feature logistic and winner minus original Luna Brier. Two 97.5% whole-match bootstrap intervals. Crossing zero does not prove equivalence. No test-set tuning/extensions.",
+  "success": "Independent evidence must support any accuracy claim. Report AUC/log loss, bias, failures and cost even if negative; no commitment to a preferred conclusion.",
+  "stop": "Stop dispatch on uncertain charge, invalid/incomplete output, wrong model, exhausted credit or cap. Save in-flight calls. No replacement shots or partial success claims.",
+  "engine_sha256": "15ff846b26babc4b854237df440fcd74a999c3586e113aa3ddd4ac699413f006",
+  "original_source_sha256": "a1f05c14580d120bdca7036888d0eef0ec55b03fa577349c5c891cddb331c6c5"
+}

@@ -1,0 +1,362 @@
+{
+  "primary": {
+    "model": "gpt-6.2-sol",
+    "selected_examples": 64,
+    "shots": 200,
+    "matches": 48,
+    "goals": 28,
+    "metrics": {
+      "icl64": {
+        "n": 200,
+        "goals": 28,
+        "goal_rate": 0.14,
+        "brier": 0.10386999,
+        "logloss": 0.34849300648817505,
+        "auc": 0.7731519933554817,
+        "mean_xg": 0.10417000000000001,
+        "mean_bias": -0.03583
+      },
+      "shuffled64": {
+        "n": 200,
+        "goals": 28,
+        "goal_rate": 0.14,
+        "brier": 0.106252785,
+        "logloss": 0.35926167668828524,
+        "auc": 0.7501038205980066,
+        "mean_xg": 0.10207500000000001,
+        "mean_bias": -0.037925
+      },
+      "zero": {
+        "n": 200,
+        "goals": 28,
+        "goal_rate": 0.14,
+        "brier": 0.105254385,
+        "logloss": 0.35673362368283734,
+        "auc": 0.74968853820598,
+        "mean_xg": 0.140895,
+        "mean_bias": 0.0008950000000000058
+      },
+      "logistic_image": {
+        "n": 200,
+        "goals": 28,
+        "goal_rate": 0.14,
+        "brier": 0.10653674239867918,
+        "logloss": 0.3746005548708166,
+        "auc": 0.7236295681063123,
+        "mean_xg": 0.1058987149672458,
+        "mean_bias": -0.034101285032754204
+      },
+      "logistic_header": {
+        "n": 200,
+        "goals": 28,
+        "goal_rate": 0.14,
+        "brier": 0.10493561680464962,
+        "logloss": 0.36778730742685745,
+        "auc": 0.7252906976744186,
+        "mean_xg": 0.11035537469902304,
+        "mean_bias": -0.029644625300976984
+      },
+      "training_constant": {
+        "n": 200,
+        "goals": 28,
+        "goal_rate": 0.14,
+        "brier": 0.12285024999999998,
+        "logloss": 0.4179166016392817,
+        "auc": 0.5,
+        "mean_xg": 0.09050000000000001,
+        "mean_bias": -0.049499999999999975
+      },
+      "statsbomb": {
+        "n": 200,
+        "goals": 28,
+        "goal_rate": 0.14,
+        "brier": 0.09649220726584894,
+        "logloss": 0.3276918448284532,
+        "auc": 0.8021179401993356,
+        "mean_xg": 0.11246469957800001,
+        "mean_bias": -0.027535300422
+      }
+    },
+    "primary": {
+      "icl64_minus_zero": {
+        "difference": -0.0013843949999999983,
+        "confidence": 0.975,
+        "interval": [
+          -0.00913375823290618,
+          0.006317817099905178
+        ],
+        "matches": 48
+      },
+      "icl64_minus_shuffled64": {
+        "difference": -0.002382794999999999,
+        "confidence": 0.975,
+        "interval": [
+          -0.006499765591366004,
+          0.0008631099883976067
+        ],
+        "matches": 48
+      }
+    },
+    "development": {
+      "icl32": {
+        "n": 40,
+        "goals": 2,
+        "goal_rate": 0.05,
+        "brier": 0.076659825,
+        "logloss": 0.299570475711775,
+        "auc": 0.29605263157894735,
+        "mean_xg": 0.13027499999999997,
+        "mean_bias": 0.08027499999999999
+      },
+      "icl64": {
+        "n": 40,
+        "goals": 2,
+        "goal_rate": 0.05,
+        "brier": 0.0653875,
+        "logloss": 0.27445415035596976,
+        "auc": 0.2894736842105263,
+        "mean_xg": 0.10925,
+        "mean_bias": 0.059250000000000004
+      },
+      "icl8": {
+        "n": 40,
+        "goals": 2,
+        "goal_rate": 0.05,
+        "brier": 0.08210437500000001,
+        "logloss": 0.31376788682210643,
+        "auc": 0.3026315789473684,
+        "mean_xg": 0.14747500000000002,
+        "mean_bias": 0.097475
+      },
+      "shuffled64": {
+        "n": 40,
+        "goals": 2,
+        "goal_rate": 0.05,
+        "brier": 0.06399122499999998,
+        "logloss": 0.2725868087976294,
+        "auc": 0.25,
+        "mean_xg": 0.105075,
+        "mean_bias": 0.055075000000000006
+      },
+      "zero": {
+        "n": 40,
+        "goals": 2,
+        "goal_rate": 0.05,
+        "brier": 0.08713562500000001,
+        "logloss": 0.32656977429204376,
+        "auc": 0.3026315789473684,
+        "mean_xg": 0.15212499999999998,
+        "mean_bias": 0.10212499999999998
+      }
+    },
+    "new_calls": 800,
+    "estimated_usd": 4.46579,
+    "conservative_usd": 5.49503,
+    "cap_usd": 10.0,
+    "failures": 0
+  },
+  "teacher": {
+    "shots": 100,
+    "matches": 44,
+    "goals": 10,
+    "examples": 64,
+    "metrics": {
+      "zero": {
+        "n": 100,
+        "goals": 10,
+        "goal_rate": 0.1,
+        "brier": 0.09386043999999996,
+        "logloss": 0.3182604179940017,
+        "auc": 0.7166666666666667,
+        "mean_xg": 0.14906000000000003,
+        "mean_bias": 0.049060000000000006
+      },
+      "teacher64": {
+        "n": 100,
+        "goals": 10,
+        "goal_rate": 0.1,
+        "brier": 0.08154164,
+        "logloss": 0.28638974946934687,
+        "auc": 0.7477777777777778,
+        "mean_xg": 0.1194,
+        "mean_bias": 0.01940000000000001
+      },
+      "shuffled_teacher64": {
+        "n": 100,
+        "goals": 10,
+        "goal_rate": 0.1,
+        "brier": 0.08260674,
+        "logloss": 0.29332300477456363,
+        "auc": 0.7305555555555555,
+        "mean_xg": 0.11796000000000001,
+        "mean_bias": 0.01796000000000001
+      },
+      "logistic_image": {
+        "n": 100,
+        "goals": 10,
+        "goal_rate": 0.1,
+        "brier": 0.0847077789992052,
+        "logloss": 0.299714800763816,
+        "auc": 0.7188888888888889,
+        "mean_xg": 0.11155894320818574,
+        "mean_bias": 0.011558943208185726
+      },
+      "logistic_header": {
+        "n": 100,
+        "goals": 10,
+        "goal_rate": 0.1,
+        "brier": 0.08419413117444396,
+        "logloss": 0.2980507840034528,
+        "auc": 0.7233333333333334,
+        "mean_xg": 0.1182573137947485,
+        "mean_bias": 0.01825731379474849
+      },
+      "statsbomb": {
+        "n": 100,
+        "goals": 10,
+        "goal_rate": 0.1,
+        "brier": 0.072881527482725,
+        "logloss": 0.26729983601548335,
+        "auc": 0.7811111111111111,
+        "mean_xg": 0.11635650909600001,
+        "mean_bias": 0.01635650909600001
+      }
+    },
+    "primary": {
+      "teacher64_minus_zero": {
+        "difference": -0.012318799999999998,
+        "confidence": 0.975,
+        "interval": [
+          -0.02278209055070482,
+          -0.0038252993179880633
+        ],
+        "matches": 44
+      },
+      "teacher64_minus_shuffled_teacher64": {
+        "difference": -0.0010651000000000048,
+        "confidence": 0.975,
+        "interval": [
+          -0.005421870547385632,
+          0.002817385253139716
+        ],
+        "matches": 44
+      }
+    },
+    "new_calls": 300,
+    "new_estimated_usd": 1.72742,
+    "new_conservative_usd": 2.12712,
+    "combined_estimated_usd": 6.1932100000000005,
+    "combined_conservative_usd": 7.6221499999999995
+  },
+  "combined_primary_contrasts_98_75pct": {
+    "outcome64_minus_zero": {
+      "difference": -0.0013843949999999983,
+      "confidence": 0.9875,
+      "interval": [
+        -0.010022898644120063,
+        0.007430190690032239
+      ],
+      "matches": 48
+    },
+    "outcome64_minus_shuffled64": {
+      "difference": -0.002382794999999999,
+      "confidence": 0.9875,
+      "interval": [
+        -0.007080111844858082,
+        0.001208981405821514
+      ],
+      "matches": 48
+    },
+    "teacher64_minus_zero": {
+      "difference": -0.012318799999999998,
+      "confidence": 0.9875,
+      "interval": [
+        -0.02441696520526863,
+        -0.003203308737244891
+      ],
+      "matches": 44
+    },
+    "teacher64_minus_shuffled_teacher64": {
+      "difference": -0.0010651000000000048,
+      "confidence": 0.9875,
+      "interval": [
+        -0.005887261039378873,
+        0.0033425726378108703
+      ],
+      "matches": 44
+    }
+  },
+  "outcome_conclusion": "Outcome-labelled examples did not establish improved Brier over zero-shot predictions. A lower point estimate alone is insufficient evidence of a reliable benefit.",
+  "teacher_conclusion": "Teacher-labelled examples improved Brier versus zero-shot predictions, but did not establish an advantage over shuffled teacher labels. The result does not isolate learning from the correct image\u2013probability pairing.",
+  "combined_new_calls": 1100,
+  "combined_estimated_usd": 6.1932100000000005,
+  "combined_conservative_usd": 7.6221499999999995,
+  "audits": {
+    "primary": {
+      "passed": true,
+      "checks": [
+        "experiment code frozen",
+        "runner code frozen",
+        "source selection frozen",
+        "source protocol frozen",
+        "pages.json frozen",
+        "examples/manifest.json frozen",
+        "development/selection.json frozen",
+        "test_pool.json frozen",
+        "all match sets disjoint",
+        "unique shots across example and evaluation groups",
+        "examples training only",
+        "development validation only",
+        "confirmation test only",
+        "shuffled64 preserves positive count",
+        "shuffled64 changes associations",
+        "correct and shuffled example geometry identical",
+        "confirmation remains frozen pool prefix",
+        "development schedule frozen",
+        "development complete without replacement",
+        "development all request hashes,images,responses,usage,costs verified",
+        "confirmation schedule frozen",
+        "confirmation complete without replacement",
+        "confirmation all request hashes,images,responses,usage,costs verified",
+        "combined cap respected",
+        "no uncertain requests",
+        "image_features excludes development and confirmation matches",
+        "plus_header excludes development and confirmation matches",
+        "reported costs reconcile",
+        "reported ICL Brier recomputes",
+        "generation lock released"
+      ],
+      "check_count": 30,
+      "requests_verified": 800,
+      "estimated_usd": 4.465789999999998,
+      "conservative_usd": 5.495029999999998
+    },
+    "teacher": {
+      "passed": true,
+      "checks": [
+        "parent ledger unchanged",
+        "parent protocol unchanged",
+        "pages.json frozen",
+        "examples/manifest.json frozen",
+        "pool.json frozen",
+        "declaration.json frozen",
+        "teacher Python frozen",
+        "teacher runner frozen",
+        "labels from training StatsBomb reference only",
+        "shuffled teacher distribution preserved",
+        "shuffled teacher associations changed",
+        "query and example matches disjoint",
+        "same original held-out prefix",
+        "fixed secondary schedule",
+        "all secondary calls completed",
+        "teacher controls change captions only",
+        "every secondary request hash,response,image and cost verified",
+        "combined spending within $10",
+        "secondary lock released"
+      ],
+      "check_count": 19,
+      "secondary_requests_verified": 300,
+      "combined_conservative_usd": 7.6221499999999995
+    }
+  }
+}

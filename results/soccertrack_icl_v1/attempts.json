@@ -1,0 +1,3944 @@
+[
+  {
+    "stage": "evaluation",
+    "job": {
+      "shot_id": "118577_1_24546",
+      "match_id": "118577",
+      "image": "results/soccertrack_extensive_v1/frames/118577_1_24546.png",
+      "sha256": "d3eb19e76c65bddd3de138acec175568a8c7a599ab793b241b1853036e5e1081",
+      "arm": "teacher16"
+    },
+    "state": "completed",
+    "request_sha256": "9af6af2b4e6d927daffe77c3eedccdb5e98f6e0e1935e6a0783b790c47f31b37",
+    "input_bound": 7915,
+    "reserved_usd": 0.0300275,
+    "started_utc": "2026-11-20T05:21:48.889Z",
+    "response_file": "evaluation/responses/118577_1_24546_teacher16.json",
+    "usage": {
+      "input_tokens": 6891,
+      "input_tokens_details": {
+        "cache_write_tokens": 6888,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 6888
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 41,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 6932
+    },
+    "answer": {
+      "xg": 0.09,
+      "reason": "The shot appears to come from near the edge of the box, with several defenders between the shooter and goal."
+    },
+    "returned_model": "gpt-6.2-sol",
+    "estimated_usd": 0.014192,
+    "conservative_usd": 0.0176375,
+    "completed_utc": "2026-11-20T05:21:55.585Z"
+  },
+  {
+    "stage": "evaluation",
+    "job": {
+      "shot_id": "118577_1_24546",
+      "match_id": "118577",
+      "image": "results/soccertrack_extensive_v1/frames/118577_1_24546.png",
+      "sha256": "d3eb19e76c65bddd3de138acec175568a8c7a599ab793b241b1853036e5e1081",
+      "arm": "shuffled_outcome16"
+    },
+    "state": "completed",
+    "request_sha256": "8eeb318d2151814ba1a8f1d4a1f090619a28555abbbd61484d335430e87cc44d",
+    "input_bound": 7926,
+    "reserved_usd": 0.030055,
+    "started_utc": "2026-11-20T05:21:49.203Z",
+    "response_file": "evaluation/responses/118577_1_24546_shuffled_outcome16.json",
+    "usage": {
+      "input_tokens": 6902,
+      "input_tokens_details": {
+        "cache_write_tokens": 6899,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 6899
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 41,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 6943
+    },
+    "answer": {
+      "xg": 0.09,
+      "reason": "The shot appears to come from near the edge of the box, with several defenders between the shooter and goal."
+    },
+    "returned_model": "gpt-6.2-sol",
+    "estimated_usd": 0.014214,
+    "conservative_usd": 0.017665,
+    "completed_utc": "2026-11-20T05:21:55.618Z"
+  },
+  {
+    "stage": "evaluation",
+    "job": {
+      "shot_id": "118577_1_24546",
+      "match_id": "118577",
+      "image": "results/soccertrack_extensive_v1/frames/118577_1_24546.png",
+      "sha256": "d3eb19e76c65bddd3de138acec175568a8c7a599ab793b241b1853036e5e1081",
+      "arm": "outcome8"
+    },
+    "state": "completed",
+    "request_sha256": "a57f8cd6cd8b69ac0e99408678e25355ce4b294519f508f46f593bd0ac41f832",
+    "input_bound": 4988,
+    "reserved_usd": 0.02271,
+    "started_utc": "2026-11-20T05:21:48.257Z",
+    "response_file": "evaluation/responses/118577_1_24546_outcome8.json",
+    "usage": {
+      "input_tokens": 3964,
+      "input_tokens_details": {
+        "cache_write_tokens": 3961,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3961
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 41,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 4005
+    },
+    "answer": {
+      "xg": 0.08,
+      "reason": "The shot appears to come from near the edge of the box, with several defenders between the shooter and goal."
+    },
+    "returned_model": "gpt-6.2-sol",
+    "estimated_usd": 0.008338,
+    "conservative_usd": 0.01032,
+    "completed_utc": "2026-11-20T05:21:54.157Z"
+  },
+  {
+    "stage": "evaluation",
+    "job": {
+      "shot_id": "118577_1_24546",
+      "match_id": "118577",
+      "image": "results/soccertrack_extensive_v1/frames/118577_1_24546.png",
+      "sha256": "d3eb19e76c65bddd3de138acec175568a8c7a599ab793b241b1853036e5e1081",
+      "arm": "zero"
+    },
+    "state": "completed",
+    "request_sha256": "67abe812c5d984d2ff8de257d003f2a970b0d008ab41de72feb5f0378483fa96",
+    "input_bound": 1904,
+    "reserved_usd": 0.015,
+    "started_utc": "2026-11-20T05:21:47.076Z",
+    "response_file": "evaluation/responses/118577_1_24546_zero.json",
+    "usage": {
+      "input_tokens": 880,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 0
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 40,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 920
+    },
+    "answer": {
+      "xg": 0.07,
+      "reason": "The shot appears to come from around the edge of the box with several defenders between the shooter and goal."
+    },
+    "returned_model": "gpt-6.2-sol",
+    "estimated_usd": 0.00216,
+    "conservative_usd": 0.0026,
+    "completed_utc": "2026-11-20T05:21:54.040Z"
+  },
+  {
+    "stage": "evaluation",
+    "job": {
+      "shot_id": "118577_1_24546",
+      "match_id": "118577",
+      "image": "results/soccertrack_extensive_v1/frames/118577_1_24546.png",
+      "sha256": "d3eb19e76c65bddd3de138acec175568a8c7a599ab793b241b1853036e5e1081",
+      "arm": "outcome16"
+    },
+    "state": "completed",
+    "request_sha256": "03f1ede6ddec19f22f0ad9c051f7a07aeb4fe9ea990f3fe0f14d5ecff9a15bd5",
+    "input_bound": 7926,
+    "reserved_usd": 0.030055,
+    "started_utc": "2026-11-20T05:21:48.862Z",
+    "response_file": "evaluation/responses/118577_1_24546_outcome16.json",
+    "usage": {
+      "input_tokens": 6902,
+      "input_tokens_details": {
+        "cache_write_tokens": 6899,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 6899
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 43,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 6945
+    },
+    "answer": {
+      "xg": 0.09,
+      "reason": "The shot appears to come from near the edge of a crowded penalty area, with several defenders between the shooter and goal."
+    },
+    "returned_model": "gpt-6.2-sol",
+    "estimated_usd": 0.014234,
+    "conservative_usd": 0.017685,
+    "completed_utc": "2026-11-20T05:21:55.327Z"
+  },
+  {
+    "stage": "evaluation",
+    "job": {
+      "shot_id": "118577_1_24546",
+      "match_id": "118577",
+      "image": "results/soccertrack_extensive_v1/frames/118577_1_24546.png",
+      "sha256": "d3eb19e76c65bddd3de138acec175568a8c7a599ab793b241b1853036e5e1081",
+      "arm": "shuffled_teacher16"
+    },
+    "state": "completed",
+    "request_sha256": "f5268cd157ad2de2d470de13b0a594e93427624b533727e1d11475111e0dcf47",
+    "input_bound": 7915,
+    "reserved_usd": 0.0300275,
+    "started_utc": "2026-11-20T05:21:49.054Z",
+    "response_file": "evaluation/responses/118577_1_24546_shuffled_teacher16.json",
+    "usage": {
+      "input_tokens": 6891,
+      "input_tokens_details": {
+        "cache_write_tokens": 6888,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 6888
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 41,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 6932
+    },
+    "answer": {
+      "xg": 0.086,
+      "reason": "The shot appears to come from around the edge of the box, with several defenders between the shooter and goal."
+    },
+    "returned_model": "gpt-6.2-sol",
+    "estimated_usd": 0.014192,
+    "conservative_usd": 0.0176375,
+    "completed_utc": "2026-11-20T05:21:55.496Z"
+  },
+  {
+    "stage": "evaluation",
+    "job": {
+      "shot_id": "128057_2_32022",
+      "match_id": "128057",
+      "image": "results/soccertrack_sol_v1/frames/128057_2_32022.png",
+      "sha256": "cb9547013d9d1bc4b9da0f852f0b701dab5d4328ebf6b65f2f72727f9f953295",
+      "arm": "teacher16"
+    },
+    "state": "completed",
+    "request_sha256": "8bd7662e3cd0b2ad4f34f94288ee35433ed0e4325ecdf9f51723c434a075f171",
+    "input_bound": 7915,
+    "reserved_usd": 0.0300275,
+    "started_utc": "2026-11-20T05:22:08.985Z",
+    "response_file": "evaluation/responses/128057_2_32022_teacher16.json",
+    "usage": {
+      "input_tokens": 6891,
+      "input_tokens_details": {
+        "cache_write_tokens": 6888,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 6888
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 41,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 6932
+    },
+    "answer": {
+      "xg": 0.11,
+      "reason": "The shot appears to come from around the edge of the box, with defenders nearby and the goalkeeper in position."
+    },
+    "returned_model": "gpt-6.2-sol",
+    "estimated_usd": 0.014192,
+    "conservative_usd": 0.0176375,
+    "completed_utc": "2026-11-20T05:22:15.155Z"
+  },
+  {
+    "stage": "evaluation",
+    "job": {
+      "shot_id": "128057_2_32022",
+      "match_id": "128057",
+      "image": "results/soccertrack_sol_v1/frames/128057_2_32022.png",
+      "sha256": "cb9547013d9d1bc4b9da0f852f0b701dab5d4328ebf6b65f2f72727f9f953295",
+      "arm": "outcome8"
+    },
+    "state": "completed",
+    "request_sha256": "18a78b40921a4e846942a8396b7f07838e5ed6e68718a807eb937925497cbea8",
+    "input_bound": 4988,
+    "reserved_usd": 0.02271,
+    "started_utc": "2026-11-20T05:22:07.384Z",
+    "response_file": "evaluation/responses/128057_2_32022_outcome8.json",
+    "usage": {
+      "input_tokens": 3964,
+      "input_tokens_details": {
+        "cache_write_tokens": 3961,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3961
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 41,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 4005
+    },
+    "answer": {
+      "xg": 0.14,
+      "reason": "The shot appears to come from near the edge of the box, with defenders nearby and the goalkeeper in position."
+    },
+    "returned_model": "gpt-6.2-sol",
+    "estimated_usd": 0.008338,
+    "conservative_usd": 0.01032,
+    "completed_utc": "2026-11-20T05:22:14.275Z"
+  },
+  {
+    "stage": "evaluation",
+    "job": {
+      "shot_id": "128057_2_32022",
+      "match_id": "128057",
+      "image": "results/soccertrack_sol_v1/frames/128057_2_32022.png",
+      "sha256": "cb9547013d9d1bc4b9da0f852f0b701dab5d4328ebf6b65f2f72727f9f953295",
+      "arm": "zero"
+    },
+    "state": "completed",
+    "request_sha256": "ba10250741b9fe4fb0d76e31cc87bc4c56c3e35b59b2e718887ea83146b2d5d3",
+    "input_bound": 1904,
+    "reserved_usd": 0.015,
+    "started_utc": "2026-11-20T05:22:07.776Z",
+    "response_file": "evaluation/responses/128057_2_32022_zero.json",
+    "usage": {
+      "input_tokens": 880,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 0
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 41,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 921
+    },
+    "answer": {
+      "xg": 0.09,
+      "reason": "The shot appears to come from near the edge of the box, with defenders nearby and the goalkeeper in position."
+    },
+    "returned_model": "gpt-6.2-sol",
+    "estimated_usd": 0.00217,
+    "conservative_usd": 0.00261,
+    "completed_utc": "2026-11-20T05:22:13.845Z"
+  },
+  {
+    "stage": "evaluation",
+    "job": {
+      "shot_id": "128057_2_32022",
+      "match_id": "128057",
+      "image": "results/soccertrack_sol_v1/frames/128057_2_32022.png",
+      "sha256": "cb9547013d9d1bc4b9da0f852f0b701dab5d4328ebf6b65f2f72727f9f953295",
+      "arm": "outcome16"
+    },
+    "state": "completed",
+    "request_sha256": "5374a7345bfdb990cd194bfc930a72bca5493321c7f0182c6532515dcb58b74f",
+    "input_bound": 7926,
+    "reserved_usd": 0.030055,
+    "started_utc": "2026-11-20T05:22:08.782Z",
+    "response_file": "evaluation/responses/128057_2_32022_outcome16.json",
+    "usage": {
+      "input_tokens": 6902,
+      "input_tokens_details": {
+        "cache_write_tokens": 6899,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 6899
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 43,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 6945
+    },
+    "answer": {
+      "xg": 0.13,
+      "reason": "The chance appears to come from inside the right-side penalty area, but nearby defenders and a set goalkeeper limit the opening."
+    },
+    "returned_model": "gpt-6.2-sol",
+    "estimated_usd": 0.014234,
+    "conservative_usd": 0.017685,
+    "completed_utc": "2026-11-20T05:22:15.638Z"
+  },
+  {
+    "stage": "evaluation",
+    "job": {
+      "shot_id": "128057_2_32022",
+      "match_id": "128057",
+      "image": "results/soccertrack_sol_v1/frames/128057_2_32022.png",
+      "sha256": "cb9547013d9d1bc4b9da0f852f0b701dab5d4328ebf6b65f2f72727f9f953295",
+      "arm": "shuffled_teacher16"
+    },
+    "state": "completed",
+    "request_sha256": "f93ac2fb361a4b5a242e7550a33a33444dbb4bd8bf4a6d2de7f2dc9e25bd45e4",
+    "input_bound": 7915,
+    "reserved_usd": 0.0300275,
+    "started_utc": "2026-11-20T05:22:08.637Z",
+    "response_file": "evaluation/responses/128057_2_32022_shuffled_teacher16.json",
+    "usage": {
+      "input_tokens": 6891,
+      "input_tokens_details": {
+        "cache_write_tokens": 6888,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 6888
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 40,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 6931
+    },
+    "answer": {
+      "xg": 0.08,
+      "reason": "The shot appears to come from near the edge of the box, with defenders between the shooter and goal."
+    },
+    "returned_model": "gpt-6.2-sol",
+    "estimated_usd": 0.014182,
+    "conservative_usd": 0.0176275,
+    "completed_utc": "2026-11-20T05:22:15.378Z"
+  },
+  {
+    "stage": "evaluation",
+    "job": {
+      "shot_id": "128057_2_32022",
+      "match_id": "128057",
+      "image": "results/soccertrack_sol_v1/frames/128057_2_32022.png",
+      "sha256": "cb9547013d9d1bc4b9da0f852f0b701dab5d4328ebf6b65f2f72727f9f953295",
+      "arm": "shuffled_outcome16"
+    },
+    "state": "completed",
+    "request_sha256": "268fc0bd0ace5ab3c092a6f8ab44431038d28149e69460a45865e275cc5afce5",
+    "input_bound": 7926,
+    "reserved_usd": 0.030055,
+    "started_utc": "2026-11-20T05:22:08.778Z",
+    "response_file": "evaluation/responses/128057_2_32022_shuffled_outcome16.json",
+    "usage": {
+      "input_tokens": 6902,
+      "input_tokens_details": {
+        "cache_write_tokens": 6899,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 6899
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 39,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 6941
+    },
+    "answer": {
+      "xg": 0.11,
+      "reason": "The chance appears to be near the edge of a crowded penalty area, with the goalkeeper in position."
+    },
+    "returned_model": "gpt-6.2-sol",
+    "estimated_usd": 0.014194,
+    "conservative_usd": 0.017645,
+    "completed_utc": "2026-11-20T05:22:14.795Z"
+  },
+  {
+    "stage": "evaluation",
+    "job": {
+      "shot_id": "118578_1_29390",
+      "match_id": "118578",
+      "image": "results/soccertrack_extensive_v1/frames/118578_1_29390.png",
+      "sha256": "32be03c91826eec439d6ed0db5d1781ee694c363e2143a4eb64fcf6844bed4b3",
+      "arm": "shuffled_outcome16"
+    },
+    "state": "completed",
+    "request_sha256": "7e5176585a62822afef9c77f88908ac72cbb90cb0ee0f2dadb43e4fad8598a87",
+    "input_bound": 7926,
+    "reserved_usd": 0.030055,
+    "started_utc": "2026-11-20T05:22:19.182Z",
+    "response_file": "evaluation/responses/118578_1_29390_shuffled_outcome16.json",
+    "usage": {
+      "input_tokens": 6902,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 0
+        },
+        "cached_tokens": 6899
+      },
+      "output_tokens": 40,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 6942
+    },
+    "answer": {
+      "xg": 0.06,
+      "reason": "The shot appears to come from near the edge of a crowded penalty area, with the goalkeeper in position."
+    },
+    "returned_model": "gpt-6.2-sol",
+    "estimated_usd": 0.0010959000000000001,
+    "conservative_usd": 0.017655,
+    "completed_utc": "2026-11-20T05:22:25.466Z"
+  },
+  {
+    "stage": "evaluation",
+    "job": {
+      "shot_id": "118578_1_29390",
+      "match_id": "118578",
+      "image": "results/soccertrack_extensive_v1/frames/118578_1_29390.png",
+      "sha256": "32be03c91826eec439d6ed0db5d1781ee694c363e2143a4eb64fcf6844bed4b3",
+      "arm": "zero"
+    },
+    "state": "completed",
+    "request_sha256": "838bd876fe61a4447e4bf1483cc1350c650747d43e2848b6bc5df215d00976c8",
+    "input_bound": 1904,
+    "reserved_usd": 0.015,
+    "started_utc": "2026-11-20T05:22:18.027Z",
+    "response_file": "evaluation/responses/118578_1_29390_zero.json",
+    "usage": {
+      "input_tokens": 880,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 0
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 40,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 920
+    },
+    "answer": {
+      "xg": 0.07,
+      "reason": "The shot appears to come from near the edge of the box with several defenders between the shooter and goal."
+    },
+    "returned_model": "gpt-6.2-sol",
+    "estimated_usd": 0.00216,
+    "conservative_usd": 0.0026,
+    "completed_utc": "2026-11-20T05:22:22.455Z"
+  },
+  {
+    "stage": "evaluation",
+    "job": {
+      "shot_id": "118578_1_29390",
+      "match_id": "118578",
+      "image": "results/soccertrack_extensive_v1/frames/118578_1_29390.png",
+      "sha256": "32be03c91826eec439d6ed0db5d1781ee694c363e2143a4eb64fcf6844bed4b3",
+      "arm": "teacher16"
+    },
+    "state": "completed",
+    "request_sha256": "a4b5f761c6438c944d62c260fba3b5517123c86a13f1c6e5de196e18bed01759",
+    "input_bound": 7915,
+    "reserved_usd": 0.0300275,
+    "started_utc": "2026-11-20T05:22:19.328Z",
+    "response_file": "evaluation/responses/118578_1_29390_teacher16.json",
+    "usage": {
+      "input_tokens": 6891,
+      "input_tokens_details": {
+        "cache_write_tokens": 6888,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 6888
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 39,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 6930
+    },
+    "answer": {
+      "xg": 0.09,
+      "reason": "The shot appears to come from near the edge of a crowded penalty area with the goalkeeper in position."
+    },
+    "returned_model": "gpt-6.2-sol",
+    "estimated_usd": 0.014172,
+    "conservative_usd": 0.0176175,
+    "completed_utc": "2026-11-20T05:22:25.583Z"
+  },
+  {
+    "stage": "evaluation",
+    "job": {
+      "shot_id": "118578_1_29390",
+      "match_id": "118578",
+      "image": "results/soccertrack_extensive_v1/frames/118578_1_29390.png",
+      "sha256": "32be03c91826eec439d6ed0db5d1781ee694c363e2143a4eb64fcf6844bed4b3",
+      "arm": "shuffled_teacher16"
+    },
+    "state": "completed",
+    "request_sha256": "345373d034a5d5a49ae6c546c0a59240417771dd748fd121e51be4d0b637a2e0",
+    "input_bound": 7915,
+    "reserved_usd": 0.0300275,
+    "started_utc": "2026-11-20T05:22:18.981Z",
+    "response_file": "evaluation/responses/118578_1_29390_shuffled_teacher16.json",
+    "usage": {
+      "input_tokens": 6891,
+      "input_tokens_details": {
+        "cache_write_tokens": 6888,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 6888
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 41,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 6932
+    },
+    "answer": {
+      "xg": 0.1,
+      "reason": "The shot appears to come from near the edge of the box, with several defenders between the shooter and goal."
+    },
+    "returned_model": "gpt-6.2-sol",
+    "estimated_usd": 0.014192,
+    "conservative_usd": 0.0176375,
+    "completed_utc": "2026-11-20T05:22:24.572Z"
+  },
+  {
+    "stage": "evaluation",
+    "job": {
+      "shot_id": "118578_1_29390",
+      "match_id": "118578",
+      "image": "results/soccertrack_extensive_v1/frames/118578_1_29390.png",
+      "sha256": "32be03c91826eec439d6ed0db5d1781ee694c363e2143a4eb64fcf6844bed4b3",
+      "arm": "outcome8"
+    },
+    "state": "completed",
+    "request_sha256": "f3dbe909baf404c9c4d094f15f1404166c831fc8f6423c8694db3b688af02538",
+    "input_bound": 4988,
+    "reserved_usd": 0.02271,
+    "started_utc": "2026-11-20T05:22:18.716Z",
+    "response_file": "evaluation/responses/118578_1_29390_outcome8.json",
+    "usage": {
+      "input_tokens": 3964,
+      "input_tokens_details": {
+        "cache_write_tokens": 3961,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3961
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 44,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 4008
+    },
+    "answer": {
+      "xg": 0.07,
+      "reason": "The shot appears to come from near the edge of the box, with defenders in the shooting lane and the goalkeeper in position."
+    },
+    "returned_model": "gpt-6.2-sol",
+    "estimated_usd": 0.008368,
+    "conservative_usd": 0.01035,
+    "completed_utc": "2026-11-20T05:22:24.222Z"
+  },
+  {
+    "stage": "evaluation",
+    "job": {
+      "shot_id": "118578_1_29390",
+      "match_id": "118578",
+      "image": "results/soccertrack_extensive_v1/frames/118578_1_29390.png",
+      "sha256": "32be03c91826eec439d6ed0db5d1781ee694c363e2143a4eb64fcf6844bed4b3",
+      "arm": "outcome16"
+    },
+    "state": "completed",
+    "request_sha256": "7e5176585a62822afef9c77f88908ac72cbb90cb0ee0f2dadb43e4fad8598a87",
+    "input_bound": 7926,
+    "reserved_usd": 0.030055,
+    "started_utc": "2026-11-20T05:22:17.604Z",
+    "response_file": "evaluation/responses/118578_1_29390_outcome16.json",
+    "usage": {
+      "input_tokens": 6902,
+      "input_tokens_details": {
+        "cache_write_tokens": 6899,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 6899
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 42,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 6944
+    },
+    "answer": {
+      "xg": 0.07,
+      "reason": "The left-side attack faces several defenders between the likely shooter and a positioned goalkeeper, with no clear close-range opening."
+    },
+    "returned_model": "gpt-6.2-sol",
+    "estimated_usd": 0.014224,
+    "conservative_usd": 0.017675,
+    "completed_utc": "2026-11-20T05:22:24.990Z"
+  },
+  {
+    "stage": "evaluation",
+    "job": {
+      "shot_id": "117092_1_39162",
+      "match_id": "117092",
+      "image": "results/soccertrack_extensive_v1/frames/117092_1_39162.png",
+      "sha256": "f176f76441fe673d7f087c9c138aabc9e5f58a695bdf812191f7bb2aed35c1c4",
+      "arm": "zero"
+    },
+    "state": "completed",
+    "request_sha256": "e5d21ff6cf803c497362dbc3b8b37d2bd62429b01527f6524b254b9146674bd7",
+    "input_bound": 2538,
+    "reserved_usd": 0.016585,
+    "started_utc": "2026-11-20T05:22:27.404Z",
+    "response_file": "evaluation/responses/117092_1_39162_zero.json",
+    "usage": {
+      "input_tokens": 1514,
+      "input_tokens_details": {
+        "cache_write_tokens": 1511,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1511
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 39,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1553
+    },
+    "answer": {
+      "xg": 0.08,
+      "reason": "The attack appears to be coming from a wide angle, with several defenders between the shooter and goal."
+    },
+    "returned_model": "gpt-6.2-sol",
+    "estimated_usd": 0.003418,
+    "conservative_usd": 0.004175,
+    "completed_utc": "2026-11-20T05:22:32.306Z"
+  },
+  {
+    "stage": "evaluation",
+    "job": {
+      "shot_id": "117092_1_39162",
+      "match_id": "117092",
+      "image": "results/soccertrack_extensive_v1/frames/117092_1_39162.png",
+      "sha256": "f176f76441fe673d7f087c9c138aabc9e5f58a695bdf812191f7bb2aed35c1c4",
+      "arm": "teacher16"
+    },
+    "state": "completed",
+    "request_sha256": "e270e71419be6f490c3b7a69f6552321e48e859d6151eaa9a74bd65bd22a3786",
+    "input_bound": 8549,
+    "reserved_usd": 0.0316125,
+    "started_utc": "2026-11-20T05:22:28.833Z",
+    "response_file": "evaluation/responses/117092_1_39162_teacher16.json",
+    "usage": {
+      "input_tokens": 7525,
+      "input_tokens_details": {
+        "cache_write_tokens": 7522,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 7522
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 37,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 7562
+    },
+    "answer": {
+      "xg": 0.12,
+      "reason": "The attack is close to the right-hand goal, but several defenders crowd the shooting area."
+    },
+    "returned_model": "gpt-6.2-sol",
+    "estimated_usd": 0.01542,
+    "conservative_usd": 0.0191825,
+    "completed_utc": "2026-11-20T05:22:33.912Z"
+  },
+  {
+    "stage": "evaluation",
+    "job": {
+      "shot_id": "117092_1_39162",
+      "match_id": "117092",
+      "image": "results/soccertrack_extensive_v1/frames/117092_1_39162.png",
+      "sha256": "f176f76441fe673d7f087c9c138aabc9e5f58a695bdf812191f7bb2aed35c1c4",
+      "arm": "outcome16"
+    },
+    "state": "completed",
+    "request_sha256": "ea9394185a09f76f415ca45716e4ceed4d0296c4c66d85576814d4c6679808e4",
+    "input_bound": 8560,
+    "reserved_usd": 0.03164,
+    "started_utc": "2026-11-20T05:22:28.556Z",
+    "response_file": "evaluation/responses/117092_1_39162_outcome16.json",
+    "usage": {
+      "input_tokens": 7536,
+      "input_tokens_details": {
+        "cache_write_tokens": 7533,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 7533
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 41,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 7577
+    },
+    "answer": {
+      "xg": 0.08,
+      "reason": "Several defenders crowd the right-side penalty area, and the frame does not show a clear close-range shooting lane."
+    },
+    "returned_model": "gpt-6.2-sol",
+    "estimated_usd": 0.015482,
+    "conservative_usd": 0.01925,
+    "completed_utc": "2026-11-20T05:22:34.534Z"
+  },
+  {
+    "stage": "evaluation",
+    "job": {
+      "shot_id": "117092_1_39162",
+      "match_id": "117092",
+      "image": "results/soccertrack_extensive_v1/frames/117092_1_39162.png",
+      "sha256": "f176f76441fe673d7f087c9c138aabc9e5f58a695bdf812191f7bb2aed35c1c4",
+      "arm": "outcome8"
+    },
+    "state": "completed",
+    "request_sha256": "23183429b97ff009d302d5ba8cdee430b80e923b99a0f971f3e95ccf76b2ace8",
+    "input_bound": 5622,
+    "reserved_usd": 0.024295,
+    "started_utc": "2026-11-20T05:22:28.639Z",
+    "response_file": "evaluation/responses/117092_1_39162_outcome8.json",
+    "usage": {
+      "input_tokens": 4598,
+      "input_tokens_details": {
+        "cache_write_tokens": 4595,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 4595
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 43,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 4641
+    },
+    "answer": {
+      "xg": 0.09,
+      "reason": "The attack is near the right-hand goal, but several defenders crowd the box and there is no obvious clear shooting lane."
+    },
+    "returned_model": "gpt-6.2-sol",
+    "estimated_usd": 0.009626,
+    "conservative_usd": 0.011925,
+    "completed_utc": "2026-11-20T05:22:33.344Z"
+  },
+  {
+    "stage": "evaluation",
+    "job": {
+      "shot_id": "117092_1_39162",
+      "match_id": "117092",
+      "image": "results/soccertrack_extensive_v1/frames/117092_1_39162.png",
+      "sha256": "f176f76441fe673d7f087c9c138aabc9e5f58a695bdf812191f7bb2aed35c1c4",
+      "arm": "shuffled_teacher16"
+    },
+    "state": "completed",
+    "request_sha256": "045ae09bd1542520446a7f05b79cc699308cfaa8480e732f1ef518c209d8513d",
+    "input_bound": 8549,
+    "reserved_usd": 0.0316125,
+    "started_utc": "2026-11-20T05:22:28.052Z",
+    "response_file": "evaluation/responses/117092_1_39162_shuffled_teacher16.json",
+    "usage": {
+      "input_tokens": 7525,
+      "input_tokens_details": {
+        "cache_write_tokens": 7522,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 7522
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 37,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 7562
+    },
+    "answer": {
+      "xg": 0.12,
+      "reason": "The chance appears to come from inside the box, but nearby defenders limit the shooting lane."
+    },
+    "returned_model": "gpt-6.2-sol",
+    "estimated_usd": 0.01542,
+    "conservative_usd": 0.0191825,
+    "completed_utc": "2026-11-20T05:22:34.559Z"
+  },
+  {
+    "stage": "evaluation",
+    "job": {
+      "shot_id": "117092_1_39162",
+      "match_id": "117092",
+      "image": "results/soccertrack_extensive_v1/frames/117092_1_39162.png",
+      "sha256": "f176f76441fe673d7f087c9c138aabc9e5f58a695bdf812191f7bb2aed35c1c4",
+      "arm": "shuffled_outcome16"
+    },
+    "state": "completed",
+    "request_sha256": "117477ea7b4b65f259de12fb24b0c25e357d5d1259864b1129c89e5e8c143343",
+    "input_bound": 8560,
+    "reserved_usd": 0.03164,
+    "started_utc": "2026-11-20T05:22:28.709Z",
+    "response_file": "evaluation/responses/117092_1_39162_shuffled_outcome16.json",
+    "usage": {
+      "input_tokens": 7536,
+      "input_tokens_details": {
+        "cache_write_tokens": 7533,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 7533
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 39,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 7575
+    },
+    "answer": {
+      "xg": 0.08,
+      "reason": "Several defenders are between the attack and the right-hand goal, with no clear close-range opening visible."
+    },
+    "returned_model": "gpt-6.2-sol",
+    "estimated_usd": 0.015462,
+    "conservative_usd": 0.01923,
+    "completed_utc": "2026-11-20T05:22:34.737Z"
+  },
+  {
+    "stage": "evaluation",
+    "job": {
+      "shot_id": "117093_2_27565",
+      "match_id": "117093",
+      "image": "results/soccertrack_extensive_v1/frames/117093_2_27565.png",
+      "sha256": "8ace64a395c5de017bc9d7b621a9462428084c56d35d9c3aaf08a34205f599de",
+      "arm": "shuffled_teacher16"
+    },
+    "state": "completed",
+    "request_sha256": "9117d6170ee861fe459bc844baacbf4499e83651c5078bbaf2b5a47ca9bcd071",
+    "input_bound": 7915,
+    "reserved_usd": 0.0300275,
+    "started_utc": "2026-11-20T05:22:38.309Z",
+    "response_file": "evaluation/responses/117093_2_27565_shuffled_teacher16.json",
+    "usage": {
+      "input_tokens": 6891,
+      "input_tokens_details": {
+        "cache_write_tokens": 6888,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 6888
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 39,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 6930
+    },
+    "answer": {
+      "xg": 0.21,
+      "reason": "The shot appears to come from close range, but several defenders and the goalkeeper crowd the goalmouth."
+    },
+    "returned_model": "gpt-6.2-sol",
+    "estimated_usd": 0.014172,
+    "conservative_usd": 0.0176175,
+    "completed_utc": "2026-11-20T05:22:44.156Z"
+  },
+  {
+    "stage": "evaluation",
+    "job": {
+      "shot_id": "117093_2_27565",
+      "match_id": "117093",
+      "image": "results/soccertrack_extensive_v1/frames/117093_2_27565.png",
+      "sha256": "8ace64a395c5de017bc9d7b621a9462428084c56d35d9c3aaf08a34205f599de",
+      "arm": "shuffled_outcome16"
+    },
+    "state": "completed",
+    "request_sha256": "b26c5a361f8184a014808efb842c71479d8c688cae1b7be9ff61be4b24ad0e65",
+    "input_bound": 7926,
+    "reserved_usd": 0.030055,
+    "started_utc": "2026-11-20T05:22:37.774Z",
+    "response_file": "evaluation/responses/117093_2_27565_shuffled_outcome16.json",
+    "usage": {
+      "input_tokens": 6902,
+      "input_tokens_details": {
+        "cache_write_tokens": 6899,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 6899
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 40,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 6942
+    },
+    "answer": {
+      "xg": 0.19,
+      "reason": "The chance appears to be from inside the box, but nearby defenders and a set goalkeeper limit the opening."
+    },
+    "returned_model": "gpt-6.2-sol",
+    "estimated_usd": 0.014204,
+    "conservative_usd": 0.017655,
+    "completed_utc": "2026-11-20T05:22:44.948Z"
+  },
+  {
+    "stage": "evaluation",
+    "job": {
+      "shot_id": "117093_2_27565",
+      "match_id": "117093",
+      "image": "results/soccertrack_extensive_v1/frames/117093_2_27565.png",
+      "sha256": "8ace64a395c5de017bc9d7b621a9462428084c56d35d9c3aaf08a34205f599de",
+      "arm": "zero"
+    },
+    "state": "completed",
+    "request_sha256": "7f19aba026e8d9cd7be7cef8403299651ee557a5faeea8fe337d925bb71585d4",
+    "input_bound": 1904,
+    "reserved_usd": 0.015,
+    "started_utc": "2026-11-20T05:22:36.485Z",
+    "response_file": "evaluation/responses/117093_2_27565_zero.json",
+    "usage": {
+      "input_tokens": 880,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 0
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 41,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 921
+    },
+    "answer": {
+      "xg": 0.16,
+      "reason": "The chance appears to be from inside the box, but defenders crowd the shooting lane and the goalkeeper is close."
+    },
+    "returned_model": "gpt-6.2-sol",
+    "estimated_usd": 0.00217,
+    "conservative_usd": 0.00261,
+    "completed_utc": "2026-11-20T05:22:42.299Z"
+  },
+  {
+    "stage": "evaluation",
+    "job": {
+      "shot_id": "117093_2_27565",
+      "match_id": "117093",
+      "image": "results/soccertrack_extensive_v1/frames/117093_2_27565.png",
+      "sha256": "8ace64a395c5de017bc9d7b621a9462428084c56d35d9c3aaf08a34205f599de",
+      "arm": "outcome8"
+    },
+    "state": "completed",
+    "request_sha256": "5ec56f0a43aa61478f6a0393f475a374b476d7df3668e798892ab72531216359",
+    "input_bound": 4988,
+    "reserved_usd": 0.02271,
+    "started_utc": "2026-11-20T05:22:37.265Z",
+    "response_file": "evaluation/responses/117093_2_27565_outcome8.json",
+    "usage": {
+      "input_tokens": 3964,
+      "input_tokens_details": {
+        "cache_write_tokens": 3961,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3961
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 42,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 4006
+    },
+    "answer": {
+      "xg": 0.19,
+      "reason": "The chance appears to come from inside the box, but nearby defenders and a well-positioned goalkeeper limit the opening."
+    },
+    "returned_model": "gpt-6.2-sol",
+    "estimated_usd": 0.008348,
+    "conservative_usd": 0.01033,
+    "completed_utc": "2026-11-20T05:22:44.290Z"
+  },
+  {
+    "stage": "evaluation",
+    "job": {
+      "shot_id": "117093_2_27565",
+      "match_id": "117093",
+      "image": "results/soccertrack_extensive_v1/frames/117093_2_27565.png",
+      "sha256": "8ace64a395c5de017bc9d7b621a9462428084c56d35d9c3aaf08a34205f599de",
+      "arm": "outcome16"
+    },
+    "state": "completed",
+    "request_sha256": "c46224ba7fdc11e763ae95a3353203ae26453bd478e3b9c8455220957799f61c",
+    "input_bound": 7926,
+    "reserved_usd": 0.030055,
+    "started_utc": "2026-11-20T05:22:37.839Z",
+    "response_file": "evaluation/responses/117093_2_27565_outcome16.json",
+    "usage": {
+      "input_tokens": 6902,
+      "input_tokens_details": {
+        "cache_write_tokens": 6899,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 6899
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 41,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 6943
+    },
+    "answer": {
+      "xg": 0.19,
+      "reason": "The attack is close to goal, but a crowded box and a well-positioned goalkeeper limit the shooting lane."
+    },
+    "returned_model": "gpt-6.2-sol",
+    "estimated_usd": 0.014214,
+    "conservative_usd": 0.017665,
+    "completed_utc": "2026-11-20T05:22:44.356Z"
+  },
+  {
+    "stage": "evaluation",
+    "job": {
+      "shot_id": "117093_2_27565",
+      "match_id": "117093",
+      "image": "results/soccertrack_extensive_v1/frames/117093_2_27565.png",
+      "sha256": "8ace64a395c5de017bc9d7b621a9462428084c56d35d9c3aaf08a34205f599de",
+      "arm": "teacher16"
+    },
+    "state": "completed",
+    "request_sha256": "560ae7567e44f807db658c710d461bdfcd425913522ec0652fd56d5667faf2f5",
+    "input_bound": 7915,
+    "reserved_usd": 0.0300275,
+    "started_utc": "2026-11-20T05:22:38.208Z",
+    "response_file": "evaluation/responses/117093_2_27565_teacher16.json",
+    "usage": {
+      "input_tokens": 6891,
+      "input_tokens_details": {
+        "cache_write_tokens": 6888,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 6888
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 39,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 6930
+    },
+    "answer": {
+      "xg": 0.21,
+      "reason": "The chance appears to be from close range, but the goalkeeper and several defenders crowd the goalmouth."
+    },
+    "returned_model": "gpt-6.2-sol",
+    "estimated_usd": 0.014172,
+    "conservative_usd": 0.0176175,
+    "completed_utc": "2026-11-20T05:22:44.437Z"
+  },
+  {
+    "stage": "evaluation",
+    "job": {
+      "shot_id": "117092_2_55700",
+      "match_id": "117092",
+      "image": "results/soccertrack_extensive_v1/frames/117092_2_55700.png",
+      "sha256": "2d1fc975ed236f4cb3526bef1ff90961a449d112209b8acdc40ed3eb95d2f754",
+      "arm": "shuffled_outcome16"
+    },
+    "state": "completed",
+    "request_sha256": "269383723526e025edd2634f26e52b012e7106a54de7ec7da4c734c379b65bc0",
+    "input_bound": 8560,
+    "reserved_usd": 0.03164,
+    "started_utc": "2026-11-20T05:22:48.274Z",
+    "response_file": "evaluation/responses/117092_2_55700_shuffled_outcome16.json",
+    "usage": {
+      "input_tokens": 7536,
+      "input_tokens_details": {
+        "cache_write_tokens": 7533,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 7533
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 42,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 7578
+    },
+    "answer": {
+      "xg": 0.07,
+      "reason": "The attack appears to come from an angle toward a crowded left-side penalty area, with no clear close-range opening."
+    },
+    "returned_model": "gpt-6.2-sol",
+    "estimated_usd": 0.015492,
+    "conservative_usd": 0.01926,
+    "completed_utc": "2026-11-20T05:22:54.240Z"
+  },
+  {
+    "stage": "evaluation",
+    "job": {
+      "shot_id": "117092_2_55700",
+      "match_id": "117092",
+      "image": "results/soccertrack_extensive_v1/frames/117092_2_55700.png",
+      "sha256": "2d1fc975ed236f4cb3526bef1ff90961a449d112209b8acdc40ed3eb95d2f754",
+      "arm": "outcome8"
+    },
+    "state": "completed",
+    "request_sha256": "14ad30673b942b59fdbc819bde529e29190cf5a1af674334f084e032ed5de5b1",
+    "input_bound": 5622,
+    "reserved_usd": 0.024295,
+    "started_utc": "2026-11-20T05:22:47.212Z",
+    "response_file": "evaluation/responses/117092_2_55700_outcome8.json",
+    "usage": {
+      "input_tokens": 4598,
+      "input_tokens_details": {
+        "cache_write_tokens": 4595,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 4595
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 36,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 4634
+    },
+    "answer": {
+      "xg": 0.08,
+      "reason": "The chance appears to come from an angle with several defenders between the shooter and goal."
+    },
+    "returned_model": "gpt-6.2-sol",
+    "estimated_usd": 0.009556,
+    "conservative_usd": 0.011855,
+    "completed_utc": "2026-11-20T05:22:53.163Z"
+  },
+  {
+    "stage": "evaluation",
+    "job": {
+      "shot_id": "117092_2_55700",
+      "match_id": "117092",
+      "image": "results/soccertrack_extensive_v1/frames/117092_2_55700.png",
+      "sha256": "2d1fc975ed236f4cb3526bef1ff90961a449d112209b8acdc40ed3eb95d2f754",
+      "arm": "zero"
+    },
+    "state": "completed",
+    "request_sha256": "9679d96ff537b083dd4a2060d96771385d6bfe9e6c5e3c9f9d2d1eb87851fb35",
+    "input_bound": 2538,
+    "reserved_usd": 0.016585,
+    "started_utc": "2026-11-20T05:22:46.288Z",
+    "response_file": "evaluation/responses/117092_2_55700_zero.json",
+    "usage": {
+      "input_tokens": 1514,
+      "input_tokens_details": {
+        "cache_write_tokens": 1511,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1511
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 37,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1551
+    },
+    "answer": {
+      "xg": 0.06,
+      "reason": "The shot appears to come from a wide angle with several defenders between the shooter and goal."
+    },
+    "returned_model": "gpt-6.2-sol",
+    "estimated_usd": 0.003398,
+    "conservative_usd": 0.004155,
+    "completed_utc": "2026-11-20T05:22:51.835Z"
+  },
+  {
+    "stage": "evaluation",
+    "job": {
+      "shot_id": "117092_2_55700",
+      "match_id": "117092",
+      "image": "results/soccertrack_extensive_v1/frames/117092_2_55700.png",
+      "sha256": "2d1fc975ed236f4cb3526bef1ff90961a449d112209b8acdc40ed3eb95d2f754",
+      "arm": "teacher16"
+    },
+    "state": "completed",
+    "request_sha256": "c43170b7a9b69679210e0aa7740f8f894deb412e53b6056dc142ab6e16d29b94",
+    "input_bound": 8549,
+    "reserved_usd": 0.0316125,
+    "started_utc": "2026-11-20T05:22:47.875Z",
+    "response_file": "evaluation/responses/117092_2_55700_teacher16.json",
+    "usage": {
+      "input_tokens": 7525,
+      "input_tokens_details": {
+        "cache_write_tokens": 7522,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 7522
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 40,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 7565
+    },
+    "answer": {
+      "xg": 0.1,
+      "reason": "The chance appears to come from a crowded area near the left goal, with defenders limiting the shooting lane."
+    },
+    "returned_model": "gpt-6.2-sol",
+    "estimated_usd": 0.01545,
+    "conservative_usd": 0.0192125,
+    "completed_utc": "2026-11-20T05:22:53.725Z"
+  },
+  {
+    "stage": "evaluation",
+    "job": {
+      "shot_id": "117092_2_55700",
+      "match_id": "117092",
+      "image": "results/soccertrack_extensive_v1/frames/117092_2_55700.png",
+      "sha256": "2d1fc975ed236f4cb3526bef1ff90961a449d112209b8acdc40ed3eb95d2f754",
+      "arm": "shuffled_teacher16"
+    },
+    "state": "completed",
+    "request_sha256": "31aa8d8221537741a2bb28bbc2b122394ed416127a3cbed0a1ceb53f913b4285",
+    "input_bound": 8549,
+    "reserved_usd": 0.0316125,
+    "started_utc": "2026-11-20T05:22:48.201Z",
+    "response_file": "evaluation/responses/117092_2_55700_shuffled_teacher16.json",
+    "usage": {
+      "input_tokens": 7525,
+      "input_tokens_details": {
+        "cache_write_tokens": 7522,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 7522
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 39,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 7564
+    },
+    "answer": {
+      "xg": 0.08,
+      "reason": "The attack is approaching the left goal, but several defenders are between the likely shooter and the net."
+    },
+    "returned_model": "gpt-6.2-sol",
+    "estimated_usd": 0.01544,
+    "conservative_usd": 0.0192025,
+    "completed_utc": "2026-11-20T05:22:54.223Z"
+  },
+  {
+    "stage": "evaluation",
+    "job": {
+      "shot_id": "117092_2_55700",
+      "match_id": "117092",
+      "image": "results/soccertrack_extensive_v1/frames/117092_2_55700.png",
+      "sha256": "2d1fc975ed236f4cb3526bef1ff90961a449d112209b8acdc40ed3eb95d2f754",
+      "arm": "outcome16"
+    },
+    "state": "completed",
+    "request_sha256": "7d3a6d3b50ce5d6efb330c9193700aa8d17683a8bc213f1354d52db24d52ac66",
+    "input_bound": 8560,
+    "reserved_usd": 0.03164,
+    "started_utc": "2026-11-20T05:22:47.824Z",
+    "response_file": "evaluation/responses/117092_2_55700_outcome16.json",
+    "usage": {
+      "input_tokens": 7536,
+      "input_tokens_details": {
+        "cache_write_tokens": 7533,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 7533
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 37,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 7573
+    },
+    "answer": {
+      "xg": 0.06,
+      "reason": "The shot appears to come from an angled position with several defenders between the shooter and goal."
+    },
+    "returned_model": "gpt-6.2-sol",
+    "estimated_usd": 0.015442,
+    "conservative_usd": 0.01921,
+    "completed_utc": "2026-11-20T05:22:53.300Z"
+  },
+  {
+    "stage": "evaluation",
+    "job": {
+      "shot_id": "132877_2_58631",
+      "match_id": "132877",
+      "image": "results/soccertrack_extensive_v1/frames/132877_2_58631.png",
+      "sha256": "0a44d33439cb5ae542dbc472651746b7af33dc5687ab98e0ecbb64eb087d8ade",
+      "arm": "outcome16"
+    },
+    "state": "completed",
+    "request_sha256": "b63e2689da0f9538db3cb5b6786043a8034b2e5310931a66d10e130096b5c530",
+    "input_bound": 7926,
+    "reserved_usd": 0.030055,
+    "started_utc": "2026-11-20T05:22:57.444Z",
+    "response_file": "evaluation/responses/132877_2_58631_outcome16.json",
+    "usage": {
+      "input_tokens": 6902,
+      "input_tokens_details": {
+        "cache_write_tokens": 6899,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 6899
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 40,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 6942
+    },
+    "answer": {
+      "xg": 0.18,
+      "reason": "The chance appears to come from inside the box, but nearby defenders and a positioned goalkeeper limit the opening."
+    },
+    "returned_model": "gpt-6.2-sol",
+    "estimated_usd": 0.014204,
+    "conservative_usd": 0.017655,
+    "completed_utc": "2026-11-20T05:23:04.604Z"
+  },
+  {
+    "stage": "evaluation",
+    "job": {
+      "shot_id": "132877_2_58631",
+      "match_id": "132877",
+      "image": "results/soccertrack_extensive_v1/frames/132877_2_58631.png",
+      "sha256": "0a44d33439cb5ae542dbc472651746b7af33dc5687ab98e0ecbb64eb087d8ade",
+      "arm": "shuffled_outcome16"
+    },
+    "state": "completed",
+    "request_sha256": "7776180ec54019e5f67ca5c8a86ee9705add561d3ee6d7e6e030a4e3182f5bd2",
+    "input_bound": 7926,
+    "reserved_usd": 0.030055,
+    "started_utc": "2026-11-20T05:22:57.294Z",
+    "response_file": "evaluation/responses/132877_2_58631_shuffled_outcome16.json",
+    "usage": {
+      "input_tokens": 6902,
+      "input_tokens_details": {
+        "cache_write_tokens": 6899,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 6899
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 42,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 6944
+    },
+    "answer": {
+      "xg": 0.21,
+      "reason": "The shot appears to come from inside the box, but several defenders and the goalkeeper are close to the shooting lane."
+    },
+    "returned_model": "gpt-6.2-sol",
+    "estimated_usd": 0.014224,
+    "conservative_usd": 0.017675,
+    "completed_utc": "2026-11-20T05:23:04.006Z"
+  },
+  {
+    "stage": "evaluation",
+    "job": {
+      "shot_id": "132877_2_58631",
+      "match_id": "132877",
+      "image": "results/soccertrack_extensive_v1/frames/132877_2_58631.png",
+      "sha256": "0a44d33439cb5ae542dbc472651746b7af33dc5687ab98e0ecbb64eb087d8ade",
+      "arm": "teacher16"
+    },
+    "state": "completed",
+    "request_sha256": "7a56edad3215d461c3b1dffa5d2dbcd1f5d75af74037f9403a667d37f74ab256",
+    "input_bound": 7915,
+    "reserved_usd": 0.0300275,
+    "started_utc": "2026-11-20T05:22:57.922Z",
+    "response_file": "evaluation/responses/132877_2_58631_teacher16.json",
+    "usage": {
+      "input_tokens": 6891,
+      "input_tokens_details": {
+        "cache_write_tokens": 6888,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 6888
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 38,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 6929
+    },
+    "answer": {
+      "xg": 0.21,
+      "reason": "The chance appears to come from close range, but several defenders are between the attacker and goal."
+    },
+    "returned_model": "gpt-6.2-sol",
+    "estimated_usd": 0.014162,
+    "conservative_usd": 0.0176075,
+    "completed_utc": "2026-11-20T05:23:03.998Z"
+  },
+  {
+    "stage": "evaluation",
+    "job": {
+      "shot_id": "132877_2_58631",
+      "match_id": "132877",
+      "image": "results/soccertrack_extensive_v1/frames/132877_2_58631.png",
+      "sha256": "0a44d33439cb5ae542dbc472651746b7af33dc5687ab98e0ecbb64eb087d8ade",
+      "arm": "outcome8"
+    },
+    "state": "completed",
+    "request_sha256": "9ec6c84dd192a7b9bc11f672d19bb412ac5b2ba20c423a3f298086a94fab851a",
+    "input_bound": 4988,
+    "reserved_usd": 0.02271,
+    "started_utc": "2026-11-20T05:22:57.616Z",
+    "response_file": "evaluation/responses/132877_2_58631_outcome8.json",
+    "usage": {
+      "input_tokens": 3964,
+      "input_tokens_details": {
+        "cache_write_tokens": 3961,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3961
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 40,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 4004
+    },
+    "answer": {
+      "xg": 0.16,
+      "reason": "The shot appears to come from inside the box, but nearby defenders and a set goalkeeper limit the opening."
+    },
+    "returned_model": "gpt-6.2-sol",
+    "estimated_usd": 0.008328,
+    "conservative_usd": 0.01031,
+    "completed_utc": "2026-11-20T05:23:03.527Z"
+  },
+  {
+    "stage": "evaluation",
+    "job": {
+      "shot_id": "132877_2_58631",
+      "match_id": "132877",
+      "image": "results/soccertrack_extensive_v1/frames/132877_2_58631.png",
+      "sha256": "0a44d33439cb5ae542dbc472651746b7af33dc5687ab98e0ecbb64eb087d8ade",
+      "arm": "shuffled_teacher16"
+    },
+    "state": "completed",
+    "request_sha256": "eb313c4b18cc5fbc9bfeae707a862afced91fd7b27a2b6e5f272b681a1af8b10",
+    "input_bound": 7915,
+    "reserved_usd": 0.0300275,
+    "started_utc": "2026-11-20T05:22:57.856Z",
+    "response_file": "evaluation/responses/132877_2_58631_shuffled_teacher16.json",
+    "usage": {
+      "input_tokens": 6891,
+      "input_tokens_details": {
+        "cache_write_tokens": 6888,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 6888
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 42,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 6933
+    },
+    "answer": {
+      "xg": 0.18,
+      "reason": "The shot appears to come from inside the box, but nearby defenders and a well-positioned goalkeeper limit the opening."
+    },
+    "returned_model": "gpt-6.2-sol",
+    "estimated_usd": 0.014202,
+    "conservative_usd": 0.0176475,
+    "completed_utc": "2026-11-20T05:23:03.895Z"
+  },
+  {
+    "stage": "evaluation",
+    "job": {
+      "shot_id": "132877_2_58631",
+      "match_id": "132877",
+      "image": "results/soccertrack_extensive_v1/frames/132877_2_58631.png",
+      "sha256": "0a44d33439cb5ae542dbc472651746b7af33dc5687ab98e0ecbb64eb087d8ade",
+      "arm": "zero"
+    },
+    "state": "completed",
+    "request_sha256": "f86e67016aac1c75b8f45e90cec638fef5601dde14e845afdbc3745674169f9e",
+    "input_bound": 1904,
+    "reserved_usd": 0.015,
+    "started_utc": "2026-11-20T05:22:55.586Z",
+    "response_file": "evaluation/responses/132877_2_58631_zero.json",
+    "usage": {
+      "input_tokens": 880,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 0
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 40,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 920
+    },
+    "answer": {
+      "xg": 0.14,
+      "reason": "The shot appears to come from inside the box, but nearby defenders and a set goalkeeper limit the opening."
+    },
+    "returned_model": "gpt-6.2-sol",
+    "estimated_usd": 0.00216,
+    "conservative_usd": 0.0026,
+    "completed_utc": "2026-11-20T05:23:02.646Z"
+  },
+  {
+    "stage": "evaluation",
+    "job": {
+      "shot_id": "118578_2_46925",
+      "match_id": "118578",
+      "image": "results/soccertrack_extensive_v1/frames/118578_2_46925.png",
+      "sha256": "cb9ae2910625d6fc47cd579ae68d79bd6570c642a00ea0f43798148ee3e368c2",
+      "arm": "teacher16"
+    },
+    "state": "completed",
+    "request_sha256": "8e7d2ea9c3b326d04e06030594412db42f57aa56b5288d7033c6b1c1a30e1955",
+    "input_bound": 7915,
+    "reserved_usd": 0.0300275,
+    "started_utc": "2026-11-20T05:23:07.823Z",
+    "response_file": "evaluation/responses/118578_2_46925_teacher16.json",
+    "usage": {
+      "input_tokens": 6891,
+      "input_tokens_details": {
+        "cache_write_tokens": 6888,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 6888
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 40,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 6931
+    },
+    "answer": {
+      "xg": 0.17,
+      "reason": "The shot appears to come from close range, but the crowded goalmouth limits the clear path to goal."
+    },
+    "returned_model": "gpt-6.2-sol",
+    "estimated_usd": 0.014182,
+    "conservative_usd": 0.0176275,
+    "completed_utc": "2026-11-20T05:23:13.983Z"
+  },
+  {
+    "stage": "evaluation",
+    "job": {
+      "shot_id": "118578_2_46925",
+      "match_id": "118578",
+      "image": "results/soccertrack_extensive_v1/frames/118578_2_46925.png",
+      "sha256": "cb9ae2910625d6fc47cd579ae68d79bd6570c642a00ea0f43798148ee3e368c2",
+      "arm": "outcome8"
+    },
+    "state": "completed",
+    "request_sha256": "369b74a95ce8fa1e0afe119fb92ceea9caecbd1bb1750fa2310134bb9d81e97f",
+    "input_bound": 4988,
+    "reserved_usd": 0.02271,
+    "started_utc": "2026-11-20T05:23:07.010Z",
+    "response_file": "evaluation/responses/118578_2_46925_outcome8.json",
+    "usage": {
+      "input_tokens": 3964,
+      "input_tokens_details": {
+        "cache_write_tokens": 3961,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3961
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 39,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 4003
+    },
+    "answer": {
+      "xg": 0.13,
+      "reason": "The chance appears close to goal, but the crowded goalmouth leaves little room for a clean finish."
+    },
+    "returned_model": "gpt-6.2-sol",
+    "estimated_usd": 0.008318,
+    "conservative_usd": 0.0103,
+    "completed_utc": "2026-11-20T05:23:13.067Z"
+  },
+  {
+    "stage": "evaluation",
+    "job": {
+      "shot_id": "118578_2_46925",
+      "match_id": "118578",
+      "image": "results/soccertrack_extensive_v1/frames/118578_2_46925.png",
+      "sha256": "cb9ae2910625d6fc47cd579ae68d79bd6570c642a00ea0f43798148ee3e368c2",
+      "arm": "outcome16"
+    },
+    "state": "completed",
+    "request_sha256": "4ea840078584ec37023af4d4b40c4d72473ef7b982da16a981f00f48d42fb3bf",
+    "input_bound": 7926,
+    "reserved_usd": 0.030055,
+    "started_utc": "2026-11-20T05:23:07.939Z",
+    "response_file": "evaluation/responses/118578_2_46925_outcome16.json",
+    "usage": {
+      "input_tokens": 6902,
+      "input_tokens_details": {
+        "cache_write_tokens": 6899,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 6899
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 35,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 6937
+    },
+    "answer": {
+      "xg": 0.12,
+      "reason": "The chance appears close to goal, but the crowded box limits the shooting lane."
+    },
+    "returned_model": "gpt-6.2-sol",
+    "estimated_usd": 0.014154,
+    "conservative_usd": 0.017605,
+    "completed_utc": "2026-11-20T05:23:13.926Z"
+  },
+  {
+    "stage": "evaluation",
+    "job": {
+      "shot_id": "118578_2_46925",
+      "match_id": "118578",
+      "image": "results/soccertrack_extensive_v1/frames/118578_2_46925.png",
+      "sha256": "cb9ae2910625d6fc47cd579ae68d79bd6570c642a00ea0f43798148ee3e368c2",
+      "arm": "zero"
+    },
+    "state": "completed",
+    "request_sha256": "a99268a859d5ff4beb3d57981b5d9278cc20fe168b20dafd675106828fb36a74",
+    "input_bound": 1904,
+    "reserved_usd": 0.015,
+    "started_utc": "2026-11-20T05:23:06.382Z",
+    "response_file": "evaluation/responses/118578_2_46925_zero.json",
+    "usage": {
+      "input_tokens": 880,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 0
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 40,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 920
+    },
+    "answer": {
+      "xg": 0.13,
+      "reason": "The chance appears to come from close range, but a crowded goalmouth limits the clean looks at goal."
+    },
+    "returned_model": "gpt-6.2-sol",
+    "estimated_usd": 0.00216,
+    "conservative_usd": 0.0026,
+    "completed_utc": "2026-11-20T05:23:11.974Z"
+  },
+  {
+    "stage": "evaluation",
+    "job": {
+      "shot_id": "118578_2_46925",
+      "match_id": "118578",
+      "image": "results/soccertrack_extensive_v1/frames/118578_2_46925.png",
+      "sha256": "cb9ae2910625d6fc47cd579ae68d79bd6570c642a00ea0f43798148ee3e368c2",
+      "arm": "shuffled_teacher16"
+    },
+    "state": "completed",
+    "request_sha256": "f037faf9f9a0217cb5016ba45688cbff78b48d386e927965a1dc231a41d3696b",
+    "input_bound": 7915,
+    "reserved_usd": 0.0300275,
+    "started_utc": "2026-11-20T05:23:08.108Z",
+    "response_file": "evaluation/responses/118578_2_46925_shuffled_teacher16.json",
+    "usage": {
+      "input_tokens": 6891,
+      "input_tokens_details": {
+        "cache_write_tokens": 6888,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 6888
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 37,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 6928
+    },
+    "answer": {
+      "xg": 0.16,
+      "reason": "The chance appears close to goal, but heavy traffic in the box limits the shooting lane."
+    },
+    "returned_model": "gpt-6.2-sol",
+    "estimated_usd": 0.014152,
+    "conservative_usd": 0.0175975,
+    "completed_utc": "2026-11-20T05:23:13.822Z"
+  },
+  {
+    "stage": "evaluation",
+    "job": {
+      "shot_id": "118578_2_46925",
+      "match_id": "118578",
+      "image": "results/soccertrack_extensive_v1/frames/118578_2_46925.png",
+      "sha256": "cb9ae2910625d6fc47cd579ae68d79bd6570c642a00ea0f43798148ee3e368c2",
+      "arm": "shuffled_outcome16"
+    },
+    "state": "completed",
+    "request_sha256": "4ea840078584ec37023af4d4b40c4d72473ef7b982da16a981f00f48d42fb3bf",
+    "input_bound": 7926,
+    "reserved_usd": 0.030055,
+    "started_utc": "2026-11-20T05:23:07.934Z",
+    "response_file": "evaluation/responses/118578_2_46925_shuffled_outcome16.json",
+    "usage": {
+      "input_tokens": 6902,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 0
+        },
+        "cached_tokens": 6899
+      },
+      "output_tokens": 39,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 6941
+    },
+    "answer": {
+      "xg": 0.11,
+      "reason": "The chance appears to come from inside the box, but the crowded goalmouth limits the shooting lane."
+    },
+    "returned_model": "gpt-6.2-sol",
+    "estimated_usd": 0.0010859,
+    "conservative_usd": 0.017645,
+    "completed_utc": "2026-11-20T05:23:14.130Z"
+  },
+  {
+    "stage": "evaluation",
+    "job": {
+      "shot_id": "118576_1_61240",
+      "match_id": "118576",
+      "image": "results/soccertrack_extensive_v1/frames/118576_1_61240.png",
+      "sha256": "70df7c2a9fbf8baf041350e86ff409f667cc799737a1f3fcb73d93e2bed59319",
+      "arm": "outcome16"
+    },
+    "state": "completed",
+    "request_sha256": "52cf9090e3808c55cafca5c818a689db6f51247d97d3552b1476ce03faecb6e6",
+    "input_bound": 7926,
+    "reserved_usd": 0.030055,
+    "started_utc": "2026-11-20T05:23:17.627Z",
+    "response_file": "evaluation/responses/118576_1_61240_outcome16.json",
+    "usage": {
+      "input_tokens": 6902,
+      "input_tokens_details": {
+        "cache_write_tokens": 6899,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 6899
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 40,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 6942
+    },
+    "answer": {
+      "xg": 0.15,
+      "reason": "The chance appears to come from inside the box, but the crowded goalmouth limits the clear shooting lanes."
+    },
+    "returned_model": "gpt-6.2-sol",
+    "estimated_usd": 0.014204,
+    "conservative_usd": 0.017655,
+    "completed_utc": "2026-11-20T05:23:23.824Z"
+  },
+  {
+    "stage": "evaluation",
+    "job": {
+      "shot_id": "118576_1_61240",
+      "match_id": "118576",
+      "image": "results/soccertrack_extensive_v1/frames/118576_1_61240.png",
+      "sha256": "70df7c2a9fbf8baf041350e86ff409f667cc799737a1f3fcb73d93e2bed59319",
+      "arm": "zero"
+    },
+    "state": "completed",
+    "request_sha256": "b1fa85c5ce81abdd76627390414023f5e4a53dc7797274c6e8bb2bdb26b9e659",
+    "input_bound": 1904,
+    "reserved_usd": 0.015,
+    "started_utc": "2026-11-20T05:23:15.435Z",
+    "response_file": "evaluation/responses/118576_1_61240_zero.json",
+    "usage": {
+      "input_tokens": 880,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 0
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 38,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 918
+    },
+    "answer": {
+      "xg": 0.09,
+      "reason": "The shot appears to come from a crowded penalty area with several defenders between the shooter and goal."
+    },
+    "returned_model": "gpt-6.2-sol",
+    "estimated_usd": 0.00214,
+    "conservative_usd": 0.00258,
+    "completed_utc": "2026-11-20T05:23:21.767Z"
+  },
+  {
+    "stage": "evaluation",
+    "job": {
+      "shot_id": "118576_1_61240",
+      "match_id": "118576",
+      "image": "results/soccertrack_extensive_v1/frames/118576_1_61240.png",
+      "sha256": "70df7c2a9fbf8baf041350e86ff409f667cc799737a1f3fcb73d93e2bed59319",
+      "arm": "shuffled_outcome16"
+    },
+    "state": "completed",
+    "request_sha256": "0e380e618a530bdae88d2f1bf34b6fdc994b2cb64602e1fb856352c9e63b43c0",
+    "input_bound": 7926,
+    "reserved_usd": 0.030055,
+    "started_utc": "2026-11-20T05:23:17.789Z",
+    "response_file": "evaluation/responses/118576_1_61240_shuffled_outcome16.json",
+    "usage": {
+      "input_tokens": 6902,
+      "input_tokens_details": {
+        "cache_write_tokens": 6899,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 6899
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 39,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 6941
+    },
+    "answer": {
+      "xg": 0.14,
+      "reason": "The chance appears to come from inside the left penalty area, but several players crowd the shooting lane."
+    },
+    "returned_model": "gpt-6.2-sol",
+    "estimated_usd": 0.014194,
+    "conservative_usd": 0.017645,
+    "completed_utc": "2026-11-20T05:23:23.940Z"
+  },
+  {
+    "stage": "evaluation",
+    "job": {
+      "shot_id": "118576_1_61240",
+      "match_id": "118576",
+      "image": "results/soccertrack_extensive_v1/frames/118576_1_61240.png",
+      "sha256": "70df7c2a9fbf8baf041350e86ff409f667cc799737a1f3fcb73d93e2bed59319",
+      "arm": "shuffled_teacher16"
+    },
+    "state": "completed",
+    "request_sha256": "6cc88650f7496e417d61ff22206b13ff04576c4e05a19e901f7af930b1c13da2",
+    "input_bound": 7915,
+    "reserved_usd": 0.0300275,
+    "started_utc": "2026-11-20T05:23:17.711Z",
+    "response_file": "evaluation/responses/118576_1_61240_shuffled_teacher16.json",
+    "usage": {
+      "input_tokens": 6891,
+      "input_tokens_details": {
+        "cache_write_tokens": 6888,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 6888
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 38,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 6929
+    },
+    "answer": {
+      "xg": 0.16,
+      "reason": "The shot appears to come from inside the box, but several defenders crowd the route to goal."
+    },
+    "returned_model": "gpt-6.2-sol",
+    "estimated_usd": 0.014162,
+    "conservative_usd": 0.0176075,
+    "completed_utc": "2026-11-20T05:23:24.151Z"
+  },
+  {
+    "stage": "evaluation",
+    "job": {
+      "shot_id": "118576_1_61240",
+      "match_id": "118576",
+      "image": "results/soccertrack_extensive_v1/frames/118576_1_61240.png",
+      "sha256": "70df7c2a9fbf8baf041350e86ff409f667cc799737a1f3fcb73d93e2bed59319",
+      "arm": "outcome8"
+    },
+    "state": "completed",
+    "request_sha256": "ccc121e87758e1d5a9d86d46fcac5c4843d062a32939d1f9ae1c4def48ccfec4",
+    "input_bound": 4988,
+    "reserved_usd": 0.02271,
+    "started_utc": "2026-11-20T05:23:16.287Z",
+    "response_file": "evaluation/responses/118576_1_61240_outcome8.json",
+    "usage": {
+      "input_tokens": 3964,
+      "input_tokens_details": {
+        "cache_write_tokens": 3961,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3961
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 37,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 4001
+    },
+    "answer": {
+      "xg": 0.12,
+      "reason": "The chance appears to come from inside the box, but several defenders crowd the shooting lane."
+    },
+    "returned_model": "gpt-6.2-sol",
+    "estimated_usd": 0.008298,
+    "conservative_usd": 0.01028,
+    "completed_utc": "2026-11-20T05:23:22.589Z"
+  },
+  {
+    "stage": "evaluation",
+    "job": {
+      "shot_id": "118576_1_61240",
+      "match_id": "118576",
+      "image": "results/soccertrack_extensive_v1/frames/118576_1_61240.png",
+      "sha256": "70df7c2a9fbf8baf041350e86ff409f667cc799737a1f3fcb73d93e2bed59319",
+      "arm": "teacher16"
+    },
+    "state": "completed",
+    "request_sha256": "feca1993f128d3968f3b9a8a5ad01c9d5f0bd8946efae700d9f6a3bb27ecbf33",
+    "input_bound": 7915,
+    "reserved_usd": 0.0300275,
+    "started_utc": "2026-11-20T05:23:17.428Z",
+    "response_file": "evaluation/responses/118576_1_61240_teacher16.json",
+    "usage": {
+      "input_tokens": 6891,
+      "input_tokens_details": {
+        "cache_write_tokens": 6888,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 6888
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 37,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 6928
+    },
+    "answer": {
+      "xg": 0.17,
+      "reason": "The chance appears to come from inside the box, but several defenders crowd the shooting lane."
+    },
+    "returned_model": "gpt-6.2-sol",
+    "estimated_usd": 0.014152,
+    "conservative_usd": 0.0175975,
+    "completed_utc": "2026-11-20T05:23:23.831Z"
+  },
+  {
+    "stage": "evaluation",
+    "job": {
+      "shot_id": "128057_1_58729",
+      "match_id": "128057",
+      "image": "results/soccertrack_extensive_v1/frames/128057_1_58729.png",
+      "sha256": "9497d0c3b5f81a911ee1a81d7344b4ac1dc1a4b22c91f44289754e12268ef9ce",
+      "arm": "zero"
+    },
+    "state": "completed",
+    "request_sha256": "ed77a3104742fed30fbfec3df06dfc075efaac3ba5911ae3990c979266402169",
+    "input_bound": 1904,
+    "reserved_usd": 0.015,
+    "started_utc": "2026-11-20T05:23:26.441Z",
+    "response_file": "evaluation/responses/128057_1_58729_zero.json",
+    "usage": {
+      "input_tokens": 880,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 0
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 39,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 919
+    },
+    "answer": {
+      "xg": 0.03,
+      "reason": "The attack is still outside the penalty area, so the likely shot is from distance with defenders nearby."
+    },
+    "returned_model": "gpt-6.2-sol",
+    "estimated_usd": 0.00215,
+    "conservative_usd": 0.00259,
+    "completed_utc": "2026-11-20T05:23:32.691Z"
+  },
+  {
+    "stage": "evaluation",
+    "job": {
+      "shot_id": "128057_1_58729",
+      "match_id": "128057",
+      "image": "results/soccertrack_extensive_v1/frames/128057_1_58729.png",
+      "sha256": "9497d0c3b5f81a911ee1a81d7344b4ac1dc1a4b22c91f44289754e12268ef9ce",
+      "arm": "outcome8"
+    },
+    "state": "completed",
+    "request_sha256": "99eb514f0948b9629a59b63d990a116ef860fb79487a3698dd8c7b0e33469c13",
+    "input_bound": 4988,
+    "reserved_usd": 0.02271,
+    "started_utc": "2026-11-20T05:23:27.341Z",
+    "response_file": "evaluation/responses/128057_1_58729_outcome8.json",
+    "usage": {
+      "input_tokens": 3964,
+      "input_tokens_details": {
+        "cache_write_tokens": 3961,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3961
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 41,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 4005
+    },
+    "answer": {
+      "xg": 0.07,
+      "reason": "The attack appears to be developing outside the penalty area, with defenders tracking back and no clear close-range opening."
+    },
+    "returned_model": "gpt-6.2-sol",
+    "estimated_usd": 0.008338,
+    "conservative_usd": 0.01032,
+    "completed_utc": "2026-11-20T05:23:34.139Z"
+  },
+  {
+    "stage": "evaluation",
+    "job": {
+      "shot_id": "128057_1_58729",
+      "match_id": "128057",
+      "image": "results/soccertrack_extensive_v1/frames/128057_1_58729.png",
+      "sha256": "9497d0c3b5f81a911ee1a81d7344b4ac1dc1a4b22c91f44289754e12268ef9ce",
+      "arm": "teacher16"
+    },
+    "state": "completed",
+    "request_sha256": "94d72c9e6977da67a0fd177c022837ba44efa818341a706783712e0093bc0382",
+    "input_bound": 7915,
+    "reserved_usd": 0.0300275,
+    "started_utc": "2026-11-20T05:23:27.976Z",
+    "response_file": "evaluation/responses/128057_1_58729_teacher16.json",
+    "usage": {
+      "input_tokens": 6891,
+      "input_tokens_details": {
+        "cache_write_tokens": 6888,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 6888
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 39,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 6930
+    },
+    "answer": {
+      "xg": 0.05,
+      "reason": "The attack appears to be well outside the penalty area, making this a low-probability attempt."
+    },
+    "returned_model": "gpt-6.2-sol",
+    "estimated_usd": 0.014172,
+    "conservative_usd": 0.0176175,
+    "completed_utc": "2026-11-20T05:23:34.020Z"
+  },
+  {
+    "stage": "evaluation",
+    "job": {
+      "shot_id": "128057_1_58729",
+      "match_id": "128057",
+      "image": "results/soccertrack_extensive_v1/frames/128057_1_58729.png",
+      "sha256": "9497d0c3b5f81a911ee1a81d7344b4ac1dc1a4b22c91f44289754e12268ef9ce",
+      "arm": "shuffled_outcome16"
+    },
+    "state": "completed",
+    "request_sha256": "09e26065dfda0743ef01d14780bb451ba107d7a10ff3ec1250a3814644ba80d0",
+    "input_bound": 7926,
+    "reserved_usd": 0.030055,
+    "started_utc": "2026-11-20T05:23:27.409Z",
+    "response_file": "evaluation/responses/128057_1_58729_shuffled_outcome16.json",
+    "usage": {
+      "input_tokens": 6902,
+      "input_tokens_details": {
+        "cache_write_tokens": 6899,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 6899
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 39,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 6941
+    },
+    "answer": {
+      "xg": 0.06,
+      "reason": "The attack appears to be outside the penalty area, with defenders nearby and no clear close-range opening."
+    },
+    "returned_model": "gpt-6.2-sol",
+    "estimated_usd": 0.014194,
+    "conservative_usd": 0.017645,
+    "completed_utc": "2026-11-20T05:23:33.883Z"
+  },
+  {
+    "stage": "evaluation",
+    "job": {
+      "shot_id": "128057_1_58729",
+      "match_id": "128057",
+      "image": "results/soccertrack_extensive_v1/frames/128057_1_58729.png",
+      "sha256": "9497d0c3b5f81a911ee1a81d7344b4ac1dc1a4b22c91f44289754e12268ef9ce",
+      "arm": "outcome16"
+    },
+    "state": "completed",
+    "request_sha256": "6fc76e90bd1729deae36252d2912d9fbe219a1047fe3b1ab6648bd94774e7843",
+    "input_bound": 7926,
+    "reserved_usd": 0.030055,
+    "started_utc": "2026-11-20T05:23:27.761Z",
+    "response_file": "evaluation/responses/128057_1_58729_outcome16.json",
+    "usage": {
+      "input_tokens": 6902,
+      "input_tokens_details": {
+        "cache_write_tokens": 6899,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 6899
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 37,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 6939
+    },
+    "answer": {
+      "xg": 0.05,
+      "reason": "The attack appears to be outside the penalty area with defenders still between the shooter and goal."
+    },
+    "returned_model": "gpt-6.2-sol",
+    "estimated_usd": 0.014174,
+    "conservative_usd": 0.017625,
+    "completed_utc": "2026-11-20T05:23:34.230Z"
+  },
+  {
+    "stage": "evaluation",
+    "job": {
+      "shot_id": "128057_1_58729",
+      "match_id": "128057",
+      "image": "results/soccertrack_extensive_v1/frames/128057_1_58729.png",
+      "sha256": "9497d0c3b5f81a911ee1a81d7344b4ac1dc1a4b22c91f44289754e12268ef9ce",
+      "arm": "shuffled_teacher16"
+    },
+    "state": "completed",
+    "request_sha256": "5e826a4d6e6bdcfc11d7dd440a03ce5e007968a1f4ccdc8bcb2a8f644616439a",
+    "input_bound": 7915,
+    "reserved_usd": 0.0300275,
+    "started_utc": "2026-11-20T05:23:27.771Z",
+    "response_file": "evaluation/responses/128057_1_58729_shuffled_teacher16.json",
+    "usage": {
+      "input_tokens": 6891,
+      "input_tokens_details": {
+        "cache_write_tokens": 6888,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 6888
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 39,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 6930
+    },
+    "answer": {
+      "xg": 0.058,
+      "reason": "The attack is still outside the penalty area, making this a low-probability effort from distance."
+    },
+    "returned_model": "gpt-6.2-sol",
+    "estimated_usd": 0.014172,
+    "conservative_usd": 0.0176175,
+    "completed_utc": "2026-11-20T05:23:34.530Z"
+  },
+  {
+    "stage": "evaluation",
+    "job": {
+      "shot_id": "117093_2_23727",
+      "match_id": "117093",
+      "image": "results/soccertrack_extensive_v1/frames/117093_2_23727.png",
+      "sha256": "c4304490a24e706807e4ac16e65f65e88a245630f9099a4157d86b709463b691",
+      "arm": "outcome8"
+    },
+    "state": "completed",
+    "request_sha256": "6fd5ed177b37479cc9c61f0743356c367ff0e56004e161182f72e753d11d6fe6",
+    "input_bound": 4988,
+    "reserved_usd": 0.02271,
+    "started_utc": "2026-11-20T05:23:37.386Z",
+    "response_file": "evaluation/responses/117093_2_23727_outcome8.json",
+    "usage": {
+      "input_tokens": 3964,
+      "input_tokens_details": {
+        "cache_write_tokens": 3961,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3961
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 41,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 4005
+    },
+    "answer": {
+      "xg": 0.16,
+      "reason": "The chance appears to come from close range, but the crowded goalmouth leaves little room for a clean finish."
+    },
+    "returned_model": "gpt-6.2-sol",
+    "estimated_usd": 0.008338,
+    "conservative_usd": 0.01032,
+    "completed_utc": "2026-11-20T05:23:43.721Z"
+  },
+  {
+    "stage": "evaluation",
+    "job": {
+      "shot_id": "117093_2_23727",
+      "match_id": "117093",
+      "image": "results/soccertrack_extensive_v1/frames/117093_2_23727.png",
+      "sha256": "c4304490a24e706807e4ac16e65f65e88a245630f9099a4157d86b709463b691",
+      "arm": "shuffled_teacher16"
+    },
+    "state": "completed",
+    "request_sha256": "52a459bdcf33de4449dd145481516d78d07f63e27444ff75bd82fd8b5b8e48e2",
+    "input_bound": 7915,
+    "reserved_usd": 0.0300275,
+    "started_utc": "2026-11-20T05:23:38.052Z",
+    "response_file": "evaluation/responses/117093_2_23727_shuffled_teacher16.json",
+    "usage": {
+      "input_tokens": 6891,
+      "input_tokens_details": {
+        "cache_write_tokens": 6888,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 6888
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 37,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 6928
+    },
+    "answer": {
+      "xg": 0.19,
+      "reason": "The chance appears close to goal, but the crowded six-yard area limits the shooting lane."
+    },
+    "returned_model": "gpt-6.2-sol",
+    "estimated_usd": 0.014152,
+    "conservative_usd": 0.0175975,
+    "completed_utc": "2026-11-20T05:23:44.425Z"
+  },
+  {
+    "stage": "evaluation",
+    "job": {
+      "shot_id": "117093_2_23727",
+      "match_id": "117093",
+      "image": "results/soccertrack_extensive_v1/frames/117093_2_23727.png",
+      "sha256": "c4304490a24e706807e4ac16e65f65e88a245630f9099a4157d86b709463b691",
+      "arm": "shuffled_outcome16"
+    },
+    "state": "completed",
+    "request_sha256": "aaa5f4611ebdbf54e0c7704317d67694e18ae60f874fe91d00fcc2efe8fa9e6a",
+    "input_bound": 7926,
+    "reserved_usd": 0.030055,
+    "started_utc": "2026-11-20T05:23:38.181Z",
+    "response_file": "evaluation/responses/117093_2_23727_shuffled_outcome16.json",
+    "usage": {
+      "input_tokens": 6902,
+      "input_tokens_details": {
+        "cache_write_tokens": 6899,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 6899
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 39,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 6941
+    },
+    "answer": {
+      "xg": 0.13,
+      "reason": "The chance appears to be close to goal, but the crowded goalmouth limits the clear shooting lanes."
+    },
+    "returned_model": "gpt-6.2-sol",
+    "estimated_usd": 0.014194,
+    "conservative_usd": 0.017645,
+    "completed_utc": "2026-11-20T05:23:44.229Z"
+  },
+  {
+    "stage": "evaluation",
+    "job": {
+      "shot_id": "117093_2_23727",
+      "match_id": "117093",
+      "image": "results/soccertrack_extensive_v1/frames/117093_2_23727.png",
+      "sha256": "c4304490a24e706807e4ac16e65f65e88a245630f9099a4157d86b709463b691",
+      "arm": "zero"
+    },
+    "state": "completed",
+    "request_sha256": "7a5d289d14bcc96858307b7f436e259a58c8f4c8f631256b3c4d278dd09de396",
+    "input_bound": 1904,
+    "reserved_usd": 0.015,
+    "started_utc": "2026-11-20T05:23:37.131Z",
+    "response_file": "evaluation/responses/117093_2_23727_zero.json",
+    "usage": {
+      "input_tokens": 880,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 0
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 39,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 919
+    },
+    "answer": {
+      "xg": 0.11,
+      "reason": "The chance appears close to goal, but the crowded goalmouth leaves little room for a clean finish."
+    },
+    "returned_model": "gpt-6.2-sol",
+    "estimated_usd": 0.00215,
+    "conservative_usd": 0.00259,
+    "completed_utc": "2026-11-20T05:23:42.991Z"
+  },
+  {
+    "stage": "evaluation",
+    "job": {
+      "shot_id": "117093_2_23727",
+      "match_id": "117093",
+      "image": "results/soccertrack_extensive_v1/frames/117093_2_23727.png",
+      "sha256": "c4304490a24e706807e4ac16e65f65e88a245630f9099a4157d86b709463b691",
+      "arm": "outcome16"
+    },
+    "state": "completed",
+    "request_sha256": "7f3a5c2643d7321d23b6d831558b458d8239f787a1b721eb23a1b99e1a363e34",
+    "input_bound": 7926,
+    "reserved_usd": 0.030055,
+    "started_utc": "2026-11-20T05:23:38.336Z",
+    "response_file": "evaluation/responses/117093_2_23727_outcome16.json",
+    "usage": {
+      "input_tokens": 6902,
+      "input_tokens_details": {
+        "cache_write_tokens": 6899,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 6899
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 37,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 6939
+    },
+    "answer": {
+      "xg": 0.16,
+      "reason": "The chance appears close to goal, but the crowded goalmouth limits the available shooting lanes."
+    },
+    "returned_model": "gpt-6.2-sol",
+    "estimated_usd": 0.014174,
+    "conservative_usd": 0.017625,
+    "completed_utc": "2026-11-20T05:23:44.503Z"
+  },
+  {
+    "stage": "evaluation",
+    "job": {
+      "shot_id": "117093_2_23727",
+      "match_id": "117093",
+      "image": "results/soccertrack_extensive_v1/frames/117093_2_23727.png",
+      "sha256": "c4304490a24e706807e4ac16e65f65e88a245630f9099a4157d86b709463b691",
+      "arm": "teacher16"
+    },
+    "state": "completed",
+    "request_sha256": "fcc5175d5f19eb0da55a4e4edda7fee001cc5dc85c8e7d56f4a1cfb419d56293",
+    "input_bound": 7915,
+    "reserved_usd": 0.0300275,
+    "started_utc": "2026-11-20T05:23:38.158Z",
+    "response_file": "evaluation/responses/117093_2_23727_teacher16.json",
+    "usage": {
+      "input_tokens": 6891,
+      "input_tokens_details": {
+        "cache_write_tokens": 6888,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 6888
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 36,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 6927
+    },
+    "answer": {
+      "xg": 0.13,
+      "reason": "The chance appears to come from close range, but several defenders crowd the goalmouth."
+    },
+    "returned_model": "gpt-6.2-sol",
+    "estimated_usd": 0.014142,
+    "conservative_usd": 0.0175875,
+    "completed_utc": "2026-11-20T05:23:44.204Z"
+  },
+  {
+    "stage": "evaluation",
+    "job": {
+      "shot_id": "118576_1_9158",
+      "match_id": "118576",
+      "image": "results/soccertrack_extensive_v1/frames/118576_1_9158.png",
+      "sha256": "f3105c8c9fb054dc9b462ac1f0687c89e51d3e0b4d060dd4353721e4bd526daf",
+      "arm": "outcome16"
+    },
+    "state": "completed",
+    "request_sha256": "ac49f906aea152ed7ee4dd6717774d3614070a3049c5540d46c9eb3d058267a1",
+    "input_bound": 7926,
+    "reserved_usd": 0.030055,
+    "started_utc": "2026-11-20T05:23:48.267Z",
+    "response_file": "evaluation/responses/118576_1_9158_outcome16.json",
+    "usage": {
+      "input_tokens": 6902,
+      "input_tokens_details": {
+        "cache_write_tokens": 6899,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 6899
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 39,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 6941
+    },
+    "answer": {
+      "xg": 0.14,
+      "reason": "The chance appears to come from close range, but the crowded goalmouth limits the clear shooting lanes."
+    },
+    "returned_model": "gpt-6.2-sol",
+    "estimated_usd": 0.014194,
+    "conservative_usd": 0.017645,
+    "completed_utc": "2026-11-20T05:23:54.217Z"
+  },
+  {
+    "stage": "evaluation",
+    "job": {
+      "shot_id": "118576_1_9158",
+      "match_id": "118576",
+      "image": "results/soccertrack_extensive_v1/frames/118576_1_9158.png",
+      "sha256": "f3105c8c9fb054dc9b462ac1f0687c89e51d3e0b4d060dd4353721e4bd526daf",
+      "arm": "shuffled_teacher16"
+    },
+    "state": "completed",
+    "request_sha256": "a5827a771f451a17aec708dc9f716723a4d9a41ff9d1511b7ded334fa081e08e",
+    "input_bound": 7915,
+    "reserved_usd": 0.0300275,
+    "started_utc": "2026-11-20T05:23:48.110Z",
+    "response_file": "evaluation/responses/118576_1_9158_shuffled_teacher16.json",
+    "usage": {
+      "input_tokens": 6891,
+      "input_tokens_details": {
+        "cache_write_tokens": 6888,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 6888
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 37,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 6928
+    },
+    "answer": {
+      "xg": 0.17,
+      "reason": "The chance appears close to goal, but the crowded goalmouth limits the available shooting lanes."
+    },
+    "returned_model": "gpt-6.2-sol",
+    "estimated_usd": 0.014152,
+    "conservative_usd": 0.0175975,
+    "completed_utc": "2026-11-20T05:23:54.417Z"
+  },
+  {
+    "stage": "evaluation",
+    "job": {
+      "shot_id": "118576_1_9158",
+      "match_id": "118576",
+      "image": "results/soccertrack_extensive_v1/frames/118576_1_9158.png",
+      "sha256": "f3105c8c9fb054dc9b462ac1f0687c89e51d3e0b4d060dd4353721e4bd526daf",
+      "arm": "shuffled_outcome16"
+    },
+    "state": "completed",
+    "request_sha256": "ed9e4426edf23bbd525d5b47fa0cdbd33a78e6fd7fec6a4d49e947186df98da0",
+    "input_bound": 7926,
+    "reserved_usd": 0.030055,
+    "started_utc": "2026-11-20T05:23:47.763Z",
+    "response_file": "evaluation/responses/118576_1_9158_shuffled_outcome16.json",
+    "usage": {
+      "input_tokens": 6902,
+      "input_tokens_details": {
+        "cache_write_tokens": 6899,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 6899
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 38,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 6940
+    },
+    "answer": {
+      "xg": 0.17,
+      "reason": "The chance appears close to the left goal, but the crowded goalmouth limits the shooting lane."
+    },
+    "returned_model": "gpt-6.2-sol",
+    "estimated_usd": 0.014184,
+    "conservative_usd": 0.017635,
+    "completed_utc": "2026-11-20T05:23:54.569Z"
+  },
+  {
+    "stage": "evaluation",
+    "job": {
+      "shot_id": "118576_1_9158",
+      "match_id": "118576",
+      "image": "results/soccertrack_extensive_v1/frames/118576_1_9158.png",
+      "sha256": "f3105c8c9fb054dc9b462ac1f0687c89e51d3e0b4d060dd4353721e4bd526daf",
+      "arm": "zero"
+    },
+    "state": "completed",
+    "request_sha256": "b5d7906a5729bea787f650eb5f3282f6211ea72d687672ae283a907d7bbd7557",
+    "input_bound": 1904,
+    "reserved_usd": 0.015,
+    "started_utc": "2026-11-20T05:23:46.554Z",
+    "response_file": "evaluation/responses/118576_1_9158_zero.json",
+    "usage": {
+      "input_tokens": 880,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 0
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 38,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 918
+    },
+    "answer": {
+      "xg": 0.11,
+      "reason": "The chance appears to be close to goal, but the crowded goalmouth limits the shooting lanes."
+    },
+    "returned_model": "gpt-6.2-sol",
+    "estimated_usd": 0.00214,
+    "conservative_usd": 0.00258,
+    "completed_utc": "2026-11-20T05:23:52.931Z"
+  },
+  {
+    "stage": "evaluation",
+    "job": {
+      "shot_id": "118576_1_9158",
+      "match_id": "118576",
+      "image": "results/soccertrack_extensive_v1/frames/118576_1_9158.png",
+      "sha256": "f3105c8c9fb054dc9b462ac1f0687c89e51d3e0b4d060dd4353721e4bd526daf",
+      "arm": "outcome8"
+    },
+    "state": "completed",
+    "request_sha256": "014284eb9934ea1dff67ca39eae33de376d54c103c1aa016216ed7b7abbb042d",
+    "input_bound": 4988,
+    "reserved_usd": 0.02271,
+    "started_utc": "2026-11-20T05:23:47.143Z",
+    "response_file": "evaluation/responses/118576_1_9158_outcome8.json",
+    "usage": {
+      "input_tokens": 3964,
+      "input_tokens_details": {
+        "cache_write_tokens": 3961,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3961
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 39,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 4003
+    },
+    "answer": {
+      "xg": 0.14,
+      "reason": "The chance appears to be close to goal, but the crowded goalmouth limits the clear shooting lanes."
+    },
+    "returned_model": "gpt-6.2-sol",
+    "estimated_usd": 0.008318,
+    "conservative_usd": 0.0103,
+    "completed_utc": "2026-11-20T05:23:53.009Z"
+  },
+  {
+    "stage": "evaluation",
+    "job": {
+      "shot_id": "118576_1_9158",
+      "match_id": "118576",
+      "image": "results/soccertrack_extensive_v1/frames/118576_1_9158.png",
+      "sha256": "f3105c8c9fb054dc9b462ac1f0687c89e51d3e0b4d060dd4353721e4bd526daf",
+      "arm": "teacher16"
+    },
+    "state": "completed",
+    "request_sha256": "3dd838c6cb5322d9bdfcd5fd817d76b69b70a728a137503a4f40e9845d437530",
+    "input_bound": 7915,
+    "reserved_usd": 0.0300275,
+    "started_utc": "2026-11-20T05:23:47.858Z",
+    "response_file": "evaluation/responses/118576_1_9158_teacher16.json",
+    "usage": {
+      "input_tokens": 6891,
+      "input_tokens_details": {
+        "cache_write_tokens": 6888,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 6888
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 39,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 6930
+    },
+    "answer": {
+      "xg": 0.19,
+      "reason": "The chance appears to come from close range, but the crowded goalmouth limits the clear shooting lanes."
+    },
+    "returned_model": "gpt-6.2-sol",
+    "estimated_usd": 0.014172,
+    "conservative_usd": 0.0176175,
+    "completed_utc": "2026-11-20T05:23:53.875Z"
+  },
+  {
+    "stage": "evaluation",
+    "job": {
+      "shot_id": "132831_1_53195",
+      "match_id": "132831",
+      "image": "results/soccertrack_sol_v1/frames/132831_1_53195.png",
+      "sha256": "e09ffdea12f194dcb33365f05630cd3323f599aa89a312f7ab2af3a523c23c54",
+      "arm": "outcome16"
+    },
+    "state": "completed",
+    "request_sha256": "58cbafc566e5c82d33132c5a36e284d25e8166d7b3e158345d0f05f5b84e4f9c",
+    "input_bound": 8272,
+    "reserved_usd": 0.03092,
+    "started_utc": "2026-11-20T05:23:58.195Z",
+    "response_file": "evaluation/responses/132831_1_53195_outcome16.json",
+    "usage": {
+      "input_tokens": 7248,
+      "input_tokens_details": {
+        "cache_write_tokens": 7245,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 7245
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 42,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 7290
+    },
+    "answer": {
+      "xg": 0.14,
+      "reason": "The chance appears to come from inside the box, but the goalkeeper is set and several defenders crowd the shooting lane."
+    },
+    "returned_model": "gpt-6.2-sol",
+    "estimated_usd": 0.014916,
+    "conservative_usd": 0.01854,
+    "completed_utc": "2026-11-20T05:24:05.474Z"
+  },
+  {
+    "stage": "evaluation",
+    "job": {
+      "shot_id": "132831_1_53195",
+      "match_id": "132831",
+      "image": "results/soccertrack_sol_v1/frames/132831_1_53195.png",
+      "sha256": "e09ffdea12f194dcb33365f05630cd3323f599aa89a312f7ab2af3a523c23c54",
+      "arm": "zero"
+    },
+    "state": "completed",
+    "request_sha256": "81460fa302eef6490dc841a3f910f6fd9dec313e685abeef48cd07580c72aa5b",
+    "input_bound": 2250,
+    "reserved_usd": 0.015865,
+    "started_utc": "2026-11-20T05:23:56.654Z",
+    "response_file": "evaluation/responses/132831_1_53195_zero.json",
+    "usage": {
+      "input_tokens": 1226,
+      "input_tokens_details": {
+        "cache_write_tokens": 1223,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1223
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 39,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1265
+    },
+    "answer": {
+      "xg": 0.17,
+      "reason": "The chance appears to be from close range but at a tight angle, with the goalkeeper well placed."
+    },
+    "returned_model": "gpt-6.2-sol",
+    "estimated_usd": 0.002842,
+    "conservative_usd": 0.003455,
+    "completed_utc": "2026-11-20T05:24:03.299Z"
+  },
+  {
+    "stage": "evaluation",
+    "job": {
+      "shot_id": "132831_1_53195",
+      "match_id": "132831",
+      "image": "results/soccertrack_sol_v1/frames/132831_1_53195.png",
+      "sha256": "e09ffdea12f194dcb33365f05630cd3323f599aa89a312f7ab2af3a523c23c54",
+      "arm": "outcome8"
+    },
+    "state": "completed",
+    "request_sha256": "eccfeaffa4900bb56524d8e0ff565edd1bfe22c03db5ab9a73e8182a2792049b",
+    "input_bound": 5334,
+    "reserved_usd": 0.023575,
+    "started_utc": "2026-11-20T05:23:57.205Z",
+    "response_file": "evaluation/responses/132831_1_53195_outcome8.json",
+    "usage": {
+      "input_tokens": 4310,
+      "input_tokens_details": {
+        "cache_write_tokens": 4307,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 4307
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 40,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 4350
+    },
+    "answer": {
+      "xg": 0.12,
+      "reason": "The chance appears to come from inside the box, but nearby defenders and a set goalkeeper limit the opening."
+    },
+    "returned_model": "gpt-6.2-sol",
+    "estimated_usd": 0.00902,
+    "conservative_usd": 0.011175,
+    "completed_utc": "2026-11-20T05:24:04.516Z"
+  },
+  {
+    "stage": "evaluation",
+    "job": {
+      "shot_id": "132831_1_53195",
+      "match_id": "132831",
+      "image": "results/soccertrack_sol_v1/frames/132831_1_53195.png",
+      "sha256": "e09ffdea12f194dcb33365f05630cd3323f599aa89a312f7ab2af3a523c23c54",
+      "arm": "teacher16"
+    },
+    "state": "completed",
+    "request_sha256": "0b59a28a74aa00507aa4f04a5915368c17feedc0b0ee74d95dda8f055099070a",
+    "input_bound": 8261,
+    "reserved_usd": 0.0308925,
+    "started_utc": "2026-11-20T05:23:58.645Z",
+    "response_file": "evaluation/responses/132831_1_53195_teacher16.json",
+    "usage": {
+      "input_tokens": 7237,
+      "input_tokens_details": {
+        "cache_write_tokens": 7234,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 7234
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 40,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 7277
+    },
+    "answer": {
+      "xg": 0.13,
+      "reason": "The shot appears to come from inside the box, but nearby defenders and a set goalkeeper limit the opening."
+    },
+    "returned_model": "gpt-6.2-sol",
+    "estimated_usd": 0.014874,
+    "conservative_usd": 0.0184925,
+    "completed_utc": "2026-11-20T05:24:04.862Z"
+  },
+  {
+    "stage": "evaluation",
+    "job": {
+      "shot_id": "132831_1_53195",
+      "match_id": "132831",
+      "image": "results/soccertrack_sol_v1/frames/132831_1_53195.png",
+      "sha256": "e09ffdea12f194dcb33365f05630cd3323f599aa89a312f7ab2af3a523c23c54",
+      "arm": "shuffled_outcome16"
+    },
+    "state": "completed",
+    "request_sha256": "684b750ea294c7f98d48ea1b39ecab8cb96b08002e59279a6eaeb9773f6b8f4b",
+    "input_bound": 8272,
+    "reserved_usd": 0.03092,
+    "started_utc": "2026-11-20T05:23:58.594Z",
+    "response_file": "evaluation/responses/132831_1_53195_shuffled_outcome16.json",
+    "usage": {
+      "input_tokens": 7248,
+      "input_tokens_details": {
+        "cache_write_tokens": 7245,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 7245
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 42,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 7290
+    },
+    "answer": {
+      "xg": 0.12,
+      "reason": "The chance appears to come from inside the box, but defenders crowd the shooting lane and the goalkeeper is in position."
+    },
+    "returned_model": "gpt-6.2-sol",
+    "estimated_usd": 0.014916,
+    "conservative_usd": 0.01854,
+    "completed_utc": "2026-11-20T05:24:05.324Z"
+  },
+  {
+    "stage": "evaluation",
+    "job": {
+      "shot_id": "132831_1_53195",
+      "match_id": "132831",
+      "image": "results/soccertrack_sol_v1/frames/132831_1_53195.png",
+      "sha256": "e09ffdea12f194dcb33365f05630cd3323f599aa89a312f7ab2af3a523c23c54",
+      "arm": "shuffled_teacher16"
+    },
+    "state": "completed",
+    "request_sha256": "0e7f262df33cd214e06b7599dd6cd23b18e43548a2ac597f13a14f3ca21a19b7",
+    "input_bound": 8261,
+    "reserved_usd": 0.0308925,
+    "started_utc": "2026-11-20T05:23:58.359Z",
+    "response_file": "evaluation/responses/132831_1_53195_shuffled_teacher16.json",
+    "usage": {
+      "input_tokens": 7237,
+      "input_tokens_details": {
+        "cache_write_tokens": 7234,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 7234
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 40,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 7277
+    },
+    "answer": {
+      "xg": 0.16,
+      "reason": "The chance appears to come from inside the box, but nearby defenders and a set goalkeeper limit the opening."
+    },
+    "returned_model": "gpt-6.2-sol",
+    "estimated_usd": 0.014874,
+    "conservative_usd": 0.0184925,
+    "completed_utc": "2026-11-20T05:24:05.727Z"
+  },
+  {
+    "stage": "evaluation",
+    "job": {
+      "shot_id": "118577_2_7182",
+      "match_id": "118577",
+      "image": "results/soccertrack_extensive_v1/frames/118577_2_7182.png",
+      "sha256": "247c842a417e11eb43aad8236a40a23ba1b4730103b1d3adc5034db05c64f337",
+      "arm": "shuffled_teacher16"
+    },
+    "state": "completed",
+    "request_sha256": "0296f5c29d43b34b5a17969db1e9234bcfa871547d01957d7b648ee51462301d",
+    "input_bound": 7915,
+    "reserved_usd": 0.0300275,
+    "started_utc": "2026-11-20T05:24:09.483Z",
+    "response_file": "evaluation/responses/118577_2_7182_shuffled_teacher16.json",
+    "usage": {
+      "input_tokens": 6891,
+      "input_tokens_details": {
+        "cache_write_tokens": 6888,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 6888
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 39,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 6930
+    },
+    "answer": {
+      "xg": 0.18,
+      "reason": "The shot appears to come from inside the box, but the angle and nearby defenders limit the chance."
+    },
+    "returned_model": "gpt-6.2-sol",
+    "estimated_usd": 0.014172,
+    "conservative_usd": 0.0176175,
+    "completed_utc": "2026-11-20T05:24:15.966Z"
+  },
+  {
+    "stage": "evaluation",
+    "job": {
+      "shot_id": "118577_2_7182",
+      "match_id": "118577",
+      "image": "results/soccertrack_extensive_v1/frames/118577_2_7182.png",
+      "sha256": "247c842a417e11eb43aad8236a40a23ba1b4730103b1d3adc5034db05c64f337",
+      "arm": "outcome16"
+    },
+    "state": "completed",
+    "request_sha256": "b85a5d08fce714e8ef9f833a48baf9a20abdce0e51a12030154420254d51ff31",
+    "input_bound": 7926,
+    "reserved_usd": 0.030055,
+    "started_utc": "2026-11-20T05:24:09.390Z",
+    "response_file": "evaluation/responses/118577_2_7182_outcome16.json",
+    "usage": {
+      "input_tokens": 6902,
+      "input_tokens_details": {
+        "cache_write_tokens": 6899,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 6899
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 42,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 6944
+    },
+    "answer": {
+      "xg": 0.19,
+      "reason": "The shot appears to come from inside the box, but nearby defenders and an angled view of goal limit the chance."
+    },
+    "returned_model": "gpt-6.2-sol",
+    "estimated_usd": 0.014224,
+    "conservative_usd": 0.017675,
+    "completed_utc": "2026-11-20T05:24:15.741Z"
+  },
+  {
+    "stage": "evaluation",
+    "job": {
+      "shot_id": "118577_2_7182",
+      "match_id": "118577",
+      "image": "results/soccertrack_extensive_v1/frames/118577_2_7182.png",
+      "sha256": "247c842a417e11eb43aad8236a40a23ba1b4730103b1d3adc5034db05c64f337",
+      "arm": "teacher16"
+    },
+    "state": "completed",
+    "request_sha256": "6798ca01c26b4c7381acc2d9f9a766b50ae5bc9890c86aa4524a9bf243717d38",
+    "input_bound": 7915,
+    "reserved_usd": 0.0300275,
+    "started_utc": "2026-11-20T05:24:09.749Z",
+    "response_file": "evaluation/responses/118577_2_7182_teacher16.json",
+    "usage": {
+      "input_tokens": 6891,
+      "input_tokens_details": {
+        "cache_write_tokens": 6888,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 6888
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 41,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 6932
+    },
+    "answer": {
+      "xg": 0.22,
+      "reason": "The shot appears to come from inside the box, but nearby defenders and an off-center angle limit the chance."
+    },
+    "returned_model": "gpt-6.2-sol",
+    "estimated_usd": 0.014192,
+    "conservative_usd": 0.0176375,
+    "completed_utc": "2026-11-20T05:24:15.889Z"
+  },
+  {
+    "stage": "evaluation",
+    "job": {
+      "shot_id": "118577_2_7182",
+      "match_id": "118577",
+      "image": "results/soccertrack_extensive_v1/frames/118577_2_7182.png",
+      "sha256": "247c842a417e11eb43aad8236a40a23ba1b4730103b1d3adc5034db05c64f337",
+      "arm": "zero"
+    },
+    "state": "completed",
+    "request_sha256": "493c5b4194c39d89ea425ef2922075f15e1508b3fb7492b1c42067fb7c16c120",
+    "input_bound": 1904,
+    "reserved_usd": 0.015,
+    "started_utc": "2026-11-20T05:24:08.033Z",
+    "response_file": "evaluation/responses/118577_2_7182_zero.json",
+    "usage": {
+      "input_tokens": 880,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 0
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 43,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 923
+    },
+    "answer": {
+      "xg": 0.14,
+      "reason": "The shot appears to come from inside the box but at an angle, with defenders nearby and a narrow view of goal."
+    },
+    "returned_model": "gpt-6.2-sol",
+    "estimated_usd": 0.00219,
+    "conservative_usd": 0.00263,
+    "completed_utc": "2026-11-20T05:24:14.332Z"
+  },
+  {
+    "stage": "evaluation",
+    "job": {
+      "shot_id": "118577_2_7182",
+      "match_id": "118577",
+      "image": "results/soccertrack_extensive_v1/frames/118577_2_7182.png",
+      "sha256": "247c842a417e11eb43aad8236a40a23ba1b4730103b1d3adc5034db05c64f337",
+      "arm": "outcome8"
+    },
+    "state": "completed",
+    "request_sha256": "caec1b00b53417e7fbde1ed4d822e7bc4ba09cfbcafdce16a06bf21f9ef66d23",
+    "input_bound": 4988,
+    "reserved_usd": 0.02271,
+    "started_utc": "2026-11-20T05:24:08.731Z",
+    "response_file": "evaluation/responses/118577_2_7182_outcome8.json",
+    "usage": {
+      "input_tokens": 3964,
+      "input_tokens_details": {
+        "cache_write_tokens": 3961,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3961
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 38,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 4002
+    },
+    "answer": {
+      "xg": 0.14,
+      "reason": "The chance appears to be inside the box, but the angle and nearby defenders limit the opening."
+    },
+    "returned_model": "gpt-6.2-sol",
+    "estimated_usd": 0.008308,
+    "conservative_usd": 0.01029,
+    "completed_utc": "2026-11-20T05:24:14.834Z"
+  },
+  {
+    "stage": "evaluation",
+    "job": {
+      "shot_id": "118577_2_7182",
+      "match_id": "118577",
+      "image": "results/soccertrack_extensive_v1/frames/118577_2_7182.png",
+      "sha256": "247c842a417e11eb43aad8236a40a23ba1b4730103b1d3adc5034db05c64f337",
+      "arm": "shuffled_outcome16"
+    },
+    "state": "completed",
+    "request_sha256": "0e272e1adcd039cadbb9b231499975e62b0f73dc0f1faf02f2b7d4e8306afa10",
+    "input_bound": 7926,
+    "reserved_usd": 0.030055,
+    "started_utc": "2026-11-20T05:24:09.135Z",
+    "response_file": "evaluation/responses/118577_2_7182_shuffled_outcome16.json",
+    "usage": {
+      "input_tokens": 6902,
+      "input_tokens_details": {
+        "cache_write_tokens": 6899,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 6899
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 37,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 6939
+    },
+    "answer": {
+      "xg": 0.19,
+      "reason": "The chance appears close to goal, but the angle and nearby defenders limit the shooting window."
+    },
+    "returned_model": "gpt-6.2-sol",
+    "estimated_usd": 0.014174,
+    "conservative_usd": 0.017625,
+    "completed_utc": "2026-11-20T05:24:15.989Z"
+  },
+  {
+    "stage": "evaluation",
+    "job": {
+      "shot_id": "132831_1_9858",
+      "match_id": "132831",
+      "image": "results/soccertrack_extensive_v1/frames/132831_1_9858.png",
+      "sha256": "a761e8a1d861891a7d2c99cfacbe50184ef0d17d12563f64411f9214d749a7c9",
+      "arm": "teacher16"
+    },
+    "state": "completed",
+    "request_sha256": "d4f46d8de7769ffdecb1fcffec5476730c3115e46778ed0fd0c92493a35798b3",
+    "input_bound": 8261,
+    "reserved_usd": 0.0308925,
+    "started_utc": "2026-11-20T05:24:20.040Z",
+    "response_file": "evaluation/responses/132831_1_9858_teacher16.json",
+    "usage": {
+      "input_tokens": 7237,
+      "input_tokens_details": {
+        "cache_write_tokens": 7234,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 7234
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 38,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 7275
+    },
+    "answer": {
+      "xg": 0.075,
+      "reason": "The likely shooter is wide in the box, with a tight angle and a defender closing down."
+    },
+    "returned_model": "gpt-6.2-sol",
+    "estimated_usd": 0.014854,
+    "conservative_usd": 0.0184725,
+    "completed_utc": "2026-11-20T05:24:46.079Z"
+  },
+  {
+    "stage": "evaluation",
+    "job": {
+      "shot_id": "132831_1_9858",
+      "match_id": "132831",
+      "image": "results/soccertrack_extensive_v1/frames/132831_1_9858.png",
+      "sha256": "a761e8a1d861891a7d2c99cfacbe50184ef0d17d12563f64411f9214d749a7c9",
+      "arm": "outcome8"
+    },
+    "state": "completed",
+    "request_sha256": "fad4ea84391049c244b88978703604bf5311c1f0c45641ecc94a62a1700cc258",
+    "input_bound": 5334,
+    "reserved_usd": 0.023575,
+    "started_utc": "2026-11-20T05:24:19.380Z",
+    "response_file": "evaluation/responses/132831_1_9858_outcome8.json",
+    "usage": {
+      "input_tokens": 4310,
+      "input_tokens_details": {
+        "cache_write_tokens": 4307,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 4307
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 38,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 4348
+    },
+    "answer": {
+      "xg": 0.04,
+      "reason": "The ball is wide on the left, leaving a tight shooting angle with a defender closing down."
+    },
+    "returned_model": "gpt-6.2-sol",
+    "estimated_usd": 0.009,
+    "conservative_usd": 0.011155,
+    "completed_utc": "2026-11-20T05:24:25.639Z"
+  },
+  {
+    "stage": "evaluation",
+    "job": {
+      "shot_id": "132831_1_9858",
+      "match_id": "132831",
+      "image": "results/soccertrack_extensive_v1/frames/132831_1_9858.png",
+      "sha256": "a761e8a1d861891a7d2c99cfacbe50184ef0d17d12563f64411f9214d749a7c9",
+      "arm": "zero"
+    },
+    "state": "completed",
+    "request_sha256": "9f742988d816acce215d60466e881c27208bada115693373db93298846f53039",
+    "input_bound": 2250,
+    "reserved_usd": 0.015865,
+    "started_utc": "2026-11-20T05:24:18.450Z",
+    "response_file": "evaluation/responses/132831_1_9858_zero.json",
+    "usage": {
+      "input_tokens": 1226,
+      "input_tokens_details": {
+        "cache_write_tokens": 1223,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1223
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 39,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1265
+    },
+    "answer": {
+      "xg": 0.06,
+      "reason": "The attacker is wide in the box, with a tight angle to goal and a defender closing down."
+    },
+    "returned_model": "gpt-6.2-sol",
+    "estimated_usd": 0.002842,
+    "conservative_usd": 0.003455,
+    "completed_utc": "2026-11-20T05:24:25.305Z"
+  },
+  {
+    "stage": "evaluation",
+    "job": {
+      "shot_id": "132831_1_9858",
+      "match_id": "132831",
+      "image": "results/soccertrack_extensive_v1/frames/132831_1_9858.png",
+      "sha256": "a761e8a1d861891a7d2c99cfacbe50184ef0d17d12563f64411f9214d749a7c9",
+      "arm": "shuffled_teacher16"
+    },
+    "state": "completed",
+    "request_sha256": "9376acd233f604d21af49c478deee03a906b3ecc1a537ae0fe2fd1df81716676",
+    "input_bound": 8261,
+    "reserved_usd": 0.0308925,
+    "started_utc": "2026-11-20T05:24:19.475Z",
+    "response_file": "evaluation/responses/132831_1_9858_shuffled_teacher16.json",
+    "usage": {
+      "input_tokens": 7237,
+      "input_tokens_details": {
+        "cache_write_tokens": 7234,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 7234
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 39,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 7276
+    },
+    "answer": {
+      "xg": 0.08,
+      "reason": "The shooter appears to be wide in the box, with a tight angle and a defender closing down."
+    },
+    "returned_model": "gpt-6.2-sol",
+    "estimated_usd": 0.014864,
+    "conservative_usd": 0.0184825,
+    "completed_utc": "2026-11-20T05:24:26.560Z"
+  },
+  {
+    "stage": "evaluation",
+    "job": {
+      "shot_id": "132831_1_9858",
+      "match_id": "132831",
+      "image": "results/soccertrack_extensive_v1/frames/132831_1_9858.png",
+      "sha256": "a761e8a1d861891a7d2c99cfacbe50184ef0d17d12563f64411f9214d749a7c9",
+      "arm": "outcome16"
+    },
+    "state": "completed",
+    "request_sha256": "6bbaed3b4632c695f774b1d3e9fdf43df7cfdfd2a917d0232b263b2646f1f2f7",
+    "input_bound": 8272,
+    "reserved_usd": 0.03092,
+    "started_utc": "2026-11-20T05:24:19.969Z",
+    "response_file": "evaluation/responses/132831_1_9858_outcome16.json",
+    "usage": {
+      "input_tokens": 7248,
+      "input_tokens_details": {
+        "cache_write_tokens": 7245,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 7245
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 38,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 7286
+    },
+    "answer": {
+      "xg": 0.06,
+      "reason": "The shooter appears wide on the left, with a tight angle and a nearby defender closing down."
+    },
+    "returned_model": "gpt-6.2-sol",
+    "estimated_usd": 0.014876,
+    "conservative_usd": 0.0185,
+    "completed_utc": "2026-11-20T05:24:27.038Z"
+  },
+  {
+    "stage": "evaluation",
+    "job": {
+      "shot_id": "132831_1_9858",
+      "match_id": "132831",
+      "image": "results/soccertrack_extensive_v1/frames/132831_1_9858.png",
+      "sha256": "a761e8a1d861891a7d2c99cfacbe50184ef0d17d12563f64411f9214d749a7c9",
+      "arm": "shuffled_outcome16"
+    },
+    "state": "completed",
+    "request_sha256": "b4b7cacf41347d105bf75c0aed05f793abafbbb8d2b4b0db9201e83b1186721c",
+    "input_bound": 8272,
+    "reserved_usd": 0.03092,
+    "started_utc": "2026-11-20T05:24:19.398Z",
+    "response_file": "evaluation/responses/132831_1_9858_shuffled_outcome16.json",
+    "usage": {
+      "input_tokens": 7248,
+      "input_tokens_details": {
+        "cache_write_tokens": 7245,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 7245
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 36,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 7284
+    },
+    "answer": {
+      "xg": 0.06,
+      "reason": "The shooter appears wide on the left with a tight angle and a defender closing down."
+    },
+    "returned_model": "gpt-6.2-sol",
+    "estimated_usd": 0.014856,
+    "conservative_usd": 0.01848,
+    "completed_utc": "2026-11-20T05:24:27.210Z"
+  },
+  {
+    "stage": "evaluation",
+    "job": {
+      "shot_id": "117093_1_15033",
+      "match_id": "117093",
+      "image": "results/soccertrack_extensive_v1/frames/117093_1_15033.png",
+      "sha256": "0a4820829dae73329728a44dba48dc84ada9fd9c3d4ef9e65d23652df647aa3c",
+      "arm": "zero"
+    },
+    "state": "completed",
+    "request_sha256": "0d3a1bb0718d6a64e2e744321f918d95315d6befa651dc4fb6028f2d62a19539",
+    "input_bound": 1904,
+    "reserved_usd": 0.015,
+    "started_utc": "2026-11-20T05:24:48.657Z",
+    "response_file": "evaluation/responses/117093_1_15033_zero.json",
+    "usage": {
+      "input_tokens": 880,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 0
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 41,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 921
+    },
+    "answer": {
+      "xg": 0.05,
+      "reason": "The shot appears to come from near the edge of the box, with several defenders between the shooter and goal."
+    },
+    "returned_model": "gpt-6.2-sol",
+    "estimated_usd": 0.00217,
+    "conservative_usd": 0.00261,
+    "completed_utc": "2026-11-20T05:24:54.390Z"
+  },
+  {
+    "stage": "evaluation",
+    "job": {
+      "shot_id": "117093_1_15033",
+      "match_id": "117093",
+      "image": "results/soccertrack_extensive_v1/frames/117093_1_15033.png",
+      "sha256": "0a4820829dae73329728a44dba48dc84ada9fd9c3d4ef9e65d23652df647aa3c",
+      "arm": "outcome16"
+    },
+    "state": "completed",
+    "request_sha256": "f409a1be429a0698fb503875c47552fd2854111a87760d32e7bf52c1023d6b33",
+    "input_bound": 7926,
+    "reserved_usd": 0.030055,
+    "started_utc": "2026-11-20T05:24:50.046Z",
+    "response_file": "evaluation/responses/117093_1_15033_outcome16.json",
+    "usage": {
+      "input_tokens": 6902,
+      "input_tokens_details": {
+        "cache_write_tokens": 6899,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 6899
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 44,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 6946
+    },
+    "answer": {
+      "xg": 0.1,
+      "reason": "The shot appears to come from near the edge of the box, with defenders in the shooting lane and the goalkeeper in position."
+    },
+    "returned_model": "gpt-6.2-sol",
+    "estimated_usd": 0.014244,
+    "conservative_usd": 0.017695,
+    "completed_utc": "2026-11-20T05:24:56.768Z"
+  },
+  {
+    "stage": "evaluation",
+    "job": {
+      "shot_id": "117093_1_15033",
+      "match_id": "117093",
+      "image": "results/soccertrack_extensive_v1/frames/117093_1_15033.png",
+      "sha256": "0a4820829dae73329728a44dba48dc84ada9fd9c3d4ef9e65d23652df647aa3c",
+      "arm": "teacher16"
+    },
+    "state": "completed",
+    "request_sha256": "e73596031548ce3800f1df2011e8a386e796fef27c40172e02d3386906b43cae",
+    "input_bound": 7915,
+    "reserved_usd": 0.0300275,
+    "started_utc": "2026-11-20T05:24:49.654Z",
+    "response_file": "evaluation/responses/117093_1_15033_teacher16.json",
+    "usage": {
+      "input_tokens": 6891,
+      "input_tokens_details": {
+        "cache_write_tokens": 6888,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 6888
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 40,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 6931
+    },
+    "answer": {
+      "xg": 0.08,
+      "reason": "The shot appears to come from near the edge of the box, with defenders between the shooter and goal."
+    },
+    "returned_model": "gpt-6.2-sol",
+    "estimated_usd": 0.014182,
+    "conservative_usd": 0.0176275,
+    "completed_utc": "2026-11-20T05:24:55.704Z"
+  },
+  {
+    "stage": "evaluation",
+    "job": {
+      "shot_id": "117093_1_15033",
+      "match_id": "117093",
+      "image": "results/soccertrack_extensive_v1/frames/117093_1_15033.png",
+      "sha256": "0a4820829dae73329728a44dba48dc84ada9fd9c3d4ef9e65d23652df647aa3c",
+      "arm": "outcome8"
+    },
+    "state": "completed",
+    "request_sha256": "391e14b8a51711b99b51f241fa6631b880ef0c45b1e92b7ad85f3ec2f71e3d4b",
+    "input_bound": 4988,
+    "reserved_usd": 0.02271,
+    "started_utc": "2026-11-20T05:24:48.559Z",
+    "response_file": "evaluation/responses/117093_1_15033_outcome8.json",
+    "usage": {
+      "input_tokens": 3964,
+      "input_tokens_details": {
+        "cache_write_tokens": 3961,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3961
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 42,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 4006
+    },
+    "answer": {
+      "xg": 0.09,
+      "reason": "The shot appears to come from near the edge of the box, with defenders in the way and the goalkeeper set."
+    },
+    "returned_model": "gpt-6.2-sol",
+    "estimated_usd": 0.008348,
+    "conservative_usd": 0.01033,
+    "completed_utc": "2026-11-20T05:24:55.175Z"
+  },
+  {
+    "stage": "evaluation",
+    "job": {
+      "shot_id": "117093_1_15033",
+      "match_id": "117093",
+      "image": "results/soccertrack_extensive_v1/frames/117093_1_15033.png",
+      "sha256": "0a4820829dae73329728a44dba48dc84ada9fd9c3d4ef9e65d23652df647aa3c",
+      "arm": "shuffled_outcome16"
+    },
+    "state": "completed",
+    "request_sha256": "865de41710a8ac9dc280c031068eb9ec0857704135b2fa63ccc482580095a0bc",
+    "input_bound": 7926,
+    "reserved_usd": 0.030055,
+    "started_utc": "2026-11-20T05:24:50.184Z",
+    "response_file": "evaluation/responses/117093_1_15033_shuffled_outcome16.json",
+    "usage": {
+      "input_tokens": 6902,
+      "input_tokens_details": {
+        "cache_write_tokens": 6899,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 6899
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 43,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 6945
+    },
+    "answer": {
+      "xg": 0.08,
+      "reason": "The shot appears to come from near the edge of the box, with defenders in the shooting lane and the goalkeeper set."
+    },
+    "returned_model": "gpt-6.2-sol",
+    "estimated_usd": 0.014234,
+    "conservative_usd": 0.017685,
+    "completed_utc": "2026-11-20T05:24:56.156Z"
+  },
+  {
+    "stage": "evaluation",
+    "job": {
+      "shot_id": "117093_1_15033",
+      "match_id": "117093",
+      "image": "results/soccertrack_extensive_v1/frames/117093_1_15033.png",
+      "sha256": "0a4820829dae73329728a44dba48dc84ada9fd9c3d4ef9e65d23652df647aa3c",
+      "arm": "shuffled_teacher16"
+    },
+    "state": "completed",
+    "request_sha256": "fcf77d224df44d9eb88b80bd42b4c2ea96f20623e0eb556d691b12c9d639753c",
+    "input_bound": 7915,
+    "reserved_usd": 0.0300275,
+    "started_utc": "2026-11-20T05:24:50.033Z",
+    "response_file": "evaluation/responses/117093_1_15033_shuffled_teacher16.json",
+    "usage": {
+      "input_tokens": 6891,
+      "input_tokens_details": {
+        "cache_write_tokens": 6888,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 6888
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 41,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 6932
+    },
+    "answer": {
+      "xg": 0.09,
+      "reason": "The shot appears to come from near the edge of the box, with several defenders between the shooter and goal."
+    },
+    "returned_model": "gpt-6.2-sol",
+    "estimated_usd": 0.014192,
+    "conservative_usd": 0.0176375,
+    "completed_utc": "2026-11-20T05:24:56.073Z"
+  },
+  {
+    "stage": "evaluation",
+    "job": {
+      "shot_id": "118575_1_15795",
+      "match_id": "118575",
+      "image": "results/soccertrack_extensive_v1/frames/118575_1_15795.png",
+      "sha256": "881d6c2d4bb73a1765f574e742d2b9640c9cf09e1734b595e672af44569e28ba",
+      "arm": "shuffled_outcome16"
+    },
+    "state": "uncertain",
+    "request_sha256": "16dd280fd89ff61847b5540a9874abdcba7ee5712cf27a760575f3687c8fbbea",
+    "input_bound": 7926,
+    "reserved_usd": 0.030055,
+    "started_utc": "2026-11-20T05:25:00.530Z",
+    "response_file": "evaluation/responses/118575_1_15795_shuffled_outcome16.json",
+    "error": "API HTTP 429; no retry"
+  },
+  {
+    "stage": "evaluation",
+    "job": {
+      "shot_id": "118575_1_15795",
+      "match_id": "118575",
+      "image": "results/soccertrack_extensive_v1/frames/118575_1_15795.png",
+      "sha256": "881d6c2d4bb73a1765f574e742d2b9640c9cf09e1734b595e672af44569e28ba",
+      "arm": "zero"
+    },
+    "state": "uncertain",
+    "request_sha256": "4c56023850bdea5797eacfa2a2fd18aa431a845f3f5e3a6ac8bd6b080e3abff9",
+    "input_bound": 1904,
+    "reserved_usd": 0.015,
+    "started_utc": "2026-11-20T05:24:59.088Z",
+    "response_file": "evaluation/responses/118575_1_15795_zero.json",
+    "error": "API HTTP 429; no retry"
+  },
+  {
+    "stage": "evaluation",
+    "job": {
+      "shot_id": "118575_1_15795",
+      "match_id": "118575",
+      "image": "results/soccertrack_extensive_v1/frames/118575_1_15795.png",
+      "sha256": "881d6c2d4bb73a1765f574e742d2b9640c9cf09e1734b595e672af44569e28ba",
+      "arm": "outcome16"
+    },
+    "state": "uncertain",
+    "request_sha256": "7b2fd87a0f26fe4295e3cc24f638edbad6651969bba6f9ad988b3493185f6262",
+    "input_bound": 7926,
+    "reserved_usd": 0.030055,
+    "started_utc": "2026-11-20T05:25:00.434Z",
+    "response_file": "evaluation/responses/118575_1_15795_outcome16.json",
+    "error": "API HTTP 429; no retry"
+  },
+  {
+    "stage": "evaluation",
+    "job": {
+      "shot_id": "118575_1_15795",
+      "match_id": "118575",
+      "image": "results/soccertrack_extensive_v1/frames/118575_1_15795.png",
+      "sha256": "881d6c2d4bb73a1765f574e742d2b9640c9cf09e1734b595e672af44569e28ba",
+      "arm": "outcome8"
+    },
+    "state": "uncertain",
+    "request_sha256": "cc0a02c86d7b21a4158f017e8d28cc6e357460b36e4506903f0a64e8cf97b944",
+    "input_bound": 4988,
+    "reserved_usd": 0.02271,
+    "started_utc": "2026-11-20T05:24:59.138Z",
+    "response_file": "evaluation/responses/118575_1_15795_outcome8.json",
+    "error": "API HTTP 429; no retry"
+  },
+  {
+    "stage": "evaluation",
+    "job": {
+      "shot_id": "118575_1_15795",
+      "match_id": "118575",
+      "image": "results/soccertrack_extensive_v1/frames/118575_1_15795.png",
+      "sha256": "881d6c2d4bb73a1765f574e742d2b9640c9cf09e1734b595e672af44569e28ba",
+      "arm": "shuffled_teacher16"
+    },
+    "state": "uncertain",
+    "request_sha256": "d1199683c6fd1b5d8d2a23b9883d398988fad36b8ac47b7112ad266c23fec971",
+    "input_bound": 7915,
+    "reserved_usd": 0.0300275,
+    "started_utc": "2026-11-20T05:25:00.534Z",
+    "response_file": "evaluation/responses/118575_1_15795_shuffled_teacher16.json",
+    "error": "API HTTP 429; no retry"
+  },
+  {
+    "stage": "evaluation",
+    "job": {
+      "shot_id": "118575_1_15795",
+      "match_id": "118575",
+      "image": "results/soccertrack_extensive_v1/frames/118575_1_15795.png",
+      "sha256": "881d6c2d4bb73a1765f574e742d2b9640c9cf09e1734b595e672af44569e28ba",
+      "arm": "teacher16"
+    },
+    "state": "uncertain",
+    "request_sha256": "aacb5c207e55874015941b572caf1c9434fe8d3389459a6ab83ff3d2d0c90d83",
+    "input_bound": 7915,
+    "reserved_usd": 0.0300275,
+    "started_utc": "2026-11-20T05:25:00.290Z",
+    "response_file": "evaluation/responses/118575_1_15795_teacher16.json",
+    "error": "API HTTP 429; no retry"
+  }
+]

@@ -1,0 +1,4902 @@
+[
+  {
+    "job": {
+      "shot_id": "8544f235-c0ef-49f9-aa37-65397d0df6fa",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/8544f235-c0ef-49f9-aa37-65397d0df6fa.png",
+      "image_sha256": "7c7aa4abcb6b491e2fd45584c19373289f8aee25abb76b1a62566603bea7f34a"
+    },
+    "input_bound": 1455,
+    "state": "completed",
+    "response": "responses/0001.json",
+    "request_sha256": "70d226d43222725e86f5ae2b7aa818a7435f6ca8535eb7b7299eb5606ec4243f",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 46,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 477
+    }
+  },
+  {
+    "job": {
+      "shot_id": "8544f235-c0ef-49f9-aa37-65397d0df6fa",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/8544f235-c0ef-49f9-aa37-65397d0df6fa.png",
+      "image_sha256": "7c7aa4abcb6b491e2fd45584c19373289f8aee25abb76b1a62566603bea7f34a",
+      "logistic_probability": "0.133341"
+    },
+    "input_bound": 1588,
+    "state": "completed",
+    "response": "responses/0002.json",
+    "request_sha256": "0a1f0cff5b9e1bb4080d77e53ebee1bc8f85ee7adeb54c547de20c3c37af4881",
+    "usage": {
+      "input_tokens": 564,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 110,
+      "output_tokens_details": {
+        "reasoning_tokens": 66
+      },
+      "total_tokens": 674
+    }
+  },
+  {
+    "job": {
+      "shot_id": "4f841596-d4d0-40ea-9ed7-50e490b8ebde",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/4f841596-d4d0-40ea-9ed7-50e490b8ebde.png",
+      "image_sha256": "a391d951937a25c0f84d275ddbaf71a653c606e665448c1262dac628d46ae398"
+    },
+    "input_bound": 1455,
+    "state": "completed",
+    "response": "responses/0003.json",
+    "request_sha256": "a5328a353e4c21d94d0b6fd912f01e0f6bb5fb037e73761fc9a91ea3649cad8d",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 103,
+      "output_tokens_details": {
+        "reasoning_tokens": 55
+      },
+      "total_tokens": 534
+    }
+  },
+  {
+    "job": {
+      "shot_id": "4f841596-d4d0-40ea-9ed7-50e490b8ebde",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/4f841596-d4d0-40ea-9ed7-50e490b8ebde.png",
+      "image_sha256": "a391d951937a25c0f84d275ddbaf71a653c606e665448c1262dac628d46ae398",
+      "logistic_probability": "0.038756"
+    },
+    "input_bound": 1588,
+    "state": "completed",
+    "response": "responses/0004.json",
+    "request_sha256": "12b64caa157b79091c0fbc16f4a3bfbfbddaa08e1a8bdeb22214bc76df1a1daf",
+    "usage": {
+      "input_tokens": 564,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 107,
+      "output_tokens_details": {
+        "reasoning_tokens": 64
+      },
+      "total_tokens": 671
+    }
+  },
+  {
+    "job": {
+      "shot_id": "13196ba1-e6db-49e7-84d8-659d6f0b8ff2",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/13196ba1-e6db-49e7-84d8-659d6f0b8ff2.png",
+      "image_sha256": "f9d34325941c2c1b4a577cfcbc93a22eeb4dcd2bc6853e7d8d01a909af1a7a2f",
+      "logistic_probability": "0.033532"
+    },
+    "input_bound": 1588,
+    "state": "completed",
+    "response": "responses/0005.json",
+    "request_sha256": "df8594ec2ade242c8c171109a12565c052f7dbe3749a7b781ce92e87ed95c2e8",
+    "usage": {
+      "input_tokens": 564,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 111,
+      "output_tokens_details": {
+        "reasoning_tokens": 68
+      },
+      "total_tokens": 675
+    }
+  },
+  {
+    "job": {
+      "shot_id": "13196ba1-e6db-49e7-84d8-659d6f0b8ff2",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/13196ba1-e6db-49e7-84d8-659d6f0b8ff2.png",
+      "image_sha256": "f9d34325941c2c1b4a577cfcbc93a22eeb4dcd2bc6853e7d8d01a909af1a7a2f"
+    },
+    "input_bound": 1455,
+    "state": "completed",
+    "response": "responses/0006.json",
+    "request_sha256": "8ef489c067bd349896edd487f223e6a7359a278db46d154bf8a5818a48cf03af",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 89,
+      "output_tokens_details": {
+        "reasoning_tokens": 46
+      },
+      "total_tokens": 520
+    }
+  },
+  {
+    "job": {
+      "shot_id": "33c891ef-9a84-4856-b459-83cb64bb0472",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/33c891ef-9a84-4856-b459-83cb64bb0472.png",
+      "image_sha256": "1c5b469249891a7d0d08704e8464bf8b4cb0076775518875b8ffbc80b9b1b0bf",
+      "logistic_probability": "0.033685"
+    },
+    "input_bound": 1588,
+    "state": "completed",
+    "response": "responses/0007.json",
+    "request_sha256": "82b91338694cb8c6d1b87fd8d3ebbf961a50ebe2cb51eee00a2de5160ebf14b1",
+    "usage": {
+      "input_tokens": 564,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 148,
+      "output_tokens_details": {
+        "reasoning_tokens": 103
+      },
+      "total_tokens": 712
+    }
+  },
+  {
+    "job": {
+      "shot_id": "33c891ef-9a84-4856-b459-83cb64bb0472",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/33c891ef-9a84-4856-b459-83cb64bb0472.png",
+      "image_sha256": "1c5b469249891a7d0d08704e8464bf8b4cb0076775518875b8ffbc80b9b1b0bf"
+    },
+    "input_bound": 1455,
+    "state": "completed",
+    "response": "responses/0008.json",
+    "request_sha256": "61b0eae1b7803c1ae9d7d76c688c3dcceee147eeb7eaebc103c42330ee65fdda",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 94,
+      "output_tokens_details": {
+        "reasoning_tokens": 50
+      },
+      "total_tokens": 525
+    }
+  },
+  {
+    "job": {
+      "shot_id": "0a7a0500-6557-43eb-a582-22469fbb8f72",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/0a7a0500-6557-43eb-a582-22469fbb8f72.png",
+      "image_sha256": "aedb5f4e3fd36a9820a2e28829bd3e2aedd3c2152533506e7780774aa05bfc67",
+      "logistic_probability": "0.071040"
+    },
+    "input_bound": 1588,
+    "state": "completed",
+    "response": "responses/0009.json",
+    "request_sha256": "00c2dc177a5e00bd50071a39392617c047c479ffe2a2c43a833b92a69c882232",
+    "usage": {
+      "input_tokens": 564,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 103,
+      "output_tokens_details": {
+        "reasoning_tokens": 55
+      },
+      "total_tokens": 667
+    }
+  },
+  {
+    "job": {
+      "shot_id": "0a7a0500-6557-43eb-a582-22469fbb8f72",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/0a7a0500-6557-43eb-a582-22469fbb8f72.png",
+      "image_sha256": "aedb5f4e3fd36a9820a2e28829bd3e2aedd3c2152533506e7780774aa05bfc67"
+    },
+    "input_bound": 1455,
+    "state": "completed",
+    "response": "responses/0010.json",
+    "request_sha256": "dd8fedea52848fe7c2467db56858ebb7d1357a7ece8f6a6eca1f062a81aaf761",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 117,
+      "output_tokens_details": {
+        "reasoning_tokens": 66
+      },
+      "total_tokens": 548
+    }
+  },
+  {
+    "job": {
+      "shot_id": "5a015f03-9a74-43af-b323-d7aa4850ef6e",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/5a015f03-9a74-43af-b323-d7aa4850ef6e.png",
+      "image_sha256": "4127fb52eb0a58d86014d344adc1ea67e8c2220fda2284a1fb6b7845fc2e36af"
+    },
+    "input_bound": 1455,
+    "state": "completed",
+    "response": "responses/0011.json",
+    "request_sha256": "7404411be3d225f36fd4d0c47d2f7c3b9a2c435398bbe4f2c882b73e3669ce7e",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 114,
+      "output_tokens_details": {
+        "reasoning_tokens": 69
+      },
+      "total_tokens": 545
+    }
+  },
+  {
+    "job": {
+      "shot_id": "5a015f03-9a74-43af-b323-d7aa4850ef6e",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/5a015f03-9a74-43af-b323-d7aa4850ef6e.png",
+      "image_sha256": "4127fb52eb0a58d86014d344adc1ea67e8c2220fda2284a1fb6b7845fc2e36af",
+      "logistic_probability": "0.081836"
+    },
+    "input_bound": 1588,
+    "state": "completed",
+    "response": "responses/0012.json",
+    "request_sha256": "341994d50fad54730ddc289b7f666bd33347f4bf977634d2ac2b39ea4a5c6a09",
+    "usage": {
+      "input_tokens": 564,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 86,
+      "output_tokens_details": {
+        "reasoning_tokens": 41
+      },
+      "total_tokens": 650
+    }
+  },
+  {
+    "job": {
+      "shot_id": "ed901a24-4dc3-4bbd-9588-74b62fd3116e",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/ed901a24-4dc3-4bbd-9588-74b62fd3116e.png",
+      "image_sha256": "aecd20e79dba559b862836a1b285b9bf1ddb419ac8f56d8863e8785ffd0c1a9e"
+    },
+    "input_bound": 1455,
+    "state": "completed",
+    "response": "responses/0013.json",
+    "request_sha256": "bc98b89ff5b09ce206847bbb2706362ae38cb331362e832064c519bc901b1ff5",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 82,
+      "output_tokens_details": {
+        "reasoning_tokens": 40
+      },
+      "total_tokens": 513
+    }
+  },
+  {
+    "job": {
+      "shot_id": "ed901a24-4dc3-4bbd-9588-74b62fd3116e",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/ed901a24-4dc3-4bbd-9588-74b62fd3116e.png",
+      "image_sha256": "aecd20e79dba559b862836a1b285b9bf1ddb419ac8f56d8863e8785ffd0c1a9e",
+      "logistic_probability": "0.029423"
+    },
+    "input_bound": 1588,
+    "state": "completed",
+    "response": "responses/0014.json",
+    "request_sha256": "1bd70d7e0c824db570d17561f2687591f9a23a6176e0db1965a18a0f59185e0a",
+    "usage": {
+      "input_tokens": 564,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 93,
+      "output_tokens_details": {
+        "reasoning_tokens": 49
+      },
+      "total_tokens": 657
+    }
+  },
+  {
+    "job": {
+      "shot_id": "179367b7-3a00-4696-a4c1-b1431f17c781",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/179367b7-3a00-4696-a4c1-b1431f17c781.png",
+      "image_sha256": "cb6f9ff5f911a7c0595cf58101083c4929ea864ba3e3d81b2d3ca23803796ce1"
+    },
+    "input_bound": 1455,
+    "state": "completed",
+    "response": "responses/0015.json",
+    "request_sha256": "ca1af0e7c90338d3742c3bc74c4ff7a41cac697ad8989cffb8d859b94bf80afb",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 105,
+      "output_tokens_details": {
+        "reasoning_tokens": 62
+      },
+      "total_tokens": 536
+    }
+  },
+  {
+    "job": {
+      "shot_id": "179367b7-3a00-4696-a4c1-b1431f17c781",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/179367b7-3a00-4696-a4c1-b1431f17c781.png",
+      "image_sha256": "cb6f9ff5f911a7c0595cf58101083c4929ea864ba3e3d81b2d3ca23803796ce1",
+      "logistic_probability": "0.321693"
+    },
+    "input_bound": 1588,
+    "state": "completed",
+    "response": "responses/0016.json",
+    "request_sha256": "be7c67d5bfc0909302cb8faa09b2c62a58f96e3b2f257715de252053a2f6784e",
+    "usage": {
+      "input_tokens": 564,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 101,
+      "output_tokens_details": {
+        "reasoning_tokens": 55
+      },
+      "total_tokens": 665
+    }
+  },
+  {
+    "job": {
+      "shot_id": "3dbf3180-8661-41b1-89c1-7c27bb89e508",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/3dbf3180-8661-41b1-89c1-7c27bb89e508.png",
+      "image_sha256": "dd5d1d26e6eb56cd578dc204de2e24a55c30a6299e802dc96eb17158f02b9daf",
+      "logistic_probability": "0.023264"
+    },
+    "input_bound": 1588,
+    "state": "completed",
+    "response": "responses/0017.json",
+    "request_sha256": "6c0ed316e92801bc2b149f28e7c2348967a625767590b04615e3dd725186a381",
+    "usage": {
+      "input_tokens": 564,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 81,
+      "output_tokens_details": {
+        "reasoning_tokens": 34
+      },
+      "total_tokens": 645
+    }
+  },
+  {
+    "job": {
+      "shot_id": "3dbf3180-8661-41b1-89c1-7c27bb89e508",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/3dbf3180-8661-41b1-89c1-7c27bb89e508.png",
+      "image_sha256": "dd5d1d26e6eb56cd578dc204de2e24a55c30a6299e802dc96eb17158f02b9daf"
+    },
+    "input_bound": 1455,
+    "state": "completed",
+    "response": "responses/0018.json",
+    "request_sha256": "87ff76f3638ea57ed0f8b2b612cee6a9a51902fc50f5fee08a71f884db84d56d",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 92,
+      "output_tokens_details": {
+        "reasoning_tokens": 48
+      },
+      "total_tokens": 523
+    }
+  },
+  {
+    "job": {
+      "shot_id": "120cfcfb-5db7-4035-a290-7dfd81abe811",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/120cfcfb-5db7-4035-a290-7dfd81abe811.png",
+      "image_sha256": "afd9399cdcdc2140505c8b3994c997b680b527bf2b56d1f84e191548189bf454",
+      "logistic_probability": "0.029820"
+    },
+    "input_bound": 1588,
+    "state": "completed",
+    "response": "responses/0019.json",
+    "request_sha256": "e69b141289cf829c3971f824cff628bf79bf5e1c2dfef88a337276c3030c71fa",
+    "usage": {
+      "input_tokens": 564,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 63,
+      "output_tokens_details": {
+        "reasoning_tokens": 23
+      },
+      "total_tokens": 627
+    }
+  },
+  {
+    "job": {
+      "shot_id": "120cfcfb-5db7-4035-a290-7dfd81abe811",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/120cfcfb-5db7-4035-a290-7dfd81abe811.png",
+      "image_sha256": "afd9399cdcdc2140505c8b3994c997b680b527bf2b56d1f84e191548189bf454"
+    },
+    "input_bound": 1455,
+    "state": "completed",
+    "response": "responses/0020.json",
+    "request_sha256": "61704bc8747fba0a57b1e2d230a92f595aa9a1132e6e7ed7bb657482d02603c6",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 88,
+      "output_tokens_details": {
+        "reasoning_tokens": 44
+      },
+      "total_tokens": 519
+    }
+  },
+  {
+    "job": {
+      "shot_id": "4fef020d-21b9-465a-b793-26b2e386e779",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/4fef020d-21b9-465a-b793-26b2e386e779.png",
+      "image_sha256": "19b84944107ac3f2477ad96af46569b047734d2827902304e90116d8eac4a5e9",
+      "logistic_probability": "0.089952"
+    },
+    "input_bound": 1588,
+    "state": "completed",
+    "response": "responses/0021.json",
+    "request_sha256": "a1303d12424aea64a5d7454df8381469f424aa860a601fc8d81100fa54c3115e",
+    "usage": {
+      "input_tokens": 564,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 86,
+      "output_tokens_details": {
+        "reasoning_tokens": 39
+      },
+      "total_tokens": 650
+    }
+  },
+  {
+    "job": {
+      "shot_id": "4fef020d-21b9-465a-b793-26b2e386e779",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/4fef020d-21b9-465a-b793-26b2e386e779.png",
+      "image_sha256": "19b84944107ac3f2477ad96af46569b047734d2827902304e90116d8eac4a5e9"
+    },
+    "input_bound": 1455,
+    "state": "completed",
+    "response": "responses/0022.json",
+    "request_sha256": "65c40591d806944fc92a6e278f8c2207f63e257dcb31f05c5377361d2eee1694",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 116,
+      "output_tokens_details": {
+        "reasoning_tokens": 71
+      },
+      "total_tokens": 547
+    }
+  },
+  {
+    "job": {
+      "shot_id": "800279c5-2275-469f-b2c3-4836fb731efa",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/800279c5-2275-469f-b2c3-4836fb731efa.png",
+      "image_sha256": "59dd2ece761f169b18c919db30cccff6e9c35dee26ed55e2d375f7413dc8ee34"
+    },
+    "input_bound": 1455,
+    "state": "completed",
+    "response": "responses/0023.json",
+    "request_sha256": "747b5127e9d0bd0ccbd8077a523c5231093d32b0e193bd38aab0e00ffa416942",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 109,
+      "output_tokens_details": {
+        "reasoning_tokens": 63
+      },
+      "total_tokens": 540
+    }
+  },
+  {
+    "job": {
+      "shot_id": "800279c5-2275-469f-b2c3-4836fb731efa",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/800279c5-2275-469f-b2c3-4836fb731efa.png",
+      "image_sha256": "59dd2ece761f169b18c919db30cccff6e9c35dee26ed55e2d375f7413dc8ee34",
+      "logistic_probability": "0.157983"
+    },
+    "input_bound": 1588,
+    "state": "completed",
+    "response": "responses/0024.json",
+    "request_sha256": "1985ebe883c89112bd05e58afdcac1ff237ddfe7d68b8bcbbb2669d42e54c2cb",
+    "usage": {
+      "input_tokens": 564,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 109,
+      "output_tokens_details": {
+        "reasoning_tokens": 64
+      },
+      "total_tokens": 673
+    }
+  },
+  {
+    "job": {
+      "shot_id": "2dbec2a7-410c-413a-9c46-43c8de4ce703",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/2dbec2a7-410c-413a-9c46-43c8de4ce703.png",
+      "image_sha256": "ac4d911738af92dfaa33d0730259fafb1ecd84da5740f5fcdb3537b03f0cc6bf"
+    },
+    "input_bound": 1455,
+    "state": "completed",
+    "response": "responses/0025.json",
+    "request_sha256": "10e56c935e1005481e41c7f0f239bf07d376604e1adb4eceb835167173ec8b6f",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 44,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 475
+    }
+  },
+  {
+    "job": {
+      "shot_id": "2dbec2a7-410c-413a-9c46-43c8de4ce703",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/2dbec2a7-410c-413a-9c46-43c8de4ce703.png",
+      "image_sha256": "ac4d911738af92dfaa33d0730259fafb1ecd84da5740f5fcdb3537b03f0cc6bf",
+      "logistic_probability": "0.144856"
+    },
+    "input_bound": 1588,
+    "state": "completed",
+    "response": "responses/0026.json",
+    "request_sha256": "e0d63cb3936be6860490e71033dc269ffa831d508d2331ad76bd55ab01e090be",
+    "usage": {
+      "input_tokens": 564,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 85,
+      "output_tokens_details": {
+        "reasoning_tokens": 36
+      },
+      "total_tokens": 649
+    }
+  },
+  {
+    "job": {
+      "shot_id": "60ddcae1-6103-4ceb-949c-1221e8e64a8e",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/60ddcae1-6103-4ceb-949c-1221e8e64a8e.png",
+      "image_sha256": "b3ef42eaf91e6342063fe44413fb6c00d5f1edf199251aa121c3e20e7633b91d",
+      "logistic_probability": "0.187924"
+    },
+    "input_bound": 1588,
+    "state": "completed",
+    "response": "responses/0027.json",
+    "request_sha256": "7ba38dab22a20c069b8b40695139325bc9793653530bd9012561150f1b180180",
+    "usage": {
+      "input_tokens": 564,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 122,
+      "output_tokens_details": {
+        "reasoning_tokens": 82
+      },
+      "total_tokens": 686
+    }
+  },
+  {
+    "job": {
+      "shot_id": "60ddcae1-6103-4ceb-949c-1221e8e64a8e",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/60ddcae1-6103-4ceb-949c-1221e8e64a8e.png",
+      "image_sha256": "b3ef42eaf91e6342063fe44413fb6c00d5f1edf199251aa121c3e20e7633b91d"
+    },
+    "input_bound": 1455,
+    "state": "completed",
+    "response": "responses/0028.json",
+    "request_sha256": "37e436af8187479c8b1a9120c471591d02df7f4e2fc0266c2ded5b779f4642f4",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 134,
+      "output_tokens_details": {
+        "reasoning_tokens": 92
+      },
+      "total_tokens": 565
+    }
+  },
+  {
+    "job": {
+      "shot_id": "d31276ca-2602-4e1f-a8ed-ca5015f2353c",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/d31276ca-2602-4e1f-a8ed-ca5015f2353c.png",
+      "image_sha256": "0edca65e8f809ca6486b0e38131bdf1eef747bf8ee3ade7c9bd5312867b88d9d",
+      "logistic_probability": "0.210978"
+    },
+    "input_bound": 1588,
+    "state": "completed",
+    "response": "responses/0029.json",
+    "request_sha256": "1d4b682fae6a78fa6340993ae38c53b544c8d2565c16cb2ff9149a541727b0e9",
+    "usage": {
+      "input_tokens": 564,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 100,
+      "output_tokens_details": {
+        "reasoning_tokens": 50
+      },
+      "total_tokens": 664
+    }
+  },
+  {
+    "job": {
+      "shot_id": "d31276ca-2602-4e1f-a8ed-ca5015f2353c",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/d31276ca-2602-4e1f-a8ed-ca5015f2353c.png",
+      "image_sha256": "0edca65e8f809ca6486b0e38131bdf1eef747bf8ee3ade7c9bd5312867b88d9d"
+    },
+    "input_bound": 1455,
+    "state": "completed",
+    "response": "responses/0030.json",
+    "request_sha256": "435c867a3089d124dc587a39f1a1ebf9634675bc07efd229da1620cb76373e5a",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 158,
+      "output_tokens_details": {
+        "reasoning_tokens": 113
+      },
+      "total_tokens": 589
+    }
+  },
+  {
+    "job": {
+      "shot_id": "27b4d019-3a0e-4793-89c8-a8f329f202e4",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/27b4d019-3a0e-4793-89c8-a8f329f202e4.png",
+      "image_sha256": "56451638382c0ac5383e07df03423993d66575580401efbc1b9ffd0028cba13d"
+    },
+    "input_bound": 1455,
+    "state": "completed",
+    "response": "responses/0031.json",
+    "request_sha256": "197ac8b7e77246d95feb6df56a925b5aec6d86e4faf632f01bcff60f9ebad78e",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 150,
+      "output_tokens_details": {
+        "reasoning_tokens": 108
+      },
+      "total_tokens": 581
+    }
+  },
+  {
+    "job": {
+      "shot_id": "27b4d019-3a0e-4793-89c8-a8f329f202e4",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/27b4d019-3a0e-4793-89c8-a8f329f202e4.png",
+      "image_sha256": "56451638382c0ac5383e07df03423993d66575580401efbc1b9ffd0028cba13d",
+      "logistic_probability": "0.105918"
+    },
+    "input_bound": 1588,
+    "state": "completed",
+    "response": "responses/0032.json",
+    "request_sha256": "73e349a4cdc657e1248946fe5c10975f3160eac653587d56011fb6159d47ffdd",
+    "usage": {
+      "input_tokens": 564,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 127,
+      "output_tokens_details": {
+        "reasoning_tokens": 79
+      },
+      "total_tokens": 691
+    }
+  },
+  {
+    "job": {
+      "shot_id": "71efce2c-bfa9-4f23-9278-e7e091d02597",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/71efce2c-bfa9-4f23-9278-e7e091d02597.png",
+      "image_sha256": "fa20c9acd0a646b235ccbb4528d1e46f7aa460496625a12104b5f494defdd56e"
+    },
+    "input_bound": 1455,
+    "state": "completed",
+    "response": "responses/0033.json",
+    "request_sha256": "4b489aafb44af068628e0bd2b84faa87660208429aeb2545a9ed09c9736fdaa4",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 142,
+      "output_tokens_details": {
+        "reasoning_tokens": 95
+      },
+      "total_tokens": 573
+    }
+  },
+  {
+    "job": {
+      "shot_id": "71efce2c-bfa9-4f23-9278-e7e091d02597",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/71efce2c-bfa9-4f23-9278-e7e091d02597.png",
+      "image_sha256": "fa20c9acd0a646b235ccbb4528d1e46f7aa460496625a12104b5f494defdd56e",
+      "logistic_probability": "0.152409"
+    },
+    "input_bound": 1588,
+    "state": "completed",
+    "response": "responses/0034.json",
+    "request_sha256": "0f3e46ab99f6f89035941f4626e208414f284dc91c22da68d839717685575f18",
+    "usage": {
+      "input_tokens": 564,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 91,
+      "output_tokens_details": {
+        "reasoning_tokens": 49
+      },
+      "total_tokens": 655
+    }
+  },
+  {
+    "job": {
+      "shot_id": "1e7c28d0-99f3-4c4f-a9aa-b1819740aa48",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/1e7c28d0-99f3-4c4f-a9aa-b1819740aa48.png",
+      "image_sha256": "061ccaeea0bb9b96093225a7a2596de7edbae06b5ca5347afea84fdef9c9387f"
+    },
+    "input_bound": 1455,
+    "state": "completed",
+    "response": "responses/0035.json",
+    "request_sha256": "895b2219d0c2ce6d7b9ad778feb8eac2e302d40f0c6efcc412c87914e9c53244",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 123,
+      "output_tokens_details": {
+        "reasoning_tokens": 78
+      },
+      "total_tokens": 554
+    }
+  },
+  {
+    "job": {
+      "shot_id": "1e7c28d0-99f3-4c4f-a9aa-b1819740aa48",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/1e7c28d0-99f3-4c4f-a9aa-b1819740aa48.png",
+      "image_sha256": "061ccaeea0bb9b96093225a7a2596de7edbae06b5ca5347afea84fdef9c9387f",
+      "logistic_probability": "0.212205"
+    },
+    "input_bound": 1588,
+    "state": "completed",
+    "response": "responses/0036.json",
+    "request_sha256": "7a6f77989f21ec32c540511fe31ed5d24f935bacd57104e0ec33a7d001ddd6b5",
+    "usage": {
+      "input_tokens": 564,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 94,
+      "output_tokens_details": {
+        "reasoning_tokens": 51
+      },
+      "total_tokens": 658
+    }
+  },
+  {
+    "job": {
+      "shot_id": "61e204ab-1204-46c6-a2fe-fb069bd7b5a5",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/61e204ab-1204-46c6-a2fe-fb069bd7b5a5.png",
+      "image_sha256": "3063b2ca3d58fb846623051702ba5bbb048fdec2db197a16554e916e7375dda4"
+    },
+    "input_bound": 1455,
+    "state": "completed",
+    "response": "responses/0037.json",
+    "request_sha256": "6200829a9c07499b099ce5d1ce356d496625998d62a3f77f4733edb3116056e8",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 88,
+      "output_tokens_details": {
+        "reasoning_tokens": 43
+      },
+      "total_tokens": 519
+    }
+  },
+  {
+    "job": {
+      "shot_id": "61e204ab-1204-46c6-a2fe-fb069bd7b5a5",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/61e204ab-1204-46c6-a2fe-fb069bd7b5a5.png",
+      "image_sha256": "3063b2ca3d58fb846623051702ba5bbb048fdec2db197a16554e916e7375dda4",
+      "logistic_probability": "0.032176"
+    },
+    "input_bound": 1588,
+    "state": "completed",
+    "response": "responses/0038.json",
+    "request_sha256": "a8cda346f91c75e9d4811ca464b3176541bf5d471e014baec7e181a774f2ac40",
+    "usage": {
+      "input_tokens": 564,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 44,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 608
+    }
+  },
+  {
+    "job": {
+      "shot_id": "c70478c7-b13f-490e-ac7d-3e6e53c3ac2c",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/c70478c7-b13f-490e-ac7d-3e6e53c3ac2c.png",
+      "image_sha256": "d1319e88668fc55fae89a54294c5b888e5a0a025a89230b785ce948f9283aaf3",
+      "logistic_probability": "0.021310"
+    },
+    "input_bound": 1588,
+    "state": "completed",
+    "response": "responses/0039.json",
+    "request_sha256": "e5bda484d2e568fc7eb95c42c85fc656984d2ab1f985e734d22323b59d3e43c6",
+    "usage": {
+      "input_tokens": 564,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 80,
+      "output_tokens_details": {
+        "reasoning_tokens": 35
+      },
+      "total_tokens": 644
+    }
+  },
+  {
+    "job": {
+      "shot_id": "c70478c7-b13f-490e-ac7d-3e6e53c3ac2c",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/c70478c7-b13f-490e-ac7d-3e6e53c3ac2c.png",
+      "image_sha256": "d1319e88668fc55fae89a54294c5b888e5a0a025a89230b785ce948f9283aaf3"
+    },
+    "input_bound": 1455,
+    "state": "completed",
+    "response": "responses/0040.json",
+    "request_sha256": "b6db101452c9ac58bcfad3520904ddf558e673563f08a37fa908bc5ce8229583",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 116,
+      "output_tokens_details": {
+        "reasoning_tokens": 69
+      },
+      "total_tokens": 547
+    }
+  },
+  {
+    "job": {
+      "shot_id": "25a5f9cb-421a-404b-917a-b9189117bb5d",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/25a5f9cb-421a-404b-917a-b9189117bb5d.png",
+      "image_sha256": "fc198b8bb4d1abf326a55545d2366e2d63986ddc9518baeb340d03c70236c8e4",
+      "logistic_probability": "0.023601"
+    },
+    "input_bound": 1588,
+    "state": "completed",
+    "response": "responses/0041.json",
+    "request_sha256": "db6236572391e9c1baac8494378ec4258afcad6392643762fe09f2b59f2bf88b",
+    "usage": {
+      "input_tokens": 564,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 104,
+      "output_tokens_details": {
+        "reasoning_tokens": 56
+      },
+      "total_tokens": 668
+    }
+  },
+  {
+    "job": {
+      "shot_id": "25a5f9cb-421a-404b-917a-b9189117bb5d",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/25a5f9cb-421a-404b-917a-b9189117bb5d.png",
+      "image_sha256": "fc198b8bb4d1abf326a55545d2366e2d63986ddc9518baeb340d03c70236c8e4"
+    },
+    "input_bound": 1455,
+    "state": "completed",
+    "response": "responses/0042.json",
+    "request_sha256": "1e024c89acce7e40bb20af0d0748229451c255221beff74995c99dc75c0f291e",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 115,
+      "output_tokens_details": {
+        "reasoning_tokens": 68
+      },
+      "total_tokens": 546
+    }
+  },
+  {
+    "job": {
+      "shot_id": "1d95c836-fd7c-4e9e-82e8-a65463cbaaf3",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/1d95c836-fd7c-4e9e-82e8-a65463cbaaf3.png",
+      "image_sha256": "56433483d850f5f1ac206224b5911610bded97227259e910e6a2cf46d58a470f"
+    },
+    "input_bound": 1455,
+    "state": "completed",
+    "response": "responses/0043.json",
+    "request_sha256": "e2834692e5c28d06e17b6147ba85bacce4062be2e67002d2fac03b1bbd21c0b7",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 98,
+      "output_tokens_details": {
+        "reasoning_tokens": 55
+      },
+      "total_tokens": 529
+    }
+  },
+  {
+    "job": {
+      "shot_id": "1d95c836-fd7c-4e9e-82e8-a65463cbaaf3",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/1d95c836-fd7c-4e9e-82e8-a65463cbaaf3.png",
+      "image_sha256": "56433483d850f5f1ac206224b5911610bded97227259e910e6a2cf46d58a470f",
+      "logistic_probability": "0.223298"
+    },
+    "input_bound": 1588,
+    "state": "completed",
+    "response": "responses/0044.json",
+    "request_sha256": "b207c5ec8f01325e941df8245872492bbd715604e30a516739592af696e279b6",
+    "usage": {
+      "input_tokens": 564,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 110,
+      "output_tokens_details": {
+        "reasoning_tokens": 67
+      },
+      "total_tokens": 674
+    }
+  },
+  {
+    "job": {
+      "shot_id": "f43b76b3-0bbc-4248-a32f-efc9a37edb1d",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/f43b76b3-0bbc-4248-a32f-efc9a37edb1d.png",
+      "image_sha256": "334a48128510aba2bd6825fc8dadd2dfdcd4b44357fec884ea033469b444ffcc"
+    },
+    "input_bound": 1455,
+    "state": "completed",
+    "response": "responses/0045.json",
+    "request_sha256": "2f2a49bb222fdeb4bed7c7080ae2f5852fb131c0b80b64e0106113cc24822e5f",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 126,
+      "output_tokens_details": {
+        "reasoning_tokens": 79
+      },
+      "total_tokens": 557
+    }
+  },
+  {
+    "job": {
+      "shot_id": "f43b76b3-0bbc-4248-a32f-efc9a37edb1d",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/f43b76b3-0bbc-4248-a32f-efc9a37edb1d.png",
+      "image_sha256": "334a48128510aba2bd6825fc8dadd2dfdcd4b44357fec884ea033469b444ffcc",
+      "logistic_probability": "0.149301"
+    },
+    "input_bound": 1588,
+    "state": "completed",
+    "response": "responses/0046.json",
+    "request_sha256": "cd5217544d6b5aa1faaa06aa4aacd8dfc3a9b233422a95d4f0fdaa40888775a8",
+    "usage": {
+      "input_tokens": 564,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 127,
+      "output_tokens_details": {
+        "reasoning_tokens": 83
+      },
+      "total_tokens": 691
+    }
+  },
+  {
+    "job": {
+      "shot_id": "b89f570e-1ae0-4ec5-a0a6-0ad107e4df4f",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/b89f570e-1ae0-4ec5-a0a6-0ad107e4df4f.png",
+      "image_sha256": "170a1b6f0c3f89835a6aa312e8cb0126398a547eb78293f2ae778a382eaf8360"
+    },
+    "input_bound": 1455,
+    "state": "completed",
+    "response": "responses/0047.json",
+    "request_sha256": "4083d2a866a24604ae8abacdb43c40d4122b3d0e9688810a28ff6c31b2ddf71f",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 127,
+      "output_tokens_details": {
+        "reasoning_tokens": 82
+      },
+      "total_tokens": 558
+    }
+  },
+  {
+    "job": {
+      "shot_id": "b89f570e-1ae0-4ec5-a0a6-0ad107e4df4f",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/b89f570e-1ae0-4ec5-a0a6-0ad107e4df4f.png",
+      "image_sha256": "170a1b6f0c3f89835a6aa312e8cb0126398a547eb78293f2ae778a382eaf8360",
+      "logistic_probability": "0.044406"
+    },
+    "input_bound": 1588,
+    "state": "completed",
+    "response": "responses/0048.json",
+    "request_sha256": "0fbe0508b24866891de63a50c5123a501838f832c96d9c6fa0a992bfdd4fe4e9",
+    "usage": {
+      "input_tokens": 564,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 96,
+      "output_tokens_details": {
+        "reasoning_tokens": 51
+      },
+      "total_tokens": 660
+    }
+  },
+  {
+    "job": {
+      "shot_id": "d09a842e-28ea-41fc-9f44-543482bc0e5f",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/d09a842e-28ea-41fc-9f44-543482bc0e5f.png",
+      "image_sha256": "d74fd1f9dfcdbe1fdf2ba45959dc6a39a985dccd2734839507305d7c312dc7df"
+    },
+    "input_bound": 1455,
+    "state": "completed",
+    "response": "responses/0049.json",
+    "request_sha256": "0d3b18a6e7a88674cea6f1eb949f209b9987ecd9f87d92da53b0022ec7e27236",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 147,
+      "output_tokens_details": {
+        "reasoning_tokens": 100
+      },
+      "total_tokens": 578
+    }
+  },
+  {
+    "job": {
+      "shot_id": "d09a842e-28ea-41fc-9f44-543482bc0e5f",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/d09a842e-28ea-41fc-9f44-543482bc0e5f.png",
+      "image_sha256": "d74fd1f9dfcdbe1fdf2ba45959dc6a39a985dccd2734839507305d7c312dc7df",
+      "logistic_probability": "0.028025"
+    },
+    "input_bound": 1588,
+    "state": "completed",
+    "response": "responses/0050.json",
+    "request_sha256": "835d32d9c3752672aa945de4372a16911200d2d0bc0e9ba8d094dc0b05c50d23",
+    "usage": {
+      "input_tokens": 564,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 96,
+      "output_tokens_details": {
+        "reasoning_tokens": 49
+      },
+      "total_tokens": 660
+    }
+  },
+  {
+    "job": {
+      "shot_id": "d33f6306-11d4-43b6-a461-bd7d25772b7e",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/d33f6306-11d4-43b6-a461-bd7d25772b7e.png",
+      "image_sha256": "96788cb1c8c0665a62024f5236e381d2ea33f71372389644f5f077897f8c05fd",
+      "logistic_probability": "0.020407"
+    },
+    "input_bound": 1588,
+    "state": "completed",
+    "response": "responses/0051.json",
+    "request_sha256": "9c2667194fb73952e6a811a70860d1eb935c2d49ba96c143206203d6a3cecbb1",
+    "usage": {
+      "input_tokens": 564,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 131,
+      "output_tokens_details": {
+        "reasoning_tokens": 82
+      },
+      "total_tokens": 695
+    }
+  },
+  {
+    "job": {
+      "shot_id": "d33f6306-11d4-43b6-a461-bd7d25772b7e",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/d33f6306-11d4-43b6-a461-bd7d25772b7e.png",
+      "image_sha256": "96788cb1c8c0665a62024f5236e381d2ea33f71372389644f5f077897f8c05fd"
+    },
+    "input_bound": 1455,
+    "state": "completed",
+    "response": "responses/0052.json",
+    "request_sha256": "a4baf0bb8c7454be9bc2ae861ec344cb2ef4300856905df8084e7b53ff4a0626",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 152,
+      "output_tokens_details": {
+        "reasoning_tokens": 107
+      },
+      "total_tokens": 583
+    }
+  },
+  {
+    "job": {
+      "shot_id": "3ba068c5-0aa6-4447-bc0d-a79dcf0ca972",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/3ba068c5-0aa6-4447-bc0d-a79dcf0ca972.png",
+      "image_sha256": "e82366bbff2556f8d1ed1c8c4c720f34fc1239b762a1040ee6e458354188332c",
+      "logistic_probability": "0.116229"
+    },
+    "input_bound": 1588,
+    "state": "completed",
+    "response": "responses/0053.json",
+    "request_sha256": "0a7dc42df95bf2b73470dedeb228febdc1fdabca814eed8d9524c6ff4a457422",
+    "usage": {
+      "input_tokens": 564,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 156,
+      "output_tokens_details": {
+        "reasoning_tokens": 107
+      },
+      "total_tokens": 720
+    }
+  },
+  {
+    "job": {
+      "shot_id": "3ba068c5-0aa6-4447-bc0d-a79dcf0ca972",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/3ba068c5-0aa6-4447-bc0d-a79dcf0ca972.png",
+      "image_sha256": "e82366bbff2556f8d1ed1c8c4c720f34fc1239b762a1040ee6e458354188332c"
+    },
+    "input_bound": 1455,
+    "state": "completed",
+    "response": "responses/0054.json",
+    "request_sha256": "4064c63e811131c8e832a47f204e73a08b22a1bd9dbeb4629cdb0654d0cd1949",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 107,
+      "output_tokens_details": {
+        "reasoning_tokens": 61
+      },
+      "total_tokens": 538
+    }
+  },
+  {
+    "job": {
+      "shot_id": "8c8639c5-97ec-44f8-9b83-b1d2436e0ed0",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/8c8639c5-97ec-44f8-9b83-b1d2436e0ed0.png",
+      "image_sha256": "c114c27021e56d29f003bcecaae73cf21a382c9e12ada01ad78326cb0eff87e3"
+    },
+    "input_bound": 1455,
+    "state": "completed",
+    "response": "responses/0055.json",
+    "request_sha256": "fde77197b24a14576f9bc7ef23f6320acae929006ac46c2784aa046997dc7fb6",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 154,
+      "output_tokens_details": {
+        "reasoning_tokens": 109
+      },
+      "total_tokens": 585
+    }
+  },
+  {
+    "job": {
+      "shot_id": "8c8639c5-97ec-44f8-9b83-b1d2436e0ed0",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/8c8639c5-97ec-44f8-9b83-b1d2436e0ed0.png",
+      "image_sha256": "c114c27021e56d29f003bcecaae73cf21a382c9e12ada01ad78326cb0eff87e3",
+      "logistic_probability": "0.162183"
+    },
+    "input_bound": 1588,
+    "state": "completed",
+    "response": "responses/0056.json",
+    "request_sha256": "ded444b98ea421f239cfb8c060c88443c1d53562cb90f25b17e9f1044f4809f6",
+    "usage": {
+      "input_tokens": 564,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 133,
+      "output_tokens_details": {
+        "reasoning_tokens": 87
+      },
+      "total_tokens": 697
+    }
+  },
+  {
+    "job": {
+      "shot_id": "2db7840e-1050-482b-95f8-b662bb1dd1c0",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/2db7840e-1050-482b-95f8-b662bb1dd1c0.png",
+      "image_sha256": "92e53038e5f6f479f79c583e06f90b6b1b8b4564c34d4577ba24671b8d82ff82"
+    },
+    "input_bound": 1455,
+    "state": "completed",
+    "response": "responses/0057.json",
+    "request_sha256": "83290c4864cc3d9890930f5ca6f23f426ab64b5f34e98d02a1d00e0d329f89e8",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 105,
+      "output_tokens_details": {
+        "reasoning_tokens": 57
+      },
+      "total_tokens": 536
+    }
+  },
+  {
+    "job": {
+      "shot_id": "2db7840e-1050-482b-95f8-b662bb1dd1c0",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/2db7840e-1050-482b-95f8-b662bb1dd1c0.png",
+      "image_sha256": "92e53038e5f6f479f79c583e06f90b6b1b8b4564c34d4577ba24671b8d82ff82",
+      "logistic_probability": "0.055782"
+    },
+    "input_bound": 1588,
+    "state": "completed",
+    "response": "responses/0058.json",
+    "request_sha256": "7d16e3c32c35c981ba14ddc84234ef886a5adb204ac95c26ca04f5a1b502880b",
+    "usage": {
+      "input_tokens": 564,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 91,
+      "output_tokens_details": {
+        "reasoning_tokens": 47
+      },
+      "total_tokens": 655
+    }
+  },
+  {
+    "job": {
+      "shot_id": "e8eee976-3068-4c12-85ca-dca7cac8cb7d",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/e8eee976-3068-4c12-85ca-dca7cac8cb7d.png",
+      "image_sha256": "3999dc5203a477da92fdfc5d9c069e31a48372cb2be204669dae021bf0d96b73",
+      "logistic_probability": "0.032094"
+    },
+    "input_bound": 1588,
+    "state": "completed",
+    "response": "responses/0059.json",
+    "request_sha256": "d38698cc2b90863679a24639bd596a501d29ac3bd28971caa0ede20dfa95b112",
+    "usage": {
+      "input_tokens": 564,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 100,
+      "output_tokens_details": {
+        "reasoning_tokens": 61
+      },
+      "total_tokens": 664
+    }
+  },
+  {
+    "job": {
+      "shot_id": "e8eee976-3068-4c12-85ca-dca7cac8cb7d",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/e8eee976-3068-4c12-85ca-dca7cac8cb7d.png",
+      "image_sha256": "3999dc5203a477da92fdfc5d9c069e31a48372cb2be204669dae021bf0d96b73"
+    },
+    "input_bound": 1455,
+    "state": "completed",
+    "response": "responses/0060.json",
+    "request_sha256": "ae0f5a43c8f14328e672caad80f8e0b0a8fab81cba2708ace4469849b331f711",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 93,
+      "output_tokens_details": {
+        "reasoning_tokens": 47
+      },
+      "total_tokens": 524
+    }
+  },
+  {
+    "job": {
+      "shot_id": "7efe58b6-e16d-4812-b89b-046f0166e172",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/7efe58b6-e16d-4812-b89b-046f0166e172.png",
+      "image_sha256": "704a36e6de70fd0fa2471c3f8c42d732ce7a58e5d8a74fbfbcf962f391da2a07",
+      "logistic_probability": "0.098029"
+    },
+    "input_bound": 1588,
+    "state": "completed",
+    "response": "responses/0061.json",
+    "request_sha256": "fb37f5a9ab477998875130800e50ba6ad23845ec4f883820c75c51d80c0af1df",
+    "usage": {
+      "input_tokens": 564,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 94,
+      "output_tokens_details": {
+        "reasoning_tokens": 53
+      },
+      "total_tokens": 658
+    }
+  },
+  {
+    "job": {
+      "shot_id": "7efe58b6-e16d-4812-b89b-046f0166e172",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/7efe58b6-e16d-4812-b89b-046f0166e172.png",
+      "image_sha256": "704a36e6de70fd0fa2471c3f8c42d732ce7a58e5d8a74fbfbcf962f391da2a07"
+    },
+    "input_bound": 1455,
+    "state": "completed",
+    "response": "responses/0062.json",
+    "request_sha256": "82b091d7e5fbb2575a184657a8d74cf37f30a2d18b6fa5ffcbd8131c2ac2013c",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 45,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 476
+    }
+  },
+  {
+    "job": {
+      "shot_id": "b04d528a-f93d-4dd7-86d0-2011dc9e311d",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/b04d528a-f93d-4dd7-86d0-2011dc9e311d.png",
+      "image_sha256": "1844463ae36cd35a21a292db9aa2a970e46ed62618617c55b28fb5529b21bcff",
+      "logistic_probability": "0.266141"
+    },
+    "input_bound": 1588,
+    "state": "completed",
+    "response": "responses/0063.json",
+    "request_sha256": "43f27db13aadcdf062d5fb181625bbd15e3d391c650f81ada284e0b482e3838b",
+    "usage": {
+      "input_tokens": 564,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 97,
+      "output_tokens_details": {
+        "reasoning_tokens": 50
+      },
+      "total_tokens": 661
+    }
+  },
+  {
+    "job": {
+      "shot_id": "b04d528a-f93d-4dd7-86d0-2011dc9e311d",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/b04d528a-f93d-4dd7-86d0-2011dc9e311d.png",
+      "image_sha256": "1844463ae36cd35a21a292db9aa2a970e46ed62618617c55b28fb5529b21bcff"
+    },
+    "input_bound": 1455,
+    "state": "completed",
+    "response": "responses/0064.json",
+    "request_sha256": "8814ed42d1f88606803601f700a99294006ce646ded4104c169e75a87fa56ae4",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 118,
+      "output_tokens_details": {
+        "reasoning_tokens": 72
+      },
+      "total_tokens": 549
+    }
+  },
+  {
+    "job": {
+      "shot_id": "897a3d60-bf0d-4795-9fea-4ff4049752b2",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/897a3d60-bf0d-4795-9fea-4ff4049752b2.png",
+      "image_sha256": "3fa4665e8e650306338b1473fb8e52d35532251a8f5d5102e752ff40960b0865",
+      "logistic_probability": "0.202957"
+    },
+    "input_bound": 1588,
+    "state": "completed",
+    "response": "responses/0065.json",
+    "request_sha256": "1bc8d43ed738e4d4967bb582bdb63693032d69e8900011d0c85e57e7203af359",
+    "usage": {
+      "input_tokens": 564,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 121,
+      "output_tokens_details": {
+        "reasoning_tokens": 79
+      },
+      "total_tokens": 685
+    }
+  },
+  {
+    "job": {
+      "shot_id": "897a3d60-bf0d-4795-9fea-4ff4049752b2",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/897a3d60-bf0d-4795-9fea-4ff4049752b2.png",
+      "image_sha256": "3fa4665e8e650306338b1473fb8e52d35532251a8f5d5102e752ff40960b0865"
+    },
+    "input_bound": 1455,
+    "state": "completed",
+    "response": "responses/0066.json",
+    "request_sha256": "0f87d6b61a7f02371389c096bb5ecb5a744dc358aca2a90f009a81aaec02dd81",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 147,
+      "output_tokens_details": {
+        "reasoning_tokens": 101
+      },
+      "total_tokens": 578
+    }
+  },
+  {
+    "job": {
+      "shot_id": "d99c2759-eb4d-4532-a917-93ef586df93e",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/d99c2759-eb4d-4532-a917-93ef586df93e.png",
+      "image_sha256": "b8248ddcbfba03152b27b2f628ea25914199a2e46043dc8bfbcbd102c284c06c"
+    },
+    "input_bound": 1455,
+    "state": "completed",
+    "response": "responses/0067.json",
+    "request_sha256": "0148afa27d6990582fe6137117cd6acd36401de04d9233198a2f80adfae3f140",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 86,
+      "output_tokens_details": {
+        "reasoning_tokens": 40
+      },
+      "total_tokens": 517
+    }
+  },
+  {
+    "job": {
+      "shot_id": "d99c2759-eb4d-4532-a917-93ef586df93e",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/d99c2759-eb4d-4532-a917-93ef586df93e.png",
+      "image_sha256": "b8248ddcbfba03152b27b2f628ea25914199a2e46043dc8bfbcbd102c284c06c",
+      "logistic_probability": "0.010021"
+    },
+    "input_bound": 1588,
+    "state": "completed",
+    "response": "responses/0068.json",
+    "request_sha256": "53b7b94aa4b38bc660fe85681bc6244c025d0843d409e17797054e2f1bee0b46",
+    "usage": {
+      "input_tokens": 564,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 81,
+      "output_tokens_details": {
+        "reasoning_tokens": 39
+      },
+      "total_tokens": 645
+    }
+  },
+  {
+    "job": {
+      "shot_id": "96867514-0290-491f-aa00-a6582166af95",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/96867514-0290-491f-aa00-a6582166af95.png",
+      "image_sha256": "ac9f83b8757bad205f26bbed239528f3c96bab5f767c1a92f18c28b82d782042",
+      "logistic_probability": "0.074776"
+    },
+    "input_bound": 1588,
+    "state": "completed",
+    "response": "responses/0069.json",
+    "request_sha256": "b2b24f14732b4b940349720b37af6159c8d2b9410a78b06ff26a07c4a2080b98",
+    "usage": {
+      "input_tokens": 564,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 111,
+      "output_tokens_details": {
+        "reasoning_tokens": 66
+      },
+      "total_tokens": 675
+    }
+  },
+  {
+    "job": {
+      "shot_id": "96867514-0290-491f-aa00-a6582166af95",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/96867514-0290-491f-aa00-a6582166af95.png",
+      "image_sha256": "ac9f83b8757bad205f26bbed239528f3c96bab5f767c1a92f18c28b82d782042"
+    },
+    "input_bound": 1455,
+    "state": "completed",
+    "response": "responses/0070.json",
+    "request_sha256": "4e1ba72e60e761747065ba0545b6f021577eeca28c978abd4335967666d0ae6d",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 101,
+      "output_tokens_details": {
+        "reasoning_tokens": 52
+      },
+      "total_tokens": 532
+    }
+  },
+  {
+    "job": {
+      "shot_id": "603b89d6-7dd4-467c-b8f3-0f063a76f1af",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/603b89d6-7dd4-467c-b8f3-0f063a76f1af.png",
+      "image_sha256": "b261985ef3b262c5eff606e474eccc1076c9e16b17f4982aa9cda5c2e47de50b"
+    },
+    "input_bound": 1455,
+    "state": "completed",
+    "response": "responses/0071.json",
+    "request_sha256": "1cb041826bbba815c26d5868b3cb9ab42bd38c9e8f1bee9956f7c2b26ed75d22",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 188,
+      "output_tokens_details": {
+        "reasoning_tokens": 145
+      },
+      "total_tokens": 619
+    }
+  },
+  {
+    "job": {
+      "shot_id": "603b89d6-7dd4-467c-b8f3-0f063a76f1af",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/603b89d6-7dd4-467c-b8f3-0f063a76f1af.png",
+      "image_sha256": "b261985ef3b262c5eff606e474eccc1076c9e16b17f4982aa9cda5c2e47de50b",
+      "logistic_probability": "0.104307"
+    },
+    "input_bound": 1588,
+    "state": "completed",
+    "response": "responses/0072.json",
+    "request_sha256": "1b25575ddb50cb720ffaca89bba3603cca295f1c1a088a42967c72d0ec689845",
+    "usage": {
+      "input_tokens": 564,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 143,
+      "output_tokens_details": {
+        "reasoning_tokens": 98
+      },
+      "total_tokens": 707
+    }
+  },
+  {
+    "job": {
+      "shot_id": "ad1cc607-ca76-4b92-8b4f-f7bdb2132b68",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/ad1cc607-ca76-4b92-8b4f-f7bdb2132b68.png",
+      "image_sha256": "cc25b3624f058b4ef68b0d0a99aedf83d0458bb4247474710ac48ebfd8098911"
+    },
+    "input_bound": 1455,
+    "state": "completed",
+    "response": "responses/0073.json",
+    "request_sha256": "645e00b6dbb9686c3d65b9c0a380fcde00b2a5eff9f599965a280a23205af505",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 92,
+      "output_tokens_details": {
+        "reasoning_tokens": 45
+      },
+      "total_tokens": 523
+    }
+  },
+  {
+    "job": {
+      "shot_id": "ad1cc607-ca76-4b92-8b4f-f7bdb2132b68",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/ad1cc607-ca76-4b92-8b4f-f7bdb2132b68.png",
+      "image_sha256": "cc25b3624f058b4ef68b0d0a99aedf83d0458bb4247474710ac48ebfd8098911",
+      "logistic_probability": "0.039945"
+    },
+    "input_bound": 1588,
+    "state": "completed",
+    "response": "responses/0074.json",
+    "request_sha256": "4c8f28fe34a16ce1b890eda644fed8e9e3616f234a6b743e5cdf863dbf44d8b7",
+    "usage": {
+      "input_tokens": 564,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 73,
+      "output_tokens_details": {
+        "reasoning_tokens": 28
+      },
+      "total_tokens": 637
+    }
+  },
+  {
+    "job": {
+      "shot_id": "7cc6c9e3-86b4-48eb-90c2-b332705ecc91",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/7cc6c9e3-86b4-48eb-90c2-b332705ecc91.png",
+      "image_sha256": "32dd7c03f7bdc578b6607c73f17e672f2f28d69135a077e52f9246f63f2cf5dc"
+    },
+    "input_bound": 1455,
+    "state": "completed",
+    "response": "responses/0075.json",
+    "request_sha256": "78614cbd2eea3cadfacdfa2aaeec45210c1458d4301b44499bb9415f743fb990",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 150,
+      "output_tokens_details": {
+        "reasoning_tokens": 105
+      },
+      "total_tokens": 581
+    }
+  },
+  {
+    "job": {
+      "shot_id": "7cc6c9e3-86b4-48eb-90c2-b332705ecc91",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/7cc6c9e3-86b4-48eb-90c2-b332705ecc91.png",
+      "image_sha256": "32dd7c03f7bdc578b6607c73f17e672f2f28d69135a077e52f9246f63f2cf5dc",
+      "logistic_probability": "0.079223"
+    },
+    "input_bound": 1588,
+    "state": "completed",
+    "response": "responses/0076.json",
+    "request_sha256": "3574a3380d86230b6c3542c8ef42c2f5ebd8d17ce3b2b74aea23309cf48f1c42",
+    "usage": {
+      "input_tokens": 564,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 150,
+      "output_tokens_details": {
+        "reasoning_tokens": 103
+      },
+      "total_tokens": 714
+    }
+  },
+  {
+    "job": {
+      "shot_id": "189543b2-eb27-4be3-89e6-acbc9f977441",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/189543b2-eb27-4be3-89e6-acbc9f977441.png",
+      "image_sha256": "baca40035c450f0613e3e74dbb85cb6d0364b8a9e47ba476172bf3d4ba04684a",
+      "logistic_probability": "0.015657"
+    },
+    "input_bound": 1588,
+    "state": "completed",
+    "response": "responses/0077.json",
+    "request_sha256": "6bd6c719f02cb6c285bae155a371016d73bb7ad643002b459a12d36dc173db2d",
+    "usage": {
+      "input_tokens": 564,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 91,
+      "output_tokens_details": {
+        "reasoning_tokens": 47
+      },
+      "total_tokens": 655
+    }
+  },
+  {
+    "job": {
+      "shot_id": "189543b2-eb27-4be3-89e6-acbc9f977441",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/189543b2-eb27-4be3-89e6-acbc9f977441.png",
+      "image_sha256": "baca40035c450f0613e3e74dbb85cb6d0364b8a9e47ba476172bf3d4ba04684a"
+    },
+    "input_bound": 1455,
+    "state": "completed",
+    "response": "responses/0078.json",
+    "request_sha256": "d6c3475f4d862a87bfdf6a75b5bbe793d79a916e09de7fc60b4e777160336416",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 148,
+      "output_tokens_details": {
+        "reasoning_tokens": 101
+      },
+      "total_tokens": 579
+    }
+  },
+  {
+    "job": {
+      "shot_id": "55f5ff4e-4e46-4636-9f73-98ea099710a6",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/55f5ff4e-4e46-4636-9f73-98ea099710a6.png",
+      "image_sha256": "b00844e8055589054b8bb435aaf96404dcf4108e2b5d8d141381c5555517e2fa",
+      "logistic_probability": "0.100476"
+    },
+    "input_bound": 1588,
+    "state": "completed",
+    "response": "responses/0079.json",
+    "request_sha256": "3c3a79b2472d243f017d8b27f7a4d21dde19a5a3d5e1b65fc87b31da31b391c0",
+    "usage": {
+      "input_tokens": 564,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 158,
+      "output_tokens_details": {
+        "reasoning_tokens": 115
+      },
+      "total_tokens": 722
+    }
+  },
+  {
+    "job": {
+      "shot_id": "55f5ff4e-4e46-4636-9f73-98ea099710a6",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/55f5ff4e-4e46-4636-9f73-98ea099710a6.png",
+      "image_sha256": "b00844e8055589054b8bb435aaf96404dcf4108e2b5d8d141381c5555517e2fa"
+    },
+    "input_bound": 1455,
+    "state": "completed",
+    "response": "responses/0080.json",
+    "request_sha256": "6d3a0b42768f7ad29870e5bb4e5ff69c03178557c546e3bbd0705ee2b028fa68",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 143,
+      "output_tokens_details": {
+        "reasoning_tokens": 101
+      },
+      "total_tokens": 574
+    }
+  },
+  {
+    "job": {
+      "shot_id": "f8cb4a1b-e84c-4ebd-ac2e-4079643186b0",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/f8cb4a1b-e84c-4ebd-ac2e-4079643186b0.png",
+      "image_sha256": "aaf59037b697a65b64db397c6d9258d2513aa63fb8f75c4e3d256ac580b5367f",
+      "logistic_probability": "0.037980"
+    },
+    "input_bound": 1588,
+    "state": "completed",
+    "response": "responses/0081.json",
+    "request_sha256": "594e1eafd18d64579293f2052c8c15aa25aebc5829de12f451d42290b292c91c",
+    "usage": {
+      "input_tokens": 564,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 96,
+      "output_tokens_details": {
+        "reasoning_tokens": 52
+      },
+      "total_tokens": 660
+    }
+  },
+  {
+    "job": {
+      "shot_id": "f8cb4a1b-e84c-4ebd-ac2e-4079643186b0",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/f8cb4a1b-e84c-4ebd-ac2e-4079643186b0.png",
+      "image_sha256": "aaf59037b697a65b64db397c6d9258d2513aa63fb8f75c4e3d256ac580b5367f"
+    },
+    "input_bound": 1455,
+    "state": "completed",
+    "response": "responses/0082.json",
+    "request_sha256": "c7bcc6e8f5c356e6881dc2d80c91613a055b0421dfe235ed45ad0234d4b0f607",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 83,
+      "output_tokens_details": {
+        "reasoning_tokens": 36
+      },
+      "total_tokens": 514
+    }
+  },
+  {
+    "job": {
+      "shot_id": "20655e38-fc30-4846-afc9-4488b4aba24f",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/20655e38-fc30-4846-afc9-4488b4aba24f.png",
+      "image_sha256": "2fab0faab2554fb85e85eeaa02913bc7d0c5581e5631ecb006707dc3778e00e7"
+    },
+    "input_bound": 1455,
+    "state": "completed",
+    "response": "responses/0083.json",
+    "request_sha256": "d3e5b162337ab74d275be37815db05caa54f1981825d51c0670acab8b36231d5",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 79,
+      "output_tokens_details": {
+        "reasoning_tokens": 36
+      },
+      "total_tokens": 510
+    }
+  },
+  {
+    "job": {
+      "shot_id": "20655e38-fc30-4846-afc9-4488b4aba24f",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/20655e38-fc30-4846-afc9-4488b4aba24f.png",
+      "image_sha256": "2fab0faab2554fb85e85eeaa02913bc7d0c5581e5631ecb006707dc3778e00e7",
+      "logistic_probability": "0.017761"
+    },
+    "input_bound": 1588,
+    "state": "completed",
+    "response": "responses/0084.json",
+    "request_sha256": "95e8dfff656833b41c72f4c492959a4b924be1f7eed12bdf4bbe57015a6068e0",
+    "usage": {
+      "input_tokens": 564,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 76,
+      "output_tokens_details": {
+        "reasoning_tokens": 36
+      },
+      "total_tokens": 640
+    }
+  },
+  {
+    "job": {
+      "shot_id": "f21630af-6cbe-4a65-9575-05f11e0fe502",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/f21630af-6cbe-4a65-9575-05f11e0fe502.png",
+      "image_sha256": "14ad7a5bd99fd47e6acd12e0ef11a448d21f14bed0d11c3839afdcdeb1d6e9c5"
+    },
+    "input_bound": 1455,
+    "state": "completed",
+    "response": "responses/0085.json",
+    "request_sha256": "295d7bd135619c7e5ccd918101f094dd46c34960b99e9fe6f958371f9fb65672",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 121,
+      "output_tokens_details": {
+        "reasoning_tokens": 75
+      },
+      "total_tokens": 552
+    }
+  },
+  {
+    "job": {
+      "shot_id": "f21630af-6cbe-4a65-9575-05f11e0fe502",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/f21630af-6cbe-4a65-9575-05f11e0fe502.png",
+      "image_sha256": "14ad7a5bd99fd47e6acd12e0ef11a448d21f14bed0d11c3839afdcdeb1d6e9c5",
+      "logistic_probability": "0.605684"
+    },
+    "input_bound": 1588,
+    "state": "completed",
+    "response": "responses/0086.json",
+    "request_sha256": "ff600a9b81e5c0ee64a08459f52b7357f71a7f9a6b92fef674b7b1d8498d828e",
+    "usage": {
+      "input_tokens": 564,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 116,
+      "output_tokens_details": {
+        "reasoning_tokens": 71
+      },
+      "total_tokens": 680
+    }
+  },
+  {
+    "job": {
+      "shot_id": "f371e4ac-b294-4131-b0fd-1fa1f9156406",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/f371e4ac-b294-4131-b0fd-1fa1f9156406.png",
+      "image_sha256": "4a585cd4ab4f0605439292106af79206206a13f1c117cea25000935c44b88980"
+    },
+    "input_bound": 1455,
+    "state": "completed",
+    "response": "responses/0087.json",
+    "request_sha256": "f731bc83c343e69ffa5f42c1cd2e59cf303a4179f8a7b257511d990cb5d67258",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 102,
+      "output_tokens_details": {
+        "reasoning_tokens": 53
+      },
+      "total_tokens": 533
+    }
+  },
+  {
+    "job": {
+      "shot_id": "f371e4ac-b294-4131-b0fd-1fa1f9156406",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/f371e4ac-b294-4131-b0fd-1fa1f9156406.png",
+      "image_sha256": "4a585cd4ab4f0605439292106af79206206a13f1c117cea25000935c44b88980",
+      "logistic_probability": "0.015421"
+    },
+    "input_bound": 1588,
+    "state": "completed",
+    "response": "responses/0088.json",
+    "request_sha256": "5d48b0379d7de90694e5616f53e7b4939f6243027f15516d653754028ac18e7a",
+    "usage": {
+      "input_tokens": 564,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 166,
+      "output_tokens_details": {
+        "reasoning_tokens": 120
+      },
+      "total_tokens": 730
+    }
+  },
+  {
+    "job": {
+      "shot_id": "097ba4e6-1512-404e-a60b-c6cd21662f37",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/097ba4e6-1512-404e-a60b-c6cd21662f37.png",
+      "image_sha256": "e84f6ec60e4956b2d36e6d8a386b1e4619b25d8551706321a21d1dfd4a347ffb",
+      "logistic_probability": "0.001510"
+    },
+    "input_bound": 1588,
+    "state": "completed",
+    "response": "responses/0089.json",
+    "request_sha256": "8c488853622acd01bf8297725f890eebcdfc5d6a72593ec0adf0c3a172e80672",
+    "usage": {
+      "input_tokens": 564,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 135,
+      "output_tokens_details": {
+        "reasoning_tokens": 88
+      },
+      "total_tokens": 699
+    }
+  },
+  {
+    "job": {
+      "shot_id": "097ba4e6-1512-404e-a60b-c6cd21662f37",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/097ba4e6-1512-404e-a60b-c6cd21662f37.png",
+      "image_sha256": "e84f6ec60e4956b2d36e6d8a386b1e4619b25d8551706321a21d1dfd4a347ffb"
+    },
+    "input_bound": 1455,
+    "state": "completed",
+    "response": "responses/0090.json",
+    "request_sha256": "fd00185619b1b1230a860a8948d5540e863b92e37c71bcdaed0141dc3dceab12",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 40,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 471
+    }
+  },
+  {
+    "job": {
+      "shot_id": "d37ccafe-1b17-42be-82cf-a6805b2cdecb",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/d37ccafe-1b17-42be-82cf-a6805b2cdecb.png",
+      "image_sha256": "81a21fc8d572a0adf81ac769dbc2476b605b23b88a74546f0b0e0b5900ef16e7"
+    },
+    "input_bound": 1455,
+    "state": "completed",
+    "response": "responses/0091.json",
+    "request_sha256": "1948753645080091efce9d9ef584bb5b1bb25b9c1b6a73dd313fb1a42ad3ba79",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 121,
+      "output_tokens_details": {
+        "reasoning_tokens": 76
+      },
+      "total_tokens": 552
+    }
+  },
+  {
+    "job": {
+      "shot_id": "d37ccafe-1b17-42be-82cf-a6805b2cdecb",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/d37ccafe-1b17-42be-82cf-a6805b2cdecb.png",
+      "image_sha256": "81a21fc8d572a0adf81ac769dbc2476b605b23b88a74546f0b0e0b5900ef16e7",
+      "logistic_probability": "0.077462"
+    },
+    "input_bound": 1588,
+    "state": "completed",
+    "response": "responses/0092.json",
+    "request_sha256": "62d5c1c31bf06b751c70f6d99d8e984417f9ca19f4c5da5a81d8cfd7db2ca533",
+    "usage": {
+      "input_tokens": 564,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 96,
+      "output_tokens_details": {
+        "reasoning_tokens": 52
+      },
+      "total_tokens": 660
+    }
+  },
+  {
+    "job": {
+      "shot_id": "25805ad9-c4bc-4508-a431-dc0993059c02",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/25805ad9-c4bc-4508-a431-dc0993059c02.png",
+      "image_sha256": "3cadca3ba11240cf790121c79befabfa1b7b40995275246ca09a557d979c4d63"
+    },
+    "input_bound": 1455,
+    "state": "completed",
+    "response": "responses/0093.json",
+    "request_sha256": "6ca4b500fee868623f07099cf3495fab6d507194d53ed2f494bb4a7e406698b1",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 151,
+      "output_tokens_details": {
+        "reasoning_tokens": 107
+      },
+      "total_tokens": 582
+    }
+  },
+  {
+    "job": {
+      "shot_id": "25805ad9-c4bc-4508-a431-dc0993059c02",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/25805ad9-c4bc-4508-a431-dc0993059c02.png",
+      "image_sha256": "3cadca3ba11240cf790121c79befabfa1b7b40995275246ca09a557d979c4d63",
+      "logistic_probability": "0.081724"
+    },
+    "input_bound": 1588,
+    "state": "completed",
+    "response": "responses/0094.json",
+    "request_sha256": "eafeb225eb93aaefa96146864ad5dff399cd4ce9071cb1330e28bf9cc8613693",
+    "usage": {
+      "input_tokens": 564,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 174,
+      "output_tokens_details": {
+        "reasoning_tokens": 129
+      },
+      "total_tokens": 738
+    }
+  },
+  {
+    "job": {
+      "shot_id": "dd29d6cf-f02f-4b16-a5dc-153df17c952a",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/dd29d6cf-f02f-4b16-a5dc-153df17c952a.png",
+      "image_sha256": "f01034ae76b62676716530b12c520d60ad781fc40c0d589e7c32f0ef93836acd"
+    },
+    "input_bound": 1455,
+    "state": "completed",
+    "response": "responses/0095.json",
+    "request_sha256": "0ad9a6993a3cbb5dd7308f7ba0a8e6978b664ab3c77cd14331c25c40e9cbc4d4",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 106,
+      "output_tokens_details": {
+        "reasoning_tokens": 57
+      },
+      "total_tokens": 537
+    }
+  },
+  {
+    "job": {
+      "shot_id": "dd29d6cf-f02f-4b16-a5dc-153df17c952a",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/dd29d6cf-f02f-4b16-a5dc-153df17c952a.png",
+      "image_sha256": "f01034ae76b62676716530b12c520d60ad781fc40c0d589e7c32f0ef93836acd",
+      "logistic_probability": "0.041138"
+    },
+    "input_bound": 1588,
+    "state": "completed",
+    "response": "responses/0096.json",
+    "request_sha256": "85e629df8ff7ab4d7900717e6dd7017a9d4b2be49ce4ff00887f29251386c5a0",
+    "usage": {
+      "input_tokens": 564,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 139,
+      "output_tokens_details": {
+        "reasoning_tokens": 93
+      },
+      "total_tokens": 703
+    }
+  },
+  {
+    "job": {
+      "shot_id": "a8522328-fd47-4bbb-b89f-043c935cc58b",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/a8522328-fd47-4bbb-b89f-043c935cc58b.png",
+      "image_sha256": "80b5e5427018e18192067645fb832929278bcdad8ebf69d5b6b6249d32f168df",
+      "logistic_probability": "0.009486"
+    },
+    "input_bound": 1588,
+    "state": "completed",
+    "response": "responses/0097.json",
+    "request_sha256": "d8465d4f45ccdec5a7f000fe81455256e884628fcff573349ba463f1f8f0bfb6",
+    "usage": {
+      "input_tokens": 564,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 71,
+      "output_tokens_details": {
+        "reasoning_tokens": 26
+      },
+      "total_tokens": 635
+    }
+  },
+  {
+    "job": {
+      "shot_id": "a8522328-fd47-4bbb-b89f-043c935cc58b",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/a8522328-fd47-4bbb-b89f-043c935cc58b.png",
+      "image_sha256": "80b5e5427018e18192067645fb832929278bcdad8ebf69d5b6b6249d32f168df"
+    },
+    "input_bound": 1455,
+    "state": "completed",
+    "response": "responses/0098.json",
+    "request_sha256": "b05c75d5ae5758b50a574cd9236e524b391e8501b1d3ca0d05de05fb9ad5e129",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 86,
+      "output_tokens_details": {
+        "reasoning_tokens": 41
+      },
+      "total_tokens": 517
+    }
+  },
+  {
+    "job": {
+      "shot_id": "17c244bd-9ce5-4ff4-83f0-c4dec30fbfe4",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/17c244bd-9ce5-4ff4-83f0-c4dec30fbfe4.png",
+      "image_sha256": "34c1b864ff51ae7f11a10437eeaf2703c8fa65257af6bc2a44d4aef042a4004b",
+      "logistic_probability": "0.025256"
+    },
+    "input_bound": 1588,
+    "state": "completed",
+    "response": "responses/0099.json",
+    "request_sha256": "78c550a1c8a0dac97cb6a07a3c2c75da4470c7a43b36d1cb93f0e2ef9f58b7a2",
+    "usage": {
+      "input_tokens": 564,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 80,
+      "output_tokens_details": {
+        "reasoning_tokens": 34
+      },
+      "total_tokens": 644
+    }
+  },
+  {
+    "job": {
+      "shot_id": "17c244bd-9ce5-4ff4-83f0-c4dec30fbfe4",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/17c244bd-9ce5-4ff4-83f0-c4dec30fbfe4.png",
+      "image_sha256": "34c1b864ff51ae7f11a10437eeaf2703c8fa65257af6bc2a44d4aef042a4004b"
+    },
+    "input_bound": 1455,
+    "state": "completed",
+    "response": "responses/0100.json",
+    "request_sha256": "618b01179782dec906ee6bba6ea48f70f17e7d6ff43c88ada196be6794e435c6",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 97,
+      "output_tokens_details": {
+        "reasoning_tokens": 48
+      },
+      "total_tokens": 528
+    }
+  },
+  {
+    "job": {
+      "shot_id": "33369d13-fc1c-4778-a420-47762e838426",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/33369d13-fc1c-4778-a420-47762e838426.png",
+      "image_sha256": "bfed62adfbb3f00433d1ccbfe907b6b2cddfdd79fa00808c8c7f43ffa8eef9bc"
+    },
+    "input_bound": 1455,
+    "state": "completed",
+    "response": "responses/0101.json",
+    "request_sha256": "eceddb54e35275a60cf60da5a284da7dd07f6b17e8decff87a512e3f34245d3e",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 105,
+      "output_tokens_details": {
+        "reasoning_tokens": 62
+      },
+      "total_tokens": 536
+    }
+  },
+  {
+    "job": {
+      "shot_id": "33369d13-fc1c-4778-a420-47762e838426",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/33369d13-fc1c-4778-a420-47762e838426.png",
+      "image_sha256": "bfed62adfbb3f00433d1ccbfe907b6b2cddfdd79fa00808c8c7f43ffa8eef9bc",
+      "logistic_probability": "0.087891"
+    },
+    "input_bound": 1588,
+    "state": "completed",
+    "response": "responses/0102.json",
+    "request_sha256": "2de74dcf8006e8d6124d83081f09345ecf17231fcec0ec79d71a89b12d311875",
+    "usage": {
+      "input_tokens": 564,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 122,
+      "output_tokens_details": {
+        "reasoning_tokens": 80
+      },
+      "total_tokens": 686
+    }
+  },
+  {
+    "job": {
+      "shot_id": "3c909538-9d95-4070-a970-c2e5e7a62bf7",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/3c909538-9d95-4070-a970-c2e5e7a62bf7.png",
+      "image_sha256": "4b7ba2524e1cb136088f22e26a102d79e3b7c7fb72d425cc0dfd53e201c357d6",
+      "logistic_probability": "0.058391"
+    },
+    "input_bound": 1588,
+    "state": "completed",
+    "response": "responses/0103.json",
+    "request_sha256": "3509be987b0b1625b2dd8781298f2355731d30fd53563cca162e2227b66d9d82",
+    "usage": {
+      "input_tokens": 564,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 104,
+      "output_tokens_details": {
+        "reasoning_tokens": 58
+      },
+      "total_tokens": 668
+    }
+  },
+  {
+    "job": {
+      "shot_id": "3c909538-9d95-4070-a970-c2e5e7a62bf7",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/3c909538-9d95-4070-a970-c2e5e7a62bf7.png",
+      "image_sha256": "4b7ba2524e1cb136088f22e26a102d79e3b7c7fb72d425cc0dfd53e201c357d6"
+    },
+    "input_bound": 1455,
+    "state": "completed",
+    "response": "responses/0104.json",
+    "request_sha256": "84bff55616e488ccb11d8733050659bcab0246278ba6813e39ed59853bfb280d",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 108,
+      "output_tokens_details": {
+        "reasoning_tokens": 61
+      },
+      "total_tokens": 539
+    }
+  },
+  {
+    "job": {
+      "shot_id": "8c6a7d2f-afca-4c04-8577-39749ef390d2",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/8c6a7d2f-afca-4c04-8577-39749ef390d2.png",
+      "image_sha256": "f8c103c5275c9e1dcbcc58e8b820511727fea014c49d94d2b7c654267b7db275"
+    },
+    "input_bound": 1455,
+    "state": "completed",
+    "response": "responses/0105.json",
+    "request_sha256": "93907d2d725f25019662f8626078e96d7b8a08ed642a4afd7c61393c25e36032",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 130,
+      "output_tokens_details": {
+        "reasoning_tokens": 83
+      },
+      "total_tokens": 561
+    }
+  },
+  {
+    "job": {
+      "shot_id": "8c6a7d2f-afca-4c04-8577-39749ef390d2",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/8c6a7d2f-afca-4c04-8577-39749ef390d2.png",
+      "image_sha256": "f8c103c5275c9e1dcbcc58e8b820511727fea014c49d94d2b7c654267b7db275",
+      "logistic_probability": "0.293960"
+    },
+    "input_bound": 1588,
+    "state": "completed",
+    "response": "responses/0106.json",
+    "request_sha256": "69bec7dc02955069fabcbe4e411309144cb352bdd59e0f516269ebcabc195a7f",
+    "usage": {
+      "input_tokens": 564,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 92,
+      "output_tokens_details": {
+        "reasoning_tokens": 47
+      },
+      "total_tokens": 656
+    }
+  },
+  {
+    "job": {
+      "shot_id": "30c89258-5875-462f-be94-cebeb7ed5e4e",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/30c89258-5875-462f-be94-cebeb7ed5e4e.png",
+      "image_sha256": "c749863983cf81149cc895d6a0a38f14cbee03afbdde9faa372b1a696c6333a7",
+      "logistic_probability": "0.060560"
+    },
+    "input_bound": 1588,
+    "state": "completed",
+    "response": "responses/0107.json",
+    "request_sha256": "0c05cd9ee9dc80b0e720b82138a48835d1cfa206e5b53dc6f98d3d48ef30dc71",
+    "usage": {
+      "input_tokens": 564,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 72,
+      "output_tokens_details": {
+        "reasoning_tokens": 30
+      },
+      "total_tokens": 636
+    }
+  },
+  {
+    "job": {
+      "shot_id": "30c89258-5875-462f-be94-cebeb7ed5e4e",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/30c89258-5875-462f-be94-cebeb7ed5e4e.png",
+      "image_sha256": "c749863983cf81149cc895d6a0a38f14cbee03afbdde9faa372b1a696c6333a7"
+    },
+    "input_bound": 1455,
+    "state": "completed",
+    "response": "responses/0108.json",
+    "request_sha256": "e2705d888ba007be4478bb5145af69d2c607e0c47afd62f5f8dad7dbf5d78846",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 69,
+      "output_tokens_details": {
+        "reasoning_tokens": 23
+      },
+      "total_tokens": 500
+    }
+  },
+  {
+    "job": {
+      "shot_id": "d00eac11-b609-4b9c-8364-cde2587b02f1",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/d00eac11-b609-4b9c-8364-cde2587b02f1.png",
+      "image_sha256": "2ab46616b2ea2156524b25be3f00a65ee2ac44506752c8451ae7b8e9b50994eb",
+      "logistic_probability": "0.040150"
+    },
+    "input_bound": 1588,
+    "state": "completed",
+    "response": "responses/0109.json",
+    "request_sha256": "ea9d9023251a1e73a59fc2007b575be171e6e5532e9c8fb39b99d1a22dbab868",
+    "usage": {
+      "input_tokens": 564,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 155,
+      "output_tokens_details": {
+        "reasoning_tokens": 106
+      },
+      "total_tokens": 719
+    }
+  },
+  {
+    "job": {
+      "shot_id": "d00eac11-b609-4b9c-8364-cde2587b02f1",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/d00eac11-b609-4b9c-8364-cde2587b02f1.png",
+      "image_sha256": "2ab46616b2ea2156524b25be3f00a65ee2ac44506752c8451ae7b8e9b50994eb"
+    },
+    "input_bound": 1455,
+    "state": "completed",
+    "response": "responses/0110.json",
+    "request_sha256": "00713c45680fc757990d698e76fca6d9ad58c3632e4edda5bee0d9320cb18d17",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 145,
+      "output_tokens_details": {
+        "reasoning_tokens": 96
+      },
+      "total_tokens": 576
+    }
+  },
+  {
+    "job": {
+      "shot_id": "1d545780-df6c-403e-974a-4ee841664a26",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/1d545780-df6c-403e-974a-4ee841664a26.png",
+      "image_sha256": "faf80f5dfe82f7fe06bba6620632e97dd0b31170b02a561f4f0fd9657736697d",
+      "logistic_probability": "0.056531"
+    },
+    "input_bound": 1588,
+    "state": "completed",
+    "response": "responses/0111.json",
+    "request_sha256": "d0dc8956f55a8750eff0cc77b5a57f20f2452e9d457ca0d988f618e8db1db6d0",
+    "usage": {
+      "input_tokens": 564,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 138,
+      "output_tokens_details": {
+        "reasoning_tokens": 93
+      },
+      "total_tokens": 702
+    }
+  },
+  {
+    "job": {
+      "shot_id": "1d545780-df6c-403e-974a-4ee841664a26",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/1d545780-df6c-403e-974a-4ee841664a26.png",
+      "image_sha256": "faf80f5dfe82f7fe06bba6620632e97dd0b31170b02a561f4f0fd9657736697d"
+    },
+    "input_bound": 1455,
+    "state": "completed",
+    "response": "responses/0112.json",
+    "request_sha256": "20e981443e171c9ef879b1f6c5dab89f3bda54793817abaadb28b6c75159b994",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 149,
+      "output_tokens_details": {
+        "reasoning_tokens": 101
+      },
+      "total_tokens": 580
+    }
+  },
+  {
+    "job": {
+      "shot_id": "2f19fd1f-15e8-4df7-85da-5566dd580759",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/2f19fd1f-15e8-4df7-85da-5566dd580759.png",
+      "image_sha256": "ac167cb5a221532ca76f2376d6b5fa10c723bf822d46d5982f57f8ebf2e740a3",
+      "logistic_probability": "0.067755"
+    },
+    "input_bound": 1588,
+    "state": "completed",
+    "response": "responses/0113.json",
+    "request_sha256": "2b331131fe78846a4690cdd73096b4fd0c2acbdae66acb1e3976759142655824",
+    "usage": {
+      "input_tokens": 564,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 132,
+      "output_tokens_details": {
+        "reasoning_tokens": 91
+      },
+      "total_tokens": 696
+    }
+  },
+  {
+    "job": {
+      "shot_id": "2f19fd1f-15e8-4df7-85da-5566dd580759",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/2f19fd1f-15e8-4df7-85da-5566dd580759.png",
+      "image_sha256": "ac167cb5a221532ca76f2376d6b5fa10c723bf822d46d5982f57f8ebf2e740a3"
+    },
+    "input_bound": 1455,
+    "state": "completed",
+    "response": "responses/0114.json",
+    "request_sha256": "481390b6b35db99ac64dd96a2c9571610b85db49dba3792154e9cdb538fcd55c",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 103,
+      "output_tokens_details": {
+        "reasoning_tokens": 56
+      },
+      "total_tokens": 534
+    }
+  },
+  {
+    "job": {
+      "shot_id": "fa6411ef-e222-4bb2-b48d-3950ab388f61",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/fa6411ef-e222-4bb2-b48d-3950ab388f61.png",
+      "image_sha256": "2092fa5cfbd82e85fa567daa1a5c5f7c2a758caa432fce525f59049221eb64af"
+    },
+    "input_bound": 1455,
+    "state": "completed",
+    "response": "responses/0115.json",
+    "request_sha256": "fe4d22cb4bbce9c8ef5ce26d5c2d32e49543fe559a9952e75627faae49db8103",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 77,
+      "output_tokens_details": {
+        "reasoning_tokens": 29
+      },
+      "total_tokens": 508
+    }
+  },
+  {
+    "job": {
+      "shot_id": "fa6411ef-e222-4bb2-b48d-3950ab388f61",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/fa6411ef-e222-4bb2-b48d-3950ab388f61.png",
+      "image_sha256": "2092fa5cfbd82e85fa567daa1a5c5f7c2a758caa432fce525f59049221eb64af",
+      "logistic_probability": "0.100585"
+    },
+    "input_bound": 1588,
+    "state": "completed",
+    "response": "responses/0116.json",
+    "request_sha256": "c18ade1707946bcc1b4e1138a356adb58fb29e2e1df9cbb106e47705275cf998",
+    "usage": {
+      "input_tokens": 564,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 76,
+      "output_tokens_details": {
+        "reasoning_tokens": 28
+      },
+      "total_tokens": 640
+    }
+  },
+  {
+    "job": {
+      "shot_id": "89ac2a27-b231-4c94-9353-f00cc740f35b",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/89ac2a27-b231-4c94-9353-f00cc740f35b.png",
+      "image_sha256": "b3c07367bedca8ec2ff4117bf29b27cb1eade4f8cb3b5afc6cd7fd5ecde17a16"
+    },
+    "input_bound": 1455,
+    "state": "completed",
+    "response": "responses/0117.json",
+    "request_sha256": "cca7d3b633686ba8ae4cb33296733c7a364f06cb92d52388c37ff41246ce0ea5",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 42,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 473
+    }
+  },
+  {
+    "job": {
+      "shot_id": "89ac2a27-b231-4c94-9353-f00cc740f35b",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/89ac2a27-b231-4c94-9353-f00cc740f35b.png",
+      "image_sha256": "b3c07367bedca8ec2ff4117bf29b27cb1eade4f8cb3b5afc6cd7fd5ecde17a16",
+      "logistic_probability": "0.032267"
+    },
+    "input_bound": 1588,
+    "state": "completed",
+    "response": "responses/0118.json",
+    "request_sha256": "eb7fd3c6abe3281c4ad183f34a12f230757f3aa67a98ce8a62007f530966a82a",
+    "usage": {
+      "input_tokens": 564,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 114,
+      "output_tokens_details": {
+        "reasoning_tokens": 71
+      },
+      "total_tokens": 678
+    }
+  },
+  {
+    "job": {
+      "shot_id": "72be986e-5444-4c04-8b12-eb45c0a6c51e",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/72be986e-5444-4c04-8b12-eb45c0a6c51e.png",
+      "image_sha256": "489f86f7fc215157fb446e32707f5a8e88681a67b98b26df6dc887b75d7bdfa8"
+    },
+    "input_bound": 1455,
+    "state": "completed",
+    "response": "responses/0119.json",
+    "request_sha256": "9f0e1774a841b5a415f39d4bc182932ae8556477da3a0a0791a315b67e695825",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 185,
+      "output_tokens_details": {
+        "reasoning_tokens": 143
+      },
+      "total_tokens": 616
+    }
+  },
+  {
+    "job": {
+      "shot_id": "72be986e-5444-4c04-8b12-eb45c0a6c51e",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/72be986e-5444-4c04-8b12-eb45c0a6c51e.png",
+      "image_sha256": "489f86f7fc215157fb446e32707f5a8e88681a67b98b26df6dc887b75d7bdfa8",
+      "logistic_probability": "0.193016"
+    },
+    "input_bound": 1588,
+    "state": "completed",
+    "response": "responses/0120.json",
+    "request_sha256": "61dea66238535047d912afbe5f49354b14fe010e1db808ab046b9d2cca044f40",
+    "usage": {
+      "input_tokens": 564,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 92,
+      "output_tokens_details": {
+        "reasoning_tokens": 50
+      },
+      "total_tokens": 656
+    }
+  },
+  {
+    "job": {
+      "shot_id": "68d491f5-51e4-4140-8fcd-7ad6f3100b26",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/68d491f5-51e4-4140-8fcd-7ad6f3100b26.png",
+      "image_sha256": "227b974dab23ba11bd3792e13b46a60e43810ec917b50b9e611dfa1785365ea9",
+      "logistic_probability": "0.277000"
+    },
+    "input_bound": 1588,
+    "state": "completed",
+    "response": "responses/0121.json",
+    "request_sha256": "f529af876307314048bf1a0db226ac9026ca8e35bfe3b90392c5b4eeea24fca8",
+    "usage": {
+      "input_tokens": 564,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 148,
+      "output_tokens_details": {
+        "reasoning_tokens": 102
+      },
+      "total_tokens": 712
+    }
+  },
+  {
+    "job": {
+      "shot_id": "68d491f5-51e4-4140-8fcd-7ad6f3100b26",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/68d491f5-51e4-4140-8fcd-7ad6f3100b26.png",
+      "image_sha256": "227b974dab23ba11bd3792e13b46a60e43810ec917b50b9e611dfa1785365ea9"
+    },
+    "input_bound": 1455,
+    "state": "completed",
+    "response": "responses/0122.json",
+    "request_sha256": "6d7546e55a5aec51c1f4cbfe79d73c6b93ff7313e426363f6643b3438200d0d2",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 114,
+      "output_tokens_details": {
+        "reasoning_tokens": 67
+      },
+      "total_tokens": 545
+    }
+  },
+  {
+    "job": {
+      "shot_id": "c4c9f0ab-1c48-4729-b04b-8e1ee56c235c",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/c4c9f0ab-1c48-4729-b04b-8e1ee56c235c.png",
+      "image_sha256": "e1f0897c2952fb243f0ad690bbce01675adca7ff7a3d9ebe5dea574854cce898",
+      "logistic_probability": "0.053148"
+    },
+    "input_bound": 1588,
+    "state": "completed",
+    "response": "responses/0123.json",
+    "request_sha256": "cd0be4c3268e3f22e2e1c6e716514e8e497bc264ef3eaeb5b008843350a4019c",
+    "usage": {
+      "input_tokens": 564,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 77,
+      "output_tokens_details": {
+        "reasoning_tokens": 37
+      },
+      "total_tokens": 641
+    }
+  },
+  {
+    "job": {
+      "shot_id": "c4c9f0ab-1c48-4729-b04b-8e1ee56c235c",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/c4c9f0ab-1c48-4729-b04b-8e1ee56c235c.png",
+      "image_sha256": "e1f0897c2952fb243f0ad690bbce01675adca7ff7a3d9ebe5dea574854cce898"
+    },
+    "input_bound": 1455,
+    "state": "completed",
+    "response": "responses/0124.json",
+    "request_sha256": "be6174580e993b930ff1d63de732f7fe3cf7a20b7c6a1bf114d723fed8d23f91",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 93,
+      "output_tokens_details": {
+        "reasoning_tokens": 48
+      },
+      "total_tokens": 524
+    }
+  },
+  {
+    "job": {
+      "shot_id": "d8960dbe-83e3-47db-9180-93233d8b76e9",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/d8960dbe-83e3-47db-9180-93233d8b76e9.png",
+      "image_sha256": "07a5653a55dfd40a8a09715a1b74aad132699c28a7a8aeebb961ec8131d5a2e0",
+      "logistic_probability": "0.110424"
+    },
+    "input_bound": 1588,
+    "state": "completed",
+    "response": "responses/0125.json",
+    "request_sha256": "30590ce5c99b9c2292b2d20a4340b7af2ed9f46ae6f0cd147175ea895b36f2bf",
+    "usage": {
+      "input_tokens": 564,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 83,
+      "output_tokens_details": {
+        "reasoning_tokens": 43
+      },
+      "total_tokens": 647
+    }
+  },
+  {
+    "job": {
+      "shot_id": "d8960dbe-83e3-47db-9180-93233d8b76e9",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/d8960dbe-83e3-47db-9180-93233d8b76e9.png",
+      "image_sha256": "07a5653a55dfd40a8a09715a1b74aad132699c28a7a8aeebb961ec8131d5a2e0"
+    },
+    "input_bound": 1455,
+    "state": "completed",
+    "response": "responses/0126.json",
+    "request_sha256": "0ecc8898030f1f18e2afa6d54ad5aec3cd8983f8be457099fa2e93b910b31250",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 124,
+      "output_tokens_details": {
+        "reasoning_tokens": 79
+      },
+      "total_tokens": 555
+    }
+  },
+  {
+    "job": {
+      "shot_id": "b0f16225-8f81-4553-8d92-ed0c79a2c410",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/b0f16225-8f81-4553-8d92-ed0c79a2c410.png",
+      "image_sha256": "be313001c620ead59d2116621a1514bf926f19e72b3328cfa45de54a393d8cb5"
+    },
+    "input_bound": 1455,
+    "state": "completed",
+    "response": "responses/0127.json",
+    "request_sha256": "fa6d7a5dfbf883577f1ac7e9846c86cc4d43eb1c6255ff61382cd9fad3865c47",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 46,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 477
+    }
+  },
+  {
+    "job": {
+      "shot_id": "b0f16225-8f81-4553-8d92-ed0c79a2c410",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/b0f16225-8f81-4553-8d92-ed0c79a2c410.png",
+      "image_sha256": "be313001c620ead59d2116621a1514bf926f19e72b3328cfa45de54a393d8cb5",
+      "logistic_probability": "0.157680"
+    },
+    "input_bound": 1588,
+    "state": "completed",
+    "response": "responses/0128.json",
+    "request_sha256": "c995a437c9f35183ef936e08b5720ccf6b5597c16de0173cf9b7ace3b57bf8c6",
+    "usage": {
+      "input_tokens": 564,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 85,
+      "output_tokens_details": {
+        "reasoning_tokens": 40
+      },
+      "total_tokens": 649
+    }
+  },
+  {
+    "job": {
+      "shot_id": "5349882a-308c-4e82-9a9e-47c0e9dab267",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/5349882a-308c-4e82-9a9e-47c0e9dab267.png",
+      "image_sha256": "c522b0f5a622ae9e3963a44ffe143f13b0fcbbf547f41bbaa6cf0673f8861510",
+      "logistic_probability": "0.120256"
+    },
+    "input_bound": 1588,
+    "state": "completed",
+    "response": "responses/0129.json",
+    "request_sha256": "e762cad3bd64ae56e6a9d868a2c561e3706bf86888e1e2bc2638cb2b7b053986",
+    "usage": {
+      "input_tokens": 564,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 163,
+      "output_tokens_details": {
+        "reasoning_tokens": 119
+      },
+      "total_tokens": 727
+    }
+  },
+  {
+    "job": {
+      "shot_id": "5349882a-308c-4e82-9a9e-47c0e9dab267",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/5349882a-308c-4e82-9a9e-47c0e9dab267.png",
+      "image_sha256": "c522b0f5a622ae9e3963a44ffe143f13b0fcbbf547f41bbaa6cf0673f8861510"
+    },
+    "input_bound": 1455,
+    "state": "completed",
+    "response": "responses/0130.json",
+    "request_sha256": "3fdc223f39e411d3e4a2f92c00dcbe28d0729b67c7a0f2a4b252c095dde5f32b",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 135,
+      "output_tokens_details": {
+        "reasoning_tokens": 90
+      },
+      "total_tokens": 566
+    }
+  },
+  {
+    "job": {
+      "shot_id": "d6702d84-2680-4050-995b-2f3c886eb1d0",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/d6702d84-2680-4050-995b-2f3c886eb1d0.png",
+      "image_sha256": "ca33b7234dd044c7ce484be62d954c83c99f9ad77261191099ca5213dffb4a32",
+      "logistic_probability": "0.336255"
+    },
+    "input_bound": 1588,
+    "state": "completed",
+    "response": "responses/0131.json",
+    "request_sha256": "0b398abe8e234dc1d942b8b00101097ea399f6a0bf0a3577cba68da8a805d30c",
+    "usage": {
+      "input_tokens": 564,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 163,
+      "output_tokens_details": {
+        "reasoning_tokens": 114
+      },
+      "total_tokens": 727
+    }
+  },
+  {
+    "job": {
+      "shot_id": "d6702d84-2680-4050-995b-2f3c886eb1d0",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/d6702d84-2680-4050-995b-2f3c886eb1d0.png",
+      "image_sha256": "ca33b7234dd044c7ce484be62d954c83c99f9ad77261191099ca5213dffb4a32"
+    },
+    "input_bound": 1455,
+    "state": "completed",
+    "response": "responses/0132.json",
+    "request_sha256": "a1da540ec4cadd1fea02f0cea9bd0cf780706e154f1ecb7ba4275d82aa774a5a",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "output_tokens": 119,
+      "output_tokens_details": {
+        "reasoning_tokens": 73
+      },
+      "total_tokens": 550
+    }
+  },
+  {
+    "job": {
+      "shot_id": "47f24d70-d7aa-4c8b-be9e-af604e310d09",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/47f24d70-d7aa-4c8b-be9e-af604e310d09.png",
+      "image_sha256": "352dfac989f3210d4db00b52f8860c9a7db6e8cb847649095e06618095b481c7",
+      "logistic_probability": "0.158685"
+    },
+    "input_bound": 1588,
+    "state": "completed",
+    "response": "responses/0133.json",
+    "request_sha256": "27444852ee8c6a7e083a9f19c54ca6c06a72add5764a7d0ae40d0603df554989",
+    "usage": {
+      "input_tokens": 564,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 174,
+      "output_tokens_details": {
+        "reasoning_tokens": 133
+      },
+      "total_tokens": 738
+    }
+  },
+  {
+    "job": {
+      "shot_id": "47f24d70-d7aa-4c8b-be9e-af604e310d09",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/47f24d70-d7aa-4c8b-be9e-af604e310d09.png",
+      "image_sha256": "352dfac989f3210d4db00b52f8860c9a7db6e8cb847649095e06618095b481c7"
+    },
+    "input_bound": 1455,
+    "state": "completed",
+    "response": "responses/0134.json",
+    "request_sha256": "5060da01f13936d83e1ac0969a218830ffc8adb1e54cf2015452a115a3372436",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 122,
+      "output_tokens_details": {
+        "reasoning_tokens": 78
+      },
+      "total_tokens": 553
+    }
+  },
+  {
+    "job": {
+      "shot_id": "5322cc2c-dbf6-41e2-a9b4-f6f160dc1ce2",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/5322cc2c-dbf6-41e2-a9b4-f6f160dc1ce2.png",
+      "image_sha256": "d01f3317f815d6c5911c30722cf8344df241ff47abc69bdcecdca541b0ccb856",
+      "logistic_probability": "0.022283"
+    },
+    "input_bound": 1588,
+    "state": "completed",
+    "response": "responses/0135.json",
+    "request_sha256": "3147149429d2244bb9a759a9b97788348623cff5a0606ead96981f3b8f86b4fe",
+    "usage": {
+      "input_tokens": 564,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 110,
+      "output_tokens_details": {
+        "reasoning_tokens": 64
+      },
+      "total_tokens": 674
+    }
+  },
+  {
+    "job": {
+      "shot_id": "5322cc2c-dbf6-41e2-a9b4-f6f160dc1ce2",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/5322cc2c-dbf6-41e2-a9b4-f6f160dc1ce2.png",
+      "image_sha256": "d01f3317f815d6c5911c30722cf8344df241ff47abc69bdcecdca541b0ccb856"
+    },
+    "input_bound": 1455,
+    "state": "completed",
+    "response": "responses/0136.json",
+    "request_sha256": "77d43dfdd50a47f60ea795cc8729a6cb643ceaea51f9f5c5b1a58a37c7c6a48a",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 42,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 473
+    }
+  },
+  {
+    "job": {
+      "shot_id": "36205c11-18fa-4351-b334-0a472ca9e4a3",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/36205c11-18fa-4351-b334-0a472ca9e4a3.png",
+      "image_sha256": "07b4f17a86cde918198d94b25d74f074af3099650dd3e51f4fcdf4b443f3936c"
+    },
+    "input_bound": 1455,
+    "state": "completed",
+    "response": "responses/0137.json",
+    "request_sha256": "c8d209c5f8fc1c7d4284b924444c242176443c55b13829bc42365419845b255a",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 93,
+      "output_tokens_details": {
+        "reasoning_tokens": 49
+      },
+      "total_tokens": 524
+    }
+  },
+  {
+    "job": {
+      "shot_id": "36205c11-18fa-4351-b334-0a472ca9e4a3",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/36205c11-18fa-4351-b334-0a472ca9e4a3.png",
+      "image_sha256": "07b4f17a86cde918198d94b25d74f074af3099650dd3e51f4fcdf4b443f3936c",
+      "logistic_probability": "0.011700"
+    },
+    "input_bound": 1588,
+    "state": "completed",
+    "response": "responses/0138.json",
+    "request_sha256": "30b39f326b80994055af72f866744ba189d4defcbb0104e0b0911ea512d3a57e",
+    "usage": {
+      "input_tokens": 564,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 91,
+      "output_tokens_details": {
+        "reasoning_tokens": 42
+      },
+      "total_tokens": 655
+    }
+  },
+  {
+    "job": {
+      "shot_id": "4824ffd4-5902-4495-913e-21cd4dfbbc78",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/4824ffd4-5902-4495-913e-21cd4dfbbc78.png",
+      "image_sha256": "381a6aaaa0e5935ca38120afd18e02b44c51ca88d84f31f66652dd2f605e03c8"
+    },
+    "input_bound": 1455,
+    "state": "completed",
+    "response": "responses/0139.json",
+    "request_sha256": "4ebb7953826c91472f8b01619a1d94e1ffc811c5e3ecc5051f0a5cefea2a985a",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 110,
+      "output_tokens_details": {
+        "reasoning_tokens": 65
+      },
+      "total_tokens": 541
+    }
+  },
+  {
+    "job": {
+      "shot_id": "4824ffd4-5902-4495-913e-21cd4dfbbc78",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/4824ffd4-5902-4495-913e-21cd4dfbbc78.png",
+      "image_sha256": "381a6aaaa0e5935ca38120afd18e02b44c51ca88d84f31f66652dd2f605e03c8",
+      "logistic_probability": "0.107274"
+    },
+    "input_bound": 1588,
+    "state": "completed",
+    "response": "responses/0140.json",
+    "request_sha256": "48cd12cf29937f42ec8e8e237e612eaf6088c63daea084f727186d935e116ecc",
+    "usage": {
+      "input_tokens": 564,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 101,
+      "output_tokens_details": {
+        "reasoning_tokens": 55
+      },
+      "total_tokens": 665
+    }
+  },
+  {
+    "job": {
+      "shot_id": "c844ce14-ebc9-4858-be93-c2489aded6d8",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/c844ce14-ebc9-4858-be93-c2489aded6d8.png",
+      "image_sha256": "6a6ffadeecf03d1dbb42f34d97c342b38730ec7e90914ed6de37e6ee42f4f075",
+      "logistic_probability": "0.047629"
+    },
+    "input_bound": 1588,
+    "state": "completed",
+    "response": "responses/0141.json",
+    "request_sha256": "4b027e5d87787c8541a72d84d3393ec755ab28dd628b1d35e3ca47c07232b907",
+    "usage": {
+      "input_tokens": 564,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 85,
+      "output_tokens_details": {
+        "reasoning_tokens": 41
+      },
+      "total_tokens": 649
+    }
+  },
+  {
+    "job": {
+      "shot_id": "c844ce14-ebc9-4858-be93-c2489aded6d8",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/c844ce14-ebc9-4858-be93-c2489aded6d8.png",
+      "image_sha256": "6a6ffadeecf03d1dbb42f34d97c342b38730ec7e90914ed6de37e6ee42f4f075"
+    },
+    "input_bound": 1455,
+    "state": "completed",
+    "response": "responses/0142.json",
+    "request_sha256": "9be9b10ed387d606c9e6c61043dae1923b8f02e23a2a597a45581dc6dbddacd6",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 43,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 474
+    }
+  },
+  {
+    "job": {
+      "shot_id": "26300399-ffed-4ca5-b7de-161c617feaf3",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/26300399-ffed-4ca5-b7de-161c617feaf3.png",
+      "image_sha256": "6878e51caac898ba7937a3a1395ebf84cb791a328fbfca8ffc185b6677612af0"
+    },
+    "input_bound": 1455,
+    "state": "completed",
+    "response": "responses/0143.json",
+    "request_sha256": "5f5b87864ecb5bab20b28a219e58b876596adf3d2a93d985bc99f4144e546ac4",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 112,
+      "output_tokens_details": {
+        "reasoning_tokens": 66
+      },
+      "total_tokens": 543
+    }
+  },
+  {
+    "job": {
+      "shot_id": "26300399-ffed-4ca5-b7de-161c617feaf3",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/26300399-ffed-4ca5-b7de-161c617feaf3.png",
+      "image_sha256": "6878e51caac898ba7937a3a1395ebf84cb791a328fbfca8ffc185b6677612af0",
+      "logistic_probability": "0.109196"
+    },
+    "input_bound": 1588,
+    "state": "completed",
+    "response": "responses/0144.json",
+    "request_sha256": "822b16dc0a38ad8be82f99afb7726a8ad96a51e2fc4fe0413bd3e491fb1600d9",
+    "usage": {
+      "input_tokens": 564,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 85,
+      "output_tokens_details": {
+        "reasoning_tokens": 40
+      },
+      "total_tokens": 649
+    }
+  },
+  {
+    "job": {
+      "shot_id": "d26b4057-a637-40ce-b7df-a3c47b3d8839",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/d26b4057-a637-40ce-b7df-a3c47b3d8839.png",
+      "image_sha256": "64d4d30484c4826935316202857bfef4afca1c55bac013d8d462e9f717b92c1d",
+      "logistic_probability": "0.068326"
+    },
+    "input_bound": 1588,
+    "state": "completed",
+    "response": "responses/0145.json",
+    "request_sha256": "953ee6b67fbd6d83201d918ce1f05928784c960d6b606fc1fdf497b5fc1b434f",
+    "usage": {
+      "input_tokens": 564,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 104,
+      "output_tokens_details": {
+        "reasoning_tokens": 57
+      },
+      "total_tokens": 668
+    }
+  },
+  {
+    "job": {
+      "shot_id": "d26b4057-a637-40ce-b7df-a3c47b3d8839",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/d26b4057-a637-40ce-b7df-a3c47b3d8839.png",
+      "image_sha256": "64d4d30484c4826935316202857bfef4afca1c55bac013d8d462e9f717b92c1d"
+    },
+    "input_bound": 1455,
+    "state": "completed",
+    "response": "responses/0146.json",
+    "request_sha256": "d88727eaa17e4d13bb674c0a9ba99df10b48b01595050317cdd66f80f8e8dd4e",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 116,
+      "output_tokens_details": {
+        "reasoning_tokens": 68
+      },
+      "total_tokens": 547
+    }
+  },
+  {
+    "job": {
+      "shot_id": "6cc3bf0a-f73d-4b99-b8e7-42f30079f11b",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/6cc3bf0a-f73d-4b99-b8e7-42f30079f11b.png",
+      "image_sha256": "636b2ebe6cab5c7ab459e9e4ed8c892471a1334e49925490e8cc89b33805a48a",
+      "logistic_probability": "0.095925"
+    },
+    "input_bound": 1588,
+    "state": "completed",
+    "response": "responses/0147.json",
+    "request_sha256": "c3c7a2d57ea1c09fc588148224c2879ab68e9403e505df2c0be7c20898e4f560",
+    "usage": {
+      "input_tokens": 564,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 94,
+      "output_tokens_details": {
+        "reasoning_tokens": 49
+      },
+      "total_tokens": 658
+    }
+  },
+  {
+    "job": {
+      "shot_id": "6cc3bf0a-f73d-4b99-b8e7-42f30079f11b",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/6cc3bf0a-f73d-4b99-b8e7-42f30079f11b.png",
+      "image_sha256": "636b2ebe6cab5c7ab459e9e4ed8c892471a1334e49925490e8cc89b33805a48a"
+    },
+    "input_bound": 1455,
+    "state": "completed",
+    "response": "responses/0148.json",
+    "request_sha256": "c814dee72247c1f1254338832d084cdb6f2ba45c4ec48d09a7d8ada0ab8b09d5",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 154,
+      "output_tokens_details": {
+        "reasoning_tokens": 108
+      },
+      "total_tokens": 585
+    }
+  },
+  {
+    "job": {
+      "shot_id": "72e40c11-7989-4aa3-aa93-f1bf405391f4",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/72e40c11-7989-4aa3-aa93-f1bf405391f4.png",
+      "image_sha256": "259122c1ed67c63ab5c6c98331b1df906a127f2a97e60596a4f9761c556b8f99"
+    },
+    "input_bound": 1455,
+    "state": "completed",
+    "response": "responses/0149.json",
+    "request_sha256": "99e51430a9f2c4930f8010117b3a965a6ef24e708d78938e1712b214518e6651",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 159,
+      "output_tokens_details": {
+        "reasoning_tokens": 113
+      },
+      "total_tokens": 590
+    }
+  },
+  {
+    "job": {
+      "shot_id": "72e40c11-7989-4aa3-aa93-f1bf405391f4",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/72e40c11-7989-4aa3-aa93-f1bf405391f4.png",
+      "image_sha256": "259122c1ed67c63ab5c6c98331b1df906a127f2a97e60596a4f9761c556b8f99",
+      "logistic_probability": "0.033894"
+    },
+    "input_bound": 1588,
+    "state": "completed",
+    "response": "responses/0150.json",
+    "request_sha256": "59cc4b06e92ade2e9de67d9b5e21c29b34dd4c4a261e25d43790e70ab5ce1ac1",
+    "usage": {
+      "input_tokens": 564,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 165,
+      "output_tokens_details": {
+        "reasoning_tokens": 121
+      },
+      "total_tokens": 729
+    }
+  },
+  {
+    "job": {
+      "shot_id": "5c0dad5a-0a5e-4cd2-9945-c0b8f540eafe",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/5c0dad5a-0a5e-4cd2-9945-c0b8f540eafe.png",
+      "image_sha256": "d2dcb967b6cb9182d6c700d170336ee89cc00ae72d14dd96ac250ac83c4ae217"
+    },
+    "input_bound": 1455,
+    "state": "completed",
+    "response": "responses/0151.json",
+    "request_sha256": "9ba66ce6225a68d1955386d5aa7f43d611d6dbf079a61b2a5b5a7c0481e131d8",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 115,
+      "output_tokens_details": {
+        "reasoning_tokens": 68
+      },
+      "total_tokens": 546
+    }
+  },
+  {
+    "job": {
+      "shot_id": "5c0dad5a-0a5e-4cd2-9945-c0b8f540eafe",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/5c0dad5a-0a5e-4cd2-9945-c0b8f540eafe.png",
+      "image_sha256": "d2dcb967b6cb9182d6c700d170336ee89cc00ae72d14dd96ac250ac83c4ae217",
+      "logistic_probability": "0.170453"
+    },
+    "input_bound": 1588,
+    "state": "completed",
+    "response": "responses/0152.json",
+    "request_sha256": "5a37cee2a02de15fa082cb29ed63701a63df1d66cb05378d4c86daa5ab3fd6f0",
+    "usage": {
+      "input_tokens": 564,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 89,
+      "output_tokens_details": {
+        "reasoning_tokens": 43
+      },
+      "total_tokens": 653
+    }
+  },
+  {
+    "job": {
+      "shot_id": "52aa01d1-1d7b-4688-9f84-210cfea309cf",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/52aa01d1-1d7b-4688-9f84-210cfea309cf.png",
+      "image_sha256": "3664f8b173b69ae818d04b3103a7aa05d032c1e3208e12770d7582aeed71e655",
+      "logistic_probability": "0.115143"
+    },
+    "input_bound": 1588,
+    "state": "completed",
+    "response": "responses/0153.json",
+    "request_sha256": "3b3ca00a3e45a7293c68a980b81afc8f95b34b1ece2c3d495c17479f63563e9e",
+    "usage": {
+      "input_tokens": 564,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 108,
+      "output_tokens_details": {
+        "reasoning_tokens": 66
+      },
+      "total_tokens": 672
+    }
+  },
+  {
+    "job": {
+      "shot_id": "52aa01d1-1d7b-4688-9f84-210cfea309cf",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/52aa01d1-1d7b-4688-9f84-210cfea309cf.png",
+      "image_sha256": "3664f8b173b69ae818d04b3103a7aa05d032c1e3208e12770d7582aeed71e655"
+    },
+    "input_bound": 1455,
+    "state": "completed",
+    "response": "responses/0154.json",
+    "request_sha256": "b9a31e921dbdc2c52cc1b61508e53016932cf291c321e02f914bc8c13a3ca70a",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 129,
+      "output_tokens_details": {
+        "reasoning_tokens": 85
+      },
+      "total_tokens": 560
+    }
+  },
+  {
+    "job": {
+      "shot_id": "192ef4cc-abd7-444d-aa71-2c7d5dad9270",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/192ef4cc-abd7-444d-aa71-2c7d5dad9270.png",
+      "image_sha256": "7d7a0701047baa63c4a43229cc936b2e68f517570dcf92b59b4a176150936721"
+    },
+    "input_bound": 1455,
+    "state": "completed",
+    "response": "responses/0155.json",
+    "request_sha256": "83ee44954599c4084335a4e0bf5069619a79efbe9d8c763c037f70db5540d576",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 111,
+      "output_tokens_details": {
+        "reasoning_tokens": 68
+      },
+      "total_tokens": 542
+    }
+  },
+  {
+    "job": {
+      "shot_id": "192ef4cc-abd7-444d-aa71-2c7d5dad9270",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/192ef4cc-abd7-444d-aa71-2c7d5dad9270.png",
+      "image_sha256": "7d7a0701047baa63c4a43229cc936b2e68f517570dcf92b59b4a176150936721",
+      "logistic_probability": "0.030360"
+    },
+    "input_bound": 1588,
+    "state": "completed",
+    "response": "responses/0156.json",
+    "request_sha256": "dc9fe5eca05e58a2381b680cef08f2af7d31eec7b0e631792839868f5bdfb77a",
+    "usage": {
+      "input_tokens": 564,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 92,
+      "output_tokens_details": {
+        "reasoning_tokens": 47
+      },
+      "total_tokens": 656
+    }
+  },
+  {
+    "job": {
+      "shot_id": "bf7123bf-b216-4597-8f7b-89bd84047676",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/bf7123bf-b216-4597-8f7b-89bd84047676.png",
+      "image_sha256": "610992212aa7c06a24039e5cc9f340503b0b063268b06692e392da3244bddabc",
+      "logistic_probability": "0.074148"
+    },
+    "input_bound": 1588,
+    "state": "completed",
+    "response": "responses/0157.json",
+    "request_sha256": "48d62643ed628afae5dca36c2427b5757372155cc67db47d86a8bb9fee56866d",
+    "usage": {
+      "input_tokens": 564,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 84,
+      "output_tokens_details": {
+        "reasoning_tokens": 43
+      },
+      "total_tokens": 648
+    }
+  },
+  {
+    "job": {
+      "shot_id": "bf7123bf-b216-4597-8f7b-89bd84047676",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/bf7123bf-b216-4597-8f7b-89bd84047676.png",
+      "image_sha256": "610992212aa7c06a24039e5cc9f340503b0b063268b06692e392da3244bddabc"
+    },
+    "input_bound": 1455,
+    "state": "completed",
+    "response": "responses/0158.json",
+    "request_sha256": "8b45e5675dd64ae1b481bfd148f713e703109f48d8e0f25bedbd7bf2b1f49faf",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 112,
+      "output_tokens_details": {
+        "reasoning_tokens": 65
+      },
+      "total_tokens": 543
+    }
+  },
+  {
+    "job": {
+      "shot_id": "1bedb562-dcb8-422b-8b6f-15cbd47f29b3",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/1bedb562-dcb8-422b-8b6f-15cbd47f29b3.png",
+      "image_sha256": "4736b98f75f42e6005b81d8578b37c79cfbc1bded14cc3ba01ad92efbfd2cd85"
+    },
+    "input_bound": 1455,
+    "state": "completed",
+    "response": "responses/0159.json",
+    "request_sha256": "5bf584168c65c53d4dcf3363cca7a4e41bd57180bd51daa8e54b9165639307d1",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 43,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 474
+    }
+  },
+  {
+    "job": {
+      "shot_id": "1bedb562-dcb8-422b-8b6f-15cbd47f29b3",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/1bedb562-dcb8-422b-8b6f-15cbd47f29b3.png",
+      "image_sha256": "4736b98f75f42e6005b81d8578b37c79cfbc1bded14cc3ba01ad92efbfd2cd85",
+      "logistic_probability": "0.034897"
+    },
+    "input_bound": 1588,
+    "state": "completed",
+    "response": "responses/0160.json",
+    "request_sha256": "250b58bfc9ecdf784f1373b4fc671ff154b3da4ad9cea0b4eec0d609f58ab926",
+    "usage": {
+      "input_tokens": 564,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 84,
+      "output_tokens_details": {
+        "reasoning_tokens": 39
+      },
+      "total_tokens": 648
+    }
+  },
+  {
+    "job": {
+      "shot_id": "e18241aa-618e-4268-8d92-a11aaa371003",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/e18241aa-618e-4268-8d92-a11aaa371003.png",
+      "image_sha256": "a3d16d459e118bf531badc4dc2bdd51886183da51eee86ee271707ec36b5e39e"
+    },
+    "input_bound": 1455,
+    "state": "completed",
+    "response": "responses/0161.json",
+    "request_sha256": "be8ce59897d863cc99ea7563d73be04fb264e832e1e57ffdaab5505b88d70b98",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 73,
+      "output_tokens_details": {
+        "reasoning_tokens": 24
+      },
+      "total_tokens": 504
+    }
+  },
+  {
+    "job": {
+      "shot_id": "e18241aa-618e-4268-8d92-a11aaa371003",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/e18241aa-618e-4268-8d92-a11aaa371003.png",
+      "image_sha256": "a3d16d459e118bf531badc4dc2bdd51886183da51eee86ee271707ec36b5e39e",
+      "logistic_probability": "0.072405"
+    },
+    "input_bound": 1588,
+    "state": "completed",
+    "response": "responses/0162.json",
+    "request_sha256": "518afd264bb659378af6da2f8f8724be0b6df4ecc860dd9d58226ad46d56a9ec",
+    "usage": {
+      "input_tokens": 564,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 134,
+      "output_tokens_details": {
+        "reasoning_tokens": 93
+      },
+      "total_tokens": 698
+    }
+  },
+  {
+    "job": {
+      "shot_id": "42cd9db2-8621-4a7c-b90d-fdbd90f3047b",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/42cd9db2-8621-4a7c-b90d-fdbd90f3047b.png",
+      "image_sha256": "e3c24995209ab299fb25682c0a620d0773640481b46a559b3201ffd3189a2573",
+      "logistic_probability": "0.049725"
+    },
+    "input_bound": 1588,
+    "state": "completed",
+    "response": "responses/0163.json",
+    "request_sha256": "7d3a6bed3ce3c4271a2366767a8a5b8befe33414e2b451b601baf1daa0f6e540",
+    "usage": {
+      "input_tokens": 564,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 119,
+      "output_tokens_details": {
+        "reasoning_tokens": 72
+      },
+      "total_tokens": 683
+    }
+  },
+  {
+    "job": {
+      "shot_id": "42cd9db2-8621-4a7c-b90d-fdbd90f3047b",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/42cd9db2-8621-4a7c-b90d-fdbd90f3047b.png",
+      "image_sha256": "e3c24995209ab299fb25682c0a620d0773640481b46a559b3201ffd3189a2573"
+    },
+    "input_bound": 1455,
+    "state": "completed",
+    "response": "responses/0164.json",
+    "request_sha256": "12c25afa93221499a0aae232e790d2134545fa9735f4242a019b22d328cfe55a",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 99,
+      "output_tokens_details": {
+        "reasoning_tokens": 52
+      },
+      "total_tokens": 530
+    }
+  },
+  {
+    "job": {
+      "shot_id": "6c1205be-990a-4b97-95bd-c14e334782d7",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/6c1205be-990a-4b97-95bd-c14e334782d7.png",
+      "image_sha256": "04a180dd5c7b93b1ba7434a23ff5280d53fd6fe338c4fa663b251080c9b42532",
+      "logistic_probability": "0.057548"
+    },
+    "input_bound": 1588,
+    "state": "completed",
+    "response": "responses/0165.json",
+    "request_sha256": "8d5a5e04f3b56b54a12705bdc44bed01d26db1f311989bfabeee8aded49cb2b0",
+    "usage": {
+      "input_tokens": 564,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 117,
+      "output_tokens_details": {
+        "reasoning_tokens": 71
+      },
+      "total_tokens": 681
+    }
+  },
+  {
+    "job": {
+      "shot_id": "6c1205be-990a-4b97-95bd-c14e334782d7",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/6c1205be-990a-4b97-95bd-c14e334782d7.png",
+      "image_sha256": "04a180dd5c7b93b1ba7434a23ff5280d53fd6fe338c4fa663b251080c9b42532"
+    },
+    "input_bound": 1455,
+    "state": "completed",
+    "response": "responses/0166.json",
+    "request_sha256": "8d5d71fa48bc88a965b77d52450b2dcd6a1d4d16964700219f84ab91ecb6f1f8",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 109,
+      "output_tokens_details": {
+        "reasoning_tokens": 65
+      },
+      "total_tokens": 540
+    }
+  },
+  {
+    "job": {
+      "shot_id": "602d21e6-f208-42bf-9b45-f6eaeca98598",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/602d21e6-f208-42bf-9b45-f6eaeca98598.png",
+      "image_sha256": "9765d7d9f2392979f53838ad874421f04408f6c0f263cf5991d655966d7e3ede",
+      "logistic_probability": "0.040816"
+    },
+    "input_bound": 1588,
+    "state": "completed",
+    "response": "responses/0167.json",
+    "request_sha256": "65ead118007b12488485e3c67a0cc38e9e6bba62302e69e0111201c192d478d3",
+    "usage": {
+      "input_tokens": 564,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 62,
+      "output_tokens_details": {
+        "reasoning_tokens": 22
+      },
+      "total_tokens": 626
+    }
+  },
+  {
+    "job": {
+      "shot_id": "602d21e6-f208-42bf-9b45-f6eaeca98598",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/602d21e6-f208-42bf-9b45-f6eaeca98598.png",
+      "image_sha256": "9765d7d9f2392979f53838ad874421f04408f6c0f263cf5991d655966d7e3ede"
+    },
+    "input_bound": 1455,
+    "state": "completed",
+    "response": "responses/0168.json",
+    "request_sha256": "999d8a13a66e8bd5de5b2c4732411cdcfb7ea3146624792d4f0967160e9cd3bd",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 95,
+      "output_tokens_details": {
+        "reasoning_tokens": 52
+      },
+      "total_tokens": 526
+    }
+  },
+  {
+    "job": {
+      "shot_id": "88c89eb6-e396-4d00-b5bb-ee43b5ad84f2",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/88c89eb6-e396-4d00-b5bb-ee43b5ad84f2.png",
+      "image_sha256": "9eeafed95c316204d5bb1d83356d96b3f37fa8fbd5ad0b017649caecf07d42f2"
+    },
+    "input_bound": 1455,
+    "state": "completed",
+    "response": "responses/0169.json",
+    "request_sha256": "031e5d05030f0d15a631843a77f13bd5a6a183f460dd64f29cfac66bd990afc3",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 143,
+      "output_tokens_details": {
+        "reasoning_tokens": 98
+      },
+      "total_tokens": 574
+    }
+  },
+  {
+    "job": {
+      "shot_id": "88c89eb6-e396-4d00-b5bb-ee43b5ad84f2",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/88c89eb6-e396-4d00-b5bb-ee43b5ad84f2.png",
+      "image_sha256": "9eeafed95c316204d5bb1d83356d96b3f37fa8fbd5ad0b017649caecf07d42f2",
+      "logistic_probability": "0.190842"
+    },
+    "input_bound": 1588,
+    "state": "completed",
+    "response": "responses/0170.json",
+    "request_sha256": "3c22d9edf54479364300f9a9a04d73bbdffeb164e4d5dffc1a39253c76832bb3",
+    "usage": {
+      "input_tokens": 564,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 97,
+      "output_tokens_details": {
+        "reasoning_tokens": 50
+      },
+      "total_tokens": 661
+    }
+  },
+  {
+    "job": {
+      "shot_id": "d3ec378a-cb79-4746-8541-cc211185535d",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/d3ec378a-cb79-4746-8541-cc211185535d.png",
+      "image_sha256": "c6ac44145785af3bd64b3a74e73c5b14f648fedfc9f0202c799f999ec9e67e19",
+      "logistic_probability": "0.034857"
+    },
+    "input_bound": 1588,
+    "state": "completed",
+    "response": "responses/0171.json",
+    "request_sha256": "13795b8013eb6ce93c979027546f4281dbc8ef1526ecdaec47f26dab762fe0ed",
+    "usage": {
+      "input_tokens": 564,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 84,
+      "output_tokens_details": {
+        "reasoning_tokens": 37
+      },
+      "total_tokens": 648
+    }
+  },
+  {
+    "job": {
+      "shot_id": "d3ec378a-cb79-4746-8541-cc211185535d",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/d3ec378a-cb79-4746-8541-cc211185535d.png",
+      "image_sha256": "c6ac44145785af3bd64b3a74e73c5b14f648fedfc9f0202c799f999ec9e67e19"
+    },
+    "input_bound": 1455,
+    "state": "completed",
+    "response": "responses/0172.json",
+    "request_sha256": "e6e21cabeab4d261891c056d4aebcb5f3153f550244c593a32ab7eb33387b7e8",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 105,
+      "output_tokens_details": {
+        "reasoning_tokens": 61
+      },
+      "total_tokens": 536
+    }
+  },
+  {
+    "job": {
+      "shot_id": "4017eb7f-c801-40b5-ab01-7edd87f171ce",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/4017eb7f-c801-40b5-ab01-7edd87f171ce.png",
+      "image_sha256": "c2977871e24bbc30907bbebe9d4bc27181b19ff17ff593a7375f655c8ba4d14e",
+      "logistic_probability": "0.133485"
+    },
+    "input_bound": 1588,
+    "state": "completed",
+    "response": "responses/0173.json",
+    "request_sha256": "cf880e2d43b3584050be441483a5dce98032b29bea75972ec2776f629dfbe515",
+    "usage": {
+      "input_tokens": 564,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 129,
+      "output_tokens_details": {
+        "reasoning_tokens": 85
+      },
+      "total_tokens": 693
+    }
+  },
+  {
+    "job": {
+      "shot_id": "4017eb7f-c801-40b5-ab01-7edd87f171ce",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/4017eb7f-c801-40b5-ab01-7edd87f171ce.png",
+      "image_sha256": "c2977871e24bbc30907bbebe9d4bc27181b19ff17ff593a7375f655c8ba4d14e"
+    },
+    "input_bound": 1455,
+    "state": "completed",
+    "response": "responses/0174.json",
+    "request_sha256": "a2d668d7160dda9354209ff09b2a8a536c32401466b66448b3ba650c09510401",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 100,
+      "output_tokens_details": {
+        "reasoning_tokens": 53
+      },
+      "total_tokens": 531
+    }
+  },
+  {
+    "job": {
+      "shot_id": "e5965a61-bbfe-4746-a037-a804c6423379",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/e5965a61-bbfe-4746-a037-a804c6423379.png",
+      "image_sha256": "e9a1e43afb4267ae3f154d2b6be86e5e78b0aa917db4a9ae37a4cf7364599238",
+      "logistic_probability": "0.118708"
+    },
+    "input_bound": 1588,
+    "state": "completed",
+    "response": "responses/0175.json",
+    "request_sha256": "ec538f6b9fb25cf53cbe88e8bd48f14da3cac43f667b2591bff794be12b787cb",
+    "usage": {
+      "input_tokens": 564,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 78,
+      "output_tokens_details": {
+        "reasoning_tokens": 36
+      },
+      "total_tokens": 642
+    }
+  },
+  {
+    "job": {
+      "shot_id": "e5965a61-bbfe-4746-a037-a804c6423379",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/e5965a61-bbfe-4746-a037-a804c6423379.png",
+      "image_sha256": "e9a1e43afb4267ae3f154d2b6be86e5e78b0aa917db4a9ae37a4cf7364599238"
+    },
+    "input_bound": 1455,
+    "state": "completed",
+    "response": "responses/0176.json",
+    "request_sha256": "a79017bbb53f99aa81c092a2861565328b2fc1eeea2e9ef4d626507143752d86",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 102,
+      "output_tokens_details": {
+        "reasoning_tokens": 56
+      },
+      "total_tokens": 533
+    }
+  },
+  {
+    "job": {
+      "shot_id": "6f7bf0f1-9ae2-4a56-aae2-ebe62456cff3",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/6f7bf0f1-9ae2-4a56-aae2-ebe62456cff3.png",
+      "image_sha256": "e1367e1491f94fb98660cc58431137f91026bb64d12d057dc019a7693aba60ee",
+      "logistic_probability": "0.001626"
+    },
+    "input_bound": 1588,
+    "state": "completed",
+    "response": "responses/0177.json",
+    "request_sha256": "58e28acb42cd1b778606a58b5685e3fd4edd33fcecd7fafebc158bdedba5f600",
+    "usage": {
+      "input_tokens": 564,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 137,
+      "output_tokens_details": {
+        "reasoning_tokens": 88
+      },
+      "total_tokens": 701
+    }
+  },
+  {
+    "job": {
+      "shot_id": "6f7bf0f1-9ae2-4a56-aae2-ebe62456cff3",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/6f7bf0f1-9ae2-4a56-aae2-ebe62456cff3.png",
+      "image_sha256": "e1367e1491f94fb98660cc58431137f91026bb64d12d057dc019a7693aba60ee"
+    },
+    "input_bound": 1455,
+    "state": "completed",
+    "response": "responses/0178.json",
+    "request_sha256": "f5c8c7f18974ef26b049aa6af2e3e04654569fb26d1300d2b10a68da4e0487a7",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 112,
+      "output_tokens_details": {
+        "reasoning_tokens": 71
+      },
+      "total_tokens": 543
+    }
+  },
+  {
+    "job": {
+      "shot_id": "6ad44b8b-2acb-424e-9aa0-b4a8e40c87d5",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/6ad44b8b-2acb-424e-9aa0-b4a8e40c87d5.png",
+      "image_sha256": "731af793050bcb8edb3db3712e9ad922ae1c1b7714f78ddb17973e302822f12d",
+      "logistic_probability": "0.134635"
+    },
+    "input_bound": 1588,
+    "state": "completed",
+    "response": "responses/0179.json",
+    "request_sha256": "d982a9ba794f2c9fe0061b3fedf7ffaa21d665062c3f11c745a56b4f99149ad7",
+    "usage": {
+      "input_tokens": 564,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 116,
+      "output_tokens_details": {
+        "reasoning_tokens": 67
+      },
+      "total_tokens": 680
+    }
+  },
+  {
+    "job": {
+      "shot_id": "6ad44b8b-2acb-424e-9aa0-b4a8e40c87d5",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/6ad44b8b-2acb-424e-9aa0-b4a8e40c87d5.png",
+      "image_sha256": "731af793050bcb8edb3db3712e9ad922ae1c1b7714f78ddb17973e302822f12d"
+    },
+    "input_bound": 1455,
+    "state": "completed",
+    "response": "responses/0180.json",
+    "request_sha256": "72fadd1c8e11b36d4cac59149f3602e9bea275f74256ac9c80d65f550d6df2c0",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 193,
+      "output_tokens_details": {
+        "reasoning_tokens": 147
+      },
+      "total_tokens": 624
+    }
+  },
+  {
+    "job": {
+      "shot_id": "9e108521-3beb-46f7-9b74-b086c052e966",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/9e108521-3beb-46f7-9b74-b086c052e966.png",
+      "image_sha256": "6e9e4da05b4fb94afc5ff396e796793616606eae913c6fcc923ec719d5c5739a"
+    },
+    "input_bound": 1455,
+    "state": "completed",
+    "response": "responses/0181.json",
+    "request_sha256": "ff9f98941394720ddcd7370d4169a2239685384442ef3405724d74ab7e3cb0bf",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 106,
+      "output_tokens_details": {
+        "reasoning_tokens": 61
+      },
+      "total_tokens": 537
+    }
+  },
+  {
+    "job": {
+      "shot_id": "9e108521-3beb-46f7-9b74-b086c052e966",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/9e108521-3beb-46f7-9b74-b086c052e966.png",
+      "image_sha256": "6e9e4da05b4fb94afc5ff396e796793616606eae913c6fcc923ec719d5c5739a",
+      "logistic_probability": "0.007227"
+    },
+    "input_bound": 1588,
+    "state": "completed",
+    "response": "responses/0182.json",
+    "request_sha256": "6c445b0a26a616a309ec1d6331cb0b748540a738a574dd1e4e2ca13e3f661b3b",
+    "usage": {
+      "input_tokens": 564,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 84,
+      "output_tokens_details": {
+        "reasoning_tokens": 42
+      },
+      "total_tokens": 648
+    }
+  },
+  {
+    "job": {
+      "shot_id": "8066dc45-949c-444d-9941-cf67631a7e56",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/8066dc45-949c-444d-9941-cf67631a7e56.png",
+      "image_sha256": "c8e5fb6228602e74d9ac9d4a1ab7f7178512b4f92a60c5fd6b07423040551a69"
+    },
+    "input_bound": 1455,
+    "state": "completed",
+    "response": "responses/0183.json",
+    "request_sha256": "d9c2fe78be1c7e19af088ac7cafe86b62ef133529adb2581aed7d17d0d42d630",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 108,
+      "output_tokens_details": {
+        "reasoning_tokens": 64
+      },
+      "total_tokens": 539
+    }
+  },
+  {
+    "job": {
+      "shot_id": "8066dc45-949c-444d-9941-cf67631a7e56",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/8066dc45-949c-444d-9941-cf67631a7e56.png",
+      "image_sha256": "c8e5fb6228602e74d9ac9d4a1ab7f7178512b4f92a60c5fd6b07423040551a69",
+      "logistic_probability": "0.359472"
+    },
+    "input_bound": 1588,
+    "state": "completed",
+    "response": "responses/0184.json",
+    "request_sha256": "d7075cab05c1be1e1fd38111efc74f9829c7dd306c5bbe66764c38c2761cf0eb",
+    "usage": {
+      "input_tokens": 564,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 90,
+      "output_tokens_details": {
+        "reasoning_tokens": 45
+      },
+      "total_tokens": 654
+    }
+  },
+  {
+    "job": {
+      "shot_id": "c7bd8051-8938-4fc2-9d84-e968ab451b24",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/c7bd8051-8938-4fc2-9d84-e968ab451b24.png",
+      "image_sha256": "d707809c650c53967acba69dd7bf77b8d267718ce7e3d74f4c5e9fed9a50ce2d"
+    },
+    "input_bound": 1455,
+    "state": "completed",
+    "response": "responses/0185.json",
+    "request_sha256": "1ace32d2eb51374924ee053e6fc4ab0a71b2a1fd2614d71cf9dbe9837928ff87",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 146,
+      "output_tokens_details": {
+        "reasoning_tokens": 103
+      },
+      "total_tokens": 577
+    }
+  },
+  {
+    "job": {
+      "shot_id": "c7bd8051-8938-4fc2-9d84-e968ab451b24",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/c7bd8051-8938-4fc2-9d84-e968ab451b24.png",
+      "image_sha256": "d707809c650c53967acba69dd7bf77b8d267718ce7e3d74f4c5e9fed9a50ce2d",
+      "logistic_probability": "0.139735"
+    },
+    "input_bound": 1588,
+    "state": "completed",
+    "response": "responses/0186.json",
+    "request_sha256": "57dcd8505312ca90a48263c7254c668eb1b6ded037c6ff84feecd2760d8b9ed2",
+    "usage": {
+      "input_tokens": 564,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 69,
+      "output_tokens_details": {
+        "reasoning_tokens": 27
+      },
+      "total_tokens": 633
+    }
+  },
+  {
+    "job": {
+      "shot_id": "860c1bf0-5896-4d49-8535-82aa5a3a2e6d",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/860c1bf0-5896-4d49-8535-82aa5a3a2e6d.png",
+      "image_sha256": "9f048dda2fa0a8ed1d6464ae956c1851a2955bb8f16bfa229e98bbce2b0df014",
+      "logistic_probability": "0.025938"
+    },
+    "input_bound": 1588,
+    "state": "completed",
+    "response": "responses/0187.json",
+    "request_sha256": "95a0ce0f20d02050a81afa63628a1a70b038a524e372b2622c8936d983676a76",
+    "usage": {
+      "input_tokens": 564,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 145,
+      "output_tokens_details": {
+        "reasoning_tokens": 105
+      },
+      "total_tokens": 709
+    }
+  },
+  {
+    "job": {
+      "shot_id": "860c1bf0-5896-4d49-8535-82aa5a3a2e6d",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/860c1bf0-5896-4d49-8535-82aa5a3a2e6d.png",
+      "image_sha256": "9f048dda2fa0a8ed1d6464ae956c1851a2955bb8f16bfa229e98bbce2b0df014"
+    },
+    "input_bound": 1455,
+    "state": "completed",
+    "response": "responses/0188.json",
+    "request_sha256": "fe19475328e840b269a086a89ac6b0c0446a3d758f4dbb51009244810f82f11a",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 130,
+      "output_tokens_details": {
+        "reasoning_tokens": 84
+      },
+      "total_tokens": 561
+    }
+  },
+  {
+    "job": {
+      "shot_id": "2b704df7-4d74-4fbb-bd46-f4465a004d49",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/2b704df7-4d74-4fbb-bd46-f4465a004d49.png",
+      "image_sha256": "1af489c748492a25cab426a151c7e0832785177efa7650d8fb0a8b8b568a90c1"
+    },
+    "input_bound": 1455,
+    "state": "completed",
+    "response": "responses/0189.json",
+    "request_sha256": "5fa424f95b4dd557c2e0d00dd47d0335918806c274178a93a8074fe36e0da87c",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 93,
+      "output_tokens_details": {
+        "reasoning_tokens": 45
+      },
+      "total_tokens": 524
+    }
+  },
+  {
+    "job": {
+      "shot_id": "2b704df7-4d74-4fbb-bd46-f4465a004d49",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/2b704df7-4d74-4fbb-bd46-f4465a004d49.png",
+      "image_sha256": "1af489c748492a25cab426a151c7e0832785177efa7650d8fb0a8b8b568a90c1",
+      "logistic_probability": "0.028567"
+    },
+    "input_bound": 1588,
+    "state": "completed",
+    "response": "responses/0190.json",
+    "request_sha256": "c3a5f3f6f2c81430643105677be95b46ba859e4ec4a0a75d531136c0e96903b9",
+    "usage": {
+      "input_tokens": 564,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 83,
+      "output_tokens_details": {
+        "reasoning_tokens": 41
+      },
+      "total_tokens": 647
+    }
+  },
+  {
+    "job": {
+      "shot_id": "e07d7852-d3c7-479d-a799-fe403e62eda6",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/e07d7852-d3c7-479d-a799-fe403e62eda6.png",
+      "image_sha256": "087b0804ffafdd299300c3c77590f0c3a3bf7c791df44771dccd9633bb1f6ee5",
+      "logistic_probability": "0.005470"
+    },
+    "input_bound": 1588,
+    "state": "completed",
+    "response": "responses/0191.json",
+    "request_sha256": "f416333e21a9f1a8cab6e159d34a328be1fbd13d8b57d59f1ce2cf7226aad536",
+    "usage": {
+      "input_tokens": 564,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 90,
+      "output_tokens_details": {
+        "reasoning_tokens": 41
+      },
+      "total_tokens": 654
+    }
+  },
+  {
+    "job": {
+      "shot_id": "e07d7852-d3c7-479d-a799-fe403e62eda6",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/e07d7852-d3c7-479d-a799-fe403e62eda6.png",
+      "image_sha256": "087b0804ffafdd299300c3c77590f0c3a3bf7c791df44771dccd9633bb1f6ee5"
+    },
+    "input_bound": 1455,
+    "state": "completed",
+    "response": "responses/0192.json",
+    "request_sha256": "5c2980e922d0ea74970fa0f0cc2e416271aefeff7475c594646285f68f80d77a",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 94,
+      "output_tokens_details": {
+        "reasoning_tokens": 43
+      },
+      "total_tokens": 525
+    }
+  },
+  {
+    "job": {
+      "shot_id": "b5a1cfe9-4e19-4501-a2d9-d72f1373f464",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/b5a1cfe9-4e19-4501-a2d9-d72f1373f464.png",
+      "image_sha256": "916653471a3d3ab9e598b1dc216a8d3d4779ba07ef6149ba09eb5bf06cec0fc0",
+      "logistic_probability": "0.290408"
+    },
+    "input_bound": 1588,
+    "state": "completed",
+    "response": "responses/0193.json",
+    "request_sha256": "d90391e5791ff55e78a100bd7a00ffee3c8c56bb17e88861170fa7322e92dba8",
+    "usage": {
+      "input_tokens": 564,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 88,
+      "output_tokens_details": {
+        "reasoning_tokens": 42
+      },
+      "total_tokens": 652
+    }
+  },
+  {
+    "job": {
+      "shot_id": "b5a1cfe9-4e19-4501-a2d9-d72f1373f464",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/b5a1cfe9-4e19-4501-a2d9-d72f1373f464.png",
+      "image_sha256": "916653471a3d3ab9e598b1dc216a8d3d4779ba07ef6149ba09eb5bf06cec0fc0"
+    },
+    "input_bound": 1455,
+    "state": "completed",
+    "response": "responses/0194.json",
+    "request_sha256": "920cfaf4886e481a0c2e0e82c88ce0c5cc3589543f1c835964dbcfdffc9cefa9",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 123,
+      "output_tokens_details": {
+        "reasoning_tokens": 74
+      },
+      "total_tokens": 554
+    }
+  },
+  {
+    "job": {
+      "shot_id": "25f7384a-4fa1-4855-a6ad-ee396ca2da2a",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/25f7384a-4fa1-4855-a6ad-ee396ca2da2a.png",
+      "image_sha256": "40efeec319b0bff7fe2ac87bd38b85fc10390678edf48299f59bc80df68c62b1"
+    },
+    "input_bound": 1455,
+    "state": "completed",
+    "response": "responses/0195.json",
+    "request_sha256": "413c21ba7f8c4e9319628fae3d42e1f8c8ea23624b826d7fed64994f10d53472",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 166,
+      "output_tokens_details": {
+        "reasoning_tokens": 123
+      },
+      "total_tokens": 597
+    }
+  },
+  {
+    "job": {
+      "shot_id": "25f7384a-4fa1-4855-a6ad-ee396ca2da2a",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/25f7384a-4fa1-4855-a6ad-ee396ca2da2a.png",
+      "image_sha256": "40efeec319b0bff7fe2ac87bd38b85fc10390678edf48299f59bc80df68c62b1",
+      "logistic_probability": "0.154353"
+    },
+    "input_bound": 1588,
+    "state": "completed",
+    "response": "responses/0196.json",
+    "request_sha256": "49e0a43cf5000f901973ac995a7cad9de40dc6758a7584dbcab4ed27d3d8f865",
+    "usage": {
+      "input_tokens": 564,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 89,
+      "output_tokens_details": {
+        "reasoning_tokens": 47
+      },
+      "total_tokens": 653
+    }
+  },
+  {
+    "job": {
+      "shot_id": "618cdc75-5596-4ed8-bcc3-a29541120f56",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/618cdc75-5596-4ed8-bcc3-a29541120f56.png",
+      "image_sha256": "d9e63ee3cc3a6faa60cd201bd09df6ef014c0cfb09c46a2ab7fcb76438252b55",
+      "logistic_probability": "0.032643"
+    },
+    "input_bound": 1588,
+    "state": "completed",
+    "response": "responses/0197.json",
+    "request_sha256": "8360d9303a11460231a579f65ffa3fecdd57f8797b570168dc46f1e612c956a4",
+    "usage": {
+      "input_tokens": 564,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 87,
+      "output_tokens_details": {
+        "reasoning_tokens": 45
+      },
+      "total_tokens": 651
+    }
+  },
+  {
+    "job": {
+      "shot_id": "618cdc75-5596-4ed8-bcc3-a29541120f56",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/618cdc75-5596-4ed8-bcc3-a29541120f56.png",
+      "image_sha256": "d9e63ee3cc3a6faa60cd201bd09df6ef014c0cfb09c46a2ab7fcb76438252b55"
+    },
+    "input_bound": 1455,
+    "state": "completed",
+    "response": "responses/0198.json",
+    "request_sha256": "633e08db03a1e97d5cc12e121f1ff314f66eea2091dd6c4e4a794c074bd1d42c",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 68,
+      "output_tokens_details": {
+        "reasoning_tokens": 20
+      },
+      "total_tokens": 499
+    }
+  },
+  {
+    "job": {
+      "shot_id": "711a5425-322e-4c36-8c26-483afbbe587d",
+      "arm": "hybrid",
+      "image": "results/astra_logistic_prior_v1/images/711a5425-322e-4c36-8c26-483afbbe587d.png",
+      "image_sha256": "5eb5ab370896e8cefcc54f1512904e75009f954e3e45d690649be83b558e60d1",
+      "logistic_probability": "0.058425"
+    },
+    "input_bound": 1588,
+    "state": "completed",
+    "response": "responses/0199.json",
+    "request_sha256": "a2f52ea12edc5ed46cc2d66f2f48d28e3776711258bd12e41f1099e0904e67bc",
+    "usage": {
+      "input_tokens": 564,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 70,
+      "output_tokens_details": {
+        "reasoning_tokens": 24
+      },
+      "total_tokens": 634
+    }
+  },
+  {
+    "job": {
+      "shot_id": "711a5425-322e-4c36-8c26-483afbbe587d",
+      "arm": "astra",
+      "image": "results/astra_logistic_prior_v1/images/711a5425-322e-4c36-8c26-483afbbe587d.png",
+      "image_sha256": "5eb5ab370896e8cefcc54f1512904e75009f954e3e45d690649be83b558e60d1"
+    },
+    "input_bound": 1455,
+    "state": "completed",
+    "response": "responses/0200.json",
+    "request_sha256": "bfcc2e06f81d1c765689b757b0f24735f9cf84feca17b35d9f106ed60066ec49",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 86,
+      "output_tokens_details": {
+        "reasoning_tokens": 41
+      },
+      "total_tokens": 517
+    }
+  }
+]

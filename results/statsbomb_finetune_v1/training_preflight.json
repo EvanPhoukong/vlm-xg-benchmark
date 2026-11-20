@@ -1,0 +1,24 @@
+{
+  "model_id": "Qwen/Qwen2-VL-2B-Instruct",
+  "python_executable": "/home/evan/xG_Research/vlm-xg-benchmark/.venv/bin/python",
+  "python_version": "3.14.7",
+  "platform": "Linux",
+  "virtual_environment": true,
+  "missing_packages": [
+    "torch",
+    "transformers",
+    "peft",
+    "accelerate",
+    "bitsandbytes"
+  ],
+  "missing_pip_packages": [
+    "torch",
+    "transformers",
+    "peft",
+    "accelerate",
+    "bitsandbytes"
+  ],
+  "paid_api_calls": 0,
+  "cloud_gpu_jobs": 0,
+  "status": "blocked_missing_training_runtime"
+}

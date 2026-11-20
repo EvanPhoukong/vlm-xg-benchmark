@@ -1,0 +1,26 @@
+{
+  "status": "prepared",
+  "counts": {
+    "train": {
+      "shots": 2000,
+      "goals": 181,
+      "matches": 207
+    },
+    "validation": {
+      "shots": 400,
+      "goals": 49,
+      "matches": 43
+    },
+    "test": {
+      "shots": 500,
+      "goals": 63,
+      "matches": 48
+    }
+  },
+  "pool_counts": {
+    "train": 5023,
+    "validation": 1073,
+    "test": 1100
+  },
+  "paid_calls": 0
+}
